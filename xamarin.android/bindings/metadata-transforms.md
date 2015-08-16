@@ -68,5 +68,56 @@ Causes:
 		</method>
   </add-node>
 
+
+
+
+
+There were 3 solutions for one problem (hiding inherited member)
+
+Let me comment a bit (though there are comments in metadata.xml file):
+
+1. visibility change to protected
+
+https://gitlab.com/xamarin-support/DeskCase-194166-XamarinAndroidBindings/blob/master/OsmDroid/OsmDroid/OsmDroid/Transforms/Metadata.xml#L13
+
+You have changed visibility from public to protected. You will always want public visibility, so you can call API from c#. Actually in most cases You'll need subset of java API surfaced to c#, so You can remove a lot, even namespaces/packages. (Next item)
+
+2. removal of the API (methods, fields, classes, namespaces/packages)
+
+https://gitlab.com/xamarin-support/DeskCase-194166-XamarinAndroidBindings/blob/master/OsmDroid/OsmDroid/OsmDroid/Transforms/Metadata.xml#L192
+
+This issue was caused by:
+
+DerivedClass.Method() hides inherited abstract member BaseClass.Method()
+
+There are several reasons for this error:
+
+* DerivedClass.Method() returns different type from BaseClass.Method()
+this was the case here
+* DerivedClass.Method() visibility differs from visibility of BaseClass.Method()
+this was the case here
+
+
+This could be solved with attribute changing (managedReturn and/or visibility), but due to the fast that this was class in "internal" package/namespace, so probably not intended to be used from outside (and thus c#) - I have removed it. And not only the class, but whole package/namespace.
+
+3. fixes DerivedClass.Method() hides inherited abstract member BaseClass.Method()
+
+number of errors = 4
+
+changing both visibility of the base class and return type
+
+https://gitlab.com/xamarin-support/DeskCase-194166-XamarinAndroidBindings/blob/master/OsmDroid/OsmDroid/OsmDroid/Transforms/Metadata.xml#L209
+
+changing only return type (because visibility of the base class was changed previously)
+
+https://gitlab.com/xamarin-support/DeskCase-194166-XamarinAndroidBindings/blob/master/OsmDroid/OsmDroid/OsmDroid/Transforms/Metadata.xml#L237
+
+https://gitlab.com/xamarin-support/DeskCase-194166-XamarinAndroidBindings/blob/master/OsmDroid/OsmDroid/OsmDroid/Transforms/Metadata.xml#L256
+
+again both visibility and return type
+
+https://gitlab.com/xamarin-support/DeskCase-194166-XamarinAndroidBindings/blob/master/OsmDroid/OsmDroid/OsmDroid/Transforms/Metadata.xml#L277
+
+basically this is it.
   
   
