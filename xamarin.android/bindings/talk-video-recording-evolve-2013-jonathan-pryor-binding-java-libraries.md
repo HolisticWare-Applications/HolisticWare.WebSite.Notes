@@ -362,3 +362,69 @@ c# code:
 	</attr>
 *	java Generics
 	*	interesting Quantum State - exist and do not exist!!
+
+
+
+## Tips and Tricks
+
+1.	name="return" vs name="managedReturn"
+	1.	managedReturn should be used in most cases
+	2.	return should be used almost never
+		will remove compile errors
+		JNI method signature will be changed = cannot invoke method during runtime
+
+## Binding to java code
+
+*	code in source *.java
+	*	BuildAction=
+	*	create object with Java.Lang.Class.ForName ("mono.samples.jnitest.MyActivity")
+
+https://developer.xamarin.com/samples/monodroid/JniDemo/		
+https://github.com/xamarin/monodroid-samples/tree/master/JniDemo
+
+
+https://github.com/xamarin/monodroid-samples/blob/master/JniDemo/Activity1.cs
+
+cs code:
+	
+		StartActivity (new Intent (this, Java.Lang.Class.ForName ("mono.samples.jnitest.MyActivity")));
+
+java code:
+
+		public class MyActivity extends Activity implements OnClickListener {
+			
+			Button helloButton;
+			TextView text;
+			int count = 0;
+			@Override
+			public void onCreate(Bundle savedInstanceState) {
+				super.onCreate(savedInstanceState);
+				setContentView(R.layout.helloworld);
+				helloButton = (Button)findViewById(R.id.helloButton);
+				helloButton.setOnClickListener(this);
+		
+				text = (TextView)findViewById(R.id.helloText);
+		
+			}
+		
+			@Override
+			public void onClick(View v)
+			{
+				count ++;
+				text.setText("You've said hello " + count + " times");
+			}
+		}
+
+
+*.java build action
+
+    <AndroidJavaSource Include="MyActivity.java" />
+
+
+
+
+## Native shared c/c++
+
+http://developer.xamarin.com/guides/android/advanced_topics/using_native_libraries/
+https://developer.xamarin.com/samples/monodroid/SanAngeles_NDK/
+ 	
