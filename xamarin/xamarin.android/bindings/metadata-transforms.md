@@ -1,7 +1,14 @@
 # Xamarin.Android Binding Metadata Transforms
 
 
+Brendan Zagaeski
+
+https://gist.github.com/brendanzagaeski/9607158
+
 ## Change XML attributes in API.xml with <attr></attr>
+
+
+
 
 ###	Error CS0533: DerivedClass hides inherited abstract member BaseClass
 
