@@ -1,10 +1,13 @@
 # Errors
 
-xamarin.android bindings runtime Java.Lang.ClassNotFoundException
+## runtime Java.Lang.ClassNotFoundException
+
+xamarin.android bindings 
 
 	UNHANDLED EXCEPTION: Java.Lang.NoClassDefFoundError: 
 	Exception of type 'Java.Lang.NoClassDefFoundError' was thrown.
 
+### Input Jar
 
 jar was accidentaly bound as Input jar.
 
@@ -38,3 +41,22 @@ When that's the case, you want to run dexdump, not javap. See:
 
 http://forums.xamarin.com/discussion/comment/3874/#Comment_3874
 http://forums.xamarin.com/discussion/comment/2923/#Comment_2923
+
+
+### Xamarin.Android assembly/library referencing Xamarin.Android Binding assembly/library
+
+This is common case if user wants to extend/improve binding API with (normalization,
+.netification) and splits the whole SDK in 2 libraries:
+
+1.  binding library
+2.  extended API library that references binding library (1.)
+
+The error:
+
+	UNHANDLED EXCEPTION: Java.Lang.NoClassDefFoundError: 
+	Exception of type 'Java.Lang.NoClassDefFoundError' was thrown.
+
+Error can happen if bindings assemb
+
+NOTE:
+
