@@ -33,3 +33,15 @@ Lazy implementation:
 
 http://stackoverflow.com/questions/10480542/why-shouldnt-i-implement-iobservablet
 http://programmers.stackexchange.com/questions/246684/was-nets-iobservert-intended-for-subscribing-to-multiple-iobservables
+
+
+
+## Books
+
+http://www.amazon.com/Introduction-to-Rx-ebook/dp/B008GM3YPM/
+http://www.amazon.com/Programming-Reactive-Extensions-Jesse-Liberty/dp/1430237473/
+https://www.manning.com/books/reactive-extensions-in-action
+Reactive Extensions in Action - Permanent 39% discount for the Rx community 
+with the code "dresherdoc"
+
+https://github.com/tamirdresher/RxInAction
