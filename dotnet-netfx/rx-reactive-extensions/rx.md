@@ -34,6 +34,8 @@ Lazy implementation:
 http://stackoverflow.com/questions/10480542/why-shouldnt-i-implement-iobservablet
 http://programmers.stackexchange.com/questions/246684/was-nets-iobservert-intended-for-subscribing-to-multiple-iobservables
 
+https://blogs.endjin.com/2014/04/event-stream-manipulation-using-rx-part-1/
+
 
 
 ## Books
