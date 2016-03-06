@@ -28,10 +28,21 @@ http://www1.digitalgrammars.com/ipl-book/
 
 https://msdn.microsoft.com/en-us/library/ttd53fhh.aspx
 
-### C#
+### ANTLR
+
+http://www.antlr3.org/grammar/list.html
+
+### Irony
+
+https://github.com/Alxandr/Irony
+
+### Languagues
+
+#### C#
 
 https://msdn.microsoft.com/en-us/library/aa664812(v=vs.71).aspx
 http://slebok.github.io/zoo/index.html#csharp
+http://www.cs.vu.nl/grammarware/browsable/CSharp/grammar.html
 
 c# 5 language specs
 
@@ -41,11 +52,19 @@ exactly the same document which is shipped with Visual Studio.
 
 %PROGRAMFILES(x86)%\Microsoft Visual Studio 12.0\VC#\Specifications\1033
 
-### Objective-C
+##### Lexical Structure
+
+https://msdn.microsoft.com/en-us/library/aa664657(v=vs.71).aspx
+
+
+#### Objective-C
 
 http://slebok.github.io/zoo/index.html#objective-c
+https://github.com/iamdc/Objective-C-Grammar/blob/master/ObjC.Grm
+https://kornel.ski/objective-c-grammar
+http://objc.toodarkpark.net/grammar.html
 
-### Java
+#### Java
 
 http://slebok.github.io/zoo/index.html#java
 http://cs.fit.edu/~ryan/cse4251/mini_java_grammar.html
@@ -60,4 +79,21 @@ https://docs.oracle.com/javase/specs/jls/se7/html/jls-3.html
 ### C#
 
 https://msdn.microsoft.com/en-us/library/aa664812(v=vs.71).aspx
+http://antlrcsharp.codeplex.com/
 
+
+## Samples to implement 
+
+http://reflector.webtropy.com/default.aspx/Dotnetfx_Vista_SP2/Dotnetfx_Vista_SP2/8@0@50727@4016/DEVDIV/depot/DevDiv/releases/Orcas/QFE/ndp/fx/src/DataEntity/System/Data/Common/EntitySql/CqlLexerHelpers@cs/2/CqlLexerHelpers@cs
+
+
+### URL
+
+https://github.com/yaojingguo/antlr-url-grammar/blob/master/src/java/org/jingguo/url/URL.g
+
+### CSV
+
+
+### XPath
+
+http://blog.jwbroek.com/2010/07/antlr-grammar-for-parsing-xpath-10.html
