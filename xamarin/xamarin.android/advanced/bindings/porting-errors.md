@@ -1,95 +1,136 @@
-# Xamarin.Android Binding aar files
+# Porting Errors
 
 
 
-To bind to an .aar, the build action must be LibraryProjectZip.
+## Java.Lang.IllegalArgumentException: Unknown color
 
-http://docs.xamarin.com/releases/android/xamarin.android_4/xamarin.android_4.7/#Xamarin.Android_4.7.10.
+### Problem
 
 
-I have an existing Android Java application that depends on an .aar. I want to "wrap" this application using Xamarin. So I transformed this application into an .aar, created an "Android Java Bindings Library" project into Xamarin, and added the "application .aar" and the .aar I already had to the Jars folder (with LibraryProjectZip as build action). 
-Then I created an "Android Application" project, and added a reference to the first project (the binding one).
+	System.NotSupportedException: 
+	Could not activate JNI Handle  
+		(key_handle ) 
+	of Java type 
+	as managed type 
+		'OpenTok.Sample.UI.MeterView'. ---> Java.Lang.IllegalArgumentException: Unknown color
 
-I thought everything was ok, but when I tried to compile I had a lot of errors everywhere... (by the way, I posted on stackoverflow about this issue: http://stackoverflow.com/questions/28296658/xamarin-java-binding-library-compiler-error )
+	System.NotSupportedException: 
+	Could not activate JNI Handle  
+		(key_handle ) 
+	of Java type 
+		'md510a7665dcc6ee300d41019860b985460/MeterView' 
+	as managed type 
+		'OpenTok.Sample.UI.MeterView'. ---> Java.Lang.IllegalArgumentException: Unknown color
 
-So I tried an easier option. I created an android application with a simple activity (extending ActionBarActivity), compiled the project as an .aar and added this .aar to the Jars folder (I also removed the 2 others .aar from my first experiment).
 
-Now the compilation of the binding project works, but the xamarin android application project does not compile when I use any symbol of the library.
-I get errors like theses ones :
-
-"TestActivity.cs(8,8): Error CS0246: The type or namespace name `Test' could not be found. Are you missing an assembly reference? (CS0246)"
-
-Obviously if I create a "Test" class in the Additions folder, it will be found, but it won't be merged with the .aar content. It is like if the binding project was not creating the C# classes for the classes of the .aar library. Do I have to write something in the metadata.xml to export symbols, like for the iOS binding projects ?
-
-I tried to compare my projects with a random .aar binding project found on github, and I don't see what differs.
-
-Thanks for your quick help !
-
-PS: I disabled proguard on the build, so I don't think that it is related to the code obfuscation.
- Flag 
-JulienCurro
-JulienCurro
-Julien Curro
-February 5 edited February 5
-I don't know what happened, but this error is gone.. the api.xml generated was not listing the Test class, but it was in the .jar, so I don't know why it finally worked.
-
-Anyway, I have now another error. Since I have two .aar files, I have two values.xml files in each res/values-*/ folders. Xamarin does not seem to use the values.xml files of the two .arr libraries, it only takes one, so I get a lot of "No resource identifier found ..." errors. Should I rename the values.xml file in one of the .aar ?
- 
-JulienCurro
-JulienCurro
-Julien Curro
-February 6
-I solved the problem by creating one binding project for each .aar file..
- 
-trying to use this CropImage project's aar in my Xamarin Android bindings project (to be consumed by a normal Xamarin Android project. I apologize if it's a simple fix, this is my first attempt at a binding project
-
-There were originally two issues, the first was repaired by marking the class partial (thanks to the useful error message), but I still can't build because of the following error:
-
-Duplicate 'global::Android.Runtime.Register' attribute \obj\Debug\generated\src\Com.Android.Camera.Gallery.Image.cs
-
-It appears that marking the class partial causes the error because it's attempting to register both parts of the partial class as two separate entities? How should I go about fixing this? You can repo this easily by using the aar yourself as I've made no changes except for marking the class partial.
-
-Here's a screenshot: http://screencast.com/t/IptRwUvJd
-
-Thank you for any time and effort you spend looking into this.
-Lance
-Tagged: binding project android binding
- Flag 
-AllanPead
-AllanPead
-Allan Pead
-April 28 ANSWER ?
-Hi Lance
-
-I just built the aar in Android Studio to see what's happening. Looks like you have a name clash.
-
-Adding this to the metadata.xml should do the trick:
-
-<attr path="/api/package[@name='com.android.camera.gallery']/interface[@name='IImage']" name="managedName">IImage</attr>
-I haven't tested this fully, but it does build. You are at least one step closer to having a working binding. Will catch you on slack for further discussion on this.
-
-Allan
- 
-Lancelot
-Lancelot
-Lance McCarthy
-April 28
-Thank you Alan, this fixes the duplicate name from the interface problem\
+	System.NotSupportedException: Could not activate JNI Handle 0xb0800029 (key_handle 0x536bccb8) of Java type 'md510a7665dcc6ee300d41019860b985460/MeterView' as managed type 'OpenTok.Sample.UI.MeterView'. ---> Java.Lang.IllegalArgumentException: Unknown color
+	  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Users/builder/data/lanes/2692/e98e9627/source/mono/external/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143
+	  at Android.Runtime.JNIEnv.CallStaticIntMethod (IntPtr jclass, IntPtr jmethod, Android.Runtime.JValue* parms) [0x00064] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/src/Runtime/JNIEnv.g.cs:1501
+	  at Android.Graphics._Color.ParseColor (System.String colorString) [0x0004b] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/platforms/android-19/src/generated/Android.Graphics._Color.cs:230
+	  at Android.Graphics.Color.ParseColor (System.String colorString) [0x00000] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/src/Android.Graphics/Color.cs:221
+	  at OpenTok.Sample.UI.MeterView.Init () [0x0001c] in /Projects/HolisticWare/gitlab[]holisticware-bindings/20160116113719/OpenTok/samples/Sample.OpenTok.XamarinAndroid/csharp/ui/MeterView.cs:74
+	  at OpenTok.Sample.UI.MeterView..ctor (Android.Content.Context context, IAttributeSet attrs) [0x00046] in /Projects/HolisticWare/gitlab[]holisticware-bindings/20160116113719/OpenTok/samples/Sample.OpenTok.XamarinAndroid/csharp/ui/MeterView.cs:88
+	  at at (wrapper dynamic-method) System.Object:491b845c-30ab-4a29-a56f-79f46c19b121 (intptr,object[])
+	  at Java.Interop.TypeManager.n_Activate (IntPtr jnienv, IntPtr jclass, IntPtr typename_ptr, IntPtr signature_ptr, IntPtr jobject, IntPtr parameters_ptr) [0x000fb] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/src/Java.Interop/TypeManager.cs:163
+	  at --- End of managed exception stack trace ---
+	  at java.lang.IllegalArgumentException: Unknown color
+	  at at android.graphics.Color.parseColor(Color.java:222)
+	  at at mono.android.TypeManager.n_activate(Native Method)
+	  at at mono.android.TypeManager.Activate(TypeManager.java:7)
+	  at at md510a7665dcc6ee300d41019860b985460.MeterView.<init>(MeterView.java:32)
+	  at at java.lang.reflect.Constructor.constructNative(Native Method)
+	  at at java.lang.reflect.Constructor.newInstance(Constructor.java:417)
+	  at at android.view.LayoutInflater.createView(LayoutInflater.java:587)
+	  at at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:687)
+	  at at android.view.LayoutInflater.rInflate(LayoutInflater.java:746)
+	  at at android.view.LayoutInflater.rInflate(LayoutInflater.java:749)
+	  at at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+	  at at android.view.LayoutInflater.inflate(LayoutInflater.java:396)
+	  at at android.view.LayoutInflater.inflate(LayoutInflater.java:352)
+	  at at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:256)
+	  at at android.app.Activity.setContentView(Activity.java:1867)
+	  at at md559967d5d0134fae31dc9c7b22f952026.VoiceOnlyActivity.n_onCreate(Native Method)
+	  at at md559967d5d0134fae31dc9c7b22f952026.VoiceOnlyActivity.onCreate(VoiceOnlyActivity.java:43)
+	  at at android.app.Activity.performCreate(Activity.java:5008)
+	  at at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+	  at at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2023)
+	  at at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2084)
+	  at at android.app.ActivityThread.access$600(ActivityThread.java:130)
+	  at at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1195)
+	  at at android.os.Handler.dispatchMessage(Handler.java:99)
+	  at at android.os.Looper.loop(Looper.java:137)
+	  at at android.app.ActivityThread.main(ActivityThread.java:4745)
+	  at at java.lang.reflect.Method.invokeNative(Native Method)
+	  at at java.lang.reflect.Method.invoke(Method.java:511)
+	  at at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+	  at at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+	  at at dalvik.system.NativeStart.main(Native Method)
+	  --- End of inner exception stack trace ---
+	  at Java.Interop.TypeManager.n_Activate (IntPtr jnienv, IntPtr jclass, IntPtr typename_ptr, IntPtr signature_ptr, IntPtr jobject, IntPtr parameters_ptr) [0x00180] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/src/Java.Interop/TypeManager.cs:170
+	  at at (wrapper dynamic-method) System.Object:c46e1177-d1a1-4917-b4da-936c9bd8960b (intptr,intptr,intptr,intptr,intptr,intptr)
 
 
 
 
-I'm currently working on creating a binding for an SDK that is in the .aar format. I have successfully wrapped the library for Xamarin and began using the binding in a sample project where I noticed a few issues. I noticed that when I tried to launch activities that were included in the SDK I would receive a "Android.Content.ActivityNotFoundException".
 
-I got around this issue by declaring the activity in my sample app's manifest, but I feel like doing this isn't the correct way since they should already be declared by the SDK. Also, I had to declare services, permissions, etc.. that are included in the SDKs manifest in my sample app's manifest. Essentially doing a manual merge between the two.
 
-So, my question is there anyway to have the manifest associated with the SDK and the manifest associated with project consuming the binding to be merged? Or someway for the project consuming the binding to inherit the SDK's manifest properties. Or perhaps this is how the binding works and I have to declare everything in my sample app's manifest. Any feedback on this would be greatly appreciated.
 
-These are the sets I went through to create the binding/sample app:
-- Create Android Binding Library Project
-- Added SDK .aar file with build action "LibraryProjectZip"
-- Included any reference jars with build action "EmbeddedReferenceJar"
-- Compiled and fixed any binding errors in "Metadata.xml"
-- Created sample app and included binding reference
 
+
+
+## Java.Lang.IllegalStateException: AudioDevice can only be changed before initialization
+
+### Problem
+
+	Java.Lang.IllegalStateException: AudioDevice can only be changed before initialization.
+	  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /Users/builder/data/lanes/2692/e98e9627/source/mono/external/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:143
+	  at Android.Runtime.JNIEnv.CallStaticVoidMethod (IntPtr jclass, IntPtr jmethod, Android.Runtime.JValue* parms) [0x00063] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/src/Runtime/JNIEnv.g.cs:1660
+	  at OpenTok.AndroidOSP.AudioDeviceManager.set_AudioDevice (OpenTok.AndroidOSP.BaseAudioDevice value) [0x00051] in /Projects/HolisticWare/gitlab[]holisticware-bindings/20160116113719/OpenTok/source/OpenTok.Library.Bindings.XamarinAndroid/obj/Debug/generated/src/OpenTok.AndroidOSP.AudioDeviceManager.cs:77
+	  at OpenTok.Sample.AudioDeviceActivity.SessionConnect () [0x00015] in /Projects/HolisticWare/gitlab[]holisticware-bindings/20160116113719/OpenTok/samples/Sample.OpenTok.XamarinAndroid/csharp/opentoksamples/AudioDeviceActivity.cs:244
+	  at OpenTok.Sample.AudioDeviceActivity.OnCreate (Android.OS.Bundle savedInstanceState) [0x0007d] in /Projects/HolisticWare/gitlab[]holisticware-bindings/20160116113719/OpenTok/samples/Sample.OpenTok.XamarinAndroid/csharp/opentoksamples/AudioDeviceActivity.cs:74
+	  at Android.App.Activity.n_OnCreate_Landroid_os_Bundle_ (IntPtr jnienv, IntPtr native__this, IntPtr native_savedInstanceState) [0x00011] in /Users/builder/data/lanes/2692/e98e9627/source/monodroid/src/Mono.Android/platforms/android-19/src/generated/Android.App.Activity.cs:2475
+	  at at (wrapper dynamic-method) System.Object:bd52e1ef-521b-442d-83a2-2a9622ca4778 (intptr,intptr,intptr)
+	  at --- End of managed exception stack trace ---
+	  at java.lang.IllegalStateException: AudioDevice can only be changed before initialization.
+	  at at com.opentok.android.AudioDeviceManager.setAudioDevice(AudioDeviceManager.java:40)
+	  at at md559967d5d0134fae31dc9c7b22f952026.AudioDeviceActivity.n_onCreate(Native Method)
+	  at at md559967d5d0134fae31dc9c7b22f952026.AudioDeviceActivity.onCreate(AudioDeviceActivity.java:50)
+	  at at android.app.Activity.performCreate(Activity.java:6221)
+	  at at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1119)
+	  at at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2611)
+	  at at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2723)
+	  at at android.app.ActivityThread.access$900(ActivityThread.java:172)
+	  at at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1422)
+	  at at android.os.Handler.dispatchMessage(Handler.java:102)
+	  at at android.os.Looper.loop(Looper.java:145)
+	  at at android.app.ActivityThread.main(ActivityThread.java:5832)
+	  at at java.lang.reflect.Method.invoke(Native Method)
+	  at at java.lang.reflect.Method.invoke(Method.java:372)
+	  at at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1399)
+	  at at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1194)
+
+### Analysis
+
+
+	Java.Lang.IllegalStateException: AudioDevice can only be changed before initialization.
+
+
+### [Re]Solution / Workaround
+
+Permissions for audio device:
+
+Java Android
+
+        mPaintGradient.setShader(new RadialGradient(w / 2, h / 2, h / 2,
+                0xff98CE00, 0x8098CE00, TileMode.CLAMP));
+
+
+In Xamarin.Android color must be parsed and string loteral is in other format:
+
+	mPaintGradient.SetShader(new RadialGradient(w / 2, h / 2, h / 2, 
+													Color.ParseColor("#ff98CE00"), 
+													Color.ParseColor("#8098CE00"), 
+													//Color.ParseColor("0xff98CE00"), 
+													//Color.ParseColor("0x8098CE00"), 
+													Android.Graphics.Shader.TileMode.Clamp));
 
