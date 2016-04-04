@@ -1,6 +1,28 @@
 
 
+Is there a tutorial how to extend Cake? 
+Tutorial topics (if there is no such doc I’m willing to write it, but I’ll need your help):
+1. simple function to implement some functionality 
+   [DONE]
+2. refactoring function to external cake file for reusability 
+   referenced with #load or #l
+   [DONE]
+3. creating class with more functionality (methods, properties) [IN PROGRESS]
+Here I need a bit more info which base classes could be used and why. What must be implemented? ICakeContext? Constructors with ICakeContext as parameter?
+4. using classes from assembly #reference
+5. creating AddIn
+
+Over the weekend I did small sample functionality for a case we have with several StartProcess(“git clone”); and similar commands.
+Right now I have method/function Shell(string) that takes multine string of commands and executes those.
+So instead of writing bunch of StartProcess calls I just create string with simple commands (no line continuation  and multi commands or control structures ifs, fors - yet).
+Now I d like to move it to class with more functionality like MSDOS/Powershell, loading the *.sh or *.bat file
+
+
 ## Nuget v.3 problems
+
+
+
+
 
 Override default nuget 3 with v.2
 
