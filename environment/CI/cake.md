@@ -18,6 +18,54 @@ So instead of writing bunch of StartProcess calls I just create string with simp
 Now I d like to move it to class with more functionality like MSDOS/Powershell, loading the *.sh or *.bat file
 
 
+## Extending
+
+https://xamarinhq.slack.com/archives/D04BFRSJQ/p1459860701000002
+
+http://cakebuild.net/dsl/xamarin
+https://github.com/Redth/Cake.Xamarin/blob/master/Cake.Xamarin/TestCloudRunner.cs
+
+
+
+2 ways to extend Cake:
+
+*   put in a common cake file that gets included with #load #l
+    quick and easy and ugly
+*   create custom Cake AddIn (nuget package)        
+    [https://github.com/redth/cake.xamarin](https://github.com/redth/cake.xamarin)      
+    *   based on Aliases - integration concept
+    *   Functionality can be implemented  in any class, but exposed as Alias
+    
+Tool class
+
+Runners
+*   https://github.com/Redth/Cake.Xamarin/blob/master/Cake.Xamarin/TestCloudRunner.cs
+
+
+### Important Interfaces
+
+*   ICakeEnvironment
+*   IFileSystem
+*   IProcessRunner
+
+### Aliases
+
+
+
+    
+    *   attributes
+        *   CakeAliasCategory
+        *   CakeMethodAlias
+        *   
+        public methods and properties must be commented    
+    
+        [CakeAliasCategory("")]
+        public static class XamarinAliases
+        {
+        }
+        
+        
+        
 ## Nuget v.3 problems
 
 
