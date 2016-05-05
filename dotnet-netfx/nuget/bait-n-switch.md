@@ -18,3 +18,12 @@ https://blogs.msdn.microsoft.com/dsplaisted/2012/08/27/how-to-make-portable-clas
 http://www.michaelridland.com/xamarin/best-practices-using-xamarin-plugins/
 https://forums.xamarin.com/discussion/45475/xam-pcl-settings-plugin-gives-error-in-test-project
 https://github.com/jamesmontemagno/Xamarin.Plugins/blob/master/Settings/README.md#setup--usage
+
+
+
+InnerException	Count = error CS0103: The name 'InnerExceptionCount' does not exist in 
+the current context	System.Exception {System.AggregateException}
+
+"Something went wrong in the build configuration.  This is the bait assembly, which is 
+for referencing by portable libraries, and should never end up part of the app.  
+Reference the appropriate platform assembly instead."
