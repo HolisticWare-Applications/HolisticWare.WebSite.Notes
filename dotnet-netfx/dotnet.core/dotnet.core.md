@@ -3,17 +3,37 @@
 *	[https://dotnet.github.io/](https://dotnet.github.io/)
 https://www.dotnetfoundation.org/netcore
 
+https://github.com/dotnet/core
 
-*	general purpose framework
+
+https://github.com/aspnet/home
+
 *	set of components for
-	*	runtime
-		CoreCLR
-		*	small optimized runtime - basis 
+	*	runtime	and runtime services		
+		CoreCLR		
+		small optimized runtime - basis 			
+		.NET Core runtime, called CoreCLR, 
+		base library, called mscorlib
+		garbage collector
+		JIT compiler
+		base .NET data types
+		low-level classes (Int32, Int64, String...)
+		[https://github.com/dotnet/coreclr](https://github.com/dotnet/coreclr)		
 	*	library
-		CoreFX - Core Frmaework, Base Class Libraries BCL
-	*	compiler
-		Roslyn
+		CoreFX - Core Framework, Base Class Libraries BCL		
+		.NET Core foundational libraries, called CoreFX. It includes classes for collections, file systems, console, XML, async and many others.			
+		[https://github.com/dotnet/corefx](https://github.com/dotnet/corefx)		
+	*	compiler		
+		Roslyn		
+		[https://github.com/dotnet/roslyn](https://github.com/dotnet/roslyn)		
+		open-source C# and Visual Basic compilers with rich code analysis APIs.
+		compiler as a service
+	*	commandline utilities		
 		CoreCLI - Command Line Interface
+	*	applications models	(current status 2016-05)
+		*	console
+		*	ASP.net Core 1.0 (ASP.net 5 AKA vNext)		
+*	general purpose framework
 *	modular design
 *	high-performance 
 *	managed
@@ -37,13 +57,25 @@ https://www.dotnetfoundation.org/netcore
 *	basis of various app models	
 	*	ASP.NET Core 1.0 (ASP.net 5 , vNext)
 	*	console apps
-
 *	multiplatform support
 	*	Windows
 	*	MacOSX [IN PROGRESS]
 	*	Linux [IN PROGRESS]
 	*	BSD flavors [IN PROGRESS]
 *	LLVM integration
+*	components	
+
+.NET Core has two major components. It includes a small runtime that is built 
+from the same codebase as the .NET Framework CLR. The .NET Core runtime includes 
+the same GC and JIT (RyuJIT), but doesn’t include features like 
+Application Domains or Code Access Security. The runtime is delivered on NuGet, 
+via the Microsoft.CoreCLR package.
+
+.NET Core also includes the base class libraries. These libraries are largely the 
+same code as the .NET Framework class libraries, but have been factored 
+(removal of dependencies) to enable us to ship a smaller set of libraries. 
+These libraries are shipped as System.* NuGet packages on NuGet.org.
+
 
 
 ### .NET Core CLI
