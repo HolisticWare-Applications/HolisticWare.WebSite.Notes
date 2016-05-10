@@ -23,6 +23,7 @@
 			*	task automation systems	
 				*	Gulp
 				*	Grunt
+				*	Bower
 				*	tasks like
 					*	minification, 
 					*	bundling, et
