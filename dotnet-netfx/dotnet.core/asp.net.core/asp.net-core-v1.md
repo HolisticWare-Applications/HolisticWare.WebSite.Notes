@@ -51,22 +51,22 @@ remove duplication Web UI and Web APIs Smooth transition from Web Pages to MVC
 	*	faster development cycle
 	*	tool agnostic (IDE, editors)
 	
-Modern Web - Agility
+## Modern Web - Agility
 
-Faster Development Cycles
+### Faster Development Cycles
 
 	*	Fratures shipped as packages
 	*	Framework (even runtime) shipped 
 		*	as package
 		*	as part of the application
 	
-More Control
+### More Control
 
 	*	zero day security patches by Microsoft
 	*	the same code running in development and production
 	*	developer opts into new versions allowing breaking changes
 	
-Runtime performance
+### Runtime performance
 
 	*	smaller size - faster startup times
 	*	lower mamory / higher density (90% reduction)
@@ -74,7 +74,7 @@ Runtime performance
 		*	opt in features needed - only
 	*	use raw socket or framework or combination of both
 	
-Development productivity and low friction
+### Development productivity and low friction
 
 	*	edit code and refresh browser
 	*	flexibilty of dynamic environment with power of .net
@@ -87,6 +87,41 @@ Development productivity and low friction
 		*	sublime
 		*	emacs
 		*	vi 
+
+## Modern Web - Cloud
+
+*	seamless transition from on premise to cloud
+*	cloud ready
+	*	features
+		*	configuration
+		*	session
+		*	cache
+	*	power consumption		
+*	Diagnostics
+	*	Debugging and Running (Tracing/Logging) in cloud
+	*	without redeployment
+	
+## Modern Web - IoT
+
+*	size
+	*	start small
+	*	opt in - what is needed
+	*	power consumption		
+	
+
+## Modern Web - XPlat
+
+*	OS
+	*	Linux
+	*	MacOSX
+	*	Windows
+*	IDE/Editors
+	*	VS, XS, Monodevelop
+	*	Editors (atom, bracket, sublime, emacs, vi)
+	*	commandline
+*	OpenSource with Contributions
+
+
 
 	
 *	install
