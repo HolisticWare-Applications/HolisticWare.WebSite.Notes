@@ -356,3 +356,17 @@ currently supported:
 	*	to a shared runtime
 	*	to self-contained applications
 	*	single binaries	
+	
+	
+	
+	
+	
+## Compiler[s] Roslyn
+
+http://forums.dotnetfoundation.org/t/compiling-net-core-code-on-linux-os-x/302/7
+
+
+## Diverse
+
+http://blog.stablekernel.com/net-and-the-coreclr-on-osx/
+	
