@@ -39,9 +39,8 @@
 	*	MVC 	(v.6)
 	*	WebAPI 	(v.2)
 
-remove duplication Web UI and Web APIs Smooth transition from Web Pages to MVC (future) Built DI first Runs on IIS or self-hosted
-
-
+remove duplication Web UI and Web APIs Smooth transition from Web Pages to MVC 
+(future) Built DI first Runs on IIS or self-hosted
 
 
 *	key values
@@ -52,6 +51,43 @@ remove duplication Web UI and Web APIs Smooth transition from Web Pages to MVC (
 	*	faster development cycle
 	*	tool agnostic (IDE, editors)
 	
+Modern Web - Agility
+
+Faster Development Cycles
+
+	*	Fratures shipped as packages
+	*	Framework (even runtime) shipped 
+		*	as package
+		*	as part of the application
+	
+More Control
+
+	*	zero day security patches by Microsoft
+	*	the same code running in development and production
+	*	developer opts into new versions allowing breaking changes
+	
+Runtime performance
+
+	*	smaller size - faster startup times
+	*	lower mamory / higher density (90% reduction)
+	*	modular, granular
+		*	opt in features needed - only
+	*	use raw socket or framework or combination of both
+	
+Development productivity and low friction
+
+	*	edit code and refresh browser
+	*	flexibilty of dynamic environment with power of .net
+	*	IDEs
+		*	Visual Studio
+		*	Visual Studio Code
+		*	Monodevelop / Xamarin.Studio
+		*	atom
+		*	brackets
+		*	sublime
+		*	emacs
+		*	vi 
+
 	
 *	install
 	*	Mono
