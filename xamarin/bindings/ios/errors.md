@@ -1,3 +1,46 @@
+# Xamarin.iOS Bindings Errors fixing
+
+
+*   fix Interfaces 
+    sharpie usually generates w/o prefix "I"
+    remove "I"
+
+
+##
+
+  Error BI1017: 
+    btouch: 
+    Do not know how to make a signature for 
+      System.Byte* 
+    in method 
+      `get_YPlane' 
+      (BI1017) 
+
+		// @property (readonly, nonatomic) const uint8_t * yPlane;
+		[Export("yPlane")]
+		unsafe byte* YPlane { get; }
+
+
+
+## 
+
+    BTOUCH: 
+      Error BI1014: 
+      btouch: Unsupported type for Fields: 
+          TWCAspectRatio 
+
+
+		// extern const TWCAspectRatio TWCVideoAspectRatioConstraintsNone;
+		[Field("TWCVideoAspectRatioConstraintsNone", "__Internal")]
+		//mc++ TWCAspectRatio TWCVideoAspectRatioConstraintsNone { get; }
+		IntPtr TWCVideoAspectRatioConstraintsNone { get; }
+
+
+
+
+    BTOUCH: Error BI1014: btouch: Unsupported type for Fields: 
+    global::CoreMedia.CMVideoDimensions (BI1014) (Twilio.Conversations.iOS)
+
 
 
 
