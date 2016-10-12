@@ -32,7 +32,13 @@ NOTE Remove/uncomment after the bindings are finished:
 
 To be added
 
+## Analyzing jar[s]
 
-
+	JARNAME=classes.jar
+	javap \
+		-classpath $JARNAME \
+		$(jar -tf $JARNAME | grep "class$" | sed s/\.class$//) \
+		>> classes-java.txt
+	cat classes-java.txt
 
 ConvertResourceCases task has f
