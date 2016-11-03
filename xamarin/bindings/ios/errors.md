@@ -42,6 +42,23 @@
     global::CoreMedia.CMVideoDimensions (BI1014) (Twilio.Conversations.iOS)
 
 
+## 
+
+  obj/Debug/ios/SupportDelegates.g.cs(38,66): 
+  error CS0426: 
+    The nested type 
+      `Result' 
+    does not exist in the type 
+      `TwilioIPMessagingClient.TwilioIPMessagingClient'
+      
+  obj/Debug/ios/SupportDelegates.g.cs(38,103): error CS0426: The nested type `Channel' does not exist in the type `TwilioIPMessagingClient.TwilioIPMessagingClient'
+  obj/Debug/ios/SupportDelegates.g.cs(39,59): error CS0426: The nested type `Result' does not exist in the type `TwilioIPMessagingClient.TwilioIPMessagingClient'
+  obj/Debug/ios/SupportDelegates.g.cs(40,67): error CS0426: The nested type `Result' does not exist in the type `TwilioIPMessagingClient.TwilioIPMessagingClient'
+  obj/Debug/ios/SupportDelegates.g.cs(40,104): error CS0426: The nested type `Message' does not exist in the type `TwilioIPMessagingClient.TwilioIPMessagingClient'
+
+
+
+## -------------
 
 
 Objective-C exception thrown.  
@@ -58,7 +75,8 @@ view controller may have the wrong class in your xib.
 
 
 
-2015-12-22 13:29:12.449 Sample.PixoMeter.XamarinIOS[5263:148621] Could not register the assembly 'Sample.PixoMeter.XamarinIOS': ObjCRuntime.RuntimeException: The registrar cannot marshal the parameter type 'System.Object' of the parameter 'sender' in the method 'Sample.PixoMeter.XamarinIOS.CustomMeterReadingViewController.TorchAction(System.Object)'
+2015-12-22 13:29:12.449 Sample.PixoMeter.XamarinIOS[5263:148621] Could not register the assembly 'Sample.PixoMeter.XamarinIOS': 
+ObjCRuntime.RuntimeException: The registrar cannot marshal the parameter type 'System.Object' of the parameter 'sender' in the method 'Sample.PixoMeter.XamarinIOS.CustomMeterReadingViewController.TorchAction(System.Object)'
   at Registrar.Registrar.ComputeSignature (System.Type DeclaringType, System.Reflection.MethodBase Method, Registrar.ObjCMember member, Boolean isCategoryInstance) [0x0015a] in /Users/builder/data/lanes/2689/78c6cd3d/source/maccore/src/ObjCRuntime/Registrar.cs:1816 
   at Registrar.Registrar+ObjCMethod.ComputeSignature () [0x00000] in /Users/builder/data/lanes/2689/78c6cd3d/source/maccore/src/ObjCRuntime/Registrar.cs:577 
   at Registrar.Registrar+ObjCMethod.get_Signature () [0x0000b] in /Users/builder/data/lanes/2689/78c6cd3d/source/maccore/src/ObjCRuntime/Registrar.cs:550 

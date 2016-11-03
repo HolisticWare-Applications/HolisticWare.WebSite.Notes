@@ -24,5 +24,5 @@
 		*	central storage in cloud 
 			*	data exposed through services
 				*	REST
-					*	HTTP + JSON
+					*	HTTP + JSON (XML, text, binary Bond, Protobufs, MsgPack)
 
