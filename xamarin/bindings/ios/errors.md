@@ -21,6 +21,17 @@
 		unsafe byte* YPlane { get; }
 
 
+## 
+
+  ApiDefinitions.cs(89,89): 
+  Error CS0308: 
+    The non-generic type 
+      `Foundation.NSObject' 
+    cannot be used with the type arguments
+
+
+https://forums.xamarin.com/discussion/34001/how-to-bind-a-method-parameter-to-be-of-type-nsobject-and-conforms-to-a-protocol
+
 
 ## 
 
