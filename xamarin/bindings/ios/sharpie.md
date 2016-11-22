@@ -21,21 +21,43 @@ So this was basically enough:
 
     sharpie \
         bind \
+			--verbose \
             Headers/TwilioIPMessagingClient.h \
             -scope ./ \
-            -o ../../../Xamarin.iOS.Sharpie/TwilioIPMessagingClient/ \
+            --output ../../../Xamarin.iOS.Sharpie/TwilioIPMessagingClient/ \
             -sdk iphoneos10.0 \
             -n TwilioIPMessagingClient \
             -c \
-            -I../../../Pods/TwilioCommon/ \
-            -F../../../Pods/TwilioCommon/ \
+				-I../../../Pods/TwilioCommon/ \
+				-F../../../Pods/TwilioCommon/ \
 			
 			
     sharpie \
         bind \
-            ./twilio-video-ios/TwilioVideo.framework/Headers/TwilioVideo.h  \
-            -scope ./twilio-video-ios/ \
-            -o ./Xamarin.iOS.Sharpie/ \
+			--verbose \
+            --output ./Xamarin.iOS.Sharpie/ \
+            -n Twilio.Voice \
+            -framework ./twilio-voice-ios/TwilioVoiceClient.framework \
+
+
+
+				
+            -sdk iphoneos10.1 \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/TwilioVoiceClient.h  \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/VoiceClient.h  \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/TVOIncomingCall.h  \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/.h  \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/.h  \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/.h  \
+            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/.h  \
+			
+			
+    sharpie \
+        bind \
+			--verbose \
+            ./twilio-video-ios/TwilioVideo.framework/Headers/*.h  \
+            -scope ./twilio-video-ios/TwilioVideo.framework/ \
+            --output ./Xamarin.iOS.Sharpie/ \
             -sdk iphoneos10.1 \
             -n Twilio.Video \
 			-c \
@@ -43,14 +65,4 @@ So this was basically enough:
 				-F./twilio-video-ios/ \
 			
 			
-    sharpie \
-        bind \
-            ./twilio-voice-ios/TwilioVoiceClient.framework/Headers/TwilioVoiceClient.h  \
-            -scope ./twilio-voice-ios/ \
-            -o ./Xamarin.iOS.Sharpie/ \
-            -sdk iphoneos10.1 \
-            -n Twilio.Voice \
-			-c \
-				-I./twilio-voice-ios/ \
-				-F./twilio-voice-ios/ \
 			
