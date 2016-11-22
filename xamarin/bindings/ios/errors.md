@@ -30,10 +30,108 @@
     cannot be used with the type arguments
 
 
-https://forums.xamarin.com/discussion/34001/how-to-bind-a-method-parameter-to-be-of-type-nsobject-and-conforms-to-a-protocol
+	https://forums.xamarin.com/discussion/34001/how-to-bind-a-method-parameter-to-be-of-type-nsobject-and-conforms-to-a-protocol
+
+
+## [Static] Attribute
+
+### The attribute `StaticAttribute' cannot be applied multiple times
+
+#### Problem
+
+	Error CS0579: 
+	The attribute `StaticAttribute' cannot be applied multiple times
+
+#### Analysis
+	
+	[Static]
+	//mc++ [Verify (ConstantsInterfaceAssociation)]
+	partial interface Constants
+	{
+		//....
+	}
+	//mc++ [Static]
+	//mc++ [Verify (ConstantsInterfaceAssociation)]
+	partial interface Constants
+	{
+		//....
+	}
+	
+#### [Re]Solution[s]/Workaround[s]	
+
+Comment all but one StaticAttribute
+
+
+### Cannot Declare Instance members in a static class
+
+#### Problem
+
+	/obj/Debug/ios/TwilioVideo/TVIConnectOptions_CallKit.g.cs(25,25): 
+	Error CS0708: 
+		`Twilio.Video.TVIConnectOptions_CallKit.Uuid': 
+	cannot declare instance members in a static class
+	
+#### Analysis
+
+	// @interface CallKitIntegration (TVOOutgoingCall)
+	[Category]
+	[BaseType (typeof(TVOOutgoingCall))]
+	interface TVOOutgoingCall_CallKitIntegration
+	{
+		[Static] //mc++
+		// @property (nonatomic, strong) NSUUID * _Nonnull uuid;
+		[Export ("uuid", ArgumentSemantic.Strong)]
+		NSUuid Uuid { get; set; }
+	}
+
+#### [Re]Solution[s]/Workaround[s]	
+
+
+	// @interface CallKitIntegration (TVOOutgoingCall)
+	[Category]
+	[BaseType (typeof(TVOOutgoingCall))]
+	interface TVOOutgoingCall_CallKitIntegration
+	{
+		// @property (nonatomic, strong) NSUUID * _Nonnull uuid;
+		[Export ("uuid", ArgumentSemantic.Strong)]
+		NSUuid Uuid { get; set; }
+	}
+
 
 
 ## 
+
+	/obj/Debug/ios/TwilioVideo/TVIConnectOptions_CallKit.g.cs(25,25): 
+	Error CS0708: 
+		`Twilio.Video.TVIConnectOptions_CallKit.Uuid': 
+	cannot declare instance members in a static class
+	
+
+
+
+
+
+## btouch unbsupported types
+
+### byte[]
+
+	Error BI1014: 
+	btouch: 
+	Unsupported type for Fields: global::System.Byte[]
+
+#### Analysis
+	
+	// extern const unsigned char [] TwilioVoiceClientVersionString;
+	[Field ("TwilioVoiceClientVersionString", "__Internal")]
+	byte[] TwilioVoiceClientVersionString { get; }
+
+#### [Re]Solution[s]/Workaround[s]
+
+	// extern const unsigned char [] TwilioVoiceClientVersionString;
+	[Field ("TwilioVoiceClientVersionString", "__Internal")]
+	/*mc++ byte[]*/ IntPtr TwilioVoiceClientVersionString { get; }
+	
+### Custom Structs
 
     BTOUCH: 
       Error BI1014: 
@@ -53,6 +151,8 @@ https://forums.xamarin.com/discussion/34001/how-to-bind-a-method-parameter-to-be
     global::CoreMedia.CMVideoDimensions (BI1014) (Twilio.Conversations.iOS)
 
 
+	
+	
 ## 
 
   obj/Debug/ios/SupportDelegates.g.cs(38,66): 
