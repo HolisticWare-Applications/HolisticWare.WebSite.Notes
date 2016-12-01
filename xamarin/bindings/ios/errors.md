@@ -5,6 +5,9 @@
     sharpie usually generates w/o prefix "I"
     remove "I"
 
+## Native Linking Failed - Missing Sybmol
+
+Native linking failed - 1st [Re]Solution/Workaround step should be to disable linking
 
 ##
 
