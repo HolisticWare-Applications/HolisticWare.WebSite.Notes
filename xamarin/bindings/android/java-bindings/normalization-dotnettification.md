@@ -4,7 +4,7 @@
 ## Namespaces (packages)
 
 	<attr
-		path="path=/api/package[@name='com.samsung.android.sdk.pen']"
+		path="/api/package[@name='com.samsung.android.sdk.pen']"
 		name="managedName"
 		>
 		Samsung.Pen
@@ -13,7 +13,7 @@
 	### Template
 
 	<attr
-		path="path=/api/package[@name='']"
+		path="/api/package[@name='']"
 		name="managedName"
 		>
 		

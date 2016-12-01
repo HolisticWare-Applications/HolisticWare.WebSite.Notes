@@ -42,3 +42,30 @@ To be added
 	cat classes-java.txt
 
 ConvertResourceCases task has f
+
+
+
+
+## IComparable
+
+		int Java.Lang.IComparable.CompareTo(Java.Lang.Object obj)
+		{
+		return CompareTo ((Com.Urbanairship.Richpush.RichPushMessage) obj);
+		}
+
+
+	  <add-node path="/api/package/class[implements[@name='java.lang.Comparable']]">
+		<method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+		  <parameter name="o" type="java.lang.Object" />
+		</method>
+	  </add-node>
+	  <add-node path="/api/package/class[implements[@name='java.util.Comparator']]">
+		<method name="compare" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+		  <parameter name="o1" type="java.lang.Object" />
+		  <parameter name="o2" type="java.lang.Object" />
+		</method>
+	  </add-node>
+
+http://lists.ximian.com/pipermail/monodroid/2013-February/013401.html
+
+  
