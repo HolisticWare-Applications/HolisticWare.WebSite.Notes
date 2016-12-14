@@ -16,7 +16,3 @@ To be added
                 >> $JARNAME.class.java.txt
             cat $JARNAME.class.java.txt
         ' {} \;
-
-ConvertResourceCases task has f
-
-
