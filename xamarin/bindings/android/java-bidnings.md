@@ -1,13 +1,26 @@
+# Xamarin Android Java Bindings
 
-Realm Database Bindings
-
-obj/Debug/android/src/md5bc18b7ce76be931d91ecb59864db88e9/Person.java(22,22): 
-Error:  error: The fields of the model must be private
-	java.util.ArrayList refList;
+1.	bindings steps
+	[./bindings-steps.md](./bindings-steps.md)
+	1.	project setup
+2.	tools
+3.	references-links
+	[./references.md](./references.md)
 
 	
-	
-	http://stackoverflow.com/questions/12173568/how-to-call-mono-for-android-class-from-within-android-application
-	http://stackoverflow.com/questions/13323226/extending-shadowbuilder-has-compile-error-in-monodroid
-	http://stackoverflow.com/questions/9376142/mono-for-android-webview-input-field-filechooser-doesnt-work
+## Managed Callable Wrappers MCW
+
+C# code - wrapper (JNI Bridge) that enables passing thru calls from C#
+to Android java:
+
+	obj\$(Configuration)\generated\src
+
+
+## Android Callable	Wrappers
+
+Java code JNI Bridge that passes calls from Android java to C#:
+
+	obj\$(Configuration)\android
+
+
 	
