@@ -2,14 +2,15 @@
 
 Interoperability/Bindings
 
-Several types:
+Several types of bindings:
 
 *   c/c++ - PInvoke
 *   java - JNI
-    *   Xamarin.Android bindings
+    *   Xamarin.Android bindings 	
+		[./android/]
 *   objective-c
     *   Xamarin.iOS bindings
     
-
+	
 ## c/c++ Interoperability/Bidnings
 
