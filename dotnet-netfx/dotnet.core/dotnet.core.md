@@ -3,6 +3,8 @@
 *	[https://dotnet.github.io/](https://dotnet.github.io/)
 https://www.dotnetfoundation.org/netcore
 
+https://gist.github.com/davidfowl/8939f305567e1755412d6dc0b8baf1b7
+
 https://github.com/dotnet/core
 
 
