@@ -7,9 +7,10 @@ Several types of bindings:
 *   c/c++ - PInvoke
 *   java - JNI
     *   Xamarin.Android bindings 	
-		[./android/]
+		[./android/](./android/)
 *   objective-c
     *   Xamarin.iOS bindings
+		[./ios/](./ios/)
     
 
 ## Links/References
