@@ -43,9 +43,22 @@ To be added
 
 ConvertResourceCases task has f
 
+## 	error CS0535: Type <T> does does not implement interface member `Android.Runtime.IJavaObject.Handle.get'
 
 
+	error CS0535: 
+		`Twilio.Common.AccessManagerListener' 
+	does not implement interface member 
+		`Android.Runtime.IJavaObject.Handle.get'
+	
+	error CS0535: 
+		`Twilio.Common.AccessManagerListener' 
+	does not implement interface member 
+		`System.IDisposable.Dispose()'
 
+The type T must inherit from Java.Lang.Object
+		
+		
 ## IComparable
 
 		int Java.Lang.IComparable.CompareTo(Java.Lang.Object obj)
