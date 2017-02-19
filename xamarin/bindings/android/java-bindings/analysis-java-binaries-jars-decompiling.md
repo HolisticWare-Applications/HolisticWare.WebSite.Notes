@@ -1,5 +1,7 @@
 # Analysis Java Binaries (jars) - Decompiling
 
+analysis-java-binaries-jars-decompiling.md
+
 https://gist.github.com/JonDouglas/dda6d8ace7d071b0e8cb
 
 To be added
