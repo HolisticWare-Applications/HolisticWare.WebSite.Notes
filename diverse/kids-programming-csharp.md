@@ -3,7 +3,6 @@
 kids-programming-csharp.md
 
 
-
 ## Links 
 
 *	Videos	
@@ -25,6 +24,26 @@ kids-programming-csharp.md
 
 
 #### Namespaces not allowed
+
+Code:
+
+	using System;
+	using System.Collections.Generic;
+	using System.Text;
+
+	namespace NameSpaceTest
+	{
+		class Program
+		{
+			static void Main(string[] args)
+			{
+			}
+		}
+	}
+
+	(5,1): error CS7021: Cannot declare namespace in script code
+	(9,21): warning CS7022: The entry point of the program is global script code; ignoring 'Program.Main(string[])' entry point.
+
 
 #### Main entry point allready defined by script
 	
