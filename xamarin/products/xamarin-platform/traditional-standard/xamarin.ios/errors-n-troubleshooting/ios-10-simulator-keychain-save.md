@@ -19,22 +19,17 @@ Call stack:
       at Xamarin.Auth.Sample.XamarinIOS.TestProvidersController.Auth_Completed (System.Object sender, Xamarin.Auth.AuthenticatorCompletedEventArgs ee) [0x0003f] in /Projects/xa-src/samples/Traditional.Standard/references01projects/Providers/Xamarin.Auth.Sample.XamarinIOS/TestProvidersController.cs:175 
 
 
-  SecRecord Generic
-
-  SecKeyChain.Add
-  Security.SecStatusCode    -34018	
-
-
-  SecRecord Generic -34018	
-
-## Problem
-
-
 ## Analysis
 
-Search
+### Search
 
-    keychain 34018 ios 10
+*   keychain 34018 ios 10
+*	SecRecord Generic
+*	SecKeyChain.Add
+*	Security.SecStatusCode    -34018	
+*	SecRecord Generic -34018
+
+### Results
 
 This is bug in iOS 10 Simulators:
 
@@ -55,21 +50,23 @@ This is bug in iOS 10 Simulators:
 
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
 
+## Sideeffects
 
 *   issues with not installing on the device with Entitlements.plist.
     *   added 'Enable Keychain' in the Entitlements.plist.      
         By default, it adds app name 'com.company.appname' to keychain groups aswell.   
         It enables saving to the keychain and allowing other apps to access the data    
-        via a key.
+        via a key.	
         But that requires more permissions in the 'App Id' section on Apple's       
-        certificate side.
-        So removing that fixed issue.
+        certificate side.		
+        So removing that fixed issue.		
 
-References:
+## References:
 
 *   Code 	
 	https://github.com/moljac/Xamarin.Auth.Samples.NugetReferences/blob/master/Xamarin.Forms/Evolve16Labs/iOS/Entitlements.plist
-*   
+*   github issues
+	
 
 
 
