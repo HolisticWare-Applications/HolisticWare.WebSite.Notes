@@ -1,0 +1,19 @@
+# .net Interoperability 
+
+dotnet-interoperability.md
+
+*   PInovke         
+    calling c (rarely c++) from C#
+    System.IO.FileStream() ctor
+    https://github.com/mono/mono/blob/master/mcs/class/corlib/System.IO/FileStream.cs#L243      
+    in mono it calls something called MonoIO (special layer/module/class)       
+    https://github.com/mono/mono/blob/master/mcs/class/corlib/System.IO/MonoIO.cs#L314      
+    there is a bunch of abstracted method/function signatures attributed with 
+    [MethodImplAttribute]       
+
+*   embedding (mono terminology) AKA hosting (Microsoft terminology)        
+    calling C# from C/C++ (an other)
+
+
+
+http://aakinshin.net/en/blog/dotnet/stopwatch/
