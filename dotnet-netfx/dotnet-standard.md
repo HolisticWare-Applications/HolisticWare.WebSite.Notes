@@ -4,6 +4,7 @@
 *   https://docs.microsoft.com/en-us/dotnet/api/
 *   https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/
 *   https://docs.microsoft.com/en-us/dotnet/standard/portability-analyzer
+*	http://immo.landwerth.net/netstandard-versions/
 *   https://channel9.msdn.com/Blogs/Seth-Juarez/A-Brief-Look-at-the-NET-Portability-Analyzer
 
 ## ApiPortAnalyser ApiPort.exe
