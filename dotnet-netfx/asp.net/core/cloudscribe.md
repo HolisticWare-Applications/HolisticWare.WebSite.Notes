@@ -124,3 +124,8 @@ Options:
 
     https://daveismyname.blog/how-to-ping-search-engines-with-curl
 
+## Events
+
+https://github.com/joeaudette/cloudscribe.SimpleContent/tree/master/src/cloudscribe.SimpleContent.Models/EventHandlers
+
+https://www.cloudscribe.com/docs/custom-event-handlers
