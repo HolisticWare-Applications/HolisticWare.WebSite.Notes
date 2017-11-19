@@ -7,9 +7,20 @@ NOTE: all secrets are stored using SecretManager
 https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?tabs=visual-studio
 
 ```
-dotnet user-secrets set Authentication:Google:AppId <app-Id>		
+	dotnet user-secrets set \
+		Authentication:Microsoft:AppId <app-Id>		
 
-dotnet user-secrets set Authentication:Google:AppSecret <app-secret>```
+	# '' for special characters like !
+	dotnet user-secrets set \
+		Authentication:Microsoft:AppSecret '<app-secret>'
+		
+	dotnet user-secrets set \
+		Authentication:Google:AppId <app-Id>		
+
+	# '' for special characters like !
+	dotnet user-secrets set \
+		Authentication:Google:AppSecret '<app-secret>'
+```
 
 *	Microsoft				
 	*	Application Registration Portal

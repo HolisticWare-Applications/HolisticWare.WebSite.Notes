@@ -37,7 +37,13 @@ From simple to more complex
 
 ## Grammars in []BNF
 
+
+http://bnfc.digitalgrammars.com/
+
+https://github.com/BNFC/bnfc/blob/master/examples/LBNF/LBNF.cf
+
 http://www.antlr3.org/grammar/list.html
+
 
 
 *   c#
@@ -73,7 +79,11 @@ http://www.antlr3.org/grammar/list.html
 
     *   http://openjdk.java.net/projects/compiler-grammar/antlrworks/Java.g
 
-    *   java *.class file grammar
+    *   http://people.cs.uchicago.edu/~mrainey/java.cf
+	
+	*	http://www.cse.chalmers.se/edu/year/2011/course/TIN321/lectures/bnfc-tutorial.html#toc1
+		
+	*	java *.class file grammar
 
         class file and jar parser (javap)
 
@@ -122,6 +132,9 @@ http://www.antlr3.org/grammar/list.html
 *   c
 
     *   https://github.com/itod/parsekit/blob/master/res/c.grammar
+	
+	*	https://github.com/BNFC/bnfc/blob/master/examples/C/C.cf
+	
 
 ## Diverse
     
