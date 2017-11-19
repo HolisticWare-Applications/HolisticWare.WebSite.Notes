@@ -2,6 +2,15 @@
 
 oauth-login-social-login-for-cloudscribe.md
 
+NOTE: all secrets are stored using SecretManager
+
+https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?tabs=visual-studio
+
+```
+dotnet user-secrets set Authentication:Google:AppId <app-Id>		
+
+dotnet user-secrets set Authentication:Google:AppSecret <app-secret>```
+
 *	Microsoft				
 	*	Application Registration Portal
 		https://apps.dev.microsoft.com/#/application/
@@ -10,6 +19,9 @@ oauth-login-social-login-for-cloudscribe.md
 			*	Web
 				*	Implicit Flow allow yes/no
 				*	`redirect_url`
+					must be:
+					https://localhost:44320/signin-microsoft
+					cannot be
 					https://localhost:44320/login-oauth2-microsoft
 				*	logout url
 					url to achieve single sign out
@@ -36,6 +48,28 @@ oauth-login-social-login-for-cloudscribe.md
 	dotnet add \
 		package Microsoft.AspNetCore.Authentication.MicrosoftAccount		
 ```
+	
+```
+	// ConfigureServices
+	
+	services
+		.AddIdentity<ApplicationUser, IdentityRole>()
+        .AddEntityFrameworkStores<ApplicationDbContext>()
+        .AddDefaultTokenProviders();
+
+	services
+		.AddAuthentication()
+		.AddMicrosoftAccount
+			(
+				microsoftOptions =>
+				{
+					microsoftOptions.ClientId = 
+						Configuration["Authentication:Microsoft:ApplicationId"];
+					microsoftOptions.ClientSecret = 
+						Configuration["Authentication:Microsoft:Password"];
+				}
+			);
+```	
 	
 For Google you need to use the Google API Console, see also the documentation here about how to set things up in google api console.
 For Facebook, you need to go the Facebook for Developers site, see also the documentation here.
