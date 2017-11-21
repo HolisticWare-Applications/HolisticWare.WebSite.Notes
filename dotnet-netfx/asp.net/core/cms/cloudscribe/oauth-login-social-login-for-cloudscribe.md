@@ -22,6 +22,19 @@ https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?tabs=visual-st
 		Authentication:Google:AppSecret '<app-secret>'
 ```
 
+To store the values in production, in Azure App Settings (From Azure Web App 
+- Application Settings):
+
+	*	Key
+
+		mySectionName:Key1
+
+	*	Value
+	
+		production value. 
+		
+## Providers		
+		
 *	Microsoft				
 	*	Application Registration Portal
 		https://apps.dev.microsoft.com/#/application/
@@ -59,7 +72,7 @@ https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?tabs=visual-st
 	dotnet add \
 		package Microsoft.AspNetCore.Authentication.MicrosoftAccount		
 ```
-	
+
 ```
 	// ConfigureServices
 	
