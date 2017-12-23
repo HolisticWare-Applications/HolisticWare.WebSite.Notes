@@ -21,8 +21,42 @@
     [./serialization/microsoft-bond.md](./serialization/microsoft-bond.md) 
     
 *   MsgPack
+    
+    [./serialization/message-pack.md](./serialization/message-pack.md)
 
 *   ProtoBuffers (Google)
 
+    [./serialization/google-protobuf.md](./serialization/google-protobuf.md)
+
+*   BSON
+
+    [./serialization/bson.md](./serialization/bson.md)
+
+*   CapNProto
+
+    [./serialization/capnproto.md](./serialization/capnproto.md)
+
+*   FlatBuffers
+
+    [./serialization/flatbuffers.md](./serialization/flatbuffers.md)
+
 *   Thrift (Apache)
 
+    [./serialization/apache-thrift.md](./serialization/apache-thrift.md)    
+
+*   Simple Binary Encoding SBE
+
+    [./serialization/simple-binary-encoding-sbe.md](./serialization/simple-binary-encoding-sbe.md)
+
+*   Jil
+
+    [./serialization/jil.md](./serialization/jil.md)
+
+*   Sigil
+
+    [./serialization/sigil.md](./serialization/sigil.md)
+
+*   MessageShark
+
+    [./serialization/message-shark.md](./serialization/message-shark.md)
+    
