@@ -14,11 +14,11 @@
 
 *   Avro (Apache)
 
-    ./serialization/apache-avro.md 
+    [./serialization/apache-avro.md](./serialization/apache-avro.md)
     
 *   Bond (Microsoft)
 
-    ./serialization/microsoft-bond.md 
+    [./serialization/microsoft-bond.md](./serialization/microsoft-bond.md) 
     
 *   MsgPack
 
