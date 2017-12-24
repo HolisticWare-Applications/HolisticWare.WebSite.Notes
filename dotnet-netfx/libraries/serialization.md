@@ -8,6 +8,11 @@
 
 *   http://theburningmonk.com/2012/08/performance-test-json-serializers-part-iii/
 
+## Benchmark Links
+
+*   [https://github.com/Oipo/SerializerComparison/blob/7e8085e5bf290ff023f77dcf5fe86d42c5cbda80/SerializerComparison/packages.config](https://github.com/Oipo/SerializerComparison/blob/7e8085e5bf290ff023f77dcf5fe86d42c5cbda80/SerializerComparison/packages.config)
+
+
 ## JSON
 
 ## Binary
