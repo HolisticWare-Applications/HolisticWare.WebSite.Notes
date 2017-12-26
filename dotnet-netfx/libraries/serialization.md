@@ -1,5 +1,19 @@
 # Serialization
 
+serialization.md
+
+*   https://www.hanselman.com/blog/ProperBenchmarkingToDiagnoseAndSolveANETSerializationBottleneck.aspx
+
+*   https://msdn.microsoft.com/en-us/library/ff650685.aspx?f=255&MSPPError=-2147217396
+
+*   https://aloiskraus.wordpress.com/2017/04/23/the-definitive-serialization-performance-guide/
+
+*   http://theburningmonk.com/benchmarks/
+
+*   https://auth0.com/blog/beating-json-performance-with-protobuf/
+
+*   https://auth0.com/blog/beating-json-performance-with-protobuf/
+
 *   https://maxondev.com/serialization-performance-comparison-c-net-formats-frameworks-xmldatacontractserializer-xmlserializer-binaryformatter-json-newtonsoft-servicestack-text/
 
 *   http://theburningmonk.com/2011/12/performance-test-binary-serializers-part-ii/
