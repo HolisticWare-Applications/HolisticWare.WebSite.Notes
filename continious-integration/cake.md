@@ -1,5 +1,17 @@
 # Cake
 
+# Cake
+
+https://hackernoon.com/bringing-cake-to-microsoft-teams-b49848981d5d
+
+https://hackernoon.com/appveyor-microsoft-teams-a4f810d354ee
+
+https://garywoodfine.com/how-to-write-a-cake-build-script-for-asp-net-core-project/
+
+## Debugging
+
+https://tpodolak.com/blog/2016/07/10/debugging-cake-scripts/
+
 
 ## Internal compiler error
 
