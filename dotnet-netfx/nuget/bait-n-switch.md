@@ -26,6 +26,8 @@ Bait-n-Switch
 
 *   https://github.com/jamesmontemagno/Xamarin.Plugins/blob/master/Settings/README.md#setup--usage
 
+*   https://nftb.saturdaymp.com/today-i-learned-bait-and-switch-for-net-pcls/
+
 
 
 InnerException	Count = error CS0103: The name 'InnerExceptionCount' does not exist in 
