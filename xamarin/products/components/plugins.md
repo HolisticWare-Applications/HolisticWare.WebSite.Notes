@@ -1,4 +1,4 @@
-# XamarinSerives AKA Plugins
+# XamarinServices AKA Plugins
 
 http://pluginscoreboard.azurewebsites.net/
 
