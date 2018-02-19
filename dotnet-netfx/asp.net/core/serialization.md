@@ -16,6 +16,9 @@ Important for:
 
             added in v.2
 
+*   list of SerializationFrameworkType
+
+    [../../../libraries/serialization.md](../../../libraries/serialization.md)
 
 In General:
 
