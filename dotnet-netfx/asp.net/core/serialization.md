@@ -19,6 +19,12 @@ Important for:
 
 In General:
 
+*	POCO -> SerializationFrameworkType -> file system -> SerializationFrameworkType -> POCO
+
+    *   read file
+
+    *   write file
+    
 *	POCO -> SerializationFrameworkType -> network -> SerializationFrameworkType -> POCO
 
     *	client to server
