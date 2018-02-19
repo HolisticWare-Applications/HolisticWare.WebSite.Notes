@@ -2,7 +2,15 @@
 
 protobuf.md
 
+
+##Protobuffers
+
+
 *   https://www.strathweb.com/2013/02/asp-net-web-api-and-protocol-buffers/
+
+*   https://www.infoworld.com/article/2982579/application-architecture/working-with-protocol-buffers-in-web-api.html
+
+*   https://damienbod.com/2014/01/11/using-protobuf-net-media-formatter-with-web-api-2/
 
 *   https://github.com/WebApiContrib/WebApiContrib.Formatting.ProtoBuf
 
