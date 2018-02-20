@@ -6,11 +6,9 @@ https://appcenter.ms/#pricing
 
 ## Features
 
-Contains
-
 *	Device Application Testing as a Service DATAAS
 
-	*	Xamarin.Test Cloud
+	*	Xamarin.Test.Cloud
 	
 	*	Appium
 
@@ -26,7 +24,19 @@ Contains
 	
 	*	HockeyApp
 	
+
 	
+## API
+
+	*	CLI
+
+		*	https://github.com/Microsoft/appcenter-cli
+		
+	*	REST
+	
+		*	http://swagger.appcenter.ms/
+		
+		
 ## Links/REferences
 
 *	https://www.visualstudio.com/app-center/
