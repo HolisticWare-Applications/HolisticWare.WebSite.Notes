@@ -25,7 +25,7 @@ scripting.md
     *   http://tirania.org/blog/archive/2010/Apr-27.html
 
     *   http://tirania.org/blog/archive/2008/Sep-08.html
-    
+
 
 ## Tips & Tricks
 
@@ -127,6 +127,16 @@ Extensions needed:
 ## csharp
 
 mono utility
+
+NOTEs:
+
+*   syntax slightly different 
+
+    TODO: options share code between REPLs
+
+*   could not include/load script from another 
+
+    TODO: 
 
 ### Usage
 
