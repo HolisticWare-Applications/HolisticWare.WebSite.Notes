@@ -16,7 +16,16 @@ scripting.md
 
     *   https://github.com/scriptcs/scriptcs
 
+3.  csharp
 
+    Installed by default with Mono
+
+    *   http://www.mono-project.com/docs/tools+libraries/tools/repl/
+
+    *   http://tirania.org/blog/archive/2010/Apr-27.html
+
+    *   http://tirania.org/blog/archive/2008/Sep-08.html
+    
 
 ## Tips & Tricks
 
@@ -73,7 +82,7 @@ ScriptCS is superset of CSI! (packages and `#r` references)
 2.  build from github and setting path + aliases
 
     https://github.com/scriptcs/scriptcs/wiki/Building-on-Mac-and-Linux
-    
+
 ### Installation for VS Code
 
 Extensions needed:
