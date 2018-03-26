@@ -2,6 +2,137 @@
 
 scripting.md
 
+2018-03-20 basically 3 options:
+
+1.  csi
+
+    Installed by default with .NET/Mono
+
+    `/Library/Frameworks/Mono.framework/Versions/Current/Commands/csi`
+
+2.  scriptcs
+
+    *   http://scriptcs.net/
+
+    *   https://github.com/scriptcs/scriptcs
+
+
+
+## Tips & Tricks
+
+*   for debugging and errors - enter interactive mode by entering command only
+
+*   start of the file (preamble) is sensitive for comments and order 
+
+    errors cause intellisense not working!
+
+
+
+## CSI - C# Interactive
+
+### Installation
+
+Installed with .NET/Mono.
+
+### Usage
+
+#### Enter interactive mode
+
+On Windows:
+
+```
+    C:\ csi.exe
+```
+
+On mac OSX:
+
+```
+    $ which csi
+    /Library/Frameworks/Mono.framework/Versions/Current/Commands/csi
+    $ csi
+```
+
+#### batch Execute csi
+
+`csi` needs `*.csx` extensions (`*.cs` will not work)
+
+```
+    $ csi ./REPL.Demo.01.scriptcs.csx 
+```
+
+## ScriptCS
+
+ScriptCS is superset of CSI! (packages and `#r` references)
+
+### Installation
+
+1.  brew
+
+    `brew install scriptcs`
+
+2.  build from github and setting path + aliases
+
+    https://github.com/scriptcs/scriptcs/wiki/Building-on-Mac-and-Linux
+    
+### Installation for VS Code
+
+Extensions needed:
+
+*   C#
+
+    C# for Visual Studio Code (powered by OmniSharp)
+
+    ms-vscode.csharp
+    
+*   scriptcsRunner
+
+    Runner for scriptcs (C# scripts). Allows for execution of entire CSX scripts or 
+    snippets of C# code.
+
+    filipw.scriptcsrunner
+
+#### Installation Steps
+
+1.  enter extensions mode
+
+    1.  Windows press F1
+
+    2.  MacOSX press Command+P
+
+2.  type
+
+    `ext install scriptcsRunner`
+
+3.  choose `install`
+
+#### batch Execute scriptcs
+
+`scriptcs` works with `*.cs` and `*.csx` extensions
+
+```
+    $ scriptcs ./REPL.Demo.01.scriptcs.csx 
+```
+
+
+
+## csharp
+
+mono utility
+
+### Usage
+
+#### Enter interactive mode
+
+```
+    $ csharp
+```
+
+#### batch Execute ScriptCS
+
+```
+    $ csharp ./REPL.Demo.01.scriptcs.csx 
+```
+
 So to run a CSX file you need a CSX runner on your machine - kinda like to run a 
 .NET Core application, you need a .NET Core installation or to run a desktop .NET 
 application, you need desktop .NET installation (plus possibly Mono).
@@ -35,94 +166,3 @@ host and what have you), being the superset of regular CSX, could be an opt in p
 
 *   https://www.strathweb.com/2015/11/running-c-scripts-and-snippets-in-visual-studio-code-with-scriptcs/
 
-
-
-
-## Tips & Tricks
-
-*   for debugging and errors - enter interactive mode by entering command only
-
-*   start of the file (preamble) is sensitive for comments and order 
-
-    errors cause intellisense not working!
-
-
-
-## CSI - C# Interactive
-
-### Usage
-
-#### Enter interactive mode
-
-On Windows:
-
-```
-    C:\ csi.exe
-```
-
-On mac OSX:
-
-```
-    $ which csi
-    /Library/Frameworks/Mono.framework/Versions/Current/Commands/csi
-    $ csi
-```
-
-#### batch Execute ScriptCS
-
-```
-    $ csi ./REPL.Demo.01.scriptcs.csx 
-```
-
-## ScriptCS
-
-ScriptCS is superset of CSI! (packages and `#r` references)
-
-### Installation
-
-Extensions needed:
-
-*   C#
-
-    C# for Visual Studio Code (powered by OmniSharp)
-
-    ms-vscode.csharp
-    
-*   scriptcsRunner
-
-    Runner for scriptcs (C# scripts). Allows for execution of entire CSX scripts or 
-    snippets of C# code.
-
-    filipw.scriptcsrunner
-
-#### Installation Steps
-
-1.  enter extensions mode
-
-    1.  Windows press F1
-
-    2.  MacOSX press Command+P
-
-2.  type
-
-    `ext install scriptcsRunner`
-
-3.  choose `install`
-
-## csharp
-
-mono utility
-
-### Usage
-
-#### Enter interactive mode
-
-```
-    $ csharp
-```
-
-#### batch Execute ScriptCS
-
-```
-    $ csharp ./REPL.Demo.01.scriptcs.csx 
-```
