@@ -2,6 +2,12 @@
 
 blazor.md
 
+## Intro
+
+*   based on Web Assembly (wasm)
+
+    *   https://caniuse.com/#feat=wasm
+    
 ## References / Links
 
 *   https://stackoverflow.com/search?q=blazor
