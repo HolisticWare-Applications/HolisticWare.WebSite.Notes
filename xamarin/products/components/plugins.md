@@ -1,6 +1,10 @@
 # XamarinServices AKA Plugins
 
-http://pluginscoreboard.azurewebsites.net/
+*   http://pluginscoreboard.azurewebsites.net/
+
+*   https://github.com/jamesmontemagno/Xamarin.Plugins
+
+## Questions
 
 1.  platforms
 
@@ -21,7 +25,19 @@ http://pluginscoreboard.azurewebsites.net/
     
     2.  Serialization
     
-    3.  OAuth
+    3.  Bluetooth
+
+        *   
+
+    3.  Compass
+
+        *   https://github.com/JarleySoft/CompassPlugin
+
+    4.  Accelerometer (Motion Sensor)
+
+        *   https://github.com/rdelrosario/xamarin-plugins/tree/master/DeviceMotion
+
+    4.  OAuth
     
     4.  Cache
     
