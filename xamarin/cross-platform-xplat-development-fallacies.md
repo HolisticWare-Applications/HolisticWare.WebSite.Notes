@@ -22,3 +22,5 @@ with common API in mind during design time!!
     *   SpotifyAudioPlayback.framework
     *   SpotifyAuthentication.framework
     *   SpotifyMetadata.framework
+
+
