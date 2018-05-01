@@ -50,102 +50,19 @@ Just to have some information about build duration:
 
 1.  changed Cake script so build works with newer Cake plugins (pinning the version)
 
-2.  `support-core-ui`
+2.  make new version bindings compile clean 
 
-    1.  Metadata.xml for `CoordinatorLayout.ViewElevationComparator`
-    
-    2.  removed code in Additions.cs
+3.  detect/investigate new APIs
 
-        1.  `SpringAnimation`
+    1.  run target diff
 
-        2.  `FlingAnimation`
+        `sh build.sh --target=diff`
 
-3.  `appcompat-v7`
+    2.  check html output: `output/AndroidSupport.api-diff.html`
 
-    1.  Metadata.xml for `MenuPopupWindow.MenuDropDownListView`
+    3.  inspecting `*.aar[s]` and `*.jar[s]` with decompilers (JD_GUI, Luyten, jadx)
 
-    2.  removed code in Additions.cs
-
-        1.  `ListViewCompat`
-
-3.  `design`
-
-    1.  Metadata.xml for `MenuPopupWindow.MenuDropDownListView`
-
-    2.  removed code in Additions.cs
-
-        1.  `CoordinatorLayout`
-
-4.  `leanback-v17`
-
-    1.  Metadata.xml for 
-    
-        1.  `GuidedActionDiffCallback` parameter names
-
-5.  `preference-v14`
-
-    1.  removed code in Additions.cs
-
-        1.  `MultiSelectListPreference`
+For detailed see [./xamarin-android-support-libraries/steps.md](./xamarin-android-support-libraries/steps.md)
 
 
-
-### investigating new APIs
-
-#### Questions
-
-1.  `androidx` 
-
-    What is? 
-    Purpose of? 
-    Need to bind?
-
-    1.  androidx.constraintlayout
-
-        1.  constraintlayout
-
-        2.  constraintlayout-solver
-
-    2.  androidx.core
-
-        1.  core-ktx
-
-    3.  androidx.databinding
-
-        1.  adapters
-
-        2.  baseLibrary
-
-        3.  compiler
-
-        4.  compilerCommon
-
-        5.  databinding-adapters
-
-        6.  databinding-common
-
-        7.  databinding-compiler
-
-        8.  databinding-compiler-common
-
-        9.  databinding-runtime
-
-        10. library
-
-2.  `com.android.databinding`
-
-    What is? 
-    Purpose of? 
-    Need to bind?
-
-    1.  adapters
-
-    2.  baseLibrary
-
-    3.  compiler
-
-    4.  compilerCommon
-
-    5.  library
-
-
+[./xamarin-android-support-libraries/questions.md](./xamarin-android-support-libraries/questions.md)
