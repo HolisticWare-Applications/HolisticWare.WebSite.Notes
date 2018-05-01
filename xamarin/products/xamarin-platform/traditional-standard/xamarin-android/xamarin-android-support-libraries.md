@@ -27,6 +27,14 @@ xamarin-android-support-libraries.md
    `sh build.sh --target=diff`
 
 
+### Build times
+
+Just to have some information about build duration:
+
+*   clean repo (freshly cloned) - 1 hr 20+ minutes
+
+*   built repo - 40+ minutes
+
 ## References / Links
 
 *   https://maven.google.com
@@ -68,11 +76,19 @@ xamarin-android-support-libraries.md
 
         1.  `CoordinatorLayout`
 
-3.  `leanback-v17`
+4.  `leanback-v17`
 
     1.  Metadata.xml for 
     
         1.  `GuidedActionDiffCallback` parameter names
+
+5.  `preference-v14`
+
+    1.  removed code in Additions.cs
+
+        1.  `MultiSelectListPreference`
+
+
 
 ### investigating new APIs
 
