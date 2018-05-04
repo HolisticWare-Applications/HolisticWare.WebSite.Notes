@@ -333,17 +333,40 @@ public interface IWatchNextType : Android.Runtime.IJavaObject, Java.Lang.Annotat
 
 
 <h2>Namespace Android.Support.V17.Leanback.App</h2>
-<h3>Type Changed: Android.Support.V17.Leanback.App.DetailsSupportFragmentBackgroundController</h3>
-<p>Removed constructor:</p>
-
-<pre style='color: red'>
-	public DetailsSupportFragmentBackgroundController (DetailsSupportFragment fragment);
+<h3>Type Changed: Android.Support.V17.Leanback.App.BaseRowSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
-<p>Removed methods:</p>
 
-<pre style='color: red'>
-	public Android.Support.V4.App.Fragment FindOrCreateVideoSupportFragment ();
-	public virtual Android.Support.V4.App.Fragment OnCreateVideoSupportFragment ();
+<h3>Type Changed: Android.Support.V17.Leanback.App.BaseSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.BrandedSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.DetailsSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.ErrorSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
 <h3>Type Changed: Android.Support.V17.Leanback.App.GuidedStepFragment</h3>
@@ -352,28 +375,65 @@ public interface IWatchNextType : Android.Runtime.IJavaObject, Java.Lang.Annotat
 	public virtual void SetActionsDiffCallback (Android.Support.V17.Leanback.Widget.DiffCallback diffCallback);
 </pre>
 
-<h3>Type Changed: Android.Support.V17.Leanback.App.PermissionHelper</h3>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public static void RequestPermissions (Android.Support.V4.App.Fragment fragment, string[] permissions, int requestCode);
+<h3>Type Changed: Android.Support.V17.Leanback.App.GuidedStepSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+<p>Added method:</p>
+<pre style='color: green'>
+	public virtual void SetActionsDiffCallback (Android.Support.V17.Leanback.Widget.DiffCallback diffCallback);
+</pre>
+<h3>Type Changed: Android.Support.V17.Leanback.App.GuidedStepSupportFragment.DummyFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
-<h3>Type Changed: Android.Support.V17.Leanback.App.PlaybackSupportFragmentGlueHost</h3>
-<p>Removed constructor:</p>
 
-<pre style='color: red'>
-	public PlaybackSupportFragmentGlueHost (PlaybackSupportFragment fragment);
+<h3>Type Changed: Android.Support.V17.Leanback.App.HeadersSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
-<h3>Type Changed: Android.Support.V17.Leanback.App.VideoSupportFragmentGlueHost</h3>
-<p>Removed constructor:</p>
-
-<pre style='color: red'>
-	public VideoSupportFragmentGlueHost (VideoSupportFragment fragment);
+<h3>Type Changed: Android.Support.V17.Leanback.App.OnboardingSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BaseRowSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BaseSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BrandedSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BrowseSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.DetailsSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.ErrorSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.GuidedStepSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.HeadersSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.OnboardingSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.PlaybackSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.RowsSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.SearchSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.VerticalGridSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.VideoSupportFragment</span></h3>
+<h3>Type Changed: Android.Support.V17.Leanback.App.PlaybackSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.RowsSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.SearchSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.VerticalGridSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Leanback.App.VideoSupportFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+
 <h2>Namespace Android.Support.V17.Leanback.Transition</h2>
 <h3>Type Changed: Android.Support.V17.Leanback.Transition.LeanbackTransitionHelper</h3>
 <h3>New Type Android.Support.V17.Leanback.Transition.LeanbackTransitionHelperKitKatImpl</h3>
@@ -391,13 +451,6 @@ public class LeanbackTransitionHelperKitKatImpl : Java.Lang.Object, Android.Runt
 </pre>
 
 <h3>Type Changed: Android.Support.V17.Leanback.Transition.TransitionHelper</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public static void SetEnterTransition (Android.Support.V4.App.Fragment fragment, Java.Lang.Object transition);
-	public static void SetExitTransition (Android.Support.V4.App.Fragment fragment, Java.Lang.Object transition);
-	public static void SetSharedElementEnterTransition (Android.Support.V4.App.Fragment fragment, Java.Lang.Object transition);
-</pre>
 <h3>New Type Android.Support.V17.Leanback.Transition.TransitionHelperApi21Impl</h3>
 <pre style='color: green'>
 public sealed class TransitionHelperApi21Impl : Android.Support.V17.Leanback.Transition.TransitionHelper+TransitionHelperKitkatImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
@@ -1719,6 +1772,18 @@ public class ViewGroupUtils : Java.Lang.Object, Android.Runtime.IJavaObject, Jav
 </pre>
 
 
+<h3>Type Changed: Android.Support.V7.App.AppCompatActivity</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V7.App.AppCompatDialogFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
 <h3>Type Changed: Android.Support.V7.App.MediaRouteDialogFactory</h3>
 <p>Removed methods:</p>
 
@@ -1727,7 +1792,7 @@ public class ViewGroupUtils : Java.Lang.Object, Android.Runtime.IJavaObject, Jav
 	public virtual MediaRouteControllerDialogFragment OnCreateControllerDialogFragment ();
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V7.App.AppCompatActivity</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.AppCompatDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteChooserDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteControllerDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteDiscoveryFragment</span></h3><h3>New Type Android.Support.V7.App.AppCompatViewInflater</h3>
+<h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteChooserDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteControllerDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteDiscoveryFragment</span></h3><h3>New Type Android.Support.V7.App.AppCompatViewInflater</h3>
 <pre style='color: green'>
 public class AppCompatViewInflater : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors

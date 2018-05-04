@@ -23,7 +23,6 @@ livedata-core and viewmodel
 so in the process i would just bump all the android.arch.* to 1.1.1
 
 ```
-Removed Type Android.Arch.Lifecycle.LiveData.LifecycleBoundObserver
 Removed Type Android.Arch.Lifecycle.BuildConfig
 Removed Type Android.Arch.Lifecycle.ComputableLiveData
 Removed Type Android.Arch.Lifecycle.LifecycleActivity
@@ -33,11 +32,10 @@ Removed Type Android.Arch.Lifecycle.Transformations
 
 Removed Type Android.Support.Content.BuildConfig
 Removed Type Android.Support.CustomTabs.BuildConfig
+
 Removed Type Android.Support.Design.Widget.BottomSheetDialogFragment
+
 Removed Type Android.Support.Graphics.Drawable.BuildConfig
-Removed Type Android.Support.Media.TV.TvContractCompat.IWatchNextType
-Removed Type Android.Support.Media.TRemoved Type Android.Support.Media.TV.BuildConfig
-Removed Type Android.Support.Percent.BuildConfig
 
 Removed Type Android.Support.Media.TV.TvContractCompat.IWatchNextType
 Removed Type Android.Support.Media.TV.TvContractCompat.IPreviewProgramColumnsAspectRatio
@@ -46,31 +44,22 @@ Removed Type Android.Support.Media.TV.TvContractCompat.IPreviewProgramColumnsInt
 Removed Type Android.Support.Media.TV.TvContractCompat.IPreviewProgramColumnsType
 Removed Type Android.Support.Media.TV.TvContractCompat.IProgramColumnsReviewRatingStyle
 
+Removed Type Android.Support.Media.TV.BuildConfig
+Removed Type Android.Support.Percent.BuildConfig
+
 Removed Type Android.Support.Text.Emoji.BuildConfig
+Namespace Android.Support.Text.Emoji.Bundled
 Removed Type Android.Support.Text.Emoji.Bundled.BuildConfig
+Namespace Android.Support.Transitions
 Removed Type Android.Support.Transitions.BuildConfig
 
-Removed Type Android.Support.V17.Leanback.App.BaseRowSupportFragment
-Removed Type Android.Support.V17.Leanback.App.BaseSupportFragment
-Removed Type Android.Support.V17.Leanback.App.BrandedSupportFragment
-Removed Type Android.Support.V17.Leanback.App.BrowseSupportFragment
-Removed Type Android.Support.V17.Leanback.App.DetailsSupportFragment
-Removed Type Android.Support.V17.Leanback.App.ErrorSupportFragment
-Removed Type Android.Support.V17.Leanback.App.GuidedStepSupportFragment
-Removed Type Android.Support.V17.Leanback.App.HeadersSupportFragment
-Removed Type Android.Support.V17.Leanback.App.OnboardingSupportFragment
-Removed Type Android.Support.V17.Leanback.App.PlaybackSupportFragment
-Removed Type Android.Support.V17.Leanback.App.RowsSupportFragment
-Removed Type Android.Support.V17.Leanback.App.SearchSupportFragment
-Removed Type Android.Support.V17.Leanback.App.VerticalGridSupportFragment
-Removed Type Android.Support.V17.Leanback.App.VideoSupportFragment
 Removed Type Android.Support.V17.Preferences.Leanback.BuildConfig
+
 Removed Type Android.Support.V4.App.RemoteInputCompatBase
 Removed Type Android.Support.V4.App.RemoteInputCompatBase_RemoteInputIFactoryExtensions
+
 Removed Type Android.Support.V4.Graphics.Drawable.IDrawableWrapper
 
-Removed Type Android.Support.V7.App.AppCompatActivity
-Removed Type Android.Support.V7.App.AppCompatDialogFragment
 Removed Type Android.Support.V7.App.MediaRouteChooserDialogFragment
 Removed Type Android.Support.V7.App.MediaRouteControllerDialogFragment
 Removed Type Android.Support.V7.App.MediaRouteDiscoveryFragment
@@ -81,6 +70,7 @@ Removed Type Android.Support.V7.Preferences.ListPreferenceDialogFragmentCompat
 Removed Type Android.Support.V7.Preferences.MultiSelectListPreferenceDialogFragmentCompat
 Removed Type Android.Support.V7.Preferences.PreferenceDialogFragmentCompat
 Removed Type Android.Support.V7.Preferences.PreferenceFragmentCompat
+
 Removed Type Android.Support.V7.Widget.ListViewCompat
 Removed Type Android.Arch.Core.BuildConfig
 Removed Type Android.Arch.Lifecycle.Extensions.BuildConfig
@@ -119,4 +109,5 @@ Removed Type Android.Support.V7.Mediarouter.BuildConfig
 Removed Type Android.Support.V7.Palette.BuildConfig
 Removed Type Android.Support.V7.RecyclerView.BuildConfig
 Removed Type Android.Support.Wear.BuildConfig
+
 ```
