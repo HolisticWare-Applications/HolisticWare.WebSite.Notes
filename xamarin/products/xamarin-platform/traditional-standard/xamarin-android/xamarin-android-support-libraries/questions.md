@@ -1,5 +1,34 @@
+
+*   Android Support
+
+*   Backend for Caboodle
+
+    *   SignalR - could not make samples run...
+
+*   Xamarin.Auth 
+
+    *   open bugs
+
+        *   nuget version pining?
+
+            ```
+            <PackageReference Include="ExamplePackage" Version="6.1" />
+            <PackageReference Include="ExamplePackage" Version="[6.1,)" />
+            ```
+
+        *   keyStore
+
+        *   UWP
+
+        *   samples
+
+
+
 # Questions
 
+1.  Redmond 
+
+    1.  Hotel for the team? Can we choose? Did he plan something?
 
 #### Questions
 

@@ -1,23 +1,38 @@
 <h2>Namespace Android.Arch.Lifecycle</h2>
+<h3>Type Changed: Android.Arch.Lifecycle.HolderFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	IViewModelStoreOwner
+</pre>
+<p>Removed property:</p>
+
+<pre style='color: red'>
+	public virtual ViewModelStore ViewModelStore { get; }
+</pre>
+
+<h3>Type Changed: Android.Arch.Lifecycle.LiveData</h3>
+<h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.LiveData.LifecycleBoundObserver</span></h3>
+<h3>Type Changed: Android.Arch.Lifecycle.ViewModelProvider</h3>
+<h3>New Type Android.Arch.Lifecycle.AndroidViewModelFactory</h3>
+<pre style='color: green'>
+public class AndroidViewModelFactory : Android.Arch.Lifecycle.ViewModelProvider+NewInstanceFactory, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public ViewModelProvider (Android.App.Application application);
+	protected ViewModelProvider (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public static ViewModelProvider.AndroidViewModelFactory GetInstance (Android.App.Application application);
+}
+</pre>
+
 <h3>Type Changed: Android.Arch.Lifecycle.ViewModelProviders</h3>
-<p>Removed methods:</p>
+<h3>Type Changed: Android.Arch.Lifecycle.ViewModelProviders.DefaultFactory</h3>
+Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Android.Arch.Lifecycle.ViewModelProvider+NewInstanceFactory</span></span> <span style='color:green'>Android.Arch.Lifecycle.ViewModelProvider+AndroidViewModelFactory</span>
 
-<pre style='color: red'>
-	public static ViewModelProvider Of (Android.Support.V4.App.Fragment fragment);
-	public static ViewModelProvider Of (Android.Support.V4.App.FragmentActivity activity);
-	public static ViewModelProvider Of (Android.Support.V4.App.Fragment fragment, ViewModelProvider.IFactory factory);
-	public static ViewModelProvider Of (Android.Support.V4.App.FragmentActivity activity, ViewModelProvider.IFactory factory);
-</pre>
 
-<h3>Type Changed: Android.Arch.Lifecycle.ViewModelStores</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public static ViewModelStore Of (Android.Support.V4.App.Fragment fragment);
-	public static ViewModelStore Of (Android.Support.V4.App.FragmentActivity activity);
-</pre>
-
-<h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.HolderFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.LifecycleActivity</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.LifecycleFragment</span></h3>
+<h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.BuildConfig</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.ComputableLiveData</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.LifecycleActivity</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.LifecycleFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.MediatorLiveData</span></h3><h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.Transformations</span></h3>
 <h2>Namespace Android.Support.Annotation</h2>
 <h3>Type Changed: Android.Support.Annotation.IIntDef</h3>
 <p>Removed method:</p>
@@ -360,6 +375,21 @@ public interface IWatchNextType : Android.Runtime.IJavaObject, Java.Lang.Annotat
 
 <h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BaseRowSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BaseSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BrandedSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.BrowseSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.DetailsSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.ErrorSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.GuidedStepSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.HeadersSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.OnboardingSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.PlaybackSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.RowsSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.SearchSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.VerticalGridSupportFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.App.VideoSupportFragment</span></h3>
 <h2>Namespace Android.Support.V17.Leanback.Transition</h2>
+<h3>Type Changed: Android.Support.V17.Leanback.Transition.LeanbackTransitionHelper</h3>
+<h3>New Type Android.Support.V17.Leanback.Transition.LeanbackTransitionHelperKitKatImpl</h3>
+<pre style='color: green'>
+public class LeanbackTransitionHelperKitKatImpl : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected LeanbackTransitionHelper (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual Java.Lang.Object LoadTitleInTransition (Android.Content.Context context);
+	public virtual Java.Lang.Object LoadTitleOutTransition (Android.Content.Context context);
+}
+</pre>
+
 <h3>Type Changed: Android.Support.V17.Leanback.Transition.TransitionHelper</h3>
 <p>Removed methods:</p>
 
@@ -367,6 +397,39 @@ public interface IWatchNextType : Android.Runtime.IJavaObject, Java.Lang.Annotat
 	public static void SetEnterTransition (Android.Support.V4.App.Fragment fragment, Java.Lang.Object transition);
 	public static void SetExitTransition (Android.Support.V4.App.Fragment fragment, Java.Lang.Object transition);
 	public static void SetSharedElementEnterTransition (Android.Support.V4.App.Fragment fragment, Java.Lang.Object transition);
+</pre>
+<h3>New Type Android.Support.V17.Leanback.Transition.TransitionHelperApi21Impl</h3>
+<pre style='color: green'>
+public sealed class TransitionHelperApi21Impl : Android.Support.V17.Leanback.Transition.TransitionHelper+TransitionHelperKitkatImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void AddSharedElement (Android.App.FragmentTransaction ft, Android.Views.View view, string transitionName);
+	public override void BeginDelayedTransition (Android.Views.ViewGroup sceneRoot, Java.Lang.Object transition);
+	public override Java.Lang.Object CreateChangeTransform ();
+	public override Java.Lang.Object CreateDefaultInterpolator (Android.Content.Context context);
+	public override Java.Lang.Object CreateFadeAndShortSlide (int edge);
+	public override Java.Lang.Object CreateFadeAndShortSlide (int edge, float distance);
+	public override Java.Lang.Object CreateScale ();
+	public override Java.Lang.Object GetEnterTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetExitTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetReenterTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetReturnTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetSharedElementEnterTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetSharedElementExitTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetSharedElementReenterTransition (Android.Views.Window window);
+	public override Java.Lang.Object GetSharedElementReturnTransition (Android.Views.Window window);
+	public override void SetEnterTransition (Android.App.Fragment fragment, Java.Lang.Object transition);
+	public override void SetEnterTransition (Android.Views.Window window, Java.Lang.Object transition);
+	public override void SetEpicenterCallback (Java.Lang.Object transitionObject, TransitionEpicenterCallback callback);
+	public override void SetExitTransition (Android.App.Fragment fragment, Java.Lang.Object transition);
+	public override void SetReturnTransition (Android.Views.Window window, Java.Lang.Object transition);
+	public override void SetSharedElementEnterTransition (Android.App.Fragment fragment, Java.Lang.Object transition);
+	public override void SetSharedElementEnterTransition (Android.Views.Window window, Java.Lang.Object object);
+	public override void SetSharedElementReturnTransition (Android.Views.Window window, Java.Lang.Object transition);
+	public override void SetTransitionGroup (Android.Views.ViewGroup viewGroup, bool transitionGroup);
+}
 </pre>
 
 
@@ -437,7 +500,20 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual bool OnPreferenceStartScreen (Android.Support.V14.Preference.PreferenceFragment caller, Android.Support.V7.Preferences.PreferenceScreen pref);
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V17.Preferences.Leanback.BuildConfig</span></h3>
+<h3>Removed Type <span style='color: red'>Android.Support.V17.Preferences.Leanback.BuildConfig</span></h3><h3>New Type Android.Support.V17.Preferences.Leanback.LeanbackPreferenceFragmentTransitionHelperApi21</h3>
+<pre style='color: green'>
+public class LeanbackPreferenceFragmentTransitionHelperApi21 : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public LeanbackPreferenceFragmentTransitionHelperApi21 ();
+	protected LeanbackPreferenceFragmentTransitionHelperApi21 (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public static void AddTransitions (Android.App.Fragment f);
+}
+</pre>
+
 <h2>Namespace Android.Support.V4.App</h2>
 <h3>Type Changed: Android.Support.V4.App.ActivityCompat</h3>
 <p>Added methods:</p>
@@ -457,66 +533,46 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public static int NoteProxyOpNoThrow (Android.Content.Context context, string op, string proxiedPackageName);
 </pre>
 
+<h3>Type Changed: Android.Support.V4.App.DialogFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+<p>Added method:</p>
+<pre style='color: green'>
+	public virtual void ShowNow (FragmentManager manager, string tag);
+</pre>
+
+<h3>Type Changed: Android.Support.V4.App.Fragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+<p>Added property:</p>
+<pre style='color: green'>
+	public virtual Android.Arch.Lifecycle.ViewModelStore ViewModelStore { get; }
+</pre>
+<p>Added methods:</p>
+<pre style='color: green'>
+	public FragmentActivity RequireActivity ();
+	public Android.Content.Context RequireContext ();
+	public FragmentManager RequireFragmentManager ();
+	public Java.Lang.Object RequireHost ();
+</pre>
+
 <h3>Type Changed: Android.Support.V4.App.FragmentActivity</h3>
-Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Android.App.Activity</span></span> <span style='color:green'>System.Object</span>
-<p>Removed constructor:</p>
-
-<pre style='color: red'>
-	protected FragmentActivity (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
-<p>Removed interfaces:</p>
-
-<pre style='color: red'>
-	Android.Arch.Lifecycle.ILifecycleOwner
-	Android.Content.IComponentCallbacks
-	Android.Content.IComponentCallbacks2
-	Android.Runtime.IJavaObject
-	Java.Interop.IJavaPeerable
-	System.IDisposable
+<p>Added property:</p>
+<pre style='color: green'>
+	public virtual Android.Arch.Lifecycle.ViewModelStore ViewModelStore { get; }
 </pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public virtual Java.Lang.Object LastCustomNonConfigurationInstance { get; }
-	public virtual Android.Arch.Lifecycle.Lifecycle Lifecycle { get; }
-	public virtual FragmentManager SupportFragmentManager { get; }
-	public virtual LoaderManager SupportLoaderManager { get; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-</pre>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual void OnAttachFragment (Fragment fragment);
-	public override Android.Views.View OnCreateView (string name, Android.Content.Context context, Android.Util.IAttributeSet attrs);
-	public override Android.Views.View OnCreateView (Android.Views.View parent, string name, Android.Content.Context context, Android.Util.IAttributeSet attrs);
-	protected virtual bool OnPrepareOptionsPanel (Android.Views.View view, Android.Views.IMenu menu);
-	public override void OnRequestPermissionsResult (int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults);
-	protected virtual void OnResumeFragments ();
-	public virtual Java.Lang.Object OnRetainCustomNonConfigurationInstance ();
-	public override Java.Lang.Object OnRetainNonConfigurationInstance ();
-	public virtual void SetEnterSharedElementCallback (SharedElementCallback callback);
-	public virtual void SetExitSharedElementCallback (SharedElementCallback listener);
-	public override void StartActivityForResult (Android.Content.Intent intent, int requestCode, Android.OS.Bundle options);
-	public virtual void StartActivityFromFragment (Fragment fragment, Android.Content.Intent intent, int requestCode);
-	public virtual void StartActivityFromFragment (Fragment fragment, Android.Content.Intent intent, int requestCode, Android.OS.Bundle options);
-	public override void StartIntentSenderForResult (Android.Content.IntentSender intent, int requestCode, Android.Content.Intent fillInIntent, Android.Content.ActivityFlags flagsMask, Android.Content.ActivityFlags flagsValues, int extraFlags);
-	public override void StartIntentSenderForResult (Android.Content.IntentSender intent, int requestCode, Android.Content.Intent fillInIntent, Android.Content.ActivityFlags flagsMask, Android.Content.ActivityFlags flagsValues, int extraFlags, Android.OS.Bundle options);
-	public virtual void StartIntentSenderFromFragment (Fragment fragment, Android.Content.IntentSender intent, int requestCode, Android.Content.Intent fillInIntent, int flagsMask, int flagsValues, int extraFlags, Android.OS.Bundle options);
-	public virtual void SupportFinishAfterTransition ();
-
-	[Obsolete ("deprecated")]
-	public virtual void SupportInvalidateOptionsMenu ();
-	public virtual void SupportPostponeEnterTransition ();
-	public virtual void SupportStartPostponedEnterTransition ();
-	public virtual void ValidateRequestPermissionsRequestCode (int requestCode);
-</pre>
-<h3>Removed Type <span style='color: red'>Android.Support.V4.App.FragmentActivity.HostCallbacks</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.App.FragmentActivity.NonConfigurationInstances</span></h3>
-<h3>Type Changed: Android.Support.V4.App.FragmentContainer</h3>
 <p>Removed method:</p>
 
 <pre style='color: red'>
-	public virtual Fragment Instantiate (Android.Content.Context context, string className, Android.OS.Bundle arguments);
+	public override void OnRequestPermissionsResult (int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults);
 </pre>
 
 <h3>Type Changed: Android.Support.V4.App.FragmentController</h3>
@@ -524,19 +580,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
 	public virtual LoaderManager SupportLoaderManager { get; }</span>
-</pre>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual void AttachHost (Fragment parent);
-	public virtual Fragment FindFragmentByWho (string who);
-	public virtual System.Collections.Generic.IList&lt;Fragment&gt; GetActiveFragments (System.Collections.Generic.IList&lt;Fragment&gt; actives);
-
-	[Obsolete ("deprecated")]
-	public virtual void RestoreAllState (Android.OS.IParcelable state, System.Collections.Generic.IList&lt;Fragment&gt; nonConfigList);
-
-	[Obsolete ("deprecated")]
-	public virtual System.Collections.Generic.IList&lt;Fragment&gt; RetainNonConfig ();
 </pre>
 <p>Obsoleted methods:</p>
 <pre>
@@ -558,83 +601,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual Android.Support.V4.Util.SimpleArrayMap RetainLoaderNonConfig ();</span>
 </pre>
 
-<h3>Type Changed: Android.Support.V4.App.FragmentHostCallback</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual void OnRequestPermissionsFromFragment (Fragment fragment, string[] permissions, int requestCode);
-	public virtual bool OnShouldSaveFragmentState (Fragment fragment);
-	public virtual void OnStartActivityFromFragment (Fragment fragment, Android.Content.Intent intent, int requestCode);
-	public virtual void OnStartActivityFromFragment (Fragment fragment, Android.Content.Intent intent, int requestCode, Android.OS.Bundle options);
-	public virtual void OnStartIntentSenderFromFragment (Fragment fragment, Android.Content.IntentSender intent, int requestCode, Android.Content.Intent fillInIntent, int flagsMask, int flagsValues, int extraFlags, Android.OS.Bundle options);
-</pre>
-
-<h3>Type Changed: Android.Support.V4.App.FragmentManager</h3>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public virtual System.Collections.Generic.IList&lt;Fragment&gt; Fragments { get; }
-	public virtual Fragment PrimaryNavigationFragment { get; }
-</pre>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual Fragment FindFragmentById (int id);
-	public virtual Fragment FindFragmentByTag (string tag);
-	public virtual Fragment GetFragment (Android.OS.Bundle bundle, string key);
-	public virtual void PutFragment (Android.OS.Bundle bundle, string key, Fragment fragment);
-	public virtual Fragment.SavedState SaveFragmentInstanceState (Fragment f);
-</pre>
-<h3>Type Changed: Android.Support.V4.App.FragmentManager.FragmentLifecycleCallbacks</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual void OnFragmentActivityCreated (FragmentManager fm, Fragment f, Android.OS.Bundle savedInstanceState);
-	public virtual void OnFragmentAttached (FragmentManager fm, Fragment f, Android.Content.Context context);
-	public virtual void OnFragmentCreated (FragmentManager fm, Fragment f, Android.OS.Bundle savedInstanceState);
-	public virtual void OnFragmentDestroyed (FragmentManager fm, Fragment f);
-	public virtual void OnFragmentDetached (FragmentManager fm, Fragment f);
-	public virtual void OnFragmentPaused (FragmentManager fm, Fragment f);
-	public virtual void OnFragmentPreAttached (FragmentManager fm, Fragment f, Android.Content.Context context);
-	public virtual void OnFragmentPreCreated (FragmentManager fm, Fragment f, Android.OS.Bundle savedInstanceState);
-	public virtual void OnFragmentResumed (FragmentManager fm, Fragment f);
-	public virtual void OnFragmentSaveInstanceState (FragmentManager fm, Fragment f, Android.OS.Bundle outState);
-	public virtual void OnFragmentStarted (FragmentManager fm, Fragment f);
-	public virtual void OnFragmentStopped (FragmentManager fm, Fragment f);
-	public virtual void OnFragmentViewCreated (FragmentManager fm, Fragment f, Android.Views.View v, Android.OS.Bundle savedInstanceState);
-	public virtual void OnFragmentViewDestroyed (FragmentManager fm, Fragment f);
-</pre>
-
-
-<h3>Type Changed: Android.Support.V4.App.FragmentPagerAdapter</h3>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public virtual Fragment GetItem (int position);
-</pre>
-
-<h3>Type Changed: Android.Support.V4.App.FragmentStatePagerAdapter</h3>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public virtual Fragment GetItem (int position);
-</pre>
-
-<h3>Type Changed: Android.Support.V4.App.FragmentTransaction</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual FragmentTransaction Add (Fragment fragment, string tag);
-	public virtual FragmentTransaction Add (int containerViewId, Fragment fragment);
-	public virtual FragmentTransaction Add (int containerViewId, Fragment fragment, string tag);
-	public virtual FragmentTransaction Attach (Fragment fragment);
-	public virtual FragmentTransaction Detach (Fragment fragment);
-	public virtual FragmentTransaction Hide (Fragment fragment);
-	public virtual FragmentTransaction Remove (Fragment fragment);
-	public virtual FragmentTransaction Replace (int containerViewId, Fragment fragment);
-	public virtual FragmentTransaction Replace (int containerViewId, Fragment fragment, string tag);
-	public virtual FragmentTransaction SetPrimaryNavigationFragment (Fragment fragment);
-	public virtual FragmentTransaction Show (Fragment fragment);
+<h3>Type Changed: Android.Support.V4.App.ListFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
 <h3>Type Changed: Android.Support.V4.App.NotificationCompat</h3>
@@ -663,7 +633,21 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	protected <span style='text-decoration: line-through'><span style='color:red'>override</span></span> Java.Lang.ICharSequence[] GetChoicesFormatted ()
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V4.App.DialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.App.Fragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.App.ListFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.App.RemoteInputCompatBase</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.App.RemoteInputCompatBase_RemoteInputIFactoryExtensions</span></h3>
+<h3>Type Changed: Android.Support.V4.App.TaskStackBuilder</h3>
+<h3>New Type Android.Support.V4.App.TaskStackBuilderApi16Impl</h3>
+<pre style='color: green'>
+public class TaskStackBuilderApi16Impl : Android.Support.V4.App.TaskStackBuilder+TaskStackBuilderBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TaskStackBuilder (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.App.PendingIntent GetPendingIntent (Android.Content.Context context, Android.Content.Intent[] intents, int requestCode, int flags, Android.OS.Bundle options);
+}
+</pre>
+
+<h3>Removed Type <span style='color: red'>Android.Support.V4.App.RemoteInputCompatBase</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.App.RemoteInputCompatBase_RemoteInputIFactoryExtensions</span></h3>
 <h2>Namespace Android.Support.V4.Content</h2>
 <h3>Type Changed: Android.Support.V4.Content.FileProvider</h3>
 <h3>Type Changed: Android.Support.V4.Content.FileProvider.SimplePathStrategy</h3>
@@ -690,6 +674,35 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 
 
+<h2>Namespace Android.Support.V4.Graphics</h2>
+<h3>Type Changed: Android.Support.V4.Graphics.BitmapCompat</h3>
+<h3>New Type Android.Support.V4.Graphics.BitmapCompatApi18Impl</h3>
+<pre style='color: green'>
+public class BitmapCompatApi18Impl : Android.Support.V4.Graphics.BitmapCompat+BitmapCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected BitmapCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override bool HasMipMap (Android.Graphics.Bitmap bitmap);
+	public override void SetHasMipMap (Android.Graphics.Bitmap bitmap, bool hasMipMap);
+}
+</pre>
+<h3>New Type Android.Support.V4.Graphics.BitmapCompatApi19Impl</h3>
+<pre style='color: green'>
+public class BitmapCompatApi19Impl : Android.Support.V4.Graphics.BitmapCompat+BitmapCompatApi18Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected BitmapCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetAllocationByteCount (Android.Graphics.Bitmap bitmap);
+}
+</pre>
+
+
 <h2>Namespace Android.Support.V4.Graphics.Drawable</h2>
 <h3>Type Changed: Android.Support.V4.Graphics.Drawable.IconCompat</h3>
 <p>Obsoleted methods:</p>
@@ -710,6 +723,365 @@ public interface IWrappedDrawable : Android.Runtime.IJavaObject, System.IDisposa
 }
 </pre>
 
+<h2>Namespace Android.Support.V4.Media</h2>
+<h3>Type Changed: Android.Support.V4.Media.MediaBrowserCompat</h3>
+<h3>New Type Android.Support.V4.Media.MediaBrowserImplApi21</h3>
+<pre style='color: green'>
+public class MediaBrowserImplApi21 : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaBrowserCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public virtual Android.OS.Bundle Extras { get; }
+	public virtual bool IsConnected { get; }
+	protected Java.Lang.Object MBrowserObj { get; set; }
+	protected Android.OS.Messenger MCallbacksMessenger { get; set; }
+	protected MediaBrowserCompat.CallbackHandler MHandler { get; set; }
+	protected Android.OS.Bundle MRootHints { get; set; }
+	protected MediaBrowserCompat.ServiceBinderWrapper MServiceBinderWrapper { get; set; }
+	protected int MServiceVersion { get; set; }
+	public virtual string Root { get; }
+	public virtual Android.Content.ComponentName ServiceComponent { get; }
+	public virtual Session.MediaSessionCompat.Token SessionToken { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual void Connect ();
+	public virtual void Disconnect ();
+	public virtual void GetItem (string mediaId, MediaBrowserCompat.ItemCallback cb);
+	public virtual void OnConnected ();
+	public virtual void OnConnectionFailed ();
+	public virtual void OnConnectionFailed (Android.OS.Messenger callback);
+	public virtual void OnConnectionSuspended ();
+	public virtual void OnLoadChildren (Android.OS.Messenger callback, string parentId, System.Collections.IList list, Android.OS.Bundle options);
+	public virtual void OnServiceConnected (Android.OS.Messenger callback, string root, Session.MediaSessionCompat.Token session, Android.OS.Bundle extra);
+	public virtual void Search (string query, Android.OS.Bundle extras, MediaBrowserCompat.SearchCallback callback);
+	public virtual void SendCustomAction (string action, Android.OS.Bundle extras, MediaBrowserCompat.CustomActionCallback callback);
+	public virtual void Subscribe (string parentId, Android.OS.Bundle options, MediaBrowserCompat.SubscriptionCallback callback);
+	public virtual void Unsubscribe (string parentId, MediaBrowserCompat.SubscriptionCallback callback);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.MediaBrowserImplApi23</h3>
+<pre style='color: green'>
+public class MediaBrowserImplApi23 : Android.Support.V4.Media.MediaBrowserCompat+MediaBrowserImplApi21, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaBrowserCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void GetItem (string mediaId, MediaBrowserCompat.ItemCallback cb);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.MediaBrowserImplApi26</h3>
+<pre style='color: green'>
+public class MediaBrowserImplApi26 : Android.Support.V4.Media.MediaBrowserCompat+MediaBrowserImplApi23, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaBrowserCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void Subscribe (string parentId, Android.OS.Bundle options, MediaBrowserCompat.SubscriptionCallback callback);
+	public override void Unsubscribe (string parentId, MediaBrowserCompat.SubscriptionCallback callback);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.Media.MediaBrowserServiceCompat</h3>
+<h3>New Type Android.Support.V4.Media.MediaBrowserServiceImplApi21</h3>
+<pre style='color: green'>
+public class MediaBrowserServiceImplApi21 : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaBrowserServiceCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public virtual Android.OS.Bundle BrowserRootHints { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual void NotifyChildrenChanged (string parentId, Android.OS.Bundle options);
+	public virtual Android.OS.IBinder OnBind (Android.Content.Intent intent);
+	public virtual void OnCreate ();
+	public virtual Java.Lang.Object OnGetRoot (string clientPackageName, int clientUid, Android.OS.Bundle rootHints);
+	public virtual void SetSessionToken (Session.MediaSessionCompat.Token token);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.MediaBrowserServiceImplApi23</h3>
+<pre style='color: green'>
+public class MediaBrowserServiceImplApi23 : Android.Support.V4.Media.MediaBrowserServiceCompat+MediaBrowserServiceImplApi21, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaBrowserServiceCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void OnCreate ();
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.MediaBrowserServiceImplApi26</h3>
+<pre style='color: green'>
+public class MediaBrowserServiceImplApi26 : Android.Support.V4.Media.MediaBrowserServiceCompat+MediaBrowserServiceImplApi23, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaBrowserServiceCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Android.OS.Bundle BrowserRootHints { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void OnCreate ();
+}
+</pre>
+
+
+<h2>Namespace Android.Support.V4.Media.Session</h2>
+<h3>Type Changed: Android.Support.V4.Media.Session.MediaControllerCompat</h3>
+<h3>New Type Android.Support.V4.Media.Session.MediaControllerImplApi21</h3>
+<pre style='color: green'>
+public class MediaControllerImplApi21 : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaControllerCompat (Android.Content.Context context, MediaSessionCompat session);
+	public MediaControllerCompat (Android.Content.Context context, MediaSessionCompat.Token sessionToken);
+	protected MediaControllerCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public virtual Android.OS.Bundle Extras { get; }
+	public virtual long Flags { get; }
+	public virtual bool IsCaptioningEnabled { get; }
+	public virtual bool IsSessionReady { get; }
+	protected Java.Lang.Object MControllerObj { get; set; }
+	public virtual Java.Lang.Object MediaController { get; }
+	public virtual Android.Support.V4.Media.MediaMetadataCompat Metadata { get; }
+	public virtual string PackageName { get; }
+	public virtual MediaControllerCompat.PlaybackInfo PlaybackInfo { get; }
+	public virtual PlaybackStateCompat PlaybackState { get; }
+	public virtual System.Collections.Generic.IList&lt;MediaSessionCompat.QueueItem&gt; Queue { get; }
+	public string QueueTitle { get; }
+	public virtual Java.Lang.ICharSequence QueueTitleFormatted { get; }
+	public virtual int RatingType { get; }
+	public virtual int RepeatMode { get; }
+	public virtual Android.App.PendingIntent SessionActivity { get; }
+	public virtual int ShuffleMode { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	public virtual MediaControllerCompat.TransportControls TransportControls { get; }
+	// methods
+	public virtual void AddQueueItem (Android.Support.V4.Media.MediaDescriptionCompat description);
+	public virtual void AddQueueItem (Android.Support.V4.Media.MediaDescriptionCompat description, int index);
+	public virtual void AdjustVolume (int direction, int flags);
+	public virtual bool DispatchMediaButtonEvent (Android.Views.KeyEvent e);
+	public virtual void RegisterCallback (MediaControllerCompat.Callback callback, Android.OS.Handler handler);
+	public virtual void RemoveQueueItem (Android.Support.V4.Media.MediaDescriptionCompat description);
+	public virtual void SendCommand (string command, Android.OS.Bundle params, Android.OS.ResultReceiver cb);
+	public virtual void SetVolumeTo (int value, int flags);
+	public virtual void UnregisterCallback (MediaControllerCompat.Callback callback);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.MediaControllerImplApi23</h3>
+<pre style='color: green'>
+public class MediaControllerImplApi23 : Android.Support.V4.Media.Session.MediaControllerCompat+MediaControllerImplApi21, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaControllerCompat (Android.Content.Context context, MediaSessionCompat session);
+	public MediaControllerCompat (Android.Content.Context context, MediaSessionCompat.Token sessionToken);
+	protected MediaControllerCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	public override MediaControllerCompat.TransportControls TransportControls { get; }
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.MediaControllerImplApi24</h3>
+<pre style='color: green'>
+public class MediaControllerImplApi24 : Android.Support.V4.Media.Session.MediaControllerCompat+MediaControllerImplApi23, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaControllerCompat (Android.Content.Context context, MediaSessionCompat session);
+	public MediaControllerCompat (Android.Content.Context context, MediaSessionCompat.Token sessionToken);
+	protected MediaControllerCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	public override MediaControllerCompat.TransportControls TransportControls { get; }
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.TransportControlsApi21</h3>
+<pre style='color: green'>
+public class TransportControlsApi21 : Android.Support.V4.Media.Session.MediaControllerCompat+TransportControls, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaControllerCompat (Java.Lang.Object controlsObj);
+	protected MediaControllerCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected Java.Lang.Object MControlsObj { get; set; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void FastForward ();
+	public override void Pause ();
+	public override void Play ();
+	public override void PlayFromMediaId (string mediaId, Android.OS.Bundle extras);
+	public override void PlayFromSearch (string query, Android.OS.Bundle extras);
+	public override void PlayFromUri (Android.Net.Uri uri, Android.OS.Bundle extras);
+	public override void Prepare ();
+	public override void PrepareFromMediaId (string mediaId, Android.OS.Bundle extras);
+	public override void PrepareFromSearch (string query, Android.OS.Bundle extras);
+	public override void PrepareFromUri (Android.Net.Uri uri, Android.OS.Bundle extras);
+	public override void Rewind ();
+	public override void SeekTo (long pos);
+	public override void SendCustomAction (PlaybackStateCompat.CustomAction customAction, Android.OS.Bundle args);
+	public override void SendCustomAction (string action, Android.OS.Bundle args);
+	public override void SetCaptioningEnabled (bool enabled);
+	public override void SetRating (Android.Support.V4.Media.RatingCompat rating);
+	public override void SetRating (Android.Support.V4.Media.RatingCompat rating, Android.OS.Bundle extras);
+	public override void SetRepeatMode (int repeatMode);
+	public override void SetShuffleMode (int shuffleMode);
+	public override void SkipToNext ();
+	public override void SkipToPrevious ();
+	public override void SkipToQueueItem (long id);
+	public override void Stop ();
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.TransportControlsApi23</h3>
+<pre style='color: green'>
+public class TransportControlsApi23 : Android.Support.V4.Media.Session.MediaControllerCompat+TransportControlsApi21, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaControllerCompat (Java.Lang.Object controlsObj);
+	protected MediaControllerCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void PlayFromUri (Android.Net.Uri uri, Android.OS.Bundle extras);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.TransportControlsApi24</h3>
+<pre style='color: green'>
+public class TransportControlsApi24 : Android.Support.V4.Media.Session.MediaControllerCompat+TransportControlsApi23, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaControllerCompat (Java.Lang.Object controlsObj);
+	protected MediaControllerCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void Prepare ();
+	public override void PrepareFromMediaId (string mediaId, Android.OS.Bundle extras);
+	public override void PrepareFromSearch (string query, Android.OS.Bundle extras);
+	public override void PrepareFromUri (Android.Net.Uri uri, Android.OS.Bundle extras);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.Media.Session.MediaSessionCompat</h3>
+<h3>New Type Android.Support.V4.Media.Session.MediaSessionImplApi18</h3>
+<pre style='color: green'>
+public class MediaSessionImplApi18 : Android.Support.V4.Media.Session.MediaSessionCompat+MediaSessionImplBase, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaSessionCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void SetCallback (MediaSessionCompat.Callback callback, Android.OS.Handler handler);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.MediaSessionImplApi19</h3>
+<pre style='color: green'>
+public class MediaSessionImplApi19 : Android.Support.V4.Media.Session.MediaSessionCompat+MediaSessionImplApi18, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MediaSessionCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void SetCallback (MediaSessionCompat.Callback callback, Android.OS.Handler handler);
+}
+</pre>
+<h3>New Type Android.Support.V4.Media.Session.MediaSessionImplApi21</h3>
+<pre style='color: green'>
+public class MediaSessionImplApi21 : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public MediaSessionCompat (Java.Lang.Object mediaSession);
+	public MediaSessionCompat (Android.Content.Context context, string tag);
+	protected MediaSessionCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public virtual bool Active { get; set; }
+	public virtual string CallingPackage { get; }
+	public virtual Java.Lang.Object MediaSession { get; }
+	public virtual PlaybackStateCompat PlaybackState { get; set; }
+	public virtual Java.Lang.Object RemoteControlClient { get; }
+	public virtual MediaSessionCompat.Token SessionToken { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual void Release ();
+	public virtual void SendSessionEvent (string e, Android.OS.Bundle extras);
+	public virtual void SetCallback (MediaSessionCompat.Callback callback, Android.OS.Handler handler);
+	public virtual void SetCaptioningEnabled (bool enabled);
+	public virtual void SetExtras (Android.OS.Bundle extras);
+	public virtual void SetFlags (int flags);
+	public virtual void SetMediaButtonReceiver (Android.App.PendingIntent mbr);
+	public virtual void SetMetadata (Android.Support.V4.Media.MediaMetadataCompat metadata);
+	public virtual void SetPlaybackToLocal (int stream);
+	public virtual void SetPlaybackToRemote (Android.Support.V4.Media.VolumeProviderCompat volumeProvider);
+	public virtual void SetQueue (System.Collections.Generic.IList&lt;MediaSessionCompat.QueueItem&gt; queue);
+	public virtual void SetQueueTitle (Java.Lang.ICharSequence title);
+	public void SetQueueTitle (string title);
+	public virtual void SetRatingType (int type);
+	public virtual void SetRepeatMode (int repeatMode);
+	public virtual void SetSessionActivity (Android.App.PendingIntent pi);
+	public virtual void SetShuffleMode (int shuffleMode);
+
+	// inner types
+	public class ExtraSession : Android.Support.V4.Media.Session.MediaSessionStub, Android.OS.IBinder, Android.OS.IInterface, Android.Runtime.IJavaObject, IMediaSession, Java.Interop.IJavaPeerable, System.IDisposable {
+		// constructors
+		protected MediaSessionCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+		// properties
+		public override bool CaptioningEnabled { get; set; }
+		public override Android.OS.Bundle Extras { get; }
+		public override long Flags { get; }
+		public override bool IsTransportControlEnabled { get; }
+		public override Android.App.PendingIntent LaunchPendingIntent { get; }
+		public override Android.Support.V4.Media.MediaMetadataCompat Metadata { get; }
+		public override string PackageName { get; }
+		public override PlaybackStateCompat PlaybackState { get; }
+		public override System.Collections.Generic.IList&lt;MediaSessionCompat.QueueItem&gt; Queue { get; }
+		public override Java.Lang.ICharSequence QueueTitleFormatted { get; }
+		public override int RatingType { get; }
+		public override int RepeatMode { get; set; }
+		public override int ShuffleMode { get; set; }
+		public override bool ShuffleModeEnabledRemoved { get; set; }
+		public override string Tag { get; }
+		protected override IntPtr ThresholdClass { get; }
+		protected override System.Type ThresholdType { get; }
+		public override ParcelableVolumeInfo VolumeAttributes { get; }
+		// methods
+		public override void AddQueueItem (Android.Support.V4.Media.MediaDescriptionCompat descriptionCompat);
+		public override void AddQueueItemAt (Android.Support.V4.Media.MediaDescriptionCompat descriptionCompat, int index);
+		public override void AdjustVolume (int direction, int flags, string packageName);
+		public override void FastForward ();
+		public override void Next ();
+		public override void Pause ();
+		public override void Play ();
+		public override void PlayFromMediaId (string mediaId, Android.OS.Bundle extras);
+		public override void PlayFromSearch (string query, Android.OS.Bundle extras);
+		public override void PlayFromUri (Android.Net.Uri uri, Android.OS.Bundle extras);
+		public override void Prepare ();
+		public override void PrepareFromMediaId (string mediaId, Android.OS.Bundle extras);
+		public override void PrepareFromSearch (string query, Android.OS.Bundle extras);
+		public override void PrepareFromUri (Android.Net.Uri uri, Android.OS.Bundle extras);
+		public override void Previous ();
+		public override void Rate (Android.Support.V4.Media.RatingCompat rating);
+		public override void RateWithExtras (Android.Support.V4.Media.RatingCompat rating, Android.OS.Bundle extras);
+		public override void RegisterCallbackListener (IMediaControllerCallback cb);
+		public override void RemoveQueueItem (Android.Support.V4.Media.MediaDescriptionCompat description);
+		public override void RemoveQueueItemAt (int index);
+		public override void Rewind ();
+		public override void SeekTo (long pos);
+		public override void SendCustomAction (string action, Android.OS.Bundle args);
+		public override bool SendMediaButton (Android.Views.KeyEvent mediaButton);
+		public override void SetVolumeTo (int value, int flags, string packageName);
+		public override void SkipToQueueItem (long id);
+		public override void Stop ();
+		public override void UnregisterCallbackListener (IMediaControllerCallback cb);
+	}
+}
+</pre>
+
+
 <h2>Namespace Android.Support.V4.Util</h2>
 <h3>Type Changed: Android.Support.V4.Util.ObjectsCompat</h3>
 <p>Added methods:</p>
@@ -720,6 +1092,22 @@ public interface IWrappedDrawable : Android.Runtime.IJavaObject, System.IDisposa
 
 
 <h2>Namespace Android.Support.V4.View</h2>
+<h3>Type Changed: Android.Support.V4.View.AccessibilityDelegateCompat</h3>
+<h3>New Type Android.Support.V4.View.AccessibilityDelegateApi16Impl</h3>
+<pre style='color: green'>
+public class AccessibilityDelegateApi16Impl : Android.Support.V4.View.AccessibilityDelegateCompat+AccessibilityDelegateBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected AccessibilityDelegateCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Accessibility.AccessibilityNodeProviderCompat GetAccessibilityNodeProvider (Android.Views.View.AccessibilityDelegate delegate, Android.Views.View host);
+	public override Android.Views.View.AccessibilityDelegate NewAccessibilityDelegateBridge (AccessibilityDelegateCompat compat);
+	public override bool PerformAccessibilityAction (Android.Views.View.AccessibilityDelegate delegate, Android.Views.View host, int action, Android.OS.Bundle args);
+}
+</pre>
+
 <h3>Type Changed: Android.Support.V4.View.GestureDetectorCompat</h3>
 <h3>Type Changed: Android.Support.V4.View.GestureDetectorCompat.GestureDetectorCompatImplBase</h3>
 <p>Removed constructor:</p>
@@ -728,6 +1116,63 @@ public interface IWrappedDrawable : Android.Runtime.IJavaObject, System.IDisposa
 	public GestureDetectorCompat (Android.Content.Context context, Android.Views.GestureDetector.IOnGestureListener listener, Android.OS.Handler handler);
 </pre>
 
+<h3>New Type Android.Support.V4.View.GestureDetectorCompatImplJellybeanMr2</h3>
+<pre style='color: green'>
+public class GestureDetectorCompatImplJellybeanMr2 : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected GestureDetectorCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public virtual bool IsLongpressEnabled { get; set; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual bool OnTouchEvent (Android.Views.MotionEvent ev);
+	public virtual void SetOnDoubleTapListener (Android.Views.GestureDetector.IOnDoubleTapListener listener);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.View.LayoutInflaterCompat</h3>
+<h3>New Type Android.Support.V4.View.LayoutInflaterCompatApi21Impl</h3>
+<pre style='color: green'>
+public class LayoutInflaterCompatApi21Impl : Android.Support.V4.View.LayoutInflaterCompat+LayoutInflaterCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected LayoutInflaterCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void SetFactory (Android.Views.LayoutInflater inflater, ILayoutInflaterFactory factory);
+	public override void SetFactory2 (Android.Views.LayoutInflater inflater, Android.Views.LayoutInflater.IFactory2 factory);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.View.MenuItemCompat</h3>
+<h3>New Type Android.Support.V4.View.MenuItemCompatApi26Impl</h3>
+<pre style='color: green'>
+public class MenuItemCompatApi26Impl : Android.Support.V4.View.MenuItemCompat+MenuItemCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected MenuItemCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetAlphabeticModifiers (Android.Views.IMenuItem item);
+	public string GetContentDescription (Android.Views.IMenuItem item);
+	public override Java.Lang.ICharSequence GetContentDescriptionFormatted (Android.Views.IMenuItem item);
+	public override Android.Content.Res.ColorStateList GetIconTintList (Android.Views.IMenuItem item);
+	public override Android.Graphics.PorterDuff.Mode GetIconTintMode (Android.Views.IMenuItem item);
+	public override int GetNumericModifiers (Android.Views.IMenuItem item);
+	public string GetTooltipText (Android.Views.IMenuItem item);
+	public override Java.Lang.ICharSequence GetTooltipTextFormatted (Android.Views.IMenuItem item);
+	public override void SetAlphabeticShortcut (Android.Views.IMenuItem item, char alphaChar, int alphaModifiers);
+	public override void SetContentDescription (Android.Views.IMenuItem item, Java.Lang.ICharSequence contentDescription);
+	public override void SetIconTintList (Android.Views.IMenuItem item, Android.Content.Res.ColorStateList tint);
+	public override void SetIconTintMode (Android.Views.IMenuItem item, Android.Graphics.PorterDuff.Mode tintMode);
+	public override void SetNumericShortcut (Android.Views.IMenuItem item, char numericChar, int numericModifiers);
+	public override void SetShortcut (Android.Views.IMenuItem item, char numericChar, char alphaChar, int numericModifiers, int alphaModifiers);
+	public override void SetTooltipText (Android.Views.IMenuItem item, Java.Lang.ICharSequence tooltipText);
+}
+</pre>
 
 <h3>Type Changed: Android.Support.V4.View.ViewCompat</h3>
 <p>Added methods:</p>
@@ -741,6 +1186,247 @@ public interface IWrappedDrawable : Android.Runtime.IJavaObject, System.IDisposa
 	public virtual int GenerateViewId ();
 </pre>
 
+<h3>New Type Android.Support.V4.View.ViewCompatApi16Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi16Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi15Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Accessibility.AccessibilityNodeProviderCompat GetAccessibilityNodeProvider (Android.Views.View view);
+	public override bool GetFitsSystemWindows (Android.Views.View view);
+	public override int GetImportantForAccessibility (Android.Views.View view);
+	public override int GetMinimumHeight (Android.Views.View view);
+	public override int GetMinimumWidth (Android.Views.View view);
+	public override Android.Views.IViewParent GetParentForAccessibility (Android.Views.View view);
+	public override bool HasOverlappingRendering (Android.Views.View view);
+	public override bool HasTransientState (Android.Views.View view);
+	public override bool PerformAccessibilityAction (Android.Views.View view, int action, Android.OS.Bundle arguments);
+	public override void PostInvalidateOnAnimation (Android.Views.View view);
+	public override void PostInvalidateOnAnimation (Android.Views.View view, int left, int top, int right, int bottom);
+	public override void PostOnAnimation (Android.Views.View view, Java.Lang.IRunnable action);
+	public override void PostOnAnimationDelayed (Android.Views.View view, Java.Lang.IRunnable action, long delayMillis);
+	public override void RequestApplyInsets (Android.Views.View view);
+	public override void SetBackground (Android.Views.View view, Android.Graphics.Drawables.Drawable background);
+	public override void SetHasTransientState (Android.Views.View view, bool hasTransientState);
+	public override void SetImportantForAccessibility (Android.Views.View view, int mode);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi17Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi17Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi16Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GenerateViewId ();
+	public override Android.Views.Display GetDisplay (Android.Views.View view);
+	public override int GetLabelFor (Android.Views.View view);
+	public override int GetLayoutDirection (Android.Views.View view);
+	public override int GetPaddingEnd (Android.Views.View view);
+	public override int GetPaddingStart (Android.Views.View view);
+	public override int GetWindowSystemUiVisibility (Android.Views.View view);
+	public override bool IsPaddingRelative (Android.Views.View view);
+	public override void SetLabelFor (Android.Views.View view, int id);
+	public override void SetLayerPaint (Android.Views.View view, Android.Graphics.Paint paint);
+	public override void SetLayoutDirection (Android.Views.View view, int layoutDirection);
+	public override void SetPaddingRelative (Android.Views.View view, int start, int top, int end, int bottom);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi18Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi18Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi17Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.Graphics.Rect GetClipBounds (Android.Views.View view);
+	public override bool IsInLayout (Android.Views.View view);
+	public override void SetClipBounds (Android.Views.View view, Android.Graphics.Rect clipBounds);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi19Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi19Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi18Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetAccessibilityLiveRegion (Android.Views.View view);
+	public override bool IsAttachedToWindow (Android.Views.View view);
+	public override bool IsLaidOut (Android.Views.View view);
+	public override bool IsLayoutDirectionResolved (Android.Views.View view);
+	public override void SetAccessibilityLiveRegion (Android.Views.View view, int mode);
+	public override void SetImportantForAccessibility (Android.Views.View view, int mode);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi21Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi21Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi19Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override WindowInsetsCompat DispatchApplyWindowInsets (Android.Views.View v, WindowInsetsCompat insets);
+	public override bool DispatchNestedFling (Android.Views.View view, float velocityX, float velocityY, bool consumed);
+	public override bool DispatchNestedPreFling (Android.Views.View view, float velocityX, float velocityY);
+	public override bool DispatchNestedPreScroll (Android.Views.View view, int dx, int dy, int[] consumed, int[] offsetInWindow);
+	public override bool DispatchNestedScroll (Android.Views.View view, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed, int[] offsetInWindow);
+	public override Android.Content.Res.ColorStateList GetBackgroundTintList (Android.Views.View view);
+	public override Android.Graphics.PorterDuff.Mode GetBackgroundTintMode (Android.Views.View view);
+	public override float GetElevation (Android.Views.View view);
+	public override string GetTransitionName (Android.Views.View view);
+	public override float GetTranslationZ (Android.Views.View view);
+	public override float GetZ (Android.Views.View view);
+	public override bool HasNestedScrollingParent (Android.Views.View view);
+	public override bool IsImportantForAccessibility (Android.Views.View view);
+	public override bool IsNestedScrollingEnabled (Android.Views.View view);
+	public override void OffsetLeftAndRight (Android.Views.View view, int offset);
+	public override void OffsetTopAndBottom (Android.Views.View view, int offset);
+	public override WindowInsetsCompat OnApplyWindowInsets (Android.Views.View v, WindowInsetsCompat insets);
+	public override void RequestApplyInsets (Android.Views.View view);
+	public override void SetBackgroundTintList (Android.Views.View view, Android.Content.Res.ColorStateList tintList);
+	public override void SetBackgroundTintMode (Android.Views.View view, Android.Graphics.PorterDuff.Mode mode);
+	public override void SetElevation (Android.Views.View view, float elevation);
+	public override void SetNestedScrollingEnabled (Android.Views.View view, bool enabled);
+	public override void SetOnApplyWindowInsetsListener (Android.Views.View view, IOnApplyWindowInsetsListener listener);
+	public override void SetTransitionName (Android.Views.View view, string transitionName);
+	public override void SetTranslationZ (Android.Views.View view, float translationZ);
+	public override void SetZ (Android.Views.View view, float z);
+	public override bool StartNestedScroll (Android.Views.View view, int axes);
+	public override void StopNestedScroll (Android.Views.View view);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi23Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi23Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi21Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetScrollIndicators (Android.Views.View view);
+	public override void OffsetLeftAndRight (Android.Views.View view, int offset);
+	public override void OffsetTopAndBottom (Android.Views.View view, int offset);
+	public override void SetScrollIndicators (Android.Views.View view, int indicators);
+	public override void SetScrollIndicators (Android.Views.View view, int indicators, int mask);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi24Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi24Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi23Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void CancelDragAndDrop (Android.Views.View view);
+	public override void DispatchFinishTemporaryDetach (Android.Views.View view);
+	public override void DispatchStartTemporaryDetach (Android.Views.View view);
+	public override void SetPointerIcon (Android.Views.View view, PointerIconCompat pointerIconCompat);
+	public override bool StartDragAndDrop (Android.Views.View view, Android.Content.ClipData data, Android.Views.View.DragShadowBuilder shadowBuilder, Java.Lang.Object localState, int flags);
+	public override void UpdateDragShadow (Android.Views.View view, Android.Views.View.DragShadowBuilder shadowBuilder);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewCompatApi26Impl</h3>
+<pre style='color: green'>
+public class ViewCompatApi26Impl : Android.Support.V4.View.ViewCompat+ViewCompatApi24Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void AddKeyboardNavigationClusters (Android.Views.View view, System.Collections.Generic.ICollection&lt;Android.Views.View&gt; views, int direction);
+	public override int GetImportantForAutofill (Android.Views.View v);
+	public override int GetNextClusterForwardId (Android.Views.View view);
+	public override bool HasExplicitFocusable (Android.Views.View view);
+	public override bool IsFocusedByDefault (Android.Views.View view);
+	public override bool IsImportantForAutofill (Android.Views.View v);
+	public override bool IsKeyboardNavigationCluster (Android.Views.View view);
+	public override Android.Views.View KeyboardNavigationClusterSearch (Android.Views.View view, Android.Views.View currentCluster, int direction);
+	public override bool RestoreDefaultFocus (Android.Views.View view);
+	public override void SetAutofillHints (Android.Views.View v, string[] autofillHints);
+	public override void SetFocusedByDefault (Android.Views.View view, bool isFocusedByDefault);
+	public override void SetImportantForAutofill (Android.Views.View v, int mode);
+	public override void SetKeyboardNavigationCluster (Android.Views.View view, bool isCluster);
+	public override void SetNextClusterForwardId (Android.Views.View view, int nextClusterForwardId);
+	public override void SetTooltipText (Android.Views.View view, Java.Lang.ICharSequence tooltipText);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.View.ViewGroupCompat</h3>
+<h3>New Type Android.Support.V4.View.ViewGroupCompatApi18Impl</h3>
+<pre style='color: green'>
+public class ViewGroupCompatApi18Impl : Android.Support.V4.View.ViewGroupCompat+ViewGroupCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewGroupCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetLayoutMode (Android.Views.ViewGroup group);
+	public override void SetLayoutMode (Android.Views.ViewGroup group, int mode);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewGroupCompatApi21Impl</h3>
+<pre style='color: green'>
+public class ViewGroupCompatApi21Impl : Android.Support.V4.View.ViewGroupCompat+ViewGroupCompatApi18Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewGroupCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetNestedScrollAxes (Android.Views.ViewGroup group);
+	public override bool IsTransitionGroup (Android.Views.ViewGroup group);
+	public override void SetTransitionGroup (Android.Views.ViewGroup group, bool isTransitionGroup);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.View.ViewParentCompat</h3>
+<h3>New Type Android.Support.V4.View.ViewParentCompatApi19Impl</h3>
+<pre style='color: green'>
+public class ViewParentCompatApi19Impl : Android.Support.V4.View.ViewParentCompat+ViewParentCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewParentCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void NotifySubtreeAccessibilityStateChanged (Android.Views.IViewParent parent, Android.Views.View child, Android.Views.View source, int changeType);
+}
+</pre>
+<h3>New Type Android.Support.V4.View.ViewParentCompatApi21Impl</h3>
+<pre style='color: green'>
+public class ViewParentCompatApi21Impl : Android.Support.V4.View.ViewParentCompat+ViewParentCompatApi19Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ViewParentCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override bool OnNestedFling (Android.Views.IViewParent parent, Android.Views.View target, float velocityX, float velocityY, bool consumed);
+	public override bool OnNestedPreFling (Android.Views.IViewParent parent, Android.Views.View target, float velocityX, float velocityY);
+	public override void OnNestedPreScroll (Android.Views.IViewParent parent, Android.Views.View target, int dx, int dy, int[] consumed);
+	public override void OnNestedScroll (Android.Views.IViewParent parent, Android.Views.View target, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed);
+	public override void OnNestedScrollAccepted (Android.Views.IViewParent parent, Android.Views.View child, Android.Views.View target, int nestedScrollAxes);
+	public override bool OnStartNestedScroll (Android.Views.IViewParent parent, Android.Views.View child, Android.Views.View target, int nestedScrollAxes);
+	public override void OnStopNestedScroll (Android.Views.IViewParent parent, Android.Views.View target);
+}
+</pre>
 
 <h3>Type Changed: Android.Support.V4.View.WindowCompat</h3>
 <p>Added method:</p>
@@ -758,6 +1444,134 @@ public interface IWrappedDrawable : Android.Runtime.IJavaObject, System.IDisposa
 
 
 <h2>Namespace Android.Support.V4.Widget</h2>
+<h3>Type Changed: Android.Support.V4.Widget.CompoundButtonCompat</h3>
+<h3>New Type Android.Support.V4.Widget.CompoundButtonCompatApi21Impl</h3>
+<pre style='color: green'>
+public class CompoundButtonCompatApi21Impl : Android.Support.V4.Widget.CompoundButtonCompat+CompoundButtonCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected CompoundButtonCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.Content.Res.ColorStateList GetButtonTintList (Android.Widget.CompoundButton button);
+	public override Android.Graphics.PorterDuff.Mode GetButtonTintMode (Android.Widget.CompoundButton button);
+	public override void SetButtonTintList (Android.Widget.CompoundButton button, Android.Content.Res.ColorStateList tint);
+	public override void SetButtonTintMode (Android.Widget.CompoundButton button, Android.Graphics.PorterDuff.Mode tintMode);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.CompoundButtonCompatApi23Impl</h3>
+<pre style='color: green'>
+public class CompoundButtonCompatApi23Impl : Android.Support.V4.Widget.CompoundButtonCompat+CompoundButtonCompatApi21Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected CompoundButtonCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.Graphics.Drawables.Drawable GetButtonDrawable (Android.Widget.CompoundButton button);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.Widget.EdgeEffectCompat</h3>
+<h3>New Type Android.Support.V4.Widget.EdgeEffectApi21Impl</h3>
+<pre style='color: green'>
+public class EdgeEffectApi21Impl : Android.Support.V4.Widget.EdgeEffectCompat+EdgeEffectBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected EdgeEffectCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void OnPull (Android.Widget.EdgeEffect edgeEffect, float deltaDistance, float displacement);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.Widget.ImageViewCompat</h3>
+<h3>New Type Android.Support.V4.Widget.LollipopViewCompatImpl</h3>
+<pre style='color: green'>
+public class LollipopViewCompatImpl : Android.Support.V4.Widget.ImageViewCompat+BaseViewCompatImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected ImageViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.Content.Res.ColorStateList GetImageTintList (Android.Widget.ImageView view);
+	public override Android.Graphics.PorterDuff.Mode GetImageTintMode (Android.Widget.ImageView view);
+	public override void SetImageTintList (Android.Widget.ImageView view, Android.Content.Res.ColorStateList tintList);
+	public override void SetImageTintMode (Android.Widget.ImageView view, Android.Graphics.PorterDuff.Mode mode);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.Widget.PopupWindowCompat</h3>
+<h3>New Type Android.Support.V4.Widget.PopupWindowCompatApi19Impl</h3>
+<pre style='color: green'>
+public class PopupWindowCompatApi19Impl : Android.Support.V4.Widget.PopupWindowCompat+PopupWindowCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected PopupWindowCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void ShowAsDropDown (Android.Widget.PopupWindow popup, Android.Views.View anchor, int xoff, int yoff, int gravity);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.PopupWindowCompatApi21Impl</h3>
+<pre style='color: green'>
+public class PopupWindowCompatApi21Impl : Android.Support.V4.Widget.PopupWindowCompat+PopupWindowCompatApi19Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected PopupWindowCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override bool GetOverlapAnchor (Android.Widget.PopupWindow popupWindow);
+	public override void SetOverlapAnchor (Android.Widget.PopupWindow popupWindow, bool overlapAnchor);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.PopupWindowCompatApi23Impl</h3>
+<pre style='color: green'>
+public class PopupWindowCompatApi23Impl : Android.Support.V4.Widget.PopupWindowCompat+PopupWindowCompatApi21Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected PopupWindowCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override bool GetOverlapAnchor (Android.Widget.PopupWindow popupWindow);
+	public override int GetWindowLayoutType (Android.Widget.PopupWindow popupWindow);
+	public override void SetOverlapAnchor (Android.Widget.PopupWindow popupWindow, bool overlapAnchor);
+	public override void SetWindowLayoutType (Android.Widget.PopupWindow popupWindow, int layoutType);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V4.Widget.SlidingPaneLayout</h3>
+<h3>New Type Android.Support.V4.Widget.SlidingPanelLayoutImplJB</h3>
+<pre style='color: green'>
+public class SlidingPanelLayoutImplJB : Android.Support.V4.Widget.SlidingPaneLayout+SlidingPanelLayoutImplBase, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected SlidingPaneLayout (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void InvalidateChildRegion (SlidingPaneLayout parent, Android.Views.View child);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.SlidingPanelLayoutImplJBMR1</h3>
+<pre style='color: green'>
+public class SlidingPanelLayoutImplJBMR1 : Android.Support.V4.Widget.SlidingPaneLayout+SlidingPanelLayoutImplBase, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected SlidingPaneLayout (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void InvalidateChildRegion (SlidingPaneLayout parent, Android.Views.View child);
+}
+</pre>
+
 <h3>Type Changed: Android.Support.V4.Widget.TextViewCompat</h3>
 <p>Added method:</p>
 <pre style='color: green'>
@@ -769,6 +1583,92 @@ public interface IWrappedDrawable : Android.Runtime.IJavaObject, System.IDisposa
 	public virtual void SetCustomSelectionActionModeCallback (Android.Widget.TextView textView, Android.Views.ActionMode.ICallback callback);
 </pre>
 
+<h3>New Type Android.Support.V4.Widget.TextViewCompatApi16Impl</h3>
+<pre style='color: green'>
+public class TextViewCompatApi16Impl : Android.Support.V4.Widget.TextViewCompat+TextViewCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TextViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetMaxLines (Android.Widget.TextView textView);
+	public override int GetMinLines (Android.Widget.TextView textView);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.TextViewCompatApi17Impl</h3>
+<pre style='color: green'>
+public class TextViewCompatApi17Impl : Android.Support.V4.Widget.TextViewCompat+TextViewCompatApi16Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TextViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.Graphics.Drawables.Drawable[] GetCompoundDrawablesRelative (Android.Widget.TextView textView);
+	public override void SetCompoundDrawablesRelative (Android.Widget.TextView textView, Android.Graphics.Drawables.Drawable start, Android.Graphics.Drawables.Drawable top, Android.Graphics.Drawables.Drawable end, Android.Graphics.Drawables.Drawable bottom);
+	public override void SetCompoundDrawablesRelativeWithIntrinsicBounds (Android.Widget.TextView textView, Android.Graphics.Drawables.Drawable start, Android.Graphics.Drawables.Drawable top, Android.Graphics.Drawables.Drawable end, Android.Graphics.Drawables.Drawable bottom);
+	public override void SetCompoundDrawablesRelativeWithIntrinsicBounds (Android.Widget.TextView textView, int start, int top, int end, int bottom);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.TextViewCompatApi18Impl</h3>
+<pre style='color: green'>
+public class TextViewCompatApi18Impl : Android.Support.V4.Widget.TextViewCompat+TextViewCompatApi17Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TextViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override Android.Graphics.Drawables.Drawable[] GetCompoundDrawablesRelative (Android.Widget.TextView textView);
+	public override void SetCompoundDrawablesRelative (Android.Widget.TextView textView, Android.Graphics.Drawables.Drawable start, Android.Graphics.Drawables.Drawable top, Android.Graphics.Drawables.Drawable end, Android.Graphics.Drawables.Drawable bottom);
+	public override void SetCompoundDrawablesRelativeWithIntrinsicBounds (Android.Widget.TextView textView, Android.Graphics.Drawables.Drawable start, Android.Graphics.Drawables.Drawable top, Android.Graphics.Drawables.Drawable end, Android.Graphics.Drawables.Drawable bottom);
+	public override void SetCompoundDrawablesRelativeWithIntrinsicBounds (Android.Widget.TextView textView, int start, int top, int end, int bottom);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.TextViewCompatApi23Impl</h3>
+<pre style='color: green'>
+public class TextViewCompatApi23Impl : Android.Support.V4.Widget.TextViewCompat+TextViewCompatApi18Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TextViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void SetTextAppearance (Android.Widget.TextView textView, int resId);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.TextViewCompatApi26Impl</h3>
+<pre style='color: green'>
+public class TextViewCompatApi26Impl : Android.Support.V4.Widget.TextViewCompat+TextViewCompatApi23Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TextViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void SetCustomSelectionActionModeCallback (Android.Widget.TextView textView, Android.Views.ActionMode.ICallback callback);
+}
+</pre>
+<h3>New Type Android.Support.V4.Widget.TextViewCompatApi27Impl</h3>
+<pre style='color: green'>
+public class TextViewCompatApi27Impl : Android.Support.V4.Widget.TextViewCompat+TextViewCompatApi26Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected TextViewCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override int GetAutoSizeMaxTextSize (Android.Widget.TextView textView);
+	public override int GetAutoSizeMinTextSize (Android.Widget.TextView textView);
+	public override int GetAutoSizeStepGranularity (Android.Widget.TextView textView);
+	public override int[] GetAutoSizeTextAvailableSizes (Android.Widget.TextView textView);
+	public override int GetAutoSizeTextType (Android.Widget.TextView textView);
+	public override void SetAutoSizeTextTypeUniformWithConfiguration (Android.Widget.TextView textView, int autoSizeMinTextSize, int autoSizeMaxTextSize, int autoSizeStepGranularity, int unit);
+	public override void SetAutoSizeTextTypeUniformWithPresetSizes (Android.Widget.TextView textView, int[] presetSizes, int unit);
+	public override void SetAutoSizeTextTypeWithDefaults (Android.Widget.TextView textView, int autoSizeTextType);
+}
+</pre>
 
 <h3>New Type Android.Support.V4.Widget.DirectedAcyclicGraph</h3>
 <pre style='color: green'>
@@ -853,6 +1753,103 @@ public class AppCompatViewInflater : Java.Lang.Object, Android.Runtime.IJavaObje
 	protected virtual Android.Views.View CreateView (Android.Content.Context context, string name, Android.Util.IAttributeSet attrs);
 }
 </pre>
+
+<h2>Namespace Android.Support.V7.Media</h2>
+<h3>Type Changed: Android.Support.V7.Media.RemoteControlClientCompat</h3>
+<h3>New Type Android.Support.V7.Media.JellybeanImpl</h3>
+<pre style='color: green'>
+public class JellybeanImpl : Android.Support.V7.Media.RemoteControlClientCompat, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public RemoteControlClientCompat (Android.Content.Context context, Java.Lang.Object rcc);
+	protected RemoteControlClientCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public override void SetPlaybackInfo (RemoteControlClientCompat.PlaybackInfo info);
+}
+</pre>
+
+<h3>Type Changed: Android.Support.V7.Media.SystemMediaRouteProvider</h3>
+<h3>New Type Android.Support.V7.Media.JellybeanImpl</h3>
+<pre style='color: green'>
+public class JellybeanImpl : Android.Support.V7.Media.SystemMediaRouteProvider, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public SystemMediaRouteProvider (Android.Content.Context context, SystemMediaRouteProvider.ISyncCallback syncCallback);
+	protected SystemMediaRouteProvider (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override Java.Lang.Object DefaultRoute { get; }
+	protected bool MActiveScan { get; set; }
+	protected Java.Lang.Object MCallbackObj { get; set; }
+	protected bool MCallbackRegistered { get; set; }
+	protected Java.Lang.Object MRouterObj { get; set; }
+	protected int MRouteTypes { get; set; }
+	protected System.Collections.IList MSystemRouteRecords { get; set; }
+	protected Java.Lang.Object MUserRouteCategoryObj { get; set; }
+	protected System.Collections.IList MUserRouteRecords { get; set; }
+	protected Java.Lang.Object MVolumeCallbackObj { get; set; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	protected virtual Java.Lang.Object CreateCallbackObj ();
+	protected virtual Java.Lang.Object CreateVolumeCallbackObj ();
+	protected virtual int FindSystemRouteRecord (Java.Lang.Object routeObj);
+	protected virtual int FindSystemRouteRecordByDescriptorId (string id);
+	protected virtual int FindUserRouteRecord (MediaRouter.RouteInfo route);
+	protected virtual string GetRouteName (Java.Lang.Object routeObj);
+	protected override Java.Lang.Object GetSystemRoute (MediaRouter.RouteInfo route);
+	protected virtual SystemMediaRouteProvider.JellybeanImpl.UserRouteRecord GetUserRouteRecord (Java.Lang.Object routeObj);
+	protected virtual void OnBuildSystemRouteDescriptor (SystemMediaRouteProvider.JellybeanImpl.SystemRouteRecord record, MediaRouteDescriptor.Builder builder);
+	public virtual void OnRouteAdded (Java.Lang.Object routeObj);
+	public virtual void OnRouteChanged (Java.Lang.Object routeObj);
+	public virtual void OnRouteGrouped (Java.Lang.Object routeObj, Java.Lang.Object groupObj, int index);
+	public virtual void OnRouteRemoved (Java.Lang.Object routeObj);
+	public virtual void OnRouteSelected (int type, Java.Lang.Object routeObj);
+	public virtual void OnRouteUngrouped (Java.Lang.Object routeObj, Java.Lang.Object groupObj);
+	public virtual void OnRouteUnselected (int type, Java.Lang.Object routeObj);
+	public virtual void OnRouteVolumeChanged (Java.Lang.Object routeObj);
+	public override void OnSyncRouteAdded (MediaRouter.RouteInfo route);
+	public override void OnSyncRouteChanged (MediaRouter.RouteInfo route);
+	public override void OnSyncRouteRemoved (MediaRouter.RouteInfo route);
+	public override void OnSyncRouteSelected (MediaRouter.RouteInfo route);
+	public virtual void OnVolumeSetRequest (Java.Lang.Object routeObj, int volume);
+	public virtual void OnVolumeUpdateRequest (Java.Lang.Object routeObj, int direction);
+	protected virtual void PublishRoutes ();
+	protected virtual void SelectRoute (Java.Lang.Object routeObj);
+	protected virtual void UpdateCallback ();
+	protected virtual void UpdateSystemRouteDescriptor (SystemMediaRouteProvider.JellybeanImpl.SystemRouteRecord record);
+	protected virtual void UpdateUserRouteProperties (SystemMediaRouteProvider.JellybeanImpl.UserRouteRecord record);
+
+	// inner types
+	public sealed class SystemRouteController : Android.Support.V7.Media.MediaRouteProvider+RouteController, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+		// constructors
+		public SystemMediaRouteProvider (Java.Lang.Object routeObj);
+		// properties
+		protected override IntPtr ThresholdClass { get; }
+		protected override System.Type ThresholdType { get; }
+	}
+	public sealed class SystemRouteRecord : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+		// constructors
+		public SystemMediaRouteProvider (Java.Lang.Object routeObj, string id);
+		// properties
+		public MediaRouteDescriptor MRouteDescriptor { get; set; }
+		public string MRouteDescriptorId { get; set; }
+		public Java.Lang.Object MRouteObj { get; set; }
+		protected override IntPtr ThresholdClass { get; }
+		protected override System.Type ThresholdType { get; }
+	}
+	public sealed class UserRouteRecord : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+		// constructors
+		public SystemMediaRouteProvider (MediaRouter.RouteInfo route, Java.Lang.Object routeObj);
+		// properties
+		public MediaRouter.RouteInfo MRoute { get; set; }
+		public Java.Lang.Object MRouteObj { get; set; }
+		protected override IntPtr ThresholdClass { get; }
+		protected override System.Type ThresholdType { get; }
+	}
+}
+</pre>
+
 
 <h2>Namespace Android.Support.V7.Preferences</h2>
 <h3>Type Changed: Android.Support.V7.Preferences.PreferenceGroup</h3>
@@ -1021,6 +2018,12 @@ public class EdgeEffectFactory : Java.Lang.Object, Android.Runtime.IJavaObject, 
 </pre>
 
 <h3>Removed Type <span style='color: red'>Android.Support.V7.Widget.ListViewCompat</span></h3>
+<h2>Removed Namespace Android.Arch.Core</h2>
+
+<h3>Removed Type <span style='color: red'>Android.Arch.Core.BuildConfig</span></h3>
+<h2>Removed Namespace Android.Arch.Lifecycle.Extensions</h2>
+
+<h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.Extensions.BuildConfig</span></h3>
 <h2>Removed Namespace Android.Support.Compat</h2>
 
 <h3>Removed Type <span style='color: red'>Android.Support.Compat.BuildConfig</span></h3>
