@@ -23,9 +23,9 @@ livedata-core and viewmodel
 so in the process i would just bump all the android.arch.* to 1.1.1
 
 ```
-Removed Type Android.Arch.Lifecycle.BuildConfig
-Removed Type Android.Arch.Lifecycle.ComputableLiveData
-Removed Type Android.Arch.Lifecycle.LifecycleActivity
+OK          Removed Type Android.Arch.Lifecycle.BuildConfig
+OK          Removed Type Android.Arch.Lifecycle.ComputableLiveData
+            Removed Type Android.Arch.Lifecycle.LifecycleActivity
 Removed Type Android.Arch.Lifecycle.LifecycleFragment
 Removed Type Android.Arch.Lifecycle.MediatorLiveData
 Removed Type Android.Arch.Lifecycle.Transformations

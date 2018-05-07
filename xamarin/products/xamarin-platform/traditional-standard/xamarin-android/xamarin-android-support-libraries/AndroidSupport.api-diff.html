@@ -97,6 +97,12 @@ public class LongDefAttribute : System.Attribute {
 	public virtual bool OnTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent event);
 </pre>
 
+<h3>Type Changed: Android.Support.Design.Widget.BottomSheetDialogFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
 <h3>Type Changed: Android.Support.Design.Widget.CoordinatorLayout</h3>
 <p>Removed properties:</p>
 
@@ -171,7 +177,7 @@ public interface IAttachedBehavior : Android.Runtime.IJavaObject, System.IDispos
 	public virtual bool OnLayoutChild (CoordinatorLayout parent, Java.Lang.Object child, int layoutDirection);
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.Design.Widget.BottomSheetDialogFragment</span></h3>
+
 <h2>Namespace Android.Support.Graphics.Drawable</h2>
 <h3>Removed Type <span style='color: red'>Android.Support.Graphics.Drawable.BuildConfig</span></h3>
 <h2>Namespace Android.Support.Media.TV</h2>
@@ -1784,15 +1790,25 @@ public class ViewGroupUtils : Java.Lang.Object, Android.Runtime.IJavaObject, Jav
 	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
-<h3>Type Changed: Android.Support.V7.App.MediaRouteDialogFactory</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual MediaRouteChooserDialogFragment OnCreateChooserDialogFragment ();
-	public virtual MediaRouteControllerDialogFragment OnCreateControllerDialogFragment ();
+<h3>Type Changed: Android.Support.V7.App.MediaRouteChooserDialogFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteChooserDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteControllerDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.App.MediaRouteDiscoveryFragment</span></h3><h3>New Type Android.Support.V7.App.AppCompatViewInflater</h3>
+<h3>Type Changed: Android.Support.V7.App.MediaRouteControllerDialogFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V7.App.MediaRouteDiscoveryFragment</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>New Type Android.Support.V7.App.AppCompatViewInflater</h3>
 <pre style='color: green'>
 public class AppCompatViewInflater : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -1917,6 +1933,36 @@ public class JellybeanImpl : Android.Support.V7.Media.SystemMediaRouteProvider, 
 
 
 <h2>Namespace Android.Support.V7.Preferences</h2>
+<h3>Type Changed: Android.Support.V7.Preferences.EditTextPreferenceDialogFragmentCompat</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V7.Preferences.ListPreferenceDialogFragmentCompat</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V7.Preferences.MultiSelectListPreferenceDialogFragmentCompat</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V7.Preferences.PreferenceDialogFragmentCompat</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
+<h3>Type Changed: Android.Support.V7.Preferences.PreferenceFragmentCompat</h3>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Arch.Lifecycle.IViewModelStoreOwner
+</pre>
+
 <h3>Type Changed: Android.Support.V7.Preferences.PreferenceGroup</h3>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -1931,7 +1977,7 @@ public interface IPreferenceInstanceStateCallback : Android.Runtime.IJavaObject,
 }
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.BuildConfig</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.EditTextPreferenceDialogFragmentCompat</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.ListPreferenceDialogFragmentCompat</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.MultiSelectListPreferenceDialogFragmentCompat</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.PreferenceDialogFragmentCompat</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.PreferenceFragmentCompat</span></h3>
+<h3>Removed Type <span style='color: red'>Android.Support.V7.Preferences.BuildConfig</span></h3>
 <h2>Namespace Android.Support.V7.Util</h2>
 <h3>Type Changed: Android.Support.V7.Util.DiffUtil</h3>
 <h3>New Type Android.Support.V7.Util.ItemCallback</h3>
