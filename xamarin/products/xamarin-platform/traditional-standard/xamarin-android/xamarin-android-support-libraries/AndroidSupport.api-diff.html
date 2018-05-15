@@ -344,6 +344,16 @@ public interface IWatchNextType : Android.Runtime.IJavaObject, Java.Lang.Annotat
 </pre>
 
 
+<h2>Namespace Android.Support.V14.Preferences</h2>
+<h3>Type Changed: Android.Support.V14.Preferences.MultiSelectListPreference</h3>
+<p>Removed methods:</p>
+
+<pre style='color: red'>
+	public System.Collections.Generic.ICollection&lt;string&gt; GetValues ();
+	public virtual void SetValues (System.Collections.Generic.ICollection&lt;string&gt; values);
+</pre>
+
+<h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.BuildConfig</span></h3>
 <h2>Namespace Android.Support.V17.Leanback.App</h2>
 <h3>Type Changed: Android.Support.V17.Leanback.App.BaseRowSupportFragment</h3>
 <p>Added interface:</p>
@@ -497,6 +507,26 @@ public class GuidedActionDiffCallback : Android.Support.V17.Leanback.Widget.Diff
 <h2>Namespace Android.Support.V17.Preferences.Leanback</h2>
 <h3>Type Changed: Android.Support.V17.Preferences.Leanback.BaseLeanbackPreferenceFragment</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Android.Support.V14.Preferences.PreferenceFragment</span></span> <span style='color:green'>Android.Support.V14.Preference.PreferenceFragment</span>
+<p>Removed interfaces:</p>
+
+<pre style='color: red'>
+	Android.Content.IComponentCallbacks
+	Android.Content.IComponentCallbacks2
+	Android.Runtime.IJavaObject
+	Java.Interop.IJavaPeerable
+	System.IDisposable
+</pre>
+
+<h3>Type Changed: Android.Support.V17.Preferences.Leanback.LeanbackPreferenceFragment</h3>
+<p>Removed interfaces:</p>
+
+<pre style='color: red'>
+	Android.Content.IComponentCallbacks
+	Android.Content.IComponentCallbacks2
+	Android.Runtime.IJavaObject
+	Java.Interop.IJavaPeerable
+	System.IDisposable
+</pre>
 
 <h3>Type Changed: Android.Support.V17.Preferences.Leanback.LeanbackSettingsFragment</h3>
 <p>Removed methods:</p>
@@ -1192,9 +1222,6 @@ public class EdgeEffectFactory : Java.Lang.Object, Android.Runtime.IJavaObject, 
 <h2>Removed Namespace Android.Support.V13</h2>
 
 <h3>Removed Type <span style='color: red'>Android.Support.V13.BuildConfig</span></h3>
-<h2>Removed Namespace Android.Support.V14.Preferences</h2>
-
-<h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.BuildConfig</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.EditTextPreferenceDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.ListPreferenceDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.MultiSelectListPreference</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.MultiSelectListPreferenceDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.PreferenceDialogFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.PreferenceFragment</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V14.Preferences.SwitchPreference</span></h3>
 <h2>Removed Namespace Android.Support.V17.Leanback</h2>
 
 <h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.BuildConfig</span></h3>
@@ -1222,170 +1249,6 @@ public class EdgeEffectFactory : Java.Lang.Object, Android.Runtime.IJavaObject, 
 <h2>Removed Namespace Android.Support.Wear</h2>
 
 <h3>Removed Type <span style='color: red'>Android.Support.Wear.BuildConfig</span></h3>
-<h2>New Namespace Android.Support.V14.Preference</h2>
-
-<h3>New Type Android.Support.V14.Preference.EditTextPreferenceDialogFragment</h3>
-<pre style='color: green'>
-public class EditTextPreferenceDialogFragment : Android.Support.V14.Preference.PreferenceDialogFragment, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Content.IDialogInterfaceOnCancelListener, Android.Content.IDialogInterfaceOnClickListener, Android.Content.IDialogInterfaceOnDismissListener, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	public EditTextPreferenceDialogFragment ();
-	protected EditTextPreferenceDialogFragment (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public static EditTextPreferenceDialogFragment NewInstance (string key);
-	public override void OnDialogClosed (bool positiveResult);
-}
-</pre>
-<h3>New Type Android.Support.V14.Preference.ListPreferenceDialogFragment</h3>
-<pre style='color: green'>
-public class ListPreferenceDialogFragment : Android.Support.V14.Preference.PreferenceDialogFragment, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Content.IDialogInterfaceOnCancelListener, Android.Content.IDialogInterfaceOnClickListener, Android.Content.IDialogInterfaceOnDismissListener, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	public ListPreferenceDialogFragment ();
-	protected ListPreferenceDialogFragment (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public static ListPreferenceDialogFragment NewInstance (string key);
-	public override void OnDialogClosed (bool positiveResult);
-}
-</pre>
-<h3>New Type Android.Support.V14.Preference.MultiSelectListPreference</h3>
-<pre style='color: green'>
-public class MultiSelectListPreference : Android.Support.V7.Preference.Internal.AbstractMultiSelectListPreference, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.Lang.IComparable, System.IDisposable {
-	// constructors
-	public MultiSelectListPreference (Android.Content.Context context);
-	public MultiSelectListPreference (Android.Content.Context context, Android.Util.IAttributeSet attrs);
-	protected MultiSelectListPreference (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public MultiSelectListPreference (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr);
-	public MultiSelectListPreference (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr, int defStyleRes);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	public override System.Collections.Generic.ICollection&lt;string&gt; Values { get; set; }
-	// methods
-	public virtual int FindIndexOfValue (string value);
-	public string[] GetEntries ();
-	public override Java.Lang.ICharSequence[] GetEntriesFormatted ();
-	public string[] GetEntryValues ();
-	public override Java.Lang.ICharSequence[] GetEntryValuesFormatted ();
-	protected virtual bool[] GetSelectedItems ();
-	public virtual void SetEntries (Java.Lang.ICharSequence[] entries);
-	public virtual void SetEntries (int entriesResId);
-	public void SetEntries (string[] entries);
-	public virtual void SetEntryValues (Java.Lang.ICharSequence[] entryValues);
-	public virtual void SetEntryValues (int entryValuesResId);
-	public void SetEntryValues (string[] entryValues);
-}
-</pre>
-<h3>New Type Android.Support.V14.Preference.MultiSelectListPreferenceDialogFragment</h3>
-<pre style='color: green'>
-public class MultiSelectListPreferenceDialogFragment : Android.Support.V14.Preference.PreferenceDialogFragment, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Content.IDialogInterfaceOnCancelListener, Android.Content.IDialogInterfaceOnClickListener, Android.Content.IDialogInterfaceOnDismissListener, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	public MultiSelectListPreferenceDialogFragment ();
-	protected MultiSelectListPreferenceDialogFragment (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public static MultiSelectListPreferenceDialogFragment NewInstance (string key);
-	public override void OnDialogClosed (bool positiveResult);
-}
-</pre>
-<h3>New Type Android.Support.V14.Preference.PreferenceDialogFragment</h3>
-<pre style='color: green'>
-public abstract class PreferenceDialogFragment : Android.App.DialogFragment, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Content.IDialogInterfaceOnCancelListener, Android.Content.IDialogInterfaceOnClickListener, Android.Content.IDialogInterfaceOnDismissListener, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	public PreferenceDialogFragment ();
-	protected PreferenceDialogFragment (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// fields
-	protected static const string ArgKey = "key";
-	// properties
-	public virtual Android.Support.V7.Preferences.DialogPreference Preference { get; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	protected virtual bool NeedInputMethod ();
-	protected virtual void OnBindDialogView (Android.Views.View view);
-	public virtual void OnClick (Android.Content.IDialogInterface dialog, int which);
-	protected virtual Android.Views.View OnCreateDialogView (Android.Content.Context context);
-	public virtual void OnDialogClosed (bool positiveResult);
-	protected virtual void OnPrepareDialogBuilder (Android.App.AlertDialog.Builder builder);
-}
-</pre>
-<h3>New Type Android.Support.V14.Preference.PreferenceFragment</h3>
-<pre style='color: green'>
-public abstract class PreferenceFragment : Android.App.Fragment, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	public PreferenceFragment ();
-	protected PreferenceFragment (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// fields
-	public static const string ArgPreferenceRoot = "android.support.v7.preference.PreferenceFragmentCompat.PREFERENCE_ROOT";
-	// properties
-	public virtual Android.App.Fragment CallbackFragment { get; }
-	public Android.Support.V7.Widget.RecyclerView ListView { get; }
-	public virtual Android.Support.V7.Preferences.PreferenceManager PreferenceManager { get; }
-	public virtual Android.Support.V7.Preferences.PreferenceScreen PreferenceScreen { get; set; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public virtual void AddPreferencesFromResource (int preferencesResId);
-	public virtual Android.Support.V7.Preferences.Preference FindPreference (Java.Lang.ICharSequence key);
-	public Android.Support.V7.Preferences.Preference FindPreference (string key);
-	protected virtual void OnBindPreferences ();
-	protected virtual Android.Support.V7.Widget.RecyclerView.Adapter OnCreateAdapter (Android.Support.V7.Preferences.PreferenceScreen preferenceScreen);
-	public virtual Android.Support.V7.Widget.RecyclerView.LayoutManager OnCreateLayoutManager ();
-	public virtual void OnCreatePreferences (Android.OS.Bundle savedInstanceState, string rootKey);
-	public virtual Android.Support.V7.Widget.RecyclerView OnCreateRecyclerView (Android.Views.LayoutInflater inflater, Android.Views.ViewGroup parent, Android.OS.Bundle savedInstanceState);
-	public virtual void OnDisplayPreferenceDialog (Android.Support.V7.Preferences.Preference preference);
-	public virtual void OnNavigateToScreen (Android.Support.V7.Preferences.PreferenceScreen preferenceScreen);
-	public virtual bool OnPreferenceTreeClick (Android.Support.V7.Preferences.Preference preference);
-	protected virtual void OnUnbindPreferences ();
-	public virtual void ScrollToPreference (Android.Support.V7.Preferences.Preference preference);
-	public virtual void ScrollToPreference (string key);
-	public virtual void SetDivider (Android.Graphics.Drawables.Drawable divider);
-	public virtual void SetDividerHeight (int height);
-	public virtual void SetPreferencesFromResource (int preferencesResId, string key);
-
-	// inner types
-	public interface IOnPreferenceDisplayDialogCallback : Android.Runtime.IJavaObject, System.IDisposable {
-		// methods
-		public virtual bool OnPreferenceDisplayDialog (PreferenceFragment caller, Android.Support.V7.Preferences.Preference pref);
-	}
-	public interface IOnPreferenceStartFragmentCallback : Android.Runtime.IJavaObject, System.IDisposable {
-		// methods
-		public virtual bool OnPreferenceStartFragment (PreferenceFragment caller, Android.Support.V7.Preferences.Preference pref);
-	}
-	public interface IOnPreferenceStartScreenCallback : Android.Runtime.IJavaObject, System.IDisposable {
-		// methods
-		public virtual bool OnPreferenceStartScreen (PreferenceFragment caller, Android.Support.V7.Preferences.PreferenceScreen pref);
-	}
-}
-</pre>
-<h3>New Type Android.Support.V14.Preference.SwitchPreference</h3>
-<pre style='color: green'>
-public class SwitchPreference : Android.Support.V7.Preferences.TwoStatePreference, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.Lang.IComparable, System.IDisposable {
-	// constructors
-	public SwitchPreference (Android.Content.Context context);
-	public SwitchPreference (Android.Content.Context context, Android.Util.IAttributeSet attrs);
-	protected SwitchPreference (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public SwitchPreference (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr);
-	public SwitchPreference (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr, int defStyleRes);
-	// properties
-	public string SwitchTextOff { get; set; }
-	public virtual Java.Lang.ICharSequence SwitchTextOffFormatted { get; set; }
-	public string SwitchTextOn { get; set; }
-	public virtual Java.Lang.ICharSequence SwitchTextOnFormatted { get; set; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public virtual void SetSwitchTextOff (int resId);
-	public virtual void SetSwitchTextOn (int resId);
-}
-</pre>
-
 <h2>New Namespace Android.Support.V7.Recyclerview.Extensions</h2>
 
 <h3>New Type Android.Support.V7.Recyclerview.Extensions.AsyncDifferConfig</h3>
