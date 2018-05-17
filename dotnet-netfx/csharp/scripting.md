@@ -4,19 +4,19 @@ scripting.md
 
 2018-03-20 basically 3 options:
 
-1.  csi
+1.  `csi`
 
     Installed by default with .NET/Mono
 
     `/Library/Frameworks/Mono.framework/Versions/Current/Commands/csi`
 
-2.  scriptcs
+2.  `scriptcs`
 
     *   http://scriptcs.net/
 
     *   https://github.com/scriptcs/scriptcs
 
-3.  csharp
+3.  `csharp`
 
     Installed by default with Mono
 
@@ -25,6 +25,8 @@ scripting.md
     *   http://tirania.org/blog/archive/2010/Apr-27.html
 
     *   http://tirania.org/blog/archive/2008/Sep-08.html
+
+4.  `dotnet script`
 
 
 ## Tips & Tricks
@@ -69,7 +71,7 @@ On mac OSX:
     $ csi ./REPL.Demo.01.scriptcs.csx 
 ```
 
-## ScriptCS
+## `ScriptCS`
 
 ScriptCS is superset of CSI! (packages and `#r` references)
 
@@ -124,7 +126,7 @@ Extensions needed:
 
 
 
-## csharp
+## `csharp`
 
 mono utility
 
@@ -146,11 +148,40 @@ NOTEs:
     $ csharp
 ```
 
-#### batch Execute ScriptCS
+#### batch Execute csharp
 
 ```
     $ csharp ./REPL.Demo.01.scriptcs.csx 
 ```
+
+https://msdn.microsoft.com/en-us/magazine/mt614271.aspx
+
+## `dotnet script`
+
+https://www.strathweb.com/2017/11/c-script-runner-for-net-core-2-0/
+
+```
+    curl -s https://raw.githubusercontent.com/filipw/dotnet-script/master/install/install.sh \
+    | \
+    sudo bash
+```
+
+scripts are executed as netcoreapp2.0 and all the dependencies are automatically resolved using 
+such runtime. 
+
+The recommended way of loading Nuget packages is to use inline NuGet references which have been 
+part of the runner for a while now. This allows your scripts to be entirely self contained.
+
+```
+```
+
+
+
+
+
+
+
+
 
 So to run a CSX file you need a CSX runner on your machine - kinda like to run a 
 .NET Core application, you need a .NET Core installation or to run a desktop .NET 
