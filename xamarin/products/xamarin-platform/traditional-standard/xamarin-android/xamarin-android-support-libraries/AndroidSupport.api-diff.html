@@ -10,14 +10,33 @@
 <pre style='color: green'>
 	IViewModelStoreOwner
 </pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public virtual ViewModelStore ViewModelStore { get; }
+<p>Modified properties:</p>
+<pre>
+	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> ViewModelStore ViewModelStore { get; }
 </pre>
 
 <h3>Type Changed: Android.Arch.Lifecycle.LiveData</h3>
-<h3>Removed Type <span style='color: red'>Android.Arch.Lifecycle.LiveData.LifecycleBoundObserver</span></h3>
+<h3>Type Changed: Android.Arch.Lifecycle.LiveData.LifecycleBoundObserver</h3>
+Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Arch.Lifecycle.LiveData+ObserverWrapper</span>
+<p>Removed properties:</p>
+
+<pre style='color: red'>
+	public bool Active { get; set; }
+	public int LastVersion { get; set; }
+	public ILifecycleOwner Owner { get; set; }
+</pre>
+
+<h3>New Type Android.Arch.Lifecycle.ObserverWrapper</h3>
+<pre style='color: green'>
+public abstract class ObserverWrapper : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected LiveData (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
+
 <h3>Type Changed: Android.Arch.Lifecycle.ViewModelProvider</h3>
 <h3>New Type Android.Arch.Lifecycle.AndroidViewModelFactory</h3>
 <pre style='color: green'>
@@ -268,7 +287,7 @@ public interface IWatchNextType : Android.Runtime.IJavaObject, Java.Lang.Annotat
 <h3>Type Changed: Android.Support.Text.Emoji.MetadataRepo</h3>
 <p>Modified properties:</p>
 <pre>
-	public <span style='text-decoration: line-through'><span style='color:red'>Flatbuffer.MetadataList</span></span> <span style='color:green'>Androidx.Text.Emoji.Flatbuffer.MetadataList</span> MetadataList { get; }
+	public <span style='text-decoration: line-through'><span style='color:red'>Flatbuffer.MetadataList</span></span> <span style='color:green'>AndroidX.Text.Emoji.FlatBuffer.MetadataList</span> MetadataList { get; }
 </pre>
 
 <h3>Removed Type <span style='color: red'>Android.Support.Text.Emoji.BuildConfig</span></h3>
@@ -505,44 +524,6 @@ public class GuidedActionDiffCallback : Android.Support.V17.Leanback.Widget.Diff
 </pre>
 
 <h2>Namespace Android.Support.V17.Preferences.Leanback</h2>
-<h3>Type Changed: Android.Support.V17.Preferences.Leanback.BaseLeanbackPreferenceFragment</h3>
-Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Android.Support.V14.Preferences.PreferenceFragment</span></span> <span style='color:green'>Android.Support.V14.Preference.PreferenceFragment</span>
-<p>Removed interfaces:</p>
-
-<pre style='color: red'>
-	Android.Content.IComponentCallbacks
-	Android.Content.IComponentCallbacks2
-	Android.Runtime.IJavaObject
-	Java.Interop.IJavaPeerable
-	System.IDisposable
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Preferences.Leanback.LeanbackPreferenceFragment</h3>
-<p>Removed interfaces:</p>
-
-<pre style='color: red'>
-	Android.Content.IComponentCallbacks
-	Android.Content.IComponentCallbacks2
-	Android.Runtime.IJavaObject
-	Java.Interop.IJavaPeerable
-	System.IDisposable
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Preferences.Leanback.LeanbackSettingsFragment</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual bool OnPreferenceDisplayDialog (Android.Support.V14.Preferences.PreferenceFragment caller, Android.Support.V7.Preferences.Preference pref);
-	public virtual bool OnPreferenceStartFragment (Android.Support.V14.Preferences.PreferenceFragment caller, Android.Support.V7.Preferences.Preference pref);
-	public virtual bool OnPreferenceStartScreen (Android.Support.V14.Preferences.PreferenceFragment caller, Android.Support.V7.Preferences.PreferenceScreen pref);
-</pre>
-<p>Added methods:</p>
-<pre style='color: green'>
-	public virtual bool OnPreferenceDisplayDialog (Android.Support.V14.Preference.PreferenceFragment caller, Android.Support.V7.Preferences.Preference pref);
-	public virtual bool OnPreferenceStartFragment (Android.Support.V14.Preference.PreferenceFragment caller, Android.Support.V7.Preferences.Preference pref);
-	public virtual bool OnPreferenceStartScreen (Android.Support.V14.Preference.PreferenceFragment caller, Android.Support.V7.Preferences.PreferenceScreen pref);
-</pre>
-
 <h3>Removed Type <span style='color: red'>Android.Support.V17.Preferences.Leanback.BuildConfig</span></h3>
 <h2>Namespace Android.Support.V4.App</h2>
 <h3>Type Changed: Android.Support.V4.App.ActivityCompat</h3>
@@ -690,35 +671,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 
 
-<h2>Namespace Android.Support.V4.Graphics</h2>
-<h3>Type Changed: Android.Support.V4.Graphics.BitmapCompat</h3>
-<h3>New Type Android.Support.V4.Graphics.BitmapCompatApi18Impl</h3>
-<pre style='color: green'>
-public class BitmapCompatApi18Impl : Android.Support.V4.Graphics.BitmapCompat+BitmapCompatBaseImpl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	protected BitmapCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public override bool HasMipMap (Android.Graphics.Bitmap bitmap);
-	public override void SetHasMipMap (Android.Graphics.Bitmap bitmap, bool hasMipMap);
-}
-</pre>
-<h3>New Type Android.Support.V4.Graphics.BitmapCompatApi19Impl</h3>
-<pre style='color: green'>
-public class BitmapCompatApi19Impl : Android.Support.V4.Graphics.BitmapCompat+BitmapCompatApi18Impl, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	protected BitmapCompat (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public override int GetAllocationByteCount (Android.Graphics.Bitmap bitmap);
-}
-</pre>
-
-
 <h2>Namespace Android.Support.V4.Graphics.Drawable</h2>
 <h3>Type Changed: Android.Support.V4.Graphics.Drawable.IconCompat</h3>
 <p>Obsoleted methods:</p>
@@ -846,20 +798,6 @@ public class ExtraSession : Android.Support.V4.Media.Session.MediaSessionStub, A
 
 
 <h2>Namespace Android.Support.V4.Widget</h2>
-<h3>Type Changed: Android.Support.V4.Widget.SlidingPaneLayout</h3>
-<h3>New Type Android.Support.V4.Widget.SlidingPanelLayoutImplJB</h3>
-<pre style='color: green'>
-public class SlidingPanelLayoutImplJB : Android.Support.V4.Widget.SlidingPaneLayout+SlidingPanelLayoutImplBase, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	protected SlidingPaneLayout (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public override void InvalidateChildRegion (SlidingPaneLayout parent, Android.Views.View child);
-}
-</pre>
-
 <h3>Type Changed: Android.Support.V4.Widget.TextViewCompat</h3>
 <p>Added method:</p>
 <pre style='color: green'>
@@ -979,7 +917,44 @@ public class AppCompatViewInflater : Java.Lang.Object, Android.Runtime.IJavaObje
 </pre>
 
 <h2>Namespace Android.Support.V7.Media</h2>
-<h3>Removed Type <span style='color: red'>Android.Support.V7.Media.SystemMediaRouteProvider</span></h3>
+<h3>Type Changed: Android.Support.V7.Media.SystemMediaRouteProvider</h3>
+<h3>New Type Android.Support.V7.Media.SystemRouteController</h3>
+<pre style='color: green'>
+public sealed class SystemRouteController : Android.Support.V7.Media.MediaRouteProvider+RouteController, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public SystemMediaRouteProvider (Java.Lang.Object routeObj);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
+<h3>New Type Android.Support.V7.Media.SystemRouteRecord</h3>
+<pre style='color: green'>
+public sealed class SystemRouteRecord : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public SystemMediaRouteProvider (Java.Lang.Object routeObj, string id);
+	// properties
+	public MediaRouteDescriptor MRouteDescriptor { get; set; }
+	public string MRouteDescriptorId { get; set; }
+	public Java.Lang.Object MRouteObj { get; set; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
+<h3>New Type Android.Support.V7.Media.UserRouteRecord</h3>
+<pre style='color: green'>
+public sealed class UserRouteRecord : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public SystemMediaRouteProvider (MediaRouter.RouteInfo route, Java.Lang.Object routeObj);
+	// properties
+	public MediaRouter.RouteInfo MRoute { get; set; }
+	public Java.Lang.Object MRouteObj { get; set; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
+
+
 <h2>Namespace Android.Support.V7.Preferences</h2>
 <h3>Type Changed: Android.Support.V7.Preferences.EditTextPreferenceDialogFragmentCompat</h3>
 <p>Added interface:</p>
@@ -1307,100 +1282,9 @@ public abstract class ListAdapter : Android.Support.V7.Widget.RecyclerView+Adapt
 }
 </pre>
 
-<h2>New Namespace Androidx.Browser.Browseractions</h2>
+<h2>New Namespace AndroidX.Text.Emoji.FlatBuffer</h2>
 
-<h3>New Type Androidx.Browser.Browseractions.BrowserActionItem</h3>
-<pre style='color: green'>
-public class BrowserActionItem : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	protected BrowserActionItem (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public BrowserActionItem (string title, Android.App.PendingIntent action);
-	public BrowserActionItem (string title, Android.App.PendingIntent action, int iconId);
-	// properties
-	public virtual Android.App.PendingIntent Action { get; }
-	public virtual int IconId { get; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	public virtual string Title { get; }
-}
-</pre>
-<h3>New Type Androidx.Browser.Browseractions.BrowserActionsFallbackMenuView</h3>
-<pre style='color: green'>
-public class BrowserActionsFallbackMenuView : Android.Widget.LinearLayout, Android.Runtime.IJavaObject, Android.Views.Accessibility.IAccessibilityEventSource, Android.Views.IViewManager, Android.Views.IViewParent, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	public BrowserActionsFallbackMenuView (Android.Content.Context context, Android.Util.IAttributeSet attrs);
-	protected BrowserActionsFallbackMenuView (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// properties
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-}
-</pre>
-<h3>New Type Androidx.Browser.Browseractions.BrowserActionsIntent</h3>
-<pre style='color: green'>
-public class BrowserActionsIntent : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// constructors
-	protected BrowserActionsIntent (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	// fields
-	public static const string ActionBrowserActionsOpen = "androidx.browser.browseractions.browser_action_open";
-	public static const string ExtraAppId = "androidx.browser.browseractions.APP_ID";
-	public static const string ExtraMenuItems = "androidx.browser.browseractions.extra.MENU_ITEMS";
-	public static const string ExtraSelectedActionPendingIntent = "androidx.browser.browseractions.extra.SELECTED_ACTION_PENDING_INTENT";
-	public static const string ExtraType = "androidx.browser.browseractions.extra.TYPE";
-	public static const int ItemCopy;
-	public static const int ItemDownload;
-	public static const int ItemInvalidItem;
-	public static const int ItemOpenInIncognito;
-	public static const int ItemOpenInNewTab;
-	public static const int ItemShare;
-	public static const string KeyAction = "androidx.browser.browseractions.ACTION";
-	public static const string KeyIconId = "androidx.browser.browseractions.ICON_ID";
-	public static const string KeyTitle = "androidx.browser.browseractions.TITLE";
-	public static const int MaxCustomItems;
-	public static const int UrlTypeAudio;
-	public static const int UrlTypeFile;
-	public static const int UrlTypeImage;
-	public static const int UrlTypeNone;
-	public static const int UrlTypePlugin;
-	public static const int UrlTypeVideo;
-	// properties
-	public virtual Android.Content.Intent Intent { get; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public static string GetCreatorPackageName (Android.Content.Intent intent);
-	public static void LaunchIntent (Android.Content.Context context, Android.Content.Intent intent);
-	public static void OpenBrowserAction (Android.Content.Context context, Android.Net.Uri uri);
-	public static void OpenBrowserAction (Android.Content.Context context, Android.Net.Uri uri, int type, System.Collections.Generic.IList&lt;BrowserActionItem&gt; items, Android.App.PendingIntent pendingIntent);
-	public static System.Collections.Generic.IList&lt;BrowserActionItem&gt; ParseBrowserActionItems (System.Collections.Generic.IList&lt;Android.OS.Bundle&gt; bundles);
-
-	// inner types
-	public sealed class Builder : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-		// constructors
-		public BrowserActionsIntent (Android.Content.Context context, Android.Net.Uri uri);
-		// properties
-		protected override IntPtr ThresholdClass { get; }
-		protected override System.Type ThresholdType { get; }
-		// methods
-		public BrowserActionsIntent Build ();
-		public BrowserActionsIntent.Builder SetCustomItems (BrowserActionItem[] items);
-		public BrowserActionsIntent.Builder SetCustomItems (System.Collections.Generic.IList&lt;BrowserActionItem&gt; items);
-		public BrowserActionsIntent.Builder SetOnItemSelectedAction (Android.App.PendingIntent onItemSelectedPendingIntent);
-		public BrowserActionsIntent.Builder SetUrlType (int type);
-	}
-	public interface IBrowserActionsFallDialogListener : Android.Runtime.IJavaObject, System.IDisposable {
-		// methods
-		public virtual void OnDialogShown ();
-	}
-	public interface IBrowserActionsItemId : Android.Runtime.IJavaObject, Java.Lang.Annotation.IAnnotation, System.IDisposable {
-	}
-	public interface IBrowserActionsUrlType : Android.Runtime.IJavaObject, Java.Lang.Annotation.IAnnotation, System.IDisposable {
-	}
-}
-</pre>
-
-<h2>New Namespace Androidx.Text.Emoji.Flatbuffer</h2>
-
-<h3>New Type Androidx.Text.Emoji.Flatbuffer.Constants</h3>
+<h3>New Type AndroidX.Text.Emoji.FlatBuffer.Constants</h3>
 <pre style='color: green'>
 public class Constants : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -1411,7 +1295,7 @@ public class Constants : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Int
 	protected override System.Type ThresholdType { get; }
 }
 </pre>
-<h3>New Type Androidx.Text.Emoji.Flatbuffer.FlatBufferBuilder</h3>
+<h3>New Type AndroidX.Text.Emoji.FlatBuffer.FlatBufferBuilder</h3>
 <pre style='color: green'>
 public class FlatBufferBuilder : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -1504,9 +1388,9 @@ public class FlatBufferBuilder : Java.Lang.Object, Android.Runtime.IJavaObject, 
 	}
 }
 </pre>
-<h3>New Type Androidx.Text.Emoji.Flatbuffer.MetadataItem</h3>
+<h3>New Type AndroidX.Text.Emoji.FlatBuffer.MetadataItem</h3>
 <pre style='color: green'>
-public sealed class MetadataItem : Androidx.Text.Emoji.Flatbuffer.Table, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+public sealed class MetadataItem : AndroidX.Text.Emoji.FlatBuffer.Table, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public MetadataItem ();
 	// properties
@@ -1540,9 +1424,9 @@ public sealed class MetadataItem : Androidx.Text.Emoji.Flatbuffer.Table, Android
 	public short Width ();
 }
 </pre>
-<h3>New Type Androidx.Text.Emoji.Flatbuffer.MetadataList</h3>
+<h3>New Type AndroidX.Text.Emoji.FlatBuffer.MetadataList</h3>
 <pre style='color: green'>
-public sealed class MetadataList : Androidx.Text.Emoji.Flatbuffer.Table, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+public sealed class MetadataList : AndroidX.Text.Emoji.FlatBuffer.Table, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public MetadataList ();
 	// properties
@@ -1570,7 +1454,7 @@ public sealed class MetadataList : Androidx.Text.Emoji.Flatbuffer.Table, Android
 	public int Version ();
 }
 </pre>
-<h3>New Type Androidx.Text.Emoji.Flatbuffer.Struct</h3>
+<h3>New Type AndroidX.Text.Emoji.FlatBuffer.Struct</h3>
 <pre style='color: green'>
 public class Struct : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -1583,7 +1467,7 @@ public class Struct : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Intero
 	protected override System.Type ThresholdType { get; }
 }
 </pre>
-<h3>New Type Androidx.Text.Emoji.Flatbuffer.Table</h3>
+<h3>New Type AndroidX.Text.Emoji.FlatBuffer.Table</h3>
 <pre style='color: green'>
 public class Table : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -1611,6 +1495,97 @@ public class Table : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop
 	protected static int CompareStrings (int offset_1, int offset_2, Java.Nio.ByteBuffer bb);
 	protected virtual int KeysCompare (Java.Lang.Integer o1, Java.Lang.Integer o2, Java.Nio.ByteBuffer bb);
 	protected virtual void SortTables (int[] offsets, Java.Nio.ByteBuffer bb);
+}
+</pre>
+
+<h2>New Namespace Androidx.Browser.Browseractions</h2>
+
+<h3>New Type Androidx.Browser.Browseractions.BrowserActionItem</h3>
+<pre style='color: green'>
+public class BrowserActionItem : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected BrowserActionItem (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	public BrowserActionItem (string title, Android.App.PendingIntent action);
+	public BrowserActionItem (string title, Android.App.PendingIntent action, int iconId);
+	// properties
+	public virtual Android.App.PendingIntent Action { get; }
+	public virtual int IconId { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	public virtual string Title { get; }
+}
+</pre>
+<h3>New Type Androidx.Browser.Browseractions.BrowserActionsFallbackMenuView</h3>
+<pre style='color: green'>
+public class BrowserActionsFallbackMenuView : Android.Widget.LinearLayout, Android.Runtime.IJavaObject, Android.Views.Accessibility.IAccessibilityEventSource, Android.Views.IViewManager, Android.Views.IViewParent, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public BrowserActionsFallbackMenuView (Android.Content.Context context, Android.Util.IAttributeSet attrs);
+	protected BrowserActionsFallbackMenuView (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
+<h3>New Type Androidx.Browser.Browseractions.BrowserActionsIntent</h3>
+<pre style='color: green'>
+public class BrowserActionsIntent : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected BrowserActionsIntent (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// fields
+	public static const string ActionBrowserActionsOpen = "androidx.browser.browseractions.browser_action_open";
+	public static const string ExtraAppId = "androidx.browser.browseractions.APP_ID";
+	public static const string ExtraMenuItems = "androidx.browser.browseractions.extra.MENU_ITEMS";
+	public static const string ExtraSelectedActionPendingIntent = "androidx.browser.browseractions.extra.SELECTED_ACTION_PENDING_INTENT";
+	public static const string ExtraType = "androidx.browser.browseractions.extra.TYPE";
+	public static const int ItemCopy;
+	public static const int ItemDownload;
+	public static const int ItemInvalidItem;
+	public static const int ItemOpenInIncognito;
+	public static const int ItemOpenInNewTab;
+	public static const int ItemShare;
+	public static const string KeyAction = "androidx.browser.browseractions.ACTION";
+	public static const string KeyIconId = "androidx.browser.browseractions.ICON_ID";
+	public static const string KeyTitle = "androidx.browser.browseractions.TITLE";
+	public static const int MaxCustomItems;
+	public static const int UrlTypeAudio;
+	public static const int UrlTypeFile;
+	public static const int UrlTypeImage;
+	public static const int UrlTypeNone;
+	public static const int UrlTypePlugin;
+	public static const int UrlTypeVideo;
+	// properties
+	public virtual Android.Content.Intent Intent { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public static string GetCreatorPackageName (Android.Content.Intent intent);
+	public static void LaunchIntent (Android.Content.Context context, Android.Content.Intent intent);
+	public static void OpenBrowserAction (Android.Content.Context context, Android.Net.Uri uri);
+	public static void OpenBrowserAction (Android.Content.Context context, Android.Net.Uri uri, int type, System.Collections.Generic.IList&lt;BrowserActionItem&gt; items, Android.App.PendingIntent pendingIntent);
+	public static System.Collections.Generic.IList&lt;BrowserActionItem&gt; ParseBrowserActionItems (System.Collections.Generic.IList&lt;Android.OS.Bundle&gt; bundles);
+
+	// inner types
+	public sealed class Builder : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+		// constructors
+		public BrowserActionsIntent (Android.Content.Context context, Android.Net.Uri uri);
+		// properties
+		protected override IntPtr ThresholdClass { get; }
+		protected override System.Type ThresholdType { get; }
+		// methods
+		public BrowserActionsIntent Build ();
+		public BrowserActionsIntent.Builder SetCustomItems (BrowserActionItem[] items);
+		public BrowserActionsIntent.Builder SetCustomItems (System.Collections.Generic.IList&lt;BrowserActionItem&gt; items);
+		public BrowserActionsIntent.Builder SetOnItemSelectedAction (Android.App.PendingIntent onItemSelectedPendingIntent);
+		public BrowserActionsIntent.Builder SetUrlType (int type);
+	}
+	public interface IBrowserActionsFallDialogListener : Android.Runtime.IJavaObject, System.IDisposable {
+		// methods
+		public virtual void OnDialogShown ();
+	}
+	public interface IBrowserActionsItemId : Android.Runtime.IJavaObject, Java.Lang.Annotation.IAnnotation, System.IDisposable {
+	}
+	public interface IBrowserActionsUrlType : Android.Runtime.IJavaObject, Java.Lang.Annotation.IAnnotation, System.IDisposable {
+	}
 }
 </pre>
 
