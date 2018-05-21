@@ -1,9 +1,87 @@
 # Blazor = Browser + Razor
 
-
 # Blazor
 
-blazor.md
+Blazor = Browser + Razor
+
+Blazor is a single page web app experimental web framework for C#/F# and Razor with HTML built on .NET 
+that runs in the browser via WebAssembly.
+
+Blazor runs in any browser, bacause it uses only the latest web standards. No plugins or transpilation needed. 
+It runs in the browser on a real .NET runtime (Mono) implemented in WebAssembly that executes normal .NET assemblies. 
+It works in older browsers too by falling back to an asm.js based .NET runtime.
+Developers author Blazor apps using Razor, HTML and .NET languages like C# or F#.
+
+
+Blazor will have all the features of a modern web framework, including:
+
+* A component model for building composable UI
+
+* Routing
+
+* Layouts
+
+* Forms and validation
+
+* Dependency injection
+
+* JavaScript interop
+
+* Live reloading in the browser during development
+
+* Server-side rendering
+
+* Full .NET debugging both in browsers and in the IDE
+
+* Rich IntelliSense and tooling
+
+* Ability to run on older (non-WebAssembly) browsers via asm.js
+
+* Publishing and app size trimming
+
+
+
+## Definition[s]
+
+*   reverse of nodejs
+
+    "C# everywhere on the backend, why not the whole stack in C#?"
+
+
+*   https://blazor.net/
+
+    https://blazor.net/docs/host-and-deploy/index.html#github-pages
+
+    https://blazor.net/docs/host-and-deploy/index.html#github-pages
+
+*   https://learn-blazor.com/
+
+*   https://github.com/aspnet/Blazor
+
+*   https://github.com/aspnet/Blazor/milestone/7
+
+*   https://github.com/aspnet/Blazor.Docs
+
+*   https://thednp.github.io/bootstrap.native/
+
+    http://thednp.github.io/bootstrap.native/v4.html
+
+*   https://github.com/Daddoon/Blazor.Polyfill
+
+*   https://github.com/stefan-schweiger/dotWasmBenchmark
+
+*   https://github.com/dotnet/corert/blob/master/Documentation/how-to-build-WebAssembly.md
+
+*   https://github.com/RSuter/NSwag
+
+*   https://github.com/BlazorExtensions/BlazorMaterial
+
+*   https://github.com/BlazorExtensions/Canvas
+
+*   https://github.com/BlazorExtensions/Storage
+
+*   https://github.com/aspnet/Blazor#using-ci-builds-of-blazor
+
 
 ## Intro
 
@@ -35,7 +113,8 @@ The app includes
 Blazor is not just a new Silverlight. The biggest difference is that it does not require a plugin
 
 
-Unlike former platforms like Silverlight, it does not bring its own rendering engine to paint pixels on the screen.
+Unlike former platforms like Silverlight, it does not bring its own rendering engine to paint 
+pixels on the screen.
 
 Blazor uses the Browser’s DOM to display data.
 
@@ -43,16 +122,20 @@ C# code running in WebAssembly cannot access the DOM directly. It has to go thro
 
 The C#-part of Blazor creates a Render Tree which is a tree of UI items.
 
-The render tree is passed from WebAssembly to the Rendering in the JavaScript-part of Blazor. It executes the corresponding DOM changes.
+The render tree is passed from WebAssembly to the Rendering in the JavaScript-part of Blazor. 
+It executes the corresponding DOM changes.
 
-Whenever the user interacts with the DOM (e.g. mouse click, enter text, etc.), the JavaScript-part of Blazor dispatches an event to C#.
+Whenever the user interacts with the DOM (e.g. mouse click, enter text, etc.), the JavaScript-part of 
+Blazor dispatches an event to C#.
 
 The event is processed by the C#-code of the web app.
 
-If the DOM changes, a Render Batch with all the UI tree differences (not the entire UI tree) is built in C# and given to a JavaScript Blazor method that applies the DOM changes.
+If the DOM changes, a Render Batch with all the UI tree differences (not the entire UI tree) is built 
+in C# and given to a JavaScript Blazor method that applies the DOM changes.
 
 
-Because Blazor is using the regular browser DOM, all usual DOM mechanisms including CSS work keep working.
+Because Blazor is using the regular browser DOM, all usual DOM mechanisms including CSS work keep 
+working.
 
 
 
