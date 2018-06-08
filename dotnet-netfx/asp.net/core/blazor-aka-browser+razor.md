@@ -50,6 +50,8 @@ Blazor will have all the features of a modern web framework, including:
 
 *   https://blazor.net/
 
+    https://blazor.net/docs/introduction/index.html
+
     https://blazor.net/docs/host-and-deploy/index.html#github-pages
 
     https://blazor.net/docs/host-and-deploy/index.html#github-pages
@@ -208,3 +210,34 @@ COPY nginx.conf /etc/nginx/nginx.conf
 *   https://blogs.msdn.microsoft.com/webdev/2018/02/06/blazor-experimental-project/
 
 *   http://blog.stevensanderson.com/2018/02/06/blazor-intro/
+
+*   https://www.hanselman.com/blog/NETAndWebAssemblyIsThisTheFutureOfTheFrontend.aspx
+
+*   http://devepar.com/archives/4749
+
+*   https://github.com/aspnet/Blazor
+
+*   https://github.com/aspnet/Blazor-Hackathon
+
+*   https://github.com/robertsundstrom/ChatSample-WebAssembly-SignalR
+
+*   https://codedaze.io/creating-blazor-component-libraries/
+
+*   https://dotnetcore.gaprogman.com/2018/04/05/blazor-you-want-to-run-net-where/
+
+*   https://www.youtube.com/watch?v=MiLAE6HMr10&feature=youtu.be&t=1875
+
+*   http://gunnarpeipman.com/aspnet/blazor-preview/
+
+*   http://blog.tdwright.co.uk/2018/03/05/blazor-and-net-core-hosting-the-futures-bright/
+
+*   http://blog.tdwright.co.uk/2018/03/25/getting-started-with-blazor-my-red-pill-moment/
+
+*   https://www.c-sharpcorner.com/article/introduction-to-blazor-with-net-core/
+
+*   https://dotnetthoughts.net/getting-started-with-blazor/
+
+```
+dotnet new -i Microsoft.AspNetCore.Blazor.Templates
+dotnet new --list
+```

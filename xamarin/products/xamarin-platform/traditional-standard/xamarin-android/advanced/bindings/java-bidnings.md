@@ -23,4 +23,11 @@ Java code JNI Bridge that passes calls from Android java to C#:
 	obj\$(Configuration)\android
 
 
+## References / Links
+
+*   https://gist.github.com/JonDouglas/dda6d8ace7d071b0e8cb
+
+*   https://gist.github.com/brendanzagaeski/9337026
+
+
 	
