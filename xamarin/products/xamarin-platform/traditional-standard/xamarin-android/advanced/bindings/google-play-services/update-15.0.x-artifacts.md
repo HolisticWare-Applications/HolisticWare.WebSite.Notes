@@ -9,7 +9,7 @@
     -->
 
 
-
+```
 auth-api-impl                   11.6.0
 play-services-ads               15.0.1
 play-services-ads-base          15.0.1
@@ -58,8 +58,9 @@ play-services-vision                    15.0.2
 play-services-vision-common             15.0.2
 play-services-vision-image-label        15.0.0          new
 play-services-wearable                  15.0.1
+```
 
-
+```
 firebase-abt                            16.0.0          new
 firebase-ads                            15.0.1          
 firebase-ads-lite                       15.0.1          new
@@ -96,5 +97,5 @@ firebase-storage                        16.0.1
 firebase-storage-common                 16.0.1
 protolite-well-known-types              15.0.0          new?
 testlab-instr-lib                       0.1             new?
-
+```
 
