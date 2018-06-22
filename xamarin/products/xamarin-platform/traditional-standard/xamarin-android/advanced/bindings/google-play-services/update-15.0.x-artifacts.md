@@ -10,7 +10,6 @@
 
 
 ```
-auth-api-impl                   11.6.0
 play-services-ads               15.0.1
 play-services-ads-base          15.0.1
 play-services-ads-identifier    15.0.1
@@ -68,10 +67,7 @@ firebase-analytics                      16.0.1
 firebase-analytics-impl                 16.1.1
 firebase-appindexing                    16.0.1
 firebase-auth                           16.0.2
-firebase-auth-common                    9.8.0           new
-firebase-auth-impl                      11.0.0          new
 firebase-auth-interop                   16.0.0          new
-firebase-auth-module                    9.8.0           new
 firebase-common                         16.0.0  
 firebase-config                         16.0.0
 firebase-core                           16.0.1
@@ -96,6 +92,5 @@ firebase-perf                           16.0.0
 firebase-storage                        16.0.1
 firebase-storage-common                 16.0.1
 protolite-well-known-types              15.0.0          new?
-testlab-instr-lib                       0.1             new?
 ```
 
