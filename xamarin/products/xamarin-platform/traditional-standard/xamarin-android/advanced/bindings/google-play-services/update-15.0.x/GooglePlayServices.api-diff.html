@@ -104,9 +104,7 @@
 <h3>Type Changed: Android.Gms.Ads.AdView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public AdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public AdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public AdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public AdView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -114,6 +112,11 @@
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.BaseAdView</h3>
+<p>Modified constructors:</p>
+<pre>
+	public BaseAdView (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>p1</span> <span style='color:green'>attrs</span>, int <span style='text-decoration: line-through'>p2</span> <span style='color:green'>defStyleAttr</span>)
+	public BaseAdView (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>p1</span> <span style='color:green'>attrs</span>, int <span style='text-decoration: line-through'>p2</span> <span style='color:green'>defStyleAttr</span>, int <span style='text-decoration: line-through'>p3</span> <span style='color:green'>defStyleRes</span>)
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -126,10 +129,6 @@
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.InterstitialAd</h3>
-<p>Modified constructors:</p>
-<pre>
-	public InterstitialAd (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -154,9 +153,7 @@
 <h3>Type Changed: Android.Gms.Ads.NativeExpressAdView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public NativeExpressAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public NativeExpressAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public NativeExpressAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public NativeExpressAdView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -230,9 +227,7 @@
 <h3>Type Changed: Android.Gms.Ads.DoubleClick.PublisherAdView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public PublisherAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public PublisherAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public PublisherAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public PublisherAdView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -245,10 +240,6 @@
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.DoubleClick.PublisherInterstitialAd</h3>
-<p>Modified constructors:</p>
-<pre>
-	public PublisherInterstitialAd (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -272,26 +263,12 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 
 <h2>Namespace Android.Gms.Ads.Formats</h2>
 <h3>Type Changed: Android.Gms.Ads.Formats.AdChoicesView</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AdChoicesView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public AdChoicesView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public AdChoicesView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>)
-	public AdChoicesView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>defStyleRes</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.Formats.MediaView</h3>
-<p>Modified constructors:</p>
-<pre>
-	public MediaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public MediaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public MediaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>)
-	public MediaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>defStyleRes</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -332,13 +309,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 
 
 <h3>Type Changed: Android.Gms.Ads.Formats.NativeAdView</h3>
-<p>Modified constructors:</p>
-<pre>
-	public NativeAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public NativeAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public NativeAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>)
-	public NativeAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>defStyleRes</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -351,13 +321,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.Formats.NativeAppInstallAdView</h3>
-<p>Modified constructors:</p>
-<pre>
-	public NativeAppInstallAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public NativeAppInstallAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public NativeAppInstallAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>)
-	public NativeAppInstallAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>defStyleRes</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -374,13 +337,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.Formats.NativeContentAdView</h3>
-<p>Modified constructors:</p>
-<pre>
-	public NativeContentAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public NativeContentAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public NativeContentAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>)
-	public NativeContentAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyleAttr</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>defStyleRes</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -511,10 +467,10 @@ public class UnifiedNativeAdAssetNames : Java.Lang.Object, Android.Runtime.IJava
 <pre style='color: green'>
 public sealed class UnifiedNativeAdView : Android.Widget.FrameLayout, Android.Runtime.IJavaObject, Android.Views.Accessibility.IAccessibilityEventSource, Android.Views.IViewManager, Android.Views.IViewParent, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public UnifiedNativeAdView (Android.Content.Context p0);
-	public UnifiedNativeAdView (Android.Content.Context p0, Android.Util.IAttributeSet p1);
-	public UnifiedNativeAdView (Android.Content.Context p0, Android.Util.IAttributeSet p1, int p2);
-	public UnifiedNativeAdView (Android.Content.Context p0, Android.Util.IAttributeSet p1, int p2, int p3);
+	public UnifiedNativeAdView (Android.Content.Context context);
+	public UnifiedNativeAdView (Android.Content.Context context, Android.Util.IAttributeSet attrs);
+	public UnifiedNativeAdView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr);
+	public UnifiedNativeAdView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr, int defStyleRes);
 	// properties
 	public AdChoicesView AdChoicesView { get; set; }
 	public Android.Views.View AdvertiserView { get; set; }
@@ -543,6 +499,21 @@ public sealed class UnifiedNativeAdView : Android.Widget.FrameLayout, Android.Ru
 </pre>
 
 <h2>Namespace Android.Gms.Ads.Mediation</h2>
+<h3>Type Changed: Android.Gms.Ads.Mediation.ContextChangedEventArgs</h3>
+<p>Modified constructors:</p>
+<pre>
+	public ContextChangedEventArgs (Android.Content.Context <span style='text-decoration: line-through'>newContext</span> <span style='color:green'>context</span>)
+</pre>
+<p>Removed property:</p>
+
+<pre style='color: red'>
+	public Android.Content.Context NewContext { get; }
+</pre>
+<p>Added property:</p>
+<pre style='color: green'>
+	public Android.Content.Context Context { get; }
+</pre>
+
 <h3>Type Changed: Android.Gms.Ads.Mediation.IMediationBannerListener</h3>
 <p>Modified methods:</p>
 <pre>
@@ -559,6 +530,12 @@ public sealed class UnifiedNativeAdView : Android.Widget.FrameLayout, Android.Ru
 <p>Added property:</p>
 <pre style='color: red'>
 	public virtual bool IsUnifiedNativeAdRequested { get; }
+</pre>
+
+<h3>Type Changed: Android.Gms.Ads.Mediation.IOnContextChangedListener</h3>
+<p>Modified methods:</p>
+<pre>
+	public abstract void OnContextChanged (Android.Content.Context <span style='text-decoration: line-through'>newContext</span> <span style='color:green'>context</span>)
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.Mediation.MediationBannerAdFailedToLoadEventArgs</h3>
@@ -769,9 +746,7 @@ public class VideoCompletedEventArgs : System.EventArgs {
 <h3>Type Changed: Android.Gms.Ads.Search.SearchAdView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public SearchAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public SearchAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public SearchAdView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public SearchAdView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -2057,7 +2032,7 @@ public class Storage : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Inter
 	// methods
 	public virtual void Clear ();
 	protected virtual string GetFromStore (string p0);
-	public static Storage GetInstance (Android.Content.Context p0);
+	public static Storage GetInstance (Android.Content.Context context);
 	protected virtual void RemoveFromStore (string p0);
 	public virtual void RemoveSavedDefaultGoogleSignInAccount ();
 	public virtual void SaveDefaultGoogleSignInAccount (Android.Gms.Auth.Api.SignIn.GoogleSignInAccount p0, Android.Gms.Auth.Api.SignIn.GoogleSignInOptions p1);
@@ -3110,6 +3085,13 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
+<h3>Type Changed: Android.Gms.Cast.Framework.IOptionsProvider</h3>
+<p>Modified methods:</p>
+<pre>
+	public abstract System.Collections.Generic.IList&lt;SessionProvider&gt; GetAdditionalSessionProviders (Android.Content.Context <span style='text-decoration: line-through'>appContext</span> <span style='color:green'>context</span>)
+	public abstract CastOptions GetCastOptions (Android.Content.Context <span style='text-decoration: line-through'>appContext</span> <span style='color:green'>context</span>)
+</pre>
+
 <h3>Type Changed: Android.Gms.Cast.Framework.IntroductoryOverlayBuilder</h3>
 <p>Modified constructors:</p>
 <pre>
@@ -3192,6 +3174,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h2>Namespace Android.Gms.Cast.Framework.Internal.FeatureHighlight</h2>
 <h3>Type Changed: Android.Gms.Cast.Framework.Internal.FeatureHighlight.HelpTextView</h3>
+<p>Modified constructors:</p>
+<pre>
+	public HelpTextView (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>p1</span> <span style='color:green'>attrs</span>)
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3307,10 +3293,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 
 <h3>Type Changed: Android.Gms.Cast.Framework.Media.NotificationActionsProvider</h3>
-<p>Modified constructors:</p>
-<pre>
-	public NotificationActionsProvider (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3704,9 +3686,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <h3>Type Changed: Android.Gms.Common.SignInButton</h3>
 <p>Modified constructors:</p>
 <pre>
-	public SignInButton (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public SignInButton (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public SignInButton (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public SignInButton (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -3843,9 +3823,9 @@ public class GoogleApiAvailabilityLight : Java.Lang.Object, Android.Runtime.IJav
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public virtual void CancelAvailabilityErrorNotifications (Android.Content.Context p0);
-	public virtual int GetApkVersion (Android.Content.Context p0);
-	public virtual int GetClientVersion (Android.Content.Context p0);
+	public virtual void CancelAvailabilityErrorNotifications (Android.Content.Context context);
+	public virtual int GetApkVersion (Android.Content.Context context);
+	public virtual int GetClientVersion (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
 	public virtual Android.Content.Intent GetErrorResolutionIntent (int p0);
@@ -3853,13 +3833,13 @@ public class GoogleApiAvailabilityLight : Java.Lang.Object, Android.Runtime.IJav
 	public virtual Android.App.PendingIntent GetErrorResolutionPendingIntent (Android.Content.Context p0, int p1, int p2);
 	public virtual Android.App.PendingIntent GetErrorResolutionPendingIntent (Android.Content.Context p0, int p1, int p2, string p3);
 	public virtual string GetErrorString (int p0);
-	public virtual int IsGooglePlayServicesAvailable (Android.Content.Context p0);
+	public virtual int IsGooglePlayServicesAvailable (Android.Content.Context context);
 	public virtual int IsGooglePlayServicesAvailable (Android.Content.Context p0, int p1);
 	public virtual bool IsPlayServicesPossiblyUpdating (Android.Content.Context p0, int p1);
 	public virtual bool IsPlayStorePossiblyUpdating (Android.Content.Context p0, int p1);
 	public virtual bool IsUninstalledAppPossiblyUpdating (Android.Content.Context p0, string p1);
 	public virtual bool IsUserResolvableError (int p0);
-	public virtual void VerifyGooglePlayServicesIsAvailable (Android.Content.Context p0);
+	public virtual void VerifyGooglePlayServicesIsAvailable (Android.Content.Context context);
 	public virtual void VerifyGooglePlayServicesIsAvailable (Android.Content.Context p0, int p1);
 }
 </pre>
@@ -3927,20 +3907,20 @@ public class GooglePlayServicesUtilLight : Java.Lang.Object, Android.Runtime.IJa
 	// methods
 
 	[Obsolete ("deprecated")]
-	public static void CancelAvailabilityErrorNotifications (Android.Content.Context p0);
+	public static void CancelAvailabilityErrorNotifications (Android.Content.Context context);
 	public static void EnableUsingApkIndependentContext ();
 
 	[Obsolete ("deprecated")]
-	public static void EnsurePlayServicesAvailable (Android.Content.Context p0);
+	public static void EnsurePlayServicesAvailable (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
 	public static void EnsurePlayServicesAvailable (Android.Content.Context p0, int p1);
 
 	[Obsolete ("deprecated")]
-	public static int GetApkVersion (Android.Content.Context p0);
+	public static int GetApkVersion (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
-	public static int GetClientVersion (Android.Content.Context p0);
+	public static int GetClientVersion (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
 	public static Android.App.PendingIntent GetErrorPendingIntent (int p0, Android.Content.Context p1, int p2);
@@ -3952,13 +3932,13 @@ public class GooglePlayServicesUtilLight : Java.Lang.Object, Android.Runtime.IJa
 	public static Android.Content.Intent GetGooglePlayServicesAvailabilityRecoveryIntent (int p0);
 
 	[Obsolete ("deprecated")]
-	public static string GetOpenSourceSoftwareLicenseInfo (Android.Content.Context p0);
-	public static Android.Content.Context GetRemoteContext (Android.Content.Context p0);
-	public static Android.Content.Res.Resources GetRemoteResource (Android.Content.Context p0);
-	public static bool HonorsDebugCertificates (Android.Content.Context p0);
+	public static string GetOpenSourceSoftwareLicenseInfo (Android.Content.Context context);
+	public static Android.Content.Context GetRemoteContext (Android.Content.Context context);
+	public static Android.Content.Res.Resources GetRemoteResource (Android.Content.Context context);
+	public static bool HonorsDebugCertificates (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
-	public static int IsGooglePlayServicesAvailable (Android.Content.Context p0);
+	public static int IsGooglePlayServicesAvailable (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
 	public static int IsGooglePlayServicesAvailable (Android.Content.Context p0, int p1);
@@ -3971,11 +3951,11 @@ public class GooglePlayServicesUtilLight : Java.Lang.Object, Android.Runtime.IJa
 
 	[Obsolete ("deprecated")]
 	public static bool IsPlayStorePossiblyUpdating (Android.Content.Context p0, int p1);
-	public static bool IsRestrictedUserProfile (Android.Content.Context p0);
+	public static bool IsRestrictedUserProfile (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
-	public static bool IsSidewinderDevice (Android.Content.Context p0);
-	public static bool IsTestKeysBuild (Android.Content.Context p0);
+	public static bool IsSidewinderDevice (Android.Content.Context context);
+	public static bool IsTestKeysBuild (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
 	public static bool IsUserRecoverableError (int p0);
@@ -3997,7 +3977,7 @@ public class GoogleSignatureVerifier : Java.Lang.Object, Android.Runtime.IJavaOb
 
 	[Obsolete ("deprecated")]
 	public virtual System.Collections.Generic.ICollection&lt;System.Byte[]&gt; GetAllGoogleSignatures (bool p0);
-	public static GoogleSignatureVerifier GetInstance (Android.Content.Context p0);
+	public static GoogleSignatureVerifier GetInstance (Android.Content.Context context);
 	public virtual bool IsChimeraSigned (Android.Content.PM.PackageManager p0, Android.Content.PM.PackageInfo p1);
 	public virtual bool IsGooglePublicSignedPackage (Android.Content.PM.PackageInfo p0);
 	public virtual bool IsGooglePublicSignedPackage (Android.Content.PM.PackageInfo p0, bool p1);
@@ -4281,7 +4261,6 @@ public interface ISimpleClient : Android.Runtime.IJavaObject, System.IDisposable
 <h3>Type Changed: Android.Gms.Common.Apis.GoogleApiClient.Builder</h3>
 <p>Modified constructors:</p>
 <pre>
-	public GoogleApiClient (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
 	public GoogleApiClient (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, GoogleApiClient.IConnectionCallbacks <span style='text-decoration: line-through'>connectedListener</span> <span style='color:green'>p1</span>, GoogleApiClient.IOnConnectionFailedListener <span style='text-decoration: line-through'>connectionFailedListener</span> <span style='color:green'>p2</span>)
 </pre>
 <p>Added property:</p>
@@ -4560,7 +4539,7 @@ public sealed class GoogleServices : Java.Lang.Object, Android.Runtime.IJavaObje
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public static Android.Gms.Common.Apis.Statuses Initialize (Android.Content.Context p0);
+	public static Android.Gms.Common.Apis.Statuses Initialize (Android.Content.Context context);
 	public static Android.Gms.Common.Apis.Statuses Initialize (Android.Content.Context p0, string p1, bool p2);
 }
 </pre>
@@ -5978,17 +5957,17 @@ public sealed class DeviceProperties : Java.Lang.Object, Android.Runtime.IJavaOb
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public static bool IsAuto (Android.Content.Context p0);
-	public static bool IsChromeOsDevice (Android.Content.Context p0);
-	public static bool IsIoT (Android.Content.Context p0);
-	public static bool IsLatchsky (Android.Content.Context p0);
-	public static bool IsLowRamOrPreKitKat (Android.Content.Context p0);
-	public static bool IsPixelDevice (Android.Content.Context p0);
-	public static bool IsSidewinder (Android.Content.Context p0);
+	public static bool IsAuto (Android.Content.Context context);
+	public static bool IsChromeOsDevice (Android.Content.Context context);
+	public static bool IsIoT (Android.Content.Context context);
+	public static bool IsLatchsky (Android.Content.Context context);
+	public static bool IsLowRamOrPreKitKat (Android.Content.Context context);
+	public static bool IsPixelDevice (Android.Content.Context context);
+	public static bool IsSidewinder (Android.Content.Context context);
 	public static bool IsTablet (Android.Content.Res.Resources p0);
-	public static bool IsTv (Android.Content.Context p0);
-	public static bool IsWearable (Android.Content.Context p0);
-	public static bool IsWearableWithoutPlayStore (Android.Content.Context p0);
+	public static bool IsTv (Android.Content.Context context);
+	public static bool IsWearable (Android.Content.Context context);
+	public static bool IsWearableWithoutPlayStore (Android.Content.Context context);
 	public static void ResetForTest ();
 	public static void SetIsAutoForTest (bool p0);
 	public static void SetIsIoTForTest (bool p0);
@@ -6008,13 +5987,13 @@ public sealed class DeviceStateUtils : Java.Lang.Object, Android.Runtime.IJavaOb
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public static int GetDeviceState (Android.Content.Context p0);
-	public static float GetPowerPercentage (Android.Content.Context p0);
-	public static bool HasConsentedNlp (Android.Content.Context p0);
-	public static bool IsCallActive (Android.Content.Context p0);
-	public static bool IsInteractive (Android.Content.Context p0);
+	public static int GetDeviceState (Android.Content.Context context);
+	public static float GetPowerPercentage (Android.Content.Context context);
+	public static bool HasConsentedNlp (Android.Content.Context context);
+	public static bool IsCallActive (Android.Content.Context context);
+	public static bool IsInteractive (Android.Content.Context context);
 	public static bool IsInteractive (Android.OS.PowerManager p0);
-	public static bool IsUserSetupComplete (Android.Content.Context p0);
+	public static bool IsUserSetupComplete (Android.Content.Context context);
 	public static void ResetForTest ();
 }
 </pre>
@@ -6225,7 +6204,7 @@ public class InputMethodUtils : Java.Lang.Object, Android.Runtime.IJavaObject, J
 	protected override System.Type ThresholdType { get; }
 	// methods
 	public static bool HideSoftInput (Android.Content.Context p0, Android.Views.View p1);
-	public static bool IsAcceptingText (Android.Content.Context p0);
+	public static bool IsAcceptingText (Android.Content.Context context);
 	public static void Restart (Android.Content.Context p0, Android.Views.View p1);
 	public static bool ShowSoftInput (Android.Content.Context p0, Android.Views.View p1);
 }
@@ -6509,7 +6488,7 @@ public class WorkSourceUtil : Java.Lang.Object, Android.Runtime.IJavaObject, Jav
 	public static int Get (Android.OS.WorkSource p0, int p1);
 	public static string GetName (Android.OS.WorkSource p0, int p1);
 	public static System.Collections.Generic.IList&lt;string&gt; GetNames (Android.OS.WorkSource p0);
-	public static bool HasWorkSourcePermission (Android.Content.Context p0);
+	public static bool HasWorkSourcePermission (Android.Content.Context context);
 	public static int Size (Android.OS.WorkSource p0);
 }
 </pre>
@@ -7419,7 +7398,7 @@ public abstract class RemoteCreator : Java.Lang.Object, Android.Runtime.IJavaObj
 	protected override System.Type ThresholdType { get; }
 	// methods
 	protected virtual Java.Lang.Object GetRemoteCreator (Android.OS.IBinder p0);
-	protected Java.Lang.Object GetRemoteCreatorInstance (Android.Content.Context p0);
+	protected Java.Lang.Object GetRemoteCreatorInstance (Android.Content.Context context);
 
 	// inner types
 	public class RemoteCreatorException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
@@ -7636,7 +7615,6 @@ public abstract class ProviderConstantsConsts : Android.Gms.Dynamite.ProviderCon
 <p>Modified constructors:</p>
 <pre>
 	public U2fApiClient (Android.App.Activity <span style='text-decoration: line-through'>activity</span> <span style='color:green'>p0</span>)
-	public U2fApiClient (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -8023,10 +8001,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Fitness.SessionsApiViewIntentBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SessionsApiViewIntentBuilder (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -8464,6 +8438,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Modified methods:</p>
+<pre>
+	public DataSource.Builder SetAppPackageName (Android.Content.Context <span style='text-decoration: line-through'>appContext</span> <span style='color:green'>context</span>)
 </pre>
 
 
@@ -11121,6 +11099,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.InstantApp.InstantAppsClient</h3>
+<p>Modified constructors:</p>
+<pre>
+	public InstantAppsClient (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+</pre>
 <p>Removed property:</p>
 
 <pre style='color: red'>
@@ -11308,6 +11290,10 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.ActivityRecognitionClient</h3>
+<p>Modified constructors:</p>
+<pre>
+	public ActivityRecognitionClient (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -11368,6 +11354,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.FusedLocationProviderClient</h3>
+<p>Modified constructors:</p>
+<pre>
+	public FusedLocationProviderClient (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+</pre>
 <p>Added field:</p>
 <pre style='color: green'>
 	public static const string KeyVerticalAccuracy = "verticalAccuracy";
@@ -11407,6 +11397,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.GeofencingClient</h3>
+<p>Modified constructors:</p>
+<pre>
+	public GeofencingClient (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -11601,6 +11595,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.SettingsClient</h3>
+<p>Modified constructors:</p>
+<pre>
+	public SettingsClient (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -12038,10 +12036,8 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <h3>Type Changed: Android.Gms.Maps.MapView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public MapView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
 	public MapView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, GoogleMapOptions <span style='text-decoration: line-through'>options</span> <span style='color:green'>p1</span>)
-	public MapView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public MapView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public MapView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -12102,10 +12098,8 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <h3>Type Changed: Android.Gms.Maps.StreetViewPanoramaView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public StreetViewPanoramaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
 	public StreetViewPanoramaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, StreetViewPanoramaOptions <span style='text-decoration: line-through'>options</span> <span style='color:green'>p1</span>)
-	public StreetViewPanoramaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	public StreetViewPanoramaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>p2</span>)
+	public StreetViewPanoramaView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -13017,7 +13011,7 @@ public sealed class StreetViewSource : Android.Gms.Common.Internal.SafeParcel.Ab
 	public static Messages.MessagesClient GetMessagesClient (Android.Content.Context context);
 	public static Messages.MessagesClient GetMessagesClient (Android.App.Activity activity, Messages.MessagesOptions options);
 	public static Messages.MessagesClient GetMessagesClient (Android.Content.Context context, Messages.MessagesOptions options);
-	public static bool Zza (Android.Content.Context p0);
+	public static bool Zza (Android.Content.Context context);
 </pre>
 
 
@@ -13702,11 +13696,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 
 
 <h3>Type Changed: Android.Gms.Plus.PlusOneButton</h3>
-<p>Modified constructors:</p>
-<pre>
-	public PlusOneButton (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-	public PlusOneButton (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Obsoleted fields:</p>
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
@@ -13733,9 +13722,9 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 <p>Obsoleted methods:</p>
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
-	protected static int GetAnnotation (Android.Content.Context p0, Android.Util.IAttributeSet p1);</span>
+	protected static int GetAnnotation (Android.Content.Context context, Android.Util.IAttributeSet attrs);</span>
 	<span style='color:gray'>[Obsolete ("deprecated")]
-	protected static int GetSize (Android.Content.Context p0, Android.Util.IAttributeSet p1);</span>
+	protected static int GetSize (Android.Content.Context context, Android.Util.IAttributeSet attrs);</span>
 	<span style='color:gray'>[Obsolete ("deprecated")]
 	public void Initialize (string url, PlusOneButton.IOnPlusOneClickListener plusOneClickListener);</span>
 	<span style='color:gray'>[Obsolete ("deprecated")]
@@ -13750,11 +13739,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 	public void SetOnPlusOneClickListener (PlusOneButton.IOnPlusOneClickListener listener);</span>
 	<span style='color:gray'>[Obsolete ("deprecated")]
 	public void SetSize (int size);</span>
-</pre>
-<p>Modified methods:</p>
-<pre>
-	protected int GetAnnotation (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
-	protected int GetSize (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Android.Util.IAttributeSet <span style='text-decoration: line-through'>attrs</span> <span style='color:green'>p1</span>)
 </pre>
 <h3>Type Changed: Android.Gms.Plus.PlusOneButton.DefaultOnPlusOneClickListener</h3>
 <p>Modified constructors:</p>
@@ -13841,7 +13825,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 <p>Modified constructors:</p>
 <pre>
 	public PlusShare (Android.App.Activity <span style='text-decoration: line-through'>launchingActivity</span> <span style='color:green'>p0</span>)
-	public PlusShare (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
 </pre>
 <p>Obsoleted properties:</p>
 <pre>
@@ -14024,7 +14007,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre>
 	public abstract Android.Gms.Common.Apis.PendingResult Attest (Android.Gms.Common.Apis.GoogleApiClient <span style='text-decoration: line-through'>client</span> <span style='color:green'>p0</span>, byte[] <span style='text-decoration: line-through'>nonce</span> <span style='color:green'>p1</span>)
 	public abstract Android.Gms.Common.Apis.PendingResult EnableVerifyApps (Android.Gms.Common.Apis.GoogleApiClient <span style='text-decoration: line-through'>client</span> <span style='color:green'>p0</span>)
-	public abstract bool IsVerifyAppsEnabled (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
 	public abstract Android.Gms.Common.Apis.PendingResult IsVerifyAppsEnabled (Android.Gms.Common.Apis.GoogleApiClient <span style='text-decoration: line-through'>client</span> <span style='color:green'>p0</span>)
 	public abstract Android.Gms.Common.Apis.PendingResult ListHarmfulApps (Android.Gms.Common.Apis.GoogleApiClient <span style='text-decoration: line-through'>client</span> <span style='color:green'>p0</span>)
 	public abstract Android.Gms.Common.Apis.PendingResult LookupUri (Android.Gms.Common.Apis.GoogleApiClient <span style='text-decoration: line-through'>client</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>uri</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>apiKey</span> <span style='color:green'>p2</span>, int[] <span style='text-decoration: line-through'>threatTypes</span> <span style='color:green'>p3</span>)
@@ -14252,6 +14234,10 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Modified methods:</p>
+<pre>
+	public void Initialize (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
 </pre>
 
 
@@ -14861,10 +14847,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Vision.Barcodes.BarcodeDetector.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public BarcodeDetector (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -14894,10 +14876,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Vision.Faces.FaceDetector.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FaceDetector (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -15022,10 +15000,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Vision.Texts.TextRecognizer.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public TextRecognizer (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -16853,6 +16827,10 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 </pre>
 
 <h3>Type Changed: Com.Google.Android.Gms.Auth.Api.Phone.SmsRetrieverClient</h3>
+<p>Modified constructors:</p>
+<pre>
+	public SmsRetrieverClient (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18527,6 +18505,12 @@ public interface IMessagePriority : Android.Runtime.IJavaObject, Java.Lang.Annot
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
+<h3>Type Changed: Firebase.Storage.StreamDownloadTask.IStreamProcessor</h3>
+<p>Modified methods:</p>
+<pre>
+	public abstract void DoInBackground (StreamDownloadTask.TaskSnapshot state, System.IO.Stream <span style='text-decoration: line-through'>stream</span> <span style='color:green'>p1</span>)
+</pre>
+
 <h3>Type Changed: Firebase.Storage.StreamDownloadTask.TaskSnapshot</h3>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -18575,6 +18559,11 @@ public interface IMessagePriority : Android.Runtime.IJavaObject, Java.Lang.Annot
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Modified methods:</p>
+<pre>
+	public int GetHeightInPixels (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
+	public int GetWidthInPixels (Android.Content.Context <span style='text-decoration: line-through'>p0</span> <span style='color:green'>context</span>)
 </pre>
 
 
@@ -19080,13 +19069,13 @@ public abstract class GservicesValue : Java.Lang.Object, Android.Runtime.IJavaOb
 	// methods
 
 	[Obsolete ("deprecated")]
-	public static void ForceInit (Android.Content.Context p0);
+	public static void ForceInit (Android.Content.Context context);
 	public static void ForceInit (Android.Content.Context p0, Java.Util.HashSet p1);
 	public Java.Lang.Object Get ();
-	public static Android.Content.ISharedPreferences GetDirectBootCache (Android.Content.Context p0);
+	public static Android.Content.ISharedPreferences GetDirectBootCache (Android.Content.Context context);
 
 	[Obsolete ("deprecated")]
-	public static void Init (Android.Content.Context p0);
+	public static void Init (Android.Content.Context context);
 	public static void Init (Android.Content.Context p0, Java.Util.HashSet p1);
 
 	[Obsolete ("deprecated")]
@@ -19172,9 +19161,9 @@ public sealed class ImageUtils : Java.Lang.Object, Android.Runtime.IJavaObject, 
 <pre style='color: green'>
 public sealed class LoadingImageView : Android.Widget.ImageView, Android.Runtime.IJavaObject, Android.Views.Accessibility.IAccessibilityEventSource, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public LoadingImageView (Android.Content.Context p0);
-	public LoadingImageView (Android.Content.Context p0, Android.Util.IAttributeSet p1);
-	public LoadingImageView (Android.Content.Context p0, Android.Util.IAttributeSet p1, int p2);
+	public LoadingImageView (Android.Content.Context context);
+	public LoadingImageView (Android.Content.Context context, Android.Util.IAttributeSet attrs);
+	public LoadingImageView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int defStyleAttr);
 	// fields
 	public static const int AspectRatioAdjustHeight;
 	public static const int AspectRatioAdjustNone;
@@ -20410,14 +20399,14 @@ public class InstantApps : Java.Lang.Object, Android.Runtime.IJavaObject, Java.I
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public static bool IsInstantApp (Android.Content.Context p0);
+	public static bool IsInstantApp (Android.Content.Context context);
 }
 </pre>
 <h3>New Type Android.Gms.Common.Util.Wrappers.PackageManagerWrapper</h3>
 <pre style='color: green'>
 public class PackageManagerWrapper : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public PackageManagerWrapper (Android.Content.Context p0);
+	public PackageManagerWrapper (Android.Content.Context context);
 	protected PackageManagerWrapper (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	protected virtual Android.Content.Context Context { get; }
@@ -20465,8 +20454,8 @@ public class Wrappers : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Inte
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public virtual PackageManagerWrapper GetPackageManagerWrapper (Android.Content.Context p0);
-	public static PackageManagerWrapper PackageManager (Android.Content.Context p0);
+	public virtual PackageManagerWrapper GetPackageManagerWrapper (Android.Content.Context context);
+	public static PackageManagerWrapper PackageManager (Android.Content.Context context);
 	public static void ResetForTests ();
 	public static void SetWrappers (Wrappers p0);
 }
@@ -20768,7 +20757,7 @@ public class SignInResponseCreator : Java.Lang.Object, Android.OS.IParcelableCre
 public class Fido2ApiClient : Android.Gms.Common.Apis.GoogleApi, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public Fido2ApiClient (Android.App.Activity p0);
-	public Fido2ApiClient (Android.Content.Context p0);
+	public Fido2ApiClient (Android.Content.Context context);
 	protected Fido2ApiClient (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -20784,7 +20773,7 @@ public class Fido2ApiClient : Android.Gms.Common.Apis.GoogleApi, Android.Runtime
 public class Fido2PrivilegedApiClient : Android.Gms.Common.Apis.GoogleApi, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public Fido2PrivilegedApiClient (Android.App.Activity p0);
-	public Fido2PrivilegedApiClient (Android.Content.Context p0);
+	public Fido2PrivilegedApiClient (Android.Content.Context context);
 	protected Fido2PrivilegedApiClient (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
