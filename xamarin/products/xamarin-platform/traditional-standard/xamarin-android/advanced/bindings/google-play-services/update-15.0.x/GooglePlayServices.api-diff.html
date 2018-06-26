@@ -48,10 +48,6 @@
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Ads.AdLoader.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AdLoader (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>adUnitID</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -86,10 +82,6 @@
 
 
 <h3>Type Changed: Android.Gms.Ads.AdSize</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AdSize (int <span style='text-decoration: line-through'>width</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>height</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Removed property:</p>
 
 <pre style='color: red'>
@@ -232,11 +224,6 @@
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-</pre>
-<p>Modified methods:</p>
-<pre>
-	protected override final void OnLayout (bool <span style='text-decoration: line-through'>changed</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>left</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>top</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>right</span> <span style='color:green'>p3</span>, int <span style='text-decoration: line-through'>bottom</span> <span style='color:green'>p4</span>)
-	protected override final void OnMeasure (int <span style='text-decoration: line-through'>widthMeasureSpec</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>heightMeasureSpec</span> <span style='color:green'>p1</span>)
 </pre>
 
 <h3>Type Changed: Android.Gms.Ads.DoubleClick.PublisherInterstitialAd</h3>
@@ -631,10 +618,6 @@ public class UnifiedNativeAdMapper : Java.Lang.Object, Android.Runtime.IJavaObje
 
 <h2>Namespace Android.Gms.Ads.Mediation.Admob</h2>
 <h3>Type Changed: Android.Gms.Ads.Mediation.Admob.AdMobExtras</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AdMobExtras (Android.OS.Bundle <span style='text-decoration: line-through'>extras</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -752,11 +735,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Modified methods:</p>
-<pre>
-	protected override final void OnLayout (bool <span style='text-decoration: line-through'>changed</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>left</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>top</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>right</span> <span style='color:green'>p3</span>, int <span style='text-decoration: line-through'>bottom</span> <span style='color:green'>p4</span>)
-	protected override final void OnMeasure (int <span style='text-decoration: line-through'>widthMeasureSpec</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>heightMeasureSpec</span> <span style='color:green'>p1</span>)
-</pre>
 
 
 <h2>Namespace Android.Gms.Analytics</h2>
@@ -783,10 +761,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.ExceptionReporter</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ExceptionReporter (Tracker <span style='text-decoration: line-through'>tracker</span> <span style='color:green'>p0</span>, Java.Lang.Thread.IUncaughtExceptionHandler <span style='text-decoration: line-through'>originalHandler</span> <span style='color:green'>p1</span>, Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -815,10 +789,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.HitBuilders.EventBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public HitBuilders (string <span style='text-decoration: line-through'>category</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>action</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -837,9 +807,7 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 <p>Modified methods:</p>
 <pre>
-	protected virtual string Get (string <span style='text-decoration: line-through'>paramName</span> <span style='color:green'>p0</span>)
 	public HitBuilders.HitBuilder SetAll (System.Collections.Generic.IDictionary&lt;System.String,System.String&gt; <span style='text-decoration: line-through'>params</span> <span style='color:green'>p0</span>)
-	protected virtual HitBuilders.HitBuilder SetHitType (string <span style='text-decoration: line-through'>hitType</span> <span style='color:green'>p0</span>)
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.HitBuilders.ItemBuilder</h3>
@@ -861,10 +829,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.HitBuilders.TimingBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public HitBuilders (string <span style='text-decoration: line-through'>category</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>variable</span> <span style='color:green'>p1</span>, long <span style='text-decoration: line-through'>value</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -884,19 +848,9 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.StandardExceptionParser</h3>
-<p>Modified constructors:</p>
-<pre>
-	public StandardExceptionParser (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, System.Collections.Generic.ICollection&lt;string&gt; <span style='text-decoration: line-through'>additionalPackages</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-</pre>
-<p>Modified methods:</p>
-<pre>
-	protected virtual Java.Lang.StackTraceElement GetBestStackTraceElement (Java.Lang.Throwable <span style='text-decoration: line-through'>t</span> <span style='color:green'>p0</span>)
-	protected virtual Java.Lang.Throwable GetCause (Java.Lang.Throwable <span style='text-decoration: line-through'>t</span> <span style='color:green'>p0</span>)
-	protected virtual string GetDescription (Java.Lang.Throwable <span style='text-decoration: line-through'>cause</span> <span style='color:green'>p0</span>, Java.Lang.StackTraceElement <span style='text-decoration: line-through'>element</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>threadName</span> <span style='color:green'>p2</span>)
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.Tracker</h3>
@@ -918,10 +872,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 
 <h3>Type Changed: Android.Gms.Analytics.Ecommerce.ProductAction</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ProductAction (string <span style='text-decoration: line-through'>action</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -941,10 +891,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.AppIndexing.Action.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Action (string <span style='text-decoration: line-through'>actionType</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -964,11 +910,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 </pre>
 
 <h3>Type Changed: Android.Gms.AppIndexing.AppIndexApiAppIndexingLink</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AppIndexApiAppIndexingLink (Android.Net.Uri <span style='text-decoration: line-through'>appUri</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p1</span>)
-	public AppIndexApiAppIndexingLink (Android.Net.Uri <span style='text-decoration: line-through'>appUri</span> <span style='color:green'>p0</span>, Android.Net.Uri <span style='text-decoration: line-through'>webUrl</span> <span style='color:green'>p1</span>, Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -1007,11 +948,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.AppInvite.AppInviteInvitation.IntentBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AppInviteInvitation (Java.Lang.ICharSequence <span style='text-decoration: line-through'>title</span> <span style='color:green'>p0</span>)
-	public AppInviteInvitation (string <span style='text-decoration: line-through'>title</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -1038,10 +974,6 @@ public class VideoCompletedEventArgs : System.EventArgs {
 <h2>Namespace Android.Gms.Auth</h2>
 <h3>Type Changed: Android.Gms.Auth.AccountChangeEvent</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public AccountChangeEvent (long <span style='text-decoration: line-through'>id</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>accountName</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>changeType</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>eventIndex</span> <span style='color:green'>p3</span>, string <span style='text-decoration: line-through'>changeData</span> <span style='color:green'>p4</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -1105,12 +1037,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Auth.GoogleAuthException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public GoogleAuthException (Java.Lang.Throwable <span style='text-decoration: line-through'>throwable</span> <span style='color:green'>p0</span>)
-	public GoogleAuthException (string <span style='text-decoration: line-through'>err</span> <span style='color:green'>p0</span>)
-	public GoogleAuthException (string <span style='text-decoration: line-through'>msg</span> <span style='color:green'>p0</span>, Java.Lang.Throwable <span style='text-decoration: line-through'>throwable</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -1148,20 +1074,12 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Auth.UserRecoverableAuthException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public UserRecoverableAuthException (string <span style='text-decoration: line-through'>msg</span> <span style='color:green'>p0</span>, Android.Content.Intent <span style='text-decoration: line-through'>intent</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Android.Gms.Auth.UserRecoverableNotifiedException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public UserRecoverableNotifiedException (string <span style='text-decoration: line-through'>err</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -1345,7 +1263,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre style='color: green'>
 public class AccountTransferException : Android.Gms.Common.Apis.ApiException, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 	// constructors
-	public AccountTransferException (Android.Gms.Common.Apis.Statuses p0);
+	public AccountTransferException (Android.Gms.Common.Apis.Statuses status);
 	protected AccountTransferException (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -1450,11 +1368,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> void WriteToParcel (Android.OS.Parcel out, Android.OS.ParcelableWriteFlags flags)
 </pre>
 <h3>Type Changed: Android.Gms.Auth.Api.Credentials.Credential.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Credential (Credential <span style='text-decoration: line-through'>credential</span> <span style='color:green'>p0</span>)
-	public Credential (string <span style='text-decoration: line-through'>id</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -1529,10 +1442,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Auth.Api.Credentials.IdToken</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public IdToken (string <span style='text-decoration: line-through'>accountType</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>idToken</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -1769,10 +1678,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual string ToJson ();
 </pre>
 <h3>Type Changed: Android.Gms.Auth.Api.SignIn.GoogleSignInOptions.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public GoogleSignInOptions (GoogleSignInOptions <span style='text-decoration: line-through'>googleSignInOptions</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -2467,10 +2372,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public Org.Json.JSONObject ToJson ();
 </pre>
 <h3>Type Changed: Android.Gms.Cast.AdBreakInfo.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AdBreakInfo (long <span style='text-decoration: line-through'>playbackPositionInMs</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -2537,10 +2438,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Cast.CastClass.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public CastClass (CastDevice <span style='text-decoration: line-through'>castDevice</span> <span style='color:green'>p0</span>, CastClass.Listener <span style='text-decoration: line-through'>castListener</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -2586,11 +2483,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.CastPresentation</h3>
-<p>Modified constructors:</p>
-<pre>
-	public CastPresentation (Android.Content.Context <span style='text-decoration: line-through'>serviceContext</span> <span style='color:green'>p0</span>, Android.Views.Display <span style='text-decoration: line-through'>display</span> <span style='color:green'>p1</span>)
-	public CastPresentation (Android.Content.Context <span style='text-decoration: line-through'>serviceContext</span> <span style='color:green'>p0</span>, Android.Views.Display <span style='text-decoration: line-through'>display</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>theme</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -2607,10 +2499,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Cast.CastRemoteDisplay.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public CastRemoteDisplay (CastDevice <span style='text-decoration: line-through'>castDevice</span> <span style='color:green'>p0</span>, CastRemoteDisplay.ICastRemoteDisplaySessionCallbacks <span style='text-decoration: line-through'>callbacks</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -2718,13 +2606,9 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> void WriteToParcel (Android.OS.Parcel out, Android.OS.ParcelableWriteFlags flags)
 </pre>
 <h3>Type Changed: Android.Gms.Cast.MediaInfo.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public MediaInfo (string <span style='text-decoration: line-through'>contentId</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public MediaInfo (string p0, string p1);
+	public MediaInfo (string contentId, string entity);
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -2744,10 +2628,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Cast.MediaMetadata</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public MediaMetadata (int <span style='text-decoration: line-through'>mediaType</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -2786,12 +2666,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> void WriteToParcel (Android.OS.Parcel out, Android.OS.ParcelableWriteFlags flags)
 </pre>
 <h3>Type Changed: Android.Gms.Cast.MediaQueueItem.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public MediaQueueItem (MediaInfo <span style='text-decoration: line-through'>media</span> <span style='color:green'>p0</span>)
-	public MediaQueueItem (MediaQueueItem <span style='text-decoration: line-through'>item</span> <span style='color:green'>p0</span>)
-	public MediaQueueItem (Org.Json.JSONObject <span style='text-decoration: line-through'>json</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -2834,10 +2708,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual int DescribeContents ();
 </pre>
 <h3>Type Changed: Android.Gms.Cast.MediaTrack.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public MediaTrack (long <span style='text-decoration: line-through'>trackId</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>trackType</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3072,12 +2942,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Modified methods:</p>
-<pre>
-	protected override void End (bool <span style='text-decoration: line-through'>stopCasting</span> <span style='color:green'>p0</span>)
-	protected override void Resume (Android.OS.Bundle <span style='text-decoration: line-through'>routeInfoExtra</span> <span style='color:green'>p0</span>)
-	protected override void Start (Android.OS.Bundle <span style='text-decoration: line-through'>routeInfoExtra</span> <span style='color:green'>p0</span>)
-</pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.CastState</h3>
 <p>Added property:</p>
@@ -3093,11 +2957,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.IntroductoryOverlayBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public IntroductoryOverlayBuilder (Android.App.Activity <span style='text-decoration: line-through'>activity</span> <span style='color:green'>p0</span>, Android.Support.V7.App.MediaRouteButton <span style='text-decoration: line-through'>button</span> <span style='color:green'>p1</span>)
-	public IntroductoryOverlayBuilder (Android.App.Activity <span style='text-decoration: line-through'>activity</span> <span style='color:green'>p0</span>, Android.Views.IMenuItem <span style='text-decoration: line-through'>menuItem</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3122,30 +2981,14 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.Session</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected Session (Android.Content.Context <span style='text-decoration: line-through'>applicationContext</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>category</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>sessionId</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Modified methods:</p>
-<pre>
-	protected abstract void End (bool <span style='text-decoration: line-through'>stopCasting</span> <span style='color:green'>p0</span>)
-	protected void NotifyFailedToResumeSession (int <span style='text-decoration: line-through'>error</span> <span style='color:green'>p0</span>)
-	protected void NotifyFailedToStartSession (int <span style='text-decoration: line-through'>error</span> <span style='color:green'>p0</span>)
-	protected void NotifySessionEnded (int <span style='text-decoration: line-through'>error</span> <span style='color:green'>p0</span>)
-	protected void NotifySessionResumed (bool <span style='text-decoration: line-through'>wasSuspended</span> <span style='color:green'>p0</span>)
-	protected void NotifySessionStarted (string <span style='text-decoration: line-through'>sessionId</span> <span style='color:green'>p0</span>)
-	protected void NotifySessionSuspended (int <span style='text-decoration: line-through'>reason</span> <span style='color:green'>p0</span>)
-	protected abstract void Resume (Android.OS.Bundle <span style='text-decoration: line-through'>routeInfoExtra</span> <span style='color:green'>p0</span>)
-	protected abstract void Start (Android.OS.Bundle <span style='text-decoration: line-through'>routeInfoExtra</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added methods:</p>
 <pre style='color: green'>
-	protected virtual void OnResuming (Android.OS.Bundle p0);
-	protected virtual void OnStarting (Android.OS.Bundle p0);
+	protected virtual void OnResuming (Android.OS.Bundle routeInfoExtras);
+	protected virtual void OnStarting (Android.OS.Bundle routeInfoExtras);
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.SessionManager</h3>
@@ -3162,10 +3005,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.SessionProvider</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected SessionProvider (Android.Content.Context <span style='text-decoration: line-through'>applicationContext</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>category</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3241,17 +3080,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-</pre>
-<p>Modified methods:</p>
-<pre>
-	protected virtual void OnReceiveActionForward (Android.Gms.Cast.Framework.Session <span style='text-decoration: line-through'>currentSession</span> <span style='color:green'>p0</span>, long <span style='text-decoration: line-through'>forwardStepMs</span> <span style='color:green'>p1</span>)
-	protected virtual void OnReceiveActionMediaButton (Android.Gms.Cast.Framework.Session <span style='text-decoration: line-through'>currentSession</span> <span style='color:green'>p0</span>, Android.Content.Intent <span style='text-decoration: line-through'>intent</span> <span style='color:green'>p1</span>)
-	protected virtual void OnReceiveActionRewind (Android.Gms.Cast.Framework.Session <span style='text-decoration: line-through'>currentSession</span> <span style='color:green'>p0</span>, long <span style='text-decoration: line-through'>rewindStepMs</span> <span style='color:green'>p1</span>)
-	protected virtual void OnReceiveActionSkipNext (Android.Gms.Cast.Framework.Session <span style='text-decoration: line-through'>currentSession</span> <span style='color:green'>p0</span>)
-	protected virtual void OnReceiveActionSkipPrev (Android.Gms.Cast.Framework.Session <span style='text-decoration: line-through'>currentSession</span> <span style='color:green'>p0</span>)
-	protected virtual void OnReceiveActionTogglePlayback (Android.Gms.Cast.Framework.Session <span style='text-decoration: line-through'>currentSession</span> <span style='color:green'>p0</span>)
-	protected virtual void OnReceiveOtherAction (string <span style='text-decoration: line-through'>action</span> <span style='color:green'>p0</span>, Android.Content.Intent <span style='text-decoration: line-through'>intent</span> <span style='color:green'>p1</span>)
-	protected virtual void OnReceiveOtherAction (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>action</span> <span style='color:green'>p1</span>, Android.Content.Intent <span style='text-decoration: line-through'>intent</span> <span style='color:green'>p2</span>)
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.Media.MediaNotificationService</h3>
@@ -3451,7 +3279,7 @@ public class MediaQueue : Java.Lang.Object, Android.Runtime.IJavaObject, Java.In
 public class MediaQueueArrayAdapter : Android.Widget.ArrayAdapter, Android.Runtime.IJavaObject, Android.Widget.IAdapter, Android.Widget.IFilterable, Android.Widget.IListAdapter, Android.Widget.ISpinnerAdapter, Android.Widget.IThemedSpinnerAdapter, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected MediaQueueArrayAdapter (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public MediaQueueArrayAdapter (MediaQueue p0, Android.Content.Context p1, int p2);
+	public MediaQueueArrayAdapter (MediaQueue mediaQueue, Android.Content.Context context, int resourceId);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 	public virtual MediaQueue MediaQueue { get; }
@@ -3470,10 +3298,6 @@ public class MediaQueueArrayAdapter : Android.Widget.ArrayAdapter, Android.Runti
 </pre>
 
 <h3>Type Changed: Android.Gms.Cast.Framework.Media.UIController.UIMediaController</h3>
-<p>Modified constructors:</p>
-<pre>
-	public UIMediaController (Android.App.Activity <span style='text-decoration: line-through'>activity</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3485,17 +3309,17 @@ public class MediaQueueArrayAdapter : Android.Widget.ArrayAdapter, Android.Runti
 </pre>
 <p>Added methods:</p>
 <pre style='color: green'>
-	protected virtual void OnClosedCaptionClicked (Android.Views.View p0);
-	protected virtual void OnForwardClicked (Android.Views.View p0, long p1);
-	protected virtual void OnLaunchExpandedControllerClicked (Android.Views.View p0);
-	protected virtual void OnMuteToggleClicked (Android.Widget.ImageView p0);
-	protected virtual void OnPlayPauseToggleClicked (Android.Widget.ImageView p0);
-	protected virtual void OnRewindClicked (Android.Views.View p0, long p1);
-	protected virtual void OnSeekBarProgressChanged (Android.Widget.SeekBar p0, int p1, bool p2);
-	protected virtual void OnSeekBarStartTrackingTouch (Android.Widget.SeekBar p0);
-	protected virtual void OnSeekBarStopTrackingTouch (Android.Widget.SeekBar p0);
-	protected virtual void OnSkipNextClicked (Android.Views.View p0);
-	protected virtual void OnSkipPrevClicked (Android.Views.View p0);
+	protected virtual void OnClosedCaptionClicked (Android.Views.View view);
+	protected virtual void OnForwardClicked (Android.Views.View view, long skipStepMs);
+	protected virtual void OnLaunchExpandedControllerClicked (Android.Views.View view);
+	protected virtual void OnMuteToggleClicked (Android.Widget.ImageView view);
+	protected virtual void OnPlayPauseToggleClicked (Android.Widget.ImageView view);
+	protected virtual void OnRewindClicked (Android.Views.View view, long skipStepMs);
+	protected virtual void OnSeekBarProgressChanged (Android.Widget.SeekBar seekBar, int progress, bool fromUser);
+	protected virtual void OnSeekBarStartTrackingTouch (Android.Widget.SeekBar seekBar);
+	protected virtual void OnSeekBarStopTrackingTouch (Android.Widget.SeekBar seekBar);
+	protected virtual void OnSkipNextClicked (Android.Views.View view);
+	protected virtual void OnSkipPrevClicked (Android.Views.View view);
 </pre>
 
 
@@ -3573,12 +3397,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 
 <h3>Type Changed: Android.Gms.Common.ConnectionResult</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public ConnectionResult (int <span style='text-decoration: line-through'>statusCode</span> <span style='color:green'>p0</span>)
-	public ConnectionResult (int <span style='text-decoration: line-through'>statusCode</span> <span style='color:green'>p0</span>, Android.App.PendingIntent <span style='text-decoration: line-through'>pendingIntent</span> <span style='color:green'>p1</span>)
-	public ConnectionResult (int <span style='text-decoration: line-through'>statusCode</span> <span style='color:green'>p0</span>, Android.App.PendingIntent <span style='text-decoration: line-through'>pendingIntent</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Internal.SafeParcel.ISafeParcelable
@@ -3633,10 +3451,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.GooglePlayServicesNotAvailableException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public GooglePlayServicesNotAvailableException (int <span style='text-decoration: line-through'>errorCode</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -3700,10 +3514,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.UserRecoverableException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public UserRecoverableException (string <span style='text-decoration: line-through'>msg</span> <span style='color:green'>p0</span>, Android.Content.Intent <span style='text-decoration: line-through'>intent</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -4135,10 +3945,6 @@ public interface ISimpleClient : Android.Runtime.IJavaObject, System.IDisposable
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.Apis.ApiException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ApiException (Statuses <span style='text-decoration: line-through'>status</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Obsoleted properties:</p>
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
@@ -4259,10 +4065,6 @@ public interface ISimpleClient : Android.Runtime.IJavaObject, System.IDisposable
 	public virtual Android.Gms.Common.Api.Internal.ListenerHolder RegisterListener (Java.Lang.Object p0);
 </pre>
 <h3>Type Changed: Android.Gms.Common.Apis.GoogleApiClient.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public GoogleApiClient (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, GoogleApiClient.IConnectionCallbacks <span style='text-decoration: line-through'>connectedListener</span> <span style='color:green'>p1</span>, GoogleApiClient.IOnConnectionFailedListener <span style='text-decoration: line-through'>connectionFailedListener</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -4323,30 +4125,18 @@ public interface ISimpleClient : Android.Runtime.IJavaObject, System.IDisposable
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.Apis.ResolvableApiException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ResolvableApiException (Statuses <span style='text-decoration: line-through'>status</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.Apis.ResolvingResultCallbacks</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected ResolvingResultCallbacks (Android.App.Activity <span style='text-decoration: line-through'>activity</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>requestCode</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.Apis.Response</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected Response (Java.Lang.Object <span style='text-decoration: line-through'>result</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -4366,10 +4156,6 @@ public interface ISimpleClient : Android.Runtime.IJavaObject, System.IDisposable
 
 <h3>Type Changed: Android.Gms.Common.Apis.Scope</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Scope (string <span style='text-decoration: line-through'>scopeUri</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -4386,12 +4172,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Common.Apis.Statuses</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Statuses (int <span style='text-decoration: line-through'>statusCode</span> <span style='color:green'>p0</span>)
-	public Statuses (int <span style='text-decoration: line-through'>statusCode</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>statusMessage</span> <span style='color:green'>p1</span>)
-	public Statuses (int <span style='text-decoration: line-through'>statusCode</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>statusMessage</span> <span style='color:green'>p1</span>, Android.App.PendingIntent <span style='text-decoration: line-through'>pendingIntent</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added properties:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -4428,7 +4208,7 @@ public sealed class Batch : Android.Gms.Common.Api.Internal.BasePendingResult, A
 	// inner types
 	public sealed class Builder : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 		// constructors
-		public Batch (GoogleApiClient p0);
+		public Batch (GoogleApiClient googleApiClient);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 		protected override IntPtr ThresholdClass { get; }
@@ -5140,10 +4920,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 </pre>
 <h3>Removed Type <span style='color: red'>Android.Gms.Common.Images.ImageManager.ImageReceiver</span></h3>
 <h3>Type Changed: Android.Gms.Common.Images.Size</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Size (int <span style='text-decoration: line-through'>width</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>height</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -5151,11 +4927,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 
 <h3>Type Changed: Android.Gms.Common.Images.WebImage</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public WebImage (Android.Net.Uri <span style='text-decoration: line-through'>url</span> <span style='color:green'>p0</span>)
-	public WebImage (Android.Net.Uri <span style='text-decoration: line-through'>url</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>width</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>height</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7006,7 +6777,7 @@ public class TransferPreferencesBuilder : Java.Lang.Object, Android.Runtime.IJav
 	// constructors
 	public TransferPreferencesBuilder ();
 	public TransferPreferencesBuilder (IFileUploadPreferences p0);
-	public TransferPreferencesBuilder (ITransferPreferences p0);
+	public TransferPreferencesBuilder (ITransferPreferences transferPreferences);
 	protected TransferPreferencesBuilder (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public static ITransferPreferences DefaultPreferences { get; }
@@ -7102,10 +6873,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Drive.Events.DriveEventService</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected DriveEventService (string <span style='text-decoration: line-through'>name</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7175,10 +6942,6 @@ public abstract class OpenFileCallback : Java.Lang.Object, Android.Runtime.IJava
 <h2>Namespace Android.Gms.Drive.MetadataTypes</h2>
 <h3>Type Changed: Android.Gms.Drive.MetadataTypes.CustomPropertyKey</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public CustomPropertyKey (string <span style='text-decoration: line-through'>key</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>visibility</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7244,10 +7007,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> void WriteToParcel (Android.OS.Parcel out, Android.OS.ParcelableWriteFlags flags)
 </pre>
 <h3>Type Changed: Android.Gms.Drive.Query.QueryClass.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public QueryClass (QueryClass <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7295,15 +7054,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h2>Namespace Android.Gms.Drive.Widget</h2>
 <h3>Type Changed: Android.Gms.Drive.Widget.DataBufferAdapter</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DataBufferAdapter (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>resource</span> <span style='color:green'>p1</span>)
-	public DataBufferAdapter (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>resource</span> <span style='color:green'>p1</span>, Android.Gms.Common.Data.IDataBuffer[] <span style='text-decoration: line-through'>buffers</span> <span style='color:green'>p2</span>)
-	public DataBufferAdapter (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>resource</span> <span style='color:green'>p1</span>, System.Collections.Generic.IList&lt;Android.Gms.Common.Data.IDataBuffer&gt; <span style='text-decoration: line-through'>objects</span> <span style='color:green'>p2</span>)
-	public DataBufferAdapter (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>resource</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>textViewResourceId</span> <span style='color:green'>p2</span>)
-	public DataBufferAdapter (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>resource</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>textViewResourceId</span> <span style='color:green'>p2</span>, Android.Gms.Common.Data.IDataBuffer[] <span style='text-decoration: line-through'>buffers</span> <span style='color:green'>p3</span>)
-	public DataBufferAdapter (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>resource</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>textViewResourceId</span> <span style='color:green'>p2</span>, System.Collections.Generic.IList&lt;Android.Gms.Common.Data.IDataBuffer&gt; <span style='text-decoration: line-through'>objects</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7599,10 +7349,6 @@ public abstract class ProviderConstantsConsts : Android.Gms.Dynamite.ProviderCon
 	public virtual final void WriteToParcel (Android.OS.Parcel <span style='text-decoration: line-through'>parcel</span> <span style='color:green'>p0</span>, Android.OS.ParcelableWriteFlags <span style='text-decoration: line-through'>flags</span> <span style='color:green'>p1</span>)
 </pre>
 <h3>Type Changed: Android.Gms.Fido.Common.Transport.UnsupportedTransportException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Transport (string <span style='text-decoration: line-through'>transport</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7612,10 +7358,6 @@ public abstract class ProviderConstantsConsts : Android.Gms.Dynamite.ProviderCon
 
 <h2>Namespace Android.Gms.Fido.U2F</h2>
 <h3>Type Changed: Android.Gms.Fido.U2F.U2fApiClient</h3>
-<p>Modified constructors:</p>
-<pre>
-	public U2fApiClient (Android.App.Activity <span style='text-decoration: line-through'>activity</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7625,10 +7367,6 @@ public abstract class ProviderConstantsConsts : Android.Gms.Dynamite.ProviderCon
 <h2>Namespace Android.Gms.Fido.U2F.Api.Common</h2>
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.ChannelIdValue</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public ChannelIdValue (Org.Json.JSONObject <span style='text-decoration: line-through'>value</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7658,10 +7396,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.ChannelIdValue.UnsupportedChannelIdValueTypeException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ChannelIdValue (int <span style='text-decoration: line-through'>type</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7681,11 +7415,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.Error</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Error (ErrorCode <span style='text-decoration: line-through'>errorCode</span> <span style='color:green'>p0</span>)
-	public Error (ErrorCode <span style='text-decoration: line-through'>errorCode</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>errorMessage</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7704,11 +7433,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.ErrorResponseData</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ErrorResponseData (ErrorCode <span style='text-decoration: line-through'>errorCode</span> <span style='color:green'>p0</span>)
-	public ErrorResponseData (ErrorCode <span style='text-decoration: line-through'>errorCode</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>errorMessage</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7756,10 +7480,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual final void WriteToParcel (Android.OS.Parcel <span style='text-decoration: line-through'>parcel</span> <span style='color:green'>p0</span>, Android.OS.ParcelableWriteFlags <span style='text-decoration: line-through'>flags</span> <span style='color:green'>p1</span>)
 </pre>
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.ProtocolVersion.UnsupportedProtocolException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ProtocolVersion (string <span style='text-decoration: line-through'>version</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7768,10 +7488,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.RegisterRequest</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public RegisterRequest (ProtocolVersion <span style='text-decoration: line-through'>protocolVersion</span> <span style='color:green'>p0</span>, byte[] <span style='text-decoration: line-through'>challengeValue</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>appId</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7812,11 +7528,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.RegisterResponseData</h3>
-<p>Modified constructors:</p>
-<pre>
-	public RegisterResponseData (byte[] <span style='text-decoration: line-through'>registerData</span> <span style='color:green'>p0</span>)
-	public RegisterResponseData (byte[] <span style='text-decoration: line-through'>registerData</span> <span style='color:green'>p0</span>, ProtocolVersion <span style='text-decoration: line-through'>protocolVersion</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>clientDataString</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7828,11 +7539,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.RegisteredKey</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public RegisteredKey (KeyHandle <span style='text-decoration: line-through'>keyHandle</span> <span style='color:green'>p0</span>)
-	public RegisteredKey (KeyHandle <span style='text-decoration: line-through'>keyHandle</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>challengeValue</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>appId</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7906,10 +7612,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 
 <h3>Type Changed: Android.Gms.Fido.U2F.Api.Common.SignResponseData</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SignResponseData (byte[] <span style='text-decoration: line-through'>keyHandle</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>clientDataString</span> <span style='color:green'>p1</span>, byte[] <span style='text-decoration: line-through'>signatureData</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -7932,10 +7634,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public RequestType ValueOf (string <span style='text-decoration: line-through'>name</span> <span style='color:green'>p0</span>)
 </pre>
 <h3>Type Changed: Android.Gms.Fido.U2F.MessageBased.RequestType.UnsupportedRequestTypeException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public RequestType (string <span style='text-decoration: line-through'>value</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -7991,10 +7689,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Fitness.HistoryApiViewIntentBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public HistoryApiViewIntentBuilder (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, Data.DataType <span style='text-decoration: line-through'>dataType</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -8500,10 +8194,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Fitness.Data.Device</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Device (string <span style='text-decoration: line-through'>manufacturer</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>model</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>uid</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>type</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
 	public Device (string p0, string p1, string p2, int p3, int p4);
@@ -8567,10 +8257,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 <h3>Type Changed: Android.Gms.Fitness.Data.Goal.DurationObjective</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Goal (long <span style='text-decoration: line-through'>duration</span> <span style='color:green'>p0</span>, Java.Util.Concurrent.TimeUnit <span style='text-decoration: line-through'>timeUnit</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -8591,10 +8277,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Fitness.Data.Goal.FrequencyObjective</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Goal (int <span style='text-decoration: line-through'>frequency</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -8615,13 +8297,9 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Fitness.Data.Goal.MetricObjective</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Goal (string <span style='text-decoration: line-through'>dataTypeName</span> <span style='color:green'>p0</span>, double <span style='text-decoration: line-through'>value</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public Goal (string p0, double p1, double p2);
+	public Goal (string dataTypeName, double value, double initialValue);
 </pre>
 <p>Added interface:</p>
 <pre style='color: green'>
@@ -8642,10 +8320,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Fitness.Data.Goal.MismatchedGoalException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Goal (string <span style='text-decoration: line-through'>msg</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -8653,10 +8327,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Fitness.Data.Goal.Recurrence</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Goal (int <span style='text-decoration: line-through'>count</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>unit</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -9352,7 +9022,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 public class DataReadResponse : Android.Gms.Common.Apis.Response, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public DataReadResponse ();
-	protected DataReadResponse (DataReadResult p0);
+	protected DataReadResponse (DataReadResult originalResult);
 	protected DataReadResponse (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public virtual System.Collections.Generic.IList&lt;Android.Gms.Fitness.Data.Bucket&gt; Buckets { get; }
@@ -9371,7 +9041,7 @@ public class DataReadResponse : Android.Gms.Common.Apis.Response, Android.Runtim
 public class SessionReadResponse : Android.Gms.Common.Apis.Response, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public SessionReadResponse ();
-	protected SessionReadResponse (SessionReadResult p0);
+	protected SessionReadResponse (SessionReadResult originalResult);
 	protected SessionReadResponse (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -10094,10 +9764,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Games.LeaderBoard.ScoreSubmissionData.Result</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ScoreSubmissionData (long <span style='text-decoration: line-through'>rawScore</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>formattedScore</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>scoreTag</span> <span style='color:green'>p2</span>, bool <span style='text-decoration: line-through'>newBest</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -10777,10 +10443,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual int DescribeContents ();
 </pre>
 <h3>Type Changed: Android.Gms.Games.Video.VideoConfiguration.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public VideoConfiguration (int <span style='text-decoration: line-through'>qualityLevel</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>captureMode</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -10906,11 +10568,6 @@ public interface IValidCaptureModes : Android.Runtime.IJavaObject, Java.Lang.Ann
 
 
 <h3>Type Changed: Android.Gms.Gcm.TaskParams</h3>
-<p>Modified constructors:</p>
-<pre>
-	public TaskParams (string <span style='text-decoration: line-through'>tag</span> <span style='color:green'>p0</span>)
-	public TaskParams (string <span style='text-decoration: line-through'>tag</span> <span style='color:green'>p0</span>, Android.OS.Bundle <span style='text-decoration: line-through'>extras</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -10939,10 +10596,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Android.Gms.Identity.Intents.Address.AddressOptions</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Address (int <span style='text-decoration: line-through'>theme</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -10994,10 +10647,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 <h2>Namespace Android.Gms.Identity.Intents.Model</h2>
 <h3>Type Changed: Android.Gms.Identity.Intents.Model.CountrySpecification</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public CountrySpecification (string <span style='text-decoration: line-through'>countryCode</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -11308,7 +10957,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
 <p>Modified constructors:</p>
 <pre>
-	public ActivityRecognitionResult (DetectedActivity <span style='text-decoration: line-through'>mostProbableActivity</span> <span style='color:green'>p0</span>, long <span style='text-decoration: line-through'>time</span> <span style='color:green'>p1</span>, long <span style='text-decoration: line-through'>elapsedRealtimeMillis</span> <span style='color:green'>p2</span>)
 	public ActivityRecognitionResult (System.Collections.Generic.IList&lt;DetectedActivity&gt; <span style='text-decoration: line-through'>probableActivities</span> <span style='color:green'>p0</span>, long <span style='text-decoration: line-through'>time</span> <span style='color:green'>p1</span>, long <span style='text-decoration: line-through'>elapsedRealtimeMillis</span> <span style='color:green'>p2</span>)
 </pre>
 <p>Added interface:</p>
@@ -11331,10 +10979,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Location.DetectedActivity</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public DetectedActivity (int <span style='text-decoration: line-through'>activityType</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>confidence</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -11645,7 +11289,7 @@ public class ActivityTransition : Android.Gms.Common.Internal.SafeParcel.Abstrac
 public class ActivityTransitionEvent : Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected ActivityTransitionEvent (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public ActivityTransitionEvent (int p0, int p1, long p2);
+	public ActivityTransitionEvent (int activityType, int transitionType, long elapsedRealtimeNanos);
 	// properties
 	public virtual int ActivityType { get; }
 	public static Android.OS.IParcelableCreator Creator { get; }
@@ -12036,7 +11680,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <h3>Type Changed: Android.Gms.Maps.MapView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public MapView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, GoogleMapOptions <span style='text-decoration: line-through'>options</span> <span style='color:green'>p1</span>)
 	public MapView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
@@ -12098,7 +11741,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <h3>Type Changed: Android.Gms.Maps.StreetViewPanoramaView</h3>
 <p>Modified constructors:</p>
 <pre>
-	public StreetViewPanoramaView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, StreetViewPanoramaOptions <span style='text-decoration: line-through'>options</span> <span style='color:green'>p1</span>)
 	public StreetViewPanoramaView (Android.Content.Context context, Android.Util.IAttributeSet attrs, int <span style='text-decoration: line-through'>defStyle</span> <span style='color:green'>defStyleAttr</span>)
 </pre>
 <p>Added property:</p>
@@ -12355,10 +11997,6 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 
 <h3>Type Changed: Android.Gms.Maps.Model.CameraPosition</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public CameraPosition (LatLng <span style='text-decoration: line-through'>target</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>zoom</span> <span style='color:green'>p1</span>, float <span style='text-decoration: line-through'>tilt</span> <span style='color:green'>p2</span>, float <span style='text-decoration: line-through'>bearing</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12373,10 +12011,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual int DescribeContents ();
 </pre>
 <h3>Type Changed: Android.Gms.Maps.Model.CameraPosition.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public CameraPosition (CameraPosition <span style='text-decoration: line-through'>previous</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -12430,11 +12064,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Maps.Model.CustomCap</h3>
-<p>Modified constructors:</p>
-<pre>
-	public CustomCap (BitmapDescriptor <span style='text-decoration: line-through'>bitmapDescriptor</span> <span style='color:green'>p0</span>)
-	public CustomCap (BitmapDescriptor <span style='text-decoration: line-through'>bitmapDescriptor</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>refWidth</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12445,10 +12074,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Maps.Model.Dash</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Dash (float <span style='text-decoration: line-through'>length</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12469,10 +12094,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Maps.Model.Gap</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Gap (float <span style='text-decoration: line-through'>length</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12524,10 +12145,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.LatLng</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public LatLng (double <span style='text-decoration: line-through'>latitude</span> <span style='color:green'>p0</span>, double <span style='text-decoration: line-through'>longitude</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12544,10 +12161,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.LatLngBounds</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public LatLngBounds (LatLng <span style='text-decoration: line-through'>southwest</span> <span style='color:green'>p0</span>, LatLng <span style='text-decoration: line-through'>northeast</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12570,10 +12183,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.MapStyleOptions</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public MapStyleOptions (string <span style='text-decoration: line-through'>json</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12632,10 +12241,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.PointOfInterest</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public PointOfInterest (LatLng <span style='text-decoration: line-through'>latLng</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>placeId</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>name</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12716,10 +12321,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Maps.Model.RuntimeRemoteException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public RuntimeRemoteException (Android.OS.RemoteException <span style='text-decoration: line-through'>e</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -12737,10 +12338,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.StreetViewPanoramaCamera</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public StreetViewPanoramaCamera (float <span style='text-decoration: line-through'>zoom</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>tilt</span> <span style='color:green'>p1</span>, float <span style='text-decoration: line-through'>bearing</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12759,10 +12356,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> void WriteToParcel (Android.OS.Parcel out, Android.OS.ParcelableWriteFlags flags)
 </pre>
 <h3>Type Changed: Android.Gms.Maps.Model.StreetViewPanoramaCamera.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public StreetViewPanoramaCamera (StreetViewPanoramaCamera <span style='text-decoration: line-through'>previous</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -12791,10 +12384,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.StreetViewPanoramaLocation</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public StreetViewPanoramaLocation (StreetViewPanoramaLink[] <span style='text-decoration: line-through'>links</span> <span style='color:green'>p0</span>, LatLng <span style='text-decoration: line-through'>position</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>panoId</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12815,10 +12404,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.StreetViewPanoramaOrientation</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public StreetViewPanoramaOrientation (float <span style='text-decoration: line-through'>tilt</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>bearing</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12837,10 +12422,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public <span style='text-decoration: line-through'>virtual</span> <span style='color:green'>override</span> void WriteToParcel (Android.OS.Parcel out, Android.OS.ParcelableWriteFlags flags)
 </pre>
 <h3>Type Changed: Android.Gms.Maps.Model.StreetViewPanoramaOrientation.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public StreetViewPanoramaOrientation (StreetViewPanoramaOrientation <span style='text-decoration: line-through'>previous</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -12849,10 +12430,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.Tile</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Tile (int <span style='text-decoration: line-through'>width</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>height</span> <span style='color:green'>p1</span>, byte[] <span style='text-decoration: line-through'>data</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -12890,10 +12467,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Maps.Model.UrlTileProvider</h3>
-<p>Modified constructors:</p>
-<pre>
-	public UrlTileProvider (int <span style='text-decoration: line-through'>width</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>height</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -12901,10 +12474,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Maps.Model.VisibleRegion</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public VisibleRegion (LatLng <span style='text-decoration: line-through'>nearLeft</span> <span style='color:green'>p0</span>, LatLng <span style='text-decoration: line-through'>nearRight</span> <span style='color:green'>p1</span>, LatLng <span style='text-decoration: line-through'>farLeft</span> <span style='color:green'>p2</span>, LatLng <span style='text-decoration: line-through'>farRight</span> <span style='color:green'>p3</span>, LatLngBounds <span style='text-decoration: line-through'>latLngBounds</span> <span style='color:green'>p4</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -13113,10 +12682,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre style='color: red'>
 	public AdvertisingOptions (Strategy p0, bool p1, bool p2);
 </pre>
-<p>Modified constructors:</p>
-<pre>
-	public AdvertisingOptions (Strategy <span style='text-decoration: line-through'>strategy</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -13134,10 +12699,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Nearby.Connection.AppIdentifier</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public AppIdentifier (string <span style='text-decoration: line-through'>identifier</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -13173,10 +12734,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Nearby.Connection.ConnectionInfo</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ConnectionInfo (string <span style='text-decoration: line-through'>endpointName</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>authenticationToken</span> <span style='color:green'>p1</span>, bool <span style='text-decoration: line-through'>isIncomingConnection</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -13189,10 +12746,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Nearby.Connection.ConnectionResolution</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ConnectionResolution (Android.Gms.Common.Apis.Statuses <span style='text-decoration: line-through'>status</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -13222,10 +12775,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Nearby.Connection.DiscoveredEndpointInfo</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DiscoveredEndpointInfo (string <span style='text-decoration: line-through'>serviceId</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>endpointName</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -13237,10 +12786,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <pre style='color: red'>
 	public DiscoveryOptions (Strategy p0, bool p1);
-</pre>
-<p>Modified constructors:</p>
-<pre>
-	public DiscoveryOptions (Strategy <span style='text-decoration: line-through'>strategy</span> <span style='color:green'>p0</span>)
 </pre>
 <p>Added interface:</p>
 <pre style='color: green'>
@@ -13329,7 +12874,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 public sealed class Builder : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	public PayloadTransferUpdate ();
-	public PayloadTransferUpdate (PayloadTransferUpdate p0);
+	public PayloadTransferUpdate (PayloadTransferUpdate origin);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 	protected override IntPtr ThresholdClass { get; }
@@ -13398,21 +12943,12 @@ public abstract class ConnectionsClient : Android.Gms.Common.Apis.GoogleApi, And
 
 <h2>Namespace Android.Gms.Nearby.Messages</h2>
 <h3>Type Changed: Android.Gms.Nearby.Messages.EddystoneUid</h3>
-<p>Modified constructors:</p>
-<pre>
-	public EddystoneUid (string <span style='text-decoration: line-through'>hexId</span> <span style='color:green'>p0</span>)
-	public EddystoneUid (string <span style='text-decoration: line-through'>hexNamespace</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>hexInstance</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Android.Gms.Nearby.Messages.IBeaconId</h3>
-<p>Modified constructors:</p>
-<pre>
-	public IBeaconId (Java.Util.UUID <span style='text-decoration: line-through'>proximityUuid</span> <span style='color:green'>p0</span>, short <span style='text-decoration: line-through'>major</span> <span style='color:green'>p1</span>, short <span style='text-decoration: line-through'>minor</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -13420,11 +12956,6 @@ public abstract class ConnectionsClient : Android.Gms.Common.Apis.GoogleApi, And
 
 <h3>Type Changed: Android.Gms.Nearby.Messages.Message</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public Message (byte[] <span style='text-decoration: line-through'>content</span> <span style='color:green'>p0</span>)
-	public Message (byte[] <span style='text-decoration: line-through'>content</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>type</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -13629,10 +13160,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 
 <h2>Namespace Android.Gms.Nearby.Messages.Audio</h2>
 <h3>Type Changed: Android.Gms.Nearby.Messages.Audio.AudioBytes</h3>
-<p>Modified constructors:</p>
-<pre>
-	public AudioBytes (byte[] <span style='text-decoration: line-through'>audioData</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -13741,10 +13268,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 	public void SetSize (int size);</span>
 </pre>
 <h3>Type Changed: Android.Gms.Plus.PlusOneButton.DefaultOnPlusOneClickListener</h3>
-<p>Modified constructors:</p>
-<pre>
-	public PlusOneButton (PlusOneButton __self, PlusOneButton.IOnPlusOneClickListener <span style='text-decoration: line-through'>proxy</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -13766,10 +13289,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 
 
 <h3>Type Changed: Android.Gms.Plus.PlusOneDummyView</h3>
-<p>Modified constructors:</p>
-<pre>
-	public PlusOneDummyView (Android.Content.Context <span style='text-decoration: line-through'>context</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>size</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Obsoleted fields:</p>
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
@@ -13822,10 +13341,6 @@ public abstract class MessagesClient : Android.Gms.Common.Apis.GoogleApi, Androi
 	public static string GetDeepLinkId (Android.Content.Intent intent);</span>
 </pre>
 <h3>Type Changed: Android.Gms.Plus.PlusShare.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public PlusShare (Android.App.Activity <span style='text-decoration: line-through'>launchingActivity</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Obsoleted properties:</p>
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
@@ -14325,10 +13840,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Tasks.RuntimeExecutionException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public RuntimeExecutionException (Java.Lang.Throwable <span style='text-decoration: line-through'>cause</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -14366,7 +13877,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <h3>Type Changed: Android.Gms.Tasks.TaskCompletionSource</h3>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public TaskCompletionSource (CancellationToken p0);
+	public TaskCompletionSource (CancellationToken cancellationToken);
 </pre>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -14531,10 +14042,6 @@ public interface ISuccessContinuation : Android.Runtime.IJavaObject, System.IDis
 </pre>
 
 <h3>Type Changed: Android.Gms.Vision.Frame.Metadata</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Frame (Frame.Metadata <span style='text-decoration: line-through'>metadata</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -14902,10 +14409,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Vision.Faces.LargestFaceFocusingProcessor</h3>
-<p>Modified constructors:</p>
-<pre>
-	public LargestFaceFocusingProcessor (Android.Gms.Vision.Detector <span style='text-decoration: line-through'>detector</span> <span style='color:green'>p0</span>, Android.Gms.Vision.Tracker <span style='text-decoration: line-through'>tracker</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -15405,10 +14908,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Wallet.CountrySpecification</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public CountrySpecification (string <span style='text-decoration: line-through'>countryCode</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -15429,12 +14928,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Wallet.CreateWalletObjectsRequest</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public CreateWalletObjectsRequest (GiftCardWalletObject <span style='text-decoration: line-through'>giftCardWalletObject</span> <span style='color:green'>p0</span>)
-	public CreateWalletObjectsRequest (LoyaltyWalletObject <span style='text-decoration: line-through'>loyaltyWalletObject</span> <span style='color:green'>p0</span>)
-	public CreateWalletObjectsRequest (OfferWalletObject <span style='text-decoration: line-through'>offerWalletObject</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -16205,10 +15698,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Wallet.Wobs.LabelValue</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public LabelValue (string <span style='text-decoration: line-through'>label</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>value</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -16305,10 +15794,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Wallet.Wobs.TextModuleData</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public TextModuleData (string <span style='text-decoration: line-through'>header</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>body</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -16325,10 +15810,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Wallet.Wobs.TimeInterval</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public TimeInterval (long <span style='text-decoration: line-through'>startTimestamp</span> <span style='color:green'>p0</span>, long <span style='text-decoration: line-through'>endTimestamp</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -16345,10 +15826,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 
 <h3>Type Changed: Android.Gms.Wallet.Wobs.UriData</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
-<p>Modified constructors:</p>
-<pre>
-	public UriData (string <span style='text-decoration: line-through'>uri</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>description</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added interface:</p>
 <pre style='color: green'>
 	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
@@ -16408,10 +15885,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Wearable.ChannelIOException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ChannelIOException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>closeReason</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>appSpecificErrorCode</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -16847,10 +16320,6 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 
 <h2>Namespace Firebase</h2>
 <h3>Type Changed: Firebase.FirebaseApiNotAvailableException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseApiNotAvailableException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -16886,21 +16355,12 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 </pre>
 
 <h3>Type Changed: Firebase.FirebaseException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseException (string <span style='text-decoration: line-through'>detailMessage</span> <span style='color:green'>p0</span>)
-	public FirebaseException (string <span style='text-decoration: line-through'>detailMessage</span> <span style='color:green'>p0</span>, Java.Lang.Throwable <span style='text-decoration: line-through'>cause</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Firebase.FirebaseNetworkException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseNetworkException (string <span style='text-decoration: line-through'>detailMessage</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -16912,10 +16372,6 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Firebase.FirebaseOptions.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseOptions (FirebaseOptions <span style='text-decoration: line-through'>options</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -16923,10 +16379,6 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 
 
 <h3>Type Changed: Firebase.FirebaseTooManyRequestsException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseTooManyRequestsException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -17037,10 +16489,6 @@ public class FirebaseExceptionMapper : Java.Lang.Object, Android.Gms.Common.Apis
 
 <h2>Namespace Firebase.AppIndexing</h2>
 <h3>Type Changed: Firebase.AppIndexing.ActionBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ActionBuilder (string <span style='text-decoration: line-through'>type</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -17065,33 +16513,18 @@ public class FirebaseExceptionMapper : Java.Lang.Object, Android.Gms.Common.Apis
 </pre>
 
 <h3>Type Changed: Firebase.AppIndexing.FirebaseAppIndexingException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAppIndexingException (string <span style='text-decoration: line-through'>detailMessage</span> <span style='color:green'>p0</span>)
-	public FirebaseAppIndexingException (string <span style='text-decoration: line-through'>detailMessage</span> <span style='color:green'>p0</span>, Java.Lang.Throwable <span style='text-decoration: line-through'>cause</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Firebase.AppIndexing.FirebaseAppIndexingInvalidArgumentException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAppIndexingInvalidArgumentException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>)
-	public FirebaseAppIndexingInvalidArgumentException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>, Java.Lang.Throwable <span style='text-decoration: line-through'>cause</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Firebase.AppIndexing.FirebaseAppIndexingTooManyArgumentsException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAppIndexingTooManyArgumentsException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>)
-	public FirebaseAppIndexingTooManyArgumentsException (string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p0</span>, Java.Lang.Throwable <span style='text-decoration: line-through'>cause</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -17104,10 +16537,6 @@ public class FirebaseExceptionMapper : Java.Lang.Object, Android.Gms.Common.Apis
 </pre>
 
 <h3>Type Changed: Firebase.AppIndexing.IndexableBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public IndexableBuilder (string <span style='text-decoration: line-through'>type</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -17174,17 +16603,9 @@ public sealed class Scope : Java.Lang.Object, Android.Runtime.IJavaObject, Java.
 </pre>
 
 <h3>Type Changed: Firebase.AppIndexing.Builders.IndexableBuilder</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected IndexableBuilder (string <span style='text-decoration: line-through'>type</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-</pre>
-<p>Modified methods:</p>
-<pre>
-	protected virtual Java.Lang.Object Put (string <span style='text-decoration: line-through'>key</span> <span style='color:green'>p0</span>, Java.Lang.Object[] <span style='text-decoration: line-through'>values</span> <span style='color:green'>p1</span>)
 </pre>
 <p>Added method:</p>
 <pre style='color: green'>
@@ -17560,40 +16981,24 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Firebase.Auth.FirebaseAuthException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAuthException (string <span style='text-decoration: line-through'>errorCode</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>detailMessage</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Firebase.Auth.FirebaseAuthInvalidCredentialsException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAuthInvalidCredentialsException (string <span style='text-decoration: line-through'>code</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Firebase.Auth.FirebaseAuthInvalidUserException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAuthInvalidUserException (string <span style='text-decoration: line-through'>code</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Firebase.Auth.FirebaseAuthRecentLoginRequiredException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseAuthRecentLoginRequiredException (string <span style='text-decoration: line-through'>code</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>message</span> <span style='color:green'>p1</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18051,10 +17456,6 @@ public class PlayGamesAuthProvider : Java.Lang.Object, Android.Runtime.IJavaObje
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Firebase.DynamicLinks.DynamicLink.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DynamicLink (string <span style='text-decoration: line-through'>packageName</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18073,10 +17474,6 @@ public class PlayGamesAuthProvider : Java.Lang.Object, Android.Runtime.IJavaObje
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Firebase.DynamicLinks.DynamicLink.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DynamicLink (string <span style='text-decoration: line-through'>source</span> <span style='color:green'>p0</span>, string <span style='text-decoration: line-through'>medium</span> <span style='color:green'>p1</span>, string <span style='text-decoration: line-through'>campaign</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18089,10 +17486,6 @@ public class PlayGamesAuthProvider : Java.Lang.Object, Android.Runtime.IJavaObje
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Firebase.DynamicLinks.DynamicLink.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DynamicLink (string <span style='text-decoration: line-through'>bundleId</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18143,10 +17536,6 @@ public class PlayGamesAuthProvider : Java.Lang.Object, Android.Runtime.IJavaObje
 </pre>
 
 <h3>Type Changed: Firebase.DynamicLinks.PendingDynamicLinkData</h3>
-<p>Modified constructors:</p>
-<pre>
-	protected PendingDynamicLinkData (string <span style='text-decoration: line-through'>deepLink</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>minVersion</span> <span style='color:green'>p1</span>, long <span style='text-decoration: line-through'>clickTimestamp</span> <span style='color:green'>p2</span>, Android.Net.Uri <span style='text-decoration: line-through'>redirectUrl</span> <span style='color:green'>p3</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18274,10 +17663,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual int DescribeContents ();
 </pre>
 <h3>Type Changed: Firebase.Messaging.RemoteMessage.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public RemoteMessage (string <span style='text-decoration: line-through'>to</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18339,10 +17724,6 @@ public interface IMessagePriority : Android.Runtime.IJavaObject, Java.Lang.Annot
 </pre>
 
 <h3>Type Changed: Firebase.RemoteConfig.FirebaseRemoteConfigFetchThrottledException</h3>
-<p>Modified constructors:</p>
-<pre>
-	public FirebaseRemoteConfigFetchThrottledException (long <span style='text-decoration: line-through'>throttleEndTimeMillis</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18427,10 +17808,6 @@ public interface IMessagePriority : Android.Runtime.IJavaObject, Java.Lang.Annot
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Firebase.Storage.StorageMetadata.Builder</h3>
-<p>Modified constructors:</p>
-<pre>
-	public StorageMetadata (StorageMetadata <span style='text-decoration: line-through'>original</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18490,10 +17867,6 @@ public interface IMessagePriority : Android.Runtime.IJavaObject, Java.Lang.Annot
 	public virtual StorageTask RemoveOnCanceledListener (Android.Gms.Tasks.IOnCanceledListener listener);
 </pre>
 <h3>Type Changed: Firebase.Storage.StorageTask.SnapshotBase</h3>
-<p>Modified constructors:</p>
-<pre>
-	public StorageTask (StorageTask __self, Java.Lang.Exception <span style='text-decoration: line-through'>error</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -18505,12 +17878,6 @@ public interface IMessagePriority : Android.Runtime.IJavaObject, Java.Lang.Annot
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<h3>Type Changed: Firebase.Storage.StreamDownloadTask.IStreamProcessor</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void DoInBackground (StreamDownloadTask.TaskSnapshot state, System.IO.Stream <span style='text-decoration: line-through'>stream</span> <span style='color:green'>p1</span>)
-</pre>
-
 <h3>Type Changed: Firebase.Storage.StreamDownloadTask.TaskSnapshot</h3>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -20756,7 +20123,7 @@ public class SignInResponseCreator : Java.Lang.Object, Android.OS.IParcelableCre
 <pre style='color: green'>
 public class Fido2ApiClient : Android.Gms.Common.Apis.GoogleApi, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public Fido2ApiClient (Android.App.Activity p0);
+	public Fido2ApiClient (Android.App.Activity activity);
 	public Fido2ApiClient (Android.Content.Context context);
 	protected Fido2ApiClient (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
@@ -20772,7 +20139,7 @@ public class Fido2ApiClient : Android.Gms.Common.Apis.GoogleApi, Android.Runtime
 <pre style='color: green'>
 public class Fido2PrivilegedApiClient : Android.Gms.Common.Apis.GoogleApi, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public Fido2PrivilegedApiClient (Android.App.Activity p0);
+	public Fido2PrivilegedApiClient (Android.App.Activity activity);
 	public Fido2PrivilegedApiClient (Android.Content.Context context);
 	protected Fido2PrivilegedApiClient (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
@@ -20816,7 +20183,7 @@ public sealed class AlgorithmIdentifier : Java.Lang.Enum, Android.OS.IParcelable
 	// inner types
 	public class UnsupportedAlgorithmIdentifierException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public AlgorithmIdentifier (string p0);
+		public AlgorithmIdentifier (string algId);
 		protected AlgorithmIdentifier (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -20846,7 +20213,7 @@ public sealed class Attachment : Java.Lang.Enum, Android.OS.IParcelable, Android
 	// inner types
 	public class UnsupportedAttachmentException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public Attachment (string p0);
+		public Attachment (string attachment);
 		protected Attachment (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -20911,7 +20278,7 @@ public class AuthenticatorAssertionResponse : Com.Google.Android.Gms.Fido.Fido2.
 public class AuthenticatorAttestationResponse : Com.Google.Android.Gms.Fido.Fido2.Api.Common.AuthenticatorResponse, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected AuthenticatorAttestationResponse (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public AuthenticatorAttestationResponse (byte[] p0, byte[] p1, byte[] p2);
+	public AuthenticatorAttestationResponse (byte[] keyHandle, byte[] clientDataJSON, byte[] attestationObject);
 	// properties
 	public static Android.OS.IParcelableCreator Creator { get; }
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -20995,7 +20362,7 @@ public abstract class AuthenticatorResponse : Android.Gms.Common.Internal.SafePa
 public class AuthenticatorSelectionCriteria : Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected AuthenticatorSelectionCriteria (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public AuthenticatorSelectionCriteria (string p0, Java.Lang.Boolean p1, string p2);
+	public AuthenticatorSelectionCriteria (string attachment, Java.Lang.Boolean requireResidentKey, string requireUserVerification);
 	// properties
 	public virtual Attachment Attachment { get; }
 	public virtual string AttachmentAsString { get; }
@@ -21117,7 +20484,7 @@ public sealed class ErrorCode : Java.Lang.Enum, Android.OS.IParcelable, Android.
 	// inner types
 	public class UnsupportedErrorCodeException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public ErrorCode (int p0);
+		public ErrorCode (int errorCode);
 		protected ErrorCode (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21195,7 +20562,7 @@ public class PublicKeyCredentialDescriptor : Android.Gms.Common.Internal.SafePar
 public class PublicKeyCredentialEntity : Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected PublicKeyCredentialEntity (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public PublicKeyCredentialEntity (string p0, string p1, string p2);
+	public PublicKeyCredentialEntity (string id, string name, string icon);
 	// properties
 	public static Android.OS.IParcelableCreator Creator { get; }
 	public virtual string Icon { get; }
@@ -21213,7 +20580,7 @@ public class PublicKeyCredentialEntity : Android.Gms.Common.Internal.SafeParcel.
 public class PublicKeyCredentialParameters : Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected PublicKeyCredentialParameters (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public PublicKeyCredentialParameters (string p0, string p1);
+	public PublicKeyCredentialParameters (string type, string algorithm);
 	// properties
 	public virtual AlgorithmIdentifier Algorithm { get; }
 	public static Android.OS.IParcelableCreator Creator { get; }
@@ -21285,7 +20652,7 @@ public sealed class PublicKeyCredentialType : Java.Lang.Enum, Android.OS.IParcel
 	// inner types
 	public class UnsupportedPublicKeyCredTypeException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public PublicKeyCredentialType (string p0);
+		public PublicKeyCredentialType (string publicKeyCredType);
 		protected PublicKeyCredentialType (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21299,7 +20666,7 @@ public sealed class PublicKeyCredentialType : Java.Lang.Enum, Android.OS.IParcel
 public class PublicKeyCredentialUserEntity : Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
 	protected PublicKeyCredentialUserEntity (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
-	public PublicKeyCredentialUserEntity (string p0, string p1, string p2, string p3);
+	public PublicKeyCredentialUserEntity (string id, string name, string icon, string displayName);
 	// properties
 	public static Android.OS.IParcelableCreator Creator { get; }
 	public virtual string DisplayName { get; }
@@ -21349,7 +20716,7 @@ public sealed class RequestType : Java.Lang.Enum, Android.Runtime.IJavaObject, J
 	// inner types
 	public class UnsupportedRequestTypeException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public RequestType (string p0);
+		public RequestType (string value);
 		protected RequestType (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21362,7 +20729,7 @@ public sealed class RequestType : Java.Lang.Enum, Android.Runtime.IJavaObject, J
 <pre style='color: green'>
 public class TokenBindingIdValue : Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable, Android.Gms.Common.Internal.SafeParcel.ISafeParcelable, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public TokenBindingIdValue (Org.Json.JSONObject p0);
+	public TokenBindingIdValue (Org.Json.JSONObject value);
 	protected TokenBindingIdValue (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public static TokenBindingIdValue Absent { get; }
@@ -21399,7 +20766,7 @@ public class TokenBindingIdValue : Android.Gms.Common.Internal.SafeParcel.Abstra
 	}
 	public class UnsupportedTokenBindingIdValueTypeException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public TokenBindingIdValue (int p0);
+		public TokenBindingIdValue (int type);
 		protected TokenBindingIdValue (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21429,7 +20796,7 @@ public sealed class UserVerificationRequirement : Java.Lang.Enum, Android.OS.IPa
 	// inner types
 	public class UnsupportedUserVerificationRequirementException : Java.Lang.Exception, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 		// constructors
-		public UserVerificationRequirement (string p0);
+		public UserVerificationRequirement (string requirement);
 		protected UserVerificationRequirement (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 		// properties
 		public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
