@@ -13,3 +13,42 @@
 *   http://scikit-learn.org/stable/datasets/mldata.html
 
 *   https://www.quora.com/How-long-did-it-take-you-to-learn-machine-learning
+
+
+## Not NotDog
+
+*   http://blog.revolutionanalytics.com/2018/04/not-hotdog.html
+
+
+## Videos
+
+1.  What is Artificial Intelligence? In 5 minutes.
+
+    *   https://www.youtube.com/watch?v=2ePf9rue1Ao
+
+2.  The wonderful and terrifying implications of computers that can learn | Jeremy Howard
+
+    *   https://www.youtube.com/watch?v=t4kyRyKyOpo
+
+3.  How to Start an AI Startup
+
+    *   https://www.youtube.com/watch?v=9bbS-trc8ys
+
+4.   But what *is* a Neural Network? | Chapter 1, deep learning
+
+    *   https://www.youtube.com/watch?v=aircAruvnKk
+
+5.  Lecture 1 | Introduction to Convolutional Neural Networks for Visual Recognition
+
+    *   https://www.youtube.com/watch?v=vT1JzLTH4G4
+
+6.  MIT AGI: OpenAI Meta-Learning and Self-Play (Ilya Sutskever)
+
+    *   https://www.youtube.com/watch?v=9EN_HoEk3KY
+
+
+
+
+
+
+
