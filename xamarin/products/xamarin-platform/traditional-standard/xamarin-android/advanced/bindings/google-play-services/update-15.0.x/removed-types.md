@@ -41,32 +41,87 @@ removed-types.md
     *   10 occurences
 
 
-Android.Gms.Games.PlayerEntity.InterfaceConsts
-Android.Gms.Games.PlayerRef.InterfaceConsts
-Android.Gms.Games.IGamesMetadataExtensions
-Android.Gms.Games.IPlayer
-Android.Gms.Games.IPlayers
-Android.Gms.Games.IPlayersExtensions
-Android.Gms.Games.IPlayersLoadPlayersResult
-Android.Gms.Games.Player
-Android.Gms.Games.PlayerConsts
-Android.Gms.Games.PlayerLevel
-Android.Gms.Games.PlayerLevelInfo
-Android.Gms.Games.Players
-Android.Gms.Games.PlayersConsts    
+*   Android.Gms.Games.IGamesMetadataExtensions
 
-Android.Gms.Games.Achievement.AchievementRef.InterfaceConsts
-Android.Gms.Games.Achievement.Achievement
-Android.Gms.Games.Achievement.AchievementConsts
-Android.Gms.Games.Achievement.AchievementEntity
-Android.Gms.Games.Achievement.IAchievement
-Android.Gms.Games.Achievement.IAchievementsExtensions
+    *   seems to be removed
 
-Removed Type Android.Gms.Games.Event.EventEntity
-Removed Type Android.Gms.Games.Event.IEvent
-Removed Type Android.Gms.Games.Event.IEventsExtensions
+    *   Luyten search - zilch/nada
 
-Android.Gms.Games.LeaderBoard.LeaderboardScoreEntity.InterfaceConsts
-Android.Gms.Games.LeaderBoard.LeaderboardScoreRef.InterfaceConsts
+*   Android.Gms.Games.IPlayersExtensions
 
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+
+*   Android.Gms.Games.Achievement.IAchievementsExtensions
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+
+*   Android.Gms.Games.Event.IEventsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.LeaderBoard.ILeaderboardsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.MultiPlayer.IInvitationsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.MultiPlayer.IMultiplayer
+
+    *   seems to be removed
+
+*   Android.Gms.Games.MultiPlayer.TurnBased.ITurnBasedMultiplayerExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.Quest.IQuestsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.Request.IRequestsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.Snapshot.ISnapshotsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.Stats.IStatsExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Games.Video.IVideosCaptureStreamingUrlResult
+
+    *   seems to be removed
+
+*   Android.Gms.Games.Video.IVideosExtensions
+
+    *   seems to be removed
+
+*   Android.Gms.Gcm.GcmListenerService
+
+    *   deprecated, but still in the jar??
+
+*   Android.Gms.InstantApp.IInstantAppsApi
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+
+*   Android.Gms.InstantApp.IInstantAppsApiExtensions
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+
+*   Android.Gms.InstantApp.IInstantAppsApiGetInstantAppDataResult
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
 
