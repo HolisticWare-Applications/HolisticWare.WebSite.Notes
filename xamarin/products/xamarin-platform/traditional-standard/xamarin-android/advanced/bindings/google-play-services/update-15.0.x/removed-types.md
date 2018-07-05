@@ -125,3 +125,21 @@ removed-types.md
 
     *   Luyten search - zilch/nada
 
+*   Android.Gms.SafetyNet.ISafetyNetApiAttestationResult
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+
+*  Android.Gms.SafetyNet.ISafetyNetApiHarmfulAppsResult
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+
+*   Android.Gms.SafetyNet.ISafetyNetApiVerifyAppsUserResult
+
+    *   seems to be removed
+
+    *   Luyten search - zilch/nada
+

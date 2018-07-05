@@ -10583,7 +10583,27 @@ public interface IValidCaptureModes : Android.Runtime.IJavaObject, Java.Lang.Ann
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Gms.Gcm.GcmListenerService</span></h3>
+<h3>Removed Type <span style='color: red'>Android.Gms.Gcm.GcmListenerService</span></h3><h3>New Type Android.Gms.Gcm.Zzd</h3>
+<pre style='color: green'>
+public sealed class Zzd : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
+<h3>New Type Android.Gms.Gcm.Zze</h3>
+<pre style='color: green'>
+public sealed class Zze : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.Util.Concurrent.IThreadFactory, System.IDisposable {
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual Java.Lang.Thread NewThread (Java.Lang.IRunnable p0);
+}
+</pre>
+
 Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, HideBySig, VtableLayoutMask dst: ReuseSlot, Public, Final, Virtual, HideBySig) :
 <method name="WriteToParcel(Android.OS.Parcel, Android.OS.ParcelableWriteFlags)" attrib="486" virtual="true" returntype="System.Void">
   <parameters>
