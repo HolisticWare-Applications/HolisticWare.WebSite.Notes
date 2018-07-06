@@ -143,3 +143,123 @@ removed-types.md
 
     *   Luyten search - zilch/nada
 
+*   Android.Gms.Wearable.INodeApiNodeListener
+
+    *   NodeApiNodeListener interface not found
+
+*   Android.Gms.Wearable.PeerConnectedEventArgs
+
+    *   added via argType
+
+*   Android.Gms.Wearable.PeerDisconnectedEventArgs
+
+    *   added via argType
+
+*   Firebase.Iid.FirebaseInstanceIdInternalReceiver
+
+    *   Lutyen search in no results firebase-iid
+
+    *   Lutyen search in no results firebase-iid-interop
+
+*   Android.Gms.Ads.Identifier.AdvertisingIdClient
+
+    ```
+    ./externals/play-services-ads/classes.jar.class.java.txt:1959:  public com.google.android.gms.ads.identifier.AdvertisingIdClient$Info zzcgr;
+    ./externals/play-services-ads/classes.jar.class.java.txt:2495:  public final com.google.android.gms.internal.ads.zzanz<com.google.android.gms.ads.identifier.AdvertisingIdClient$Info> zzae(android.content.Context);
+    ./externals/play-services-ads/classes.jar.class.java.txt:2503:  public abstract com.google.android.gms.internal.ads.zzanz<com.google.android.gms.ads.identifier.AdvertisingIdClient$Info> zzae(android.content.Context);
+    ./externals/play-services-ads/classes.jar.class.java.txt:6205:  public final com.google.android.gms.ads.identifier.AdvertisingIdClient zzan();
+    ./externals/play-services-tagmanager-v4-impl/classes.jar.class.java.txt:507:  public final com.google.android.gms.ads.identifier.AdvertisingIdClient$Info zzmd();
+    ./externals/play-services-tagmanager-v4-impl/classes.jar.class.java.txt:681:  public abstract com.google.android.gms.ads.identifier.AdvertisingIdClient$Info zzmd();
+    ./externals/play-services-tagmanager/classes.jar.class.java.txt:17:  public final com.google.android.gms.ads.identifier.AdvertisingIdClient$Info zzmd();
+    ./externals/play-services-tagmanager/classes.jar.class.java.txt:24:  public abstract com.google.android.gms.ads.identifier.AdvertisingIdClient$Info zzmd();
+    ```
+*   Android.Gms.Dynamite.Descriptors.FirebaseDatabase.ModuleDescriptor
+
+*   Android.Gms.Dynamite.Descriptors.Flags.ModuleDescriptor
+
+*   Android.Gms.Internal.InternalObfuscatedBase1
+
+    *   `javap` search - not found
+
+*   Android.Gms.Internal.InternalObfuscatedBase2
+
+    *   `javap` search - not found
+
+*   Android.Gms.Internal.InternalObfuscatedBase2Consts
+
+    *   `javap` search - not found
+
+*   Android.Gms.People.ProtoModel.FetchBackUpDeviceContactInfoResponseEntity
+
+    *   `javap` search - not found
+
+*   Com.Google.Android.Gms.Auth.Api.Phone.ISmsRetrieverApi
+
+    *   MOVED
+
+    *   New Namespace Android.Gms.Auth.Api.Phone
+
+*   Com.Google.Android.Gms.Auth.Api.Phone.SmsRetriever
+
+    *   MOVED
+
+    *   New Namespace Android.Gms.Auth.Api.Phone
+
+*   Com.Google.Android.Gms.Auth.Api.Phone.SmsRetrieverClient
+
+    *   MOVED
+
+    *   New Namespace Android.Gms.Auth.Api.Phone
+
+*   Com.Google.Android.Gms.Dynamite.Descriptors.Com.Google.Firebase.Perf.ModuleDescriptor
+
+
+*   Com.Google.Firebase.Perf.FirebasePerformance
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Metrics.AddTraceAttribute
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Metrics.AppStartTrace
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Metrics.IAddTrace
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Network.FirebasePerfHttpClient
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Network.FirebasePerfOkHttpClient
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Network.FirebasePerfUrlConnection
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+*   Com.Google.Firebase.Perf.Provider.FirebasePerfProvider
+
+    *   MOVED
+
+    *   New Namespace Firebase.Perf
+
+

@@ -1200,11 +1200,6 @@ public class Zzg : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.I
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public static WorkAccountClient GetClient (Android.App.Activity activity);
-</pre>
 
 <h3>Type Changed: Android.Gms.Auth.Account.WorkAccountClient</h3>
 <p>Added property:</p>
@@ -4278,7 +4273,6 @@ public sealed class UnsupportedApiCallException : Java.Lang.UnsupportedOperation
 	public UnsupportedApiCallException (Android.Gms.Common.Feature p0);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-	public override string Message { get; }
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 }
@@ -10466,6 +10460,13 @@ public interface IValidCaptureModes : Android.Runtime.IJavaObject, Java.Lang.Ann
 
 <h3>Removed Type <span style='color: red'>Android.Gms.Games.Video.IVideosCaptureStreamingUrlResult</span></h3><h3>Removed Type <span style='color: red'>Android.Gms.Games.Video.IVideosExtensions</span></h3>
 <h2>Namespace Android.Gms.Gcm</h2>
+<h3>Type Changed: Android.Gms.Gcm.GcmListenerService</h3>
+Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Firebase.Iid.Zzb</span></span> <span style='color:green'>Android.Gms.Iid.Zzb</span>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+
 <h3>Type Changed: Android.Gms.Gcm.GcmNetworkManager</h3>
 <p>Added property:</p>
 <pre style='color: green'>
@@ -10583,26 +10584,6 @@ public interface IValidCaptureModes : Android.Runtime.IJavaObject, Java.Lang.Ann
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Gms.Gcm.GcmListenerService</span></h3><h3>New Type Android.Gms.Gcm.Zzd</h3>
-<pre style='color: green'>
-public sealed class Zzd : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
-	// properties
-	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-}
-</pre>
-<h3>New Type Android.Gms.Gcm.Zze</h3>
-<pre style='color: green'>
-public sealed class Zze : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.Util.Concurrent.IThreadFactory, System.IDisposable {
-	// properties
-	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-	protected override IntPtr ThresholdClass { get; }
-	protected override System.Type ThresholdType { get; }
-	// methods
-	public virtual Java.Lang.Thread NewThread (Java.Lang.IRunnable p0);
-}
-</pre>
 
 Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, HideBySig, VtableLayoutMask dst: ReuseSlot, Public, Final, Virtual, HideBySig) :
 <method name="WriteToParcel(Android.OS.Parcel, Android.OS.ParcelableWriteFlags)" attrib="486" virtual="true" returntype="System.Void">
@@ -10760,6 +10741,22 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual void WriteToParcel (Android.OS.Parcel <span style='text-decoration: line-through'>p0</span> <span style='color:green'>dest</span>, Android.OS.ParcelableWriteFlags <span style='text-decoration: line-through'>p1</span> <span style='color:green'>flags</span>)
 </pre>
 
+<h3>New Type Android.Gms.Iid.Zzb</h3>
+<pre style='color: green'>
+public abstract class Zzb : Android.App.Service, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public Zzb ();
+	protected Zzb (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual void HandleIntent (Android.Content.Intent p0);
+	public override Android.OS.IBinder OnBind (Android.Content.Intent p0);
+	public override Android.App.StartCommandResult OnStartCommand (Android.Content.Intent p0, Android.App.StartCommandFlags p1, int p2);
+}
+</pre>
 
 <h2>Namespace Android.Gms.InstantApp</h2>
 <h3>Type Changed: Android.Gms.InstantApp.InstantApps</h3>
@@ -11438,21 +11435,16 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual System.Threading.Tasks.Task&lt;PlacePhotoResponse&gt; GetPhotoAsync (IPlacePhotoMetadata photoMetadata);
-	public virtual System.Threading.Tasks.Task&lt;PlacePhotoMetadataResponse&gt; GetPlacePhotosAsync (string placeId);
-	public virtual System.Threading.Tasks.Task&lt;PlacePhotoResponse&gt; GetScaledPhotoAsync (IPlacePhotoMetadata photoMetadata, int width, int height);
-</pre>
 <p>Obsoleted methods:</p>
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
 	public virtual Android.Gms.Tasks.Task AddPlace (AddPlaceRequest addPlaceRequest);</span>
 </pre>
-<p>Added method:</p>
+<p>Added methods:</p>
 <pre style='color: green'>
 	public virtual Android.Gms.Tasks.Task GetAutocompletePredictions (string query, Android.Gms.Maps.Model.LatLngBounds bounds, int boundsMode, AutocompleteFilter filter);
+	public System.Threading.Tasks.Task&lt;AutocompletePredictionBufferResponse&gt; GetAutocompletePredictionsAsync (string query, Android.Gms.Maps.Model.LatLngBounds bounds, AutocompleteFilter filter);
+	public System.Threading.Tasks.Task&lt;PlaceBufferResponse&gt; GetPlaceByIdAsync (string[] placeIds);
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.Places.IGeoDataApi</h3>
@@ -11460,14 +11452,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre>
 	<span style='color:gray'>[Obsolete ("deprecated")]
 	public virtual Android.Gms.Common.Apis.PendingResult AddPlace (Android.Gms.Common.Apis.GoogleApiClient client, AddPlaceRequest addPlaceRequest);</span>
-</pre>
-
-<h3>Type Changed: Android.Gms.Location.Places.IPlaceDetectionApiExtensions</h3>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public static System.Threading.Tasks.Task&lt;PlaceLikelihoodBuffer&gt; GetCurrentPlaceAsync (IPlaceDetectionApi api, Android.Gms.Common.Apis.GoogleApiClient client, PlaceFilter filter);
-	public static System.Threading.Tasks.Task&lt;Android.Gms.Common.Apis.Statuses&gt; ReportDeviceAtPlaceAsync (IPlaceDetectionApi api, Android.Gms.Common.Apis.GoogleApiClient client, PlaceReport report);
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.Places.PlaceBuffer</h3>
@@ -11488,13 +11472,19 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Removed methods:</p>
 
-<pre style='color: red'>
-	public virtual Android.Gms.Tasks.Task GetCurrentPlace (PlaceFilter filter);
-	public System.Threading.Tasks.Task&lt;PlaceLikelihoodBufferResponse&gt; GetCurrentPlaceAsync (PlaceFilter placeFilter);
-	public virtual Android.Gms.Tasks.Task ReportDeviceAtPlace (PlaceReport report);
-	public System.Threading.Tasks.Task ReportDeviceAtPlaceAsync (PlaceReport report);
+<h3>Type Changed: Android.Gms.Location.Places.PlaceFilter</h3>
+<p>Modified constructors:</p>
+<pre>
+	public PlaceFilter (bool <span style='text-decoration: line-through'>requireOpenNow</span> <span style='color:green'>p0</span>, System.Collections.Generic.ICollection&lt;string&gt; <span style='text-decoration: line-through'>restrictToPlaceIds</span> <span style='color:green'>p1</span>)
+</pre>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
+</pre>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.Places.PlaceLikelihoodBuffer</h3>
@@ -11575,11 +11565,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 <h3>Type Changed: Android.Gms.Location.Places.PlacesClass</h3>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public static IPlaceDetectionApi PlaceDetectionApi { get; }
-</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -11621,13 +11606,48 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.IPlaceDetectionApi</span></h3><h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.PlaceFilter</span></h3><h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.PlaceReport</span></h3><h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.Zza</span></h3>
+<h3>Type Changed: Android.Gms.Location.Places.Zza</h3>
+Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Gms.Common.Internal.SafeParcel.AbstractSafeParcelable</span>
+<p>Added interface:</p>
+<pre style='color: green'>
+	Android.Gms.Common.Internal.SafeParcel.ISafeParcelable
+</pre>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Removed methods:</p>
+
+<pre style='color: red'>
+	public virtual int DescribeContents ();
+	public virtual void WriteToParcel (Android.OS.Parcel dest, Android.OS.ParcelableWriteFlags flags);
+</pre>
+
+<h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.PlaceReport</span></h3>
 <h2>Namespace Android.Gms.Location.Places.UI</h2>
+<h3>Type Changed: Android.Gms.Location.Places.UI.PlaceAutocomplete</h3>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+
 <h3>Type Changed: Android.Gms.Location.Places.UI.PlaceAutocompleteFragment</h3>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
+
+<h3>Type Changed: Android.Gms.Location.Places.UI.PlacePicker</h3>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<h3>Type Changed: Android.Gms.Location.Places.UI.PlacePicker.IntentBuilder</h3>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+
 
 <h3>Type Changed: Android.Gms.Location.Places.UI.SupportPlaceAutocompleteFragment</h3>
 <p>Added property:</p>
@@ -11635,7 +11655,13 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.UI.PlaceAutocomplete</span></h3><h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.UI.PlacePicker</span></h3><h3>Removed Type <span style='color: red'>Android.Gms.Location.Places.UI.Zza</span></h3>
+<h3>Type Changed: Android.Gms.Location.Places.UI.Zza</h3>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+
+
 Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, HideBySig, VtableLayoutMask dst: ReuseSlot, Public, Final, Virtual, HideBySig) :
 <method name="WriteToParcel(Android.OS.Parcel, Android.OS.ParcelableWriteFlags)" attrib="486" virtual="true" returntype="System.Void">
   <parameters>
@@ -14014,15 +14040,6 @@ public interface ISuccessContinuation : Android.Runtime.IJavaObject, System.IDis
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public virtual CameraSource.Builder SetFacing (CameraFacing facing);
-</pre>
-<p>Added method:</p>
-<pre style='color: green'>
-	public virtual CameraSource.Builder SetFacing (int facing);
-</pre>
 
 
 <h3>Type Changed: Android.Gms.Vision.Detector</h3>
@@ -14060,15 +14077,6 @@ public interface ISuccessContinuation : Android.Runtime.IJavaObject, System.IDis
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-</pre>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public virtual Frame.Builder SetRotation (FrameRotation rotation);
-</pre>
-<p>Added method:</p>
-<pre style='color: green'>
-	public virtual Frame.Builder SetRotation (int rotation);
 </pre>
 
 <h3>Type Changed: Android.Gms.Vision.Frame.Metadata</h3>
@@ -14388,15 +14396,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Removed method:</p>
-
-<pre style='color: red'>
-	public virtual BarcodeDetector.Builder SetBarcodeFormats (BarcodeFormat format);
-</pre>
-<p>Added method:</p>
-<pre style='color: green'>
-	public virtual BarcodeDetector.Builder SetBarcodeFormats (int format);
-</pre>
 
 
 
@@ -14416,19 +14415,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
-</pre>
-<p>Removed methods:</p>
-
-<pre style='color: red'>
-	public virtual FaceDetector.Builder SetClassificationType (ClassificationType classificationType);
-	public virtual FaceDetector.Builder SetLandmarkType (LandmarkDetectionType landmarkType);
-	public virtual FaceDetector.Builder SetMode (FaceDetectionMode mode);
-</pre>
-<p>Added methods:</p>
-<pre style='color: green'>
-	public virtual FaceDetector.Builder SetClassificationType (int classificationType);
-	public virtual FaceDetector.Builder SetLandmarkType (int landmarkType);
-	public virtual FaceDetector.Builder SetMode (int mode);
 </pre>
 
 
@@ -17147,6 +17133,13 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	Android.OS.IParcelable
 </pre>
 
+<h3>Type Changed: Firebase.Auth.OAuthProvider</h3>
+Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Firebase.Auth.Zzh</span>
+<p>Added property:</p>
+<pre style='color: green'>
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+
 <h3>Type Changed: Firebase.Auth.PhoneAuthCredential</h3>
 <p>Removed constructor:</p>
 
@@ -17266,7 +17259,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 
 
-<h3>Removed Type <span style='color: red'>Firebase.Auth.OAuthProvider</span></h3><h3>New Type Firebase.Auth.FirebaseAuthRegistrar</h3>
+<h3>New Type Firebase.Auth.FirebaseAuthRegistrar</h3>
 <pre style='color: green'>
 public class FirebaseAuthRegistrar : Java.Lang.Object, Android.Runtime.IJavaObject, Firebase.Componentsw.IComponentRegistrar, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -17338,6 +17331,17 @@ public class PlayGamesAuthProvider : Java.Lang.Object, Android.Runtime.IJavaObje
 	protected override System.Type ThresholdType { get; }
 	// methods
 	public static AuthCredential GetCredential (string serverAuthCode);
+}
+</pre>
+<h3>New Type Firebase.Auth.Zzh</h3>
+<pre style='color: green'>
+public class Zzh : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected Zzh (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
 }
 </pre>
 
