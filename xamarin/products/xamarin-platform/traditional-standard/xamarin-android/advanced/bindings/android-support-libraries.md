@@ -14,17 +14,47 @@ xamarin-android-support-libraries.md
    
    2. create branch for new versions `27.1.1`
    
-2. download Android Support binaries (*.jar and *.aar)
+2.  check the versions for new artifacts
 
-   `sh build.sh --target=externals`
+    *   https://maven.google.com
+    
+        *   https://dl.google.com/dl/android/maven2/index.html
+
+3.  for new artifacts create bindings projects (copy simple existing ones)
+
+    *   https://www.guidgenerator.com/online-guid-generator.aspx
+
+4. download Android Support binaries (*.jar and *.aar)
+
+```
+sh build.sh --target=externals
+```
    
-3. compile and fix
+5. compile and fix
 
-   `sh build.sh --target=libs`
+```
+sh build.sh --target=libs
+```
 
-4. diff the API of the new version and old
+6. diff the API of the new version and old
 
-   `sh build.sh --target=diff`
+```
+sh build.sh --target=diff`
+```
+
+
+### Batch Build (All steps at once)
+
+```
+sh build.sh --target=clean \
+&& \
+rm -fr ./externals \
+sh build.sh --target=externals \
+&&
+sh build.sh --target=libs \
+&&
+sh build.sh --target=diff
+```    
 
 
 ### Build times
