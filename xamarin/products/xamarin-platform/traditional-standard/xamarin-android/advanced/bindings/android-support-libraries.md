@@ -44,6 +44,18 @@ Just to have some information about build duration:
 *   https://github.com/redth/mavennet
 
 
+## CI / Build Servers
+
+*   Project Components - Android Support - macOS
+
+    *   https://jenkins.mono-project.com/view/Components/job/Components-AndroidSupport/
+
+*   Project Components - Android Support - Windows (x64)
+
+    *   https://jenkins.mono-project.com/view/Components/job/Components-AndroidSupport-Win/
+
+
+
 ## v.27.1.1
 
 ### Steps
