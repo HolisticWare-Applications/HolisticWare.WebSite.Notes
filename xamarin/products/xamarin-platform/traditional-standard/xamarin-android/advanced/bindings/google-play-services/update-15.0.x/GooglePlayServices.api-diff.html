@@ -12566,6 +12566,10 @@ public sealed class StreetViewSource : Android.Gms.Common.Internal.SafeParcel.Ab
 
 <h2>Namespace Android.Gms.Measurement</h2>
 <h3>Type Changed: Android.Gms.Measurement.AppMeasurement</h3>
+<p>Added field:</p>
+<pre style='color: green'>
+	public static const string FiamOrigin = "fiam";
+</pre>
 <p>Added properties:</p>
 <pre style='color: green'>
 	public virtual Java.Lang.Boolean Boolean { get; }
@@ -12621,6 +12625,59 @@ public sealed class StreetViewSource : Android.Gms.Common.Internal.SafeParcel.Ab
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
+<h3>New Type Android.Gms.Measurement.AppMeasurementInstallReferrerReceiver</h3>
+<pre style='color: green'>
+public sealed class AppMeasurementInstallReferrerReceiver : Android.Content.BroadcastReceiver, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public AppMeasurementInstallReferrerReceiver ();
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public Android.Content.BroadcastReceiver.PendingResult DoGoAsync ();
+	public void DoStartService (Android.Content.Context context, Android.Content.Intent service);
+	public override void OnReceive (Android.Content.Context context, Android.Content.Intent intent);
+}
+</pre>
+<h3>New Type Android.Gms.Measurement.AppMeasurementJobService</h3>
+<pre style='color: green'>
+public sealed class AppMeasurementJobService : Android.App.Job.JobService, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public AppMeasurementJobService ();
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public bool CallServiceStopSelfResult (int p0);
+	public override void OnCreate ();
+	public override void OnDestroy ();
+	public override void OnRebind (Android.Content.Intent intent);
+	public override bool OnStartJob (Android.App.Job.JobParameters params);
+	public override bool OnStopJob (Android.App.Job.JobParameters params);
+	public override bool OnUnbind (Android.Content.Intent intent);
+}
+</pre>
+<h3>New Type Android.Gms.Measurement.AppMeasurementService</h3>
+<pre style='color: green'>
+public sealed class AppMeasurementService : Android.App.Service, Android.Content.IComponentCallbacks, Android.Content.IComponentCallbacks2, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public AppMeasurementService ();
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public bool CallServiceStopSelfResult (int p0);
+	public override Android.OS.IBinder OnBind (Android.Content.Intent intent);
+	public override void OnCreate ();
+	public override void OnDestroy ();
+	public override void OnRebind (Android.Content.Intent intent);
+	public override Android.App.StartCommandResult OnStartCommand (Android.Content.Intent intent, Android.App.StartCommandFlags flags, int startId);
+	public override bool OnUnbind (Android.Content.Intent intent);
+}
+</pre>
 
 <h2>Namespace Android.Gms.Nearby</h2>
 <h3>Type Changed: Android.Gms.Nearby.NearbyClass</h3>
@@ -16316,10 +16373,20 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 </pre>
 
 <h3>Type Changed: Firebase.FirebaseApp</h3>
+<p>Added constructor:</p>
+<pre style='color: green'>
+	protected FirebaseApp (Android.Content.Context applicationContext, string name, FirebaseOptions options);
+</pre>
+<p>Modified properties:</p>
+<pre>
+	public <span style='color:green'>virtual</span> string Uid { get; }
+</pre>
 <p>Added properties:</p>
 <pre style='color: green'>
+	public virtual bool AutomaticDataCollectionEnabled { get; set; }
 	public virtual bool IsDefaultApp { get; }
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	public virtual System.Collections.Generic.IList&lt;FirebaseApp.IIdTokenListener&gt; Listeners { get; }
 	public virtual string PersistenceKey { get; }
 </pre>
 <p>Added events:</p>
@@ -16330,18 +16397,22 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 </pre>
 <p>Modified methods:</p>
 <pre>
-	public <span style='color:green'>virtual</span> Android.Gms.Tasks.Task GetToken (bool p0)
+	public <span style='color:green'>virtual</span> Android.Gms.Tasks.Task GetToken (bool <span style='text-decoration: line-through'>p0</span> <span style='color:green'>forceRefresh</span>)
 </pre>
 <p>Added methods:</p>
 <pre style='color: green'>
-	public virtual void AddBackgroundStateChangeListener (FirebaseApp.IBackgroundStateChangeListener p0);
-	public virtual void AddIdTokenListener (FirebaseApp.IIdTokenListener p0);
-	public virtual Java.Lang.Object Get (Java.Lang.Class p0);
-	public virtual void NotifyIdTokenListeners (Internal.InternalTokenResult p0);
-	public static void OnBackgroundStateChanged (bool p0);
-	public virtual void RemoveBackgroundStateChangeListener (FirebaseApp.IBackgroundStateChangeListener p0);
-	public virtual void SetIdTokenListenersCountChangedListener (FirebaseApp.IIdTokenListenersCountChangedListener p0);
-	public virtual void SetTokenProvider (Internal.IInternalTokenProvider p0);
+	public virtual void AddBackgroundStateChangeListener (FirebaseApp.IBackgroundStateChangeListener listener);
+	public virtual void AddIdTokenListener (FirebaseApp.IIdTokenListener listener);
+	public static void ClearInstancesForTest ();
+	public virtual void Delete ();
+	public virtual Java.Lang.Object Get (Java.Lang.Class anInterface);
+	public static string GetPersistenceKey (string name, FirebaseOptions options);
+	public virtual void NotifyIdTokenListeners (Internal.InternalTokenResult tokenResult);
+	public static void OnBackgroundStateChanged (bool background);
+	public virtual void RemoveBackgroundStateChangeListener (FirebaseApp.IBackgroundStateChangeListener listener);
+	public virtual void RemoveIdTokenListener (FirebaseApp.IIdTokenListener listenerToRemove);
+	public virtual void SetIdTokenListenersCountChangedListener (FirebaseApp.IIdTokenListenersCountChangedListener listener);
+	public virtual void SetTokenProvider (Internal.IInternalTokenProvider tokenProvider);
 </pre>
 
 <h3>Type Changed: Firebase.FirebaseException</h3>
@@ -16357,14 +16428,19 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 </pre>
 
 <h3>Type Changed: Firebase.FirebaseOptions</h3>
-<p>Added property:</p>
+<p>Added properties:</p>
 <pre style='color: green'>
+	public string GaTrackingId { get; }
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 <h3>Type Changed: Firebase.FirebaseOptions.Builder</h3>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Added method:</p>
+<pre style='color: green'>
+	public FirebaseOptions.Builder SetGaTrackingId (string gaTrackingId);
 </pre>
 
 
@@ -16374,10 +16450,23 @@ public abstract class NodeClient : Android.Gms.Common.Apis.GoogleApi, Android.Ru
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
+<h3>New Type Firebase.AutomaticDataCollectionChange</h3>
+<pre style='color: green'>
+public sealed class AutomaticDataCollectionChange : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public AutomaticDataCollectionChange (bool enabled);
+	// properties
+	public bool Enabled { get; set; }
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
 <h3>New Type Firebase.FirebaseError</h3>
 <pre style='color: green'>
 public class FirebaseError : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
+	public FirebaseError (int errorCode);
 	protected FirebaseError (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// fields
 	public static const int ErrorAccountExistsWithDifferentCredential;
@@ -16405,6 +16494,7 @@ public class FirebaseError : Java.Lang.Object, Android.Runtime.IJavaObject, Java
 	public static const int ErrorWeakPassword;
 	public static const int ErrorWrongPassword;
 	// properties
+	public virtual int ErrorCode { get; }
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
@@ -16482,6 +16572,16 @@ public class FirebaseExceptionMapper : Java.Lang.Object, Android.Gms.Common.Apis
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Added methods:</p>
+<pre style='color: green'>
+	public virtual ActionBuilder Put (string p0, IIndexable[] p1);
+	public virtual ActionBuilder Put (string p0, bool[] p1);
+	public virtual ActionBuilder Put (string p0, double[] p1);
+	public virtual ActionBuilder Put (string p0, long[] p1);
+	public virtual ActionBuilder Put (string p0, string[] p1);
+	public ActionBuilder SetName (string p0);
+	public ActionBuilder SetUrl (string p0);
 </pre>
 
 <h3>Type Changed: Firebase.AppIndexing.ActionMetadataBuilder</h3>
@@ -16607,8 +16707,10 @@ public sealed class Scope : Java.Lang.Object, Android.Runtime.IJavaObject, Java.
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
-<p>Added method:</p>
+<p>Added methods:</p>
 <pre style='color: green'>
+	public static AudiobookBuilder AudiobookBuilder ();
+	public static BookBuilder BookBuilder ();
 	public static PlaceBuilder PlaceBuilder ();
 </pre>
 
@@ -16691,6 +16793,33 @@ public sealed class Scope : Java.Lang.Object, Android.Runtime.IJavaObject, Java.
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
 </pre>
 
+<h3>New Type Firebase.AppIndexing.Builders.AudiobookBuilder</h3>
+<pre style='color: green'>
+public class AudiobookBuilder : Firebase.AppIndexing.Builders.IndexableBuilder, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected AudiobookBuilder (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual AudiobookBuilder SetAuthor (PersonBuilder[] p0);
+	public virtual AudiobookBuilder SetReadBy (PersonBuilder[] p0);
+}
+</pre>
+<h3>New Type Firebase.AppIndexing.Builders.BookBuilder</h3>
+<pre style='color: green'>
+public class BookBuilder : Firebase.AppIndexing.Builders.IndexableBuilder, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected BookBuilder (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	// methods
+	public virtual BookBuilder SetAuthor (PersonBuilder[] p0);
+}
+</pre>
 <h3>New Type Firebase.AppIndexing.Builders.PhotographBuilder</h3>
 <pre style='color: green'>
 public sealed class PhotographBuilder : Firebase.AppIndexing.Builders.IndexableBuilder, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
@@ -17061,7 +17190,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 </pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public GetTokenResult (string p0, System.Collections.Generic.IDictionary&lt;System.String,Java.Lang.Object&gt; p1);
+	public GetTokenResult (string token, System.Collections.Generic.IDictionary&lt;System.String,Java.Lang.Object&gt; claims);
 </pre>
 <p>Added properties:</p>
 <pre style='color: green'>
@@ -17557,9 +17686,18 @@ public class Zzh : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.I
 
 <h2>Namespace Firebase.Iid</h2>
 <h3>Type Changed: Firebase.Iid.FirebaseInstanceId</h3>
+<p>Obsoleted properties:</p>
+<pre>
+	<span style='color:gray'>[Obsolete ("deprecated")]
+	public virtual string Token { get; }</span>
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+</pre>
+<p>Added method:</p>
+<pre style='color: green'>
+	public virtual Android.Gms.Tasks.Task GetInstanceId ();
 </pre>
 
 <h3>Type Changed: Firebase.Iid.FirebaseInstanceIdReceiver</h3>
@@ -17578,6 +17716,11 @@ public class Zzh : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.I
 <pre style='color: red'>
 	public override void HandleIntent (Android.Content.Intent p0);
 </pre>
+<p>Obsoleted methods:</p>
+<pre>
+	<span style='color:gray'>[Obsolete ("deprecated")]
+	public virtual void OnTokenRefresh ();</span>
+</pre>
 
 <h3>Type Changed: Firebase.Iid.Zzb</h3>
 <p>Added property:</p>
@@ -17590,7 +17733,31 @@ public class Zzh : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.I
 	public virtual void HandleIntent (Android.Content.Intent p0);
 </pre>
 
-<h3>Removed Type <span style='color: red'>Firebase.Iid.FirebaseInstanceIdInternalReceiver</span></h3><h3>New Type Firebase.Iid.Registrar</h3>
+<h3>Removed Type <span style='color: red'>Firebase.Iid.FirebaseInstanceIdInternalReceiver</span></h3><h3>New Type Firebase.Iid.IInstanceIdResult</h3>
+<pre style='color: green'>
+public interface IInstanceIdResult : Android.Runtime.IJavaObject, System.IDisposable {
+	// properties
+	public virtual string Id { get; }
+	public virtual string Token { get; }
+}
+</pre>
+<h3>New Type Firebase.Iid.IMessagingChannel</h3>
+<pre style='color: green'>
+public interface IMessagingChannel : Android.Runtime.IJavaObject, System.IDisposable {
+	// properties
+	public virtual bool IsAvailable { get; }
+	public virtual bool IsChannelBuilt { get; }
+	// methods
+	public virtual Android.Gms.Tasks.Task AckMessage (string p0);
+	public virtual Android.Gms.Tasks.Task BuildChannel (string p0, string p1);
+	public virtual Android.Gms.Tasks.Task DeleteInstanceId (string p0);
+	public virtual Android.Gms.Tasks.Task DeleteToken (string p0, string p1, string p2);
+	public virtual Android.Gms.Tasks.Task GetToken (string p0, string p1, string p2);
+	public virtual Android.Gms.Tasks.Task SubscribeToTopic (string p0, string p1, string p2);
+	public virtual Android.Gms.Tasks.Task UnsubscribeFromTopic (string p0, string p1, string p2);
+}
+</pre>
+<h3>New Type Firebase.Iid.Registrar</h3>
 <pre style='color: green'>
 public sealed class Registrar : Java.Lang.Object, Android.Runtime.IJavaObject, Firebase.Componentsw.IComponentRegistrar, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
@@ -17646,6 +17813,10 @@ Comparison resulting in no changes (src: ReuseSlot, Public, Final, Virtual, Hide
 
 <pre style='color: red'>
 	public override void HandleIntent (Android.Content.Intent p0);
+</pre>
+<p>Added method:</p>
+<pre style='color: green'>
+	public virtual void OnNewToken (string p0);
 </pre>
 
 <h3>Type Changed: Firebase.Messaging.RemoteMessage</h3>
@@ -20869,6 +21040,46 @@ public class SignInResponseCreator : Java.Lang.Object, Android.OS.IParcelableCre
 }
 </pre>
 
+<h2>New Namespace Com.Google.Firebase.Events</h2>
+
+<h3>New Type Com.Google.Firebase.Events.Event</h3>
+<pre style='color: green'>
+public class Event : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	public Event (Java.Lang.Class type, Java.Lang.Object payload);
+	protected Event (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	public virtual Java.Lang.Object Payload { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+	public virtual Java.Lang.Class Type { get; }
+}
+</pre>
+<h3>New Type Com.Google.Firebase.Events.IEventHandler</h3>
+<pre style='color: green'>
+public interface IEventHandler : Android.Runtime.IJavaObject, System.IDisposable {
+	// methods
+	public virtual void Handle (Event p0);
+}
+</pre>
+<h3>New Type Com.Google.Firebase.Events.IPublisher</h3>
+<pre style='color: green'>
+public interface IPublisher : Android.Runtime.IJavaObject, System.IDisposable {
+	// methods
+	public virtual void Publish (Event p0);
+}
+</pre>
+<h3>New Type Com.Google.Firebase.Events.ISubscriber</h3>
+<pre style='color: green'>
+public interface ISubscriber : Android.Runtime.IJavaObject, System.IDisposable {
+	// methods
+	public virtual void Subscribe (Java.Lang.Class p0, IEventHandler p1);
+	public virtual void Subscribe (Java.Lang.Class p0, IEventHandler p1, Java.Util.Concurrent.IExecutor p2);
+	public virtual void Unsubscribe (Java.Lang.Class p0, IEventHandler p1);
+}
+</pre>
+
 <h2>New Namespace Firebase.Auth.Internal</h2>
 
 <h3>New Type Firebase.Auth.Internal.FederatedSignInActivity</h3>
@@ -20896,9 +21107,12 @@ public sealed class Component : Java.Lang.Object, Android.Runtime.IJavaObject, J
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public static Component.Builder InvokeBuilder (Java.Lang.Class p0);
-	public static Component.Builder InvokeBuilder (Java.Lang.Class p0, Java.Lang.Class[] p1);
-	public static Component Of (Java.Lang.Class p0, Java.Lang.Object p1);
+	public static Component.Builder InvokeBuilder (Java.Lang.Class anInterface);
+	public static Component.Builder InvokeBuilder (Java.Lang.Class anInterface, Java.Lang.Class[] additionalInterfaces);
+
+	[Obsolete ("deprecated")]
+	public static Component Of (Java.Lang.Class anInterface, Java.Lang.Object value);
+	public static Component Of (Java.Lang.Object value, Java.Lang.Class anInterface, Java.Lang.Class[] additionalInterfaces);
 	public override string ToString ();
 
 	// inner types
@@ -20910,11 +21124,12 @@ public sealed class Component : Java.Lang.Object, Android.Runtime.IJavaObject, J
 		protected override IntPtr ThresholdClass { get; }
 		protected override System.Type ThresholdType { get; }
 		// methods
-		public virtual Component.Builder Add (Dependency p0);
+		public virtual Component.Builder Add (Dependency dependency);
 		public virtual Component.Builder AlwaysEager ();
 		public virtual Component Build ();
 		public virtual Component.Builder EagerInDefaultApp ();
-		public virtual Component.Builder Factory (IComponentFactory p0);
+		public virtual Component.Builder Factory (IComponentFactory value);
+		public virtual Component.Builder Publishes (Java.Lang.Class eventType);
 	}
 }
 </pre>
@@ -20929,7 +21144,7 @@ public class ComponentDiscoveryService : Android.App.Service, Android.Content.IC
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public override Android.OS.IBinder OnBind (Android.Content.Intent p0);
+	public override Android.OS.IBinder OnBind (Android.Content.Intent intent);
 }
 </pre>
 <h3>New Type Firebase.Componentsw.Dependency</h3>
@@ -20940,12 +21155,12 @@ public sealed class Dependency : Java.Lang.Object, Android.Runtime.IJavaObject, 
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public override bool Equals (Java.Lang.Object p0);
+	public override bool Equals (Java.Lang.Object o);
 	public override int GetHashCode ();
-	public static Dependency Optional (Java.Lang.Class p0);
-	public static Dependency OptionalProvider (Java.Lang.Class p0);
-	public static Dependency Required (Java.Lang.Class p0);
-	public static Dependency RequiredProvider (Java.Lang.Class p0);
+	public static Dependency Optional (Java.Lang.Class anInterface);
+	public static Dependency OptionalProvider (Java.Lang.Class anInterface);
+	public static Dependency Required (Java.Lang.Class anInterface);
+	public static Dependency RequiredProvider (Java.Lang.Class anInterface);
 	public override string ToString ();
 }
 </pre>
@@ -20953,7 +21168,7 @@ public sealed class Dependency : Java.Lang.Object, Android.Runtime.IJavaObject, 
 <pre style='color: green'>
 public class DependencyCycleException : Firebase.Componentsw.DependencyException, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 	// constructors
-	public DependencyCycleException (System.Collections.Generic.IList&lt;Component&gt; p0);
+	public DependencyCycleException (System.Collections.Generic.IList&lt;Component&gt; componentsInCycle);
 	protected DependencyCycleException (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public virtual System.Collections.Generic.IList&lt;Component&gt; ComponentsInCycle { get; }
@@ -20966,7 +21181,7 @@ public class DependencyCycleException : Firebase.Componentsw.DependencyException
 <pre style='color: green'>
 public class DependencyException : Java.Lang.RuntimeException, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 	// constructors
-	public DependencyException (string p0);
+	public DependencyException (string msg);
 	protected DependencyException (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21000,7 +21215,7 @@ public interface IComponentRegistrar : Android.Runtime.IJavaObject, System.IDisp
 <pre style='color: green'>
 public class MissingDependencyException : Firebase.Componentsw.DependencyException, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 	// constructors
-	public MissingDependencyException (string p0);
+	public MissingDependencyException (string msg);
 	protected MissingDependencyException (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21032,10 +21247,10 @@ public class FirebaseAppHelper : Java.Lang.Object, Android.Runtime.IJavaObject, 
 	protected override IntPtr ThresholdClass { get; }
 	protected override System.Type ThresholdType { get; }
 	// methods
-	public static void AddIdTokenListener (Firebase.FirebaseApp p0, Firebase.FirebaseApp.IIdTokenListener p1);
-	public static Android.Gms.Tasks.Task GetToken (Firebase.FirebaseApp p0, bool p1);
-	public static string GetUid (Firebase.FirebaseApp p0);
-	public static void RemoveIdTokenListener (Firebase.FirebaseApp p0, Firebase.FirebaseApp.IIdTokenListener p1);
+	public static void AddIdTokenListener (Firebase.FirebaseApp app, Firebase.FirebaseApp.IIdTokenListener listener);
+	public static Android.Gms.Tasks.Task GetToken (Firebase.FirebaseApp app, bool forceRefresh);
+	public static string GetUid (Firebase.FirebaseApp app);
+	public static void RemoveIdTokenListener (Firebase.FirebaseApp app, Firebase.FirebaseApp.IIdTokenListener listener);
 }
 </pre>
 <h3>New Type Firebase.Internal.IInternalTokenProvider</h3>
@@ -21051,7 +21266,7 @@ public interface IInternalTokenProvider : Android.Runtime.IJavaObject, System.ID
 <pre style='color: green'>
 public class InternalTokenResult : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 	// constructors
-	public InternalTokenResult (string p0);
+	public InternalTokenResult (string token);
 	protected InternalTokenResult (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
@@ -21067,7 +21282,7 @@ public class InternalTokenResult : Java.Lang.Object, Android.Runtime.IJavaObject
 <pre style='color: green'>
 public class FirebaseNoSignedInUserException : Firebase.FirebaseException, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, Java.IO.ISerializable, System.IDisposable, System.Runtime.Serialization.ISerializable {
 	// constructors
-	public FirebaseNoSignedInUserException (string p0);
+	public FirebaseNoSignedInUserException (string message);
 	protected FirebaseNoSignedInUserException (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
 	// properties
 	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
