@@ -18,6 +18,16 @@ static async Task PrintDeps()
 		(GroupId: "com.google.android.gms", ArtifactId: "play-services-basement", Version: "15.0.1"),
 		(GroupId: "com.google.android.gms", ArtifactId: "play-services-base", Version: "15.0.1"),
 		(GroupId: "com.google.android.gms", ArtifactId: "play-services-vision", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-ads", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-ads-lite", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-analytics", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-analytics-impl", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-auth", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-auth-base", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-auth-api-phone", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-awareness", Version: "15.0.1"),
+		(GroupId: "com.google.android.gms", ArtifactId: "play-services-appinvite", Version: "15.0.1"),
+
 	};
 
 	// https://github.com/Redth/MavenNet
