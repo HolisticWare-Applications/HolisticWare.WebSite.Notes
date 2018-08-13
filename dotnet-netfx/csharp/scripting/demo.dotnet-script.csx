@@ -20,7 +20,7 @@ foreach(var user in users)
 
 
 
-
+https://msdn.microsoft.com/en-us/magazine/mt614271.aspx
 http://www.oss.io/p/filipw/dotnet-script
 https://www.hanselman.com/blog/?date=2016-02-25
 https://www.strathweb.com/2018/03/lightweight-net-core-benchmarking-with-benchmarkdotnet-and-dotnet-script/
