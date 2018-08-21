@@ -18,17 +18,17 @@ FWLink is a URL redirection service with which users can create link entries tha
 
 To create and change a FWLink visit the [following site][1].
 
-| Name | Value |
-|------|-------|
-| Group Owner | xamacomd  |
-| Long Url | target url the link points to |
-| Product (PRD) | Visual Studio (12514) |
-| Sub Product (SBP) | Xamarin Components |
-| Area (AR) | Name of the GitHub repository |
-| Sub Area (SBA) | What the link is for.  "ProjectUrl" or "LicenseUrl" |
-| Optional Field 1 (O1) | Id of the NuGet package |
+| Name                  | Value                                                |
+|-----------------------|------------------------------------------------------|
+| Group Owner           | xamacomd                                             |
+| Long Url              | target url the link points to                        |
+| Product (PRD)         | Visual Studio (12514)                                |
+| Sub Product (SBP)     | Xamarin Components                                   |
+| Area (AR)             | Name of the GitHub repository                        |
+| Sub Area (SBA)        | What the link is for.  "ProjectUrl" or "LicenseUrl"  |
+| Optional Field 1 (O1) | Id of the NuGet package                              |
 | Optional Field 2 (O2) | What the link is for, same as "Sub Area (SBA)" above |
-| Description | A message that contains the NuGet id and what the link is for.  Eg: "Xamarin.Android.ShimmerLayout NuGet Project Url" | 
+| Description           | A message that contains the NuGet id and what the link is for.  Eg: "Xamarin.Android.ShimmerLayout NuGet Project Url" | 
  
 ## AssemblyFileVersion
 
