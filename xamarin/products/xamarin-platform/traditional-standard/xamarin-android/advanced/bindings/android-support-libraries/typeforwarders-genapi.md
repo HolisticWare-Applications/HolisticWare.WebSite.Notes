@@ -81,6 +81,9 @@ mono \
 "$DIR_ANDROID_SUPPORT/com.android.support.support-v4/bin/Debug/monoandroid90/Xamarin.Android.Support.v4.dll" \
 -libPath:\
 "
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/;
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v9.0/;
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/;
 $DIR_ANDROID_SUPPORT/android.arch.core.common/bin/Debug/monoandroid90/;
 $DIR_ANDROID_SUPPORT/android.arch.core.runtime/bin/Debug/monoandroid90/;
 $DIR_ANDROID_SUPPORT/android.arch.lifecycle.common/bin/Debug/monoandroid90/;
@@ -111,6 +114,58 @@ $DIR_ANDROID_SUPPORT/com.android.support.viewpager/bin/Debug/monoandroid90/;
 " \
 -out:"$DIR_ANDROID_SUPPORT/com.android.support.support-v4/bin/Debug/monoandroid90/Xamarin.Android.Support.v4.cs"
 ```
+
+
+
+
+
+```
+export DIR_ANDROID_SUPPORT="/Projects/X/AndroidSupportComponents-28.0.0-new/generated/"
+mono \
+"/Users/moljac/.nuget/packages/microsoft.dotnet.buildtools.genapi/1.0.0-beta-00081/build/../tools/GenApi.exe" \
+"generated/com.android.support.support-v4/bin/Debug/monoandroid90/Xamarin.Android.Support.v4.dll" \
+-libPath:\
+"
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/;
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v9.0/;
+/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/Facades/;
+$DIR_ANDROID_SUPPORT/android.arch.core.common/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/android.arch.core.runtime/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/android.arch.lifecycle.common/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/android.arch.lifecycle.livedata-core/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/android.arch.lifecycle.runtime/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/android.arch.lifecycle.viewmodel/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.support-annotations/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.asynclayoutinflater/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.collections/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.support-compat/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.coordinatorlayout/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.support-core-ui/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.support-core-utils/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.cursoradapter/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.customview/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.documentfile/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.drawerlayout/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.support-fragment/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.interpolator/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.loader/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.localbroadcastmanager/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.support-media-compat/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.print/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.slidingpanelayout/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.swiperefreshlayout/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.versionedparcelable/bin/Debug/monoandroid90/;
+$DIR_ANDROID_SUPPORT/com.android.support.viewpager/bin/Debug/monoandroid90/;
+" \
+-out:"$DIR_ANDROID_SUPPORT/com.android.support.support-v4/bin/Debug/monoandroid90/Xamarin.Android.Support.v4.cs"
+```
+
+
+
+
+
+
+
 
 
 ## Removing `PackageReference` for GenAPI and replacing it with custom taks using Cake `tools/`
