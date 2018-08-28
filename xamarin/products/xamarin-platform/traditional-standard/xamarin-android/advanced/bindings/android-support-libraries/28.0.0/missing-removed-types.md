@@ -1,4 +1,5 @@
 Removed Type  ...
+
 ```
 Android.Support.Design.Internal.SnackbarContentLayout
 Android.Support.Design.Widget.AppBarLayout.SavedState
@@ -123,26 +124,6 @@ AndroidX.Text.Emoji.FlatBuffer.Struct
 AndroidX.Text.Emoji.FlatBuffer.Table
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ./output//AndroidSupport.api-diff.xml:
 ```
 6438:              <class name="Stats" type="class" presence="missing" />
@@ -226,3 +207,11 @@ AndroidX.Text.Emoji.FlatBuffer.Table
 162597:              <class name="ByteBufferBackedInputStream" type="class" presence="missing" />
 162598:              <class name="HeapByteBufferFactory" type="class" presence="missing" />
 ```
+
+Analysis
+
+*   `Android.Support.Design.Internal.SnackbarContentLayout`
+
+    moved to `Android.Support.Design.Widget.SnackbarContentLayout`
+
+*   
