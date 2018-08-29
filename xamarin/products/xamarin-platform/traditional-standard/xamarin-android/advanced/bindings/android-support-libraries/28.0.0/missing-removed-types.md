@@ -214,4 +214,14 @@ Analysis
 
     moved to `Android.Support.Design.Widget.SnackbarContentLayout`
 
-*   
+*   `Android.Support.Design.Widget.AppBarLayout.SavedState`
+
+    protected now
+
+    `protected static class SavedState extends AbsSavedState`
+
+*   `Android.Support.Design.Widget.CollapsingToolbarLayout.ICollapseMode`
+
+    not found by Luyten
+
+*   ``
