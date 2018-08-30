@@ -21,69 +21,6 @@
 
 
 
-<h2>Namespace Android.Support.Animation</h2>
-<h3>Type Changed: Android.Support.Animation.DynamicAnimation</h3>
-<h3>Type Changed: Android.Support.Animation.DynamicAnimation.AnimationEndEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DynamicAnimation (DynamicAnimation <span style='text-decoration: line-through'>animation</span> <span style='color:green'>p0</span>, bool <span style='text-decoration: line-through'>canceled</span> <span style='color:green'>p1</span>, float <span style='text-decoration: line-through'>value</span> <span style='color:green'>p2</span>, float <span style='text-decoration: line-through'>velocity</span> <span style='color:green'>p3</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public DynamicAnimation Animation { get; }
-	public bool Canceled { get; }
-	public float Value { get; }
-	public float Velocity { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public DynamicAnimation P0 { get; }
-	public bool P1 { get; }
-	public float P2 { get; }
-	public float P3 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.Animation.DynamicAnimation.AnimationUpdateEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DynamicAnimation (DynamicAnimation <span style='text-decoration: line-through'>animation</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>value</span> <span style='color:green'>p1</span>, float <span style='text-decoration: line-through'>velocity</span> <span style='color:green'>p2</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public DynamicAnimation Animation { get; }
-	public float Value { get; }
-	public float Velocity { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public DynamicAnimation P0 { get; }
-	public float P1 { get; }
-	public float P2 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.Animation.DynamicAnimation.IOnAnimationEndListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnAnimationEnd (DynamicAnimation <span style='text-decoration: line-through'>animation</span> <span style='color:green'>p0</span>, bool <span style='text-decoration: line-through'>canceled</span> <span style='color:green'>p1</span>, float <span style='text-decoration: line-through'>value</span> <span style='color:green'>p2</span>, float <span style='text-decoration: line-through'>velocity</span> <span style='color:green'>p3</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.Animation.DynamicAnimation.IOnAnimationUpdateListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnAnimationUpdate (DynamicAnimation <span style='text-decoration: line-through'>animation</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>value</span> <span style='color:green'>p1</span>, float <span style='text-decoration: line-through'>velocity</span> <span style='color:green'>p2</span>)
-</pre>
-
-
-<h3>Type Changed: Android.Support.Animation.FloatPropertyCompat</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract float GetValue (Java.Lang.Object <span style='text-decoration: line-through'>object</span> <span style='color:green'>p0</span>)
-	public abstract void SetValue (Java.Lang.Object <span style='text-decoration: line-through'>object</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>value</span> <span style='color:green'>p1</span>)
-</pre>
-
-
 <h2>Namespace Android.Support.Annotation</h2>
 <h3>New Type Android.Support.Annotation.IRequiresFeature</h3>
 <pre style='color: green'>
@@ -103,14 +40,6 @@ public class RequiresFeatureAttribute : System.Attribute {
 	public string Name { get; set; }
 }
 </pre>
-
-<h2>Namespace Android.Support.CustomTabs</h2>
-<h3>Type Changed: Android.Support.CustomTabs.CustomTabsServiceConnection</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnCustomTabsServiceConnected (Android.Content.ComponentName <span style='text-decoration: line-through'>name</span> <span style='color:green'>p0</span>, CustomTabsClient <span style='text-decoration: line-through'>client</span> <span style='color:green'>p1</span>)
-</pre>
-
 
 <h2>Namespace Android.Support.Design.Internal</h2>
 <h3>Type Changed: Android.Support.Design.Internal.BottomNavigationItemView</h3>
@@ -268,22 +197,17 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public virtual void OnStopNestedScroll (CoordinatorLayout coordinatorLayout, AppBarLayout abl, Android.Views.View target, int type);
 	public virtual void SetDragCallback (AppBarLayout.Behavior.DragCallback callback);
 </pre>
-<p>Modified methods:</p>
-<pre>
-	public override bool SetLeftAndRightOffset (int <span style='text-decoration: line-through'>offset</span> <span style='color:green'>p0</span>)
-	public override bool SetTopAndBottomOffset (int <span style='text-decoration: line-through'>offset</span> <span style='color:green'>p0</span>)
-</pre>
 <p>Added methods:</p>
 <pre style='color: green'>
-	public override bool OnLayoutChild (CoordinatorLayout p0, Java.Lang.Object p1, int p2);
+	public override bool OnLayoutChild (CoordinatorLayout parent, Java.Lang.Object abl, int layoutDirection);
 	public override bool OnMeasureChild (CoordinatorLayout parent, Java.Lang.Object child, int parentWidthMeasureSpec, int widthUsed, int parentHeightMeasureSpec, int heightUsed);
-	public override void OnNestedPreScroll (CoordinatorLayout p0, Java.Lang.Object p1, Android.Views.View p2, int p3, int p4, int[] p5, int p6);
-	public override void OnNestedScroll (CoordinatorLayout p0, Java.Lang.Object p1, Android.Views.View p2, int p3, int p4, int p5, int p6, int p7);
+	public override void OnNestedPreScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object child, Android.Views.View target, int dx, int dy, int[] consumed, int type);
+	public override void OnNestedScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object child, Android.Views.View target, int dx, int dy, int consumed, int type, int p7);
 	public override void OnRestoreInstanceState (CoordinatorLayout p0, Java.Lang.Object p1, Android.OS.IParcelable p2);
-	public override Android.OS.IParcelable OnSaveInstanceState (CoordinatorLayout p0, Java.Lang.Object p1);
-	public override bool OnStartNestedScroll (CoordinatorLayout p0, Java.Lang.Object p1, Android.Views.View p2, Android.Views.View p3, int p4, int p5);
-	public override void OnStopNestedScroll (CoordinatorLayout p0, Java.Lang.Object p1, Android.Views.View p2, int p3);
-	public override void SetDragCallback (AppBarLayout.BaseBehavior.BaseDragCallback p0);
+	public override Android.OS.IParcelable OnSaveInstanceState (CoordinatorLayout parent, Java.Lang.Object abl);
+	public override bool OnStartNestedScroll (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.View directTargetChild, Android.Views.View target, int nestedScrollAxes, int type);
+	public override void OnStopNestedScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object abl, Android.Views.View target, int type);
+	public override void SetDragCallback (AppBarLayout.BaseBehavior.BaseDragCallback callback);
 </pre>
 <h3>Type Changed: Android.Support.Design.Widget.AppBarLayout.DragCallback</h3>
 Modified base type: <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Android.Support.Design.Widget.AppBarLayout+BaseBehavior+BaseDragCallback</span>
@@ -309,14 +233,6 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 <p>Added field:</p>
 <pre style='color: green'>
 	public static const int ScrollFlagSnapMargins;
-</pre>
-
-<h3>Type Changed: Android.Support.Design.Widget.AppBarLayout.ScrollingViewBehavior</h3>
-<p>Modified methods:</p>
-<pre>
-	public override bool OnMeasureChild (CoordinatorLayout <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>child</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>parentWidthMeasureSpec</span> <span style='color:green'>p2</span>, int <span style='text-decoration: line-through'>widthUsed</span> <span style='color:green'>p3</span>, int <span style='text-decoration: line-through'>parentHeightMeasureSpec</span> <span style='color:green'>p4</span>, int <span style='text-decoration: line-through'>heightUsed</span> <span style='color:green'>p5</span>)
-	public override bool SetLeftAndRightOffset (int <span style='text-decoration: line-through'>offset</span> <span style='color:green'>p0</span>)
-	public override bool SetTopAndBottomOffset (int <span style='text-decoration: line-through'>offset</span> <span style='color:green'>p0</span>)
 </pre>
 
 <h3>Removed Type <span style='color: red'>Android.Support.Design.Widget.AppBarLayout.OffsetChangedEventArgs</span></h3><h3>New Type Android.Support.Design.Widget.BaseBehavior</h3>
@@ -351,7 +267,7 @@ public class BaseBehavior : Android.Support.Design.Widget.HeaderBehavior, Androi
 		protected override IntPtr ThresholdClass { get; }
 		protected override System.Type ThresholdType { get; }
 		// methods
-		public virtual bool CanDrag (Java.Lang.Object p0);
+		public virtual bool CanDrag (Java.Lang.Object object);
 	}
 	public class SavedState : Android.Support.V4.View.AbsSavedState, Android.OS.IParcelable, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
 		// constructors
@@ -370,17 +286,17 @@ public class BaseBehavior : Android.Support.Design.Widget.HeaderBehavior, Androi
 <pre style='color: green'>
 public class BaseOnOffsetChangedEventArgs : System.EventArgs {
 	// constructors
-	public AppBarLayout (Java.Lang.Object p0, int p1);
+	public AppBarLayout (Java.Lang.Object appBarLayout, int offset);
 	// properties
-	public Java.Lang.Object P0 { get; }
-	public int P1 { get; }
+	public Java.Lang.Object AppBarLayout { get; }
+	public int Offset { get; }
 }
 </pre>
 <h3>New Type Android.Support.Design.Widget.IBaseOnOffsetChangedListener</h3>
 <pre style='color: green'>
 public interface IBaseOnOffsetChangedListener : Android.Runtime.IJavaObject, System.IDisposable {
 	// methods
-	public virtual void OnOffsetChanged (Java.Lang.Object p0, int p1);
+	public virtual void OnOffsetChanged (Java.Lang.Object appBarLayout, int offset);
 }
 </pre>
 
@@ -469,48 +385,6 @@ public class BehaviorDelegate : Java.Lang.Object, Android.Runtime.IJavaObject, J
 <pre style='color: green'>
 	public virtual void SetItemIconSizeRes (int iconSizeRes);
 </pre>
-<h3>Type Changed: Android.Support.Design.Widget.BottomNavigationView.IOnNavigationItemReselectedListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnNavigationItemReselected (Android.Views.IMenuItem <span style='text-decoration: line-through'>item</span> <span style='color:green'>p0</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.Design.Widget.BottomNavigationView.IOnNavigationItemSelectedListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract bool OnNavigationItemSelected (Android.Views.IMenuItem <span style='text-decoration: line-through'>item</span> <span style='color:green'>p0</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.Design.Widget.BottomNavigationView.NavigationItemReselectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public BottomNavigationView (Android.Views.IMenuItem <span style='text-decoration: line-through'>item</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public Android.Views.IMenuItem Item { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Android.Views.IMenuItem P0 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.Design.Widget.BottomNavigationView.NavigationItemSelectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public BottomNavigationView (bool handled, Android.Views.IMenuItem <span style='text-decoration: line-through'>item</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public Android.Views.IMenuItem Item { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Android.Views.IMenuItem P0 { get; }
-</pre>
-
 
 <h3>Type Changed: Android.Support.Design.Widget.BottomSheetBehavior</h3>
 <p>Added field:</p>
@@ -530,8 +404,8 @@ public class BehaviorDelegate : Java.Lang.Object, Android.Runtime.IJavaObject, J
 </pre>
 <p>Modified methods:</p>
 <pre>
-	public virtual bool OnInterceptTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>e</span>)
-	public virtual bool OnTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>e</span>)
+	public virtual bool OnInterceptTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>event_</span>)
+	public virtual bool OnTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>event_</span>)
 </pre>
 <p>Added methods:</p>
 <pre style='color: green'>
@@ -539,13 +413,6 @@ public class BehaviorDelegate : Java.Lang.Object, Android.Runtime.IJavaObject, J
 	public virtual bool OnStartNestedScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object child, Android.Views.View directTargetChild, Android.Views.View target, int axes, int type);
 	public virtual void OnStopNestedScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object child, Android.Views.View target, int type);
 </pre>
-<h3>Type Changed: Android.Support.Design.Widget.BottomSheetBehavior.BottomSheetCallback</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnSlide (Android.Views.View <span style='text-decoration: line-through'>bottomSheet</span> <span style='color:green'>p0</span>, float <span style='text-decoration: line-through'>slideOffset</span> <span style='color:green'>p1</span>)
-	public abstract void OnStateChanged (Android.Views.View <span style='text-decoration: line-through'>bottomSheet</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>newState</span> <span style='color:green'>p1</span>)
-</pre>
-
 
 <h3>Type Changed: Android.Support.Design.Widget.CollapsingToolbarLayout</h3>
 <h3>Type Changed: Android.Support.Design.Widget.CollapsingToolbarLayout.LayoutParams</h3>
@@ -620,16 +487,10 @@ public class BehaviorDelegate : Java.Lang.Object, Android.Runtime.IJavaObject, J
 	public virtual void SetShowMotionSpecResource (int id);
 </pre>
 <h3>Type Changed: Android.Support.Design.Widget.FloatingActionButton.Behavior</h3>
-<p>Modified methods:</p>
-<pre>
-	public virtual bool GetInsetDodgeRect (CoordinatorLayout <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, FloatingActionButton <span style='text-decoration: line-through'>child</span> <span style='color:green'>p1</span>, Android.Graphics.Rect <span style='text-decoration: line-through'>rect</span> <span style='color:green'>p2</span>)
-	public virtual bool OnDependentViewChanged (CoordinatorLayout <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, FloatingActionButton <span style='text-decoration: line-through'>child</span> <span style='color:green'>p1</span>, Android.Views.View <span style='text-decoration: line-through'>dependency</span> <span style='color:green'>p2</span>)
-	public virtual bool OnLayoutChild (CoordinatorLayout <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, FloatingActionButton <span style='text-decoration: line-through'>child</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>layoutDirection</span> <span style='color:green'>p2</span>)
-</pre>
 <p>Added methods:</p>
 <pre style='color: green'>
-	public override void OnAttachedToLayoutParams (CoordinatorLayout.LayoutParams p0);
-	public virtual void SetInternalAutoHideListener (FloatingActionButton.OnVisibilityChangedListener p0);
+	public override void OnAttachedToLayoutParams (CoordinatorLayout.LayoutParams layoutParams);
+	public virtual void SetInternalAutoHideListener (FloatingActionButton.OnVisibilityChangedListener listener);
 </pre>
 
 <h3>New Type Android.Support.Design.Widget.BaseBehavior</h3>
@@ -688,46 +549,9 @@ public interface IDuration : Android.Runtime.IJavaObject, Java.Lang.Annotation.I
 <h3>Type Changed: Android.Support.Design.Widget.SwipeDismissBehavior</h3>
 <p>Modified methods:</p>
 <pre>
-	public virtual bool OnInterceptTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>e</span>)
-	public virtual bool OnTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>e</span>)
+	public virtual bool OnInterceptTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>event_</span>)
+	public virtual bool OnTouchEvent (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>event_</span>)
 </pre>
-<h3>Type Changed: Android.Support.Design.Widget.SwipeDismissBehavior.DismissEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SwipeDismissBehavior (Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public Android.Views.View View { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Android.Views.View P0 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.Design.Widget.SwipeDismissBehavior.DragStateChangedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SwipeDismissBehavior (int <span style='text-decoration: line-through'>state</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public int State { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public int P0 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.Design.Widget.SwipeDismissBehavior.IOnDismissListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnDismiss (Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p0</span>)
-	public abstract void OnDragStateChanged (int <span style='text-decoration: line-through'>state</span> <span style='color:green'>p0</span>)
-</pre>
-
 
 <h3>Type Changed: Android.Support.Design.Widget.TabItem</h3>
 <p>Added constructor:</p>
@@ -843,16 +667,11 @@ public interface IDuration : Android.Runtime.IJavaObject, Java.Lang.Annotation.I
 </pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public TabLayout (Java.Lang.Object p0);
+	public TabLayout (Java.Lang.Object tab);
 </pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public TabLayout.Tab Tab { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Java.Lang.Object P0 { get; }
+<p>Modified properties:</p>
+<pre>
+	public <span style='text-decoration: line-through'><span style='color:red'>TabLayout.Tab</span></span> <span style='color:green'>Java.Lang.Object</span> Tab { get; }
 </pre>
 
 <h3>Type Changed: Android.Support.Design.Widget.TabLayout.TabSelectedEventArgs</h3>
@@ -863,16 +682,11 @@ public interface IDuration : Android.Runtime.IJavaObject, Java.Lang.Annotation.I
 </pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public TabLayout (Java.Lang.Object p0);
+	public TabLayout (Java.Lang.Object tab);
 </pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public TabLayout.Tab Tab { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Java.Lang.Object P0 { get; }
+<p>Modified properties:</p>
+<pre>
+	public <span style='text-decoration: line-through'><span style='color:red'>TabLayout.Tab</span></span> <span style='color:green'>Java.Lang.Object</span> Tab { get; }
 </pre>
 
 <h3>Type Changed: Android.Support.Design.Widget.TabLayout.TabUnselectedEventArgs</h3>
@@ -883,16 +697,11 @@ public interface IDuration : Android.Runtime.IJavaObject, Java.Lang.Annotation.I
 </pre>
 <p>Added constructor:</p>
 <pre style='color: green'>
-	public TabLayout (Java.Lang.Object p0);
+	public TabLayout (Java.Lang.Object tab);
 </pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public TabLayout.Tab Tab { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Java.Lang.Object P0 { get; }
+<p>Modified properties:</p>
+<pre>
+	public <span style='text-decoration: line-through'><span style='color:red'>TabLayout.Tab</span></span> <span style='color:green'>Java.Lang.Object</span> Tab { get; }
 </pre>
 
 <h3>Type Changed: Android.Support.Design.Widget.TabLayout.ViewPagerOnTabSelectedListener</h3>
@@ -914,9 +723,9 @@ public interface IDuration : Android.Runtime.IJavaObject, Java.Lang.Annotation.I
 <pre style='color: green'>
 public interface IBaseOnTabSelectedListener : Android.Runtime.IJavaObject, System.IDisposable {
 	// methods
-	public virtual void OnTabReselected (Java.Lang.Object p0);
-	public virtual void OnTabSelected (Java.Lang.Object p0);
-	public virtual void OnTabUnselected (Java.Lang.Object p0);
+	public virtual void OnTabReselected (Java.Lang.Object tab);
+	public virtual void OnTabSelected (Java.Lang.Object tab);
+	public virtual void OnTabUnselected (Java.Lang.Object tab);
 }
 </pre>
 <h3>New Type Android.Support.Design.Widget.ITabIndicatorGravity</h3>
@@ -1638,29 +1447,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <pre>
 	public virtual bool OnTouch (Android.Views.View v, Android.Views.MotionEvent <span style='text-decoration: line-through'>event</span> <span style='color:green'>e</span>)
 </pre>
-<h3>Type Changed: Android.Support.V13.View.DragStartHelper.DragStartEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public DragStartHelper (bool handled, Android.Views.View <span style='text-decoration: line-through'>v</span> <span style='color:green'>p0</span>, DragStartHelper <span style='text-decoration: line-through'>helper</span> <span style='color:green'>p1</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public DragStartHelper Helper { get; }
-	public Android.Views.View V { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public Android.Views.View P0 { get; }
-	public DragStartHelper P1 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V13.View.DragStartHelper.IOnDragStartListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract bool OnDragStart (Android.Views.View <span style='text-decoration: line-through'>v</span> <span style='color:green'>p0</span>, DragStartHelper <span style='text-decoration: line-through'>helper</span> <span style='color:green'>p1</span>)
-</pre>
-
 
 <h3>Removed Type <span style='color: red'>Android.Support.V13.View.ViewCompat</span></h3>
 <h2>Namespace Android.Support.V13.View.Inputmethod</h2>
@@ -1686,31 +1472,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <pre style='color: red'>
 	public static int InputContentGrantReadUriPermission { get; set; }
 </pre>
-<h3>Type Changed: Android.Support.V13.View.Inputmethod.InputConnectionCompat.CommitContentEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public InputConnectionCompat (bool handled, InputContentInfoCompat <span style='text-decoration: line-through'>inputContentInfo</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>flags</span> <span style='color:green'>p1</span>, Android.OS.Bundle <span style='text-decoration: line-through'>opts</span> <span style='color:green'>p2</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public int Flags { get; }
-	public InputContentInfoCompat InputContentInfo { get; }
-	public Android.OS.Bundle Opts { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public InputContentInfoCompat P0 { get; }
-	public int P1 { get; }
-	public Android.OS.Bundle P2 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V13.View.Inputmethod.InputConnectionCompat.IOnCommitContentListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract bool OnCommitContent (InputContentInfoCompat <span style='text-decoration: line-through'>inputContentInfo</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>flags</span> <span style='color:green'>p1</span>, Android.OS.Bundle <span style='text-decoration: line-through'>opts</span> <span style='color:green'>p2</span>)
-</pre>
-
 
 
 <h2>Namespace Android.Support.V14.Preferences</h2>
@@ -1926,21 +1687,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.Transition.TransitionHelper.ITransitionHelperVersionImpl</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.Transition.TransitionHelper.TransitionHelperKitkatImpl</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V17.Leanback.Transition.TransitionHelper.TransitionHelperStubImpl</span></h3>
 
 <h2>Namespace Android.Support.V17.Leanback.Widget</h2>
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.ActionClickedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ActionClickedEventArgs (Action <span style='text-decoration: line-through'>action</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public Action Action { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public Action P0 { get; }
-</pre>
-
 <h3>Type Changed: Android.Support.V17.Leanback.Widget.BackgroundHelper</h3>
 <p>Removed constructor:</p>
 
@@ -1956,95 +1702,12 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 	public virtual Android.Views.View Invoke (Android.Views.View <span style='text-decoration: line-through'>focused</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>direction</span> <span style='color:green'>p1</span>)
 </pre>
 
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.BrowseFrameLayout.IOnChildFocusListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnRequestChildFocus (Android.Views.View <span style='text-decoration: line-through'>child</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>focused</span> <span style='color:green'>p1</span>)
-	public abstract bool OnRequestFocusInDescendants (int <span style='text-decoration: line-through'>direction</span> <span style='color:green'>p0</span>, Android.Graphics.Rect <span style='text-decoration: line-through'>previouslyFocusedRect</span> <span style='color:green'>p1</span>)
-</pre>
-
 <h3>Type Changed: Android.Support.V17.Leanback.Widget.BrowseFrameLayout.IOnFocusSearchListener</h3>
 <p>Modified methods:</p>
 <pre>
 	public abstract Android.Views.View OnFocusSearch (Android.Views.View <span style='text-decoration: line-through'>focused</span> <span style='color:green'>p0</span>, int <span style='text-decoration: line-through'>direction</span> <span style='color:green'>p1</span>)
 </pre>
 
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.BrowseFrameLayout.RequestChildFocusEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public BrowseFrameLayout (Android.Views.View <span style='text-decoration: line-through'>child</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>focused</span> <span style='color:green'>p1</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public Android.Views.View Child { get; }
-	public Android.Views.View Focused { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public Android.Views.View P0 { get; }
-	public Android.Views.View P1 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.BrowseFrameLayout.RequestFocusInDescendantsEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public BrowseFrameLayout (bool handled, int <span style='text-decoration: line-through'>direction</span> <span style='color:green'>p0</span>, Android.Graphics.Rect <span style='text-decoration: line-through'>previouslyFocusedRect</span> <span style='color:green'>p1</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public int Direction { get; }
-	public Android.Graphics.Rect PreviouslyFocusedRect { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public int P0 { get; }
-	public Android.Graphics.Rect P1 { get; }
-</pre>
-
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.ChildLaidOutEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ChildLaidOutEventArgs (Android.Views.ViewGroup <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>position</span> <span style='color:green'>p2</span>, long <span style='text-decoration: line-through'>id</span> <span style='color:green'>p3</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public long Id { get; }
-	public Android.Views.ViewGroup Parent { get; }
-	public int Position { get; }
-	public Android.Views.View View { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public Android.Views.ViewGroup P0 { get; }
-	public Android.Views.View P1 { get; }
-	public int P2 { get; }
-	public long P3 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.ChildSelectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public ChildSelectedEventArgs (Android.Views.ViewGroup <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>position</span> <span style='color:green'>p2</span>, long <span style='text-decoration: line-through'>id</span> <span style='color:green'>p3</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public long Id { get; }
-	public Android.Views.ViewGroup Parent { get; }
-	public int Position { get; }
-	public Android.Views.View View { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public Android.Views.ViewGroup P0 { get; }
-	public Android.Views.View P1 { get; }
-	public int P2 { get; }
-	public long P3 { get; }
-</pre>
 
 <h3>Type Changed: Android.Support.V17.Leanback.Widget.FocusHighlightHelper</h3>
 <p>Obsoleted constructors:</p>
@@ -2109,24 +1772,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <p>Modified methods:</p>
 <pre>
 	public abstract void SetImeKeyListener (IImeKeyMonitorImeKeyListener <span style='text-decoration: line-through'>listener</span> <span style='color:green'>p0</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.IOnActionClickedListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnActionClicked (Action <span style='text-decoration: line-through'>action</span> <span style='color:green'>p0</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.IOnChildLaidOutListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnChildLaidOut (Android.Views.ViewGroup <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>position</span> <span style='color:green'>p2</span>, long <span style='text-decoration: line-through'>id</span> <span style='color:green'>p3</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.IOnChildSelectedListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnChildSelected (Android.Views.ViewGroup <span style='text-decoration: line-through'>parent</span> <span style='color:green'>p0</span>, Android.Views.View <span style='text-decoration: line-through'>view</span> <span style='color:green'>p1</span>, int <span style='text-decoration: line-through'>position</span> <span style='color:green'>p2</span>, long <span style='text-decoration: line-through'>id</span> <span style='color:green'>p3</span>)
 </pre>
 
 <h3>Type Changed: Android.Support.V17.Leanback.Widget.IPlaybackSeekUi</h3>
@@ -2294,61 +1939,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <pre>
 	public abstract Presenter GetPresenter (Java.Lang.Object <span style='text-decoration: line-through'>item</span> <span style='color:green'>p0</span>)
 </pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.SearchBar</h3>
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.SearchBar.ISearchBarListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnKeyboardDismiss (string <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-	public abstract void OnSearchQueryChange (string <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-	public abstract void OnSearchQuerySubmit (string <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.SearchBar.KeyboardDismissEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SearchBar (string <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public string Query { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public string P0 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.SearchBar.SearchQueryChangeEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SearchBar (string <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public string Query { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public string P0 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V17.Leanback.Widget.SearchBar.SearchQuerySubmitEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public SearchBar (string <span style='text-decoration: line-through'>query</span> <span style='color:green'>p0</span>)
-</pre>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public string Query { get; }
-</pre>
-<p>Added property:</p>
-<pre style='color: green'>
-	public string P0 { get; }
-</pre>
-
 
 <h3>Type Changed: Android.Support.V17.Leanback.Widget.SearchEditText</h3>
 <p>Modified methods:</p>
@@ -2926,47 +2516,28 @@ public class Person : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Intero
 	<span style='color:gray'>[Obsolete ("deprecated")]
 	public virtual void Dump (string prefix, Java.IO.FileDescriptor fd, Java.IO.PrintWriter writer, string[] args);</span>
 </pre>
-<h3>Type Changed: Android.Support.V4.Content.Loader.IOnLoadCanceledListener</h3>
-<p>Modified methods:</p>
-<pre>
-	public abstract void OnLoadCanceled (Loader <span style='text-decoration: line-through'>loader</span> <span style='color:green'>p0</span>)
-</pre>
-
 <h3>Type Changed: Android.Support.V4.Content.Loader.IOnLoadCompleteListener</h3>
 <p>Modified methods:</p>
 <pre>
-	public abstract void OnLoadComplete (Loader <span style='text-decoration: line-through'>loader</span> <span style='color:green'>p0</span>, Java.Lang.Object <span style='text-decoration: line-through'>data</span> <span style='color:green'>p1</span>)
+	public abstract void OnLoadComplete (Loader <span style='text-decoration: line-through'>loader</span> <span style='color:green'>data</span>, Java.Lang.Object <span style='text-decoration: line-through'>data</span> <span style='color:green'>p1</span>)
 </pre>
 
-<h3>Type Changed: Android.Support.V4.Content.Loader.LoadCanceledEventArgs</h3>
+<h3>Type Changed: Android.Support.V4.Content.Loader.LoadCompleteEventArgs</h3>
 <p>Modified constructors:</p>
 <pre>
-	public Loader (Loader <span style='text-decoration: line-through'>loader</span> <span style='color:green'>p0</span>)
+	public Loader (Loader <span style='text-decoration: line-through'>loader</span> <span style='color:green'>data</span>, Java.Lang.Object <span style='text-decoration: line-through'>data</span> <span style='color:green'>p1</span>)
 </pre>
 <p>Removed property:</p>
 
 <pre style='color: red'>
 	public Loader Loader { get; }
 </pre>
+<p>Modified properties:</p>
+<pre>
+	public <span style='text-decoration: line-through'><span style='color:red'>Java.Lang.Object</span></span> <span style='color:green'>Loader</span> Data { get; }
+</pre>
 <p>Added property:</p>
 <pre style='color: green'>
-	public Loader P0 { get; }
-</pre>
-
-<h3>Type Changed: Android.Support.V4.Content.Loader.LoadCompleteEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-	public Loader (Loader <span style='text-decoration: line-through'>loader</span> <span style='color:green'>p0</span>, Java.Lang.Object <span style='text-decoration: line-through'>data</span> <span style='color:green'>p1</span>)
-</pre>
-<p>Removed properties:</p>
-
-<pre style='color: red'>
-	public Java.Lang.Object Data { get; }
-	public Loader Loader { get; }
-</pre>
-<p>Added properties:</p>
-<pre style='color: green'>
-	public Loader P0 { get; }
 	public Java.Lang.Object P1 { get; }
 </pre>
 

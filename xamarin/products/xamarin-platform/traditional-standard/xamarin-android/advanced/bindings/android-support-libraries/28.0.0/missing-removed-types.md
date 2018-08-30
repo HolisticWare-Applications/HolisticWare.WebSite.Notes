@@ -224,4 +224,8 @@ Analysis
 
     not found by Luyten
 
-*   ``
+*   `Android.Support.Media.TV.BaseProgram.IReviewRatingStyle`
+
+    not found by Luyten
+
+*   `Android.Support.Transitions.FragmentTransitionSupport`
