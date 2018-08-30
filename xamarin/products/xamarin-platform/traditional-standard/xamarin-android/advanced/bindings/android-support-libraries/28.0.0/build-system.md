@@ -27,3 +27,21 @@ sh ./build.sh --verbosity=diagnostic --target=clean \
 && \
 sh ./build.sh --verbosity=diagnostic --target=ci \
 ```
+
+
+
+```
+export VERBOSITY=
+# export VERBOSITY=--verbosity=diagnostic
+sh ./build.sh $VERBOSITY --target=clean \
+&& \
+sh ./build.sh $VERBOSITY --target=binderate \
+&& \
+mono ./tools/nuget.exe restore ./generated/AndroidSupport.sln \
+&& \
+sh ./build.sh $VERBOSITY --target=libs \
+&& \
+sh ./build.sh $VERBOSITY --target=merge \
+&& \
+sh ./build.sh $VERBOSITY --target=diff 
+```
