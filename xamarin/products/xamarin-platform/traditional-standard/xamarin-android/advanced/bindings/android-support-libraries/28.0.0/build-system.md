@@ -11,6 +11,8 @@ Completely new build system with
 sh ./build.sh --verbosity=diagnostic --target=clean \
 &&
 sh ./build.sh --verbosity=diagnostic --target=binderate \
+&& \
+nuget restore ./generated/AndroidSupport.sln \
 &&
 sh ./build.sh --verbosity=diagnostic --target=libs \
 &&
