@@ -228,4 +228,44 @@ Analysis
 
     not found by Luyten
 
+*   `Android.Support.Design.Widget.AppBarLayout.OffsetChangedEventArgs`
+
+    changed class to `Android.Support.Design.Widget.BaseOnOffsetChangedEventArgs` `IBaseOnOffsetChangedListener`
+
 *   `Android.Support.Transitions.FragmentTransitionSupport`
+
+    surfeced after adding project reference to `com.android.support.support-v4`:
+
+    ```
+    <ProjectReference Include="..\com.android.support.support-v4\com.android.support.support-v4.csproj" />
+    ```
+
+*   `Android.Support.V13.View.ViewCompat`
+
+    not found by Luyten
+
+    there is `Android.Support.V4.View.ViewCompat`
+
+*   `Android.Support.V17.Leanback.Transition.LeanbackTransitionHelper.ILeanbackTransitionHelperVersion`
+
+    not found by Luyten in `leanback-v17/classes.jar`
+
+*   `Android.Support.V17.Leanback.Transition.LeanbackTransitionHelper.LeanbackTransitionHelperDefault`
+
+    not found by Luyten in `leanback-v17/classes.jar`
+
+*   `Android.Support.V17.Leanback.Transition.TransitionHelper.ITransitionHelperVersionImpl`
+
+    not found by Luyten in `leanback-v17/classes.jar`
+
+*   `Removed Type Android.Support.V17.Leanback.Transition.TransitionHelper.TransitionHelperKitkatImpl`
+
+    not found by Luyten in `leanback-v17/classes.jar`
+
+*   `Removed Type Android.Support.V17.Leanback.Transition.TransitionHelper.TransitionHelperStubImpl`
+
+    not found by Luyten in `leanback-v17/classes.jar`
+
+*   `Android.Support.V4.Graphics.BitmapCompat.BitmapCompatBaseImpl`
+
+    not found by Luyten in `support-compat/classes.jar`
