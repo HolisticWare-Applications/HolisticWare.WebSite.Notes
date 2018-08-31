@@ -8,9 +8,15 @@ To be added
 
 ## Tools
 
+
+### CLI tools
+
+#### `jar` and `javap`
+
 `jar` and `javap` for commandline jar[s] analysis:
 
-    find . -name "*.jar" \
+```
+    find ./externals -name "*.jar" \
 	    -exec $SHELL \
         -c \
         ' 
@@ -19,10 +25,65 @@ To be added
             javap \
                 -classpath $JARNAME \
                 $(jar -tf $JARNAME | grep "class$" | sed s/\.class$//) \
-                >> $JARNAME.class.java.txt
-            cat $JARNAME.class.java.txt
+                >> $JARNAME.class.javap.txt
+            cat $JARNAME.class.javap.txt
         ' {} \;
+```
 
+#### procyon
+
+```
+    find ./externals -name "*.jar" \
+	    -exec $SHELL \
+        -c \
+        ' 
+            echo "$0"
+            JARNAME="$0"
+            java \
+                -jar $HOME/bin/procyon-decompiler-0.5.30.jar \
+                -jar $JARNAME \
+                >> $JARNAME.class.procyon.txt
+            cat $JARNAME.class.procyon.txt
+        ' {} \;
+```
+
+#### cfr
+
+```
+    find ./externals -name "*.jar" \
+	    -exec $SHELL \
+        -c \
+        ' 
+            echo "$0"
+            JARNAME="$0"
+            java \
+                -jar $HOME/bin/cfr_0_132.jar \
+                -jar $JARNAME \
+                >> $JARNAME.class.cfr.txt
+            cat $JARNAME.class.cfr.txt
+        ' {} \;
+```
+
+#### Searching/grepping
+
+```
+export CLASS_SEARCHED=
+```
+
+```
+find ./externals/ -type f -name *.class.javap.txt -exec grep -HNI "$CLASS_SEARCHED" {} \;
+```
+
+```
+find ./externals/ -type f -name *.class.cfr.txt -exec grep -HNI "$CLASS_SEARCHED" {} \;
+```
+
+```
+find ./externals/ -type f -name *.class.procyon.txt -exec grep -HNI "$CLASS_SEARCHED" {} \;
+```
+
+
+### GUI tools
 
 *	JD-GUI
 
@@ -38,8 +99,13 @@ To be added
 	
 	*	https://github.com/deathmarine/Luyten/releases/download/v0.5.3/luyten-OSX-0.5.3.zip
 	
+    *   procyon frontend/wrapper UI
+
 *	JADX and JADX-GUI
 
 	*	https://github.com/skylot/jadx
 
 	*	https://github.com/skylot/jadx/releases/download/v0.7.1/jadx-0.7.1.zip
+
+
+
