@@ -269,3 +269,71 @@ Analysis
 *   `Android.Support.V4.Graphics.BitmapCompat.BitmapCompatBaseImpl`
 
     not found by Luyten in `support-compat/classes.jar`
+
+*  `Android.Support.V4.Graphics.TypefaceCompat.ITypefaceCompatImpl`
+
+    not found by Luyten in `support-compat/classes.jar`
+    
+    moved to class `TypefaceCompatBaseImpl`???
+
+*   `Android.Support.V4.Media.Session.MediaSessionCompat.ExtraSession`
+
+    `support-media-compat`
+
+    [INPROGRESS]
+
+    `class ExtraSession extends IMediaSession.Stub`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+
+*   `Android.Support.V4.OS.ParcelableCompat.ParcelableCompatCreatorHoneycombMR2`
+
+    `support-compat`
+
+    [INPROGRESS]
+
+    `static class ParcelableCompatCreatorHoneycombMR2<T>`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `Android.Support.V4.Print.PrintHelper.IPrintHelperVersionImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Provider.FontsContractCompat.IFontResultStatus`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.View.AccessibilityDelegateCompat.AccessibilityDelegateBaseImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.View.LayoutInflaterCompat.LayoutInflaterCompatBaseImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   ``
+
+*   ``
+
+*   ``
+
+*   ``
+
+*   ``
+
+*   ``
+
