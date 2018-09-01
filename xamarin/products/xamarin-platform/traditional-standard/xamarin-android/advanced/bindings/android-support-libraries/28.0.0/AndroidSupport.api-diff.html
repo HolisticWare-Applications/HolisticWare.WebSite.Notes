@@ -1267,13 +1267,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 }
 </pre>
 
-<h3>Type Changed: Android.Support.Text.Emoji.MetadataRepo</h3>
-<p>Removed property:</p>
-
-<pre style='color: red'>
-	public AndroidX.Text.Emoji.FlatBuffer.MetadataList MetadataList { get; }
-</pre>
-
 
 <h2>Namespace Android.Support.Transitions</h2>
 <h3>Type Changed: Android.Support.Transitions.PathMotion</h3>
@@ -1387,7 +1380,7 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 	public abstract long GetStartDelay (Android.Views.ViewGroup <span style='text-decoration: line-through'>sceneRoot</span> <span style='color:green'>p0</span>, Transition <span style='text-decoration: line-through'>transition</span> <span style='color:green'>p1</span>, TransitionValues <span style='text-decoration: line-through'>startValues</span> <span style='color:green'>p2</span>, TransitionValues <span style='text-decoration: line-through'>endValues</span> <span style='color:green'>p3</span>)
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.Transitions.FragmentTransitionSupport</span></h3>
+
 <h2>Namespace Android.Support.V13.App</h2>
 <h3>Type Changed: Android.Support.V13.App.ActivityCompat</h3>
 <p>Obsoleted constructors:</p>
@@ -4373,7 +4366,7 @@ Modified base type: <span style='text-decoration: line-through'><span style='col
 	public ViewGroupUtils ();
 </pre>
 
-<h3>Removed Type <span style='color: red'>Android.Support.V4.Widget.CursorFilter</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V4.Widget.CursorFilterICursorFilterClientExtensions</span></h3>
+
 <h2>Namespace Android.Support.V7.App</h2>
 <h3>Type Changed: Android.Support.V7.App.ActionBar</h3>
 <p>Modified methods:</p>
@@ -5432,6 +5425,17 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 	public static bool CompatVectorFromResourcesEnabled { get; set; }
 </pre>
 
+<h3>New Type Android.Support.V7.Widget.LayoutState</h3>
+<pre style='color: green'>
+public class LayoutState : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Interop.IJavaPeerable, System.IDisposable {
+	// constructors
+	protected LayoutState (IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer);
+	// properties
+	public override Java.Interop.JniPeerMembers JniPeerMembers { get; }
+	protected override IntPtr ThresholdClass { get; }
+	protected override System.Type ThresholdType { get; }
+}
+</pre>
 
 <h2>Namespace Android.Support.V7.Widget.Helper</h2>
 <h3>Type Changed: Android.Support.V7.Widget.Helper.IItemTouchUIUtil</h3>
@@ -5639,9 +5643,6 @@ public class ConfirmationOverlay : Java.Lang.Object, Android.Runtime.IJavaObject
 <h2>Removed Namespace Android.Support.V8.Renderscript</h2>
 
 <h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Allocation</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.BaseObj</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Byte2</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Byte3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Byte4</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Double2</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Double3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Double4</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Element</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.FieldPacker</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Float2</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Float3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Float4</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Int2</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Int3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Int4</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Long2</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Long3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Long4</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Matrix2f</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Matrix3f</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Matrix4f</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.RSDriverException</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.RSIllegalArgumentException</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.RSInvalidStateException</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.RSRuntimeException</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.RenderScript</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Sampler</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Script</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptC</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptGroup</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsic</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsic3DLUT</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicBLAS</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicBlend</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicBlur</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicColorMatrix</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicConvolve3x3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicConvolve5x5</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicHistogram</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicLUT</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicResize</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.ScriptIntrinsicYuvToRGB</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Short2</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Short3</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Short4</span></h3><h3>Removed Type <span style='color: red'>Android.Support.V8.Renderscript.Type</span></h3>
-<h2>Removed Namespace AndroidX.Text.Emoji.FlatBuffer</h2>
-
-<h3>Removed Type <span style='color: red'>AndroidX.Text.Emoji.FlatBuffer.Constants</span></h3><h3>Removed Type <span style='color: red'>AndroidX.Text.Emoji.FlatBuffer.FlatBufferBuilder</span></h3><h3>Removed Type <span style='color: red'>AndroidX.Text.Emoji.FlatBuffer.MetadataItem</span></h3><h3>Removed Type <span style='color: red'>AndroidX.Text.Emoji.FlatBuffer.MetadataList</span></h3><h3>Removed Type <span style='color: red'>AndroidX.Text.Emoji.FlatBuffer.Struct</span></h3><h3>Removed Type <span style='color: red'>AndroidX.Text.Emoji.FlatBuffer.Table</span></h3>
 <h2>New Namespace Android.Support.Constraints</h2>
 
 <h3>New Type Android.Support.Constraints.Barrier</h3>
