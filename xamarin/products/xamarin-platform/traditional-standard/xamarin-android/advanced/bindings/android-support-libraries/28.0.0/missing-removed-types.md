@@ -660,3 +660,65 @@ Analysis
     NOT ANALYSED
 
     REMOVED
+
+*   `AndroidX.Text.Emoji.FlatBuffer.Constants`
+
+    in `./externals//com.android.support/support-emoji/libs/noto-emoji-compat-java.jar`
+
+*   `AndroidX.Text.Emoji.FlatBuffer.FlatBufferBuilder`
+
+    in `./externals//com.android.support/support-emoji/libs/noto-emoji-compat-java.jar`
+
+*   `AndroidX.Text.Emoji.FlatBuffer.MetadataItem`
+
+    [INPROGRESS]
+
+    `support-emoji/libs/noto-emoji-compat-java` 
+
+    `public final class MetadataItem extends Table`
+
+    `import androidx.text.emoji.flatbuffer.MetadataItem;`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `AndroidX.Text.Emoji.FlatBuffer.MetadataList`
+
+    [INPROGRESS]
+
+    `support-emoji/libs/noto-emoji-compat-java` 
+
+    `public final class MetadataList extends Table`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `AndroidX.Text.Emoji.FlatBuffer.Struct`
+
+    noise
+
+    [INPROGRESS]
+
+    `support-emoji/libs/noto-emoji-compat-java` 
+
+    `public class Struct`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `AndroidX.Text.Emoji.FlatBuffer.Table`
+
+    noise
+
+    [INPROGRESS]
+
+    `support-emoji/libs/noto-emoji-compat-java` 
+
+    `public class Table`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
