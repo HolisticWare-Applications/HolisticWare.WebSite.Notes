@@ -391,21 +391,272 @@ Analysis
 
     *   procyon - FOUND
 
-*   ``
+*   `Android.Support.V4.View.Animation.LookupTableInterpolator`
 
-*   ``
+    `interpolator`
 
-*   ``
+    [INPROGRESS]
 
-*   ``
+    `abstract class LookupTableInterpolator implements Interpolator`
 
-*   ``
+    *   cfr - FOUND
 
-*   ``
+    *   procyon - FOUND
 
-*   ``
+*   `Android.Support.V4.Widget.CompoundButtonCompat.CompoundButtonCompatBaseImpl`
 
-*   ``
+    *   cfr - NOT FOUND
 
-*   ``
+    *   procyon - NOT FOUND
 
+*   `Android.Support.V4.Widget.CursorAdapter.ChangeObserver`
+
+    `cursoradapter`
+
+    [INPROGRESS]
+
+    `private class ChangeObserver extends ContentObserver`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `Android.Support.V4.Widget.EdgeEffectCompat.EdgeEffectBaseImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Widget.ImageViewCompat.BaseViewCompatImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Widget.ImageViewCompat.IImageViewCompatImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Widget.PopupWindowCompat.PopupWindowCompatBaseImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Widget.SlidingPaneLayout.ISlidingPanelLayoutImpl`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Widget.SlidingPaneLayout.SlidingPanelLayoutImplBase`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V4.Widget.TextViewCompat.TextViewCompatBaseImpl`
+
+*   `Android.Support.V4.Widget.CursorFilter`
+
+    `cursoradapter`
+
+    [INPROGRESS]
+
+    `class CursorFilter`
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `Android.Support.V4.Widget.CursorFilterICursorFilterClientExtensions`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.AppCompatDelegate.IApplyableNightMode`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.MediaRouteActionProvider`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.MediaRouteButton`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.MediaRouteChooserDialogFragment`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.MediaRouteControllerDialogFragment`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.MediaRouteDialogFactory`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.App.MediaRouteDiscoveryFragment`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Preferences.PreferenceGroup.IPreferenceInstanceStateCallback`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `ndroid.Support.V7.Widget.RecyclerView.ILayoutState`
+
+    `recyclerview-v7`
+
+    [INPROGRESS]
+
+    `static class LayoutState`
+
+    inteface to class??
+
+    *   cfr - FOUND
+
+    *   procyon - FOUND
+
+*   `Android.Support.Content.ContentPager`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.Content.LoaderQueryRunner`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.Content.Query`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+    bunch of noise... class, interface, static not found...
+
+*   `Android.Support.V7.Media.MediaControlIntent`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaItemMetadata`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaItemStatus`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouteDescriptor`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouteDiscoveryRequest`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouteProvider`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouteProviderDescriptor`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouteProviderService`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouteSelector`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.MediaRouter`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+    only `import android.media.MediaRouter`
+
+*   `Android.Support.V7.Media.MediaSessionStatus`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.RegisteredMediaRouteProviderWatcher`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.RemoteControlClientCompat`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.RemotePlaybackClient`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V7.Media.SystemMediaRouteProvider`
+
+    *   cfr - NOT FOUND
+
+    *   procyon - NOT FOUND
+
+*   `Android.Support.V8.Renderscript`
+
+    NOT ANALYSED
+
+    REMOVED
