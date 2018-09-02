@@ -8,6 +8,26 @@ Completely new build system with
 
 
 ```
+# mono ./tools/nuget.exe restore ./generated/AndroidSupport.sln \
+
+#export VERBOSITY=--verbosity=diagnostic
+export VERBOSITY=
+
+sh ./build.sh $VERBOSITY --target=clean \
+&& \
+sh ./build.sh $VERBOSITY --target=binderate \
+&& \
+sh ./build.sh $VERBOSITY --target=nuget-restore \
+&& \
+sh ./build.sh $VERBOSITY --target=libs \
+&& \
+sh ./build.sh $VERBOSITY --target=merge \
+&& \
+sh ./build.sh $VERBOSITY --target=diff 
+```
+
+
+```
 sh ./build.sh --verbosity=diagnostic --target=clean \
 &&
 sh ./build.sh --verbosity=diagnostic --target=binderate \
