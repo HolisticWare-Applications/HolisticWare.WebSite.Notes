@@ -5072,72 +5072,6 @@ public class KeyEventDispatcher : Java.Lang.Object, Android.Runtime.IJavaObject,
 </div><div data-is-breaking>	public abstract void SetSubtitle (int <span class='removed removed-inline removed-breaking-inline'>resId</span> <span class='added '>p0</span>)
 </div><div data-is-breaking>	public abstract void SetTitle (int <span class='removed removed-inline removed-breaking-inline'>resId</span> <span class='added '>p0</span>)
 </div></pre>
-<!-- start type ActionBar.IOnMenuVisibilityListener --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.IOnMenuVisibilityListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnMenuVisibilityChanged (bool <span class='removed removed-inline removed-breaking-inline'>isVisible</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type ActionBar.IOnMenuVisibilityListener -->
-<!-- start type ActionBar.IOnNavigationListener --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.IOnNavigationListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnNavigationItemSelected (int <span class='removed removed-inline removed-breaking-inline'>itemPosition</span> <span class='added '>p0</span>, long <span class='removed removed-inline removed-breaking-inline'>itemId</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type ActionBar.IOnNavigationListener -->
-<!-- start type ActionBar.ITabListener --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.ITabListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnTabReselected (ActionBar.Tab <span class='removed removed-inline removed-breaking-inline'>tab</span> <span class='added '>p0</span>, Android.Support.V4.App.FragmentTransaction <span class='removed removed-inline removed-breaking-inline'>ft</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnTabSelected (ActionBar.Tab <span class='removed removed-inline removed-breaking-inline'>tab</span> <span class='added '>p0</span>, Android.Support.V4.App.FragmentTransaction <span class='removed removed-inline removed-breaking-inline'>ft</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnTabUnselected (ActionBar.Tab <span class='removed removed-inline removed-breaking-inline'>tab</span> <span class='added '>p0</span>, Android.Support.V4.App.FragmentTransaction <span class='removed removed-inline removed-breaking-inline'>ft</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type ActionBar.ITabListener -->
-<!-- start type ActionBar.MenuVisibilityEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.MenuVisibilityEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ActionBar.MenuVisibilityEventArgs (bool <span class='removed removed-inline removed-breaking-inline'>isVisible</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public bool IsVisible { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public bool P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ActionBar.MenuVisibilityEventArgs -->
-<!-- start type ActionBar.NavigationEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.NavigationEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ActionBar.NavigationEventArgs (bool handled, int <span class='removed removed-inline removed-breaking-inline'>itemPosition</span> <span class='added '>p0</span>, long <span class='removed removed-inline removed-breaking-inline'>itemId</span> <span class='added '>p1</span>)
-</div></pre>
-<p>Removed properties:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public long ItemId { get; }</span>
-	<span class='removed removed-property breaking' data-is-breaking>public int ItemPosition { get; }</span>
-</pre>
-<div>
-<p>Added properties:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public int P0 { get; }</span>
-	<span class='added added-property ' data-is-non-breaking>public long P1 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ActionBar.NavigationEventArgs -->
 <!-- start type ActionBar.Tab --> <div>
 <h3>Type Changed: Android.Support.V7.App.ActionBar.Tab</h3>
 <p>Modified methods:</p>
@@ -5157,69 +5091,6 @@ public class KeyEventDispatcher : Java.Lang.Object, Android.Runtime.IJavaObject,
 </div></pre>
 
 </div> <!-- end type ActionBar.Tab -->
-<!-- start type ActionBar.TabReselectedEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.TabReselectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ActionBar.TabReselectedEventArgs (ActionBar.Tab <span class='removed removed-inline removed-breaking-inline'>tab</span> <span class='added '>p0</span>, Android.Support.V4.App.FragmentTransaction <span class='removed removed-inline removed-breaking-inline'>ft</span> <span class='added '>p1</span>)
-</div></pre>
-<p>Removed properties:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Support.V4.App.FragmentTransaction Ft { get; }</span>
-	<span class='removed removed-property breaking' data-is-breaking>public ActionBar.Tab Tab { get; }</span>
-</pre>
-<div>
-<p>Added properties:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public ActionBar.Tab P0 { get; }</span>
-	<span class='added added-property ' data-is-non-breaking>public Android.Support.V4.App.FragmentTransaction P1 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ActionBar.TabReselectedEventArgs -->
-<!-- start type ActionBar.TabSelectedEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.TabSelectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ActionBar.TabSelectedEventArgs (ActionBar.Tab <span class='removed removed-inline removed-breaking-inline'>tab</span> <span class='added '>p0</span>, Android.Support.V4.App.FragmentTransaction <span class='removed removed-inline removed-breaking-inline'>ft</span> <span class='added '>p1</span>)
-</div></pre>
-<p>Removed properties:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Support.V4.App.FragmentTransaction Ft { get; }</span>
-	<span class='removed removed-property breaking' data-is-breaking>public ActionBar.Tab Tab { get; }</span>
-</pre>
-<div>
-<p>Added properties:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public ActionBar.Tab P0 { get; }</span>
-	<span class='added added-property ' data-is-non-breaking>public Android.Support.V4.App.FragmentTransaction P1 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ActionBar.TabSelectedEventArgs -->
-<!-- start type ActionBar.TabUnselectedEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.App.ActionBar.TabUnselectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ActionBar.TabUnselectedEventArgs (ActionBar.Tab <span class='removed removed-inline removed-breaking-inline'>tab</span> <span class='added '>p0</span>, Android.Support.V4.App.FragmentTransaction <span class='removed removed-inline removed-breaking-inline'>ft</span> <span class='added '>p1</span>)
-</div></pre>
-<p>Removed properties:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Support.V4.App.FragmentTransaction Ft { get; }</span>
-	<span class='removed removed-property breaking' data-is-breaking>public ActionBar.Tab Tab { get; }</span>
-</pre>
-<div>
-<p>Added properties:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public ActionBar.Tab P0 { get; }</span>
-	<span class='added added-property ' data-is-non-breaking>public Android.Support.V4.App.FragmentTransaction P1 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ActionBar.TabUnselectedEventArgs -->
 
 </div> <!-- end type ActionBar -->
 <!-- start type ActionBarDrawerToggle --> <div>
@@ -5277,49 +5148,6 @@ public class KeyEventDispatcher : Java.Lang.Object, Android.Runtime.IJavaObject,
 </div> <!-- end type IAppCompatCallback -->
 <h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteActionProvider</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteButton</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteChooserDialogFragment</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteControllerDialogFragment</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteDialogFactory</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteDiscoveryFragment</span></h3>
 </div> <!-- end namespace Android.Support.V7.App -->
-<!-- start namespace Android.Support.V7.Graphics --> <div>
-<h2>Namespace Android.Support.V7.Graphics</h2>
-<!-- start type Palette --> <div>
-<h3>Type Changed: Android.Support.V7.Graphics.Palette</h3>
-<!-- start type Palette.IFilter --> <div>
-<h3>Type Changed: Android.Support.V7.Graphics.Palette.IFilter</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool IsAllowed (int <span class='removed removed-inline removed-breaking-inline'>rgb</span> <span class='added '>p0</span>, float[] <span class='removed removed-inline removed-breaking-inline'>hsl</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type Palette.IFilter -->
-<!-- start type Palette.IPaletteAsyncListener --> <div>
-<h3>Type Changed: Android.Support.V7.Graphics.Palette.IPaletteAsyncListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnGenerated (Palette <span class='removed removed-inline removed-breaking-inline'>palette</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type Palette.IPaletteAsyncListener -->
-<!-- start type Palette.PaletteAsyncEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Graphics.Palette.PaletteAsyncEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public Palette.PaletteAsyncEventArgs (Palette <span class='removed removed-inline removed-breaking-inline'>palette</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Palette Palette { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Palette P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type Palette.PaletteAsyncEventArgs -->
-
-</div> <!-- end type Palette -->
-
-</div> <!-- end namespace Android.Support.V7.Graphics -->
 <!-- start namespace Android.Support.V7.Graphics.Drawable --> <div>
 <h2>Namespace Android.Support.V7.Graphics.Drawable</h2>
 <div> <!-- start type AnimatedStateListDrawableCompat -->
@@ -5437,14 +5265,6 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 </div></pre>
 
 </div> <!-- end type Preference.IOnPreferenceChangeListener -->
-<!-- start type Preference.IOnPreferenceClickListener --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.Preference.IOnPreferenceClickListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceClick (Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type Preference.IOnPreferenceClickListener -->
 <!-- start type Preference.PreferenceChangeEventArgs --> <div>
 <h3>Type Changed: Android.Support.V7.Preferences.Preference.PreferenceChangeEventArgs</h3>
 <p>Modified constructors:</p>
@@ -5468,25 +5288,6 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 </div>
 
 </div> <!-- end type Preference.PreferenceChangeEventArgs -->
-<!-- start type Preference.PreferenceClickEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.Preference.PreferenceClickEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public Preference.PreferenceClickEventArgs (bool handled, Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Preference Preference { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Preference P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type Preference.PreferenceClickEventArgs -->
 
 </div> <!-- end type Preference -->
 <!-- start type PreferenceDialogFragmentCompat --> <div>
@@ -5579,14 +5380,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div> <!-- end type PreferenceGroup -->
 <!-- start type PreferenceManager --> <div>
 <h3>Type Changed: Android.Support.V7.Preferences.PreferenceManager</h3>
-<!-- start type PreferenceManager.IOnPreferenceTreeClickListener --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceManager.IOnPreferenceTreeClickListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceTreeClick (Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceManager.IOnPreferenceTreeClickListener -->
 <!-- start type PreferenceManager.PreferenceComparisonCallback --> <div>
 <h3>Type Changed: Android.Support.V7.Preferences.PreferenceManager.PreferenceComparisonCallback</h3>
 <p>Modified methods:</p>
@@ -5596,25 +5389,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div></pre>
 
 </div> <!-- end type PreferenceManager.PreferenceComparisonCallback -->
-<!-- start type PreferenceManager.PreferenceTreeClickEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceManager.PreferenceTreeClickEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public PreferenceManager.PreferenceTreeClickEventArgs (bool handled, Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Preference Preference { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Preference P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type PreferenceManager.PreferenceTreeClickEventArgs -->
 
 </div> <!-- end type PreferenceManager -->
 
@@ -5790,33 +5564,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 <pre>
 	<span class='removed removed-method breaking' data-is-breaking>public void SetPresenter (ActionMenuPresenter presenter);</span>
 </pre>
-<!-- start type ActionMenuView.IOnMenuItemClickListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.ActionMenuView.IOnMenuItemClickListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnMenuItemClick (Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type ActionMenuView.IOnMenuItemClickListener -->
-<!-- start type ActionMenuView.MenuItemClickEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.ActionMenuView.MenuItemClickEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ActionMenuView.MenuItemClickEventArgs (bool handled, Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Views.IMenuItem Item { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Android.Views.IMenuItem P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ActionMenuView.MenuItemClickEventArgs -->
 
 </div> <!-- end type ActionMenuView -->
 <!-- start type AppCompatSpinner --> <div>
@@ -5913,64 +5660,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div></pre>
 
 </div> <!-- end type OrientationHelper -->
-<!-- start type PopupMenu --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.PopupMenu</h3>
-<!-- start type PopupMenu.DismissEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.PopupMenu.DismissEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public PopupMenu.DismissEventArgs (PopupMenu <span class='removed removed-inline removed-breaking-inline'>menu</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public PopupMenu Menu { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public PopupMenu P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type PopupMenu.DismissEventArgs -->
-<!-- start type PopupMenu.IOnDismissListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.PopupMenu.IOnDismissListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnDismiss (PopupMenu <span class='removed removed-inline removed-breaking-inline'>menu</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type PopupMenu.IOnDismissListener -->
-<!-- start type PopupMenu.IOnMenuItemClickListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.PopupMenu.IOnMenuItemClickListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnMenuItemClick (Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type PopupMenu.IOnMenuItemClickListener -->
-<!-- start type PopupMenu.MenuItemClickEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.PopupMenu.MenuItemClickEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public PopupMenu.MenuItemClickEventArgs (bool handled, Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Views.IMenuItem Item { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Android.Views.IMenuItem P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type PopupMenu.MenuItemClickEventArgs -->
-
-</div> <!-- end type PopupMenu -->
 <!-- start type RecyclerView --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.RecyclerView</h3>
 <p>Removed property:</p>
@@ -6119,44 +5808,15 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 <h3>Type Changed: Android.Support.V7.Widget.SearchView.IOnQueryTextListener</h3>
 <p>Modified methods:</p>
 <pre>
-<div data-is-breaking>	public abstract bool OnQueryTextChange (string <span class='removed removed-inline removed-breaking-inline'>newText</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract bool OnQueryTextSubmit (string <span class='removed removed-inline removed-breaking-inline'>query</span> <span class='added '>p0</span>)
+<div data-is-breaking>	public abstract bool OnQueryTextSubmit (string <span class='removed removed-inline removed-breaking-inline'>query</span> <span class='added '>newText</span>)
 </div></pre>
 
 </div> <!-- end type SearchView.IOnQueryTextListener -->
-<!-- start type SearchView.IOnSuggestionListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.SearchView.IOnSuggestionListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnSuggestionClick (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract bool OnSuggestionSelect (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type SearchView.IOnSuggestionListener -->
-<!-- start type SearchView.QueryTextChangeEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.SearchView.QueryTextChangeEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public SearchView.QueryTextChangeEventArgs (bool handled, string <span class='removed removed-inline removed-breaking-inline'>newText</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public string NewText { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public string P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type SearchView.QueryTextChangeEventArgs -->
 <!-- start type SearchView.QueryTextSubmitEventArgs --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.SearchView.QueryTextSubmitEventArgs</h3>
 <p>Modified constructors:</p>
 <pre>
-<div data-is-breaking>	public SearchView.QueryTextSubmitEventArgs (bool handled, string <span class='removed removed-inline removed-breaking-inline'>query</span> <span class='added '>p0</span>)
+<div data-is-breaking>	public SearchView.QueryTextSubmitEventArgs (bool handled, string <span class='removed removed-inline removed-breaking-inline'>query</span> <span class='added '>newText</span>)
 </div></pre>
 <p>Removed property:</p>
 
@@ -6166,84 +5826,13 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 <div>
 <p>Added property:</p>
 <pre>
-	<span class='added added-property ' data-is-non-breaking>public string P0 { get; }</span>
+	<span class='added added-property ' data-is-non-breaking>public string NewText { get; }</span>
 </pre>
 </div>
 
 </div> <!-- end type SearchView.QueryTextSubmitEventArgs -->
-<!-- start type SearchView.SuggestionClickEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.SearchView.SuggestionClickEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public SearchView.SuggestionClickEventArgs (bool handled, int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public int Position { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public int P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type SearchView.SuggestionClickEventArgs -->
-<!-- start type SearchView.SuggestionSelectEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.SearchView.SuggestionSelectEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public SearchView.SuggestionSelectEventArgs (bool handled, int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public int Position { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public int P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type SearchView.SuggestionSelectEventArgs -->
 
 </div> <!-- end type SearchView -->
-<!-- start type ShareActionProvider --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.ShareActionProvider</h3>
-<!-- start type ShareActionProvider.IOnShareTargetSelectedListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.ShareActionProvider.IOnShareTargetSelectedListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnShareTargetSelected (ShareActionProvider <span class='removed removed-inline removed-breaking-inline'>source</span> <span class='added '>p0</span>, Android.Content.Intent <span class='removed removed-inline removed-breaking-inline'>intent</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type ShareActionProvider.IOnShareTargetSelectedListener -->
-<!-- start type ShareActionProvider.ShareTargetSelectedEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.ShareActionProvider.ShareTargetSelectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public ShareActionProvider.ShareTargetSelectedEventArgs (bool handled, ShareActionProvider <span class='removed removed-inline removed-breaking-inline'>source</span> <span class='added '>p0</span>, Android.Content.Intent <span class='removed removed-inline removed-breaking-inline'>intent</span> <span class='added '>p1</span>)
-</div></pre>
-<p>Removed properties:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Content.Intent Intent { get; }</span>
-	<span class='removed removed-property breaking' data-is-breaking>public ShareActionProvider Source { get; }</span>
-</pre>
-<div>
-<p>Added properties:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public ShareActionProvider P0 { get; }</span>
-	<span class='added added-property ' data-is-non-breaking>public Android.Content.Intent P1 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type ShareActionProvider.ShareTargetSelectedEventArgs -->
-
-</div> <!-- end type ShareActionProvider -->
 <!-- start type SimpleItemAnimator --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.SimpleItemAnimator</h3>
 <p>Modified methods:</p>
@@ -6265,37 +5854,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div></pre>
 
 </div> <!-- end type SnapHelper -->
-<!-- start type Toolbar --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.Toolbar</h3>
-<!-- start type Toolbar.IOnMenuItemClickListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.Toolbar.IOnMenuItemClickListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnMenuItemClick (Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type Toolbar.IOnMenuItemClickListener -->
-<!-- start type Toolbar.MenuItemClickEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.Toolbar.MenuItemClickEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public Toolbar.MenuItemClickEventArgs (bool handled, Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Android.Views.IMenuItem Item { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Android.Views.IMenuItem P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type Toolbar.MenuItemClickEventArgs -->
-
-</div> <!-- end type Toolbar -->
 <!-- start type VectorEnabledTintResources --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.VectorEnabledTintResources</h3>
 <div>
@@ -6449,37 +6007,6 @@ public sealed class AmbientModeSupport : Android.Support.V4.App.Fragment, Androi
 </div> <!-- end namespace Android.Support.Wear.Internal.Widget.Drawer -->
 <!-- start namespace Android.Support.Wear.Widget --> <div>
 <h2>Namespace Android.Support.Wear.Widget</h2>
-<!-- start type CircularProgressLayout --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.CircularProgressLayout</h3>
-<!-- start type CircularProgressLayout.IOnTimerFinishedListener --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.CircularProgressLayout.IOnTimerFinishedListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnTimerFinished (CircularProgressLayout <span class='removed removed-inline removed-breaking-inline'>layout</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type CircularProgressLayout.IOnTimerFinishedListener -->
-<!-- start type CircularProgressLayout.TimerFinishedEventArgs --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.CircularProgressLayout.TimerFinishedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public CircularProgressLayout.TimerFinishedEventArgs (CircularProgressLayout <span class='removed removed-inline removed-breaking-inline'>layout</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public CircularProgressLayout Layout { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public CircularProgressLayout P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type CircularProgressLayout.TimerFinishedEventArgs -->
-
-</div> <!-- end type CircularProgressLayout -->
 <!-- start type SwipeDismissFrameLayout --> <div>
 <h3>Type Changed: Android.Support.Wear.Widget.SwipeDismissFrameLayout</h3>
 <p>Modified methods:</p>
@@ -6544,33 +6071,6 @@ public class ConfirmationOverlay : Java.Lang.Object, Android.Runtime.IJavaObject
 <h2>Namespace Android.Support.Wear.Widget.Drawer</h2>
 <!-- start type WearableNavigationDrawerView --> <div>
 <h3>Type Changed: Android.Support.Wear.Widget.Drawer.WearableNavigationDrawerView</h3>
-<!-- start type WearableNavigationDrawerView.IOnItemSelectedListener --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.Drawer.WearableNavigationDrawerView.IOnItemSelectedListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnItemSelected (int <span class='removed removed-inline removed-breaking-inline'>pos</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type WearableNavigationDrawerView.IOnItemSelectedListener -->
-<!-- start type WearableNavigationDrawerView.ItemSelectedEventArgs --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.Drawer.WearableNavigationDrawerView.ItemSelectedEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public WearableNavigationDrawerView.ItemSelectedEventArgs (int <span class='removed removed-inline removed-breaking-inline'>pos</span> <span class='added '>p0</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public int Pos { get; }</span>
-</pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public int P0 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type WearableNavigationDrawerView.ItemSelectedEventArgs -->
 <!-- start type WearableNavigationDrawerView.WearableNavigationDrawerAdapter --> <div>
 <h3>Type Changed: Android.Support.Wear.Widget.Drawer.WearableNavigationDrawerView.WearableNavigationDrawerAdapter</h3>
 <p>Modified methods:</p>
