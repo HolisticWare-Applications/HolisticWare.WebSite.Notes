@@ -71,15 +71,15 @@ export CLASS_SEARCHED=
 ```
 
 ```
-find ./externals/ -type f -name *.class.javap.txt -exec grep -HNI "$CLASS_SEARCHED" {} \;
+find ./externals/ -type f -name *.class.javap.txt -exec grep -Hni "$CLASS_SEARCHED" {} \;
 ```
 
 ```
-find ./externals/ -type f -name *.class.cfr.txt -exec grep -HNI "$CLASS_SEARCHED" {} \;
+find ./externals/ -type f -name *.class.cfr.txt -exec grep -Hni "$CLASS_SEARCHED" {} \;
 ```
 
 ```
-find ./externals/ -type f -name *.class.procyon.txt -exec grep -HNI "$CLASS_SEARCHED" {} \;
+find ./externals/ -type f -name *.class.procyon.txt -exec grep -Hni "$CLASS_SEARCHED" {} \;
 ```
 
 
