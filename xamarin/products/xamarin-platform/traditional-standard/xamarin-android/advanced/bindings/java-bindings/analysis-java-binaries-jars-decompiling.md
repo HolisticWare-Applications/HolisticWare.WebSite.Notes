@@ -8,6 +8,15 @@ To be added
 
 ## Tools
 
+### MSBuild Tools
+
+```
+export CLASS_SEARCHED=
+```
+
+```
+find ./generated/ -type f -name *.classes -exec grep -Hni "$CLASS_SEARCHED" {} \;
+```
 
 ### CLI tools
 
