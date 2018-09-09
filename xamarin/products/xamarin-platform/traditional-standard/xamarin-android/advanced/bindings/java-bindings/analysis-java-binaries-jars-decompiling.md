@@ -291,6 +291,41 @@ java \
 ```
 
 
+#### Mocha
+
+*   http://www.brouhaha.com/~eric/software/mocha/
+
+#### Jad 
+
+*   commercial, no fee for noncommercial use, no source code
+
+*   https://varaneckas.com/jad/
+
+#### JADO 
+
+*   Free, GPL, not actively maintained
+
+#### DJ Java Decompiler 
+
+*   "freeware", no source code
+
+#### HomeBrew Decompiler 
+
+*   Free, GPL
+
+#### JODE decompiler and optimizer 
+
+*   Free, GPL
+
+#### JReversePro 
+
+*   Free, GPL
+
+#### SourceTec Java Decompiler 
+
+*   commercial, patch to Mocha
+
+
 #### Searching/grepping
 
 ```
