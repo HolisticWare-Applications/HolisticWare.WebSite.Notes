@@ -6,6 +6,7 @@ Completely new build system with
 
 *   custom MSBuild tasks and targets
 
+Single Step:
 
 ```
 # mono ./tools/nuget.exe restore ./generated/AndroidSupport.sln \
@@ -26,6 +27,9 @@ sh ./build.sh $VERBOSITY --target=merge \
 sh ./build.sh $VERBOSITY --target=diff 
 ```
 
+Two steps
+
+Step 1:
 
 ```
 sh ./build.sh --verbosity=diagnostic --target=clean \
@@ -33,7 +37,11 @@ sh ./build.sh --verbosity=diagnostic --target=clean \
 sh ./build.sh --verbosity=diagnostic --target=binderate \
 && \
 nuget restore ./generated/AndroidSupport.sln \
-&&
+```
+
+Step 2:
+
+```
 sh ./build.sh --verbosity=diagnostic --target=libs \
 &&
 sh ./build.sh --verbosity=diagnostic --target=merge \
