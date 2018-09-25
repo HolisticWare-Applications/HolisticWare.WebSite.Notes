@@ -340,7 +340,7 @@ public class ViewUtils : Java.Lang.Object, Android.Runtime.IJavaObject, Java.Int
 	<span class='added added-method ' data-is-non-breaking>public override bool OnMeasureChild (CoordinatorLayout parent, Java.Lang.Object child, int parentWidthMeasureSpec, int widthUsed, int parentHeightMeasureSpec, int heightUsed);</span>
 	<span class='added added-method ' data-is-non-breaking>public override void OnNestedPreScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object child, Android.Views.View target, int dx, int dy, int[] consumed, int type);</span>
 	<span class='added added-method ' data-is-non-breaking>public override void OnNestedScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object child, Android.Views.View target, int dx, int dy, int consumed, int type, int p7);</span>
-	<span class='added added-method ' data-is-non-breaking>public override void OnRestoreInstanceState (CoordinatorLayout p0, Java.Lang.Object p1, Android.OS.IParcelable p2);</span>
+	<span class='added added-method ' data-is-non-breaking>public override void OnRestoreInstanceState (CoordinatorLayout state, Java.Lang.Object appBarLayout, Android.OS.IParcelable p2);</span>
 	<span class='added added-method ' data-is-non-breaking>public override Android.OS.IParcelable OnSaveInstanceState (CoordinatorLayout parent, Java.Lang.Object abl);</span>
 	<span class='added added-method ' data-is-non-breaking>public override bool OnStartNestedScroll (CoordinatorLayout parent, Java.Lang.Object child, Android.Views.View directTargetChild, Android.Views.View target, int nestedScrollAxes, int type);</span>
 	<span class='added added-method ' data-is-non-breaking>public override void OnStopNestedScroll (CoordinatorLayout coordinatorLayout, Java.Lang.Object abl, Android.Views.View target, int type);</span>
@@ -1310,28 +1310,6 @@ public sealed class StateListAnimator : Java.Lang.Object, Android.Runtime.IJavaO
 </pre>
 
 </div> <!-- end type AnimatorInflaterCompat -->
-<!-- start type IAnimatable2Compat --> <div>
-<h3>Type Changed: Android.Support.Graphics.Drawable.IAnimatable2Compat</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void RegisterAnimationCallback (Animatable2CompatAnimationCallback <span class='removed removed-inline removed-breaking-inline'>callback</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract bool UnregisterAnimationCallback (Animatable2CompatAnimationCallback <span class='removed removed-inline removed-breaking-inline'>callback</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type IAnimatable2Compat -->
-<!-- start type VectorDrawableCompat --> <div>
-<h3>Type Changed: Android.Support.Graphics.Drawable.VectorDrawableCompat</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public override void ApplyTheme (Android.Content.Res.Resources.Theme <span class='removed removed-inline removed-breaking-inline'>t</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override bool GetPadding (Android.Graphics.Rect <span class='removed removed-inline removed-breaking-inline'>padding</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override void SetFilterBitmap (bool <span class='removed removed-inline removed-breaking-inline'>filter</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override void SetHotspot (float <span class='removed removed-inline removed-breaking-inline'>x</span> <span class='added '>p0</span>, float <span class='removed removed-inline removed-breaking-inline'>y</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public override void SetHotspotBounds (int <span class='removed removed-inline removed-breaking-inline'>left</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>top</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>right</span> <span class='added '>p2</span>, int <span class='removed removed-inline removed-breaking-inline'>bottom</span> <span class='added '>p3</span>)
-</div><div data-is-breaking>	public override bool SetState (int[] <span class='removed removed-inline removed-breaking-inline'>stateSet</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type VectorDrawableCompat -->
 
 </div> <!-- end namespace Android.Support.Graphics.Drawable -->
 <!-- start namespace Android.Support.Media.TV --> <div>
@@ -1649,23 +1627,6 @@ public class PreviewChannelHelper : Java.Lang.Object, Android.Runtime.IJavaObjec
 </div>
 
 </div> <!-- end type EmojiCompat.Config -->
-<!-- start type EmojiCompat.IMetadataRepoLoader --> <div>
-<h3>Type Changed: Android.Support.Text.Emoji.EmojiCompat.IMetadataRepoLoader</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void Load (EmojiCompat.MetadataRepoLoaderCallback <span class='removed removed-inline removed-breaking-inline'>loaderCallback</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type EmojiCompat.IMetadataRepoLoader -->
-<!-- start type EmojiCompat.MetadataRepoLoaderCallback --> <div>
-<h3>Type Changed: Android.Support.Text.Emoji.EmojiCompat.MetadataRepoLoaderCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnFailed (Java.Lang.Throwable <span class='removed removed-inline removed-breaking-inline'>throwable</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void OnLoaded (MetadataRepo <span class='removed removed-inline removed-breaking-inline'>metadataRepo</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type EmojiCompat.MetadataRepoLoaderCallback -->
 <div> <!-- start type EmojiCompat.ILoadStrategy -->
 <h3>New Type Android.Support.Text.Emoji.EmojiCompat.ILoadStrategy</h3>
 <pre class='added' data-is-non-breaking>
@@ -1677,44 +1638,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 </div> <!-- end type EmojiCompat -->
 
 </div> <!-- end namespace Android.Support.Text.Emoji -->
-<!-- start namespace Android.Support.Transitions --> <div>
-<h2>Namespace Android.Support.Transitions</h2>
-<!-- start type PathMotion --> <div>
-<h3>Type Changed: Android.Support.Transitions.PathMotion</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.Graphics.Path GetPath (float <span class='removed removed-inline removed-breaking-inline'>startX</span> <span class='added '>p0</span>, float <span class='removed removed-inline removed-breaking-inline'>startY</span> <span class='added '>p1</span>, float <span class='removed removed-inline removed-breaking-inline'>endX</span> <span class='added '>p2</span>, float <span class='removed removed-inline removed-breaking-inline'>endY</span> <span class='added '>p3</span>)
-</div></pre>
-
-</div> <!-- end type PathMotion -->
-<!-- start type Transition --> <div>
-<h3>Type Changed: Android.Support.Transitions.Transition</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void CaptureEndValues (TransitionValues <span class='removed removed-inline removed-breaking-inline'>transitionValues</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void CaptureStartValues (TransitionValues <span class='removed removed-inline removed-breaking-inline'>transitionValues</span> <span class='added '>p0</span>)
-</div></pre>
-<!-- start type Transition.EpicenterCallback --> <div>
-<h3>Type Changed: Android.Support.Transitions.Transition.EpicenterCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.Graphics.Rect OnGetEpicenter (Transition <span class='removed removed-inline removed-breaking-inline'>transition</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type Transition.EpicenterCallback -->
-
-</div> <!-- end type Transition -->
-<!-- start type TransitionPropagation --> <div>
-<h3>Type Changed: Android.Support.Transitions.TransitionPropagation</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void CaptureValues (TransitionValues <span class='removed removed-inline removed-breaking-inline'>transitionValues</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract long GetStartDelay (Android.Views.ViewGroup <span class='removed removed-inline removed-breaking-inline'>sceneRoot</span> <span class='added '>p0</span>, Transition <span class='removed removed-inline removed-breaking-inline'>transition</span> <span class='added '>p1</span>, TransitionValues <span class='removed removed-inline removed-breaking-inline'>startValues</span> <span class='added '>p2</span>, TransitionValues <span class='removed removed-inline removed-breaking-inline'>endValues</span> <span class='added '>p3</span>)
-</div></pre>
-
-</div> <!-- end type TransitionPropagation -->
-
-</div> <!-- end namespace Android.Support.Transitions -->
 <!-- start namespace Android.Support.V13.App --> <div>
 <h2>Namespace Android.Support.V13.App</h2>
 <!-- start type ActivityCompat --> <div>
@@ -1733,14 +1656,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <div data-is-non-breaking>	<span class='obsolete obsolete-constructor' data-is-non-breaking>[Obsolete ("deprecated")]
 	public FragmentCompat ();</span>
 </div></pre>
-<!-- start type FragmentCompat.IOnRequestPermissionsResultCallback --> <div>
-<h3>Type Changed: Android.Support.V13.App.FragmentCompat.IOnRequestPermissionsResultCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnRequestPermissionsResult (int <span class='removed removed-inline removed-breaking-inline'>requestCode</span> <span class='added '>p0</span>, string[] <span class='removed removed-inline removed-breaking-inline'>permissions</span> <span class='added '>p1</span>, int[] <span class='removed removed-inline removed-breaking-inline'>grantResults</span> <span class='added '>p2</span>)
-</div></pre>
-
-</div> <!-- end type FragmentCompat.IOnRequestPermissionsResultCallback -->
 
 </div> <!-- end type FragmentCompat -->
 <!-- start type FragmentPagerAdapter --> <div>
@@ -1750,10 +1665,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <div data-is-non-breaking>	<span class='obsolete obsolete-constructor' data-is-non-breaking>[Obsolete ("deprecated")]
 	public FragmentPagerAdapter (Android.App.FragmentManager fm);</span>
 </div></pre>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.App.Fragment GetItem (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div></pre>
 
 </div> <!-- end type FragmentPagerAdapter -->
 <!-- start type FragmentStatePagerAdapter --> <div>
@@ -1762,10 +1673,6 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 <pre>
 <div data-is-non-breaking>	<span class='obsolete obsolete-constructor' data-is-non-breaking>[Obsolete ("deprecated")]
 	public FragmentStatePagerAdapter (Android.App.FragmentManager fm);</span>
-</div></pre>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.App.Fragment GetItem (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
 </div></pre>
 
 </div> <!-- end type FragmentStatePagerAdapter -->
@@ -1829,28 +1736,8 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 </div> <!-- end namespace Android.Support.V13.View.Inputmethod -->
 <!-- start namespace Android.Support.V14.Preferences --> <div>
 <h2>Namespace Android.Support.V14.Preferences</h2>
-<!-- start type PreferenceDialogFragment --> <div>
-<h3>Type Changed: Android.Support.V14.Preferences.PreferenceDialogFragment</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnDialogClosed (bool <span class='removed removed-inline removed-breaking-inline'>positiveResult</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceDialogFragment -->
 <!-- start type PreferenceFragment --> <div>
 <h3>Type Changed: Android.Support.V14.Preferences.PreferenceFragment</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnCreatePreferences (Android.OS.Bundle <span class='removed removed-inline removed-breaking-inline'>savedInstanceState</span> <span class='added '>p0</span>, string <span class='removed removed-inline removed-breaking-inline'>rootKey</span> <span class='added '>p1</span>)
-</div></pre>
-<!-- start type PreferenceFragment.IOnPreferenceDisplayDialogCallback --> <div>
-<h3>Type Changed: Android.Support.V14.Preferences.PreferenceFragment.IOnPreferenceDisplayDialogCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceDisplayDialog (PreferenceFragment <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, Android.Support.V7.Preferences.Preference <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceFragment.IOnPreferenceDisplayDialogCallback -->
 <!-- start type PreferenceFragment.IOnPreferenceStartFragmentCallback --> <div>
 <h3>Type Changed: Android.Support.V14.Preferences.PreferenceFragment.IOnPreferenceStartFragmentCallback</h3>
 <p>Modified methods:</p>
@@ -1859,75 +1746,12 @@ public interface ILoadStrategy : Android.Runtime.IJavaObject, Java.Lang.Annotati
 </div></pre>
 
 </div> <!-- end type PreferenceFragment.IOnPreferenceStartFragmentCallback -->
-<!-- start type PreferenceFragment.IOnPreferenceStartScreenCallback --> <div>
-<h3>Type Changed: Android.Support.V14.Preferences.PreferenceFragment.IOnPreferenceStartScreenCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceStartScreen (PreferenceFragment <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, Android.Support.V7.Preferences.PreferenceScreen <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceFragment.IOnPreferenceStartScreenCallback -->
 
 </div> <!-- end type PreferenceFragment -->
 
 </div> <!-- end namespace Android.Support.V14.Preferences -->
 <!-- start namespace Android.Support.V17.Leanback.App --> <div>
 <h2>Namespace Android.Support.V17.Leanback.App</h2>
-<!-- start type BrowseFragment --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseFragment</h3>
-<!-- start type BrowseFragment.FragmentFactory --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseFragment.FragmentFactory</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Java.Lang.Object CreateFragment (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>row</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type BrowseFragment.FragmentFactory -->
-<!-- start type BrowseFragment.IFragmentHost --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseFragment.IFragmentHost</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void NotifyDataReady (BrowseFragment.MainFragmentAdapter <span class='removed removed-inline removed-breaking-inline'>fragmentAdapter</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void NotifyViewCreated (BrowseFragment.MainFragmentAdapter <span class='removed removed-inline removed-breaking-inline'>fragmentAdapter</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void ShowTitleView (bool <span class='removed removed-inline removed-breaking-inline'>show</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type BrowseFragment.IFragmentHost -->
-
-</div> <!-- end type BrowseFragment -->
-<!-- start type BrowseSupportFragment --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseSupportFragment</h3>
-<!-- start type BrowseSupportFragment.FragmentFactory --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseSupportFragment.FragmentFactory</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Java.Lang.Object CreateFragment (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>row</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type BrowseSupportFragment.FragmentFactory -->
-<!-- start type BrowseSupportFragment.IFragmentHost --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.BrowseSupportFragment.IFragmentHost</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void NotifyDataReady (BrowseSupportFragment.MainFragmentAdapter <span class='removed removed-inline removed-breaking-inline'>fragmentAdapter</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void NotifyViewCreated (BrowseSupportFragment.MainFragmentAdapter <span class='removed removed-inline removed-breaking-inline'>fragmentAdapter</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void ShowTitleView (bool <span class='removed removed-inline removed-breaking-inline'>show</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type BrowseSupportFragment.IFragmentHost -->
-
-</div> <!-- end type BrowseSupportFragment -->
-<!-- start type HeadersFragment --> <div>
-<h3>Type Changed: Android.Support.V17.Leanback.App.HeadersFragment</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public override Android.Views.View OnCreateView (Android.Views.LayoutInflater <span class='removed removed-inline removed-breaking-inline'>inflater</span> <span class='added '>p0</span>, Android.Views.ViewGroup <span class='removed removed-inline removed-breaking-inline'>container</span> <span class='added '>p1</span>, Android.OS.Bundle <span class='removed removed-inline removed-breaking-inline'>savedInstanceState</span> <span class='added '>p2</span>)
-</div><div data-is-breaking>	public override void OnSaveInstanceState (Android.OS.Bundle <span class='removed removed-inline removed-breaking-inline'>outState</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override void SetAlignment (int <span class='removed removed-inline removed-breaking-inline'>windowAlignOffsetTop</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override void SetSelectedPosition (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, bool <span class='removed removed-inline removed-breaking-inline'>smooth</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type HeadersFragment -->
 <!-- start type HeadersSupportFragment --> <div>
 <h3>Type Changed: Android.Support.V17.Leanback.App.HeadersSupportFragment</h3>
 <p>Modified methods:</p>
@@ -2519,7 +2343,6 @@ public interface IGuidedActionAutofillSupportOnAutofillListener : Android.Runtim
 <p>Modified methods:</p>
 <pre>
 <div data-is-breaking>	public abstract bool OnPreferenceStartFragment (Android.Support.V14.Preferences.PreferenceFragment <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, Android.Support.V7.Preferences.Preference <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract bool OnPreferenceStartScreen (Android.Support.V14.Preferences.PreferenceFragment <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, Android.Support.V7.Preferences.PreferenceScreen <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
 </div></pre>
 
 </div> <!-- end type LeanbackSettingsFragment -->
