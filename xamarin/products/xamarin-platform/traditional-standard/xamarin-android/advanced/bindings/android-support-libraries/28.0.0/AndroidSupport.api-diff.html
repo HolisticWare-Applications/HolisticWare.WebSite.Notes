@@ -4134,14 +4134,6 @@ public class KeyEventDispatcher : Java.Lang.Object, Android.Runtime.IJavaObject,
 <div data-is-non-breaking>	<span class='obsolete obsolete-constructor' data-is-non-breaking>[Obsolete ("deprecated")]
 	public SimpleCursorAdapter (Android.Content.Context context, int layout, Android.Database.ICursor c, string[] from, int[] to);</span>
 </div></pre>
-<!-- start type SimpleCursorAdapter.IViewBinder --> <div>
-<h3>Type Changed: Android.Support.V4.Widget.SimpleCursorAdapter.IViewBinder</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool SetViewValue (Android.Views.View view, Android.Database.ICursor cursor, int <span class='removed removed-inline removed-breaking-inline'>columnIndex</span> <span class='added '>p2</span>)
-</div></pre>
-
-</div> <!-- end type SimpleCursorAdapter.IViewBinder -->
 
 </div> <!-- end type SimpleCursorAdapter -->
 <!-- start type SimpleCursorAdapterICursorToStringConverterExtensions --> <div>
@@ -4236,16 +4228,6 @@ public class KeyEventDispatcher : Java.Lang.Object, Android.Runtime.IJavaObject,
 </div>
 <h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.AppCompatDelegate.IApplyableNightMode</span></h3>
 </div> <!-- end type AppCompatDelegate -->
-<!-- start type IAppCompatCallback --> <div>
-<h3>Type Changed: Android.Support.V7.App.IAppCompatCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnSupportActionModeFinished (Android.Support.V7.View.ActionMode <span class='removed removed-inline removed-breaking-inline'>mode</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void OnSupportActionModeStarted (Android.Support.V7.View.ActionMode <span class='removed removed-inline removed-breaking-inline'>mode</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract Android.Support.V7.View.ActionMode OnWindowStartingSupportActionMode (Android.Support.V7.View.ActionMode.ICallback <span class='removed removed-inline removed-breaking-inline'>callback</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type IAppCompatCallback -->
 <h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteActionProvider</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteButton</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteChooserDialogFragment</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteControllerDialogFragment</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteDialogFactory</span></h3><h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.App.MediaRouteDiscoveryFragment</span></h3>
 </div> <!-- end namespace Android.Support.V7.App -->
 <!-- start namespace Android.Support.V7.Graphics.Drawable --> <div>
@@ -4324,7 +4306,7 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 <h3>Type Changed: Android.Support.V7.Preferences.DialogPreference.ITargetFragment</h3>
 <p>Modified methods:</p>
 <pre>
-<div data-is-breaking>	public abstract Preference FindPreference (Java.Lang.ICharSequence <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>p0</span>)
+<div data-is-breaking>	public abstract Preference FindPreference (Java.Lang.ICharSequence <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>pref</span>)
 </div></pre>
 
 </div> <!-- end type DialogPreference.ITargetFragment -->
@@ -4334,7 +4316,7 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 <h3>Type Changed: Android.Support.V7.Preferences.DialogPreferenceITargetFragmentExtensions</h3>
 <p>Modified methods:</p>
 <pre>
-<div data-is-breaking>	public Preference FindPreference (<span class='added '>this </span>DialogPreference.ITargetFragment self, string <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>p0</span>)
+<div data-is-breaking>	public Preference FindPreference (<span class='added '>this </span>DialogPreference.ITargetFragment self, string <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>pref</span>)
 </div></pre>
 
 </div> <!-- end type DialogPreferenceITargetFragmentExtensions -->
@@ -4357,79 +4339,8 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 	<span class='added added-method ' data-is-non-breaking>protected virtual void OnSetInitialValue (Java.Lang.Object defaultValue);</span>
 </pre>
 </div>
-<!-- start type Preference.IOnPreferenceChangeListener --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.Preference.IOnPreferenceChangeListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceChange (Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>newValue</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>newValue</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type Preference.IOnPreferenceChangeListener -->
-<!-- start type Preference.PreferenceChangeEventArgs --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.Preference.PreferenceChangeEventArgs</h3>
-<p>Modified constructors:</p>
-<pre>
-<div data-is-breaking>	public Preference.PreferenceChangeEventArgs (bool handled, Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>newValue</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>newValue</span> <span class='added '>p1</span>)
-</div></pre>
-<p>Removed property:</p>
-
-<pre>
-	<span class='removed removed-property breaking' data-is-breaking>public Preference Preference { get; }</span>
-</pre>
-<p>Modified properties:</p>
-<pre>
-<div data-is-breaking>	public <span class='removed removed-inline removed-breaking-inline'>Java.Lang.Object</span> <span class='added '>Preference</span> NewValue { get; }
-</div></pre>
-<div>
-<p>Added property:</p>
-<pre>
-	<span class='added added-property ' data-is-non-breaking>public Java.Lang.Object P1 { get; }</span>
-</pre>
-</div>
-
-</div> <!-- end type Preference.PreferenceChangeEventArgs -->
 
 </div> <!-- end type Preference -->
-<!-- start type PreferenceDialogFragmentCompat --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceDialogFragmentCompat</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnDialogClosed (bool <span class='removed removed-inline removed-breaking-inline'>positiveResult</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceDialogFragmentCompat -->
-<!-- start type PreferenceFragmentCompat --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceFragmentCompat</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnCreatePreferences (Android.OS.Bundle <span class='removed removed-inline removed-breaking-inline'>savedInstanceState</span> <span class='added '>p0</span>, string <span class='removed removed-inline removed-breaking-inline'>rootKey</span> <span class='added '>p1</span>)
-</div></pre>
-<!-- start type PreferenceFragmentCompat.IOnPreferenceDisplayDialogCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceFragmentCompat.IOnPreferenceDisplayDialogCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceDisplayDialog (PreferenceFragmentCompat <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, Preference <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceFragmentCompat.IOnPreferenceDisplayDialogCallback -->
-<!-- start type PreferenceFragmentCompat.IOnPreferenceStartFragmentCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceFragmentCompat.IOnPreferenceStartFragmentCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceStartFragment (PreferenceFragmentCompat <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, Preference <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceFragmentCompat.IOnPreferenceStartFragmentCallback -->
-<!-- start type PreferenceFragmentCompat.IOnPreferenceStartScreenCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceFragmentCompat.IOnPreferenceStartScreenCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnPreferenceStartScreen (PreferenceFragmentCompat <span class='removed removed-inline removed-breaking-inline'>caller</span> <span class='added '>p0</span>, PreferenceScreen <span class='removed removed-inline removed-breaking-inline'>pref</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceFragmentCompat.IOnPreferenceStartScreenCallback -->
-
-</div> <!-- end type PreferenceFragmentCompat -->
 <!-- start type PreferenceGroup --> <div>
 <h3>Type Changed: Android.Support.V7.Preferences.PreferenceGroup</h3>
 <div>
@@ -4444,15 +4355,6 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 	<span class='added added-event ' data-is-non-breaking>public event System.EventHandler ExpandButtonClick;</span>
 </pre>
 </div>
-<!-- start type PreferenceGroup.IPreferencePositionCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceGroup.IPreferencePositionCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract int GetPreferenceAdapterPosition (Preference <span class='removed removed-inline removed-breaking-inline'>preference</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int GetPreferenceAdapterPosition (string <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceGroup.IPreferencePositionCallback -->
 <h3>Removed Type <span class='breaking' data-is-breaking>Android.Support.V7.Preferences.PreferenceGroup.IPreferenceInstanceStateCallback</span></h3><div> <!-- start type PreferenceGroup.IOnExpandButtonClickListener -->
 <h3>New Type Android.Support.V7.Preferences.PreferenceGroup.IOnExpandButtonClickListener</h3>
 <pre class='added' data-is-non-breaking>
@@ -4478,55 +4380,12 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div> <!-- end type PreferenceGroup.SavedState -->
 
 </div> <!-- end type PreferenceGroup -->
-<!-- start type PreferenceManager --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceManager</h3>
-<!-- start type PreferenceManager.PreferenceComparisonCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.PreferenceManager.PreferenceComparisonCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool ArePreferenceContentsTheSame (Preference <span class='removed removed-inline removed-breaking-inline'>p1</span> <span class='added '>p0</span>, Preference <span class='removed removed-inline removed-breaking-inline'>p2</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract bool ArePreferenceItemsTheSame (Preference <span class='removed removed-inline removed-breaking-inline'>p1</span> <span class='added '>p0</span>, Preference <span class='removed removed-inline removed-breaking-inline'>p2</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type PreferenceManager.PreferenceComparisonCallback -->
-
-</div> <!-- end type PreferenceManager -->
 
 </div> <!-- end namespace Android.Support.V7.Preferences -->
 <!-- start namespace Android.Support.V7.Util --> <div>
 <h2>Namespace Android.Support.V7.Util</h2>
-<!-- start type AsyncListUtil --> <div>
-<h3>Type Changed: Android.Support.V7.Util.AsyncListUtil</h3>
-<!-- start type AsyncListUtil.DataCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Util.AsyncListUtil.DataCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void FillData (Java.Lang.Object[] <span class='removed removed-inline removed-breaking-inline'>data</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>startPosition</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>itemCount</span> <span class='added '>p2</span>)
-</div></pre>
-
-</div> <!-- end type AsyncListUtil.DataCallback -->
-<!-- start type AsyncListUtil.ViewCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Util.AsyncListUtil.ViewCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void GetItemRangeInto (int[] <span class='removed removed-inline removed-breaking-inline'>outRange</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void OnItemLoaded (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type AsyncListUtil.ViewCallback -->
-
-</div> <!-- end type AsyncListUtil -->
 <!-- start type DiffUtil --> <div>
 <h3>Type Changed: Android.Support.V7.Util.DiffUtil</h3>
-<!-- start type DiffUtil.Callback --> <div>
-<h3>Type Changed: Android.Support.V7.Util.DiffUtil.Callback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool AreContentsTheSame (int <span class='removed removed-inline removed-breaking-inline'>oldItemPosition</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>newItemPosition</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract bool AreItemsTheSame (int <span class='removed removed-inline removed-breaking-inline'>oldItemPosition</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>newItemPosition</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type DiffUtil.Callback -->
 <!-- start type DiffUtil.DiffResult --> <div>
 <h3>Type Changed: Android.Support.V7.Util.DiffUtil.DiffResult</h3>
 <div>
@@ -4546,17 +4405,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div> <!-- end type DiffUtil.DiffResult -->
 
 </div> <!-- end type DiffUtil -->
-<!-- start type IListUpdateCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Util.IListUpdateCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnChanged (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>payload</span> <span class='added '>p2</span>)
-</div><div data-is-breaking>	public abstract void OnInserted (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnMoved (int <span class='removed removed-inline removed-breaking-inline'>fromPosition</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>toPosition</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnRemoved (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type IListUpdateCallback -->
 <!-- start type SortedList --> <div>
 <h3>Type Changed: Android.Support.V7.Util.SortedList</h3>
 <!-- start type SortedList.Callback --> <div>
@@ -4567,9 +4415,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div><div data-is-breaking>	public abstract bool AreItemsTheSame (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>item1</span> <span class='added '>p0</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>item2</span> <span class='added '>p1</span>)
 </div><div data-is-breaking>	public abstract int Compare (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>o1</span> <span class='added '>p0</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>o2</span> <span class='added '>p1</span>)
 </div><div data-is-breaking>	public abstract void OnChanged (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnInserted (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnMoved (int <span class='removed removed-inline removed-breaking-inline'>fromPosition</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>toPosition</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnRemoved (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>)
 </div></pre>
 
 </div> <!-- end type SortedList.Callback -->
