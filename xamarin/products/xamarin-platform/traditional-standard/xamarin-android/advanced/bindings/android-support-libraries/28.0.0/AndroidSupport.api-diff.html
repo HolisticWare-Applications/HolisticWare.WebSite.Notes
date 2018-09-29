@@ -4300,23 +4300,11 @@ public class AnimatedStateListDrawableCompat : Android.Graphics.Drawables.Drawab
 </pre>
 
 </div> <!-- end type AndroidResources -->
-<!-- start type DialogPreference --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.DialogPreference</h3>
-<!-- start type DialogPreference.ITargetFragment --> <div>
-<h3>Type Changed: Android.Support.V7.Preferences.DialogPreference.ITargetFragment</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Preference FindPreference (Java.Lang.ICharSequence <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>pref</span>)
-</div></pre>
-
-</div> <!-- end type DialogPreference.ITargetFragment -->
-
-</div> <!-- end type DialogPreference -->
 <!-- start type DialogPreferenceITargetFragmentExtensions --> <div>
 <h3>Type Changed: Android.Support.V7.Preferences.DialogPreferenceITargetFragmentExtensions</h3>
 <p>Modified methods:</p>
 <pre>
-<div data-is-breaking>	public Preference FindPreference (<span class='added '>this </span>DialogPreference.ITargetFragment self, string <span class='removed removed-inline removed-breaking-inline'>key</span> <span class='added '>pref</span>)
+<div data-is-breaking>	public Preference FindPreference (<span class='added '>this </span>DialogPreference.ITargetFragment self, string key)
 </div></pre>
 
 </div> <!-- end type DialogPreferenceITargetFragmentExtensions -->
@@ -4405,47 +4393,8 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div> <!-- end type DiffUtil.DiffResult -->
 
 </div> <!-- end type DiffUtil -->
-<!-- start type SortedList --> <div>
-<h3>Type Changed: Android.Support.V7.Util.SortedList</h3>
-<!-- start type SortedList.Callback --> <div>
-<h3>Type Changed: Android.Support.V7.Util.SortedList.Callback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool AreContentsTheSame (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>oldItem</span> <span class='added '>p0</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>newItem</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract bool AreItemsTheSame (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>item1</span> <span class='added '>p0</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>item2</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract int Compare (Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>o1</span> <span class='added '>p0</span>, Java.Lang.Object <span class='removed removed-inline removed-breaking-inline'>o2</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnChanged (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>count</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type SortedList.Callback -->
-
-</div> <!-- end type SortedList -->
 
 </div> <!-- end namespace Android.Support.V7.Util -->
-<!-- start namespace Android.Support.V7.View --> <div>
-<h2>Namespace Android.Support.V7.View</h2>
-<!-- start type ActionMode --> <div>
-<h3>Type Changed: Android.Support.V7.View.ActionMode</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void SetSubtitle (int <span class='removed removed-inline removed-breaking-inline'>resId</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void SetTitle (int <span class='removed removed-inline removed-breaking-inline'>resId</span> <span class='added '>p0</span>)
-</div></pre>
-<!-- start type ActionMode.ICallback --> <div>
-<h3>Type Changed: Android.Support.V7.View.ActionMode.ICallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnActionItemClicked (ActionMode <span class='removed removed-inline removed-breaking-inline'>mode</span> <span class='added '>p0</span>, Android.Views.IMenuItem <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract bool OnCreateActionMode (ActionMode <span class='removed removed-inline removed-breaking-inline'>mode</span> <span class='added '>p0</span>, Android.Views.IMenu <span class='removed removed-inline removed-breaking-inline'>menu</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OnDestroyActionMode (ActionMode <span class='removed removed-inline removed-breaking-inline'>mode</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract bool OnPrepareActionMode (ActionMode <span class='removed removed-inline removed-breaking-inline'>mode</span> <span class='added '>p0</span>, Android.Views.IMenu <span class='removed removed-inline removed-breaking-inline'>menu</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type ActionMode.ICallback -->
-
-</div> <!-- end type ActionMode -->
-
-</div> <!-- end namespace Android.Support.V7.View -->
 <!-- start namespace Android.Support.V7.View.Menu --> <div>
 <h2>Namespace Android.Support.V7.View.Menu</h2>
 <!-- start type IMenuViewItemViewExtensions --> <div>
@@ -4542,18 +4491,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div>
 
 </div> <!-- end type AppCompatTextView -->
-<!-- start type GridLayoutManager --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.GridLayoutManager</h3>
-<!-- start type GridLayoutManager.SpanSizeLookup --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.GridLayoutManager.SpanSizeLookup</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract int GetSpanSize (int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type GridLayoutManager.SpanSizeLookup -->
-
-</div> <!-- end type GridLayoutManager -->
 <!-- start type IDecorContentParentExtensions --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.IDecorContentParentExtensions</h3>
 <p>Modified methods:</p>
@@ -4590,21 +4527,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div></pre>
 
 </div> <!-- end type ListPopupWindow -->
-<!-- start type OrientationHelper --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.OrientationHelper</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract int GetDecoratedEnd (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int GetDecoratedMeasurement (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int GetDecoratedMeasurementInOther (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int GetDecoratedStart (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int GetTransformedEndWithDecoration (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int GetTransformedStartWithDecoration (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void OffsetChild (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>offset</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract void OffsetChildren (int <span class='removed removed-inline removed-breaking-inline'>amount</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type OrientationHelper -->
 <!-- start type RecyclerView --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.RecyclerView</h3>
 <p>Removed property:</p>
@@ -4612,23 +4534,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 <pre>
 	<span class='removed removed-property breaking' data-is-breaking>public virtual bool NestedScrollingEnabled { get; set; }</span>
 </pre>
-<!-- start type RecyclerView.Adapter --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.Adapter</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnBindViewHolder (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>holder</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract RecyclerView.ViewHolder OnCreateViewHolder (Android.Views.ViewGroup <span class='removed removed-inline removed-breaking-inline'>parent</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>viewType</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.Adapter -->
-<!-- start type RecyclerView.EdgeEffectFactory.IChildDrawingOrderCallback --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.IChildDrawingOrderCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract int OnGetChildDrawingOrder (int <span class='removed removed-inline removed-breaking-inline'>childCount</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>i</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.EdgeEffectFactory.IChildDrawingOrderCallback -->
 <!-- start type RecyclerView.EdgeEffectFactory.IOnItemTouchListener --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.IOnItemTouchListener</h3>
 <p>Modified methods:</p>
@@ -4652,18 +4557,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </pre>
 
 </div> <!-- end type RecyclerView.EdgeEffectFactory.InterceptTouchEventEventArgs -->
-<!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.ItemAnimator --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.ItemAnimator</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool AnimateAppearance (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>viewHolder</span> <span class='added '>p0</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>preLayoutInfo</span> <span class='added '>p1</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>postLayoutInfo</span> <span class='added '>p2</span>)
-</div><div data-is-breaking>	public abstract bool AnimateChange (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>oldHolder</span> <span class='added '>p0</span>, RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>newHolder</span> <span class='added '>p1</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>preLayoutInfo</span> <span class='added '>p2</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>postLayoutInfo</span> <span class='added '>p3</span>)
-</div><div data-is-breaking>	public abstract bool AnimateDisappearance (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>viewHolder</span> <span class='added '>p0</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>preLayoutInfo</span> <span class='added '>p1</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>postLayoutInfo</span> <span class='added '>p2</span>)
-</div><div data-is-breaking>	public abstract bool AnimatePersistence (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>viewHolder</span> <span class='added '>p0</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>preLayoutInfo</span> <span class='added '>p1</span>, RecyclerView.ItemAnimator.ItemHolderInfo <span class='removed removed-inline removed-breaking-inline'>postLayoutInfo</span> <span class='added '>p2</span>)
-</div><div data-is-breaking>	public abstract void EndAnimation (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>item</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.ItemAnimator -->
 <!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.LayoutManager --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.LayoutManager</h3>
 <p>Modified methods:</p>
@@ -4671,24 +4564,8 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 <div data-is-breaking>	public virtual void OnInitializeAccessibilityEvent (Android.Views.Accessibility.AccessibilityEvent <span class='removed removed-inline removed-breaking-inline'>event</span> <span class='added '>e</span>)
 </div><div data-is-breaking>	public virtual void OnInitializeAccessibilityEvent (RecyclerView.Recycler recycler, RecyclerView.State state, Android.Views.Accessibility.AccessibilityEvent <span class='removed removed-inline removed-breaking-inline'>event</span> <span class='added '>e</span>)
 </div></pre>
-<!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.ILayoutPrefetchRegistry --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.ILayoutPrefetchRegistry</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void AddPosition (int <span class='removed removed-inline removed-breaking-inline'>layoutPosition</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>pixelDistance</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.ILayoutPrefetchRegistry -->
 
 </div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.LayoutManager -->
-<!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.OnFlingListener --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.OnFlingListener</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool OnFling (int <span class='removed removed-inline removed-breaking-inline'>velocityX</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>velocityY</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.OnFlingListener -->
 <!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.RequestDisallowInterceptTouchEventEventArgs --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.RequestDisallowInterceptTouchEventEventArgs</h3>
 <p>Modified constructors:</p>
@@ -4710,14 +4587,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 	<span class='added added-method ' data-is-non-breaking>public virtual Android.Graphics.PointF ComputeScrollVectorForPosition (int targetPosition);</span>
 </pre>
 </div>
-<!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.IScrollVectorProvider --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.IScrollVectorProvider</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.Graphics.PointF ComputeScrollVectorForPosition (int <span class='removed removed-inline removed-breaking-inline'>targetPosition</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.IScrollVectorProvider -->
 
 </div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.SmoothScroller -->
 <!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.State.State --> <div>
@@ -4737,14 +4606,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </pre>
 
 </div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.State.TouchEventEventArgs -->
-<!-- start type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.State.ViewCacheExtension --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.State.ViewCacheExtension</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.Views.View GetViewForPositionAndType (RecyclerView.Recycler <span class='removed removed-inline removed-breaking-inline'>recycler</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>position</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>type</span> <span class='added '>p2</span>)
-</div></pre>
-
-</div> <!-- end type RecyclerView.EdgeEffectFactory.ItemAnimator.LayoutManager.RecycledViewPool.SmoothScroller.State.ViewCacheExtension -->
 
 </div> <!-- end type RecyclerView -->
 <!-- start type SearchView --> <div>
