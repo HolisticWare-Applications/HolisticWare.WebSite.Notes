@@ -4639,27 +4639,6 @@ public class SavedState : Android.Support.V7.Preferences.Preference+BaseSavedSta
 </div> <!-- end type SearchView.QueryTextSubmitEventArgs -->
 
 </div> <!-- end type SearchView -->
-<!-- start type SimpleItemAnimator --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.SimpleItemAnimator</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract bool AnimateAdd (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>holder</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract bool AnimateChange (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>oldHolder</span> <span class='added '>p0</span>, RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>newHolder</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>fromLeft</span> <span class='added '>p2</span>, int <span class='removed removed-inline removed-breaking-inline'>fromTop</span> <span class='added '>p3</span>, int <span class='removed removed-inline removed-breaking-inline'>toLeft</span> <span class='added '>p4</span>, int <span class='removed removed-inline removed-breaking-inline'>toTop</span> <span class='added '>p5</span>)
-</div><div data-is-breaking>	public abstract bool AnimateMove (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>holder</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>fromX</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>fromY</span> <span class='added '>p2</span>, int <span class='removed removed-inline removed-breaking-inline'>toX</span> <span class='added '>p3</span>, int <span class='removed removed-inline removed-breaking-inline'>toY</span> <span class='added '>p4</span>)
-</div><div data-is-breaking>	public abstract bool AnimateRemove (RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>holder</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type SimpleItemAnimator -->
-<!-- start type SnapHelper --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.SnapHelper</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract int[] CalculateDistanceToFinalSnap (RecyclerView.LayoutManager <span class='removed removed-inline removed-breaking-inline'>layoutManager</span> <span class='added '>p0</span>, Android.Views.View <span class='removed removed-inline removed-breaking-inline'>targetView</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract Android.Views.View FindSnapView (RecyclerView.LayoutManager <span class='removed removed-inline removed-breaking-inline'>layoutManager</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract int FindTargetSnapPosition (RecyclerView.LayoutManager <span class='removed removed-inline removed-breaking-inline'>layoutManager</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>velocityX</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>velocityY</span> <span class='added '>p2</span>)
-</div></pre>
-
-</div> <!-- end type SnapHelper -->
 <!-- start type VectorEnabledTintResources --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.VectorEnabledTintResources</h3>
 <div>
@@ -4687,17 +4666,6 @@ public class LayoutState : Java.Lang.Object, Android.Runtime.IJavaObject, Java.I
 </div> <!-- end namespace Android.Support.V7.Widget -->
 <!-- start namespace Android.Support.V7.Widget.Helper --> <div>
 <h2>Namespace Android.Support.V7.Widget.Helper</h2>
-<!-- start type IItemTouchUIUtil --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.Helper.IItemTouchUIUtil</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void ClearView (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract void OnDraw (Android.Graphics.Canvas <span class='removed removed-inline removed-breaking-inline'>c</span> <span class='added '>p0</span>, Android.Support.V7.Widget.RecyclerView <span class='removed removed-inline removed-breaking-inline'>recyclerView</span> <span class='added '>p1</span>, Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p2</span>, float <span class='removed removed-inline removed-breaking-inline'>dX</span> <span class='added '>p3</span>, float <span class='removed removed-inline removed-breaking-inline'>dY</span> <span class='added '>p4</span>, int <span class='removed removed-inline removed-breaking-inline'>actionState</span> <span class='added '>p5</span>, bool <span class='removed removed-inline removed-breaking-inline'>isCurrentlyActive</span> <span class='added '>p6</span>)
-</div><div data-is-breaking>	public abstract void OnDrawOver (Android.Graphics.Canvas <span class='removed removed-inline removed-breaking-inline'>c</span> <span class='added '>p0</span>, Android.Support.V7.Widget.RecyclerView <span class='removed removed-inline removed-breaking-inline'>recyclerView</span> <span class='added '>p1</span>, Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p2</span>, float <span class='removed removed-inline removed-breaking-inline'>dX</span> <span class='added '>p3</span>, float <span class='removed removed-inline removed-breaking-inline'>dY</span> <span class='added '>p4</span>, int <span class='removed removed-inline removed-breaking-inline'>actionState</span> <span class='added '>p5</span>, bool <span class='removed removed-inline removed-breaking-inline'>isCurrentlyActive</span> <span class='added '>p6</span>)
-</div><div data-is-breaking>	public abstract void OnSelected (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type IItemTouchUIUtil -->
 <!-- start type ItemTouchHelper --> <div>
 <h3>Type Changed: Android.Support.V7.Widget.Helper.ItemTouchHelper</h3>
 <!-- start type ItemTouchHelper.Callback --> <div>
@@ -4705,19 +4673,9 @@ public class LayoutState : Java.Lang.Object, Android.Runtime.IJavaObject, Java.I
 <p>Modified methods:</p>
 <pre>
 <div data-is-breaking>	public abstract int GetMovementFlags (Android.Support.V7.Widget.RecyclerView <span class='removed removed-inline removed-breaking-inline'>recyclerView</span> <span class='added '>p0</span>, Android.Support.V7.Widget.RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>viewHolder</span> <span class='added '>p1</span>)
-</div><div data-is-breaking>	public abstract bool OnMove (Android.Support.V7.Widget.RecyclerView <span class='removed removed-inline removed-breaking-inline'>recyclerView</span> <span class='added '>p0</span>, Android.Support.V7.Widget.RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>viewHolder</span> <span class='added '>p1</span>, Android.Support.V7.Widget.RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>target</span> <span class='added '>p2</span>)
-</div><div data-is-breaking>	public abstract void OnSwiped (Android.Support.V7.Widget.RecyclerView.ViewHolder <span class='removed removed-inline removed-breaking-inline'>viewHolder</span> <span class='added '>p0</span>, int <span class='removed removed-inline removed-breaking-inline'>direction</span> <span class='added '>p1</span>)
 </div></pre>
 
 </div> <!-- end type ItemTouchHelper.Callback -->
-<!-- start type ItemTouchHelper.IViewDropHandler --> <div>
-<h3>Type Changed: Android.Support.V7.Widget.Helper.ItemTouchHelper.IViewDropHandler</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void PrepareForDrop (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>view</span> <span class='added '>p0</span>, Android.Views.View <span class='removed removed-inline removed-breaking-inline'>target</span> <span class='added '>p1</span>, int <span class='removed removed-inline removed-breaking-inline'>x</span> <span class='added '>p2</span>, int <span class='removed removed-inline removed-breaking-inline'>y</span> <span class='added '>p3</span>)
-</div></pre>
-
-</div> <!-- end type ItemTouchHelper.IViewDropHandler -->
 
 </div> <!-- end type ItemTouchHelper -->
 
@@ -4813,29 +4771,6 @@ public sealed class AmbientModeSupport : Android.Support.V4.App.Fragment, Androi
 </div> <!-- end namespace Android.Support.Wear.Internal.Widget.Drawer -->
 <!-- start namespace Android.Support.Wear.Widget --> <div>
 <h2>Namespace Android.Support.Wear.Widget</h2>
-<!-- start type SwipeDismissFrameLayout --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.SwipeDismissFrameLayout</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public override bool CanScrollHorizontally (int <span class='removed removed-inline removed-breaking-inline'>direction</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override bool OnInterceptTouchEvent (Android.Views.MotionEvent <span class='removed removed-inline removed-breaking-inline'>ev</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override bool OnTouchEvent (Android.Views.MotionEvent <span class='removed removed-inline removed-breaking-inline'>ev</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public override void RequestDisallowInterceptTouchEvent (bool <span class='removed removed-inline removed-breaking-inline'>disallowIntercept</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type SwipeDismissFrameLayout -->
-<!-- start type WearableLinearLayoutManager --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.WearableLinearLayoutManager</h3>
-<!-- start type WearableLinearLayoutManager.LayoutCallback --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.WearableLinearLayoutManager.LayoutCallback</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract void OnLayoutFinished (Android.Views.View <span class='removed removed-inline removed-breaking-inline'>child</span> <span class='added '>p0</span>, Android.Support.V7.Widget.RecyclerView <span class='removed removed-inline removed-breaking-inline'>parent</span> <span class='added '>p1</span>)
-</div></pre>
-
-</div> <!-- end type WearableLinearLayoutManager.LayoutCallback -->
-
-</div> <!-- end type WearableLinearLayoutManager -->
 <div> <!-- start type ConfirmationOverlay -->
 <h3>New Type Android.Support.Wear.Widget.ConfirmationOverlay</h3>
 <pre class='added' data-is-non-breaking>
@@ -4873,24 +4808,6 @@ public class ConfirmationOverlay : Java.Lang.Object, Android.Runtime.IJavaObject
 </div> <!-- end type ConfirmationOverlay -->
 
 </div> <!-- end namespace Android.Support.Wear.Widget -->
-<!-- start namespace Android.Support.Wear.Widget.Drawer --> <div>
-<h2>Namespace Android.Support.Wear.Widget.Drawer</h2>
-<!-- start type WearableNavigationDrawerView --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.Drawer.WearableNavigationDrawerView</h3>
-<!-- start type WearableNavigationDrawerView.WearableNavigationDrawerAdapter --> <div>
-<h3>Type Changed: Android.Support.Wear.Widget.Drawer.WearableNavigationDrawerView.WearableNavigationDrawerAdapter</h3>
-<p>Modified methods:</p>
-<pre>
-<div data-is-breaking>	public abstract Android.Graphics.Drawables.Drawable GetItemDrawable (int <span class='removed removed-inline removed-breaking-inline'>pos</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public string GetItemText (int <span class='removed removed-inline removed-breaking-inline'>pos</span> <span class='added '>p0</span>)
-</div><div data-is-breaking>	public abstract Java.Lang.ICharSequence GetItemTextFormatted (int <span class='removed removed-inline removed-breaking-inline'>pos</span> <span class='added '>p0</span>)
-</div></pre>
-
-</div> <!-- end type WearableNavigationDrawerView.WearableNavigationDrawerAdapter -->
-
-</div> <!-- end type WearableNavigationDrawerView -->
-
-</div> <!-- end namespace Android.Support.Wear.Widget.Drawer -->
 <!-- start namespace Android.Support.Content --> <div>
 <h2>Removed Namespace Android.Support.Content</h2>
 
