@@ -2,6 +2,13 @@
 
 xamarin-android-support-libraries.md
 
+## References / Links
+
+*   https://blog.xamarin.com/mastering-android-support-libraries/
+
+
+## Building
+
 *   TODO
     *   old: 27.0.2
     *   new: 27.1.1
