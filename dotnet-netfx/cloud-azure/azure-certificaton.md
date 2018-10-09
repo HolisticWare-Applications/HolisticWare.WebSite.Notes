@@ -2,6 +2,11 @@
 
 azure-certificaton.md 
 
+https://buildazure.com/2018/07/17/new-microsoft-azure-certification-paths-coming-in-2018/
+
+https://eu3.mindhub.com/shop/microsoft?pageSize=96&facetValueFilter=tenant~certification:microsoft-azure-administrator%2c:&
+
+
 *   EDX.org 
 
     *   https://www.edx.org/course?search_query=azure
