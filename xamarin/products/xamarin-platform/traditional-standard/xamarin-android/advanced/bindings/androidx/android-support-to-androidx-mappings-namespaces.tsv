@@ -144,8 +144,8 @@ android.support.v7.appcompat                                        androidx.app
 android.support.v7.cardview                                         androidx.cardview
 android.support.v7.content.res                                      androidx.appcompat.content.res
 android.support.v7.graphics                                         androidx.palette.graphics
-android.support.v7.graphics                                         androidx.appcompat.graphics.drawable
-
+android.support.v7.graphics                                         androidx.appcompat.graphics
+android.support.v7.graphics.drawable                                androidx.appcompat.graphics.drawable
 
 
 
