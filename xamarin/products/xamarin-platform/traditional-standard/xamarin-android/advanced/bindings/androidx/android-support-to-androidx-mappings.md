@@ -2,6 +2,7 @@
 
 android-support-to-androidx-mappings.md 
 
+https://developer.android.com/jetpack/androidx/migrate
 
 ## Artifacts
 
@@ -113,6 +114,7 @@ com.android.support:wear	androidx.wear:wear:1.0.0
 com.android.support:webkit	androidx.webkit:webkit:1.0.0
 
 ## Namespaces
+
 
 ## Classes
 
