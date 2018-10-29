@@ -146,6 +146,27 @@ android.support.v7.content.res                                      androidx.app
 android.support.v7.graphics                                         androidx.palette.graphics
 android.support.v7.graphics                                         androidx.appcompat.graphics
 android.support.v7.graphics.drawable                                androidx.appcompat.graphics.drawable
+android.support.v7.gridlayout                                       androidx.gridlayout
+android.support.v7.internal.widget                                  androidx.preference.internal
+android.support.v7.media                                            androidx.mediarouter.media
+android.support.v7.mediarouter                                      androidx.mediarouter
+android.support.v7.preference                                       androidx.preference
+android.support.v7.recyclerview.extensions                          androidx.recyclerview.widget
+android.support.v7.recyclerview                                     androidx.recyclerview
+android.support.v7.text                                             androidx.appcompat.text
+android.support.v7.util                                             androidx.recyclerview.widget
+android.support.v7.view                                             androidx.appcompat.view
+android.support.v7.view.menu                                        androidx.appcompat.view.menu
+android.support.v7.widget                                           androidx.appcompat.widget
+android.support.wear.ambient                                        androidx.wear.ambient
+android.support.wear.internal.widget.drawer                         androidx.wear.internal.widget.drawer
+android.support.wear.internal.widget                                androidx.wear.internal.widget
+android.support.wear                                                androidx.wear
+android.support.wear.utils                                          androidx.wear.utils
+android.support.wear.widget                                         androidx.wear.widget
+android.support.wear.widget.drawer                                  androidx.wear.widget.drawer
+
+
 
 
 
