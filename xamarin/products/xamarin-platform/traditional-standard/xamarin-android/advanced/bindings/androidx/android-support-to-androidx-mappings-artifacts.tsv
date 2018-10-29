@@ -13,7 +13,7 @@ android.arch.lifecycle:runtime	                                androidx.lifecycl
 android.arch.lifecycle:viewmodel	                            androidx.lifecycle:lifecycle-viewmodel
 android.arch.paging:common	                                    androidx.paging:paging-common
 android.arch.paging:runtime	                                    androidx.paging:paging-runtime
-android.arch.paging:rxjava2	androidx.                           paging:paging-rxjava2
+android.arch.paging:rxjava2	androidx.paging:paging-rxjava2
 android.arch.persistence.room:common	                        androidx.room:room-common
 android.arch.persistence.room:compiler	                        androidx.room:room-compiler
 android.arch.persistence.room:guava	                            androidx.room:room-guava
