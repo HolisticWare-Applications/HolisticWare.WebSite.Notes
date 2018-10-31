@@ -1,3 +1,8 @@
+# Bulk namespace renaming log
+
+Log made by `AndroidX.Migraineator` bulk migrating Android Support to AndroidX .NET Core CLI tool:
+
+```
 Last login: Wed Oct 31 12:44:22 on ttys002
 MiljenkokPro143:~ moljac$ bash -c 'clear; cd "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/DotNetCore.Debugger/Adapter/"; "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/DotNetCore.Debugger/Adapter/vsdbg" --interpreter=vscode --connection=/var/folders/xt/ytq9wfqd2y78kx1ks7z36mrr0000gn/T/CoreFxPipe_vsdbg-ui-8ed73af588f84fe883462a7f6b072043; echo $? > /var/folders/xt/ytq9wfqd2y78kx1ks7z36mrr0000gn/T/tmp1f57cea8.tmp; echo; read -p "Press any key to continue..." -n1; exit'; exit
 
@@ -339,3 +344,4 @@ Ambiguity not resolved for android.support.v4.view
          Replacing with: package[@name='androidx.palette.graphics']
 
 Press any key to continue...
+```
