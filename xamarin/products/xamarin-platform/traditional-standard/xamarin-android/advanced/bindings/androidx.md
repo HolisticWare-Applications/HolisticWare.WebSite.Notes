@@ -26,18 +26,22 @@ androidx.md
 
     *   alphas
     
-        *   biometrics
+        *   [] biometrics
 
-        *   car
+        *   [] car
 
-        *   concurrent
+        *   [] concurrent
 
-        *   media2
+        *   [] media2
 
-        *   sqllite
+        *   [] sqllite
         
-        *   room
+        *   [] room
         
-            *   room-rxjava2
+            *   [] room-rxjava2
 
-            *   room-*
+            *   [] room-*
+
+        *   [] lifecycle-reactivestreams
+
+        *   [] paging-*
