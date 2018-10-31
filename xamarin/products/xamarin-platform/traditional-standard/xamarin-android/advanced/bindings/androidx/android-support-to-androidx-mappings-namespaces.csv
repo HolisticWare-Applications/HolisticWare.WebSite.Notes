@@ -117,9 +117,6 @@ android.support.v4.math,                                           ,androidx.cor
 android.support.v4.media.app,                                      ,androidx.media.app
 android.support.v4.media,                                          ,androidx.media
 android.support.v4.media.session,                                  ,androidx.media.session
-android.support.v4.media.app,                                      ,androidx.media.app
-android.support.v4.media.app,                                      ,androidx.media.app
-android.support.v4.media.app,                                      ,androidx.media.app
 android.support.v4.net,                                            ,androidx.core.net
 android.support.v4.os,                                             ,androidx.core.os
 android.support.v4.print,                                          ,androidx.print
@@ -130,7 +127,6 @@ android.support.v4.view,                                           ,androidx.cus
 android.support.v4.view,                                           ,androidx.viewpager.widget
 android.support.v4.view.accessibility,                             ,androidx.core.view.accessibility
 android.support.v4.view.animation,                                 ,androidx.core.view.animation
-android.support.v4.view.accessibility,                             ,androidx.core.view.accessibility
 android.support.v4.widget,                                         ,androidx.core.widget
 android.support.v4.widget,                                         ,androidx.swiperefreshlayout.widget
 android.support.v4.widget,                                         ,androidx.cursoradapter.widget
