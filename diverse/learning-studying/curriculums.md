@@ -2,6 +2,12 @@
 
 curriculums.md 
 
+Operation Code collections:
+
+https://github.com/OperationCode/resources_api/blob/master/resources.yml
+
+
+
 Possibly helpful resources that could serve as a "curriculum" that we don't personally have to maintain:
 
 *   https://ossu.firebaseapp.com/#/curriculum
