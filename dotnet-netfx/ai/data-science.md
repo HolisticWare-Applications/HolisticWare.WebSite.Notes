@@ -26,12 +26,16 @@ Machine Learning problems can be separated into three major domains:
 Supervised learning;
 Unsupervised learning;
 Reinforcement learning.
-Supervised learning deals with situations when you have labeled training examples, such as messages with the label either spam or not spam. Such subproblems as classification or regression belong to this domain.
+Supervised learning deals with situations when you have labeled training examples, such as messages 
+with the label either spam or not spam. Such subproblems as classification or regression belong to this 
+domain.
 
-Unsupervised learning deals with cases when all your data is not annotated, but you have to find some structure in it. Such subproblems as clustering or topic modeling belong to this domain.
+Unsupervised learning deals with cases when all your data is not annotated, but you have to find some 
+structure in it. Such subproblems as clustering or topic modeling belong to this domain.
 
-Reinforcement learning deals with sequential decision problems. Usually, you don't have examples, but rather an environment and an agent that can act in this environment. Every time the agent executes an action it gets a reward. The goal is to learn a policy that permits the agent to maximize the reward in the long term.
-
+Reinforcement learning deals with sequential decision problems. Usually, you don't have examples, but rather 
+an environment and an agent that can act in this environment. Every time the agent executes an action it gets 
+a reward. The goal is to learn a policy that permits the agent to maximize the reward in the long term.
 
 
 able to explain (at least conceptually) how the following algorithms work:
