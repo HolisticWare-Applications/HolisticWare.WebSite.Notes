@@ -12,6 +12,7 @@ BuildActions
 *	Compile
 *	None
 
+```
 	<ItemGroup>
 		<NativeReference Include="..\..\externals\ios\Pods\Name.framework">
 			<Kind>Framework</Kind>
@@ -37,9 +38,9 @@ BuildActions
 			<Link>libName.a</Link>
 		</None>
 	</ItemGroup>
-
+```
 	
-	
+```	
 	<ItemGroup>
 		<NativeReference Include="..\..\externals\ios\Pods\Name.framework">
 			<Kind>Framework</Kind>
@@ -54,4 +55,10 @@ BuildActions
 			<DependentUpon>libName.a</DependentUpon>
 		</None>
 	</ItemGroup>
-	
+```
+
+*	https://gist.github.com/JonDouglas/dda6d8ace7d071b0e8cb
+
+
+
+
