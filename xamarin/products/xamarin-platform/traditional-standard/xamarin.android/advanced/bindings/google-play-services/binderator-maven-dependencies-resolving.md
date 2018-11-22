@@ -17,13 +17,6 @@ Downgrading
     to 
         16.0.1
 
-Downgrading 
-    play-services-ads-lite
-    from
-        17.0.0
-    to 
-        16.0.0
-
 No matching artifact config found for: 
     com.google.android.gms.play-services-ads-lite:[17.0.0] 
 to satisfy dependency of: 
