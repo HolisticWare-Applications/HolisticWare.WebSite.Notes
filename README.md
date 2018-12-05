@@ -5,9 +5,24 @@ Notes in markdown format:
 *   content for HolisticWare website and personal blog before converting to html
 
 
+MSFT:
+
+```
+open -a Safari
+```
+
+HolisticWare:
+
+```
+open -a Firefox
+```
+
 ## Links References
 
 
+*   https://github.com/moljac
+
+*   https://gitlab.com/moljac
 
 *   https://github.com/moljac/HolisticWare.WebSite.Notes
 
@@ -32,7 +47,5 @@ Notes in markdown format:
 	*   https://github.com/HolisticWare/HolisticWare.Core.Linq
 
 	*   https://github.com/HolisticWare/HolisticWare.Core.Text
-
-*   https://github.com/moljac
 
 *   https://holisticware-moljac.visualstudio.com/
