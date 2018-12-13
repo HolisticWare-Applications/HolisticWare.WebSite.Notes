@@ -9,3 +9,7 @@ xamarin-forms-libraries.md
  Refit
  Polly
  FFImageLoading
+
+
+ *  https://medium.com/@devsdna/xamarin-and-other-mythological-beasts-a95013486a2e
+
