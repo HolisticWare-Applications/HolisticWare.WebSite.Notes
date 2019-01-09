@@ -34,7 +34,7 @@
     *   benefit over `unsafe` code
 
     *   `unsafe` code is 
-    
+
         *   expensive to implement and maintain
 
         *   fragile and risky
