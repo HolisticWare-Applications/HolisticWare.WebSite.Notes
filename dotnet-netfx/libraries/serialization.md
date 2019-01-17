@@ -89,3 +89,99 @@ serialization.md
 *   [https://github.com/Oipo/SerializerComparison/blob/7e8085e5bf290ff023f77dcf5fe86d42c5cbda80/SerializerComparison/packages.config](https://github.com/Oipo/SerializerComparison/blob/7e8085e5bf290ff023f77dcf5fe86d42c5cbda80/SerializerComparison/packages.config)
 
 
+
+
+## Protobuf
+
+## Thrift
+
+## Avro
+
+## Bond
+
+*   https://github.com/Microsoft/bond/
+
+*   nuget
+
+    *   Bond.Runtime.CSharp
+
+        *   dependencies
+
+            *   Bond.Core.CSharp
+
+    *   Bond.Core.CSharp
+
+        *   netstandard1.0
+
+        *   netstandard1.3
+
+        *   netstandard1.6
+
+### Tutotrials
+
+*   https://microsoft.github.io/bond/manual/bond_cs.html
+
+*   https://blogs.msdn.microsoft.com/dotnet/2016/10/18/the-week-in-net-bond-the-gallery/
+
+*   https://www.infoq.com/news/2015/02/MicrosoftBond
+
+*   https://www.diycode.cc/projects/Microsoft/bond
+
+*   https://www.toptal.com/microsoft/meet-bond-microsoft-bond
+
+*   https://stackoverflow.com/questions/39571388/using-microsoft-bond-in-a-c-sharp-project
+
+http://putridparrot.com/blog/__trashed/
+
+https://theburningmonk.com/2016/01/ms-bond-and-chiron-benchmarked/
+
+https://jorgecandeias.com/2018/03/27/version-tolerant-binary-serialization-with-microsoft-bond-in-c/
+
+
+## MessagePack
+
+
+## MessageShark
+
+
+## BinaryWriter
+
+
+## FSPickler
+
+## BinnaryFormatter
+
+## Filbert
+
+## FlourineFx
+
+
+JavascriptSerializer
+
+DataContractJsonSerializer
+
+System.Json
+
+Json.NET.Json
+
+Json.NET.BSON
+
+SimpleJson
+
+BSON
+
+fastJson
+
+NetJson
+
+JIL
+
+Chiron
+
+MongoDBDriver.BSON
+
+ServiceStack.Text
+
+FsPickler.Json
+
+

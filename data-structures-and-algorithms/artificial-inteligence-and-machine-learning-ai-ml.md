@@ -4,6 +4,8 @@ artificial-inteligence-and-machine-learning-ai-ml.md
 
 ## References/Links
 
+*   https://azure.microsoft.com/en-us/blog/what-is-artificial-intelligence/?utm_source=vs_developer_news&utm_medium=referral
+
 *   https://www.kdnuggets.com/2018/09/machine-learning-cheat-sheets.html
 
     *   https://github.com/afshinea/stanford-cs-229-machine-learning

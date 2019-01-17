@@ -1,5 +1,15 @@
 # Async
 
+
+*   https://docs.microsoft.com/en-us/dotnet/csharp/async
+
+*   https://msdn.microsoft.com/en-us/library/vstudio/hh191443.aspx#BKMK_Threads
+
+*   https://msdn.microsoft.com/en-us/library/hh191443.aspx#BKMK_WhatHappensUnderstandinganAsyncMethod
+
+*   https://exceptionnotfound.net/using-async-and-await-in-asp-net-what-do-these-keywords-mean/
+
+
 ## Async methods with synchronous implementations
 
 two common use cases:
