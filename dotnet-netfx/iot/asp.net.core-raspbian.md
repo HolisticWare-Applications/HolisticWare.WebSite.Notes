@@ -80,20 +80,26 @@ cd ~/etk/LabDemo
 ./LabDemoWebApp.ASPnetCore
 ```
 
+### Prepare web-server/reverse-proxy
 
+Deployed kestrel server is not ideal to be exposed on public network (intenet).
 
+Install nginx
 
-
-
-
-https://www.codeproject.com/Articles/1241773/%2FArticles%2F1241773%2FSet-Up-an-ASP-NET-Core-CMS-Run-Site-on-Raspberry-P
-
-
+```
 sudo apt-get -y install \
     nginx
+```
 
+Start nginx service:
+
+```
 sudo service nginx start
+```
 
+Nginx conf (TODO):
+
+```
 echo \
 "
 location / 
@@ -105,7 +111,11 @@ location /
 " >> /etc/nginx/sites-available/default
 cat /etc/nginx/sites-available/default
 sudo nginx -s reload
+```
 
+Launch app as service:
+
+```
 sudo \
     echo \
 "
@@ -128,10 +138,20 @@ cat /lib/systemd/system/LabDemoWebApp.ASPnetCore.service
 
 sudo systemctl enable LabDemoWebApp.ASPnetCore
 sudo systemctl start  LabDemoWebApp.ASPnetCore
+```
 
+Service debugging:
 
+```
+systemctl --no-page -t service -a | less
+journalctl --no-page -u LabDemoWebApp.ASPnetCore.service
+```
 
+## Browser Launch
 
+Launching `chromium` browser in fullscreen kiosk mode:
+
+```
 chromium-browser \
     --app=http://localhost:5000/ \
     --start-fullscreen \
@@ -145,22 +165,24 @@ chromium-browser \
     --disable-infobars \
     --disable-features=TranslateUI \
     --disk-cache-dir=/dev/null
+```
 
+Config for LXDE startup script:
 
+```
 mkdir ~/.config/lxsession
 mkdir ~/.config/lxsession/LXDE-pi
 sudo nano ~/.config/lxsession/LXDE-pi/autostart
+```
 
+LXDE startup script:
 
-
+```
 @xset s off
 @xset -dpms
 @xset s noblank
 /home/pi/etk/launcher.sh
-
-
-systemctl --no-page -t service -a | less
-journalctl --no-page -u LabDemoWebApp.ASPnetCore.service
+```
 
 ## References / Links
 
@@ -171,3 +193,6 @@ https://laurentkempe.com/2017/04/14/ASPNET-Core-MVC-app-running-on-raspberry-pi/
 https://jaredrhodes.com/2018/01/01/creating-an-asp-net-core-application-for-raspberry-pi/
 
 https://www.thomaslevesque.com/2018/04/17/hosting-an-asp-net-core-2-application-on-a-raspberry-pi/
+
+https://www.codeproject.com/Articles/1241773/%2FArticles%2F1241773%2FSet-Up-an-ASP-NET-Core-CMS-Run-Site-on-Raspberry-P
+
