@@ -2,35 +2,32 @@
 
 asp.net.core-raspbian.md
 
-https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/
 
-https://laurentkempe.com/2017/04/14/ASPNET-Core-MVC-app-running-on-raspberry-pi/
+# OS Installation
 
-https://jaredrhodes.com/2018/01/01/creating-an-asp-net-core-application-for-raspberry-pi/
+1.   install newest Raspbian
 
-https://www.thomaslevesque.com/2018/04/17/hosting-an-asp-net-core-2-application-on-a-raspberry-pi/
+2.  do the system update
 
+3.   open ssh
+
+```
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
+```
 
+## App Setup
+
+create folder
+
+```
 mkdir ~/etk/
 mkdir ~/etk/LabDemo/
+```
 
-cd ~/etk/LabDemo
-./LabDemoWebApp.ASPnetCore
+Install prerequisites:
 
-
-dotnet publish \
-    -c Release \
-    -r linux-arm
-
-export RPI_IP=192.168.1.104
-scp -r -v \
-    ./bin/Release/netcoreapp2.2/linux-arm/publish/* \
-    pi@$RPI_IP:/home/pi/etk/LabDemo/
-
-
-
+```
 sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get clean
@@ -40,8 +37,11 @@ sudo apt-get -y install \
     libunwind8 \
     gettext \
     apt-transport-https
+```
 
+Install .NET Core:
 
+```
 # https://github.com/dotnet/core-setup#daily-builds
 curl -vsSL \
     -o dotnet.tar.gz \
@@ -49,6 +49,38 @@ curl -vsSL \
 sudo mkdir -p /opt/dotnet && sudo tar zxf dotnet.tar.gz -C /opt/dotnet 
 sudo ln -s /opt/dotnet/dotnet /usr/local/bin
 dotnet –help
+```
+
+## Deploy App from Development box (Windows/Linux/Mac)
+
+
+```
+dotnet publish \
+    -c Release \
+    -r linux-arm
+```
+
+Copy app to RPi:
+
+Mac:
+
+```
+export RPI_IP=192.168.1.104
+scp -r -v \
+    ./bin/Release/netcoreapp2.2/linux-arm/publish/* \
+    pi@$RPI_IP:/home/pi/etk/LabDemo/
+```
+Windows (use powershell, opr putty, pscp)
+
+
+## Run/Test the app on Rpi
+
+```
+cd ~/etk/LabDemo
+./LabDemoWebApp.ASPnetCore
+```
+
+
 
 
 
@@ -129,3 +161,13 @@ sudo nano ~/.config/lxsession/LXDE-pi/autostart
 
 systemctl --no-page -t service -a | less
 journalctl --no-page -u LabDemoWebApp.ASPnetCore.service
+
+## References / Links
+
+https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/
+
+https://laurentkempe.com/2017/04/14/ASPNET-Core-MVC-app-running-on-raspberry-pi/
+
+https://jaredrhodes.com/2018/01/01/creating-an-asp-net-core-application-for-raspberry-pi/
+
+https://www.thomaslevesque.com/2018/04/17/hosting-an-asp-net-core-2-application-on-a-raspberry-pi/
