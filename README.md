@@ -47,5 +47,13 @@ open -a Firefox
 	*   https://github.com/HolisticWare/HolisticWare.Core.Linq
 
 	*   https://github.com/HolisticWare/HolisticWare.Core.Text
+	
+*   bindings
+
+    *   https://github.com/xamarin/XamarinComponents
+    
+    *   https://github.com/HolisticWare/HolisticWareComponents
+    
+    
 
 *   https://holisticware-moljac.visualstudio.com/
