@@ -28,6 +28,8 @@ open -a Firefox
 
 *   https://github.com/xamarin
 
+    *   https://github.com/xamarin/XamarinComponents
+
     *	https://github.com/xamarin/Xamarin.Auth
 
     *   https://github.com/xamarin/AndroidSupportComponents
