@@ -1,0 +1,39 @@
+AppToolkitTaskExecutor,                        ,Room related - not found (numerous issues `java.lang.ClassNotFoundException`)
+JunitTaskExecutorRule,                         ,in package androidx.arch.core:core-testing
+TaskExecutorWithFakeMainThread,                ,in package androidx.arch.core:core-testing
+CountingTaskExecutorRule,                      ,in package androidx.arch.core:core-testing
+InstantTaskExecutorRule,                       ,in package androidx.arch.core:core-testing
+Function,                                      ,in package android.arch.core:core NOT BOUND (1.0.0-alpha3) NO AndroidX core 
+ClassesInfoCache,                              ,FIXED was BINDINGS ERROR visibility='' in androidx.lifecycle.lifecycle-common
+DefaultLifecycleObserver,                      ,NOT FOUND in android.arch.lifecycle:common with Luyten GUI
+Elements_extKt,                                ,Kotlin?
+EmptyActivityLifecycleCallbacks,               ,FIXED was BINDINGS ERROR visibility='' in androidx.lifecycle.lifecycle-process 
+ErrorMessages,                                 ,
+FullLifecycleObserver,                         ,
+FullLifecycleObserverAdapter,                  ,
+GeneratedAdapter,                              ,
+GenericLifecycleObserver,                      ,
+HolderFragment,                                ,
+Input_collectorKt,                             ,
+LifecycleDispatcher,                           ,
+LifecycleObserver,                             ,
+LifecycleOwner,                                ,
+LifecycleProcessor,                            ,
+LifecycleRegistryOwner,                        ,
+LiveDataReactiveStreams,                       ,
+AdapterClass,                                  ,
+AdapterClassKt,                                ,
+EventMethod,                                   ,
+EventMethodCall,                               ,
+InputModel,                                    ,
+LifecycleObserverInfo,                         ,
+Observer,                                      ,
+ObserversCollector,                            ,
+OnLifecycleEvent,                              ,
+ReflectiveGenericLifecycleObserver,            ,
+TransformationKt,                              ,
+Validator,                                     ,
+ViewModelStoreOwner,                           ,
+WriterKt,                                      ,
+
+
