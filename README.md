@@ -58,4 +58,12 @@ open -a Firefox
     
     
 
-*   https://holisticware-moljac.visualstudio.com/
+*    https://holisticware-moljac.visualstudio.com/
+
+* .  usefull links
+
+    *   http://packagesearch.azurewebsites.net/
+    
+    *   https://apisof.net/
+    
+    
