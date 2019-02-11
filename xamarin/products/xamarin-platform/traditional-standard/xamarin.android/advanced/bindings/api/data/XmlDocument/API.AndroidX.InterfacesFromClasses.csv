@@ -1,0 +1,7 @@
+ICustomTabsCallback        ,Android.Support.CustomTabs
+ICustomTabsService         ,Android.Support.CustomTabs
+IPostMessageService        ,Android.Support.CustomTabs
+INotificationSideChannel   ,Android.Support.V4.App
+IMediaControllerCallback   ,Android.Support.V4.Media.Session
+IMediaSession              ,Android.Support.V4.Media.Session
+IResultReceiver            ,Android.Support.V4.OS
