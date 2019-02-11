@@ -56,6 +56,26 @@ sh build.sh --target=libs \
 sh build.sh --target=diff
 ```    
 
+Windows:
+
+```
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy RemoteSigned -Scope Process
+Unblock-File .\build.ps1
+
+.\build.ps1 --verbosity=diagnostic --target=clean;
+.\build.ps1 --verbosity=diagnostic --target=binderate;
+nuget restore ./generated/AndroidSupport.sln;
+tools\nuget.exe restore ./generated/AndroidSupport.sln;
+.\build.ps1 --verbosity=diagnostic --target=nuget-restore;
+
+
+.\build.ps1 --verbosity=diagnostic --target=libs;
+.\build.ps1 --verbosity=diagnostic --target=merge;
+.\build.ps1 --verbosity=diagnostic --target=diff;
+```
+
+
 
 ### Build times
 
