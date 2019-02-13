@@ -67,3 +67,10 @@ open -a Firefox
     *   https://apisof.net/
     
     
+ ## Building `Android.Support` and `Google.Play.Services-Firebase`
+
+```
+sh ./build.sh --target=clean && sh ./build.sh --target=binderate \
+&& \
+sh ./build.sh --target=libs && sh ./build.sh --target=nuget
+```
