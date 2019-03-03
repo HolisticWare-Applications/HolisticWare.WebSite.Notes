@@ -17,6 +17,10 @@ HolisticWare:
 open -a Firefox
 ```
 
+## Tools
+
+*	https://euangoddard.github.io/clipboard2markdown/
+
 ## Links References
 
 
