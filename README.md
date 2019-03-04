@@ -70,6 +70,8 @@ open -a Firefox
     
     *   https://apisof.net/
     
+    *	https://docs.microsoft.com/en-us/dotnet/api/
+    
     
  ## Building `Android.Support` and `Google.Play.Services-Firebase`
 
