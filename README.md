@@ -1,4 +1,4 @@
-# HolisticWare.WebSite.CompositeC1.Content.MarkDown
+# HolisticWare.WebSite.Notes
 
 Notes in markdown format:
 
