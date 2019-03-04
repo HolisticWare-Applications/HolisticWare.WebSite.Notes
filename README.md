@@ -82,3 +82,9 @@ sh ./build.sh --target=clean && sh ./build.sh --target=binderate \
 && \
 sh ./build.sh --target=libs && sh ./build.sh --target=nuget
 ```
+
+## Tools snippets
+
+```
+    <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
+```
