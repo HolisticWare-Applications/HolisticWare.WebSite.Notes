@@ -1,4 +1,4 @@
-# HolisticWare.WebSite.CompositeC1.Content.MarkDown
+# HolisticWare.WebSite.Notes
 
 Notes in markdown format:
 
@@ -16,6 +16,10 @@ HolisticWare:
 ```
 open -a Firefox
 ```
+
+## Tools
+
+*	https://euangoddard.github.io/clipboard2markdown/
 
 ## Links References
 
@@ -35,6 +39,8 @@ open -a Firefox
     *   https://github.com/xamarin/AndroidSupportComponents
 
         *    https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
+	
+		*	https://github.com/xamarin/XamarinAndroidXMigration/tree/master/Cecilfier
 
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
@@ -66,4 +72,19 @@ open -a Firefox
     
     *   https://apisof.net/
     
+    *	https://docs.microsoft.com/en-us/dotnet/api/
     
+    
+ ## Building `Android.Support` and `Google.Play.Services-Firebase`
+
+```
+sh ./build.sh --target=clean && sh ./build.sh --target=binderate \
+&& \
+sh ./build.sh --target=libs && sh ./build.sh --target=nuget
+```
+
+## Tools snippets
+
+```
+    <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
+```
