@@ -50,11 +50,21 @@ open -a Firefox
 
     *   working projects 2018-12
 
-	*   https://github.com/HolisticWare/HolisticWare.Core.Math.Statistics.Descriptive.Sequential
+	*   `Core`
+	
+		*	https://github.com/HolisticWare/HolisticWare.Core.Math.Statistics.Descriptive.Sequential
 
-	*   https://github.com/HolisticWare/HolisticWare.Core.Linq
+		*   https://github.com/HolisticWare/HolisticWare.Core.Linq
 
-	*   https://github.com/HolisticWare/HolisticWare.Core.Text
+		*   https://github.com/HolisticWare/HolisticWare.Core.Text
+		
+	*	tools
+	
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.AndroidX.Migraineator
+		
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.SampleProjectKreator
+		
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers
 	
 *   bindings
 
