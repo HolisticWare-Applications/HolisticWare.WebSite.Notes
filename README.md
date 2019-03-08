@@ -87,12 +87,21 @@ open -a Firefox
     *	https://docs.microsoft.com/en-us/dotnet/api/
     
     
- ## Building `Android.Support` and `Google.Play.Services-Firebase`
+ ## Building `Android.Support`, `AndroidX` and `Google.Play.Services-Firebase`
 
 ```
-sh ./build.sh --target=clean && sh ./build.sh --target=binderate \
+sh ./build.sh --target=clean \
 && \
-sh ./build.sh --target=libs && sh ./build.sh --target=nuget
+sh ./build.sh --target=binderate \
+&& \
+sh ./build.sh --target=libs \
+&& \
+sh ./build.sh --target=nuget \
+&& \
+sh ./build.sh --target=diff \
+&& \
+sh ./build.sh --target=samples \
+
 ```
 
 ## Tools snippets
