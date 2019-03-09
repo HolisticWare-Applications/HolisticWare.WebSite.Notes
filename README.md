@@ -106,6 +106,31 @@ sh ./build.sh --target=samples \
 
 ## Tools snippets
 
+### `dotnet new` Templates
+
+*	https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
+
+
+Usage:
+
+```bash
+dotnet new hw-structure -o       AwsomeLibrary
+dotnet new hw-structure --output AwsomeLibrary
+
+```
+
+```bash
+dotnet new hw-structure
+```
+
+
+
+```bash
+dotnet new --install "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp"
+```
+
+
+### Nugets
 ```
     <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
 ```
