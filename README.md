@@ -1,4 +1,4 @@
-# HolisticWare.WebSite.CompositeC1.Content.MarkDown
+# HolisticWare.WebSite.Notes
 
 Notes in markdown format:
 
@@ -16,6 +16,10 @@ HolisticWare:
 ```
 open -a Firefox
 ```
+
+## Tools
+
+*	https://euangoddard.github.io/clipboard2markdown/
 
 ## Links References
 
@@ -35,6 +39,8 @@ open -a Firefox
     *   https://github.com/xamarin/AndroidSupportComponents
 
         *    https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
+	
+		*	https://github.com/xamarin/XamarinAndroidXMigration/tree/master/Cecilfier
 
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
@@ -44,11 +50,23 @@ open -a Firefox
 
     *   working projects 2018-12
 
-	*   https://github.com/HolisticWare/HolisticWare.Core.Math.Statistics.Descriptive.Sequential
+	*   `Core`
+	
+		*	https://github.com/HolisticWare/HolisticWare.Core.Math.Statistics.Descriptive.Sequential
 
-	*   https://github.com/HolisticWare/HolisticWare.Core.Linq
+		*   https://github.com/HolisticWare/HolisticWare.Core.Linq
 
-	*   https://github.com/HolisticWare/HolisticWare.Core.Text
+		*   https://github.com/HolisticWare/HolisticWare.Core.Text
+		
+	*	tools
+	
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.AndroidX.Migraineator
+		
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.ApiXmlSpitter.git
+		
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.SampleProjectKreator
+		
+		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers
 	
 *   bindings
 
@@ -66,4 +84,53 @@ open -a Firefox
     
     *   https://apisof.net/
     
+    *	https://docs.microsoft.com/en-us/dotnet/api/
     
+    
+ ## Building `Android.Support`, `AndroidX` and `Google.Play.Services-Firebase`
+
+```
+sh ./build.sh --target=clean \
+&& \
+sh ./build.sh --target=binderate \
+&& \
+sh ./build.sh --target=libs \
+&& \
+sh ./build.sh --target=nuget \
+&& \
+sh ./build.sh --target=diff \
+&& \
+sh ./build.sh --target=samples \
+
+```
+
+## Tools snippets
+
+### `dotnet new` Templates
+
+*	https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
+
+
+Usage:
+
+```bash
+dotnet new hw-structure -o       AwsomeLibrary
+dotnet new hw-structure --output AwsomeLibrary
+
+```
+
+```bash
+dotnet new hw-structure
+```
+
+
+
+```bash
+dotnet new --install "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp"
+```
+
+
+### Nugets
+```
+    <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
+```
