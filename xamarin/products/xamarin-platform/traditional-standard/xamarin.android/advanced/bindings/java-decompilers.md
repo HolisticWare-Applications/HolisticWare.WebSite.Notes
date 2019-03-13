@@ -92,3 +92,86 @@ java \
 
 ```
 ```
+
+
+## Smali
+
+https://github.com/JesusFreke/smali
+
+## Binaries
+
+https://bitbucket.org/JesusFreke/smali/downloads/smali
+https://bitbucket.org/JesusFreke/smali/downloads/baksmali
+https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.2.5.jar
+https://bitbucket.org/JesusFreke/smali/downloads/smali-2.2.5.jar
+
+```
+java -jar ./lib/smali-2.2.5.jar 
+```
+
+output:
+
+```
+ java -jar ./lib/smali-2.2.5.jar 
+usage: smali [-v] [-h] [<command [<args>]]
+
+Options:
+  -h,-?,--help - Show usage information
+  -v,--version - Print the version of baksmali and then exit
+
+Commands:
+  assemble(ass,as,a) - Assembles smali files into a dex file.
+  help(h) - Shows usage information
+
+See smali help <command> for more information about a specific command
+```
+
+```
+java -jar ./lib/baksmali-2.2.5.jar 
+```
+
+output:
+
+```
+$ java -jar ./lib/baksmali-2.2.5.jar 
+usage: baksmali [--version] [--help] [<command [<args>]]
+
+Options:
+  --help,-h,-? - Show usage information
+  --version,-v - Print the version of baksmali and then exit
+
+Commands:
+  deodex(de,x) - Deodexes an odex/oat file
+  disassemble(dis,d) - Disassembles a dex file.
+  dump(du) - Prints an annotated hex dump for the given dex file
+  help(h) - Shows usage information
+  list(l) - Lists various objects in a dex file.
+
+See baksmali help <command> for more information about a specific command
+```
+
+
+## Android Studio Plugin
+
+
+https://bitbucket.org/JesusFreke/smali/downloads/smalidea-0.03.zip
+
+
+https://ibotpeaches.github.io/Apktool/documentation/
+
+https://developer.android.com/studio/debug/apk-debugger
+
+
+http://androidcracking.blogspot.com/search/label/smali
+
+http://pallergabor.uw.hu/androidblog/dalvik_opcodes.html
+
+http://www.slideshare.net/paller/understanding-the-dalvik-bytecode-with-the-dedexer-tool
+
+http://jasmin.sourceforge.net/guide.html
+
+https://source.android.com/devices/tech/dalvik/dalvik-bytecode.html
+
+http://code.google.com/p/smali/wiki/Registers
+
+http://code.google.com/p/smali/wiki/TypesMeth

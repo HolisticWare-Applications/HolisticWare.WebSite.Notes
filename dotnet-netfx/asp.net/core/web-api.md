@@ -17,3 +17,9 @@
     [https://apiary.io/plans](https://apiary.io/plans)
 
 * []()
+
+## References / Links
+
+*   https://docs.microsoft.com/en-us/learn/modules/build-web-api-net-core/?fbclid=IwAR0SlWhnmfCHABOmXnnDxZvevcgViEfr0txb-j974PK8e60POuRVVnJef0A
+
+
