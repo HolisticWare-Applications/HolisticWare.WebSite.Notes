@@ -50,7 +50,7 @@ android-support-and-androidx_mapper.md
 
         this is actually horizontal partitioning with shards
 
-        sample output: (./data/analysis.md)[./data/analysis.md]
+        sample output: [./data/analysis.md](./data/analysis.md)
     
         *   TAR - types Android registered
 
