@@ -40,7 +40,7 @@ open -a Firefox
 
         *    https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
 	
-		*	https://github.com/xamarin/XamarinAndroidXMigration/tree/master/Cecilfier
+		*	https://github.com/xamarin/XamarinAndroidXMigration
 
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
