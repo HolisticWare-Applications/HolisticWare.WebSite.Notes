@@ -132,5 +132,6 @@ dotnet new --install "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CS
 
 ### Nugets
 ```
-    <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
+	<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
+	<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.ApiXmlSpitter" Version="0.0.1" />	
 ```
