@@ -89,6 +89,8 @@ open -a Firefox
     
  ## Building `Android.Support`, `AndroidX` and `Google.Play.Services-Firebase`
 
+MacOSX:
+
 ```
 sh ./build.sh --target=clean \
 && \
@@ -101,7 +103,16 @@ sh ./build.sh --target=nuget \
 sh ./build.sh --target=diff \
 && \
 sh ./build.sh --target=samples \
+```
 
+Windows:
+
+```
+.\build.ps1 --target=clean
+.\build.ps1 --target=binderate
+.\build.ps1 --target=libs
+.\build.ps1 --target=nuget
+.\build.ps1 --target=samples
 ```
 
 ## Tools snippets
