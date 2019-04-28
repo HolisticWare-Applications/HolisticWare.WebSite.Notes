@@ -78,13 +78,17 @@ open -a Firefox
 
 *    https://holisticware-moljac.visualstudio.com/
 
-* .  usefull links
+*	usefull links
 
     *   http://packagesearch.azurewebsites.net/
     
     *   https://apisof.net/
     
     *	https://docs.microsoft.com/en-us/dotnet/api/
+	
+	*	https://www.fuget.org
+	
+	*	https://www.nuget.org
     
     
  ## Building `Android.Support`, `AndroidX` and `Google.Play.Services-Firebase`
