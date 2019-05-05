@@ -241,3 +241,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 dotnet new -i Microsoft.AspNetCore.Blazor.Templates
 dotnet new --list
 ```
+
+
+*   https://blazor.net/community.html

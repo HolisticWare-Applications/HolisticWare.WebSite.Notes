@@ -8,3 +8,7 @@ tuple-and-valuetuple.md
 
 *   https://www.grapecity.com/en/blogs/tackling-tuples-understanding-the-new-c-7-value-type
 
+# Tuples
+
+*   https://www.peakup.org/blog/advanced-tuple-techniques-in-c/
+

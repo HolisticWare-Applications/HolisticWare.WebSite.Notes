@@ -29,5 +29,8 @@ Java code JNI Bridge that passes calls from Android java to C#:
 
 *   https://gist.github.com/brendanzagaeski/9337026
 
+*	https://dotnetdevaddict.co.za/tag/xamarin-binding-library/
 
-	
+*	http://www.andipalo.com/2017/07/16/java-seesharp-xamarin/
+
+*	https://www.codepool.biz/binding-android-library-xamarin-disaster.html

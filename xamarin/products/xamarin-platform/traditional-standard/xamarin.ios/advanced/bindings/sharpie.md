@@ -355,6 +355,7 @@ Importing UIKit in UPPlatform.h fixed the error!
 
 Missing Classes
 
+```
     sharpie \
         bind \
             --verbose \
@@ -368,7 +369,68 @@ Missing Classes
                 -v \
                 -I../binaries-minimal/ios/ \
                 -F../binaries-minimal/ios/ \
-            
-    
+```
 
-            
+
+````
+sharpie
+
+sharpie \
+       bind \
+       --verbose \
+       -output ./Xamarin.iOS.Sharpie/ \
+       -sdk iphoneos12.1 \
+       -n Medm.DeviceKit \
+       --framework ./MedmDeviceKit.framework \
+       -c -F. -v
+```
+
+```
+sharpie \
+       bind \
+       --verbose \
+       -output ./Xamarin.iOS.Sharpie/ \
+       -n Medm.DeviceKit \
+       --framework ./MedmDeviceKit.framework \
+       -c -F. -v
+```
+
+```
+sharpie bind -sdk iphoneos12.1 \
+    -output Xamarin.iOS.Sharpie MedmDeviceKit.framework/Headers/MedMDeviceKit.h \
+    -c -F. -v
+```       
+
+```
+Done. Exiting with error code 1.
+error: 
+framework requires SDK 'iphoneos10.3' which is not installed. You may need a newer Xcode.
+```
+
+
+```
+Done. Exiting with error code 1.
+error: MedmDeviceKit: framework requires SDK 'iphoneos10.3' which is not installed. You may need a newer Xcode.
+```
+
+```
+sharpie --version
+```
+
+````
+sharpie xcode -sdks
+
+sharpie xcode -sdks -verbose
+Xcode 10.1: /Applications/Xcode.app
+    sdk: appletvos12.1    arch: arm64   
+         /Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.1.sdk
+
+    sdk: macosx10.14      arch: x86_64  i386    
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk
+
+    sdk: watchos5.1       arch: armv7k  
+         /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk
+
+    sdk: iphoneos12.1     arch: arm64   armv7   
+         /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk
+````

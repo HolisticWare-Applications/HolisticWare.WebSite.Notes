@@ -20,6 +20,21 @@
 *   http://blog.revolutionanalytics.com/2018/04/not-hotdog.html
 
 
+## Create Your First Machine Learning Pipeline in ML.NET
+
+*   https://www.youtube.com/watch?time_continue=2&v=8gVhJKszzzI
+
+*   http://www.statsoft.com/Textbook/
+
+*   https://datascienceplus.com/generalized-additive-models/
+
+*   https://datascienceplus.com/bayesian-statistics-analysis-of-health-data/
+
+*   https://www.datarobot.com/wiki/classification/
+
+
+
+
 ## Videos
 
 1.  What is Artificial Intelligence? In 5 minutes.
