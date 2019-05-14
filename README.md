@@ -104,9 +104,10 @@ sh ./build.sh --target=libs \
 && \
 sh ./build.sh --target=nuget \
 && \
-sh ./build.sh --target=diff \
-&& \
 sh ./build.sh --target=samples \
+&& \
+sh ./build.sh --target=diff \
+
 ```
 
 Windows:
