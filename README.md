@@ -91,7 +91,14 @@ open -a Firefox
 	*	https://www.nuget.org
     
     
- ## Building `Android.Support`, `AndroidX` and `Google.Play.Services-Firebase`
+ ## Building maintanined Xamarin repos
+ 
+*	`Android.Support`, 
+
+*  `AndroidX` and 
+
+*  `Google.Play.Services-Firebase`
+
 
 MacOSX:
 
@@ -119,7 +126,14 @@ Windows:
 .\build.ps1 --target=nuget
 .\build.ps1 --target=samples
 ```
+## DevOps
 
+*   Core
+
+    *   https://dev.azure.com/holisticware-net/
+    
+    *   https://dev.azure.com/mcvjetko/
+    
 ## Tools snippets
 
 ### `dotnet new` Templates
@@ -147,7 +161,13 @@ dotnet new --install "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CS
 
 
 ### Nugets
+
+https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid
+
 ```
-	<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
-	<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.ApiXmlSpitter" Version="0.0.1" />	
+<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.ApiXmlSpitter" Version="0.0.1" />	
+```
+
+```
+<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
 ```
