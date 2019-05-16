@@ -89,6 +89,8 @@ open -a Firefox
 	*	https://www.fuget.org
 	
 	*	https://www.nuget.org
+	
+	*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
     
     
  ## Building maintanined Xamarin repos
