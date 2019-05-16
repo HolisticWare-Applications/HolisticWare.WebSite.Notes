@@ -89,9 +89,18 @@ open -a Firefox
 	*	https://www.fuget.org
 	
 	*	https://www.nuget.org
+	
+	*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
     
     
- ## Building `Android.Support`, `AndroidX` and `Google.Play.Services-Firebase`
+ ## Building maintanined Xamarin repos
+ 
+*	`Android.Support`, 
+
+*  `AndroidX` and 
+
+*  `Google.Play.Services-Firebase`
+
 
 MacOSX:
 
@@ -104,9 +113,10 @@ sh ./build.sh --target=libs \
 && \
 sh ./build.sh --target=nuget \
 && \
-sh ./build.sh --target=diff \
-&& \
 sh ./build.sh --target=samples \
+&& \
+sh ./build.sh --target=diff \
+
 ```
 
 Windows:
@@ -119,6 +129,14 @@ Windows:
 .\build.ps1 --target=samples
 ```
 
+## DevOps
+
+*   Core
+
+    *   https://dev.azure.com/holisticware-net/
+    
+    *   https://dev.azure.com/mcvjetko/
+    
 ## Tools snippets
 
 ### `dotnet new` Templates
@@ -146,7 +164,13 @@ dotnet new --install "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CS
 
 
 ### Nugets
+
+https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid
+
 ```
-	<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
-	<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.ApiXmlSpitter" Version="0.0.1" />	
+<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.ApiXmlSpitter" Version="0.0.1" />	
+```
+
+```
+<PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
 ```
