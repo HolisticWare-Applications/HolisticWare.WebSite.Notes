@@ -84,6 +84,10 @@ open -a Firefox
     
     *   https://apisof.net/
     
+    *	netstandard (.NET Standard)
+    
+    	*	https://dotnet.microsoft.com/platform/dotnet-standard
+    
     *	https://docs.microsoft.com/en-us/dotnet/api/
 	
 	*	https://www.fuget.org
