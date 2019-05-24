@@ -48,3 +48,33 @@ https://www.youtube.com/watch?v=CSPSvBeqJ9c
     *   XML/JSON reading/writing
 
     *   binary reading/writing    
+
+
+
+```
+[RPlotExporter, RankColumn]
+[MarkdownExporterAttribute.StackOverflow]
+[MemoryDiagnoser]
+public class StringConcatVsStringFormat
+{
+    [Benchmark]
+    [Arguments("test1 ", "test2 ", "test3")]
+    public string StringConcat001(string arg1, string arg2, string arg3)
+        => arg1 + arg2 + arg3;
+
+    [Benchmark]
+    [Arguments("test1 ", "test2 ", "test3")]
+    public string StringConcat002(string arg1, string arg2, string arg3)
+        => String.Concat(arg1, arg2, arg3);
+
+    [Benchmark]
+    [Arguments("test1 ", "test2 ", "test3")]
+    public string StringConcat003(string arg1, string arg2, string arg3)
+        => $"{arg1} {arg2} {arg3}";
+
+    [Benchmark]
+    [Arguments("test1 ", "test2 ", "test3")]
+    public string StringFormat(string arg1, string arg2, string arg3)
+        => string.Format("{0} {1} {2}", arg1, arg2, arg3);
+}
+```    
