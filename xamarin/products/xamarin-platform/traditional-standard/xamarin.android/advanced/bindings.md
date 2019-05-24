@@ -1,12 +1,15 @@
 # Bindings troubleshooting
 
-    eventargs already contains definition
+## EventArgs
 
-    *   interface methods with the same parameter names
+eventargs already contains definition
 
-    *   rename parameters
+*   interface methods with the same parameter names
+
+*   rename parameters
 
 
-    Error CS0111: Type 'EventArgs' already defines a member called '.ctor' with the same parameter types 
-    
+```
+Error CS0111: Type 'EventArgs' already defines a member called '.ctor' with the same parameter types 
+```    
 

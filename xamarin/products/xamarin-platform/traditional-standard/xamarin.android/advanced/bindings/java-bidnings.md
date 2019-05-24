@@ -1,10 +1,15 @@
 # Xamarin Android Java Bindings
 
-1.	bindings steps
+1.	bindings steps 
+
 	[./bindings-steps.md](./bindings-steps.md)
+	
 	1.	project setup
+
 2.	tools
-3.	references-links
+
+3.	references-links 
+
 	[./references.md](./references.md)
 
 	
@@ -34,3 +39,6 @@ Java code JNI Bridge that passes calls from Android java to C#:
 *	http://www.andipalo.com/2017/07/16/java-seesharp-xamarin/
 
 *	https://www.codepool.biz/binding-android-library-xamarin-disaster.html
+
+*	https://www.liudeyun.net/Troubleshooting-for-Xamarin-Android-binding-project/
+
