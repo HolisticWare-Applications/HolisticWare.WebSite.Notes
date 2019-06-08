@@ -12,3 +12,7 @@ performance.md
 
 *   https://www.jetbrains.com/help/resharper/ConvertClosureToMethodGroup.html
 
+## .NET Core 3
+
+*   https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-3-0/
+
