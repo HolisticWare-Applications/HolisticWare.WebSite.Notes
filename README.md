@@ -86,6 +86,8 @@ open -a Firefox
     
     *   https://apisof.net/
     
+    *	https://source.dot.net/
+    
     *	netstandard (.NET Standard)
     
     	*	https://dotnet.microsoft.com/platform/dotnet-standard
