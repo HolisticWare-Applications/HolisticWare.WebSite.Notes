@@ -74,7 +74,9 @@ open -a Firefox
     
     *   https://github.com/HolisticWare/HolisticWareComponents
     
+    *	docs
     
+    	*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/troubleshooting-log-analysis.md
 
 *    https://holisticware-moljac.visualstudio.com/
 
@@ -83,6 +85,8 @@ open -a Firefox
     *   http://packagesearch.azurewebsites.net/
     
     *   https://apisof.net/
+    
+    *	https://source.dot.net/
     
     *	netstandard (.NET Standard)
     
