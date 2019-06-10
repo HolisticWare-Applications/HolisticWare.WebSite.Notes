@@ -26,6 +26,8 @@ open -a Firefox
 
 *   https://github.com/moljac
 
+*	https://moljac.github.io/
+
 *   https://gitlab.com/moljac
 
 *   https://github.com/moljac/HolisticWare.WebSite.Notes
