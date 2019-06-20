@@ -63,7 +63,7 @@ Inside the ItemGroup, add your imageset with these two entries:
 ```
 
 
-
+```
 iPhone-6-n-7-plus-ios-9-n-10-application-icon-3x,180,180
 iPhone-6-n-7-plus-ios-9-n-10-spotlight-3x,180,180
 iPhone-6-n-7-plus-ios-9-n-10-settings-3x,180,180
@@ -79,5 +79,14 @@ iPhone-ios-5-n-6-spotlight-1x,29,29
 iPhone-ios-5-n-6-spotlight-2x,58,58
 iPhone-ios-5-n-6-settings-1x,29,29
 iPhone-ios-5-n-6-settings-2x,58,58
+```
 
+## Compression
 
+*   libjpeg-turbo
+
+    *   https://www.libjpeg-turbo.org/
+
+    *   https://sourceforge.net/projects/libjpeg-turbo/files/
+
+    *   https://github.com/Sergey-Terekhin/libjpeg-turbo-net/tree/master/libjpeg-turbo-net
