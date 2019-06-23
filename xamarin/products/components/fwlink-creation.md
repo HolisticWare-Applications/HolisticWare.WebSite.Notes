@@ -5,7 +5,9 @@ fwlink-creation.md
 ## Steps
 *   goto 
 
-    https://sftools.trafficmanager.net/redirection/home?options=host:go.microsoft.com
+    *   https://sftools.trafficmanager.net/redirection/home?options=host:go.microsoft.com
+
+    *   https://aka.ms
 
 *   Data:
 

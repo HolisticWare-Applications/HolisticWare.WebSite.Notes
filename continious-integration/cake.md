@@ -2,11 +2,15 @@
 
 cake.md
 
-https://hackernoon.com/bringing-cake-to-microsoft-teams-b49848981d5d
+*	https://hackernoon.com/bringing-cake-to-microsoft-teams-b49848981d5d
 
-https://hackernoon.com/appveyor-microsoft-teams-a4f810d354ee
+*	https://hackernoon.com/appveyor-microsoft-teams-a4f810d354ee
 
-https://garywoodfine.com/how-to-write-a-cake-build-script-for-asp-net-core-project/
+*	https://garywoodfine.com/how-to-write-a-cake-build-script-for-asp-net-core-project/
+
+*	https://medium.com/about-coding/introduction-to-build-automation-with-cake-c-make-88d8063b70c4
+
+
 
 ## Debugging
 

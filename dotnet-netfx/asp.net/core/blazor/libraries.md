@@ -15,3 +15,17 @@
 *   https://github.com/zalmoxisus/redux-devtools-extension/blob/master/docs/Integrations.md
 
 *   https://github.com/Zubnix/skia-wasm-port
+
+https://www.samprof.com/2019/03/24/matblazor-0-6-1
+
+https://github.com/SamProf/MatBlazor
+https://www.matblazor.com
+
+
+https://www.samprof.com/2018/12/15/compile-csharp-and-blazor-inside-browser-en
+
+https://github.com/BlazorComponents/CompileBlazorInBlazor
+
+https://blazorcomponents.github.io/CompileBlazorInBlazor/
+
+https://blazorcomponents.github.io/CompileBlazorInBlazor/

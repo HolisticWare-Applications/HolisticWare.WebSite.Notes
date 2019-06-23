@@ -112,3 +112,12 @@ https://blogs.technet.microsoft.com/tangent_thoughts/2017/09/13/azure-resource-m
 https://aka.ms/Azure/WebApps
 https://opbuildstorageprod.blob.core.windows.net/output-pdf-files/en-us/Azure.azure-documents/live/app-service-web.pdf
 https://github.com/projectkudu/kudu/wiki
+
+
+
+
+https://www.microsoft.com/en-us/learning/azure-exams.aspx
+
+https://pixelrobots.co.uk/2018/07/study-resources-for-the-az-102-microsoft-certified-azure-administrator/
+
+https://www.safaribooksonline.com/videos/az-100-certification-course/10009AZ100454545?autoplay=false
