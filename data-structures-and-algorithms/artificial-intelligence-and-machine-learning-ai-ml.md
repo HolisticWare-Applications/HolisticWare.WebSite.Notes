@@ -1,6 +1,6 @@
 # Artificial Intelligence and Machine learning (AI-ML)
 
-artificial-intelligence-and-machine-learning-ai-ml.md
+artificial-inteligence-and-machine-learning-ai-ml.md
 
 *   Artificial intelligence
 
@@ -8,10 +8,8 @@ artificial-intelligence-and-machine-learning-ai-ml.md
     
         *   Expert Systems (Knowledge Based Systems, Rule Based Systems, Decision Support Systems)
 
-            [./expert-systems.md](./expert-systems.md)
-
         *   Fuzzy Logic
-
+        
     *   Genetic Algorithms
 
     *   Artificial Neural Networks
