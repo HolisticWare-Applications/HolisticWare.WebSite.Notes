@@ -49,7 +49,7 @@ expert-systems.md
 
                 *   ability to explain to a user the chain of reasoning used to arrive at a
                     particular conclusion by tracing back over the firing of rules that resulted
-                    in the assertion.[28]
+                    in the assertion.
 
         *   two modes for an inference engine:
 
@@ -67,4 +67,6 @@ expert-systems.md
 
 *   http://info.cba.ksu.edu/bkovar/VBproject.pdf
 
-https://www.researchgate.net/post/How_to_developed_an_rule_base_expert_system
+*   http://www.i2osig.org/expertsystems.html
+
+*   https://www.researchgate.net/post/How_to_developed_an_rule_base_expert_system

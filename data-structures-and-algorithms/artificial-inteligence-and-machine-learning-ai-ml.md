@@ -4,7 +4,7 @@ artificial-intelligence-and-machine-learning-ai-ml.md
 
 *   Artificial intelligence
 
-    *   Logic
+    *   Logic (Reasoning) Systems
     
         *   Expert Systems (Knowledge Based Systems, Rule Based Systems, Decision Support Systems)
 
@@ -12,17 +12,46 @@ artificial-intelligence-and-machine-learning-ai-ml.md
 
         *   Fuzzy Logic
 
-    *   Genetic Algorithms
-
     *   Artificial Neural Networks
 
     *   Vision
 
-    *   Pattern Recognition
+        *   Pattern Recognition
 
     *   Parsing
 
         *   Natural Language Processing
+
+    *   Genetic Algorithms
+
+    *   Graph Theory
+
+        *   relation modelling
+
+            *   searches
+
+            *   dependencies - relations
+
+    *   Numerical Analysis
+
+        *   derivation
+
+            *   trending
+
+            *   `de:Ruck - en:{Jerk, Shock, Jolt, Yank}`
+
+        *   integration
+
+            *   area under the curve 
+
+                *   Displacement - Speed over time
+
+                *   Speed - Acceleration over time
+
+                *    Work - Force over Displacement
+
+                *   Impulse - Force over time
+
 
 
 ## References/Links
