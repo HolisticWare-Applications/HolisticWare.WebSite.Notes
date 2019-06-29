@@ -41,6 +41,44 @@ to `~/.bash_profile ` does not work.
 
 ## Chat
 
+### 2019-06-21
+
+Short report regarding `Directory.Build.rsp` files with VS4Mac
+
+Commandline:
+```
+export MD_FEATURES_ENABLED=IdeBuildOutputView
+open -n /Applications/Visual\ Studio.app/
+```
+Works!
+Adding 
+```
+export MD_FEATURES_ENABLED=IdeBuildOutputView
+```
+to `~/.bash_profile` does NOT work. (Anybody? Any idea?)
+
+Currently two of us are testing `~/.bashrc` and some other options.
+
+@dean I would use `*.props`, but there is no MsBuild built-in property that will enable/configure StructuredBinLogger.
+See:
+
+question:
+https://xamarinhq.slack.com/archives/C0VFPK631/p1556613491101800
+
+and answer:
+https://xamarinhq.slack.com/archives/C0VFPK631/p1556816708203300
+
+so `*.props` will not work. or do you have any idea?
+
+Some confusing facts for environment variable approach (my/our 2c):
+
+* does not read existing `Directory.Build.rsp`
+* creates in-memory `*.binlog` file which can be saved
+
+But thanks to all of you - we can proceede with work.
+
+### 2019-06-19
+
 ```
 Kirill Osenkov [18:22]
 Technically VSMac uses MSBuild to build, so if the command line MSBuild picks it up, 
