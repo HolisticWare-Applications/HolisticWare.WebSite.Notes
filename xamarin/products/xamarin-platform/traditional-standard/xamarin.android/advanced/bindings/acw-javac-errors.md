@@ -1,6 +1,6 @@
-# `javac` errors
+# Android Callable Wrappers ACW - `javac` errors
 
-acw-javac-errors.md
+android-callable-wrappers-acw-javac-errors.md
 
 Error:
 
@@ -41,3 +41,36 @@ It is not possible to rename this type; it's an internal construct that isn't co
 
 
 *   https://gist.github.com/JonDouglas/dda6d8ace7d071b0e8cb
+
+References are in `map.cache`:
+
+```
+find ./obj/ -type f -name "map.cache"
+```
+output:
+```
+./obj//Release/lp/map.cache
+./obj//Debug/lp/map.cache
+./obj//Debug/g/obj/lp/map.cache
+```
+
+In the sample folder search `obj/` folder and decompile all jars:
+
+```
+find ./obj/ -name "*.jar" \
+    -exec $SHELL \
+    -c \
+    ' 
+        echo "$0"
+        JARNAME="$0"
+        javap \
+            -classpath $JARNAME \
+            $(jar -tf $JARNAME | grep "class$" | sed s/\.class$//) \
+            >> $JARNAME.class.java.txt
+        cat $JARNAME.class.java.txt
+    ' {} \;
+```
+
+Pipe that to some file...
+
+

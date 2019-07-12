@@ -13,7 +13,7 @@ jar -tf ubertesters.sdk.android.jar  > jar-tf.md
 ```
 
 ```bash
-find . -name "classes.jar" \
+find . -name "*.jar" \
     -exec $SHELL \
     -c \
     ' 
