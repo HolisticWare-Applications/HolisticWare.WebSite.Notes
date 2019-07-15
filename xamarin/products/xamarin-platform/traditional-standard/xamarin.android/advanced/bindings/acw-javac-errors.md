@@ -61,16 +61,102 @@ find ./obj/ -name "*.jar" \
     -exec $SHELL \
     -c \
     ' 
-        echo "$0"
+        echo "$0" >> acw-decompile.class.java.txt
         JARNAME="$0"
         javap \
             -classpath $JARNAME \
             $(jar -tf $JARNAME | grep "class$" | sed s/\.class$//) \
-            >> $JARNAME.class.java.txt
-        cat $JARNAME.class.java.txt
+            >> acw-decompile.class.java.txt
+        cat acw-decompile.class.java.txt
     ' {} \;
 ```
 
-Pipe that to some file...
+Build Log analysis:
 
+```
+  Task "DetermineJavaLibrariesToCompile"
+      JavaLibrariesToCompile:
+        /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v9.0/mono.android.jar
+        /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/java_runtime.jar
+        obj/Debug/lp/9/jl/android.arch.lifecycle.common.jar
+        obj/Debug/lp/0/jl/universal-image-loader-1.9.5.jar
+        obj/Debug/lp/7/jl/android.arch.core.common.jar
+        obj/Debug/lp/17/jl/com.android.support.collections.jar
+        obj/Debug/lp/48/jl/auto-value-annotations.jar
+        obj/Debug/lp/15/jl/com.android.support.support-annotations.jar
+        obj/Debug/lp/3/jl/uno.ui-MonoAndroid90.jar
+        obj/Debug/lp/32/jl/bin/classes.jar
+        obj/Debug/lp/35/jl/bin/classes.jar
+        obj/Debug/lp/33/jl/bin/classes.jar
+        obj/Debug/lp/20/jl/bin/classes.jar
+        obj/Debug/lp/18/jl/bin/classes.jar
+        obj/Debug/lp/27/jl/bin/classes.jar
+        obj/Debug/lp/11/jl/bin/classes.jar
+        obj/Debug/lp/29/jl/bin/classes.jar
+        obj/Debug/lp/16/jl/bin/classes.jar
+        obj/Debug/lp/28/jl/bin/classes.jar
+        obj/Debug/lp/10/jl/bin/classes.jar
+        obj/Debug/lp/19/jl/bin/classes.jar
+        obj/Debug/lp/26/jl/bin/classes.jar
+        obj/Debug/lp/8/jl/bin/classes.jar
+        obj/Debug/lp/21/jl/bin/classes.jar
+        obj/Debug/lp/38/jl/bin/classes.jar
+        obj/Debug/lp/36/jl/bin/classes.jar
+        obj/Debug/lp/31/jl/bin/classes.jar
+        obj/Debug/lp/30/jl/bin/classes.jar
+        obj/Debug/lp/37/jl/bin/classes.jar
+        obj/Debug/lp/39/jl/bin/classes.jar
+        obj/Debug/lp/24/jl/bin/classes.jar
+        obj/Debug/lp/23/jl/bin/classes.jar
+        obj/Debug/lp/12/jl/bin/classes.jar
+        obj/Debug/lp/13/jl/bin/classes.jar
+        obj/Debug/lp/14/jl/bin/classes.jar
+        obj/Debug/lp/22/jl/bin/classes.jar
+        obj/Debug/lp/25/jl/bin/classes.jar
+```
 
+Sorted:
+
+```
+        /Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v9.0/mono.android.jar
+        /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/java_runtime.jar
+        obj/Debug/lp/0/jl/universal-image-loader-1.9.5.jar
+        obj/Debug/lp/3/jl/uno.ui-MonoAndroid90.jar
+        obj/Debug/lp/7/jl/android.arch.core.common.jar
+        obj/Debug/lp/8/jl/bin/classes.jar
+        obj/Debug/lp/9/jl/android.arch.lifecycle.common.jar
+        obj/Debug/lp/10/jl/bin/classes.jar
+        obj/Debug/lp/11/jl/bin/classes.jar
+        obj/Debug/lp/12/jl/bin/classes.jar
+        obj/Debug/lp/13/jl/bin/classes.jar
+        obj/Debug/lp/14/jl/bin/classes.jar
+        obj/Debug/lp/15/jl/com.android.support.support-annotations.jar
+        obj/Debug/lp/16/jl/bin/classes.jar
+        obj/Debug/lp/17/jl/com.android.support.collections.jar
+        obj/Debug/lp/18/jl/bin/classes.jar
+        obj/Debug/lp/19/jl/bin/classes.jar
+        obj/Debug/lp/20/jl/bin/classes.jar
+        obj/Debug/lp/21/jl/bin/classes.jar
+        obj/Debug/lp/22/jl/bin/classes.jar
+        obj/Debug/lp/23/jl/bin/classes.jar
+        obj/Debug/lp/24/jl/bin/classes.jar
+        obj/Debug/lp/25/jl/bin/classes.jar
+        obj/Debug/lp/26/jl/bin/classes.jar
+        obj/Debug/lp/27/jl/bin/classes.jar
+        obj/Debug/lp/28/jl/bin/classes.jar
+        obj/Debug/lp/29/jl/bin/classes.jar
+        obj/Debug/lp/30/jl/bin/classes.jar
+        obj/Debug/lp/31/jl/bin/classes.jar
+        obj/Debug/lp/32/jl/bin/classes.jar
+        obj/Debug/lp/33/jl/bin/classes.jar
+        obj/Debug/lp/35/jl/bin/classes.jar
+        obj/Debug/lp/36/jl/bin/classes.jar
+        obj/Debug/lp/37/jl/bin/classes.jar
+        obj/Debug/lp/38/jl/bin/classes.jar
+        obj/Debug/lp/39/jl/bin/classes.jar
+        obj/Debug/lp/48/jl/auto-value-annotations.jar
+```
+map.cache
+
+```
+```

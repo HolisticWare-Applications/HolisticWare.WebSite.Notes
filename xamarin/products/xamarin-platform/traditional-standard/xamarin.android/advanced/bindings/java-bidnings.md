@@ -42,3 +42,14 @@ Java code JNI Bridge that passes calls from Android java to C#:
 
 *	https://www.liudeyun.net/Troubleshooting-for-Xamarin-Android-binding-project/
 
+*	https://xamarinhelp.com/creating-xamarin-android-binding-library/
+
+*	https://www.codepool.biz/xamarin-use-android-aar-file.html
+
+*	https://www.codepool.biz/xamarin-use-android-aar-file.html
+
+*	https://www.codepool.biz/binding-android-library-xamarin-disaster.html
+
+*	https://medium.com/@wasihaiderdev/my-experience-writing-a-xamarin-binding-project-2d63efe90eff
+
+*	https://gist.github.com/JonDouglas/dda6d8ace7d071b0e8cb
