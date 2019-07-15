@@ -73,13 +73,23 @@ The more devices are connected, the more information is collected. This informat
     *   large numbers provide data for AI algorithms
 
 
+
 ## References / Links
 
 *   https://www.techworm.net/2018/05/ai-machine-deep-leearning.html
 
+*   https://www.kaggle.com/
 
+    *   https://www.kaggle.com/learn/intro-to-machine-learning
 
+    *   https://www.kaggle.com/learn/intermediate-machine-learning
 
-http://www.fast.ai/http://www.fast.ai/
+    *   https://www.kaggle.com/learn/deep-learning
+
+    *   https://www.kaggle.com/learn/data-visualization
+
+    *   https://www.kaggle.com/learn/machine-learning-explainability
+
+*   http://www.fast.ai/http://www.fast.ai/
 
 
