@@ -70,15 +70,16 @@ NOTE: this is important when porting/migrating MVC apps with controllers.
 *   move Page converted from View from Views folder to Pages folder
 
 
+## Tutorials
 
-https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c
+*   https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c
 
-https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.2&tabs=visual-studio
+*   https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.2&tabs=visual-studio
 
-https://www.w3schools.com/asp/razor_intro.asp
+*   https://www.w3schools.com/asp/razor_intro.asp
 
-https://www.tutorialsteacher.com/mvc/razor-syntax
+*   https://www.tutorialsteacher.com/mvc/razor-syntax
 
-## Videos
+### Videos
 
 https://www.youtube.com/watch?v=3Za2NfBAkNk
