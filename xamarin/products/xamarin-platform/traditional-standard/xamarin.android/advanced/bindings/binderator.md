@@ -5,7 +5,8 @@ binderator.md
 ```
 git clean -xfd
 git pull
-sh ./build.sh --target=clean 
+sh ./build.sh --target=clean \
+&& \
 export LOCAL_TEST_PKG=true \
 &&  \
 sh ./build.sh --target=binderate && sh ./build.sh --target=libs \
