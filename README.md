@@ -26,7 +26,11 @@ open -a Firefox
 
 *   https://github.com/moljac
 
-*	https://moljac.github.io/
+*	https://moljac.github.io
+
+	*	https://github.com/moljac/moljac.github.io
+
+*	https://gitmemory.com/moljac
 
 *   https://gitlab.com/moljac
 
@@ -39,8 +43,8 @@ open -a Firefox
     *	https://github.com/xamarin/Xamarin.Auth
 
     *   https://github.com/xamarin/AndroidSupportComponents
-
-        *    https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
+	
+		*	https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
 	
 		*	https://github.com/xamarin/XamarinAndroidXMigration
 
