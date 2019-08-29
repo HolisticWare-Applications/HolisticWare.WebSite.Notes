@@ -14,6 +14,7 @@ dotnet tool install --global NuKeeper
 dotnet tool install --global dotnet-outdated
 ```
 
+
 nuget diff tool a dotnet tool, so it can be run from the command line
 
 Like downloading externals and unzipping is pretty trivial in msbuild
