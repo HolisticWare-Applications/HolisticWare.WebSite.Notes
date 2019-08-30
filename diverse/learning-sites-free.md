@@ -1,6 +1,6 @@
 # Learning Free Sites
 
-learning-sites-free.md
+ßlearning-sites-free.md
 
 *   Coursera
 
@@ -50,6 +50,9 @@ learning-sites-free.md
 
             *   https://www.microsoft.com/en-us/learning/default.aspx
 
+*   Brilliant
+
+    *   https://brilliant.org
 
 *   GetAbstract
 
