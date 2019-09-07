@@ -50,4 +50,13 @@ This number should match the version of the NuGet.  For pre-release packages set
 [1]: https://urlmanager.cloudapp.net/app/html/index.html#/go.microsoft.com.fwlink
 
 
+https://aka.ms
 
+
+
+
+
+
+https://www.youtube.com/watch?v=dYAAN36oiBs
+
+https://www.youtube.com/watch?v=0evkEmgBgx0
