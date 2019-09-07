@@ -4,12 +4,14 @@ shops.md
 
 *   https://www.alzashop.com
 
+*   Amazon
 
+    *   https://www.amazon.de
+    
+    *   https://www.amazon.co.uk
+    
+    *   https://www.amazon.com
 
-https://cloudonair.withgoogle.com/events/data-ai/
+*   Alibaba(AliExpress)
 
-
-
-
-
-https://source.dot.net/
+    *   https://www.aliexpress.com
