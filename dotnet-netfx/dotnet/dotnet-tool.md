@@ -36,3 +36,40 @@ I’m not convinced we should abandon cake fully but what we should see is how t
 adding and such to fully adopt netstandard so at least we can run the cake global tool and 
 maybe see how dotnet tools can be invoked from cake
 This might provide a nice transition
+
+## Cake
+
+```
+dotnet tool install Cake.Tool -g
+```
+
+```
+dotnet tool install --global Cake.Tool --version 0.34.1
+```
+
+```
+dotnet tool install -g Cake.Tool
+```
+
+ and run 
+ 
+```
+dotnet cake --target=ci --verbosity=$(VERBOSITY)
+```
+
+## Binderator
+
+```
+dotnet tool install -g Xamarin.AndroidBinderator.Tool
+```
+
+```
+xamarin-android-binderator --config="C:\xamarin\Gps\config.json" --basepath="C:\xamarin\Gps\"
+```
+
+    ## AndroidX
+
+```
+dotnet tool install -g xamarin.androidx.migration.tool --add-source
+```
+
