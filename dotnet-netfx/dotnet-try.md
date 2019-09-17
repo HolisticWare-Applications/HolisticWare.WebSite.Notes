@@ -16,3 +16,4 @@ Install:
 ```
 dotnet tool install --global dotnet-try --version 1.0.19317.5
 ```
+
