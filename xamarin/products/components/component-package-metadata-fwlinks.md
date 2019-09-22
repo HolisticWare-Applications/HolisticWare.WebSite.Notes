@@ -44,10 +44,6 @@ This number should match the version of the NuGet.  For pre-release packages set
 `AssemblyVersion` should never be changed.  This can break other dlls that depend on the dll being built.
 
 
-
-
-
-
 [1]: https://urlmanager.cloudapp.net/app/html/index.html#/go.microsoft.com.fwlink
 
 
@@ -98,21 +94,7 @@ This number should match the version of the NuGet.  For pre-release packages set
 `AssemblyVersion` should never be changed.  This can break other dlls that depend on the dll being built.
 
 
-
-
-
-
 [1]: https://urlmanager.cloudapp.net/app/html/index.html#/go.microsoft.com.fwlink
 
 
 https://aka.ms
-
-
-
-
-
-
-https://www.youtube.com/watch?v=dYAAN36oiBs
-
-https://www.youtube.com/watch?v=0evkEmgBgx0
->>>>>>> c6ec167c6e2b3c2c7d56c6f79ea8d962a0ba08de
