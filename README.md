@@ -23,15 +23,6 @@ open -a Firefox
 
 ## Links References
 
-
-*   https://github.com/moljac
-
-*	https://moljac.github.io/
-
-*   https://gitlab.com/moljac
-
-*   https://github.com/moljac/HolisticWare.WebSite.Notes
-
 *   https://github.com/xamarin
 
     *   https://github.com/xamarin/XamarinComponents
@@ -39,8 +30,8 @@ open -a Firefox
     *	https://github.com/xamarin/Xamarin.Auth
 
     *   https://github.com/xamarin/AndroidSupportComponents
-
-        *    https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
+	
+		*	https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
 	
 		*	https://github.com/xamarin/XamarinAndroidXMigration
 
@@ -184,3 +175,41 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 ```
 <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
 ```
+
+## Private
+
+### Wind
+
+*	https://www.windy.com/?43.509,16.439,5
+
+*	Sabunike 
+
+	*	https://meteo.hr/prognoze.php?section=prognoze_model&param=ala_k&el=web_uv10_HRv8_
+
+	*	https://meteo.hr/prognoze.php?section=prognoze_model&param=ala_k&el=web_uv10_MASL_
+	
+	*	https://www.windguru.cz/22206
+		
+	*	https://www.windy.com/44.250/15.180?43.800,15.180,8
+	
+*	Naxos
+
+	*	https://www.windguru.cz/501253
+	
+	*	https://www.windy.com/station/ad-LGNX?37.081,25.370,8
+	
+### Coding
+
+*   https://github.com/moljac
+
+*	https://moljac.github.io
+
+	*	https://github.com/moljac/moljac.github.io
+
+*	https://gitmemory.com/moljac
+
+*   https://gitlab.com/moljac
+
+*   https://github.com/moljac/HolisticWare.WebSite.Notes
+
+	

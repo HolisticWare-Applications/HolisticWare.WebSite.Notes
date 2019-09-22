@@ -12,6 +12,14 @@ msbuild-intro.md
 
     *   https://github.com/Microsoft/msbuild/blob/master/documentation/wiki/MSBuild-Tips-&-Tricks.md
 
+## Tools
+
+*   (./buildalyzer.md)[buildalyzer.md]
+
+*   (./msbuilddumper.md)[msbuilddumper.md]
+
+
+
 
 ## Item Referencing in batching
 
