@@ -1,6 +1,58 @@
-# Artificial Inteligence and Machine learning (AI-ML)
+# Artificial Intelligence and Machine learning (AI-ML)
 
-artificial-inteligence-and-machine-learning-ai-ml.md
+artificial-intelligence-and-machine-learning-ai-ml.md
+
+*   Artificial intelligence
+
+    *   Logic (Reasoning) Systems
+    
+        *   Expert Systems (Knowledge Based Systems, Rule Based Systems, Decision Support Systems)
+
+            [./expert-systems.md](./expert-systems.md)
+
+        *   Fuzzy Logic
+
+    *   Artificial Neural Networks
+
+    *   Vision
+
+        *   Pattern Recognition
+
+    *   Parsing
+
+        *   Natural Language Processing
+
+    *   Genetic Algorithms
+
+    *   Graph Theory
+
+        *   relation modelling
+
+            *   searches
+
+            *   dependencies - relations
+
+    *   Numerical Analysis
+
+        *   derivation
+
+            *   trending
+
+            *   `de:Ruck - en:{Jerk, Shock, Jolt, Yank}`
+
+        *   integration
+
+            *   area under the curve 
+
+                *   Displacement - Speed over time
+
+                *   Speed - Acceleration over time
+
+                *    Work - Force over Displacement
+
+                *   Impulse - Force over time
+
+
 
 ## References/Links
 
@@ -17,3 +69,6 @@ artificial-inteligence-and-machine-learning-ai-ml.md
 *   https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da
 
 *   https://opendatascience.com/programming-with-futures-in-r/
+
+*   https://www.codeproject.com/Articles/179375/Man-Marriage-and-Machine-Adventures-in-Artificia
+
