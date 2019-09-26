@@ -2,7 +2,7 @@
 
 build-issues-20190926.md
 
-## mac 01
+## local mac 01
 
 builds OK - local
 
@@ -29,7 +29,7 @@ SDK Build Tools Version: 29.0.2
 
 
 
-## mac 02
+## local mac 02
 
 builds OK - local
 
@@ -45,4 +45,16 @@ Android SDK: /Users/moljac/Library/Developer/Xamarin/android-sdk-macosx
 SDK Tools Version: 26.1.1
 SDK Platform Tools Version: 29.0.4
 SDK Build Tools Version: 29.0.1
+```
+
+
+## local windows 01
+
+builds not OK - local
+
+```
+Error		
+    java.lang.IllegalArgumentException: already added : 
+         Lcom/google/android/gms/internal/ads/zzaaa;	
+         FbBuildAll	
 ```
