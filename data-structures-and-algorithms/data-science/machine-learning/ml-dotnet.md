@@ -41,10 +41,40 @@ ml-dotnet.md
     *   https://github.com/dotnet/machinelearning-samples
 
 
-Book: Optimized GP Applications https://goo.gl/38jzT9 
+*   Videos
 
-http://github/microsoft/cntk - CNTK on GitHub, 
-https://github.com/bhrnjica/gpdotnet   - Machine Learning with Genetic Programming,
-http://github.com/bhrnjica/anndotnet - GUI tool for running CNTK, 
-https://github.com/bhrnjica/  - my GitHub repositories
+    *   https://studio.azureml.net
 
+    *   https://azure.microsoft.com/en-us/resources/videos/index/?services=machine-learning
+
+
+*   Book: Optimized GP Applications Bahrudin Hrnjica
+
+    *   https://goo.gl/38jzT9 
+
+    *   Bahrudin Hrnjica'2 GitHub repositories
+
+        *   https://github.com/bhrnjica/ 
+
+    *   Machine Learning with Genetic Programming,
+    
+        *   https://github.com/bhrnjica/gpdotnet   
+
+    *   GUI tool for running CNTK, 
+
+        *   http://github.com/bhrnjica/anndotnet
+
+*   CNTK on GitHub, 
+    
+    *   http://github/microsoft/cntk - 
+
+
+
+
+
+
+*   Ankit Asthana
+    
+    *   https://github.com/asthana86
+
+    *   https://channel9.msdn.com/Events/Speakers/ankit-asthana

@@ -22,61 +22,64 @@ Span<char> mySpan = "My sample source string".AsSpan();
 ReadOnlySpan<char> myReadOnlySpan = "My read only string".AsReadOnlySpan();
 ```
 
-https://codewala.net/2018/04/17/span-a-new-upcoming-feature-of-c/
+*   https://codewala.net/2018/04/17/span-a-new-upcoming-feature-of-c/
 
-https://codingblast.com/span-of-t/
+*   https://codingblast.com/span-of-t/
 
-https://dfederm.com/learn-span-by-implementing-a-high-performance-csv-parser/
+*   https://dfederm.com/learn-span-by-implementing-a-high-performance-csv-parser/
 
-https://www.codemag.com/article/1807051/Introducing-.NET-Core-2.1-Flagship-Types-Span-T-and-Memory-T
+*   https://www.codemag.com/article/1807051/Introducing-.NET-Core-2.1-Flagship-Types-Span-T-and-Memory-T
 
-https://channel9.msdn.com/Events/Connect/2017/T125
+*   https://channel9.msdn.com/Events/Connect/2017/T125
 
-https://stackify.com/net-application-optimization/
+*   https://stackify.com/net-application-optimization/
 
-https://www.infoq.com/articles/performance-net-core
+*   https://www.infoq.com/articles/performance-net-core
 
-https://stackoverflow.com/questions/47321691/what-is-the-difference-between-spant-and-memoryt-in-c-sharp-7-2
+*   https://www.stevejgordon.co.uk/an-introduction-to-optimising-code-using-span-t
 
-https://stackoverflow.com/questions/51864673/c-sharp-readonlyspanchar-vs-substring-for-string-dissection
+*   https://stackoverflow.com/questions/47321691/what-is-the-difference-between-spant-and-memoryt-in-c-sharp-7-2
 
-https://medium.com/@antao.almada/slicing-managed-arrays-ae4f412a5d9e
+*   https://stackoverflow.com/questions/51864673/c-sharp-readonlyspanchar-vs-substring-for-string-dissection
 
-https://github.com/aalmada/SpanSample/blob/master/SpanSample/StringBenchmarks.cs
+*   https://medium.com/@antao.almada/slicing-managed-arrays-ae4f412a5d9e
 
-https://blog.marcgravell.com/2017/04/spans-and-ref-part-1-ref.html
+*   https://github.com/aalmada/SpanSample/blob/master/SpanSample/StringBenchmarks.cs
 
-https://blog.marcgravell.com/2017/04/spans-and-ref-part-2-spans.html
+*   https://blog.marcgravell.com/2017/04/spans-and-ref-part-1-ref.html
 
-https://github.com/dotnet/corefxlab/blob/master/docs/specs/span.md
+*   https://blog.marcgravell.com/2017/04/spans-and-ref-part-2-spans.html
 
-https://www.reddit.com/r/programming/comments/7dzzpq/spant_in_c/
+*   https://github.com/dotnet/corefxlab/blob/master/docs/specs/span.md
 
-https://adamsitnik.com/Span/#performance
+*   https://www.reddit.com/r/programming/comments/7dzzpq/spant_in_c/
 
-https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
+*   https://adamsitnik.com/Span/#performance
 
-https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
+*   https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
 
-https://codereview.stackexchange.com/questions/204539/using-span-and-memory-to-read-utf8-from-a-socket
+*   https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
+
+*   https://codereview.stackexchange.com/questions/204539/using-span-and-memory-to-read-utf8-from-a-socket
+
+*   https://docs.microsoft.com/en-us/dotnet/standard/memory-and-spans/memory-t-usage-guidelines
+
+*   https://markzhou.com/2019/02/16/c-7-series-part-10-span-and-universal-memory-management/
+
+*   https://adamsitnik.com/Span/
+
+*   https://github.com/material-components/material-components-android
+
+*   https://en.wikipedia.org/wiki/ICanHazPDF
+
+*   https://mattwarren.org/2019/03/01/Is-CSharp-a-low-level-language/
+
+*   https://github.com/rexm/Handlebars.Net
+
+*   http://mattwarren.org/2018/10/02/A-History-of-.NET-Runtimes/
 
 
+## Videos
 
-
-
-
-
-
-https://github.com/material-components/material-components-android
-
-
-https://en.wikipedia.org/wiki/ICanHazPDF
-
-
-
-https://github.com/rexm/Handlebars.Net
-
-
-http://mattwarren.org/2018/10/02/A-History-of-.NET-Runtimes/
-
+*   https://www.youtube.com/watch?v=7GTpwgsmHgU
 

@@ -57,19 +57,11 @@ This mechanism can be useful to add common properties for all your projects(like
 
 https://twitter.com/davkean/status/980076449636917249?lang=en
 
-
-http://www.stempowski.net/net-core/targets-props-files/
-
+*   ihttp://www.stempowski.net/net-core/targets-props-files/
 
 
 
 
+## SourceLink
 
-
-
-
-
-
-
-
-https://github.com/dotnet/sourcelink/
+*   https://github.com/dotnet/sourcelink/
