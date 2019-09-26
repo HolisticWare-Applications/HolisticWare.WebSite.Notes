@@ -68,7 +68,9 @@ open -a Firefox
     *   https://github.com/HolisticWare/HolisticWareComponents
     
     *	docs
-    
+
+		*	https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings
+
     	*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/troubleshooting-log-analysis.md
 
 *    https://holisticware-moljac.visualstudio.com/
@@ -106,6 +108,8 @@ open -a Firefox
 MacOSX:
 
 ```
+git clean -xdf \
+&& \
 sh ./build.sh --target=clean \
 && \
 sh ./build.sh --target=binderate \
@@ -114,10 +118,25 @@ sh ./build.sh --target=libs \
 && \
 sh ./build.sh --target=nuget \
 && \
-sh ./build.sh --target=samples \
+sh ./build.sh --target=samples
 && \
-sh ./build.sh --target=diff \
+sh ./build.sh --target=diff
+```
 
+```
+git clean -xdf \
+&& \
+dotnet cake --target=clean \
+&& \
+dotnet cake --target=binderate \
+&& \
+dotnet cake --target=libs \
+&& \
+dotnet cake --target=nuget \
+&& \
+dotnet cake --target=samples \
+&& \
+dotnet cake --target=diff \
 ```
 
 Windows:
