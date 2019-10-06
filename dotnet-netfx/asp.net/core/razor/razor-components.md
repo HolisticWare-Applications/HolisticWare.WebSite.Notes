@@ -29,3 +29,5 @@ razor-components.md
 *   https://docs.microsoft.com/en-us/aspnet/core/blazor/components?view=aspnetcore-3.0
 
 *   https://www.hanselman.com/blog/WhatIsBlazorAndWhatIsRazorComponents.aspx
+
+*   https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-2.2
