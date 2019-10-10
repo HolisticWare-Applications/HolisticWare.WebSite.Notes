@@ -58,3 +58,70 @@ Error
          Lcom/google/android/gms/internal/ads/zzaaa;	
          FbBuildAll	
 ```
+
+
+## Azure DevOps mac 01
+
+```
+"/Users/vsts/agent/2.158.0/work/1/s/samples/com.google.firebase/firebase-ads/FirebaseAdmobQuickstart.sln" (Build target) (1) ->
+"/Users/vsts/agent/2.158.0/work/1/s/samples/com.google.firebase/firebase-ads/FirebaseAdmobQuickstart/FirebaseAdmobQuickstart.csproj" (default target) (2) ->
+(_CompileToDalvikWithDx target) -> 
+  /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets(2610,3): error MSB6006: "java" exited with code 2. [/Users/vsts/agent/2.158.0/work/1/s/samples/com.google.firebase/firebase-ads/FirebaseAdmobQuickstart/FirebaseAdmobQuickstart.csproj]
+
+```
+
+
+# Azure DevOps windows 01
+
+builds OK 
+
+```
+2019-08-21T16:27:07.9154410Z    Looking for Android NDK...
+2019-08-21T16:27:07.9377527Z    Found Xamarin.Android 9.1.7.0
+```
+
+
+# Azure DevOps mac 01
+
+builds OK 
+
+```
+2019-08-21T15:56:20.4670950Z _ResolveXamarinAndroidTools:
+2019-08-21T15:56:20.4671860Z    Found Xamarin.Android 9.1.8.0
+```
+
+
+# Azure DevOps windows 01
+
+builds not OK 
+
+```
+2019-09-24T13:45:29.1930920Z   C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets(2610,3): 
+error MSB6006: 
+	"java.exe" exited with code 2. 
+[D:\a\1\s\samples\com.google.firebase\firebase-ads\FirebaseAdmobQuickstart\FirebaseAdmobQuickstart.csproj]
+
+```
+```
+2019-09-24T13:24:04.4449433Z    Looking for Android NDK...
+2019-09-24T13:24:04.4753638Z    Found Xamarin.Android 9.1.7.0
+```
+
+
+# Azure DevOps mac 01
+
+builds not OK 
+
+```
+2019-09-24T12:54:10.3726520Z   /Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets
+error MSB6006: 
+	"java" exited with code 2. 
+[/Users/vsts/agent/2.158.0/work/1/s/samples/com.google.firebase/firebase-ads/FirebaseAdmobQuickstart/FirebaseAdmobQuickstart.csproj]
+```
+
+```
+2019-09-24T12:39:21.4412420Z _ResolveXamarinAndroidTools:
+2019-09-24T12:39:21.4413780Z    Found Xamarin.Android 9.1.8.0
+```
+
+
