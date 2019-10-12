@@ -107,21 +107,6 @@ open -a Firefox
 
 MacOSX:
 
-```
-git clean -xdf \
-&& \
-sh ./build.sh --target=clean \
-&& \
-sh ./build.sh --target=binderate \
-&& \
-sh ./build.sh --target=libs \
-&& \
-sh ./build.sh --target=nuget \
-&& \
-sh ./build.sh --target=samples
-&& \
-sh ./build.sh --target=diff
-```
 
 ```
 git clean -xdf \
@@ -139,14 +124,44 @@ dotnet cake --target=samples \
 dotnet cake --target=diff \
 ```
 
+```
+git clean -xdf \
+&& \
+sh ./build.sh --target=clean \
+&& \
+sh ./build.sh --target=binderate \
+&& \
+sh ./build.sh --target=libs \
+&& \
+sh ./build.sh --target=nuget \
+&& \
+sh ./build.sh --target=samples \
+&& \
+sh ./build.sh --target=diff \
+
+```
+
+
 Windows:
 
 ```
+git clean -xdf
+dotnet cake --target=clean
+dotnet cake --target=binderate
+dotnet cake --target=libs
+dotnet cake --target=nuget
+dotnet cake --target=samples
+dotnet cake --target=diff
+```
+
+```
+git clean -xdf
 .\build.ps1 --target=clean
 .\build.ps1 --target=binderate
 .\build.ps1 --target=libs
 .\build.ps1 --target=nuget
 .\build.ps1 --target=samples
+.\build.ps1 --target=diff
 ```
 
 ## DevOps
