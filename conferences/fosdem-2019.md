@@ -11,4 +11,3 @@ fosdem-2019.md
 *   https://fosdem.org/2019/schedule/track/retrocomputing/
 
 *   https://fosdem.org/2019/schedule/event/ohw_rpi/
-
