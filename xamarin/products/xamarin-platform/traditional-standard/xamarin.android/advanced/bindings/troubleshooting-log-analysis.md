@@ -17,6 +17,16 @@ message BG0000: warning BG8
 BINDINGSGENERATOR : warning BG8
 ```
 
+```
+BINDINGSGENERATOR : warning BG8604: top ancestor
+```
+
+```
+BINDINGSGENERATOR : warning BG8800: Unknown parameter type
+```
+
+
+
 ## Java.Lang.NoClassDefFoundError
 
 When diagnosing Java.Lang.NoClassDefFoundError errors, there are two things which are helpful:
