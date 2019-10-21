@@ -23,6 +23,8 @@ open -a Firefox
 
 ## Links References
 
+### Xamarin
+
 *   https://github.com/xamarin
 
     *   https://github.com/xamarin/XamarinComponents
@@ -38,6 +40,9 @@ open -a Firefox
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
 	*    https://github.com/xamarin/GooglePlayServicesComponents/tree/15.0.1-binderate
+
+
+### HolisticWare
 
 *   https://github.com/HolisticWare
 
@@ -60,7 +65,8 @@ open -a Firefox
 		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.SampleProjectKreator
 		
 		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers
-	
+
+
 *   bindings
 
     *   https://github.com/xamarin/XamarinComponents
@@ -69,13 +75,24 @@ open -a Firefox
     
     *	docs
 
-		*	https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings
+	*	https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings
 
     	*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/troubleshooting-log-analysis.md
 
 *    https://holisticware-moljac.visualstudio.com/
 
-*	usefull links
+
+### Other
+
+*	Android libraries
+
+	*	https://maven.google.com/web/index.html
+	
+	*	https://search.maven.org/search?q
+	
+	*	https://mvnrepository.com/
+	
+*	.NET utilities
 
     *   http://packagesearch.azurewebsites.net/
     
