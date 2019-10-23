@@ -86,6 +86,8 @@ open -a Firefox
 
 *	Android libraries
 
+	*	https://developers.google.com/android/guides/releases
+
 	*	https://maven.google.com/web/index.html
 	
 	*	https://search.maven.org/search?q
