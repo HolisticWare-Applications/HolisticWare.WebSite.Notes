@@ -23,6 +23,38 @@ open -a Firefox
 
 ## Links References
 
+### Tools
+
+*	Android libraries
+
+	*	https://developers.google.com/android/guides/releases
+
+	*	https://maven.google.com/web/index.html
+	
+	*	https://search.maven.org/search?q
+	
+	*	https://mvnrepository.com/
+	
+*	.NET utilities
+
+    *   http://packagesearch.azurewebsites.net/
+    
+    *   https://apisof.net/
+    
+    *	https://source.dot.net/
+    
+    *	netstandard (.NET Standard)
+    
+    	*	https://dotnet.microsoft.com/platform/dotnet-standard
+    
+    *	https://docs.microsoft.com/en-us/dotnet/api/
+	
+	*	https://www.fuget.org
+	
+	*	https://www.nuget.org
+	
+	*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
+
 ### Xamarin
 
 *   https://github.com/xamarin
@@ -39,7 +71,6 @@ open -a Firefox
 
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
-	*    https://github.com/xamarin/GooglePlayServicesComponents/tree/15.0.1-binderate
 
 
 ### HolisticWare
@@ -80,39 +111,6 @@ open -a Firefox
     	*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/troubleshooting-log-analysis.md
 
 *    https://holisticware-moljac.visualstudio.com/
-
-
-### Other
-
-*	Android libraries
-
-	*	https://developers.google.com/android/guides/releases
-
-	*	https://maven.google.com/web/index.html
-	
-	*	https://search.maven.org/search?q
-	
-	*	https://mvnrepository.com/
-	
-*	.NET utilities
-
-    *   http://packagesearch.azurewebsites.net/
-    
-    *   https://apisof.net/
-    
-    *	https://source.dot.net/
-    
-    *	netstandard (.NET Standard)
-    
-    	*	https://dotnet.microsoft.com/platform/dotnet-standard
-    
-    *	https://docs.microsoft.com/en-us/dotnet/api/
-	
-	*	https://www.fuget.org
-	
-	*	https://www.nuget.org
-	
-	*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
     
     
  ## Building maintanined Xamarin repos
