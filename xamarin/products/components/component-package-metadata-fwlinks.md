@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Component/Package Metadata Info
 
 component-package-metadata-fwlinks.md
@@ -48,7 +47,10 @@ This number should match the version of the NuGet.  For pre-release packages set
 
 
 
-=======
+
+
+
+
 # Component/Package Metadata Info
 
 component-package-metadata-fwlinks.md
