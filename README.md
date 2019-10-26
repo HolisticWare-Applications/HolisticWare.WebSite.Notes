@@ -71,7 +71,7 @@ open -a Firefox
 
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
-
+	*	https://github.com/xamarin/GoogleApisForiOSComponents
 
 ### HolisticWare
 
