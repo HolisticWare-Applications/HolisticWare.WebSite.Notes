@@ -2,49 +2,96 @@
 
 dotnet-new-templates.md
 
-*   https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new
+*   https://github.com/dotnet/templating/
+
+    *   https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new
 
 *   https://dotnetnew.azurewebsites.net/
 
-*   https://dotnetnew.azurewebsites.net/Search/holisticware
+    *   https://dotnetnew.azurewebsites.net/Search/holisticware
+
+*   https://www.skylinetechnologies.com/Blog/Skyline-Blog/April_2019/creating-installing-project-templates-dotnet-core
+
+*   https://www.infoq.com/articles/dotnet-core-template-engine/
+
+*   https://www.jerriepelser.com/blog/tips-for-developing-dotnet-new-templates/
 
 
 
+
+https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-pack
+
+## Packgin
+
+`dotnet pack` cannot pack `*.nuspec` files without `*.csproj` files
 
 ```
-dotnet new -i "Boxed.Templates::*"
-dotnet new -i "Microsoft.AspNetCore.SpaTemplates::*"
-dotnet new -i "Microsoft.AspNetCore.Blazor.Templates::*"
-dotnet new -i "AspNetCore.WebApi.Templates"
-dotnet new -i "MicroServiceWebApiTemplate"
-dotnet new -i "Microsoft.DotNet.Web.Spa.ProjectTemplates"
-dotnet new --install "Microsoft.DotNet.Web.ProjectTemplates.2.2"
-dotnet new --install "Toolbelt.AspNetCore.Blazor.Minimum.Templates"
-dotnet new --install "Microsoft.DotNet.Web.Client.ItemTemplates"
-dotnet new -i "Amazon.Lambda.Templates::*"
-dotnet new -i "Cake.Frosting.Template::*"
-dotnet new -i "CarterTemplate::*"
-dotnet new -i "cloudscribe.templates::*"
-dotnet new -i "DotVVM.Templates::*"
-dotnet new -i "Eto.Forms.Templates::*"
-dotnet new -i GCC.Build.Template
-dotnet new -i "iQuarc.Geco.CSharp::*"
-dotnet new -i "GtkSharp.Template.CSharp"
-dotnet new -i "KenticoCloud.CloudBoilerplateNet::*"
-dotnet new -i "MonoGame.Template.CSharp"
-dotnet new -i "MSBuildExtensionTemplate::*"
-dotnet new -i "dotnet-new-nspec::*"
-dotnet new -i "NUnit3.DotNetNew.Template::*"
-dotnet new -i "Paulovich.Caju::*"
-dotnet new -i "Paulovich.Manga::*"
-dotnet new -i "FiftyProtons.Templates.PSCore::*"
-dotnet new -i "Prism.Forms.QuickstartTemplates::*"
-dotnet new -i "RaspberryPi.Template::*"
-dotnet new -i "ServiceStack.Core.Templates::*"
-dotnet new -i "FiftyProtons.Templates.DotNetNew::*"
-dotnet new -i "Popov1024.HttpApi.Template.CSharp::*"
-dotnet new -i "HoNoSoFt.DotNet.Web.Spa.ProjectTemplates::*"
-dotnet new --install "GL.NetCoreSourceLinked.CSharp"
+dotnet pack \
+    --no-build \
+    -p:NuspecFile=./HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp.nuspec 
+```
+
+https://github.com/NuGet/Home/issues/4254
+
+```
+nuget pack \
+    ./HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp.nuspec 
+```
+
+## Installing
+
+```
+export TEMPLATES=\
+"\
+Microsoft.AspNetCore.Blazor.Templates
+Microsoft.AspNetCore.SpaTemplates::*
+Microsoft.AspNetCore.Blazor.Templates::*
+AspNetCore.WebApi.Templates
+Microsoft.DotNet.Web.Spa.ProjectTemplates
+Microsoft.DotNet.Web.ProjectTemplates.2.2
+MicroServiceWebApiTemplate
+Boxed.Templates::*
+Toolbelt.AspNetCore.Blazor.Minimum.Templates
+Microsoft.DotNet.Web.Client.ItemTemplates
+Amazon.Lambda.Templates::*
+Cake.Frosting.Template::*
+CarterTemplate::*
+cloudscribe.templates::*
+DotVVM.Templates::*
+Eto.Forms.Templates::*
+GCC.Build.Template
+iQuarc.Geco.CSharp::*
+GtkSharp.Template.CSharp
+KenticoCloud.CloudBoilerplateNet::*
+MonoGame.Template.CSharp
+MSBuildExtensionTemplate::*
+dotnet-new-nspec::*
+NUnit3.DotNetNew.Template::*
+Paulovich.Caju::*
+Paulovich.Manga::*
+FiftyProtons.Templates.PSCore::*
+Prism.Forms.QuickstartTemplates::*
+RaspberryPi.Template::*
+ServiceStack.Core.Templates::*
+FiftyProtons.Templates.DotNetNew::*
+Popov1024.HttpApi.Template.CSharp::*
+HoNoSoFt.DotNet.Web.Spa.ProjectTemplates::*
+GL.NetCoreSourceLinked.CSharp
+"
+
+# --install 
+# -i
+# --uninstall 
+# -u
+
+for TEMPLATE in $TEMPLATES;
+do
+    echo $TEMPLATE
+#    dotnet new \
+#        --install \
+#        "$TEMPLATE"
+done
+
 ```
 
 
