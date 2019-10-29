@@ -40,6 +40,36 @@ nuget pack \
 
 ## Installing
 
+
+
+### Sample
+
+*   https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
+
+
+From published nuget package:
+
+```
+dotnet new --install \
+    "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp"
+```
+
+From local nuget package:
+
+```
+dotnet new --install  \
+    ~/nuget-local/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp.2019.10.28.nupkg 
+```
+
+```
+dotnet new hw-structure --output Demo
+```
+
+```
+dotnet new hw-structure -o Demo
+```
+
+
 ```
 export TEMPLATES=\
 "\
