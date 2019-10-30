@@ -21,7 +21,7 @@ dotnet-new-templates.md
 
 https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-pack
 
-## Packgin
+## Packaging
 
 `dotnet pack` cannot pack `*.nuspec` files without `*.csproj` files
 
@@ -42,7 +42,11 @@ nuget pack \
 
 
 
-### Sample
+### Sample - HolisticWare Xamarin Folder structure
+
+*   repo
+
+    *   https://github.com/holisticware-xamarin/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate
 
 *   https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
 
