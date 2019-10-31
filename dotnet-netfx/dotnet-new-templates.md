@@ -16,10 +16,15 @@ dotnet-new-templates.md
 
 *   https://www.jerriepelser.com/blog/tips-for-developing-dotnet-new-templates/
 
+*   https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-pack
 
+*   https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
 
+*   https://rehansaeed.com/custom-project-templates-using-dotnet-new/
 
-https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-pack
+*   https://rehansaeed.com/dotnet-new-feature-selection/
+
+*   https://rehansaeed.com/unit-testing-dotnet-new-templates/
 
 ## Packaging
 
@@ -39,6 +44,51 @@ nuget pack \
 ```
 
 ## Installing
+
+install:
+
+```
+dotnet new --install \
+    "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp"
+```
+
+usage:
+
+```
+dotnet new hw-structure
+
+```
+
+uninstall:
+
+```
+dotnet new --uninstall \
+    "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp"
+```
+
+```
+dotnet new -i MyNuGetPackage::version.
+```
+
+reset to the initial install state:
+
+```
+dotnet new --debug:reinit
+```
+
+```
+dotnet nuget locals all --clear
+dotnet new --install \
+    "HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp"
+```
+
+## Packaging
+
+*   `*.nuspec` must be on the same level where `Content\`folder resides (otherwise packaging fails)
+
+```
+nuget pack smoething.nuspec
+```
 
 
 
