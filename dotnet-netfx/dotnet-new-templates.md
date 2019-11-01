@@ -26,6 +26,9 @@ dotnet-new-templates.md
 
 *   https://rehansaeed.com/unit-testing-dotnet-new-templates/
 
+*   https://www.bignerdranch.com/blog/descent-into-databinding/
+
+
 ## Packaging
 
 `dotnet pack` cannot pack `*.nuspec` files without `*.csproj` files
