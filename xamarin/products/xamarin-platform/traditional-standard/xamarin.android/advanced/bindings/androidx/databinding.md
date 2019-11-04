@@ -34,9 +34,10 @@ where to put the output files (src-out-dir, xml-out-dir, res-out-dir) so they ge
 
 Maybe describing their use will help. The source out directory must be picked up during the java compile stage (of your app) to trigger the annotation processor. The XML out directory is placed in an annotation of the generated source to be read during the annotation processor stage of compilation. The target res dir is where resources will be copied to and should be picked up by aapt. i.e. your app should point to this directory instead of the original (source) directory
 
-``
+```
 android/databinding/tool/DataBinderPlugin
 ```
+
 
 ```
 14:18:16.246 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationExecutor] 
@@ -46,9 +47,9 @@ Build operation 'Resolve ddmlib.jar (com.android.tools.ddms:ddmlib:26.5.1)' star
 ```
 
 
-https://android.googlesource.com/platform/frameworks/data-binding/+/41b4a286c98ded1dbb8bf2fcdd5a9ca29f9423e2/compiler/src/main/java/android/databinding/tool/MakeCopy.java
+*   https://android.googlesource.com/platform/frameworks/data-binding/+/41b4a286c98ded1dbb8bf2fcdd5a9ca29f9423e2/compiler/src/main/java/android/databinding/tool/MakeCopy.java
 
-https://stackoverflow.com/questions/31154358/can-i-use-android-data-binding-with-maven
+*   https://stackoverflow.com/questions/31154358/can-i-use-android-data-binding-with-maven
 
 
 ```
