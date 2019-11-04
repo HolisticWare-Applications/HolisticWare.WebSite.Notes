@@ -5,6 +5,19 @@ android-manifest-merger.md
 Used for correct merging of `AndroidManifest.xml` files from different dependencies and main application 
 `AndroidManifesr.xml`
 
+
+Google.Play.Services issues
+
+*   249 
+
+    *   Failed to retrieve Firebase Instance Id
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/249
+
+
+
+
+
 Errors on Mac:
 
 ```
