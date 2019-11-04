@@ -103,3 +103,11 @@ gradle clean
 gradle build --debug > gradle-build-debug.log
 
 ```
+
+
+```
+diff -rq \
+    ./AndroidDataBindingSampleNative-databinding-off/ \
+    ./AndroidDataBindingSampleNative-databinding-on
+
+```
