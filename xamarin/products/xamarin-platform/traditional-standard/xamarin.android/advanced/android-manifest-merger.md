@@ -14,7 +14,36 @@ Google.Play.Services issues
 
     *   https://github.com/xamarin/GooglePlayServicesComponents/issues/249
 
+*   234
 
+    *   `Firebase.Perf` not sending logs. (InstanceID is null) 
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/234
+
+*   216
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/216
+
+*   223
+
+    *   `FirebaseAuth.Instance` always null in version 71.1605.0-preview7
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/223
+
+*   216
+
+    *   Conflict when use both packages in same app, 
+        Xamarin.Firebase.Messaging 71.1733.0-preview6 - 
+        Xamarin.Firebase.Auth 71.1605.0-preview6, 
+        FirebaseAuth always null.
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/215
+
+*   134
+
+    *   [70.1620.0-preview2] Xamarin.Firebase.Iid.FirebaseInstanceId.Instance returns null 
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/134
 
 
 
