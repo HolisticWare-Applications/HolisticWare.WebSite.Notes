@@ -104,6 +104,7 @@ gradle build --debug > gradle-build-debug.log
 
 ```
 
+## Analysis of the differences
 
 ```
 diff -rq \
@@ -111,3 +112,53 @@ diff -rq \
     ./AndroidDataBindingSampleNative-databinding-on
 
 ```
+
+```
+find ./AndroidDataBindingSampleNative-databinding-on/app/build -type d -name "databinding*"
+```
+```
+./app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/example/databindingsample
+./app/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/example/databindingsample/databinding
+./app/build/generated/source/dataBinding/trigger/debug/com/example/databindingsample
+./app/build/generated/source/buildConfig/androidTest/debug/com/example/databindingsample
+./app/build/generated/source/buildConfig/debug/com/example/databindingsample
+./app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/databinding
+./app/build/generated/not_namespaced_r_class_sources/debug/r/com/example/databindingsample
+./app/build/generated/ap_generated_sources/debug/out/androidx/databinding
+./app/build/generated/ap_generated_sources/debug/out/com/example/databindingsample
+./app/build/generated/ap_generated_sources/debug/out/com/example/databindingsample/databinding
+./app/build/intermediates/transforms/dexBuilder/debug/0/androidx/databinding
+./app/build/intermediates/transforms/dexBuilder/debug/0/com/example/databindingsample
+./app/build/intermediates/transforms/dexBuilder/debug/0/com/example/databindingsample/databinding
+./app/build/intermediates/javac/debug/classes/androidx/databinding
+./app/build/intermediates/javac/debug/classes/com/example/databindingsample
+./app/build/intermediates/javac/debug/classes/com/example/databindingsample/databinding
+```
+
+
+
+```
+./build/intermediates/data_binding_base_class_log_artifact/debug/dataBindingGenBaseClassesDebug/out/com.example.databindingsample-binding_classes.json
+```
+
+```
+{
+  "mappings": {
+    "activity_main": {
+      "qualified_name": "com.example.databindingsample.databinding.ActivityMainBinding",
+      "module_package": "com.example.databindingsample",
+      "variables": {
+        "user": "com.example.databindingsample.User",
+        "activity": "com.example.databindingsample.MainActivity",
+        "handler": "com.example.databindingsample.EventHandler"
+      },
+      "implementations": [
+        {
+          "tag": "layout/activity_main",
+          "merge": false,
+          "qualified_name": "com.example.databindingsample.databinding.ActivityMainBindingImpl"
+        }
+      ]
+    }
+  }
+}```
