@@ -6,6 +6,8 @@ Used for correct merging of `AndroidManifest.xml` files from different dependenc
 `AndroidManifesr.xml`
 
 
+Xamarin.Android.ManifestMerger - waiting for feedback from users
+
 Google.Play.Services issues
 
 *   249 
@@ -22,6 +24,11 @@ Google.Play.Services issues
 
 *   216
 
+    *   Conflict when use both packages in same app, 
+        Xamarin.Firebase.Messaging 71.1733.0-preview6 - 
+        Xamarin.Firebase.Auth 71.1605.0-preview6, 
+        FirebaseAuth always null.
+
     *   https://github.com/xamarin/GooglePlayServicesComponents/issues/216
 
 *   223
@@ -32,14 +39,6 @@ Google.Play.Services issues
 
     *   1 report OK
 
-*   216
-
-    *   Conflict when use both packages in same app, 
-        Xamarin.Firebase.Messaging 71.1733.0-preview6 - 
-        Xamarin.Firebase.Auth 71.1605.0-preview6, 
-        FirebaseAuth always null.
-
-    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/215
 
 *   134
 
@@ -48,6 +47,30 @@ Google.Play.Services issues
     *   https://github.com/xamarin/GooglePlayServicesComponents/issues/134
 
 
+*   260
+
+    *   Google Tag Manager (via Firebase) Not Loading 
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/260
+
+NNNNNNNOOOOOOOOVOOOOOO
+
+*   178
+
+    *   Permissions denied when authenticating to Firebase in Xamarin.Android #178
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/178
+
+*   203
+
+    *   Xamarin.GooglePlayServices.Ads.Lite 71.1720.0-preview3: error during build #203
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/203
+
+
+
+
+## Usage
 
 Errors on Mac:
 
