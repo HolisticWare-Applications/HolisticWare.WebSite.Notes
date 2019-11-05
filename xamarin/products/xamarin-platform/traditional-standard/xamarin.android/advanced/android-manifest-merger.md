@@ -30,6 +30,8 @@ Google.Play.Services issues
 
     *   https://github.com/xamarin/GooglePlayServicesComponents/issues/223
 
+    *   1 report OK
+
 *   216
 
     *   Conflict when use both packages in same app, 
