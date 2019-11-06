@@ -162,3 +162,13 @@ find ./AndroidDataBindingSampleNative-databinding-on/app/build -type d -name "da
     }
   }
 }```
+
+
+*   https://medium.com/@dzolnai/debugging-a-databinding-compiler-error-9510f88f4cec
+
+https://stackoverflow.com/questions/43047030/unsuccessful-gradle-build-with-custom-xml-tag-and-databinding
+
+https://www.majormojo.co.uk/blog/android-data-binding-part-1.html
+https://www.majormojo.co.uk/blog/android-data-binding-part-2.html
+https://www.majormojo.co.uk/blog/android-data-binding-part-3.html
+https://www.majormojo.co.uk/blog/android-data-binding-part-4.html
