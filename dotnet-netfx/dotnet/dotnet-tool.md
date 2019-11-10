@@ -69,9 +69,37 @@ dotnet tool install -g Xamarin.AndroidBinderator.Tool
 xamarin-android-binderator --config="C:\xamarin\Gps\config.json" --basepath="C:\xamarin\Gps\"
 ```
 
-    ## AndroidX
+```
+dotnet tool install -g Xamarin.AndroidBinderator.Tool
+```
+
+```
+xamarin-android-binderator \
+    --config="C:\xamarin\Gps\config.json" \
+    --basepath="C:\xamarin\Gps\"
+```
+
+## AndroidX
 
 ```
 dotnet tool install -g xamarin.androidx.migration.tool --add-source
 ```
 
+## Links / References
+
+*   https://github.com/natemcmaster/dotnet-tools
+
+
+
+```
+export TOOLS=\
+"
+xamarin.androidx.migration.tool
+"
+
+for TOOL in $TOOLS;
+do
+    dotnet tool install --global $TOOL
+done
+
+```
