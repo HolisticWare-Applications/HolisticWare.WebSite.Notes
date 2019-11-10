@@ -2,17 +2,23 @@
 
 android-teams-meetings-boston-2019-10.md
 
+*   https://paper.dropbox.com/doc/Xamarin.Android-2019-Meeting-Schedule-Tkjb4EsjdMRetd3IohS0L
+
+## Mine
+
 15-30 minutes session
 
 *   intro
 
     *   nothing technically impressive
 
+    *   eat an elephant problem
 
-
-
+    *   Alija Sirotanovic
 
 *   Android OS extension/accompanying/satellite libraries (artifacts)
+
+*   status (current)
 
     *   AndroidX
 
@@ -33,18 +39,6 @@ android-teams-meetings-boston-2019-10.md
         *   AndroidX dependencies
 
             *   99 201910
-
-
-*   intro II
-
-    *   eat an elephant problem
-
-    *   Alija Sirotanovic
-
-
-
-
-*   status (current)
 
     *   reduced release cycle down to 2-3 days, week, average 2 weeks
 
