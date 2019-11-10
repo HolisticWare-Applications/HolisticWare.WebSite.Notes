@@ -161,14 +161,23 @@ find ./AndroidDataBindingSampleNative-databinding-on/app/build -type d -name "da
       ]
     }
   }
-}```
+}
+```
 
+*   Maven Plugin
+
+    *   https://bitbucket.org/eppleton/databinding-demo/
 
 *   https://medium.com/@dzolnai/debugging-a-databinding-compiler-error-9510f88f4cec
 
-https://stackoverflow.com/questions/43047030/unsuccessful-gradle-build-with-custom-xml-tag-and-databinding
+*   https://stackoverflow.com/questions/43047030/unsuccessful-gradle-build-with-custom-xml-tag-and-databinding
 
-https://www.majormojo.co.uk/blog/android-data-binding-part-1.html
-https://www.majormojo.co.uk/blog/android-data-binding-part-2.html
-https://www.majormojo.co.uk/blog/android-data-binding-part-3.html
-https://www.majormojo.co.uk/blog/android-data-binding-part-4.html
+*   https://www.majormojo.co.uk/blog/android-data-binding-part-1.html
+
+*   https://www.majormojo.co.uk/blog/android-data-binding-part-2.html
+
+*   https://www.majormojo.co.uk/blog/android-data-binding-part-3.html
+
+*   https://www.majormojo.co.uk/blog/android-data-binding-part-4.html
+
+*   http://programmersought.com/article/2221528141/;jsessionid=28E68C8FDA6B6744A8D5AEC4058BD60A
