@@ -94,7 +94,11 @@ dotnet tool install -g xamarin.androidx.migration.tool --add-source
 ```
 export TOOLS=\
 "
+Cake.Tool
 xamarin.androidx.migration.tool
+Xamarin.AndroidBinderator.Tool
+api-tools
+
 "
 
 for TOOL in $TOOLS;
