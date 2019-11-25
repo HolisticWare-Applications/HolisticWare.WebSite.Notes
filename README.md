@@ -67,7 +67,7 @@ open -a Firefox
     
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
-	*	https://github.com/xamarin/GoogleApisForiOSComponents
+		*	https://github.com/xamarin/GoogleApisForiOSComponents
 	
     *   https://github.com/xamarin/AndroidSupportComponents
     
