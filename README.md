@@ -63,7 +63,15 @@ open -a Firefox
 
     *	https://github.com/xamarin/Xamarin.Auth
 
+    *   https://github.com/xamarin/AndroidX
+    
+    *   https://github.com/xamarin/GooglePlayServicesComponents
+
+	*	https://github.com/xamarin/GoogleApisForiOSComponents
+	
     *   https://github.com/xamarin/AndroidSupportComponents
+    
+    	*	obsolete soon
 
 		*	https://github.com/xamarin/AndroidSupportComponents/tree/AndroidX
 
@@ -71,9 +79,6 @@ open -a Firefox
 
 		*	https://github.com/xamarin/XamarinAndroidXMigration
 
-    *   https://github.com/xamarin/GooglePlayServicesComponents
-
-	*	https://github.com/xamarin/GoogleApisForiOSComponents
 
 ### HolisticWare
 
