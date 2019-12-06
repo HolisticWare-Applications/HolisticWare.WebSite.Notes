@@ -6,6 +6,7 @@ dotnet-try.md
 
 *   https://github.com/dotnet/try-samples
 
+*   https://www.hanselman.com/blog/CreateExceptionalInteractiveDocumentationWithTryNETThePollyNuGetLibraryDid.aspx
 
 *   Xamarin.Workbooks replacement
 

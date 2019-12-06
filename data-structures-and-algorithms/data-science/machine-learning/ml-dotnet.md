@@ -72,9 +72,15 @@ ml-dotnet.md
 
 
 
-
 *   Ankit Asthana
     
     *   https://github.com/asthana86
 
     *   https://channel9.msdn.com/Events/Speakers/ankit-asthana
+
+
+
+*   https://arxiv.org/pdf/1905.05715.pdf
+
+*   https://youtu.be/1xQE2bWkwjo?list=PLReL099Y5nRd04p81Q7p5TtyjCrj9tz1t&t=3446
+

@@ -14,8 +14,10 @@ dotnet tool install --global NuKeeper
 dotnet tool install --global dotnet-outdated
 ```
 
+*   https://github.com/natemcmaster/dotnet-tools
 
-nuget diff tool a dotnet tool, so it can be run from the command line
+
+*   nuget diff tool a dotnet tool, so it can be run from the command line
 
 Like downloading externals and unzipping is pretty trivial in msbuild
 
@@ -67,9 +69,41 @@ dotnet tool install -g Xamarin.AndroidBinderator.Tool
 xamarin-android-binderator --config="C:\xamarin\Gps\config.json" --basepath="C:\xamarin\Gps\"
 ```
 
-    ## AndroidX
+```
+dotnet tool install -g Xamarin.AndroidBinderator.Tool
+```
+
+```
+xamarin-android-binderator \
+    --config="C:\xamarin\Gps\config.json" \
+    --basepath="C:\xamarin\Gps\"
+```
+
+## AndroidX
 
 ```
 dotnet tool install -g xamarin.androidx.migration.tool --add-source
 ```
 
+## Links / References
+
+*   https://github.com/natemcmaster/dotnet-tools
+
+
+
+```
+export TOOLS=\
+"
+Cake.Tool
+xamarin.androidx.migration.tool
+Xamarin.AndroidBinderator.Tool
+api-tools
+
+"
+
+for TOOL in $TOOLS;
+do
+    dotnet tool install --global $TOOL
+done
+
+```

@@ -14,3 +14,16 @@ dev-ops.md
 
 *   https://appcenter.ms/signup
 
+
+
+*   devops
+
+    *   in the past, that would have been an ops team taking requests from dev teams to set all that up
+
+    *   DevOps engineers from Fearless Tech has created a free DevOps Bootcamp
+
+        *   http://ow.ly/tMYM50vic3r
+
+        *   https://fearless.tech/blog/2019/07/30/fearless-aaron-brooks-launches-mastermnd-academy
+
+

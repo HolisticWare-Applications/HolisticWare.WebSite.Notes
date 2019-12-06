@@ -5,6 +5,73 @@ android-manifest-merger.md
 Used for correct merging of `AndroidManifest.xml` files from different dependencies and main application 
 `AndroidManifesr.xml`
 
+
+Xamarin.Android.ManifestMerger - waiting for feedback from users
+
+Google.Play.Services issues
+
+*   249 
+
+    *   Failed to retrieve Firebase Instance Id
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/249
+
+*   234
+
+    *   `Firebase.Perf` not sending logs. (InstanceID is null) 
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/234
+
+*   216
+
+    *   Conflict when use both packages in same app, 
+        Xamarin.Firebase.Messaging 71.1733.0-preview6 - 
+        Xamarin.Firebase.Auth 71.1605.0-preview6, 
+        FirebaseAuth always null.
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/216
+
+*   223
+
+    *   `FirebaseAuth.Instance` always null in version 71.1605.0-preview7
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/223
+
+    *   1 report OK
+
+
+*   134
+
+    *   [70.1620.0-preview2] Xamarin.Firebase.Iid.FirebaseInstanceId.Instance returns null 
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/134
+
+
+*   260
+
+    *   Google Tag Manager (via Firebase) Not Loading 
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/260
+
+NNNNNNNOOOOOOOOVOOOOOO
+
+*   178
+
+    *   Permissions denied when authenticating to Firebase in Xamarin.Android #178
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/178
+
+*   203
+
+    *   Xamarin.GooglePlayServices.Ads.Lite 71.1720.0-preview3: error during build #203
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents/issues/203
+
+
+
+
+## Usage
+
 Errors on Mac:
 
 ```

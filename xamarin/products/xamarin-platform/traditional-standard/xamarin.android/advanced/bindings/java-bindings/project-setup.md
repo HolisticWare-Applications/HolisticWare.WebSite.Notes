@@ -36,12 +36,18 @@ add following code and uncomment to the *.csproj:
 
 Working, but complex (and older version due to bug in csproj parsing) version:
 
+```
 	<ItemGroup>
-		<None Include="obj\Debug\api.xml" Condition="'$(Configuration)'=='Debug'"></None>    
-		<None Include="obj\Release\api.xml" Condition="'$(Configuration)'=='Release'"></None>    
-		<Compile Include="obj\Debug\generated\src\*.cs" Condition="'$(Configuration)'=='Debug'"></Compile>
-		<Compile Include="obj\Release\generated\src\*.cs" Condition="'$(Configuration)'=='Release'"></Compile>
+		<None 
+			Include="obj\$(Configuration)\$(TargetFramework)\api.xml" 
+			>
+		</None>    
+		<Compile 
+			Include="obj\$(Configuration)\$(TargetFramework\generated\src\*.cs" 
+			>
+		</Compile>
 	</ItemGroup>
+```
 
 This version might need Refresh on obj/ folder or even project unload/reload…
 
@@ -51,17 +57,29 @@ compact version was tried this did not work in XS that great...
 Now it is OK
 
 
-Old/obsolete version:
+### Old/obsolete versions:
 
+```
 	<ItemGroup>
-		<Compile Include="obj\Debug\generated\src\*.cs" />
-		<Compile Include="obj\Release\generated\src\*.cs" />
-		<None Include="obj\Debug\api.xml" />
-		<None Include="obj\Release\api.xml" />
+		<None Include="obj\Debug\api.xml" Condition="'$(Configuration)'=='Debug'"></None>    
+		<None Include="obj\Release\api.xml" Condition="'$(Configuration)'=='Release'"></None>    
+		<Compile Include="obj\Debug\generated\src\*.cs" Condition="'$(Configuration)'=='Debug'"></Compile>
+		<Compile Include="obj\Release\generated\src\*.cs" Condition="'$(Configuration)'=='Release'"></Compile>
 	</ItemGroup>
+```
+
+```
+<ItemGroup>
+	<Compile Include="obj\Debug\generated\src\*.cs" />
+	<Compile Include="obj\Release\generated\src\*.cs" />
+	<None Include="obj\Debug\api.xml" />
+	<None Include="obj\Release\api.xml" />
+</ItemGroup>
+```
 
 NOTE Remove/uncomment after the bindings are finished:
 
+```
     <!--
 	<ItemGroup>
 		<Compile Include="obj\Debug\generated\src\*.cs" />
@@ -70,7 +88,7 @@ NOTE Remove/uncomment after the bindings are finished:
 		<None Include="obj\Release\api.xml" />
 	</ItemGroup>
 	-->
-
+```
 
 ## Tools 
 
