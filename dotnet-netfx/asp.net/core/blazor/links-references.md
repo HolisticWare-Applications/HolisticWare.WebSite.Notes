@@ -45,6 +45,8 @@
 
 *   https://www.syntaxsuccess.com/viewarticle/experimenting-with-blazor
 
+*   https://www.telerik.com/campaigns/blazor-ui/getting-started-with-blazor-all-there-is-to-know-from-the-experts?utm_medium=social-owned&utm_source=twitter&utm_campaign=blazor-blog-getting-started-with-blazor-pp
+
 ## Videos
 
 *   https://www.youtube.com/watch?v=6BT2AF9PO5g
