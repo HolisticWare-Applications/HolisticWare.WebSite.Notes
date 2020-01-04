@@ -34,6 +34,8 @@ open -a Firefox
 	*	https://search.maven.org/search?q
 
 	*	https://mvnrepository.com/
+	
+	*	https://androidx.tech/
 
 *	.NET utilities
 
