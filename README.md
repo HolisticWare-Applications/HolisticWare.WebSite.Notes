@@ -238,6 +238,14 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 
 ## Private
 
+## Judo
+
+*	https://judo.hr/new/1479
+
+*	https://www.facebook.com/watch/?v=1191736417671810
+
+*	https://www.facebook.com/crojudo/videos/1191736417671810/
+
 ### Wind
 
 *	https://www.windy.com/?43.509,16.439,5
