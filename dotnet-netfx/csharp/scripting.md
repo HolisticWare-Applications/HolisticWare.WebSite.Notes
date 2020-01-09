@@ -216,3 +216,16 @@ host and what have you), being the superset of regular CSX, could be an opt in p
 
 *   https://www.strathweb.com/2015/11/running-c-scripts-and-snippets-in-visual-studio-code-with-scriptcs/
 
+
+
+
+## Links/References
+
+*   https://itnext.io/hitchhikers-guide-to-the-c-scripting-13e45f753af9
+
+*   https://www.reddit.com/r/csharp/comments/ectt1v/hitchhikers_guide_to_the_c_scripting/fbe2l1g?utm_source=share&utm_medium=web2x
+
+*   https://devblogs.microsoft.com/visualstudio/introducing-the-microsoft-roslyn-ctp/
+
+*   https://blogs.msdn.microsoft.com/cdndevs/2015/12/01/adding-c-scripting-to-your-development-arsenal-part-1/
+
