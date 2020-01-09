@@ -27,3 +27,106 @@ dev-ops.md
         *   https://fearless.tech/blog/2019/07/30/fearless-aaron-brooks-launches-mastermnd-academy
 
 
+*   https://event.on24.com/interface/registration/autoreg/index.html?eventid=2101873&sessionid=1&key=C37369776776CC8FF125B53E18B5FC01
+
+
+*   release management
+
+*   continious integration
+
+*   continious deployment
+
+*   automated testing
+
+*   telemetry / continious measurement
+
+*   application performance
+
+
+1.  Release
+
+    1.  plan + track
+
+    2.  Develop + Test
+
+2.  Production
+
+    1.  Release / Deploy / Deliver
+
+    2.  Monitor + Learn
+
+
+Tools
+
+1.  Azure DevOps
+
+    *   backlogs
+
+        *   boards/backlogs
+
+    *   gitflow
+
+        *   branches for areas
+
+            *   hotfix
+
+            *   release
+
+            *   version
+
+            *   dev
+
+            *   team
+
+            *   feature
+
+            *   bug 
+            
+        *   merging via PRs only
+
+2.  Visual Studio AppCenter
+
+    *   mobile
+
+    1.  Release / Deployment / Distribution
+
+        *   test
+
+        *   production
+
+    2.  Functional Testing
+
+        *   Xamarin.UITest
+
+        *   Xamarin.Test.Cloud
+
+        *   testing
+
+            *   regression testing
+
+            *   UX
+
+            *   functional
+
+        *   scripting
+
+            *   C#
+
+            *   ruby
+
+        *   mobile live analytics
+
+            *   crash reports
+
+            *   usage
+    
+    3.  Application Insights
+
+        *   Azure Service
+
+            *   for backends
+
+            
+
+
+https://www.xpand-it.com/webinars/

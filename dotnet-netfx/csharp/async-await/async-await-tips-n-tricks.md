@@ -26,7 +26,7 @@ Most of the time yep.
 
 
 
-
+*   https://devblogs.microsoft.com/dotnet/configureawait-faq/
 
 
 
