@@ -81,6 +81,9 @@ open -a Firefox
 
 			*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/androidx/release-doc.md
 
+	*	https://github.com/xamarin/monodroid-samples
+	
+		*	https://github.com/moljac/monodroid-samples
 
 ### HolisticWare
 
