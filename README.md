@@ -68,6 +68,8 @@ open -a Firefox
     *   https://github.com/xamarin/AndroidX
 	
 		*	https://github.com/xamarin/XamarinAndroidXMigration
+		
+		*	https://developer.android.com/jetpack/androidx/versions
     
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
