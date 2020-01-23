@@ -68,6 +68,8 @@ open -a Firefox
     *   https://github.com/xamarin/AndroidX
 	
 		*	https://github.com/xamarin/XamarinAndroidXMigration
+		
+		*	https://developer.android.com/jetpack/androidx/versions
     
     *   https://github.com/xamarin/GooglePlayServicesComponents
 
@@ -81,6 +83,11 @@ open -a Firefox
 
 			*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/androidx/release-doc.md
 
+	*	https://github.com/xamarin/monodroid-samples
+	
+		*	https://github.com/moljac/monodroid-samples
+		
+*	https://kdelmonte.github.io/json-to-markdown-table/
 
 ### HolisticWare
 
@@ -237,6 +244,14 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 ```
 
 ## Private
+
+## Judo
+
+*	https://judo.hr/new/1479
+
+*	https://www.facebook.com/watch/?v=1191736417671810
+
+*	https://www.facebook.com/crojudo/videos/1191736417671810/
 
 ### Wind
 
