@@ -36,13 +36,12 @@ Original attribute defined here.
 
 ### [Re]Solution / Workaround
 
-Make sure to use latest TargetFramework (9.0) and turn off `aapt2`:
+Make sure to use latest TargetFramework (10.0) and turn on `aapt2`:
 
 ```
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidUseAapt2>True</AndroidUseAapt2>    
 ```
-
 
 ## `java.lang.IllegalArgumentException`: already added `<JNIClass>`
 
