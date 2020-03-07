@@ -47,15 +47,15 @@ open -a Firefox
 
     *	netstandard (.NET Standard)
 
-    	*	https://dotnet.microsoft.com/platform/dotnet-standard
+    	*    https://dotnet.microsoft.com/platform/dotnet-standard
 
     *	https://docs.microsoft.com/en-us/dotnet/api/
 
-	*	https://www.fuget.org
+		*    https://www.fuget.org
 
-	*	https://www.nuget.org
+		*	https://www.nuget.org
 
-	*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
+		*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
 
 ### Xamarin
 
@@ -113,6 +113,9 @@ open -a Firefox
 
 		*	https://github.com/moljac/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers
 
+	*	samples
+	
+		*	https://github.com/moljac/Samples.MachineLearning
 
 *   bindings
 
@@ -131,11 +134,11 @@ open -a Firefox
 
  ## Building maintanined Xamarin repos
 
-*	`Android.Support`,
-
-*  `AndroidX` and
+*  `AndroidX`
 
 *  `Google.Play.Services-Firebase`
+
+*	`Android.Support`,
 
 
 MacOSX:
@@ -243,6 +246,21 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 <PackageReference Include="HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.Decompilers" Version="0.0.6" />
 ```
 
+### Coding
+
+*   https://github.com/moljac
+
+*	https://moljac.github.io
+
+	*	https://github.com/moljac/moljac.github.io
+
+*	https://gitmemory.com/moljac
+
+*   https://gitlab.com/moljac
+
+*   https://github.com/moljac/HolisticWare.WebSite.Notes
+
+
 ## Private
 
 ## Judo
@@ -272,19 +290,5 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 	*	https://www.windguru.cz/501253
 
 	*	https://www.windy.com/station/ad-LGNX?37.081,25.370,8
-
-### Coding
-
-*   https://github.com/moljac
-
-*	https://moljac.github.io
-
-	*	https://github.com/moljac/moljac.github.io
-
-*	https://gitmemory.com/moljac
-
-*   https://gitlab.com/moljac
-
-*   https://github.com/moljac/HolisticWare.WebSite.Notes
 
 
