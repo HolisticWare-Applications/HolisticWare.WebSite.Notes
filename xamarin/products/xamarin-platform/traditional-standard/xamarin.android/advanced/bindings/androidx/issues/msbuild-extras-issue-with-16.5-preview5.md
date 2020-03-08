@@ -22,7 +22,7 @@ https://github.com/Caliburn-Micro/Caliburn.Micro/issues/648
      .Net Core 3.0.100
 ```
 
-![VS4W-2019-16.5.P5-with-markings.png][./images/VS4W-2019-16.5.P5-with-markings.png "Visual Studio 2019 Windows 16.5 Preview5"]
+![VS4W-2019-16.5.P5-with-markings.png](./images/VS4W-2019-16.5.P5-with-markings.png "Visual Studio 2019 Windows 16.5 Preview5")
 
 Search revealed:
 
