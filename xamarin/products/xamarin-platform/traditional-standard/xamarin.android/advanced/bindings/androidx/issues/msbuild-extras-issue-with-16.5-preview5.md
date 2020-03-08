@@ -11,7 +11,22 @@ SceneForm in XamarinComponents, etc).
 On one of Windows boxes following error:
 
 ```
+error  : The expression "[System.IO.Path]::GetDirectoryName('')" cannot be evaluated. 
+The path is not of a legal form.  
+.nuget\packages\msbuild.sdk.extras\2.0.54\Sdk\Sdk.props
+
+https://github.com/Caliburn-Micro/Caliburn.Micro/issues/648
+
+https://github.com/Caliburn-Micro/Caliburn.Micro/issues/648
+
+     .Net Core 3.0.100
 ```
+
+![Visual Studio 2019 Windows 16.5 Preview5][./images/VS4W-2019-16.5.P5-with-markings.png]
+
+Search revealed:
+
+*	
 
 On Windows I reinstalled VS4W 2019 16.5 Preview 5, but no use.
 
