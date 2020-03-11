@@ -8,6 +8,28 @@ Xamarin.Android TargetFramework dropdowns not populated. Only .NET Core SDKs lis
 regular frameworks. Unable to set TargetFramework (Project properties) for numerous projects (AndroidX, 
 SceneForm in XamarinComponents, etc).
 
+Windows:
+
+![VS4W-2019-16.5.P5-with-markings.png]
+	(
+	./msbuild-extras-issue-with-16.5-preview5.img/VS4W-2019-16.5.P5-with-markings.png 
+	Visual Studio 2019 Windows 16.5 Preview5"
+	)
+
+MacOSX:
+
+![Screenshot 2020-03-07 at 21.31.38.png]
+	(
+	./msbuild-extras-issue-with-16.5-preview5.img/Screenshot 2020-03-07 at 21.31.38.png 
+	Visual Studio Mac - Loading projects"
+	)
+
+![Screenshot 2020-03-07 at 14.09.55.png]
+	(
+	./msbuild-extras-issue-with-16.5-preview5.img/Screenshot 2020-03-07 at 14.09.55.png 
+	Visual Studio Mac - Target Frameworks"
+	)
+	
 On one of Windows boxes following error:
 
 ```
@@ -21,8 +43,6 @@ https://github.com/Caliburn-Micro/Caliburn.Micro/issues/648
 
      .Net Core 3.0.100
 ```
-
-![VS4W-2019-16.5.P5-with-markings.png](./images/VS4W-2019-16.5.P5-with-markings.png "Visual Studio 2019 Windows 16.5 Preview5")
 
 Search revealed:
 
