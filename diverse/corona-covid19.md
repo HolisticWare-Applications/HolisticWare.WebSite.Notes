@@ -2,6 +2,8 @@
 
 corona-covid19.md
 
+*   https://github.com/CSSEGISandData/COVID-19
+
 *   https://twitter.com/PalliThordarson/status/1236549305189597189
 
 *   https://twitter.com/KarenFlemingPhD/status/1233451607385202688
@@ -47,11 +49,19 @@ corona-covid19.md
 *   https://app.dimensions.ai/discover/publication?search_text=%222019-nCoV%22%20OR%20%22COVID-19%22%20OR%20%E2%80%9CSARS-CoV-2%E2%80%9D%20OR%20((%22coronavirus%22%20%20OR%20%22corona%20virus%22)%20AND%20(Wuhan%20OR%20China))&search_type=kws&search_field=full_search&and_facet_year=2020
 
 
+
 ## Corona tweets
 
 https://twitter.com/wilwielgosz/status/1237813810624331778
 
 
+## Tips n Trick
+
+*   https://elemental.medium.com/what-to-buy-and-what-to-skip-to-prepare-for-coronavirus-3b721d60eb82
+
+*   https://elemental.medium.com/how-to-snap-your-parents-out-of-their-coronavirus-denial-6bc0f24a9178
+
+*   https://elemental.medium.com/immediate-action-makes-all-the-difference-with-coronavirus-9bcf455ee641
 
 
 
