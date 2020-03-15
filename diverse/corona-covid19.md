@@ -4,13 +4,14 @@ corona-covid19.md
 
 ## Data
 
+*   https://github.com/CSSEGISandData/COVID-19
+
+*   https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?fbclid=IwAR0_YAf-_48bkJrqkj9Cd-L4DnTbELH2U4ySHV_E6Fpg4KaYQfaKolmBYoM
+
 *   https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2119699907
 
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
-*   https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?fbclid=IwAR0_YAf-_48bkJrqkj9Cd-L4DnTbELH2U4ySHV_E6Fpg4KaYQfaKolmBYoM
-
-*   https://github.com/CSSEGISandData/COVID-19
 
 ## Dashboards
 
