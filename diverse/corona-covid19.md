@@ -2,6 +2,27 @@
 
 corona-covid19.md
 
+## Data
+
+*   https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2119699907
+
+*   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
+
+*   https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?fbclid=IwAR0_YAf-_48bkJrqkj9Cd-L4DnTbELH2U4ySHV_E6Fpg4KaYQfaKolmBYoM
+
+*   https://github.com/CSSEGISandData/COVID-19
+
+## Dashboards
+
+*   https://www.worldometers.info/coronavirus/#countries
+
+*   https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+
+*   https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd
+
+
+## Links/References
+
 *   https://github.com/CSSEGISandData/COVID-19
 
 *   https://twitter.com/PalliThordarson/status/1236549305189597189
@@ -40,13 +61,12 @@ corona-covid19.md
 
 *   https://www.axios.com/congressional-physician-predicts-75-150-million-us-coronavirus-cases-fec69e77-1515-4fbc-8340-c53b65c22c53.html
 
-*   https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2119699907
-
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
-*   https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?fbclid=IwAR0_YAf-_48bkJrqkj9Cd-L4DnTbELH2U4ySHV_E6Fpg4KaYQfaKolmBYoM
 
 *   https://app.dimensions.ai/discover/publication?search_text=%222019-nCoV%22%20OR%20%22COVID-19%22%20OR%20%E2%80%9CSARS-CoV-2%E2%80%9D%20OR%20((%22coronavirus%22%20%20OR%20%22corona%20virus%22)%20AND%20(Wuhan%20OR%20China))&search_type=kws&search_field=full_search&and_facet_year=2020
+
+*   https://onezero.medium.com/you-can-help-fight-coronavirus-by-giving-scientists-access-to-your-computer-16c39c2e7164
 
 
 
