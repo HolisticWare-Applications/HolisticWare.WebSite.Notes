@@ -1,0 +1,16 @@
+,{
+    "groupId" : "androidx.media2",
+    "artifactId" : "media2-exoplayer",
+    "version" : "1.0.1",
+    "nugetId" : "Xamarin.AndroidX.Media2.ExoPlayer",
+    "nugetVersion" : "1.0.1-rc1",
+    "dependencyOnly" : false
+}
+,{
+    "groupId" : "androidx.media2",
+    "artifactId" : "media2-player",
+    "version" : "1.0.1",
+    "nugetId" : "Xamarin.AndroidX.Media2.Player",
+    "nugetVersion" : "1.0.1-rc1",
+    "dependencyOnly" : false
+}
