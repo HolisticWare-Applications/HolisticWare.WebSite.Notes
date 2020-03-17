@@ -9,6 +9,19 @@ databinding.md
 
 *   https://guides.codepath.com/android/Applying-Data-Binding-for-Views
 
+*   https://developer.android.com/topic/libraries/data-binding
+
+*	https://github.com/android/databinding-samples
+
+*	https://medium.com/androiddevelopers/android-data-binding-library-from-observable-fields-to-livedata-in-two-steps-690a384218f2
+
+*	https://medium.com/androiddevelopers/data-binding-lessons-learnt-4fd16576b719
+
+*	https://github.com/atsushieno/monodroid-schema-gen/blob/master/android-layout-xml.xsd
+
+*	https://developer.android.com/reference/classes
+
+*	https://developer.android.com/topic/libraries/data-binding/architecture
 
 ```
 android {

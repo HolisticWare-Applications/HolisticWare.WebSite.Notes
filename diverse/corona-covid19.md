@@ -12,6 +12,9 @@ corona-covid19.md
 
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
+*   blob:https://ourworldindata.org/f734de16-1fe2-4648-8d6f-a288f958e42f
+
+    covid tests
 
 ## Dashboards
 
@@ -23,6 +26,10 @@ corona-covid19.md
 
 
 ## Links/References
+
+*   https://www.washingtonpost.com/graphics/2020/world/corona-simulator/?fbclid=IwAR2V7eWcACrGWi9jAQBix7rFKLIXh-1ZaJkH4MQIDk7M2WBWRgMnQj704uw
+
+*   https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca
 
 *   https://github.com/CSSEGISandData/COVID-19
 

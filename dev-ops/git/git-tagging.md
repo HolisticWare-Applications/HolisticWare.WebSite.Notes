@@ -28,6 +28,3 @@ git push origin --tags
 *   https://github.com/xamarin/GooglePlayServiceComponents/tags
 
 *   https://github.com/xamarin/AndroidSupportComponents/tags
-
-
-
