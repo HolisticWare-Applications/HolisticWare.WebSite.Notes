@@ -21,8 +21,16 @@ corona-covid19.md
 
 *   https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd
 
+*   https://www.bing.com/covid
+
 
 ## Links/References
+
+*   https://www.theatlantic.com/ideas/archive/2020/03/coronavirus-showed-america-wasnt-task/608023/
+
+*   https://www.nytimes.com/2020/03/10/us/coronavirus-testing-delays.html
+
+*   https://www.youtube.com/watch?time_continue=52&v=6Af6b_wyiwI&feature=emb_logo
 
 *   https://github.com/CSSEGISandData/COVID-19
 
