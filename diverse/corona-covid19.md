@@ -17,6 +17,52 @@ corona-covid19.md
 
     covid tests
 
+	*	https://covidtracking.com/
+
+	*	https://covidtracking.com/api/
+
+	*	The API format could and probably will change slightly in the future.
+
+		*	States current 
+		
+			*	https://covidtracking.com/api/states 
+
+			*	CSV
+
+		*	States daily 4 pm ET - 
+		
+			*	https://covidtracking.com/api/states/daily 
+			
+			*	CSV
+		
+		*	States info
+		
+			*	https://covidtracking.com/api/states/info
+			
+			*	CSV
+		
+		*	US current
+		
+			*	https://covidtracking.com/api/us
+			
+			*	CSV
+
+		*	US daily
+		
+			*	https://covidtracking.com/api/us/daily
+			
+			*	CSV
+		
+		*	Counties
+		
+			*	https://covidtracking.com/api/counties
+			
+			*	CSV
+		
+		*	Tracker URLs
+		
+			*	https://covidtracking.com/api/urls
+
 ## Dashboards
 
 *   https://www.worldometers.info/coronavirus/#countries
