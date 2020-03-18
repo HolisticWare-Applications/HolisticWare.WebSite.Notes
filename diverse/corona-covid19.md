@@ -12,6 +12,7 @@ corona-covid19.md
 
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
+*   https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#
 
 ## Dashboards
 
@@ -25,6 +26,8 @@ corona-covid19.md
 
 
 ## Links/References
+
+*   https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf
 
 *   https://www.theatlantic.com/ideas/archive/2020/03/coronavirus-showed-america-wasnt-task/608023/
 
