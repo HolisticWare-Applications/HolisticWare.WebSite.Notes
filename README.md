@@ -35,7 +35,17 @@ open -a Firefox
 
 	*	https://mvnrepository.com/
 	
-	*	https://androidx.tech/
+	*	AndroidX
+	
+		*	https://androidx.tech/
+
+		*	Releases by date:
+
+			*	https://developer.android.com/jetpack/androidx/versions/all-channel
+
+		*	Versions:
+
+			*	https://developer.android.com/jetpack/androidx/versions
 
 *	.NET utilities
 

@@ -2,6 +2,7 @@
 
 corona-covid19.md
 
+
 ## Data
 
 *   https://github.com/CSSEGISandData/COVID-19
@@ -14,6 +15,8 @@ corona-covid19.md
 
 *   https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#
 
+    covid tests
+
 ## Dashboards
 
 *   https://www.worldometers.info/coronavirus/#countries
@@ -24,6 +27,17 @@ corona-covid19.md
 
 *   https://www.bing.com/covid
 
+*	https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+
+	*	https://systems.jhu.edu/
+	
+	*	https://github.com/CSSEGISandData/COVID-19
+	
+	*	https://ourworldindata.org/coronavirus
+
+*	https://app.powerbi.com/view?r=eyJrIjoiMmRkYjYxY2ItZTExYy00MDQ2LWExNzUtYjg5NTJhMjBhNmM0IiwidCI6Ijc4ODE3YTE1LTllOTgtNDFmYy05ZDU4LTcwODIyMjhjNGIxMCIsImMiOjh9
+
+*	https://www.instagram.com/p/B86YIUol9FK/
 
 ## Links/References
 
@@ -34,6 +48,10 @@ corona-covid19.md
 *   https://www.nytimes.com/2020/03/10/us/coronavirus-testing-delays.html
 
 *   https://www.youtube.com/watch?time_continue=52&v=6Af6b_wyiwI&feature=emb_logo
+
+*   https://www.washingtonpost.com/graphics/2020/world/corona-simulator/?fbclid=IwAR2V7eWcACrGWi9jAQBix7rFKLIXh-1ZaJkH4MQIDk7M2WBWRgMnQj704uw
+
+*   https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca
 
 *   https://github.com/CSSEGISandData/COVID-19
 
