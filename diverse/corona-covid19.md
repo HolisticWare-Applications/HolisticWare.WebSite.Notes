@@ -63,6 +63,12 @@ corona-covid19.md
 		
 			*	https://covidtracking.com/api/urls
 
+*	neherlabs
+
+	*	https://neherlab.org/covid19/
+
+	*	https://github.com/neherlab/covid19_scenarios
+
 ## Dashboards
 
 *   https://www.worldometers.info/coronavirus/#countries
