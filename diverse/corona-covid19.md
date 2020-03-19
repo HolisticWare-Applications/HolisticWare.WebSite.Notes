@@ -93,6 +93,10 @@ corona-covid19.md
 
 ## Links/References
 
+*	https://threadreaderapp.com/thread/1240498037958545410.html
+
+*	https://drive.google.com/file/d/186Bel9RqfsmEx55FDum4xY_IlWSHnGbj/view
+
 *   https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf
 
 *   https://www.theatlantic.com/ideas/archive/2020/03/coronavirus-showed-america-wasnt-task/608023/
@@ -145,10 +149,17 @@ corona-covid19.md
 
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
-
 *   https://app.dimensions.ai/discover/publication?search_text=%222019-nCoV%22%20OR%20%22COVID-19%22%20OR%20%E2%80%9CSARS-CoV-2%E2%80%9D%20OR%20((%22coronavirus%22%20%20OR%20%22corona%20virus%22)%20AND%20(Wuhan%20OR%20China))&search_type=kws&search_field=full_search&and_facet_year=2020
 
 *   https://onezero.medium.com/you-can-help-fight-coronavirus-by-giving-scientists-access-to-your-computer-16c39c2e7164
+
+### Patent Hoax?
+
+*	Patent (us7220852b1)
+
+	*	https://twitter.com/yourmarklubbers/status/1221346322340556801?lang=en
+
+	*	https://factcheck.afp.com/coronavirus-plaguing-china-was-not-created-us-government-agency
 
 
 
