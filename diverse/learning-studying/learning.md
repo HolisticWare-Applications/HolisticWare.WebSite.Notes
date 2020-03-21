@@ -3,6 +3,10 @@
 *	[]()	
 *
 
+## Books/Publications
+
+*   https://www.jstor.org/
+
 ## Podcasts
 
 *   https://dotnetrocks.com/

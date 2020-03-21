@@ -13,9 +13,61 @@ corona-covid19.md
 
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
-*   blob:https://ourworldindata.org/f734de16-1fe2-4648-8d6f-a288f958e42f
+*   https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#
 
     covid tests
+
+	*	https://covidtracking.com/
+
+	*	https://covidtracking.com/api/
+
+	*	The API format could and probably will change slightly in the future.
+
+		*	States current 
+		
+			*	https://covidtracking.com/api/states 
+
+			*	CSV
+
+		*	States daily 4 pm ET - 
+		
+			*	https://covidtracking.com/api/states/daily 
+			
+			*	CSV
+		
+		*	States info
+		
+			*	https://covidtracking.com/api/states/info
+			
+			*	CSV
+		
+		*	US current
+		
+			*	https://covidtracking.com/api/us
+			
+			*	CSV
+
+		*	US daily
+		
+			*	https://covidtracking.com/api/us/daily
+			
+			*	CSV
+		
+		*	Counties
+		
+			*	https://covidtracking.com/api/counties
+			
+			*	CSV
+		
+		*	Tracker URLs
+		
+			*	https://covidtracking.com/api/urls
+
+*	neherlabs
+
+	*	https://neherlab.org/covid19/
+
+	*	https://github.com/neherlab/covid19_scenarios
 
 ## Dashboards
 
@@ -40,6 +92,12 @@ corona-covid19.md
 *	https://www.instagram.com/p/B86YIUol9FK/
 
 ## Links/References
+
+*	https://threadreaderapp.com/thread/1240498037958545410.html
+
+*	https://drive.google.com/file/d/186Bel9RqfsmEx55FDum4xY_IlWSHnGbj/view
+
+*   https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf
 
 *   https://www.theatlantic.com/ideas/archive/2020/03/coronavirus-showed-america-wasnt-task/608023/
 
@@ -91,10 +149,17 @@ corona-covid19.md
 
 *   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
 
-
 *   https://app.dimensions.ai/discover/publication?search_text=%222019-nCoV%22%20OR%20%22COVID-19%22%20OR%20%E2%80%9CSARS-CoV-2%E2%80%9D%20OR%20((%22coronavirus%22%20%20OR%20%22corona%20virus%22)%20AND%20(Wuhan%20OR%20China))&search_type=kws&search_field=full_search&and_facet_year=2020
 
 *   https://onezero.medium.com/you-can-help-fight-coronavirus-by-giving-scientists-access-to-your-computer-16c39c2e7164
+
+### Patent Hoax?
+
+*	Patent (us7220852b1)
+
+	*	https://twitter.com/yourmarklubbers/status/1221346322340556801?lang=en
+
+	*	https://factcheck.afp.com/coronavirus-plaguing-china-was-not-created-us-government-agency
 
 
 
