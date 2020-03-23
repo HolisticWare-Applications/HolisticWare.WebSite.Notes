@@ -2,7 +2,23 @@
 
 serialization.md
 
-## JSON
+*   https://docs.microsoft.com/en-us/dotnet/standard/serialization/
+
+    *   binary
+    
+        *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/binary-serialization
+
+    *   XML and SOAP
+
+        *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/xml-and-soap-serialization
+
+    *   JSON
+
+        *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-overview
+
+        *   System.Text.json
+
+            *   nuget
 
 ## Binary
 
@@ -58,11 +74,16 @@ serialization.md
 
     *   https://github.com/generatives/WirePCL
     
+## JSON
+
 ## Diverse
 
 *   ZeroFormatter
 
     *   https://github.com/neuecc/ZeroFormatter
+
+### Buddy Classes
+
 
 ### Motivation
  
