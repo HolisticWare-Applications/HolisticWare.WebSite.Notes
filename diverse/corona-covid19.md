@@ -161,6 +161,7 @@ corona-covid19.md
 
 	*	https://factcheck.afp.com/coronavirus-plaguing-china-was-not-created-us-government-agency
 
+	*	https://patents.google.com/patent/US7220852B1/en
 
 
 ## Corona tweets
