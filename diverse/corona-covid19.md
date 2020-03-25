@@ -2,7 +2,6 @@
 
 corona-covid19.md
 
-
 ## Data
 
 *   https://github.com/CSSEGISandData/COVID-19
@@ -79,6 +78,8 @@ corona-covid19.md
 
 *   https://www.bing.com/covid
 
+*	https://google.org/crisisresponse/covid19-map
+
 *	https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 
 	*	https://systems.jhu.edu/
@@ -92,6 +93,10 @@ corona-covid19.md
 *	https://www.instagram.com/p/B86YIUol9FK/
 
 ## Links/References
+
+*	https://www.coronavirus.gov/
+
+*	https://www.nih.gov/health-information/coronavirus
 
 *	https://threadreaderapp.com/thread/1240498037958545410.html
 
@@ -168,6 +173,25 @@ corona-covid19.md
 
 https://twitter.com/wilwielgosz/status/1237813810624331778
 
+## Music
+
+Combo playlist (COVID-19 + EarthQuake)
+1/n
+1. The Clash - Should I stay or should I go (what to do after quake)
+2. Suicidal Tendencies - You can't bring me down
+3. Anthrax - AntiSocial (COVID-19) remix
+4. Metallica - Creeping Death
+
+
+
+Combo playlist (COVID-19 + EarthQuake)
+1/n
+5. Suicidal Tendencies - Nobody hears (#StayAtHome)
+6. Metallica - For whom the bell tolls
+7. Anthrax - Refuse to be denied
+9. Suicidal Tendencies - I saw your Mommy (US Spring Breakers)
+10. Iron Maiden - Hallowed be Thy Name
+11. 
 
 ## Tips n Trick
 
