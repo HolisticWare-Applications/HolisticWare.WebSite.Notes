@@ -92,7 +92,21 @@ corona-covid19.md
 
 *	https://www.instagram.com/p/B86YIUol9FK/
 
+*	https://www.unacast.com/covid19/social-distancing-scoreboard
+
+*	https://plague.com/
+
+
 ## Links/References
+
+
+*	https://www.linkedin.com/pulse/open-research-covid-19-literature-dataset-eric-horvitz/?trackingId=9EdcUY6sRoWRR%2B0NHE7sYQ%3D%3D
+
+*	https://twitter.com/JamesTodaroMD/status/1240314674358505473
+
+*	https://www.youtube.com/watch?v=ydcrROJFEU0
+
+*	https://elemental.medium.com/tests-vaccines-recovery-the-latest-coronavirus-questions-answered-b2ade98317dd
 
 *	https://www.coronavirus.gov/
 
