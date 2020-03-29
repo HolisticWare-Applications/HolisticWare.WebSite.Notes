@@ -6,17 +6,13 @@ corona-covid19.md
 
 *   https://github.com/CSSEGISandData/COVID-19
 
-*   https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?fbclid=IwAR0_YAf-_48bkJrqkj9Cd-L4DnTbELH2U4ySHV_E6Fpg4KaYQfaKolmBYoM
-
-*   https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2119699907
-
-*   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
-
 *   https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRwAqp96T9sYYq2-i7Tj0pvTf6XVHjDSMIKBdZHXiCGGdNC0ypEU9NbngS8mxea55JuCFuua1MUeOj5/pubhtml#
 
     covid tests
 
-	*	https://covidtracking.com/
+*	https://www.csbs.org/information-covid-19-coronavirus
+
+*	https://covidtracking.com/
 
 	*	https://covidtracking.com/api/
 
@@ -62,11 +58,41 @@ corona-covid19.md
 		
 			*	https://covidtracking.com/api/urls
 
+*   https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?fbclid=IwAR0_YAf-_48bkJrqkj9Cd-L4DnTbELH2U4ySHV_E6Fpg4KaYQfaKolmBYoM
+
+*   https://docs.google.com/spreadsheets/d/1-kTZJZ1GAhJ2m4GAIhw1ZdlgO46JpvX0ZQa232VWRmw/edit#gid=2119699907
+
+*   https://dimensions.figshare.com/articles/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063
+
+*	CoronaVirus Tracker
+
+	*	https://github.com/ExpDev07/coronavirus-tracker-api
+
+	*	https://coronavirus-tracker-api.herokuapp.com/v2/locations
+
+	*	https://coronavirus-tracker-api.herokuapp.com/
+
+*	https://github.com/pomber/covid19
+
+	*	https://pomber.github.io/covid19/timeseries.json
+
+*	https://coronavirus-19-api.herokuapp.com/countries
+
+*	https://github.com/NovelCOVID/API
+
+*	https://predictcovid.com/
+
+	*	https://testing.predictcovid.com/
+
+
+## Simulation Formal Models
+
 *	neherlabs
 
 	*	https://neherlab.org/covid19/
 
 	*	https://github.com/neherlab/covid19_scenarios
+
 
 ## Dashboards
 
@@ -94,11 +120,16 @@ corona-covid19.md
 
 *	https://www.unacast.com/covid19/social-distancing-scoreboard
 
+*	https://covid19dashboards.com/
+
 *	https://plague.com/
 
 
 ## Links/References
 
+*	https://www.quora.com/q/coronavirus
+
+*	https://github.com/topics/covid-19?o=desc&s=stars
 
 *	https://www.linkedin.com/pulse/open-research-covid-19-literature-dataset-eric-horvitz/?trackingId=9EdcUY6sRoWRR%2B0NHE7sYQ%3D%3D
 
