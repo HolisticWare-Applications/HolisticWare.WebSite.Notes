@@ -204,6 +204,8 @@ corona-covid19.md
 
 *	https://www.quora.com/q/coronavirus
 
+	*	https://www.weforum.org/agenda/2020/03/a-visual-history-of-pandemics?fbclid=IwAR0g6TUDpk0XG-DU_xPAqrutc8VFB3C859kF5aJQ-W8_7irmPKghwZy-_3U
+
 *	https://github.com/topics/covid-19?o=desc&s=stars
 
 *	https://www.linkedin.com/pulse/open-research-covid-19-literature-dataset-eric-horvitz/?trackingId=9EdcUY6sRoWRR%2B0NHE7sYQ%3D%3D
