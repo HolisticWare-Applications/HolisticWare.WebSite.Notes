@@ -84,6 +84,9 @@ corona-covid19.md
 
 	*	https://testing.predictcovid.com/
 
+*	https://github.com/ieee8023/covid-chestxray-dataset/blob/master/README.md
+
+*	https://www.kaggle.com/search?q=corona
 
 ## Simulation Formal Models
 
@@ -124,8 +127,80 @@ corona-covid19.md
 
 *	https://plague.com/
 
+*	https://covid19dashboards.com/corona-eda/#World-Wide-Totals
 
 ## Links/References
+
+*	https://didtheyhelp.com/category/heroes/
+
+*	3D printers
+
+	*	https://www.thingiverse.com/search?q=covid-19&dwh=255e6e02cf098ba&type=things&sort=relevant
+
+	*	https://www.helpfulengineering.org/
+
+*	repos
+
+	*	https://github.com/helpfulengineering/resources/blob/master/software/proposals/self-monitoring-app-o2.md
+
+	*	Xamarin.Forms
+
+		*	https://github.com/CoVital-Project/CoBuster
+
+*	masks
+
+	*	https://smartairfilters.com/en/blog/best-materials-make-diy-face-mask-virus/
+
+	*	https://www.isinnova.it/easy-covid19-eng/
+
+*   research papers
+
+    *   http://biomed-sanity.com/
+
+    *   https://connect.biorxiv.org/relate/content/181
+
+    *   https://pages.semanticscholar.org/coronavirus-research
+
+    *   https://github.com/gsarti/covid-papers-browser/blob/master/README.md
+
+    *   https://towardsdatascience.com/learning-from-unlabelled-data-with-covid-19-open-research-dataset-cded4979f1cf
+
+*   Atalanta vs Valencia (Milano)
+
+    *   https://nypost.com/2020/03/26/how-a-champions-league-soccer-match-became-a-coronavirus-biological-bomb/
+
+    *   https://www.si.com/soccer/2020/03/25/atalanta-valencia-coronavirus-champions-league-san-siro-milan-italy
+
+    *   https://www.dailymail.co.uk/sport/sportsnews/article-8151075/Coronavirus-Atalanta-v-Valencia-Champions-League-match-biological-bomb.html
+
+    *   https://soccer.nbcsports.com/2020/03/26/coronavirus-uefa-champions-league-atalanta-valencia-bergamo-italy-spain/
+
+    *   https://www.football-espana.net/2020/03/22/atalanta-v-valencia-identified-as-main-source-of-coronavirus-spread-in-italy
+
+    *   https://talksport.com/football/687311/atalanta-valencia-champions-coronavirus-bergamo-mayor/
+
+*   Fauci
+
+    *   https://www.sciencemag.org/news/2020/03/i-m-going-keep-pushing-anthony-fauci-tries-make-white-house-listen-facts-pandemic
+
+*	https://medium.com/@tomaspueyo/coronavirus-act-today-or-people-will-die-f4d3d9cd99ca
+
+*	https://didtheyhelp.com/
+
+*	https://foldingathome.org/category/how-fah-works/
+
+*	https://elemental.medium.com/notes-from-the-epicenter-e194d771056f
+
+*	https://elemental.medium.com/how-much-longer-do-we-have-to-live-like-this-6d2b292090bb
+
+*	https://forge.medium.com/dont-let-quarantinspo-stress-you-out-cebc97b32bb1
+
+*	https://zora.medium.com/solitude-is-a-privilege-too-many-take-for-granted-ba2162b62d95
+
+
+*	https://onezero.medium.com/computer-scientists-are-building-algorithms-to-tackle-covid-19-f4ec40acdba0
+
+*	https://www.vecernji.hr/vijesti/rudan-analiza-stvarnih-uzroka-tragedije-covid-19-u-italiji-i-drugim-zemljama-eu-1389892?fbclid=IwAR2-6LQ4YLOlWo6YwEC_Vn4982q_9EmDcFBD4082R6y5B4SCaMQ60d93_Nk
 
 *	https://www.quora.com/q/coronavirus
 
@@ -140,6 +215,10 @@ corona-covid19.md
 *	https://elemental.medium.com/tests-vaccines-recovery-the-latest-coronavirus-questions-answered-b2ade98317dd
 
 *	https://www.coronavirus.gov/
+
+*	https://forge.medium.com/100-ways-to-not-freak-the-fuck-out-during-isolation-7dd980584d8b
+
+*	https://docs.google.com/document/d/1jol7xlSjkhy3kdIdHc81-KdnoAoYGm2MFFsTJhURUfE/edit
 
 *	https://www.nih.gov/health-information/coronavirus
 
