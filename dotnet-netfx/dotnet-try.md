@@ -10,11 +10,15 @@ dotnet-try.md
 
 *   Xamarin.Workbooks replacement
 
+*   https://devblogs.microsoft.com/dotnet/creating-interactive-net-documentation/
+
 Install:
 
 *   .NET Core 3 preview 2019-06-28
 
+
 ```
-dotnet tool install --global dotnet-try --version 1.0.19317.5
+dotnet tool uninstall --global dotnet-try
+dotnet tool install --global dotnet-try
 ```
 
