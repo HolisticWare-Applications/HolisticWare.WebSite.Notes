@@ -133,12 +133,29 @@ corona-covid19.md
 
 *	https://didtheyhelp.com/category/heroes/
 
+*	https://www.linkedin.com/pulse/open-research-covid-19-literature-dataset-eric-horvitz/?trackingId=9EdcUY6sRoWRR%2B0NHE7sYQ%3D%3D
+
 *	3D printers
 
 	*	https://www.thingiverse.com/search?q=covid-19&dwh=255e6e02cf098ba&type=things&sort=relevant
 
 	*	https://www.helpfulengineering.org/
 
+
+*	contact tracing
+
+	*	https://blog.google/inside-google/company-announcements/apple-and-google-partner-covid-19-contact-tracing-technology
+	
+	*	https://blog.google/documents/55/Android_Contact_Tracing_API.pdf
+
+	*	https://joekent.nyc/contact-tracing
+
+	*	https://twitter.com/moxie/status/1248707315626201088
+
+	*	https://github.com/DP-3T/documents
+
+	*	https://www.researchgate.net/publication/279312824_Location_privacy_without_mutual_trust_the_Spatial_Bloom_Filter
+	
 *	repos
 
 	*	https://github.com/helpfulengineering/resources/blob/master/software/proposals/self-monitoring-app-o2.md
