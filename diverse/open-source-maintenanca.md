@@ -20,3 +20,5 @@ personal side projects. At that point Xamarin.Auth had no official maintainers a
 to sob or to roll up my sleeves and add support for Native UI. Xamarin.Auth is open source
 
 
+*   https://twitter.com/allanritchie911/status/1248940058863902721
+
