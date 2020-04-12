@@ -2,17 +2,37 @@
 
 https://tomassetti.me/parsing-in-csharp/#parseTree
 
-*   Sprache
-
-    https://github.com/sprache/Sprache
-
-    https://stackoverflow.com/questions/tagged/sprache
-
 *   superpower
 
-    https://github.com/datalust/superpower
+    *   https://github.com/datalust/superpower
 
-## Mondaic Parsers
+    *   based on Sprache
+
+    *   faster
+
+    *   https://nblumhardt.com/2016/09/superpower/
+
+*   Sprache
+
+    *   https://github.com/sprache/Sprache
+
+    *   https://stackoverflow.com/questions/tagged/sprache
+
+    *   used in:
+
+        *   EasyNetQ, 
+        
+        *   Octopus Deploy, 
+        
+        *   Seq, 
+        
+        *   OmniXAML
+        
+        *   JetBrains’ Rider IDE.
+
+## Monadic Parsers
+
+*   https://github.com/moljac/Samples.CSharp/blob/master/docs/monadic-parser-combinators.md
 
 *   https://news.ycombinator.com/item?id=14600079
 
@@ -385,16 +405,37 @@ From simple to more complex
 
 ## Diverse
     
-    https://stackoverflow.com/questions/7377344/how-to-write-a-parser-in-c
+*   https://tyrrrz.me/blog/monadic-parser-combinators
 
-    https://tomassetti.me/ebnf/
+    *   JSON
 
-    https://nblumhardt.com/2010/01/building-an-external-dsl-in-c/
+        *   https://github.com/Tyrrrz/DotNetFest2019
 
-    https://nblumhardt.com/2010/01/sprache-c/
+    *   other
+
+        *   HTML
+
+            *   https://github.com/Tyrrrz/LtGt/tree/csharp-sprache
+
+        *   Markdown
+
+            *   https://github.com/Tyrrrz/DiscordChatExporter/blob/master/DiscordChatExporter.Core.Markdown/MarkdownParser.cs
 
 
-    https://tomassetti.me/create-simple-parser-c-sprache/
+*   https://tomassetti.me/parsing-in-csharp/
+
+*   https://tomassetti.me/ebnf/
+
+*   https://tomassetti.me/create-simple-parser-c-sprache/
+
+*   https://stackoverflow.com/questions/7377344/how-to-write-a-parser-in-c
+
+
+*   https://nblumhardt.com/2010/01/building-an-external-dsl-in-c/
+
+*   https://nblumhardt.com/2010/01/sprache-c/
+
+
 
     https://github.com/sprache/Sprache/issues/96
 
