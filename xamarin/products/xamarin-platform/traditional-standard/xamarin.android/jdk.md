@@ -6,6 +6,14 @@ jdk.md
 
 *   Microsoft
 
+*   JetBrains JDK
+
+    *   https://github.com/JetBrains/jdk8u
+
+        *   https://github.com/JetBrains/jdk8u/releases
+
+        *   https://bintray.com/jetbrains/intellij-jbrhttps://bintray.com/jetbrains/intellij-jbr
+        
 *   Amazon Correto
 
     *   https://aws.amazon.com/corretto/

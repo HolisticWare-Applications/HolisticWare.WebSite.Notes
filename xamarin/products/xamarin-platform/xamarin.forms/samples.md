@@ -18,3 +18,10 @@
 
 *   https://github.com/xamarin/app-xamarintv
 
+*   https://github.com/LeomarisReyes/ExoticFruitSample
+
+    *   https://askxammy.com/replicating-exotic-fruits-app-in-xamarin-forms/
+
+*   https://github.com/jsuarezruiz/awesome-xamarin-forms
+
+*   https://github.com/XamSome/awesome-xamarin

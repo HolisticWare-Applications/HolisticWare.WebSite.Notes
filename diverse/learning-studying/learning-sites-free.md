@@ -2,11 +2,18 @@
 
 ßlearning-sites-free.md
 
+## Diverse
+
+*   https://www.youtube.com/user/professormesser
+
+## Publishers
+
 *   Coursera
 
     *   https://www.coursera.org/courses?query=free%20courses
 
     *   https://www.coursera.org/collections/popular-free-courses
+    
     
 *   Udemy
 
