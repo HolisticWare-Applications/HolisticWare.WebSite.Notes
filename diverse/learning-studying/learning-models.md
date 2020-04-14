@@ -1,6 +1,6 @@
 # Lerining Models
 
-Learning Models:
+learning-models.md
 
 *   Mentoring / Coaching
     *   mentor
