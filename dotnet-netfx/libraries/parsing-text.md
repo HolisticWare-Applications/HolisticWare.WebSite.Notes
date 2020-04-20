@@ -12,6 +12,10 @@ https://tomassetti.me/parsing-in-csharp/#parseTree
 
     https://github.com/datalust/superpower
 
+## Compilers
+
+*   https://www.youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y
+
 ## Mondaic Parsers
 
 *   https://news.ycombinator.com/item?id=14600079
