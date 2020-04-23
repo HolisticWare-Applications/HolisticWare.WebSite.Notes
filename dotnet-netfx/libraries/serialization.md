@@ -2,6 +2,11 @@
 
 serialization.md
 
+*   serialization and deserialization
+
+    *   marshalling and unmarshalling
+
+
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/
 
     *   binary
@@ -16,9 +21,11 @@ serialization.md
 
         *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-overview
 
-        *   System.Text.json
+        *   System.Text.Json
 
             *   nuget
+
+            *   .NET Standard 2.0 and later versions
 
 ## Binary
 

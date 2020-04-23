@@ -1,6 +1,5 @@
 # Xamarin
 
-
 Xamarin or better Xamarin Technologies are set of tools aimed for 
 cross-platform development with C# and F# (.net/mono).
 Xamarin Technologies consist of several products (tools/frameworks/IDEs)
@@ -15,3 +14,6 @@ other Xamarin products like Xamarin.UITest, Xamarin.Insights, Xamarin.Profiler,
 Xamarin.Recorder that enable monitoring, testing, profiling apps written with 
 Xamarin stack (but not only)
 Xamarin.University - service for learning
+
+
+*   https://github.com/XamSome/awesome-xamarin

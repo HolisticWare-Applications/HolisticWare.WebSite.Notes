@@ -88,6 +88,10 @@ corona-covid19.md
 
 *	https://www.kaggle.com/search?q=corona
 
+*	https://github.com/owid/covid-19-data/tree/master/public/data/testing
+
+	TODO: add this to ML  samples
+
 ## Simulation Formal Models
 
 *	neherlabs
@@ -130,6 +134,13 @@ corona-covid19.md
 *	https://covid19dashboards.com/corona-eda/#World-Wide-Totals
 
 ## Links/References
+
+*	https://elemental.medium.com/coronavirus-might-attack-the-brain-too-21ea92a39c04
+
+https://www.nationalgeographic.com/science/2020/04/coronavirus-pandemic-is-giving-people-vivid-unusual-dreams-here-is-why/?cmpid=org=ngp::mc=crm-email::src=ngp::cmp=editorial::add=SpecialEdition_20200417&rid=024E5003273278E84D0B93F1044E8D02
+
+https://www.youtube.com/watch?v=bfN2JWifLCY&feature=emb_title
+
 
 *	https://didtheyhelp.com/category/heroes/
 

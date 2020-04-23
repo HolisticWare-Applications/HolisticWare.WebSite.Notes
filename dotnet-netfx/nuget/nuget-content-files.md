@@ -4,39 +4,24 @@ nuget-content-files.md
 
 *   https://blog.nuget.org/20160126/nuget-contentFiles-demystified.html
 
-
-
-
-
-
-
 Nuget Msbuild Build tools
 
 *   https://natemcmaster.com/blog/2017/11/11/build-tools-in-nuget/
 
 
+# ContentFiles
 
+content-files.md
 
+*   https://devblogs.microsoft.com/nuget/nuget-contentfiles-demystified/
 
+sdk style project nuget pack contentfiles
 
-AT&T
-801.971.2836
+*   https://github.com/NuGet/Home/issues/6287
 
-Thank you for visiting PRIMECOMMS - UT SUGARHOUSE in SALT LAKE CITY, UT.
+*   https://github.com/dotnet/project-system/issues/3042
 
-Store Information
-Sales Rep: Robert Wright
-2153 S 700 E, AT&T AUTHORIZED RETAILER, SALT LAKE CITY, UT 84106
-(801) 478-0380
-OM Register: 11
+*   https://natemcmaster.com/blog/2017/07/05/msbuild-task-in-nuget/
 
-MILJENKO C 801-971-2836
-05/10/2019
-
-Description 	Extended Price
-ACTIVATION DEPOSIT 801-971-2836
-	$0.00
-
-
-https://www.truthfinder.com
+*   https://natemcmaster.com/blog/2017/11/11/build-tools-in-nuget/
 

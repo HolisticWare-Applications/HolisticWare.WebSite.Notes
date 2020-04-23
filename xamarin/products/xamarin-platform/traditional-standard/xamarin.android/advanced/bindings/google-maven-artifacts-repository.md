@@ -13,6 +13,7 @@ maven.google.com/ = dl.google.com/dl/android/maven2/
 
     https://dl.google.com/dl/android/maven2/master-index.xml
 
+    https://maven.google.com/com/androidx/group-index.xml
 
 ```
 <com.android.support/>
@@ -58,4 +59,10 @@ POM and JAR files at: maven.google.com/group_path/library/version/library-versio
 
 *   https://stackoverflow.com/questions/47672929/google-play-services-aar-download-for-above-11-0-4?rq=1
 
-*   
+
+
+
+
+*   https://maven.google.com/androidx/work/work-runtime/2.3.4/work-runtime-2.3.4.pom
+
+*   https://dl.google.com/dl/android/maven2/androidx/work/2.3.4/work-runtime-2.3.4.pom

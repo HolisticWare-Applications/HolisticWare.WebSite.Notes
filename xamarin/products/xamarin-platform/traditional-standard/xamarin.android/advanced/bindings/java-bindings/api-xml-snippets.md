@@ -1,6 +1,40 @@
-# api.xml snippets
+# Metadata snippets
 
-api-xml-snippets.md
+metadata-xml-snippets.md
+
+## `add-node`
+
+### `compareTo()`
+
+```
+    <add-node
+        path="/api/package[@name='androidx.media2.exoplayer.external.offline']/class[@name='StreamKey']"
+        >
+        <method 
+            visibility="public" static="false" abstract="false" return="int" name="compareTo" 
+            native="false" synchronized="false"  final="false" deprecated="not deprecated" 
+            >
+            <parameter name="p0" type="java.lang.Object" />
+        </method>
+    </add-node>
+```
+
+### `compare()`
+
+```
+    <add-node
+        path="/api/package[@name='androidx.media2.exoplayer.external.source']/class[@name='ConcatenatingMediaSource']"
+        >
+        <method 
+            visibility="public" static="false" abstract="false" return="int" name="compare" 
+            native="false" synchronized="false" final="false" deprecated="not deprecated" 
+            >
+            <parameter type="java.lang.Object" name="lhs" />
+            <parameter type="java.lang.Object" name="rhs" />
+        </method>
+    </add-node>
+    <add-node
+```
 
 ```
 <metadata>

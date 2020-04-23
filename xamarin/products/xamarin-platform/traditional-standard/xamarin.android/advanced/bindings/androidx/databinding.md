@@ -23,6 +23,8 @@ databinding.md
 
 *	https://developer.android.com/topic/libraries/data-binding/architecture
 
+* https://mvnrepository.com/artifact/com.android.databinding
+
 ```
 android {
     dataBinding {
