@@ -28,9 +28,13 @@ https://tomassetti.me/parsing-in-csharp/#parseTree
         
         *   OmniXAML
         
-        *   JetBrainsâ€™ Rider IDE.
+        *   JetBrains’ Rider IDE.
 
-## Monadic Parsers
+## Compilers
+
+*   https://www.youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y
+
+## Mondaic Parsers
 
 *   https://github.com/moljac/Samples.CSharp/blob/master/docs/monadic-parser-combinators.md
 

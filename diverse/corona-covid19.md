@@ -131,7 +131,11 @@ corona-covid19.md
 
 *	https://plague.com/
 
+*	https://91-divoc.com/pages/covid-visualization/
+
 *	https://covid19dashboards.com/corona-eda/#World-Wide-Totals
+
+*	https://covid19.healthdata.org/projections
 
 ## Links/References
 
