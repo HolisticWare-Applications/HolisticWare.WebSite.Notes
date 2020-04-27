@@ -1,4 +1,0 @@
-# AndroidX Databidning
-
-databinding.md
-
