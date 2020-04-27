@@ -1,0 +1,10 @@
+HolderFragment,AndroidX.Lifecycle.HolderFragment
+BuildConfig,AndroidX.ConstraintLayout.Widget.BuildConfig
+MediaRouteCastDialog,AndroidX.AppCompat.App.MediaRouteCastDialog
+RouteGroup,AndroidX.MediaRouter.Media.MediaRouter.RouteGroup
+MenuWrapperFactory,AndroidX.AppCompat.View.Menu.MenuWrapperFactory
+AsldcInflateDelegate,AndroidX.AppCompat.Widget.AppCompatDrawableManager.AsldcInflateDelegate
+ArrayVariables,AndroidX.ConstraintLayout.Widget.Solver.ArrayVariables
+Additions,Android.Support.Palette.Additions
+SupportActivity,AndroidX.Legacy.App.SupportActivity
+AbstractMultiSelectListPreference,Android.Support.V7.Preference.Internal.AbstractMultiSelectListPreference
