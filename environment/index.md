@@ -1,8 +1,5 @@
-# Cleanup
+# Environment
 
-cleanup.md
+index.md
 
-Windows
-
-https://www.bcuninstaller.com/
-
+Environment setup for development, test and general work.
