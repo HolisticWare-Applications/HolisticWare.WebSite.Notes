@@ -64,6 +64,10 @@ open -a Firefox
 		*    https://www.fuget.org
 
 		*	https://www.nuget.org
+		
+		*	https://nugettoolsdev.azurewebsites.net/
+		
+			*	https://github.com/joelverhagen/NuGetTools
 
 		*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
 
