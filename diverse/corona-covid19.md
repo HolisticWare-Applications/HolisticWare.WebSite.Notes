@@ -92,6 +92,14 @@ corona-covid19.md
 
 	TODO: add this to ML  samples
 
+*	https://aatishb.com/covidtrends/?location=United%20Kingdom&fbclid=IwAR0WbqdsYP773HDjWoQVptyj8m0AZETdb73QrLMsPFPOmxHC1unkWDXh39g
+
+*	https://ourworldindata.org/coronavirus
+
+	TODO: add this to ML  samples
+
+*	https://dev.to/coolasspuppy/analyzing-the-politics-of-covid-19-through-public-data-22fe
+
 ## Simulation Formal Models
 
 *	neherlabs
@@ -100,6 +108,7 @@ corona-covid19.md
 
 	*	https://github.com/neherlab/covid19_scenarios
 
+*	https://github.com/institutefordiseasemodeling/covasim
 
 ## Dashboards
 
@@ -137,14 +146,70 @@ corona-covid19.md
 
 *	https://covid19.healthdata.org/projections
 
+*	https://news.google.com/covid19/map?hl=en-US&gl=US&ceid=US:en
+
+## Apps
+
+https://blog.google/documents/74/Android_Exposure_Notification_API_documentation_v1.3.pdf
+
+
+
 ## Links/References
+
+
+http://open-source-covid-19.weileizeng.com/
+
+https://coronavirusinfections.org/
+
+https://en.wikipedia.org/wiki/BioRxiv
+
+https://en.wikipedia.org/wiki/Sci-Hub
+
+https://en.wikipedia.org/wiki/EMCrit
+
+https://koronavirus.ctk.uni-lj.si/skupnostna-znanost/#tve-jump-170effc626d
+
+https://elemental.medium.com/we-need-to-focus-on-the-worried-well-to-stop-coronavirus-f14bb6e4f547
+
+https://forge.medium.com/why-its-so-exhausting-to-work-from-home-6a28666178e7
+
+https://zora.medium.com/youre-allowed-to-grieve-the-year-that-would-ve-been-84a9b2fb53d
+
+*	https://www.nih.gov/health-information/coronavirus
+
+*	https://www.nationalgeographic.com/history/2020/03/how-cities-flattened-curve-1918-spanish-flu-pandemic-coronavirus/?cmpid=org=ngp::mc=crm-email::src=ngp::cmp=editorial::add=History_20200330&rid=024E5003273278E84D0B93F1044E8D02
+
+*	https://metro.co.uk/2020/04/05/chilling-photos-reveal-new-morgue-built-hold-5000-coronavirus-victims-12513214/?fbclid=IwAR1aLPy31tttOH12aRCt8HSJUyu9K0Lhp9Cxj-ED7q5ZGl9bE_BCsDbV4_E
+
+*	https://elemental.medium.com/an-open-letter-to-our-brothers-and-sisters-in-medicine-d88957d9b982
+
+*	https://gen.medium.com/no-one-should-want-a-return-to-normalcy-a1091120d7d8
+
+*	https://www.index.hr/vijesti/clanak/beros-iz-zadra-apelirao-na-mladje-i-vi-mozete-oboljeti-od-tezeg-oblika-klinicke-slike/2171783.aspx
+
+*	https://www.nytimes.com/2020/04/03/technology/virus-tech-lobbyists-gains.html?partner=IFTTT
+
+*	https://elemental.medium.com/how-the-cystic-fibrosis-miracle-drug-is-playing-out-in-real-life-447de82c6191
+
+*	https://www.healthline.com/health/smallpox-vaccine-scar#procedure
+
+*	https://www.forbes.com/sites/ericmack/2020/03/31/a-vaccine-from-the-1920s-could-help-fight-the-coronavirus-pandemic/#270f99891220
 
 *	https://elemental.medium.com/coronavirus-might-attack-the-brain-too-21ea92a39c04
 
-https://www.nationalgeographic.com/science/2020/04/coronavirus-pandemic-is-giving-people-vivid-unusual-dreams-here-is-why/?cmpid=org=ngp::mc=crm-email::src=ngp::cmp=editorial::add=SpecialEdition_20200417&rid=024E5003273278E84D0B93F1044E8D02
+*	https://www.nationalgeographic.com/science/2020/04/coronavirus-pandemic-is-giving-people-vivid-unusual-dreams-here-is-why/?cmpid=org=ngp::mc=crm-email::src=ngp::cmp=editorial::add=SpecialEdition_20200417&rid=024E5003273278E84D0B93F1044E8D02
 
-https://www.youtube.com/watch?v=bfN2JWifLCY&feature=emb_title
+*	https://www.youtube.com/watch?v=bfN2JWifLCY&feature=emb_title
 
+*	https://hbr.org/2020/03/that-discomfort-youre-feeling-is-grief
+
+*	http://exeuntmagazine.com/features/paradoxes-trying-make-art-pandemic/?fbclid=IwAR1BPRQLiOO8Hinmqs7IdAdgSCbsupHnM6Ktck9PU_je97BBjYw7jjorrT0
+
+*	https://www.chronicle.com/article/Why-You-Should-Ignore-All-That/248366
+
+*	https://forge.medium.com/how-to-strengthen-your-emotional-immune-system-90902b3fb5cc
+
+*	https://www.theguardian.com/world/2020/apr/09/the-cluster-effect-how-social-gatherings-were-rocket-fuel-for-coronavirus
 
 *	https://didtheyhelp.com/category/heroes/
 
