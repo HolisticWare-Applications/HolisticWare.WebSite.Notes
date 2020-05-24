@@ -145,6 +145,18 @@ open -a Firefox
 
 *    https://holisticware-moljac.visualstudio.com/
 
+# MsBuild Extras fix
+
+Needed after installations/updates of .NET core on MacOSX with case sensitive file sytstem:
+
+```
+export VERSION=3.1.201
+sudo mv \
+    /usr/local/share/dotnet/sdk/$VERSION/Sdks/Microsoft.NET.Sdk.WindowsDesktop/targets/Microsoft.WinFx.props \
+    /usr/local/share/dotnet/sdk/$VERSION/Sdks/Microsoft.NET.Sdk.WindowsDesktop/targets/Microsoft.WinFX.props
+```
+
+https://github.com/novotnyllc/MSBuildSdkExtras/issues/224
 
  ## Building maintanined Xamarin repos
 
