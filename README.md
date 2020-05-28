@@ -27,7 +27,21 @@ open -a Firefox
 
 *	Android libraries
 
-	*	https://developers.google.com/android/guides/releases
+	*	AndroidX
+	
+		*	https://developer.android.com/jetpack/androidx/versions
+		
+		*	stable
+		
+			*	https://developer.android.com/jetpack/androidx/versions/stable-channel
+			
+		*	all channels
+		
+			*	https://developer.android.com/jetpack/androidx/versions/all-channel
+
+	*	GPS-FB
+	
+		*	https://developers.google.com/android/guides/releases
 
 	*	https://maven.google.com/web/index.html
 
