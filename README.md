@@ -150,7 +150,7 @@ open -a Firefox
 Needed after installations/updates of .NET core on MacOSX with case sensitive file sytstem:
 
 ```
-export VERSION=3.1.201
+export VERSION=3.1.300
 sudo mv \
     /usr/local/share/dotnet/sdk/$VERSION/Sdks/Microsoft.NET.Sdk.WindowsDesktop/targets/Microsoft.WinFx.props \
     /usr/local/share/dotnet/sdk/$VERSION/Sdks/Microsoft.NET.Sdk.WindowsDesktop/targets/Microsoft.WinFX.props
