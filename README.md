@@ -28,15 +28,19 @@ open -a Firefox
 
 *	Android libraries
 
+	```
 	dotnet tool uninstall 	-g Cake.Tool
 	dotnet tool install 	-g Cake.Tool	
 	dotnet tool uninstall 	-g Xamarin.AndroidBinderator.Tool
 	dotnet tool install 	-g Xamarin.AndroidBinderator.Tool	
-
-	*	AndroidX
+	```
 	
+	*	AndroidX
+		
+		```
 		dotnet tool uninstall 	-g Xamarin.AndroidX.Migration.Tool
 		dotnet tool install 	-g Xamarin.AndroidX.Migration.Tool	
+		```		
 		
 		*	https://developer.android.com/jetpack/androidx/versions
 		
