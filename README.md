@@ -76,6 +76,8 @@ open -a Firefox
 
 *	.NET utilities
 
+    *.  https://sharplab.io/
+    
     *   http://packagesearch.azurewebsites.net/
 
     *   https://apisof.net/
