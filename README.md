@@ -315,6 +315,31 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 
 *   https://github.com/moljac/HolisticWare.WebSite.Notes
 
+### Installations
+
+#### MacOSX
+
+```
+diskutil info -all | grep APFS
+diskutil info /    | grep APFS
+```
+
+Steps:
+
+1. Command+R
+
+2. Reformat disk
+
+
+Prerequisites:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew install git
+git clone --recursive \
+	https://github.com/moljac/bat.git \
+	~/bat
+```
 
 ## Private
 
