@@ -2,6 +2,22 @@
 
 csharp.md
 
+## Online 
+
+*   https://www.tutorialspoint.com/compile_csharp_online.php
+
+*   https://dotnetfiddle.net/
+
+*   https://rextester.com/
+
+*   https://repl.it/languages/csharp
+
+*   https://www.onlinegdb.com/online_csharp_compiler
+
+*   https://www.jdoodle.com/compile-c-sharp-online/
+
+*   https://csharppad.com/
+
 ## Tutorials
 
 *   https://www.learncs.org/
@@ -31,6 +47,15 @@ csharp.md
 
 *   https://www.youtube.com/watch?v=GhQdlIFylQ8
 
+## Exericses / Tests
+
+*   https://www.w3resource.com/csharp-exercises/
+
+*   https://edabit.com/challenges/csharp
+
+*   http://www.pskills.org/csharp.jsp
+
+*   https://www.w3schools.com/cs/cs_exercises.asp
 
 ## Awsome
 
