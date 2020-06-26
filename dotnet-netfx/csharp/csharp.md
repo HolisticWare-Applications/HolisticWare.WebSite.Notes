@@ -40,6 +40,17 @@ csharp.md
 
 *   https://www.javatpoint.com/net-framework
 
+*   https://www.codementor.io/collections/learn-c-sharp-online-bwbavow0y
+
+    *   https://www.homeandlearn.co.uk/csharp/csharp.html
+
+    *   https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/
+
+
+## Courses
+
+*   https://www.edx.org/course/programming-with-c#
+
 
 ### Video Tutorials
 
@@ -56,6 +67,9 @@ csharp.md
 *   http://www.pskills.org/csharp.jsp
 
 *   https://www.w3schools.com/cs/cs_exercises.asp
+
+*   https://devskiller.com/coding-tests-category/net-csharp/
+
 
 ## Awsome
 
