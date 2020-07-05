@@ -8,6 +8,12 @@
 
 ## Publishers
 
+*   MIT OCW (MIT Open CourseWare)
+
+    *   https://ocw.mit.edu/courses/find-by-topic/
+
+        *   https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
+
 *   Coursera
 
     *   https://www.coursera.org/courses?query=free%20courses
