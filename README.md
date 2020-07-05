@@ -5,7 +5,7 @@ Notes in markdown format:
 *   content for HolisticWare website and personal blog before converting to html
 
 
-MSFT:
+poslodavec:
 
 ```
 open -a Safari
@@ -35,6 +35,13 @@ open -a Firefox
 	dotnet tool install 	-g Xamarin.AndroidBinderator.Tool	
 	```
 	
+	*	build
+	
+	```
+	git pull && git clean -xdf && rm -fr ~/.nuget/packages/
+	dotnet cake -t=clean && dotnet cake -t=ci
+	```
+
 	*	AndroidX
 		
 		```
