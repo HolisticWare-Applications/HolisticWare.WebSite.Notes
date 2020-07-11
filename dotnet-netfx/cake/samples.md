@@ -11,3 +11,8 @@ samples.md
 *   https://github.com/Kentico/cloud-articles-examples/blob/master/cloud-structured-rich-text-mvc/Scripts/deploy.cake
 
 *   https://github.com/alphaleonis/Alphaleonis.Reflection.Metadata/blob/master/build.cake
+
+*   https://github.com/cake-contrib/Cake.Board/blob/master/build.cake
+
+*   https://github.com/OctopusDeploy/Calamari/blob/master/build.cake
+
