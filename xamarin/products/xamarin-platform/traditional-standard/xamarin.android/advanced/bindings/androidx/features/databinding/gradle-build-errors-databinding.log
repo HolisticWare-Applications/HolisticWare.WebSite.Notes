@@ -1,0 +1,224 @@
+17:47:57.667 [ERROR] [system.err] Note: processing adapters
+17:47:57.667 [ERROR] [system.err] Note: writing output file for com.example.databindingsample, SETTER_STORE_JSON into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/debug/bundle-bin
+17:47:57.668 [ERROR] [system.err] Note: done writing output file com.example.databindingsample into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/debug/bundle-bin/com.example.databindingsample-setter_store.json
+17:47:57.668 [ERROR] [system.err] Note: creating resource bundle for com.example.databindingsample
+17:47:57.668 [ERROR] [system.err] Note: trying to read class log from /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data_binding_base_class_log_artifact/debug/dataBindingGenBaseClassesDebug/out
+17:47:57.668 [ERROR] [system.err] Note: done reading class log. cools.
+17:47:57.668 [ERROR] [system.err] Note: reading resource bundle into data binder.enable V2: false, layout cnt:0
+17:47:57.668 [ERROR] [system.err] Note: done loading info files into data binding.
+17:47:57.668 [ERROR] [system.err] Note: checking if we have anything to generate. bundle size: 0
+17:47:57.668 [ERROR] [system.err] Note: creating intermediate list from input layouts of /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data_binding_layout_info_type_merge/debug/mergeDebugResources/out
+17:47:57.668 [ERROR] [system.err] Note: found xml file /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data_binding_layout_info_type_merge/debug/mergeDebugResources/out/activity_main-layout.xml
+17:47:57.668 [ERROR] [system.err] Note: done loading info files
+17:47:57.668 [ERROR] [system.err] Note: adding bundle LayoutFileBundle{mHasVariations=false, mDirectory='layout', mConfigName='null', mModulePackage='com.example.databindingsample', mFileName='activity_main'}
+17:47:57.669 [ERROR] [system.err] Note: loaded layout info file LayoutFileBundle{mHasVariations=false, mDirectory='layout', mConfigName='null', mModulePackage='com.example.databindingsample', mFileName='activity_main'}
+17:47:57.669 [ERROR] [system.err] Note: reading resource bundle into data binder.enable V2: true, layout cnt:1
+17:47:57.669 [ERROR] [system.err] Note: adding layout binder ActivityMainBinding
+17:47:57.669 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:47:57.669 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:47:57.669 [ERROR] [system.err] Note: getter return type is java.lang.String
+17:47:57.669 [ERROR] [system.err] Note: getter getTextString returns type java.lang.String, compared to java.lang.String
+17:47:57.669 [ERROR] [system.err] Note: looking methods for setAddress. static only ? false . method count: 1
+17:47:57.669 [ERROR] [system.err] Note: method: setAddress, false
+17:47:57.669 [ERROR] [system.err] Note: looking methods for setAddress. static only ? false . method count: 1
+17:47:57.669 [ERROR] [system.err] Note: method: setAddress, false
+17:47:57.669 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:47:57.670 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:47:57.670 [ERROR] [system.err] Note: looking methods for onButtonClick. static only ? false . method count: 1
+17:47:57.670 [ERROR] [system.err] Note: method: onButtonClick, false
+17:47:57.670 [ERROR] [system.err] Note: looking methods for onButtonClick. static only ? false . method count: 1
+17:47:57.670 [ERROR] [system.err] Note: method: onButtonClick, false
+17:47:57.670 [ERROR] [system.err] Note: resolving multi setters for null
+17:47:57.670 [ERROR] [system.err] Note: resolving multi setters for @+id/name
+17:47:57.670 [ERROR] [system.err] Note: resolving user.name. Resolved class type: com.example.databindingsample.User
+17:47:57.670 [ERROR] [system.err] Note: backing field for method getName is name
+17:47:57.670 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:47:57.670 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.Object
+17:47:57.670 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:47:57.671 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.String
+17:47:57.671 [ERROR] [system.err] Note: resolving multi setters for @+id/email
+17:47:57.671 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:47:57.671 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:47:57.671 [ERROR] [system.err] Note: resolved MultiAttributeSetter{attributes=[android:textAttrChanged], mAdapter=androidx.databinding.adapters.TextViewBindingAdapter#setTextWatcher, mConverters=[null, null, null, null], mCasts=[null, null, null, null], mKey=android.databinding.tool.store.SetterStore$MultiValueAdapterKey@de3e81ff}
+17:47:57.671 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:47:57.671 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.Object
+17:47:57.671 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:47:57.671 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.String
+17:47:57.671 [ERROR] [system.err] Note: resolving multi setters for @+id/button
+17:47:57.671 [ERROR] [system.err] Note: resolving multi setters for null
+17:47:57.671 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:47:57.672 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.Object
+17:47:57.672 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:47:57.672 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.String
+17:47:57.672 [ERROR] [system.err] Note: added ActivityMainBinding
+17:47:57.672 [ERROR] [system.err] Note: done loading info files into data binding.
+17:47:57.672 [ERROR] [system.err] Note: sealing model
+17:47:57.672 [ERROR] [system.err] Note: observable user
+17:47:57.672 [ERROR] [system.err] Note: non-observable handler
+17:47:57.672 [ERROR] [system.err] Note: non-observable activity
+17:47:57.672 [ERROR] [system.err] Note: checking field access expr user.name. getter: Callable{type=METHOD, name='getName', resolvedType=java.lang.String, isDynamic=true, canBeInvalidated=false, static=false, method=AnnotationMethod{mMethod=()java.lang.String, mDeclaringType=com.example.databindingsample.User, mExecutableElement=getName(), mApiLevel=-1}}
+17:47:57.672 [ERROR] [system.err] Note: checking field access expr user.address. getter: Callable{type=METHOD, name='getAddress', resolvedType=java.lang.String, isDynamic=true, canBeInvalidated=true, static=false, method=AnnotationMethod{mMethod=()java.lang.String, mDeclaringType=com.example.databindingsample.User, mExecutableElement=getAddress(), mApiLevel=-1}}
+17:47:57.672 [ERROR] [system.err] Note: notifiable field user.address : 301e40e1 for @user# : 7663f985
+17:47:57.673 [ERROR] [system.err] Note: list of binding expressions
+17:47:57.673 [ERROR] [system.err] Note: [0] user.name
+17:47:57.673 [ERROR] [system.err] Note: [1] user.address
+17:47:57.673 [ERROR] [system.err] Note: writing file androidx.databinding.DataBindingComponent
+17:47:57.673 [ERROR] [system.err] Note: checking if we have anything to generate. bundle size: 1
+17:47:57.673 [ERROR] [system.err] Note: writing file com.example.databindingsample.generated.callback.OnClickListener
+17:47:57.673 [ERROR] [system.err] Note: writing data binder com.example.databindingsample.databinding.ActivityMainBindingImpl
+17:47:57.673 [ERROR] [system.err] Note: readableUniqueName for [142964806] () -> handler.onButtonClick(user.address) is Callback1
+17:47:57.673 [ERROR] [system.err] Note: readableUniqueName for [1341782033] user.address is UserAddress
+17:47:57.673 [ERROR] [system.err] Note: readableUniqueName for [1201769007] user != null is UserJavaLangObjectNull
+17:47:57.673 [ERROR] [system.err] Note: readableUniqueName for [1986263429] user is User
+17:47:57.674 [ERROR] [system.err] Note: checking method api for onClick, class:android/view/View/OnClickListener method:onClick(Landroid/view/View;)V. result: 0
+17:47:57.674 [ERROR] [system.err] Note: readableUniqueName for [608915338] handler is Handler
+17:47:57.674 [ERROR] [system.err] Note: readableUniqueName for [1555046747] activity is Activity
+17:47:57.674 [ERROR] [system.err] Note: readableUniqueName for [2095847929] user.name is UserName
+17:47:57.674 [ERROR] [system.err] Note: readableUniqueName for [807289057] user.address is UserAddress
+17:47:57.674 [ERROR] [system.err] Note: writing executePendingBindings for ActivityMainBindingImpl
+17:47:57.674 [ERROR] [system.err] Note: batch: [user.name, user.address, user]
+17:47:57.674 [ERROR] [system.err] Note: new read now. batch size: 3, readNow size: 1
+17:47:57.674 [ERROR] [system.err] Note: ActivityMainBindingImpl / readWithDependants user
+17:47:57.674 [ERROR] [system.err] Note: flag set:11001  . inherited flags: null. need another if: true
+17:47:57.674 [ERROR] [system.err] Note: ActivityMainBindingImpl / readWithDependants user.name
+17:47:57.675 [ERROR] [system.err] Note: flag set:10001  . inherited flags: 11001 . need another if: true
+17:47:57.675 [ERROR] [system.err] Note: ActivityMainBindingImpl / readWithDependants user.address
+17:47:57.675 [ERROR] [system.err] Note: flag set:11001  . inherited flags: 11001 . need another if: false
+17:47:57.675 [ERROR] [system.err] Note: marked user.name as read 
+17:47:57.675 [ERROR] [system.err] Note: marked handler as read 
+17:47:57.675 [ERROR] [system.err] Note: marked email as read 
+17:47:57.675 [ERROR] [system.err] Note: marked user.address as read 
+17:47:57.675 [ERROR] [system.err] Note: marked user as read 
+17:47:57.675 [ERROR] [system.err] Note: marked name as read 
+17:47:57.675 [ERROR] [system.err] Note: marked activity as read 
+17:47:57.676 [ERROR] [system.err] Note: marked button as read 
+17:47:57.676 [ERROR] [system.err] Note: marked context as read 
+17:47:57.676 [ERROR] [system.err] Note: marked email(android:textAttrChanged) as read 
+17:47:57.676 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:android/widget/Button method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:47:57.676 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:android/widget/TextView method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:47:57.676 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:android/view/View method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:47:57.676 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:java/lang/Object method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:47:57.676 [ERROR] [system.err] Note: merged binding arg: (email(android:textAttrChanged))
+17:47:57.676 [ERROR] [system.err] Note: readableUniqueName for [963240455] user.address is UserAddress
+17:47:57.676 [ERROR] [system.err] Note: readableUniqueName for [2051388033] user != null is UserJavaLangObjectNull
+17:47:57.676 [ERROR] [system.err] Note: readableUniqueName for [1388636382] handler != null is HandlerJavaLangObjectNull
+17:47:57.676 [ERROR] [system.err] Note: writing file com.example.databindingsample.databinding.ActivityMainBindingImpl
+17:47:57.677 [ERROR] [system.err] Note: writing output file for com.example.databindingsample, BR into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/debug/bundle-bin
+17:47:57.677 [ERROR] [system.err] Note: done writing output file com.example.databindingsample into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/debug/bundle-bin/com.example.databindingsample-br.bin
+17:47:57.677 [ERROR] [system.err] Note: ************* Generating BR file com.example.databindingsample. use final: APPLICATION
+17:47:57.677 [ERROR] [system.err] Note: writing file androidx.databinding.library.baseAdapters.BR
+17:47:57.677 [ERROR] [system.err] Note: writing file com.example.databindingsample.BR
+17:47:57.677 [ERROR] [system.err] Note: writing file com.example.databindingsample.DataBinderMapperImpl
+17:47:57.677 [ERROR] [system.err] Note: writing file androidx.databinding.DataBinderMapperImpl
+17:48:08.675 [ERROR] [system.err] Note: processing adapters
+17:48:08.676 [ERROR] [system.err] Note: writing output file for com.example.databindingsample, SETTER_STORE_JSON into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/release/bundle-bin
+17:48:08.676 [ERROR] [system.err] Note: done writing output file com.example.databindingsample into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/release/bundle-bin/com.example.databindingsample-setter_store.json
+17:48:08.676 [ERROR] [system.err] Note: creating resource bundle for com.example.databindingsample
+17:48:08.677 [ERROR] [system.err] Note: trying to read class log from /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data_binding_base_class_log_artifact/release/dataBindingGenBaseClassesRelease/out
+17:48:08.677 [ERROR] [system.err] Note: done reading class log. cools.
+17:48:08.677 [ERROR] [system.err] Note: reading resource bundle into data binder.enable V2: false, layout cnt:0
+17:48:08.677 [ERROR] [system.err] Note: done loading info files into data binding.
+17:48:08.677 [ERROR] [system.err] Note: checking if we have anything to generate. bundle size: 0
+17:48:08.677 [ERROR] [system.err] Note: creating intermediate list from input layouts of /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data_binding_layout_info_type_merge/release/mergeReleaseResources/out
+17:48:08.677 [ERROR] [system.err] Note: found xml file /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data_binding_layout_info_type_merge/release/mergeReleaseResources/out/activity_main-layout.xml
+17:48:08.677 [ERROR] [system.err] Note: done loading info files
+17:48:08.677 [ERROR] [system.err] Note: adding bundle LayoutFileBundle{mHasVariations=false, mDirectory='layout', mConfigName='null', mModulePackage='com.example.databindingsample', mFileName='activity_main'}
+17:48:08.678 [ERROR] [system.err] Note: loaded layout info file LayoutFileBundle{mHasVariations=false, mDirectory='layout', mConfigName='null', mModulePackage='com.example.databindingsample', mFileName='activity_main'}
+17:48:08.678 [ERROR] [system.err] Note: reading resource bundle into data binder.enable V2: true, layout cnt:1
+17:48:08.678 [ERROR] [system.err] Note: adding layout binder ActivityMainBinding
+17:48:08.678 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:48:08.678 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:48:08.678 [ERROR] [system.err] Note: getter return type is java.lang.String
+17:48:08.678 [ERROR] [system.err] Note: getter getTextString returns type java.lang.String, compared to java.lang.String
+17:48:08.678 [ERROR] [system.err] Note: looking methods for setAddress. static only ? false . method count: 1
+17:48:08.678 [ERROR] [system.err] Note: method: setAddress, false
+17:48:08.678 [ERROR] [system.err] Note: looking methods for setAddress. static only ? false . method count: 1
+17:48:08.678 [ERROR] [system.err] Note: method: setAddress, false
+17:48:08.679 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:48:08.679 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:48:08.679 [ERROR] [system.err] Note: looking methods for onButtonClick. static only ? false . method count: 1
+17:48:08.679 [ERROR] [system.err] Note: method: onButtonClick, false
+17:48:08.679 [ERROR] [system.err] Note: looking methods for onButtonClick. static only ? false . method count: 1
+17:48:08.679 [ERROR] [system.err] Note: method: onButtonClick, false
+17:48:08.679 [ERROR] [system.err] Note: resolving multi setters for null
+17:48:08.679 [ERROR] [system.err] Note: resolving multi setters for @+id/name
+17:48:08.679 [ERROR] [system.err] Note: resolving user.name. Resolved class type: com.example.databindingsample.User
+17:48:08.679 [ERROR] [system.err] Note: backing field for method getName is name
+17:48:08.679 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:48:08.679 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.Object
+17:48:08.680 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:48:08.680 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.String
+17:48:08.680 [ERROR] [system.err] Note: resolving multi setters for @+id/email
+17:48:08.680 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:48:08.680 [ERROR] [system.err] Note: resolving user.address. Resolved class type: com.example.databindingsample.User
+17:48:08.680 [ERROR] [system.err] Note: resolved MultiAttributeSetter{attributes=[android:textAttrChanged], mAdapter=androidx.databinding.adapters.TextViewBindingAdapter#setTextWatcher, mConverters=[null, null, null, null], mCasts=[null, null, null, null], mKey=android.databinding.tool.store.SetterStore$MultiValueAdapterKey@de3e81ff}
+17:48:08.680 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:48:08.680 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.Object
+17:48:08.680 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:48:08.680 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.String
+17:48:08.680 [ERROR] [system.err] Note: resolving multi setters for @+id/button
+17:48:08.680 [ERROR] [system.err] Note: resolving multi setters for null
+17:48:08.681 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:48:08.681 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.Object
+17:48:08.681 [ERROR] [system.err] Note: setter parameter type is java.lang.CharSequence
+17:48:08.681 [ERROR] [system.err] Note: setter setText takes type java.lang.CharSequence, compared to java.lang.String
+17:48:08.681 [ERROR] [system.err] Note: added ActivityMainBinding
+17:48:08.681 [ERROR] [system.err] Note: done loading info files into data binding.
+17:48:08.681 [ERROR] [system.err] Note: sealing model
+17:48:08.681 [ERROR] [system.err] Note: observable user
+17:48:08.681 [ERROR] [system.err] Note: non-observable handler
+17:48:08.681 [ERROR] [system.err] Note: non-observable activity
+17:48:08.681 [ERROR] [system.err] Note: checking field access expr user.name. getter: Callable{type=METHOD, name='getName', resolvedType=java.lang.String, isDynamic=true, canBeInvalidated=false, static=false, method=AnnotationMethod{mMethod=()java.lang.String, mDeclaringType=com.example.databindingsample.User, mExecutableElement=getName(), mApiLevel=-1}}
+17:48:08.682 [ERROR] [system.err] Note: checking field access expr user.address. getter: Callable{type=METHOD, name='getAddress', resolvedType=java.lang.String, isDynamic=true, canBeInvalidated=true, static=false, method=AnnotationMethod{mMethod=()java.lang.String, mDeclaringType=com.example.databindingsample.User, mExecutableElement=getAddress(), mApiLevel=-1}}
+17:48:08.682 [ERROR] [system.err] Note: notifiable field user.address : 4c92a112 for @user# : 28a14aa6
+17:48:08.682 [ERROR] [system.err] Note: list of binding expressions
+17:48:08.682 [ERROR] [system.err] Note: [0] user.name
+17:48:08.682 [ERROR] [system.err] Note: [1] user.address
+17:48:08.682 [ERROR] [system.err] Note: writing file androidx.databinding.DataBindingComponent
+17:48:08.682 [ERROR] [system.err] Note: checking if we have anything to generate. bundle size: 1
+17:48:08.682 [ERROR] [system.err] Note: writing file com.example.databindingsample.generated.callback.OnClickListener
+17:48:08.682 [ERROR] [system.err] Note: writing data binder com.example.databindingsample.databinding.ActivityMainBindingImpl
+17:48:08.682 [ERROR] [system.err] Note: readableUniqueName for [873963337] () -> handler.onButtonClick(user.address) is Callback1
+17:48:08.682 [ERROR] [system.err] Note: readableUniqueName for [509659225] user.address is UserAddress
+17:48:08.682 [ERROR] [system.err] Note: readableUniqueName for [609801718] user != null is UserJavaLangObjectNull
+17:48:08.683 [ERROR] [system.err] Note: readableUniqueName for [681659046] user is User
+17:48:08.683 [ERROR] [system.err] Note: checking method api for onClick, class:android/view/View/OnClickListener method:onClick(Landroid/view/View;)V. result: 0
+17:48:08.683 [ERROR] [system.err] Note: readableUniqueName for [1710615985] handler is Handler
+17:48:08.683 [ERROR] [system.err] Note: readableUniqueName for [1025178569] activity is Activity
+17:48:08.683 [ERROR] [system.err] Note: readableUniqueName for [1810189039] user.name is UserName
+17:48:08.683 [ERROR] [system.err] Note: readableUniqueName for [1284677906] user.address is UserAddress
+17:48:08.683 [ERROR] [system.err] Note: writing executePendingBindings for ActivityMainBindingImpl
+17:48:08.683 [ERROR] [system.err] Note: batch: [user.name, user.address, user]
+17:48:08.683 [ERROR] [system.err] Note: new read now. batch size: 3, readNow size: 1
+17:48:08.683 [ERROR] [system.err] Note: ActivityMainBindingImpl / readWithDependants user
+17:48:08.683 [ERROR] [system.err] Note: flag set:11001  . inherited flags: null. need another if: true
+17:48:08.684 [ERROR] [system.err] Note: ActivityMainBindingImpl / readWithDependants user.name
+17:48:08.684 [ERROR] [system.err] Note: flag set:10001  . inherited flags: 11001 . need another if: true
+17:48:08.684 [ERROR] [system.err] Note: ActivityMainBindingImpl / readWithDependants user.address
+17:48:08.684 [ERROR] [system.err] Note: flag set:11001  . inherited flags: 11001 . need another if: false
+17:48:08.684 [ERROR] [system.err] Note: marked user.name as read 
+17:48:08.684 [ERROR] [system.err] Note: marked handler as read 
+17:48:08.684 [ERROR] [system.err] Note: marked email as read 
+17:48:08.684 [ERROR] [system.err] Note: marked user.address as read 
+17:48:08.684 [ERROR] [system.err] Note: marked user as read 
+17:48:08.684 [ERROR] [system.err] Note: marked email(android:textAttrChanged) as read 
+17:48:08.685 [ERROR] [system.err] Note: marked name as read 
+17:48:08.685 [ERROR] [system.err] Note: marked activity as read 
+17:48:08.685 [ERROR] [system.err] Note: marked button as read 
+17:48:08.685 [ERROR] [system.err] Note: marked context as read 
+17:48:08.685 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:android/widget/Button method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:48:08.685 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:android/widget/TextView method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:48:08.685 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:android/view/View method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:48:08.685 [ERROR] [system.err] Note: checking method api for setOnClickListener, class:java/lang/Object method:setOnClickListener(Landroid/view/View/OnClickListener;)V. result: 0
+17:48:08.685 [ERROR] [system.err] Note: merged binding arg: (email(android:textAttrChanged))
+17:48:08.685 [ERROR] [system.err] Note: readableUniqueName for [1261352055] user.address is UserAddress
+17:48:08.685 [ERROR] [system.err] Note: readableUniqueName for [399104191] user != null is UserJavaLangObjectNull
+17:48:08.685 [ERROR] [system.err] Note: readableUniqueName for [1531338868] handler != null is HandlerJavaLangObjectNull
+17:48:08.685 [ERROR] [system.err] Note: writing file com.example.databindingsample.databinding.ActivityMainBindingImpl
+17:48:08.686 [ERROR] [system.err] Note: writing output file for com.example.databindingsample, BR into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/release/bundle-bin
+17:48:08.686 [ERROR] [system.err] Note: done writing output file com.example.databindingsample into /Users/Shared/Projects/tmp/AndroidDataBindingSampleNative-databinding-on/app/build/intermediates/data-binding/release/bundle-bin/com.example.databindingsample-br.bin
+17:48:08.686 [ERROR] [system.err] Note: ************* Generating BR file com.example.databindingsample. use final: APPLICATION
+17:48:08.686 [ERROR] [system.err] Note: writing file androidx.databinding.library.baseAdapters.BR
+17:48:08.686 [ERROR] [system.err] Note: writing file com.example.databindingsample.BR
+17:48:08.686 [ERROR] [system.err] Note: writing file com.example.databindingsample.DataBinderMapperImpl
+17:48:08.686 [ERROR] [system.err] Note: writing file androidx.databinding.DataBinderMapperImpl

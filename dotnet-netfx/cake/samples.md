@@ -16,3 +16,28 @@ samples.md
 
 *   https://github.com/OctopusDeploy/Calamari/blob/master/build.cake
 
+
+## `Startprocess`
+
+```
+StartProcess("dotnet", "tool -g uninstall   Cake.Tool");
+StartProcess("dotnet", "tool -g install     Cake.Tool");
+StartProcess("dotnet", "tool -g uninstall   xamarin.androidbinderator.tool");
+StartProcess("dotnet", "tool -g install     xamarin.androidbinderator.tool");
+StartProcess("dotnet", "tool -g install     xamarin.androidx.migration.tool");
+StartProcess("dotnet", "tool -g uninstall   xamarin.androidx.migration.tool");
+```
+
+## .NET Core
+
+*   https://cakebuild.net/dsl/dotnetcore/
+
+
+## Complex samples
+
+*   https://github.com/DHGMS-Solutions/gripewithroslyn/blob/master/build.cake
+
+*   https://github.com/Capgemini/CoreXPlatform/blob/master/build.cake
+
+*   https://cakebuild.net/api/Cake.Common.Tools.DotNetCore/DotNetCoreAliases
+
