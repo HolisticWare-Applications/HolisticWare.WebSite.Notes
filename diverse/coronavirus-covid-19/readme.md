@@ -114,6 +114,8 @@ corona-covid19.md
 
 *   https://www.worldometers.info/coronavirus/#countries
 
+*	https://rt.live/
+
 *   https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 
 *   https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd
