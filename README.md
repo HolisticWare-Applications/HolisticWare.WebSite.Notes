@@ -58,6 +58,12 @@ open -a Firefox
 		*	all channels
 		
 			*	https://developer.android.com/jetpack/androidx/versions/all-channel
+			
+		*	https://github.com/androidx/androidx
+		
+		*	https://medium.com/androiddevelopers/introducing-jetpack-on-github-c2c9f12e62a9
+		
+		*	https://android-developers.googleblog.com/2020/07/11-weeks-of-android-jetpack.html
 
 	*	GPS-FB
 	
