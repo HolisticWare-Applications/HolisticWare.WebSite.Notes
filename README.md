@@ -187,7 +187,9 @@ open -a Firefox
 
 *    https://holisticware-moljac.visualstudio.com/
 
-# `git` copy-pasta
+
+
+## `git` copy-pasta
 
 ```
 export URL_GIT=https://github.com/xamarin/XamarinComponents.git
@@ -201,7 +203,7 @@ git clone \
     $FOLDER
 ```
 
-# MsBuild Extras fix
+## MsBuild Extras fix
 
 Needed after installations/updates of .NET core on MacOSX with case sensitive file sytstem:
 
