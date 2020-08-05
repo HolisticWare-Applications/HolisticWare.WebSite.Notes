@@ -187,6 +187,20 @@ open -a Firefox
 
 *    https://holisticware-moljac.visualstudio.com/
 
+# `git` copy-pasta
+
+```
+export URL_GIT=https://github.com/xamarin/XamarinComponents.git
+export BRANCH=xplat-ml.kit
+export FOLDER=ML.Kit
+
+git clone \
+    --recursive \
+    --branch $BRANCH \
+    $URL_GIT \
+    $FOLDER
+```
+
 # MsBuild Extras fix
 
 Needed after installations/updates of .NET core on MacOSX with case sensitive file sytstem:
