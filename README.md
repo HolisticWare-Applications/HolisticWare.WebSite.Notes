@@ -91,6 +91,8 @@ open -a Firefox
 
     *.  https://sharplab.io/
     
+    *	https://dotnetfiddle.net/
+    
     *   http://packagesearch.azurewebsites.net/
 
     *   https://apisof.net/
