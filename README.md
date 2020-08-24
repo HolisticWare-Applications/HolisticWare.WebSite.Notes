@@ -4,6 +4,7 @@ Notes in markdown format:
 
 *   content for HolisticWare website and personal blog before converting to html
 
+*	https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/meetings/A-n-O
 
 poslodavec:
 
