@@ -337,6 +337,8 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 
 *   https://github.com/moljac
 
+	*	https://github.com/moljac/moljac
+
 *	https://moljac.github.io
 
 	*	https://github.com/moljac/moljac.github.io
