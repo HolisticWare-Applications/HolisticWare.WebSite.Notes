@@ -130,9 +130,32 @@ androidx-navigation.md
 
 *   Navigation Component Issue Tracker (Non Navigation Editor) → http://bit.ly/2CjXazR
 
+## CodeLab
+
+Overview of Navigation
+The Navigation Component consists of three key parts, working together in harmony. They are:
+
+Navigation Graph (New XML resource) - This is a resource that contains all navigation-related information in one centralized location. This includes all the places in your app, known as destinations, and possible paths a user could take through your app.
+NavHostFragment (Layout XML view) - This is a special widget you add to your layout. It displays different destinations from your Navigation Graph.
+NavController (Kotlin/Java object) - This is an object that keeps track of the current position within the navigation graph. It orchestrates swapping destination content in the NavHostFragment as you move through a navigation graph.
+When you navigate, you'll use the NavController object, telling it where you want to go or what path you want to take in your Navigation Graph. The NavController will then show the appropriate destination in the NavHostFragment.
+
+That's the basic idea. Let's see what this looks like in practice, starting with the new Navigation Graph resource.
+
+Destinations
+The Navigation Component introduces the concept of a destination. A destination is any place you can navigate to in your app, usually a fragment or an activity. These are supported out of the box, but you can also make your own custom destination types if needed.
+
+Navigation Graph
+A navigation graph is a new resource type that defines all the possible paths a user can take through an app. It shows visually all the destinations that can be reached from a given destination. Android Studio displays the graph in its Navigation Editor. Here's part of the starting navigation graph you'll create for your app:
+
 
 ## Xamarin
 
 *   https://forums.xamarin.com/discussion/184628/how-to-use-findnavcontroller-in-xamarin-android-using-androidx#latest
 
 *   https://github.com/xamarin/AndroidX/issues/148
+
+*   
+
+
+
