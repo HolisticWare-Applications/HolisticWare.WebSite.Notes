@@ -2,11 +2,19 @@
 
 ßlearning-sites-free.md
 
+*   https://www.freecodecamp.org/news/free-online-programming-cs-courses/
+
 ## Diverse
 
 *   https://www.youtube.com/user/professormesser
 
 ## Publishers
+
+*   MIT OCW (MIT Open CourseWare)
+
+    *   https://ocw.mit.edu/courses/find-by-topic/
+
+        *   https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/
 
 *   Coursera
 

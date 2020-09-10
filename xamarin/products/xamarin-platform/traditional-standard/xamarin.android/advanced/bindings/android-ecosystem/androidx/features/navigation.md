@@ -129,3 +129,10 @@ androidx-navigation.md
 *   Navigation Editor Issue Tracker → http://bit.ly/2VWvrws
 
 *   Navigation Component Issue Tracker (Non Navigation Editor) → http://bit.ly/2CjXazR
+
+
+## Xamarin
+
+*   https://forums.xamarin.com/discussion/184628/how-to-use-findnavcontroller-in-xamarin-android-using-androidx#latest
+
+*   https://github.com/xamarin/AndroidX/issues/148

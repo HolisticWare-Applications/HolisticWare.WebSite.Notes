@@ -5,4 +5,3 @@
 *   https://www.microsoft.com/net/learn/architecture
 
 *   https://github.com/ardalis/CleanArchitecture
-

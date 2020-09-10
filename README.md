@@ -4,8 +4,9 @@ Notes in markdown format:
 
 *   content for HolisticWare website and personal blog before converting to html
 
+*	https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/meetings/A-n-O
 
-MSFT:
+poslodavec:
 
 ```
 open -a Safari
@@ -25,9 +26,49 @@ open -a Firefox
 
 ### Tools
 
+
 *	Android libraries
 
-	*	https://developers.google.com/android/guides/releases
+	```
+	dotnet tool uninstall 	-g Cake.Tool
+	dotnet tool install 	-g Cake.Tool	
+	dotnet tool uninstall 	-g Xamarin.AndroidBinderator.Tool
+	dotnet tool install 	-g Xamarin.AndroidBinderator.Tool	
+	```
+	
+	*	build
+	
+	```
+	git pull && git clean -xdf && rm -fr ~/.nuget/packages/
+	dotnet cake -t=clean && dotnet cake -t=ci
+	```
+
+	*	AndroidX
+		
+		```
+		dotnet tool uninstall 	-g Xamarin.AndroidX.Migration.Tool
+		dotnet tool install 	-g Xamarin.AndroidX.Migration.Tool	
+		```		
+		
+		*	https://developer.android.com/jetpack/androidx/versions
+		
+		*	stable
+		
+			*	https://developer.android.com/jetpack/androidx/versions/stable-channel
+			
+		*	all channels
+		
+			*	https://developer.android.com/jetpack/androidx/versions/all-channel
+			
+		*	https://github.com/androidx/androidx
+		
+		*	https://medium.com/androiddevelopers/introducing-jetpack-on-github-c2c9f12e62a9
+		
+		*	https://android-developers.googleblog.com/2020/07/11-weeks-of-android-jetpack.html
+
+	*	GPS-FB
+	
+		*	https://developers.google.com/android/guides/releases
 
 	*	https://maven.google.com/web/index.html
 
@@ -49,6 +90,10 @@ open -a Firefox
 
 *	.NET utilities
 
+    *.  https://sharplab.io/
+    
+    *	https://dotnetfiddle.net/
+    
     *   http://packagesearch.azurewebsites.net/
 
     *   https://apisof.net/
@@ -64,6 +109,10 @@ open -a Firefox
 		*    https://www.fuget.org
 
 		*	https://www.nuget.org
+		
+		*	https://nugettoolsdev.azurewebsites.net/
+		
+			*	https://github.com/joelverhagen/NuGetTools
 
 		*	https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
 
@@ -141,6 +190,34 @@ open -a Firefox
 
 *    https://holisticware-moljac.visualstudio.com/
 
+
+
+## `git` copy-pasta
+
+```
+export URL_GIT=https://github.com/xamarin/XamarinComponents.git
+export BRANCH=xplat-ml.kit
+export FOLDER=ML.Kit
+
+git clone \
+    --recursive \
+    --branch $BRANCH \
+    $URL_GIT \
+    $FOLDER
+```
+
+## MsBuild Extras fix
+
+Needed after installations/updates of .NET core on MacOSX with case sensitive file sytstem:
+
+```
+export VERSION=3.1.401
+sudo mv \
+    /usr/local/share/dotnet/sdk/$VERSION/Sdks/Microsoft.NET.Sdk.WindowsDesktop/targets/Microsoft.WinFx.props \
+    /usr/local/share/dotnet/sdk/$VERSION/Sdks/Microsoft.NET.Sdk.WindowsDesktop/targets/Microsoft.WinFX.props
+```
+
+https://github.com/novotnyllc/MSBuildSdkExtras/issues/224
 
  ## Building maintanined Xamarin repos
 
@@ -260,6 +337,8 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 
 *   https://github.com/moljac
 
+	*	https://github.com/moljac/moljac
+
 *	https://moljac.github.io
 
 	*	https://github.com/moljac/moljac.github.io
@@ -270,6 +349,31 @@ https://www.nuget.org/packages?q=HolisticWare.Xamarin.Tools.Bindings.XamarinAndr
 
 *   https://github.com/moljac/HolisticWare.WebSite.Notes
 
+### Installations
+
+#### MacOSX
+
+```
+diskutil info -all | grep APFS
+diskutil info /    | grep APFS
+```
+
+Steps:
+
+1. Command+R
+
+2. Reformat disk
+
+
+Prerequisites:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew install git
+git clone --recursive \
+	https://github.com/moljac/bat.git \
+	~/bat
+```
 
 ## Private
 

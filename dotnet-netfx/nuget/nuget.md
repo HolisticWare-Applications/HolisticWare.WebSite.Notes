@@ -5,6 +5,12 @@
 
 * https://github.com/NuGetPackageExplorer/NuGetPackageExplorer
 
+## Environment Variables
+
+NUGET_PACKAGES environment variable
+
+*   https://docs.microsoft.com/en-us/nuget/reference/nuget-config-file
+
 
 layout a directory structure that follows the NuGet conventions.
 

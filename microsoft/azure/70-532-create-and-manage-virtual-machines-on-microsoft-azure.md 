@@ -1,0 +1,166 @@
+# Pluralsight 70-532 Create and Manage Virtual Machines on Microsoft Azure
+
+70-532-create-and-manage-virtual-machines-on-microsoft-azure.md 
+
+*   https://www.microsoft.com/en-us/learning/exam-70-532.aspx
+
+Exam prep:
+
+*   https://www.microsoft.com/en-us/learning/exam-70-532.aspx
+
+*   Azure VMs
+
+    https://docs.microsoft.com/en-us/azure/virtual-machines/
+
+
+
+## Deploying Azure Virtual Machines
+
+### Storage
+
+    https://azure.microsoft.com/en-us/pricing/details/storage/
+
+    *   disks
+
+        *   unmanaged
+
+        *   managed
+
+            *   unmanaged difficult to maintain with high number of servers (VMs)
+
+    *   Storage Accounts
+
+        *   unique publicly available domain
+
+            `some-host.core.windows.net`
+
+        *   Account Kinds
+
+            *   General Purpose
+
+                *   blobs (vhd, images)
+
+                *   file shares
+
+            *   Blob Storage
+        
+        *   performance
+
+            *   Standard
+
+                for shares
+
+            *   Premium
+            
+                SSD disks
+
+                no shares available
+
+        *   Replication
+
+            *   Locally Redundant Storage LRS - 3 copies in the datacentre
+
+        *   Encryption (on/off)
+
+        *   Secure Transfer (on/off)
+
+        *   Subscription
+
+        *   Resource Group
+
+        *   `vhds` 
+
+            *   Page Blobs for OS and data disks (random access)
+    
+
+
+*   Microsoft server software support for Azure virtual machines
+
+    https://support.microsoft.com/en-us/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines
+
+    *   check unsupported:
+
+        *   DHCP
+
+        *   Hyper-V (Hyper-V role is supported in Azure Ev3, and Dv3 series VMs only)
+
+        *   Rights Management Services
+
+        *   Windows Deployment Services
+
+    *   Windows Server features unsupported:
+
+        *   BitLocker Drive Encryption (on the operating system hard disk, may be used on data disks)
+
+        *   Internet Storage Name Server
+
+        *   Multipath I/O
+
+        *   Network Load Balancing
+
+        *   Peer Name Resolution Protocol
+
+        *   RRAS
+
+        *   DirectAccess
+
+        *   SNMP Services
+
+        *   Storage Manager for SANs
+
+        *   Windows Internet Name Service
+
+        *   Wireless LAN Service
+
+*   Sizes for Wndows virtual machines in Azure
+
+    https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes
+
+    General purpose
+Compute optimized
+Memory optimized
+Storage optimized
+GPU optimized
+High performance compute
+
+
+pricing calc
+
+https://azure.microsoft.com/en-us/pricing/#explore-cost
+
+https://azure.microsoft.com/en-us/pricing/calculator/
+
+
+## Configuration Management, Automation, and Debugging
+
+*   poershell
+
+*   Resource Manager Templates
+
+*   CLI
+
+```
+az --help
+
+az vm create -n linux-ph4ct3x -g Ph4ct3x-Servers-ResourceGroup --image UbuntuLTS ^
+   --generate-ssh-keys --no-wait
+
+```
+
+*   query
+    
+    JamesPath query language for json
+
+    http://jmespath.org/
+
+https://github.com/mikepfeiffer/azure-rm-vm
+
+## Poweshell
+
+https://docs.microsoft.com/en-us/powershell/azure/
+
+Install AzureRM module from Powershell Gallery
+
+```
+Login-AzureRmAccount
+```

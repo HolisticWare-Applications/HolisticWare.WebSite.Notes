@@ -13,5 +13,6 @@
 
 *   https://github.com/natemcmaster/dotnet-tools
 
+*   https://natemcmaster.github.io/dotnet-tools/
 
 
