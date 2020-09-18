@@ -43,5 +43,10 @@ https://amanagrawal.blog/2018/12/30/building-ci-cd-pipeline-with-azuredevops-oct
 [rhel6-x64-build-badge]: https://mseng.visualstudio.com/pipelinetools/_apis/build/status/VSTS.Agent/azure-pipelines-agent.ci?branchName=master&jobname=RHEL6%20Agent%20(x64)
 [build]: https://mseng.visualstudio.com/PipelineTools/_build?_a=completed&definitionId=7502
 
-https://github.com/Microsoft/azure-pipelines-yaml/tree/master/templates/icons/svg
+*   https://github.com/Microsoft/azure-pipelines-yaml/tree/master/templates/icons/svg
+
+
+## Links / References
+
+*   https://github.com/xamarin/yaml-templates/pull/63/files
 
