@@ -41,3 +41,8 @@ artificial-inteligence-and-machine-learning-ai-ml.md
 
 *   https://www.codeproject.com/Articles/179375/Man-Marriage-and-Machine-Adventures-in-Artificia
 
+
+
+
+
+*   https://github.com/loveunk/Deep-learning-books
