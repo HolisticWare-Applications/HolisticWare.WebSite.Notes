@@ -88,3 +88,59 @@ process for a new repo as roughly:
 
 *   https://docs.microsoft.com/azure/devops/pipelines/tasks/package/nuget
 
+*   https://blog.martincostello.com/aspnet-core-pseudo-localization/
+
+
+## Errors and Trouboleshooting
+
+Error:
+
+```
+XliffTasks.targets(91,5): Error : 'Resources.cs.xlf' is out-of-date with 'Resources.resx'. 
+Run `msbuild /t:UpdateXlf` to update .xlf files or set UpdateXlfOnBuild=true to update
+```
+
+Add to `azure-pipelines.yaml` before build:
+
+Windows:
+
+```
+  - task: MSBuild@1
+    displayName: 'Update Xlf'
+    inputs:
+      solution: 'src\Xamarin.Android.Tools.AndroidSdk\Xamarin.Android.Tools.AndroidSdk.csproj'
+      msbuildArguments: '/t:UpdateXlf'
+```
+
+final:
+
+```
+  - task: MSBuild@1
+    displayName: 'Update Xlf'
+    inputs:
+      solution: 'src\Xamarin.Android.Tools.AndroidSdk\Xamarin.Android.Tools.AndroidSdk.csproj'
+      msbuildArguments: '/t:UpdateXlf'
+  - task: MSBuild@1
+    displayName: 'Build solution Xamarin.Android.Tools.sln'
+    inputs:
+      solution: Xamarin.Android.Tools.sln
+```
+
+MacOSX (note `/restore` switch)
+
+```
+  - script: msbuild /restore /t:UpdateXlf src/Xamarin.Android.Tools.AndroidSdk/Xamarin.Android.Tools.AndroidSdk.csproj
+    displayName: 'Update Xlf'
+```
+
+final:
+
+```
+  - script: msbuild /restore /t:UpdateXlf src/Xamarin.Android.Tools.AndroidSdk/Xamarin.Android.Tools.AndroidSdk.csproj
+    displayName: 'Update Xlf'
+  - script: make prepare CONFIGURATION=$(Build.Configuration)
+    displayName: make prepare
+
+  - script: make all CONFIGURATION=$(Build.Configuration)
+    displayName: make all
+```
