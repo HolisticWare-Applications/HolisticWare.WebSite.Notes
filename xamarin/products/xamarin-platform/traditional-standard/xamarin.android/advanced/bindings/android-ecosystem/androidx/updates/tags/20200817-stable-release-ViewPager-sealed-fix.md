@@ -3,14 +3,6 @@
 20200817-stable-release-ViewPager-sealed-fix.md
 
 
-Duplicates:
-
-````
-Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
-Xamarin.AndroidX.Camera.View.1.0.0-alpha08.1.nupkg
-Xamarin.AndroidX.Work.Runtime.2.3.4.3.nupkg
-```
-
 Pushed/published:
 
 ````
@@ -109,6 +101,14 @@ Xamarin.AndroidX.ViewPager2.1.0.0.4.nupkg
 Xamarin.AndroidX.Wear.1.0.0.2.nupkg
 Xamarin.AndroidX.WebKit.1.2.0.2.nupkg
 Xamarin.Google.Android.Material.1.1.0.2-rc3.nupkg
+```
+
+Duplicates:
+
+````
+Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
+Xamarin.AndroidX.Camera.View.1.0.0-alpha08.1.nupkg
+Xamarin.AndroidX.Work.Runtime.2.3.4.3.nupkg
 ```
 
 
