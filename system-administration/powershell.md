@@ -26,3 +26,7 @@ sudo installer \
     -pkg powershell-6.2.3-osx-x64.pkg \
     -target /
 ```
+
+## Links References
+
+*   https://github.com/xamarin/yaml-templates/pull/63/files
