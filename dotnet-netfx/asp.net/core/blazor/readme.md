@@ -32,7 +32,7 @@
 
 *   https://github.com/msdickinson/RollerCoasterMaker/tree/loading_screen_update
 
-    http://www.rollercoastermaker.com/
+*   http://www.rollercoastermaker.com/
 
 *   https://github.com/aspnet/samples/tree/master/samples/aspnetcore/blazor
 
@@ -44,7 +44,7 @@
 
 *   https://github.com/SvenEV/Blazor/tree/xamzor
 
-    http://xamzor.azurewebsites.net/
+*   http://xamzor.azurewebsites.net/
 
 *   https://github.com/SteveSanderson/Blazor
 
@@ -76,11 +76,11 @@
 
 *   https://github.com/torhovland/blazor-realworld-example-app
 
-    https://github.com/torhovland/blazor-realworld-example-app/blob/master/src/BlazorRealworld/wwwroot/index.html
+    *   https://github.com/torhovland/blazor-realworld-example-app/blob/master/src/BlazorRealworld/wwwroot/index.html
 
-    https://blazor-realworld.azurewebsites.net/
+    *   https://blazor-realworld.azurewebsites.net/
 
-    https://github.com/gothinkster/realworld
+    *   https://github.com/gothinkster/realworld
 
 *   https://github.com/agriffard/BlazorTodo
 
@@ -89,6 +89,14 @@
 *   https://github.com/muqeet-khan/BlazorComponents
 
 *   https://github.com/panesofglass/trail
+
+## Books
+
+*   https://devblogs.microsoft.com/aspnet/blazor-aspnet-webforms-ebook/
+
+    *   https://docs.microsoft.com/en-us/dotnet/architecture/blazor-for-web-forms-developers/
+
+    *   https://dotnet.microsoft.com/download/e-book/blazor-for-web-forms-devs/pdf
 
 
 ## Tutorials
