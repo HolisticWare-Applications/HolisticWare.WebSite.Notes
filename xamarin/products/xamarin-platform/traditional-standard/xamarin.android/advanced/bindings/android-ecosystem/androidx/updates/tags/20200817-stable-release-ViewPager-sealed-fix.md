@@ -5,7 +5,7 @@
 
 Pushed/published:
 
-````
+```
 Xamarin.AndroidX.Activity.1.1.0.2.nupkg
 Xamarin.AndroidX.Annotation.1.1.0.2.nupkg
 Xamarin.AndroidX.Annotation.Experimental.1.0.0.2.nupkg
