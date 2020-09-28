@@ -10,7 +10,6 @@ Xamarin.AndroidX.Activity.1.1.0.4.nupkg
 
 Duplicates:
 
-
 ```
 Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.3-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierProvider.1.0.0.3-alpha04.nupkg
