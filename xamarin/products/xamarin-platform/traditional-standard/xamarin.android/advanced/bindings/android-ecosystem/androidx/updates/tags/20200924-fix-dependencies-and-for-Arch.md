@@ -1,16 +1,11 @@
-# 20200925-fix-issue-170-ComponentActivity-missing-interfaces
+# 20200924-fix-dependencies-and-for-ArchTaskExecutor
 
-20200925-fix-issue-170-ComponentActivity-missing-interfaces.md
+20200924-fix-dependencies-and-for-archtaskexecutor.md
 
 Pushed/published:
 
 ```
-Xamarin.AndroidX.Activity.1.1.0.4.nupkg
-```
-
-Duplicates:
-
-```
+Xamarin.AndroidX.Activity.1.1.0.3.nupkg
 Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.3-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierProvider.1.0.0.3-alpha04.nupkg
 Xamarin.AndroidX.Ads.Idetifier.1.0.0.3-alpha04.nupkg
@@ -18,7 +13,6 @@ Xamarin.AndroidX.Annotation.1.1.0.6.nupkg
 Xamarin.AndroidX.Annotation.Experimental.1.0.0.6.nupkg
 Xamarin.AndroidX.AppCompat.1.2.0.4.nupkg
 Xamarin.AndroidX.AppCompat.AppCompatResources.1.2.0.4.nupkg
-Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
 Xamarin.AndroidX.Arch.Core.Common.2.1.0.6.nupkg
 Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.6.nupkg
 Xamarin.AndroidX.AsyncLayoutInflater.1.0.0.5.nupkg
@@ -77,8 +71,6 @@ Xamarin.AndroidX.Media2.Common.1.0.3.5.nupkg
 Xamarin.AndroidX.Media2.Session.1.0.3.5.nupkg
 Xamarin.AndroidX.Media2.Widget.1.0.3.5.nupkg
 Xamarin.AndroidX.MediaRouter.1.1.0.5.nupkg
-Xamarin.AndroidX.Migration.1.0.7.1.nupkg
-Xamarin.AndroidX.Migration.Tool.1.0.7.1.nupkg
 Xamarin.AndroidX.MultiDex.2.0.1.5.nupkg
 Xamarin.AndroidX.Navigation.Common.2.2.2.5.nupkg
 Xamarin.AndroidX.Navigation.Fragment.2.2.2.5.nupkg
@@ -115,5 +107,13 @@ Xamarin.AndroidX.Wear.1.0.0.5.nupkg
 Xamarin.AndroidX.WebKit.1.2.0.5.nupkg
 Xamarin.AndroidX.Work.Runtime.2.3.4.6.nupkg
 Xamarin.Google.Android.Material.1.1.0.5-rc3.nupkg
+```
+
+Duplicates:
+
+```
+Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
+Xamarin.AndroidX.Migration.1.0.7.1.nupkg
+Xamarin.AndroidX.Migration.Tool.1.0.7.1.nupkg
 ```
 
