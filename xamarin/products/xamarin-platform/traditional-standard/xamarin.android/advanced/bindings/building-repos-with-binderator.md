@@ -6,9 +6,15 @@ repos:
 
 *   AndroidX
 
+    *   https://github.com/xamarin/AndroidX
+
     *   Android.Support (legacy)
 
-*   GooglePlayService-Firenbase
+        *   https://github.com/xamarin/AndroidSupportComponents
+
+*   GooglePlayService-Firebase
+
+    *   https://github.com/xamarin/GooglePlayServicesComponents
 
 ## Native artifacts
 
