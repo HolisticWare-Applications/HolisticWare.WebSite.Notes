@@ -10,17 +10,49 @@ repos:
 
 *   GooglePlayService-Firenbase
 
+## Native artifacts
+
+*   AndroidX
+
+    *   https://developer.android.com/jetpack/androidx/versions
+    
+    *   https://developer.android.com/jetpack/androidx/versions/stable-channel
+
+*   GooglePlayServices + Firebase = Google APIs
+
+    *   https://developers.google.com/android/guides/releases
+
+
 ## Prerequisites
 
 Some `dotnet tool`s are needed
 
 1.  Cake
 
+    ```
+    dotnet tool uninstall   -g cake.tool
+    dotnet tool install     -g cake.tool
+    ````
+
 2.  Binderator
+
+    ```
+    dotnet tool uninstall   -g xamarin.androidbinderator.tool 
+    dotnet tool install     -g xamarin.androidbinderator.tool 
+    ```
 
 3.  ApiDiff
 
+    ```
+    dotnet tool uninstall   -g api-tools
+    dotnet tool install     -g api-tools
+    ```
 4.  Migration (AndroidX)
+
+    ```
+    dotnet tool uninstall   -g xamarin.androidx.migration.tool
+    dotnet tool install     -g xamarin.androidx.migration.tool
+    ```
 
 
 To install (reinstall/upgrade) to newest (no versions):
