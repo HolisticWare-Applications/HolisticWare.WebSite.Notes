@@ -2,6 +2,12 @@
 
 binderator.md
 
+*   project location
+
+    *   https://github.com/xamarin/XamarinComponents/tree/master/Util/Xamarin.AndroidBinderator
+
+## Usage
+
 Run binderator:
 
 ```
