@@ -2,6 +2,18 @@
 
 datasets.md
 
+*   https://github.com/awesomedata/awesome-public-datasets
+
+*   https://sites.trinity.edu/osl
+
+*   https://www.freecodecamp.org/news/https-medium-freecodecamp-org-best-free-open-data-sources-anyone-can-use-a65b514b0f2d/
+
+*   https://awesomedataworld.slack.com
+
+*   https://osf.io/
+
+*   https://en.wikipedia.org/wiki/Open_data
+
 *   https://data.mendeley.com/
 
 *   https://toolbox.google.com/datasetsearch/
