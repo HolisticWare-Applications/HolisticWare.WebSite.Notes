@@ -28,7 +28,7 @@ https://tomassetti.me/parsing-in-csharp/#parseTree
         
         *   OmniXAML
         
-        *   JetBrains’ Rider IDE.
+        *   JetBrainsï¿½ Rider IDE.
 
 ## Compilers
 
@@ -71,6 +71,36 @@ From simple to more complex
 *   Query
 
     *   https://github.com/search?l=C%23&q=sprache&type=Repositories
+
+Result 20201018
+
+*   ordered by complexity
+
+    *   Sprache
+
+        *   https://github.com/rossipedia/toml-net/blob/master/toml-net/Parser/TomlGrammar.cs
+
+        *   https://github.com/edamtoft/Calculator
+
+        *   https://github.com/yallie/Sprache.Calc
+
+        *   https://github.com/DamianReeves/CommandLineParser.Sprache
+
+        *   https://github.com/dtarjeft/TruthTable
+
+        *   https://github.com/allisterb/SemverSharp
+
+        *   https://github.com/IanWold/SpracheJSON
+
+        *   https://github.com/IanWold/SpracheDown
+
+        *   https://github.com/yuchiki/YuchiKaml
+
+        *   https://github.com/pmarflee/sprache-stringcalculator
+
+        *   https://github.com/wgross/ODataParser
+
+        *   https://github.com/tintoy/msbuild-expression-parser
 
 Result 20191024
 
