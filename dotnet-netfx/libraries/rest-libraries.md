@@ -12,4 +12,8 @@ rest-libraries.md
 
  https://github.com/letsar/RestLess/blob/master/README.md
 
- 
+## Feather HTTP
+
+*   https://github.com/featherhttp/framework
+
+*   https://github.com/featherhttp/tutorial
