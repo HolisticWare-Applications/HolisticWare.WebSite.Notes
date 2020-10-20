@@ -15,6 +15,9 @@ machine-learning-in-dotnet.md
 
     *   https://github.com/SciSharp/SciSharp-Stack-Examples
 
+*   SciSharpCube
+
+    *   https://github.com/SciSharp/SciSharpCube
 
 *   NumPy
     
