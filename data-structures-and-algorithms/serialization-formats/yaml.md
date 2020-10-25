@@ -15,3 +15,8 @@ yaml.md
     *   https://yaml-online-parser.appspot.com/
 
     *   https://jsonformatter.org/yaml-validator
+
+## Use Cases
+
+*   https://per48.co/blog/julia-read-json-https-nba/
+
