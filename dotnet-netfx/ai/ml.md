@@ -2,21 +2,35 @@
 
 ml.md 
 
-Free Machine Learning datasets from Cambridge Spark. Enjoy.
+Free Machine Learning datasets from Cambridge Spark.
 
-https://blog.cambridgespark.com/50-free-machine-learning-datasets-part-one-government-data-portals-e39524ba601b
+*   https://blog.cambridgespark.com/50-free-machine-learning-datasets-part-one-government-data-portals-e39524ba601b
 
-https://blog.cambridgespark.com/50-free-machine-learning-datasets-part-two-financial-and-economic-datasets-6620274ee593
+*   https://blog.cambridgespark.com/50-free-machine-learning-datasets-part-two-financial-and-economic-datasets-6620274ee593
 
-https://blog.cambridgespark.com/50-free-machine-learning-datasets-sentiment-analysis-b9388f79c124
+*   https://blog.cambridgespark.com/50-free-machine-learning-datasets-sentiment-analysis-b9388f79c124
 
-https://www.springboard.com/blog/free-public-data-sets-data-science-project/
+*   https://www.springboard.com/blog/free-public-data-sets-data-science-project/
 
-
-https://www.youtube.com/watch?v=xC-c7E5PK0Y
-
+*   https://www.youtube.com/watch?v=xC-c7E5PK0Y
 
 
+
+https://mlconf.eu/
+
+
+
+Machine Learning Algorithms For Beginners with Code Examples in Python
+Overview of the major machine learning algorithms for beginners with coding samples in Python. Launch the samples in real-time with Google…
+
+https://medium.com/towards-artificial-intelligence/machine-learning-algorithms-for-beginners-with-python-code-examples-ml-19c6afd60daa
+
+https://www.tutorialspoint.com/machine_learning_with_python/index.htm
+
+
+https://towardsdatascience.com/how-id-learn-data-science-if-i-could-start-over-2-years-in-b821d8a4876c?gi=4f563141ae3b
+
+https://data-flair.training/blogs/python-projects-with-source-code/
 
 
 
