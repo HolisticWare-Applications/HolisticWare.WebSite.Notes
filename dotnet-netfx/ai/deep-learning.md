@@ -8,6 +8,7 @@ deep-learning.md
 
     http://introtodeeplearning.com/#schedule
 
+*   https://course.fullstackdeeplearning.com/
 
 
 ## Datasets
