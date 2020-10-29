@@ -194,6 +194,8 @@ open -a Firefox
 
 ## `git` copy-pasta
 
+repo cloning:
+
 ```
 export URL_GIT=https://github.com/xamarin/XamarinComponents.git
 export BRANCH=xplat-ml.kit
@@ -204,6 +206,28 @@ git clone \
     --branch $BRANCH \
     $URL_GIT \
     $FOLDER
+```
+
+
+repo submodules init/update:
+
+```
+git submodule update --init --recursive
+git submodule update --recursive
+git submodule update --recursive --remote
+git pull --recurse-submodules 
+git submodule foreach git pull origin master
+```
+
+submodule:
+
+```
+cd ./externals/Core.Math.Data/
+git checkout master
+git status
+git add .
+git commit -m "new data 202010"
+git push
 ```
 
 ## MsBuild Extras fix
