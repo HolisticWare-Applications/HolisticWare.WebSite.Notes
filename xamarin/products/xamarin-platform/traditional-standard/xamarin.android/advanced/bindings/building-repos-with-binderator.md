@@ -53,6 +53,11 @@ Some `dotnet tool`s are needed
     dotnet tool uninstall   -g api-tools
     dotnet tool install     -g api-tools
     ```
+
+    ```
+    dotnet tool install --global api-tools --version 1.3.1
+    ```
+
 4.  Migration (AndroidX)
 
     ```
