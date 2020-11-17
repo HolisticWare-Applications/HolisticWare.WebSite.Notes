@@ -1,6 +1,6 @@
-# Exam AZ-900 Microsoft Azure Fundamentals Study Guide
+# Tim Warner Exam AZ-900 Microsoft Azure Fundamentals Study Guide
 
-Tim Warner
+tim-warner-exam-az-900 microsoft-azure-fundamentals-study-guide.md
 
 @TechTrainerTim
 
