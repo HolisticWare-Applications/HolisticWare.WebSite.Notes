@@ -18,4 +18,8 @@ deep-learning-with-tensor-flow.md
 
         *   labels ==  answers
 
-        
+
+
+## Other
+
+*   https://twitter.com/svpino/status/1332918964389863429
