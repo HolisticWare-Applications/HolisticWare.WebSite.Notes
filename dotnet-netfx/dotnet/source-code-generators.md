@@ -10,6 +10,16 @@ source-code-generators.md
 
 *   https://visualstudiomagazine.com/articles/2020/05/12/source-generators.aspx
 
+*   https://blog.codecentric.de/en/2020/09/test-driving-c-source-generators/
+
+*   https://nicksnettravels.builttoroam.com/debug-code-gen/
+
+*   http://dontcodetired.com/blog/post/C-Source-Generators-Less-Boilerplate-Code-More-Productivity
+
+*   https://daveabrock.com/2020/05/08/first-look-c-sharp-generators
+
+*   https://www.techcentral.ie/c-source-generators-to-boost-performance-in-net-5/
+
 *   videos
 
     *   https://www.youtube.com/watch?v=zHYd9o7-wlw&ab_channel=MicrosoftVisualStudio
@@ -19,4 +29,8 @@ source-code-generators.md
     *   https://www.youtube.com/watch?v=3YwwdoRg2F4&ab_channel=dotNET
 
     *   https://www.youtube.com/watch?v=JSFZ3qDx83g&ab_channel=ImmoLandwerth
+
+    https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Source-Generators-in-CSharp
+
+*   https://github.com/iQuarc/Geco
 
