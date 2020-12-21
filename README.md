@@ -6,7 +6,11 @@ Notes in markdown format:
 
 *	https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/meetings/A-n-O
 
-poslodavec:
+## Fast Links
+
+*	https://github.com/xamarin/xamarin-android/issues/5352
+
+## poslodavec
 
 ```
 open -a Safari
