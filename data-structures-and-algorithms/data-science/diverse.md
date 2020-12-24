@@ -1,3 +1,4 @@
+# Diverse
 
 diverse.md
 
@@ -24,8 +25,24 @@ diverse.md
 
 
 
-https://devdiv.visualstudio.com/DevDiv/_wiki/wikis/DevDiv.wiki/1587/Xamarin.Android
 
-https://devdiv.visualstudio.com/DevDiv/_wiki/wikis/DevDiv.wiki/1589/Engineering-Meeting-Notes
 
+Video of interview at the Causal Inference Seminar: 
+
+    *   https://youtube.com/watch?v=hB9xDcumnHY&feature=youtu.be.
+
+
+Reading material:
+
+1. History of Bayes nets:   
+
+    *   https://ucla.in/2Qg0Rfs
+
+2. Data  vs. Science: 
+
+    *   https://ucla.in/3iEDRVo
+
+3. On Machine Learning Research: 
+
+    *   https://ucla.in/32YKcWy
 
