@@ -8,10 +8,13 @@ msbuild-sdk-traversal.md
 
 *   https://xamarin.github.io/mirepoix/articles/traversal-projects-with-solutions.html
 
+*   https://docs.microsoft.com/en-us/visualstudio/msbuild/build-process-overview?view=vs-2019
 
 Usage:
 
 *   replacement for solutions
+
+`Microsoft.Build.Traversal`
 
 `AndroidX.Solution.proj`
 
