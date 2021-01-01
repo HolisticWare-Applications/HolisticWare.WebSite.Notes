@@ -2,12 +2,14 @@
 
 nuget-content-files.md
 
+
 *   https://blog.nuget.org/20160126/nuget-contentFiles-demystified.html
 
 Nuget Msbuild Build tools
 
 *   https://natemcmaster.com/blog/2017/11/11/build-tools-in-nuget/
 
+*   https://blogit.create.pt/gustavobrito/2018/01/12/how-to-add-your-custom-content-files-into-a-nuget-package-for-visual-studio/
 
 # ContentFiles
 
