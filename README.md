@@ -234,7 +234,15 @@ git commit -m "new data 202010"
 git push
 ```
 
-## MsBuild Extras fix
+## MsBuild
+
+### Structured binlog msbuildlog
+
+*	https://live.msbuildlog.com/
+
+*	https://msbuildlog.com/
+
+### Extras fix
 
 Needed after installations/updates of .NET core on MacOSX with case sensitive file sytstem:
 
