@@ -45,6 +45,8 @@
 
 *    crash reporting
 
-     *   Sentry SDK
+    *   Sentry SDK
   
-         *   https://github.com/getsentry/sentry-dotnet-xamarin
+    *   https://github.com/getsentry/sentry-dotnet-xamarin
+
+    *   https://github.com/getsentry/sentry-dotnet
