@@ -42,3 +42,9 @@
     4.  Cache
     
         MonkeyCache
+
+*    crash reporting
+
+     *   Sentry SDK
+  
+         *   https://github.com/getsentry/sentry-dotnet-xamarin
