@@ -13,3 +13,4 @@ xamarin-forms-samples.md
 
 *   https://github.com/shinyorg/shinysamples
 
+*   https://github.com/jamesmontemagno/app-peloton
