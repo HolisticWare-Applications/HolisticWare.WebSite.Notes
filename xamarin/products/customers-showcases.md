@@ -12,3 +12,5 @@ customer-showcases-case-studies.md
 
 *   https://builtwithdot.net/project/119/caledos-runner-for-android
 
+*   https://www.telerik.com/blogs/best-xamarin-forms-app-examples
+
