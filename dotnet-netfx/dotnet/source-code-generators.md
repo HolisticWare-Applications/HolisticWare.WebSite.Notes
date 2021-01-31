@@ -32,5 +32,16 @@ source-code-generators.md
 
     https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Source-Generators-in-CSharp
 
+
+## Samples / Repos
+
+*   https://github.com/ufcpp/StringLiteralGenerator
+
 *   https://github.com/iQuarc/Geco
+
+
+## Links/References
+
+*   https://twitter.com/stuartblang/status/1333155665657933837/photo/1
+
 
