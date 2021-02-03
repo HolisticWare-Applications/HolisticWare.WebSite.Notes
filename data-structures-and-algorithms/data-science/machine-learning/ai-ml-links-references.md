@@ -2,6 +2,12 @@
 
 ai-ml-links-references.md
 
+*   Elements of AI
+
+    *   https://course.elementsofai.com/
+
+    *   https://www.elementsofai.com/
+    
 *   SciKit
 
     *   https://scikit-learn.org/stable/auto_examples/index.html
