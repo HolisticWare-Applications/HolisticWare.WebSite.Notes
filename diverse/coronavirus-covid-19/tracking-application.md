@@ -93,3 +93,6 @@ Google.Play.Services+Firebase Beta program:
 
     *   https://github.com/Covid-19Radar/Covid19Radar
 
+## Stop COVID-19 Croatia
+
+*   https://github.com/Stop-COVID-19-Croatia/stopcovid19-android/blob/master/app/build.gradle
