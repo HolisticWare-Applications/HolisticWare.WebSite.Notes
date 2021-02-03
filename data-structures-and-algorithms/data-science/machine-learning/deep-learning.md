@@ -6,4 +6,9 @@ deep-learning.md
 
 *   https://www.freecodecamp.org/news/learn-deep-learning-from-the-president-of-kaggle/
 
-*   https://course.fullstackdeeplearning.com/
+*   Full stack Deep Learning
+
+    *   https://course.fullstackdeeplearning.com/
+
+    *   https://fall2019.fullstackdeeplearning.com/
+
