@@ -46,6 +46,8 @@ csharp.md
 
     *   https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/
 
+*   https://dotnettutorials.net/course/csharp-dot-net-tutorials/
+
 
 ## Courses
 
@@ -57,6 +59,10 @@ csharp.md
 *   https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners
 
 *   https://www.youtube.com/watch?v=GhQdlIFylQ8
+
+*   Dev Apps
+
+    *   https://www.youtube.com/channel/UCNv-ayYLnyEk3zhVkf_wa5A
 
 ## Exericses / Tests
 
