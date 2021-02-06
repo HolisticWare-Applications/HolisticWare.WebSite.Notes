@@ -27,6 +27,7 @@ serialization.md
 
             *   .NET Standard 2.0 and later versions
 
+        *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to?pivots=dotnet-5-0
 ## Binary
 
 *   Avro (Apache)
