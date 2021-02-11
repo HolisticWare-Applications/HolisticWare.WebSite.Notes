@@ -8,6 +8,18 @@ ai-ml-links-references.md
 
     *   https://www.elementsofai.com/
     
+*   Awsome ML
+
+    *   https://github.com/dair-ai/awesome-ML-projects-guide
+    
+*   AI Business School
+
+    *   https://www.microsoft.com/en-us/ai/ai-business-school
+
+*   Data Science Project Example Start to Finish (Deep Learning Image Classifier)
+
+    *   https://www.youtube.com/watch?v=vy-R4oUZaC8&ab_channel=KenJee
+
 *   SciKit
 
     *   https://scikit-learn.org/stable/auto_examples/index.html
