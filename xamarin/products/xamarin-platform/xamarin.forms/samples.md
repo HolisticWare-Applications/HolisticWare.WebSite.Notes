@@ -18,3 +18,4 @@ samples.md
     *   https://github.com/facebook/shimmer-android
 
     *   https://facebook.github.io/shimmer-android/
+
