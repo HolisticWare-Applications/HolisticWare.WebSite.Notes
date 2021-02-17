@@ -10,7 +10,15 @@
 
 	*	https://www.xamarinpodcast.com/76
 
+*	Behind the Tech with Kevin Scott
+
+	*	https://www.microsoft.com/en-us/behind-the-tech
+
 ## Videos
+
+*	.NET Forntend day
+
+	*	https://www.dotnet-frontend.com/recordings
 
 ### Xamarin
 
