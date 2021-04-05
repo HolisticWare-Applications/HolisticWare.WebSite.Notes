@@ -425,6 +425,7 @@ java code:
 
 ## Native shared c/c++
 
-http://developer.xamarin.com/guides/android/advanced_topics/using_native_libraries/
-https://developer.xamarin.com/samples/monodroid/SanAngeles_NDK/
+*	http://developer.xamarin.com/guides/android/advanced_topics/using_native_libraries/
+
+*	https://developer.xamarin.com/samples/monodroid/SanAngeles_NDK/
  	
