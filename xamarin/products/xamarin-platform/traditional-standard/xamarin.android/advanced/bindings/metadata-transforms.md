@@ -1,6 +1,35 @@
 # Xamarin.Android Binding Metadata Transforms
 
 
+```
+	<remove-node path="/api/package/class[@visibility='']" />
+	<remove-node path="/api/package/interface[@visibility='']" />
+	<remove-node path="/api/package/class[@deprecated='deprecated']" />
+	<remove-node path="/api/package/interface[@deprecated='deprecated']" />
+	<remove-node path="/api/package/class/method[@deprecated='deprecated']" />
+	<remove-node path="/api/package/interface/method[@deprecated='deprecated']" />
+```
+
+
+
+issue with this binding, not sure how to resolve it.
+In MotionLayout there are 2 Methods (AddTransitionListener and SetTransitionListener) using interface ITransitionListener
+and in region Event implementation for Android.Support.Constraints.Motion.MotionLayout.ITransitionListener there are two implemenatation of ITransitionListener interface so we have error that MotionLayout already contains definition for interface methods....
+We can remove one of methods (AddTransitionListener and SetTransitionListener) and it will work but that is not good solution. Do you have idea how to fix it? or it is maybe Xamarin.Android bug?
+
+I also find simular issue https://forums.xamarin.com/discussion/85194/android-binding-library-question
+
+
+So the add/remove are the better options to keep, so we can do things to the set.
+
+I believe there is an "eventName" thing you can set to a blank string that might prevent the event generation.
+
+```
+<attr path="xxx" name="eventName"></attr>
+```
+
+
+
 Brendan Zagaeski
 
 https://gist.github.com/brendanzagaeski/9607158
@@ -23,6 +52,7 @@ Causes:
 	OSmDroid
 	DeskCase-194166-XamarinAndroidBindings 
 
+```
 	<!--
 	Com.Microsoft.Onlineid.Sts.Request.ServiceRequest.cs(85,85): 
 	Error CS0533: 
@@ -59,12 +89,12 @@ Causes:
 		>
 		Com.Microsoft.Onlineid.Internal.Configuration.AbstractSettings.Editor
 	</attr>
-	
+```	
 	
 	
 ## Add XML node with add-node
 
-
+```
   <add-node
   	path="/api/package[@name='com.microsoft.onlineid.internal.sso.client.request']/class[@name='GetAccountByIdRequest']"
   	>
@@ -74,7 +104,7 @@ Causes:
 			>
 		</method>
   </add-node>
-
+```
 
 
 
