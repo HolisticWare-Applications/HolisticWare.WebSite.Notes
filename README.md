@@ -28,6 +28,8 @@ open -a Firefox
 
 ## Links References
 
+*	https://github.com/xamarin/xamarin-android/issues/5352
+
 ### Tools
 
 
