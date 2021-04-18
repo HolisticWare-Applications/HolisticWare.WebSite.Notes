@@ -2,24 +2,26 @@
 
 azure-mobile-apps.md
 
-*   Azure Mobile Apps do you use today?
+*   https://devblogs.microsoft.com/xamarin/azure-mobile-apps-updates/
 
-Authentication with a social provider (Facebook, Google, Twitter, MSA)
+*   Azure Mobile Apps
 
-Authentication with Azure Active Directory
+    *   Authentication with a social provider (Facebook, Google, Twitter, MSA)
 
-Typed Tables (using a model class)
+    *   Authentication with Azure Active Directory
 
-Untyped Tables (using a JSON related class)
+    *   Typed Tables (using a model class)
 
-Online tables accessed with a LINQ query
+    *   Untyped Tables (using a JSON related class)
 
-Offline sync of the entire dataset
+    *   Online tables accessed with a LINQ query
 
-Offline sync of a subset of data using a LINQ query
+    *   Offline sync of the entire dataset
 
-Push registration
+    *   Offline sync of a subset of data using a LINQ query
 
-Service API calls
+    *   Push registration
+
+    *   Service API calls
 
 
