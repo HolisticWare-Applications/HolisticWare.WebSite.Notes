@@ -19,3 +19,10 @@ samples.md
 
     *   https://facebook.github.io/shimmer-android/
 
+*   Animal Crossing Turnip Tracking Mobile App - Profile UI
+
+    *   https://github.com/jamesmontemagno/app-ac-islandtracker
+
+    *   https://www.youtube.com/watch?v=9stVw94qBrg&ab_channel=JamesMontemagno
+
+    *   https://youtu.be/9stVw94qBrg?t=346
