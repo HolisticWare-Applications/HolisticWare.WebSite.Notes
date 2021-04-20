@@ -6,11 +6,13 @@ xamarin-essentials.md
 
 *   https://github.com/xamarin/Essentials
 
+    *   Accelerometer
+  
+        *   Retrieve acceleration data of the device in three dimensional space.
+    
+    *   App Actions – Get and set shortcuts for the application.
 
-    Accelerometer – Retrieve acceleration data of the device in three dimensional space.
-    App Actions – Get and set shortcuts for the application.
-
-        https://docs.microsoft.com/en-us/xamarin/essentials/app-actions
+        https://docs.microsoft.com/en-us/xamarin/essentials/app-actions 
         
         https://www.youtube.com/watch?v=FX5CUUyXg_Q
 
