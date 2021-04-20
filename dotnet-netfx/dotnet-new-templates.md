@@ -185,7 +185,92 @@ done
 
 
 
+create a dotnet template
+
+https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new
+
+https://dotnetnew.azurewebsites.net/Search/holisticware
+
+https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
+
+## Item Template
+
+*   https://docs.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template
+
+```
+mkdir tests
+mkdir source
+mkdir source/templates
+cd    source/templates
+```
+
+An item template is a specific type of template that contains one or more files
+
+
+
+When you create a template, all files and folders in the template folder are included as part of the 
+template except for the special config folder. This config folder is named .template.config.
+
+First, create a new subfolder named .template.config, enter it. Then, create a new file named template.json. 
+Folder structure should look like this:
+
+```
+mkdir .template.config
+# touch .template.config/template.json
+echo \
+"
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "HolisticWare/Xamarin/Microsoft moljac Miljenko Mel Cvjetko",
+    "classifications":
+        [
+            // Tags used to search for the template.
+            "Common",
+            "Code",
+            "Custom Templates",
+            "Xamarin",
+            "HolisticWare",
+            "Cross Platform",
+            "xplat"
+        ],
+    "groupIdentity": "HolisticWare.Tools.ItemTemplates",
+    "name": "Custom template for Cake script with debugging support",
+    // A unique ID for the project template.
+    "identity": "HolisticWare.DotNetNew.Cake.Script.Debugging.CSharp",
+    // for commandline project creation
+    "shortName": "hw-cake",
+    "tags": 
+    {
+        "language": "C#",
+        "type": "item"
+    }
+}
+" \
+>>  .template.config/template.json
+cat .template.config/template.json
+
+```
+
+
+*   https://docs.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-project-template
+
+*   https://docs.microsoft.com/en-us/dotnet/core/tools/custom-templates
+
+*   https://devblogs.microsoft.com/dotnet/how-to-create-your-own-templates-for-dotnet-new/
+
+*   https://www.infoq.com/articles/dotnet-core-template-engine/
+
+*   https://weblog.west-wind.com/posts/2020/Oct/05/Creating-a-dotnet-new-Project-Template
+
+*   https://www.telerik.com/blogs/create-your-own-net-core-templates-in-4-easy-steps
+
+*   https://github.com/dotnet/dotnet-template-samples
+
+*   https://automationrhapsody.com/create-project-for-net-core-custom-template/
 
 
 
 
+*   https://www.youtube.com/watch?v=GDNcxU0_OuE&ab_channel=MicrosoftVisualStudio
+
+*   https://channel9.msdn.com/Shows/Code-Conversations/Sayed-Hashimi-on-Open-Source-NET-Core-Project-Templates
