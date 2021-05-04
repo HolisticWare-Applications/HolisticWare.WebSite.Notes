@@ -58,7 +58,9 @@ maui-multi-platform-app-ui.md
 
 *   https://devblogs.microsoft.com/xamarin/decembers-community-standup-dotnet-maui-update/
 
-    *   https://www.youtube.com/watch?v=5bK2ICHtMxo&ab_channel=XamarinDevelopers
+    *   Xamarin Community Standup - .NET MAUI Update!
+    
+        *   https://www.youtube.com/watch?v=5bK2ICHtMxo&ab_channel=XamarinDevelopers
 
 *   .NET MAUI: Is Your Dev Machine Ready? 💉
 
@@ -68,6 +70,43 @@ maui-multi-platform-app-ui.md
 
     *   https://www.youtube.com/watch?v=fPEdgXeqhE4&ab_channel=dotNET
 
+    *   https://channel9.msdn.com/Events/dotnetConf/Focus-on-Windows/The-Future-of-Native-Apps-Development-in-NET-6
+
 *   .NET MAUI Handlers | MonkeyFest USA 2020
     
     *   https://www.youtube.com/watch?v=Hfhy_zrVPbI&ab_channel=XamarinDevelopers
+
+*   dotNET Dev Show: Exploring .NET 6 Preview 2 & .NET MAUI
+
+    *   https://www.youtube.com/watch?v=yjfNiQCaj6g&ab_channel=ProgressTelerik
+
+*   Build native apps for any device with .NET | BOD107
+
+    *   https://www.youtube.com/watch?v=rsO458GwLFg&ab_channel=MicrosoftDeveloper
+
+*   .NET MAUI - Indy .NET Consortium
+
+    *   https://www.youtube.com/watch?v=akSpigi_15k&ab_channel=AuriRahimzadeh
+
+*   .NET MAUI - The Next Step for Write Once Run Anywhere - Indy Xamarin Meetup
+
+    *   https://www.youtube.com/watch?v=gpWzRrlZBpY&ab_channel=AuriRahimzadeh
+
+*   .NET MAUI Preview 3 Update: Windows and Lifecycle Events
+
+    *   https://www.youtube.com/watch?v=W6wNX4ECVFY&ab_channel=GeraldVersluis
+
+*   Xamarin vs MAUI: The .NET Show with Carl Franklin ep 1
+
+    *   https://www.youtube.com/watch?v=EGR-7ft34sM&ab_channel=DevExpress
+
+*   James Clancey - .NET MAUI MVU - XamExpertDay 2020
+
+    *   https://www.youtube.com/watch?v=9kwrgm_-FCk&ab_channel=GeraldVersluis
+
+*   Xamarin, MAUI and the reactive MVVM between them
+
+    *   https://blog.jetbrains.com/dotnet/2020/09/18/xamarin-maui-and-the-reactive-mvvm-between-them-webinar-recording/
+
+*   https://www.telerik.com/blogs/sands-of-maui-issue-3
+
