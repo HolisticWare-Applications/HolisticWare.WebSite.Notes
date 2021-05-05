@@ -85,3 +85,29 @@ ai-ml-links-references.md
 *   Foundations of Probabilistic Programming
 
     *   https://www.cambridge.org/core/books/foundations-of-probabilistic-programming/819623B1B5B33836476618AC0621F0EE
+
+
+    *   https://www.reddit.com/r/MachineLearning/
+
+    *   https://boringdatascience.com/
+
+    *   https://twolodzko.github.io/ml-checklist
+
+    *   https://github.com/visenger/awesome-mlops
+
+    *   https://brilliant.org/
+
+1. Ensure you can trace the deployed model back to the data that trained it. Model & data metadata is a must
+
+2. Discuss with the team how solving a "model bug" is different from solving normal software bugs. Usually 
+   more effort
+
+3. Benchmark your models inference speed (training speed != Inf speed and most places report training speed)
+
+4. Talk to your UX team about model failures and how that impact user experience and how can design and good 
+   copy help with that
+
+5. Ensure business understands the metrics you're using - in fact, cose and report on a metric that allows 
+   them to make trade offs. E.g. ROC curves over accuracy give business more control (3/n)
+
+
