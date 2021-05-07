@@ -8,6 +8,18 @@ maui-multi-platform-app-ui.md
 
     *   https://github.com/dotnet/maui.git
 
+*   https://github.com/dotnet/net6-mobile-samples
+
+*   https://github.com/redth/dotnet-maui-check
+
+```
+dotnet tool uninstall -g redth.net.maui.check 
+dotnet tool   install -g redth.net.maui.check 
+maui-check
+```
+
+## Links / References
+
 *   https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/
 
 *   https://devblogs.microsoft.com/dotnet/announcing-net-multi-platform-app-ui-preview-3/
@@ -110,3 +122,6 @@ maui-multi-platform-app-ui.md
 
 *   https://www.telerik.com/blogs/sands-of-maui-issue-3
 
+https://www.youtube.com/watch?v=A2sXj9S5FXQ&ab_channel=GeraldVersluis
+
+https://www.dylanberry.com/category/dotnet-maui/
