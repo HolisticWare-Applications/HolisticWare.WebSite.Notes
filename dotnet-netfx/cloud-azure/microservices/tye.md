@@ -53,41 +53,41 @@ mkdir microservices
 cd microservices
 ```
 
-Create a frontend project:
+Create a frontend project with razor:
 
 ```
 dotnet new \
     razor \
-    -n frontend-razor
+    -n ph4ct3x-frontend-razor
 ```
 
 Run this new project with tye command line:
 
 ```
 tye run \
-    frontend
+    ph4ct3x-frontend-razor
 ```
 
 
 ```
 dotnet new \
     webapi \
-    -n backend-webapi
+    -n ph4ct3x-backend-webapi
 
 dotnet new \
     grpc \
-    -n backend-grpc
+    -n ph4ct3x-backend-grpc
 
 ```
 
 ```
 dotnet new \
     blazorserver \
-    -n frontend-blazorserver
+    -n ph4ct3x-frontend-blazorserver
 
 dotnet new \
     blazorwasm \
-    -n frontend-wasm
+    -n ph4ct3x-frontend-blazorwasm
 ```    
 
 
@@ -96,9 +96,10 @@ Create a solution file and add both projects
 ```
 dotnet new sln
 dotnet sln add \
-    frontend-razor \
-    frontend-blazorserver \
-    frontend-blazorwasm \
-    backend
+    ph4ct3x-frontend-razor \
+    ph4ct3x-frontend-blazorserver \
+    ph4ct3x-frontend-blazorwasm \
+    ph4ct3x-backend-webapi \
+    ph4ct3x-backend-grpc
 ```
 
