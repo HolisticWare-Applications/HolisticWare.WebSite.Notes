@@ -110,4 +110,7 @@ ai-ml-links-references.md
 5. Ensure business understands the metrics you're using - in fact, cose and report on a metric that allows 
    them to make trade offs. E.g. ROC curves over accuracy give business more control (3/n)
 
+*   Harvard - Data Science and Machine Learning
+
+    *   https://online-learning.harvard.edu/course/data-science-machine-learning?delta=2
 
