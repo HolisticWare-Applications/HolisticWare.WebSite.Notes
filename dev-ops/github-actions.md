@@ -14,6 +14,11 @@ github-actions.md
     *   https://github.com/sdras/awesome-actions
 
 
+*   https://devopsjournal.io/blog/2019/10/26/Deploy-dotnetcore-webapp-with-GitHub-Actions
+
+*   https://timheuer.com/blog/building-net-framework-apps-using-github-actions/
+
+
 ## Badges
 
 ```
