@@ -200,9 +200,31 @@ Detailed:
 
 #### Further Investigation
 
+ps1 scripts in `tools/` folder
+
 ```
 WARNING: NU5110: The script file '_Placeholder_.XamarinAndroid.Maven.Bindings/scripts/run-all.ps1' is outside the 'tools' folder and hence will not be executed during installation of this package. Move it into the 'tools' folder.
 WARNING: NU5110: The script file '_Placeholder_.XamarinAndroid.Maven.Bindings/scripts/nugethoblaster/nugethoblaster.ps1' is outside the 'tools' folder and hence will not be executed during installation of this package. Move it into the 'tools' folder.
 WARNING: NU5110: The script file '_Placeholder_.XamarinAndroid.Maven.Bindings/scripts/binderate/binderate.ps1' is outside the 'tools' folder and hence will not be executed during installation of this package. Move it into the 'tools' folder.
 WARNING: NU5111: The script file '_Placeholder_.XamarinAndroid.Maven.Bindings/scripts/run-all.ps1' is not recognized by NuGet and hence will not be executed during installation of this package. Rename it to install.ps1, uninstall.ps1 or init.ps1 and place it directly under 'tools'.
 ```
+
+*   nugets
+        
+    *   Microsoft.TemplateEngine.Cli
+        
+        *   https://www.nuget.org/packages/Microsoft.TemplateEngine.Cli/
+        
+        *   dependencies
+        
+            *   Microsoft.DotNet.Cli.CommandLine
+            
+                *   https://www.nuget.org/packages/Microsoft.DotNet.Cli.CommandLine/
+            
+                *   404 - not listed
+
+            *   Microsoft.DotNet.TemplateLocator
+            
+                *   https://www.nuget.org/packages/Microsoft.DotNet.TemplateLocator/
+            
+                *   404 - not listed
