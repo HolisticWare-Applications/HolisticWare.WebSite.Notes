@@ -6,7 +6,9 @@ https://www.nuget.org/
 
 and `dotnetnew` site where lists of templates can be found:
 
-http://dotnetnew.azurewebsites.net/
+*   https://dotnetnew.azurewebsites.net/
+
+    *   http://dotnetnew.azurewebsites.net/
 
 
 ## HolisticWare `dotnet new` template for common filesystem (folder) structure
@@ -140,10 +142,31 @@ $HOME/.templateengine/dotnetcli/v2.0.0/templatecache.json
 
 ## Problems observed
 
+```
     # nuget restore invalid version errors
     dotnet new .
     # OK
     dotnet new ./
+```
+
+## Structure
+
+*   folder `.template.config`
+
+    *   `template.json`
+
+    *   hosts
+
+        dotnet new is that it’s designed to be used from multiple hosts.
+
+        *   `dotnetcli.host.json`
+
+        *   `vs-2017.3.host.json`
+
+    *   visual studio `New project`
+
+        *   `icon.png`
+
 
 ## Links / References
 
@@ -155,11 +178,35 @@ $HOME/.templateengine/dotnetcli/v2.0.0/templatecache.json
 
 *   https://github.com/dotnet/docs/blob/master/docs/core/tools/dotnet-new.md
 
+*   https://devblogs.microsoft.com/dotnet/how-to-create-your-own-templates-for-dotnet-new/
+
+*   https://talkwithangel.com/creating-your-own-xamarin-projects-templates-using-net-cli/
+
+*   http://leruplund.dk/2017/10/28/creating-your-own-visual-studio-project-template/
+
+*   https://medium.com/shakuro/templating-projects-on-net-core-3a3d26cb1303
+
+*   https://rehansaeed.com/dotnet-new-feature-selection/
+
+*   https://www.jerriepelser.com/blog/tips-for-developing-dotnet-new-templates/
+
+*   https://stackoverflow.com/questions/60056191/add-optional-content-in-dotnet-new-templates-in-non-c-sharp-files
+
+*   https://automationrhapsody.com/create-project-for-net-core-custom-template/
+
+*   https://rehansaeed.com/dotnet-new-feature-selection/
+
+    *   https://rehansaeed.com/tag/dotnet-new/
+
+*   https://weblog.west-wind.com/posts/2020/Oct/05/Creating-a-dotnet-new-Project-Template
+
+*   https://developpaper.com/create-your-own-net-core-project-template/
+
 Detailed:
 
 *   https://github.com/dotnet/templating/wiki/Reference-for-template.json
 
-*   https://github.com/dotnet/templating/wiki/%22Runnable-Project%22-Templates
+s*   https://github.com/dotnet/templating/wiki/%22Runnable-Project%22-Templates
 
 *   https://www.jerriepelser.com/blog/tips-for-developing-dotnet-new-templates/
 
@@ -175,6 +222,58 @@ Detailed:
 
 *   https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/
 
+
+### Samples
+
+*   https://github.com/aspnet/Templating/tree/master/src/Microsoft.DotNet.Web.Spa.ProjectTemplates
+
+
+### String placeholder replacement
+
+*   https://auth0.com/blog/create-dotnet-project-template/
+
+    *   https://github.com/auth0-blog/auth0-aspnet-webapp-project-template
+
+*   https://cfrenzel.com/dotnet-new-templating-nuget/
+
+*   https://craftbakery.dev/2020/12/31/make-your-own-custom-netcore-template/
+
+*   https://www.tutorialspoint.com/guava/guava_optional_class.htm
+
+*   https://www.patridgedev.com/2018/10/09/making-a-custom-dotnet-new-template/
+
+*   https://www.patridgedev.com/2018/10/22/add-variables-to-your-custom-dotnet-new-template/
+
+*   https://developer.okta.com/blog/2020/04/01/cli-dotnet-templates-dotnet-core-templates
+
+*   https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/
+
+*   http://thewindowsupdate.com/2020/09/02/net-cli-templates-in-visual-studio/
+
+*   https://hanson.io/creating-custom-dotnet-project-templates/
+
+*   https://talkwithangel.com/creating-your-own-xamarin-projects-templates-using-net-cli/
+
+*   https://github.com/dotnet/templating/issues/1869
+
+*   https://github.com/dotnet/templating/issues/2210
+
+*   https://stackoverflow.com/questions/55705278/how-do-i-change-the-name-of-a-dotnet-new-template-when-creating-new-projects
+
+*   https://reynders.co/create-your-own-templates-for-dotnet-new/
+
+*   https://stackoverflow.com/questions/55738119/how-to-get-camel-case-version-of-project-name-with-net-cli-custom-templates
+
+### Symbols
+
+*   https://www.patridgedev.com/2018/10/29/fallback-variables-in-dotnet-new-templates/
+
+#### Computed
+
+*   https://github.com/dotnet/dotnet-template-samples/blob/master/15-computed-symbol/MyProject.Con/.template.config/template.json#L57-L58
+
+
+
 ### Custom Template with Code Execution
 
 *   Ability to execute some custom code after running the template engine
@@ -184,6 +283,10 @@ Detailed:
     *   https://github.com/dotnet/templating/issues/1728
 
     *   https://github.com/dotnet/templating/wiki/Post-Action-Registry#run-script
+
+    *   from David Karlas
+
+        *   https://github.com/dotnet/templating/issues/3192
 
     *   repo
 
@@ -197,10 +300,25 @@ Detailed:
 
     *   https://github.com/dotnet/templating/tree/main/test/Microsoft.TemplateEngine.TestTemplates/test_templates/PostActions
 
+    *   https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/dotnet-netfx/core/dotnet-new-templates.md
+
+        *   details
+
+            *   https://github.com/moljac/HolisticWare.WebSite.Notes/tree/master/dotnet-netfx/core/dotnet-new-templates
+            
+            *   https://github.com/dotnet/templating/issues/3192
+
+*   https://cfrenzel.com/dotnet-new-templating-nuget/
+
+#### `SpecialCustomOperations`
+
+*   https://stackoverflow.com/questions/60056191/add-optional-content-in-dotnet-new-templates-in-non-c-sharp-files
+
+
 
 #### Further Investigation
 
-ps1 scripts in `tools/` folder
+`ps1` scripts in `tools/` folder:
 
 ```
 WARNING: NU5110: The script file '_Placeholder_.XamarinAndroid.Maven.Bindings/scripts/run-all.ps1' is outside the 'tools' folder and hence will not be executed during installation of this package. Move it into the 'tools' folder.
