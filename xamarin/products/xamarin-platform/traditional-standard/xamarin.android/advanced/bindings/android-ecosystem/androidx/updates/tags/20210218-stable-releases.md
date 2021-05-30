@@ -5,6 +5,12 @@
 Published/Pushed:
 
 ```
+New             0
+Updated         18
+Updated + New   18
+```
+
+```
 Xamarin.AndroidX.Activity.1.2.0.nupkg
 Xamarin.AndroidX.Core.1.3.2.2.nupkg
 Xamarin.AndroidX.Core.Role.1.0.0.4.nupkg

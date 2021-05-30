@@ -5,6 +5,12 @@
 Pushed/Published:
 
 ```
+New             0
+Updated         16
+Updated + New   16
+```
+
+```
 Xamarin.AndroidX.Activity.1.1.0.6.nupkg
 Xamarin.AndroidX.AutoFill.1.1.0.5.nupkg
 Xamarin.AndroidX.Biometric.1.1.0.nupkg

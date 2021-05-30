@@ -1,28 +1,31 @@
-# 20210319-stable-releases
+# 20210518-manual-updates-window-tracing-car.app
 
-20210319-stable-releases.md
+20210518-manual-updates-window-tracing-car.app.md
 
-```
-New             0
-Updated         6
-Updated + New   6
-```
+Pushed/Published:
 
 ```
-Xamarin.AndroidX.Activity.1.2.1.nupkg
-Xamarin.AndroidX.Fragment.1.3.1.nupkg
-Xamarin.AndroidX.Navigation.Common.2.3.4.nupkg
-Xamarin.AndroidX.Navigation.Fragment.2.3.4.nupkg
-Xamarin.AndroidX.Navigation.Runtime.2.3.4.nupkg
-Xamarin.AndroidX.Navigation.UI.2.3.4.nupkg
+New             1
+Updated         3
+Updated + New   4
 ```
 
 ```
+Xamarin.AndroidX.Car.App.App.1.0.0.nupkg
+Xamarin.AndroidX.Lifecycle.Common.Java8.2.2.0.nupkg
+Xamarin.AndroidX.Tracing.Tracing.1.0.0.nupkg
+Xamarin.AndroidX.Window.1.0.0-alpha06.nupkg
+```
+
+Duplicates/Rejected:
+
+```
+Xamarin.AndroidX.Activity.1.2.2.nupkg
 Xamarin.AndroidX.Ads.Identifier.1.0.0.5-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.5-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierProvider.1.0.0.5-alpha04.nupkg
-Xamarin.AndroidX.Annotation.1.1.0.9.nupkg
-Xamarin.AndroidX.Annotation.Experimental.1.0.0.9.nupkg
+Xamarin.AndroidX.Annotation.1.2.0.nupkg
+Xamarin.AndroidX.Annotation.Experimental.1.1.0.nupkg
 Xamarin.AndroidX.AppCompat.1.2.0.7.nupkg
 Xamarin.AndroidX.AppCompat.AppCompatResources.1.2.0.7.nupkg
 Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
@@ -50,10 +53,10 @@ Xamarin.AndroidX.Core.Animation.1.0.0.5-alpha01.nupkg
 Xamarin.AndroidX.Core.Role.1.0.0.5.nupkg
 Xamarin.AndroidX.CursorAdapter.1.0.0.7.nupkg
 Xamarin.AndroidX.CustomView.1.1.0.6.nupkg
-Xamarin.AndroidX.DataBinding.DataBindingAdapters.4.1.2.1.nupkg
-Xamarin.AndroidX.DataBinding.DataBindingCommon.4.1.2.1.nupkg
-Xamarin.AndroidX.DataBinding.DataBindingRuntime.4.1.2.1.nupkg
-Xamarin.AndroidX.DataBinding.ViewBinding.4.1.2.1.nupkg
+Xamarin.AndroidX.DataBinding.DataBindingAdapters.4.1.3.nupkg
+Xamarin.AndroidX.DataBinding.DataBindingCommon.4.1.3.nupkg
+Xamarin.AndroidX.DataBinding.DataBindingRuntime.4.1.3.nupkg
+Xamarin.AndroidX.DataBinding.ViewBinding.4.1.3.nupkg
 Xamarin.AndroidX.DocumentFile.1.0.1.7.nupkg
 Xamarin.AndroidX.DrawerLayout.1.1.1.2.nupkg
 Xamarin.AndroidX.DynamicAnimation.1.0.0.7.nupkg
@@ -61,6 +64,7 @@ Xamarin.AndroidX.Emoji.1.1.0.2.nupkg
 Xamarin.AndroidX.Emoji.AppCompat.1.1.0.2.nupkg
 Xamarin.AndroidX.Emoji.Bundled.1.1.0.2.nupkg
 Xamarin.AndroidX.ExifInterface.1.3.2.2.nupkg
+Xamarin.AndroidX.Fragment.1.3.3.nupkg
 Xamarin.AndroidX.GridLayout.1.0.0.7.nupkg
 Xamarin.AndroidX.HeifWriter.1.0.0.7.nupkg
 Xamarin.AndroidX.Interpolator.1.0.0.7.nupkg
@@ -71,25 +75,29 @@ Xamarin.AndroidX.Legacy.Support.Core.UI.1.0.0.8.nupkg
 Xamarin.AndroidX.Legacy.Support.Core.Utils.1.0.0.7.nupkg
 Xamarin.AndroidX.Legacy.Support.V13.1.0.0.7.nupkg
 Xamarin.AndroidX.Legacy.Support.V4.1.0.0.7.nupkg
-Xamarin.AndroidX.Lifecycle.Common.2.3.0.1.nupkg
+Xamarin.AndroidX.Lifecycle.Common.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.Extensions.2.2.0.7.nupkg
-Xamarin.AndroidX.Lifecycle.LiveData.2.3.0.1.nupkg
-Xamarin.AndroidX.Lifecycle.LiveData.Core.2.3.0.1.nupkg
-Xamarin.AndroidX.Lifecycle.Process.2.3.0.1.nupkg
-Xamarin.AndroidX.Lifecycle.Runtime.2.3.0.1.nupkg
-Xamarin.AndroidX.Lifecycle.Service.2.3.0.1.nupkg
-Xamarin.AndroidX.Lifecycle.ViewModel.2.3.0.1.nupkg
-Xamarin.AndroidX.Lifecycle.ViewModelSavedState.2.3.0.1.nupkg
+Xamarin.AndroidX.Lifecycle.LiveData.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.LiveData.Core.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.Process.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1.nupkg
+Xamarin.AndroidX.Lifecycle.Service.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.ViewModel.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.ViewModelSavedState.2.3.1.nupkg
 Xamarin.AndroidX.Loader.1.1.0.7.nupkg
 Xamarin.AndroidX.LocalBroadcastManager.1.0.0.7.nupkg
-Xamarin.AndroidX.Media.1.2.1.2.nupkg
-Xamarin.AndroidX.Media2.Common.1.1.2.1.nupkg
-Xamarin.AndroidX.Media2.Session.1.1.2.1.nupkg
-Xamarin.AndroidX.Media2.Widget.1.1.2.1.nupkg
+Xamarin.AndroidX.Media.1.3.0.nupkg
+Xamarin.AndroidX.Media2.Common.1.1.3.nupkg
+Xamarin.AndroidX.Media2.Session.1.1.3.nupkg
+Xamarin.AndroidX.Media2.Widget.1.1.3.nupkg
 Xamarin.AndroidX.MediaRouter.1.2.2.1.nupkg
 Xamarin.AndroidX.Migration.1.0.8.nupkg
 Xamarin.AndroidX.Migration.Tool.1.0.8.nupkg
 Xamarin.AndroidX.MultiDex.2.0.1.7.nupkg
+Xamarin.AndroidX.Navigation.Common.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.Fragment.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.Runtime.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.UI.2.3.5.nupkg
 Xamarin.AndroidX.Paging.Common.2.1.2.7.nupkg
 Xamarin.AndroidX.Paging.Runtime.2.1.2.7.nupkg
 Xamarin.AndroidX.Palette.1.0.0.7.nupkg
@@ -97,12 +105,13 @@ Xamarin.AndroidX.PercentLayout.1.0.0.8.nupkg
 Xamarin.AndroidX.Preference.1.1.1.8.nupkg
 Xamarin.AndroidX.Print.1.0.0.7.nupkg
 Xamarin.AndroidX.Recommendation.1.0.0.7.nupkg
-Xamarin.AndroidX.RecyclerView.1.1.0.8.nupkg
+Xamarin.AndroidX.RecyclerView.1.2.0.nupkg
 Xamarin.AndroidX.RecyclerView.Selection.1.1.0.1.nupkg
-Xamarin.AndroidX.Room.Common.2.2.6.1.nupkg
-Xamarin.AndroidX.Room.Guava.2.2.6.1.nupkg
-Xamarin.AndroidX.Room.Runtime.2.2.6.1.nupkg
+Xamarin.AndroidX.Room.Common.2.3.0.nupkg
+Xamarin.AndroidX.Room.Guava.2.3.0.nupkg
+Xamarin.AndroidX.Room.Runtime.2.3.0.nupkg
 Xamarin.AndroidX.SavedState.1.1.0.1.nupkg
+Xamarin.AndroidX.Security.SecurityCrypto.1.0.0.nupkg
 Xamarin.AndroidX.Slice.Builders.1.0.0.7.nupkg
 Xamarin.AndroidX.Slice.Core.1.0.0.7.nupkg
 Xamarin.AndroidX.Slice.View.1.0.0.7.nupkg
@@ -110,7 +119,7 @@ Xamarin.AndroidX.SlidingPaneLayout.1.1.0.2.nupkg
 Xamarin.AndroidX.Sqlite.2.1.0.7.nupkg
 Xamarin.AndroidX.Sqlite.Framework.2.1.0.7.nupkg
 Xamarin.AndroidX.SwipeRefreshLayout.1.1.0.2.nupkg
-Xamarin.AndroidX.Transition.1.4.0.1.nupkg
+Xamarin.AndroidX.Transition.1.4.1.nupkg
 Xamarin.AndroidX.TvProvider.1.0.0.7.nupkg
 Xamarin.AndroidX.VectorDrawable.1.1.0.7.nupkg
 Xamarin.AndroidX.VectorDrawable.Animated.1.1.0.7.nupkg
@@ -119,8 +128,7 @@ Xamarin.AndroidX.ViewPager.1.0.0.7.nupkg
 Xamarin.AndroidX.ViewPager2.1.0.0.9.nupkg
 Xamarin.AndroidX.Wear.1.1.0.2.nupkg
 Xamarin.AndroidX.WebKit.1.4.0.1.nupkg
-Xamarin.AndroidX.Window.1.0.0-alpha01.nupkg
-Xamarin.AndroidX.Window.WindowExtensions.1.0.0-alpha01.nupkg
+Xamarin.AndroidX.Window.WindowExtensions.1.0.0.1-alpha01.nupkg
 Xamarin.AndroidX.Work.Runtime.2.5.0.1.nupkg
 Xamarin.Google.Android.Material.1.3.0.1.nupkg
 ```

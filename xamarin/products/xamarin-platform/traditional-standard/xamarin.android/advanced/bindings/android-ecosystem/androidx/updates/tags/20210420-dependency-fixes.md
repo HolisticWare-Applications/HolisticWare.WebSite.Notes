@@ -5,6 +5,12 @@
 Pushed/Published:
 
 ```
+New             3
+Updated         0
+Updated + New   3
+```
+
+```
 Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1.nupkg
 Xamarin.AndroidX.Window.1.0.0.1-alpha05.nupkg
 Xamarin.AndroidX.Window.WindowExtensions.1.0.0.1-alpha01.nupkg

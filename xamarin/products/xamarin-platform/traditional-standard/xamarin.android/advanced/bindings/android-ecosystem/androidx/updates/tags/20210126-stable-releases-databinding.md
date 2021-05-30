@@ -5,6 +5,12 @@
 Pushed/published:
 
 ```
+New             0
+Updated         4
+Updated + New   4
+```
+
+```
 Xamarin.AndroidX.DataBinding.DataBindingAdapters.4.1.2.nupkg
 Xamarin.AndroidX.DataBinding.DataBindingCommon.4.1.2.nupkg
 Xamarin.AndroidX.DataBinding.DataBindingRuntime.4.1.2.nupkg
