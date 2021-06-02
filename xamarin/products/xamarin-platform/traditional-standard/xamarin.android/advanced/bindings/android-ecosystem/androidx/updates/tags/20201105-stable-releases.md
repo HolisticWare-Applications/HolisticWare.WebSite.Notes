@@ -5,6 +5,12 @@
 Pushed/published:
 
 ```
+New             0
+Updated         3
+Updated + New   3
+```
+
+```
 Xamarin.AndroidX.AutoFill.1.1.0.3-beta01.nupkg
 Xamarin.AndroidX.ConstraintLayout.2.0.4.nupkg
 Xamarin.AndroidX.ConstraintLayout.Solver.2.0.4.nupkg

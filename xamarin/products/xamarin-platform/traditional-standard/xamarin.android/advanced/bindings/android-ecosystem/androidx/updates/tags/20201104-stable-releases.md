@@ -5,6 +5,12 @@
 Pushed/published:
 
 ```
+New             0
+Updated         26
+Updated + New   26
+```
+
+```
 Xamarin.AndroidX.Annotation.1.1.0.7.nupkg
 Xamarin.AndroidX.Annotation.Experimental.1.0.0.7.nupkg
 Xamarin.AndroidX.AppCompat.1.2.0.5.nupkg
@@ -29,7 +35,6 @@ Xamarin.AndroidX.Navigation.Runtime.2.3.1.nupkg
 Xamarin.AndroidX.Navigation.UI.2.3.1.nupkg
 Xamarin.AndroidX.SlidingPaneLayout.1.1.0.nupkg
 Xamarin.AndroidX.SwipeRefreshLayout.1.1.0.nupkg
-Your package was pushed.
 Xamarin.AndroidX.WebKit.1.3.0.nupkg
 Xamarin.AndroidX.Work.Runtime.2.4.0.nupkg
 ```

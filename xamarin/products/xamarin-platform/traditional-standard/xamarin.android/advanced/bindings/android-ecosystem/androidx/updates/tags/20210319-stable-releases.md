@@ -3,6 +3,12 @@
 20210319-stable-releases.md
 
 ```
+New             0
+Updated         6
+Updated + New   6
+```
+
+```
 Xamarin.AndroidX.Activity.1.2.1.nupkg
 Xamarin.AndroidX.Fragment.1.3.1.nupkg
 Xamarin.AndroidX.Navigation.Common.2.3.4.nupkg

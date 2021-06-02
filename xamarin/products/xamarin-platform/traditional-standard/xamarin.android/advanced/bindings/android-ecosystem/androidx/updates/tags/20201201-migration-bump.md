@@ -5,6 +5,12 @@
 Published/Pushed:
 
 ```
+New             0
+Updated         1
+Updated + New   1
+```
+
+```
 Xamarin.Google.Android.Material.1.2.1.nupkg
 ```
 

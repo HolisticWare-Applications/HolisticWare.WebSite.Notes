@@ -5,6 +5,12 @@
 Published/Pushed:
 
 ```
+New             1
+Updated         107
+Updated + New   107
+```
+
+```
 Xamarin.AndroidX.Activity.1.2.0.1.nupkg
 Xamarin.AndroidX.Ads.Identifier.1.0.0.5-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.5-alpha04.nupkg

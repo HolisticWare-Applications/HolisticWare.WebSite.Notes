@@ -5,6 +5,12 @@
 Pushed/published:
 
 ```
+New             0
+Updated         1
+Updated + New   1
+```
+
+```
 Xamarin.AndroidX.Ads.Identifier.1.0.0.4-alpha04.nupkg
 ```
 

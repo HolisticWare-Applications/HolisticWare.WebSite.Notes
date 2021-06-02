@@ -5,6 +5,12 @@
 Pushed/published:
 
 ```
+New             0
+Updated         1
+Updated + New   1
+```
+
+```
 Xamarin.AndroidX.MediaRouter.1.2.1.nupkg
 ```
 

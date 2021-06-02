@@ -122,6 +122,13 @@ maui-check
 
 *   https://www.telerik.com/blogs/sands-of-maui-issue-3
 
-https://www.youtube.com/watch?v=A2sXj9S5FXQ&ab_channel=GeraldVersluis
+*   https://www.youtube.com/watch?v=A2sXj9S5FXQ&ab_channel=GeraldVersluis
 
-https://www.dylanberry.com/category/dotnet-maui/
+*   https://www.dylanberry.com/category/dotnet-maui/
+
+
+*   BuildSetups.md
+
+    *   How to be successful at building MAUI
+
+    *   https://gist.github.com/PureWeen/3207e0d256fe2884f053ff7962c92cd7#vscode
