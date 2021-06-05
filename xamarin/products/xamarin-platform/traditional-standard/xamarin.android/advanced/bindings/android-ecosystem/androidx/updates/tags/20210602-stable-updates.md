@@ -1,58 +1,42 @@
-# 20210520-stable-updates-with-ktx-stuff
+# 20210602-stable-updates
 
-20210520-stable-updates-with-ktx-stuff.md
+20210602-stable-updates.md
 
 Pushed / Published:
 
 ```
-New             22
-Updated         7
-Updated + New   29
+New             0
+Updated         16
+Updated + New   16
 ```
 
 ```
-Xamarin.AndroidX.Activity.Ktx.1.2.2.nupkg
-Xamarin.AndroidX.Collection.Ktx.1.1.0.nupkg
-Xamarin.AndroidX.Core.Core.Ktx.1.1.0.nupkg
-Xamarin.AndroidX.Fragment.Ktx.1.3.3.nupkg
-Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.2.3.1.nupkg
-Xamarin.AndroidX.Lifecycle.LiveData.Ktx.2.2.0.nupkg
-Xamarin.AndroidX.Lifecycle.ReactiveStreams.2.3.1.nupkg
-Xamarin.AndroidX.Lifecycle.ReactiveStreams.Ktx.2.3.1.nupkg
-Xamarin.AndroidX.Lifecycle.Runtime.Ktx.2.3.1.nupkg
-Xamarin.AndroidX.Lifecycle.ViewModel.Ktx.2.3.1.nupkg
-Xamarin.AndroidX.Media.1.3.1.nupkg
-Xamarin.AndroidX.MediaRouter.1.2.3.nupkg
-Xamarin.AndroidX.Navigation.Common.Ktx.2.3.5.nupkg
-Xamarin.AndroidX.Navigation.Fragment.Ktx.2.3.5.nupkg
-Xamarin.AndroidX.Navigation.Runtime.Ktx.2.3.5.nupkg
-Xamarin.AndroidX.Navigation.UI.Ktx.2.3.5.nupkg
-Xamarin.AndroidX.Paging.Common.3.0.0.nupkg
-Xamarin.AndroidX.Paging.Common.Ktx.3.0.0.nupkg
-Xamarin.AndroidX.Paging.Runtime.3.0.0.nupkg
-Xamarin.AndroidX.Paging.Runtime.Ktx.3.0.0.nupkg
-Xamarin.AndroidX.Paging.RxJava2.3.0.0.nupkg
-Xamarin.AndroidX.Paging.RxJava2.Ktx.3.0.0.nupkg
-Xamarin.AndroidX.Palette.Palette.Ktx.1.0.0.nupkg
-Xamarin.AndroidX.Preference.Preference.Ktx.1.1.1.nupkg
-Xamarin.AndroidX.Room.Room.Ktx.2.3.0.nupkg
-Xamarin.AndroidX.Room.Room.RxJava2.2.0.0.nupkg
-Xamarin.AndroidX.Room.Room.RxJava3.2.3.0.nupkg
-Xamarin.AndroidX.SavedState.SavedState.Ktx.1.1.0.nupkg
-Xamarin.AndroidX.Work.Work.Runtime.Ktx.2.0.1.nupkg
+Xamarin.AndroidX.Activity.1.2.3.nupkg
+Xamarin.AndroidX.Activity.Ktx.1.2.3.nupkg
+Xamarin.AndroidX.AppCompat.1.3.0.nupkg
+Xamarin.AndroidX.AppCompat.AppCompatResources.1.3.0.nupkg
+Xamarin.AndroidX.Core.1.5.0.nupkg
+Xamarin.AndroidX.Core.Core.Ktx.1.5.0.nupkg
+Xamarin.AndroidX.DataBinding.DataBindingAdapters.4.2.1.nupkg
+Xamarin.AndroidX.DataBinding.DataBindingCommon.4.2.1.nupkg
+Xamarin.AndroidX.DataBinding.DataBindingRuntime.4.2.1.nupkg
+Xamarin.AndroidX.DataBinding.ViewBinding.4.2.1.nupkg
+Xamarin.AndroidX.Fragment.1.3.4.nupkg
+Xamarin.AndroidX.Fragment.Ktx.1.3.4.nupkg
+Xamarin.AndroidX.Lifecycle.Common.Java8.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.LiveData.Ktx.2.3.1.nupkg
+Xamarin.AndroidX.Room.Room.RxJava2.2.3.0.nupkg
+Xamarin.AndroidX.Work.Work.Runtime.Ktx.2.5.0.nupkg
 ```
 
 Rejected / Duplicates:
 
 ```
-Xamarin.AndroidX.Activity.1.2.2.nupkg
 Xamarin.AndroidX.Ads.Identifier.1.0.0.5-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.5-alpha04.nupkg
 Xamarin.AndroidX.Ads.IdentifierProvider.1.0.0.5-alpha04.nupkg
 Xamarin.AndroidX.Annotation.1.2.0.nupkg
 Xamarin.AndroidX.Annotation.Experimental.1.1.0.nupkg
-Xamarin.AndroidX.AppCompat.1.2.0.7.nupkg
-Xamarin.AndroidX.AppCompat.AppCompatResources.1.2.0.7.nupkg
 Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
 Xamarin.AndroidX.Arch.Core.Common.2.1.0.8.nupkg
 Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.8.nupkg
@@ -68,20 +52,16 @@ Xamarin.AndroidX.Car.Car.1.0.0.5-alpha7.nupkg
 Xamarin.AndroidX.Car.Cluster.1.0.0.5-alpha5.nupkg
 Xamarin.AndroidX.CardView.1.0.0.8.nupkg
 Xamarin.AndroidX.Collection.1.1.0.7.nupkg
+Xamarin.AndroidX.Collection.Ktx.1.1.0.nupkg
 Xamarin.AndroidX.Concurrent.Futures.1.1.0.2.nupkg
 Xamarin.AndroidX.ConstraintLayout.2.0.4.2.nupkg
 Xamarin.AndroidX.ConstraintLayout.Solver.2.0.4.2.nupkg
 Xamarin.AndroidX.ContentPager.1.0.0.7.nupkg
 Xamarin.AndroidX.CoordinatorLayout.1.1.0.7.nupkg
-Xamarin.AndroidX.Core.1.3.2.3.nupkg
 Xamarin.AndroidX.Core.Animation.1.0.0.5-alpha02.nupkg
 Xamarin.AndroidX.Core.Role.1.0.0.5.nupkg
 Xamarin.AndroidX.CursorAdapter.1.0.0.7.nupkg
 Xamarin.AndroidX.CustomView.1.1.0.6.nupkg
-Xamarin.AndroidX.DataBinding.DataBindingAdapters.4.2.0.nupkg
-Xamarin.AndroidX.DataBinding.DataBindingCommon.4.2.0.nupkg
-Xamarin.AndroidX.DataBinding.DataBindingRuntime.4.2.0.nupkg
-Xamarin.AndroidX.DataBinding.ViewBinding.4.2.0.nupkg
 Xamarin.AndroidX.DocumentFile.1.0.1.7.nupkg
 Xamarin.AndroidX.DrawerLayout.1.1.1.2.nupkg
 Xamarin.AndroidX.DynamicAnimation.1.0.0.7.nupkg
@@ -89,7 +69,6 @@ Xamarin.AndroidX.Emoji.1.1.0.2.nupkg
 Xamarin.AndroidX.Emoji.AppCompat.1.1.0.2.nupkg
 Xamarin.AndroidX.Emoji.Bundled.1.1.0.2.nupkg
 Xamarin.AndroidX.ExifInterface.1.3.2.2.nupkg
-Xamarin.AndroidX.Fragment.1.3.3.nupkg
 Xamarin.AndroidX.GridLayout.1.0.0.7.nupkg
 Xamarin.AndroidX.HeifWriter.1.0.0.7.nupkg
 Xamarin.AndroidX.Interpolator.1.0.0.7.nupkg
@@ -101,38 +80,59 @@ Xamarin.AndroidX.Legacy.Support.Core.Utils.1.0.0.7.nupkg
 Xamarin.AndroidX.Legacy.Support.V13.1.0.0.7.nupkg
 Xamarin.AndroidX.Legacy.Support.V4.1.0.0.7.nupkg
 Xamarin.AndroidX.Lifecycle.Common.2.3.1.nupkg
-Xamarin.AndroidX.Lifecycle.Common.Java8.2.2.0.nupkg
 Xamarin.AndroidX.Lifecycle.Extensions.2.2.0.7.nupkg
 Xamarin.AndroidX.Lifecycle.LiveData.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.LiveData.Core.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.LiveData.Core.Ktx.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.Process.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.ReactiveStreams.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.ReactiveStreams.Ktx.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.Runtime.2.3.1.1.nupkg
+Xamarin.AndroidX.Lifecycle.Runtime.Ktx.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.Service.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.ViewModel.2.3.1.nupkg
+Xamarin.AndroidX.Lifecycle.ViewModel.Ktx.2.3.1.nupkg
 Xamarin.AndroidX.Lifecycle.ViewModelSavedState.2.3.1.nupkg
 Xamarin.AndroidX.Loader.1.1.0.7.nupkg
 Xamarin.AndroidX.LocalBroadcastManager.1.0.0.7.nupkg
+Xamarin.AndroidX.Media.1.3.1.nupkg
 Xamarin.AndroidX.Media2.Common.1.1.3.nupkg
 Xamarin.AndroidX.Media2.Session.1.1.3.nupkg
 Xamarin.AndroidX.Media2.Widget.1.1.3.nupkg
+Xamarin.AndroidX.MediaRouter.1.2.3.nupkg
 Xamarin.AndroidX.Migration.1.0.8.nupkg
 Xamarin.AndroidX.Migration.Tool.1.0.8.nupkg
 Xamarin.AndroidX.MultiDex.2.0.1.7.nupkg
 Xamarin.AndroidX.Navigation.Common.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.Common.Ktx.2.3.5.nupkg
 Xamarin.AndroidX.Navigation.Fragment.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.Fragment.Ktx.2.3.5.nupkg
 Xamarin.AndroidX.Navigation.Runtime.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.Runtime.Ktx.2.3.5.nupkg
 Xamarin.AndroidX.Navigation.UI.2.3.5.nupkg
+Xamarin.AndroidX.Navigation.UI.Ktx.2.3.5.nupkg
+Xamarin.AndroidX.Paging.Common.3.0.0.nupkg
+Xamarin.AndroidX.Paging.Common.Ktx.3.0.0.nupkg
+Xamarin.AndroidX.Paging.Runtime.3.0.0.nupkg
+Xamarin.AndroidX.Paging.Runtime.Ktx.3.0.0.nupkg
+Xamarin.AndroidX.Paging.RxJava2.3.0.0.nupkg
+Xamarin.AndroidX.Paging.RxJava2.Ktx.3.0.0.nupkg
 Xamarin.AndroidX.Palette.1.0.0.7.nupkg
+Xamarin.AndroidX.Palette.Palette.Ktx.1.0.0.nupkg
 Xamarin.AndroidX.PercentLayout.1.0.0.8.nupkg
 Xamarin.AndroidX.Preference.1.1.1.8.nupkg
+Xamarin.AndroidX.Preference.Preference.Ktx.1.1.1.nupkg
 Xamarin.AndroidX.Print.1.0.0.7.nupkg
 Xamarin.AndroidX.Recommendation.1.0.0.7.nupkg
 Xamarin.AndroidX.RecyclerView.1.2.0.nupkg
 Xamarin.AndroidX.RecyclerView.Selection.1.1.0.1.nupkg
 Xamarin.AndroidX.Room.Common.2.3.0.nupkg
 Xamarin.AndroidX.Room.Guava.2.3.0.nupkg
+Xamarin.AndroidX.Room.Room.Ktx.2.3.0.nupkg
+Xamarin.AndroidX.Room.Room.RxJava3.2.3.0.nupkg
 Xamarin.AndroidX.Room.Runtime.2.3.0.nupkg
 Xamarin.AndroidX.SavedState.1.1.0.1.nupkg
+Xamarin.AndroidX.SavedState.SavedState.Ktx.1.1.0.nupkg
 Xamarin.AndroidX.Security.SecurityCrypto.1.0.0.nupkg
 Xamarin.AndroidX.Slice.Builders.1.0.0.7.nupkg
 Xamarin.AndroidX.Slice.Core.1.0.0.7.nupkg
