@@ -5,6 +5,13 @@
 Pushed/published:
 
 ```
+New             0
+Updated         1
+Updated + New   1
+```
+
+
+```
 Xamarin.AndroidX.Activity.1.1.0.4.nupkg
 ```
 

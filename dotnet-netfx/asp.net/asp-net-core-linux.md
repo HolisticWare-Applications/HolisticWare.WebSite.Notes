@@ -39,7 +39,11 @@ Linux	libuv.so
 OSX	libuv.dylib
 ```
 
-*	https://andrewlock.net/building-net-framework-asp-net-core-apps-on-linux-using-mono-and-the-net-cli/
+*	  https://andrewlock.net/building-net-framework-asp-net-core-apps-on-linux-using-mono-and-the-net-cli/
 
-*	https://blog.lextudio.com/migrating-jexus-manager-to-net-core-3-0-f1c41ae50572
+*	  https://blog.lextudio.com/migrating-jexus-manager-to-net-core-3-0-f1c41ae50572
+
+*   https://www.roundthecode.com/dotnet/asp-net-core-web-hosting/how-to-install-an-asp-net-core-in-net-5-app-on-ubuntu-20-04
+
+*   https://www.puresourcecode.com/dotnet/net-core/integrating-adminlte-with-asp-net-core
 

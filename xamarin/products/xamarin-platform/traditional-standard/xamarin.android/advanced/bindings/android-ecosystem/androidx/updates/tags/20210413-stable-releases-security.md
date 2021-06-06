@@ -5,6 +5,12 @@
 Pushed/Published:
 
 ```
+New             1
+Updated         0
+Updated + New   1
+```
+
+```
 Xamarin.AndroidX.Security.SecurityCrypto.1.0.0-rc03.nupkg
 ```
 

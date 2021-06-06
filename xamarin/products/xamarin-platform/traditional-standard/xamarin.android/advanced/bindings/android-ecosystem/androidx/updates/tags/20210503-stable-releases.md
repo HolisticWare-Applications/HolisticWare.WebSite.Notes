@@ -5,6 +5,12 @@
 Pushed/Published:
 
 ```
+New             8
+Updated         1
+Updated + New   9
+```
+
+```
 Xamarin.AndroidX.Fragment.1.3.3.nupkg
 Xamarin.AndroidX.Room.Common.2.3.0.nupkg
 Xamarin.AndroidX.Room.Guava.2.3.0.nupkg

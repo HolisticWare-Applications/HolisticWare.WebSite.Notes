@@ -5,6 +5,12 @@
 Pushed/Published:
 
 ```
+New             0
+Updated         7
+Updated + New   7
+```
+
+```
 Xamarin.AndroidX.Annotation.Experimental.1.1.0.nupkg
 Xamarin.AndroidX.Media.1.3.0.nupkg
 Xamarin.AndroidX.Navigation.Common.2.3.5.nupkg

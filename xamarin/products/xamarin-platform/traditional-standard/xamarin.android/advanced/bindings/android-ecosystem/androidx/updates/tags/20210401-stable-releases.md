@@ -2,7 +2,13 @@
 
 20210401-stable-releases.md
 
-Pushed/publshed
+Pushed/published:
+
+```
+New             0
+Updated         15
+Updated + New   15
+```
 
 ```
 Xamarin.AndroidX.Activity.1.2.2.nupkg
