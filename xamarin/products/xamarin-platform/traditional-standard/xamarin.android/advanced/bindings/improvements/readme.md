@@ -48,5 +48,23 @@ maven artifact
 
                 *   GPS-FB-MKit
 
+Artifact(s)	
+
+    *   Binaries
+
+        *   aar
+
+        *   jar
+
+    *   source
+    
+    *   javadoc  
+    
+        $"{artifactid}-16.0.0-javadoc.jar
+
+    *   gradle-module-metadata
+    
+    *   pom
+    
 ## nuget
 

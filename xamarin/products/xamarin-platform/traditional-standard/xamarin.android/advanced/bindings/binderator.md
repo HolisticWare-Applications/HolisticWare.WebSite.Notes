@@ -78,3 +78,17 @@ Build samples (for ACW generation):
 ```
 sh ./build.sh --target=samples
 ```
+
+```
+dotnet cake -t=binderate
+```
+
+```
+git clean -xdf
+xamarin-android-binderator --config="./config.json" --basepath="./"
+```
+
+
+```
+dotnet cake -t=binderate && dotnet cake utilities.cake -t=dependencies
+```
