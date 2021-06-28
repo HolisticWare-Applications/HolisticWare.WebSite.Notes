@@ -1,7 +1,22 @@
 # Links / References
 
 
+
+
+
+
+
+
+
+*   https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro
+
+*   https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
+
 *   https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-3.1
+
+*   https://www.pragimtech.com/courses/blazor-tutorial-for-beginners/
+
+*   https://studyblazor.com/
 
 *   https://learn-blazor.com/getting-started/what-is-blazor/
 
@@ -25,7 +40,6 @@
 
 *   https://levelup.gitconnected.com/demystifying-asp-net-core-blazor-core-concepts-and-its-future-b2e00fde1a98
 
-*   https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
 
 *   https://github.com/dotnet-presentations/blazor-workshop/tree/master/docs
 
@@ -47,6 +61,11 @@
 
 *   https://www.telerik.com/campaigns/blazor-ui/getting-started-with-blazor-all-there-is-to-know-from-the-experts?utm_medium=social-owned&utm_source=twitter&utm_campaign=blazor-blog-getting-started-with-blazor-pp
 
+*   https://blog.coursesity.com/best-blazor-tutorials/
+
+*   https://learn-blazor.com/index.htm
+
+
 ## Videos
 
 *   https://www.youtube.com/watch?v=6BT2AF9PO5g
@@ -59,7 +78,28 @@
 
 *   https://dotnetcore.show/episode-27-blazroed-with-chris-sainty/
 
+*   Blazor Course - Use ASP.NET Core to Build Full-Stack C# Web Apps
+
+    *   https://www.youtube.com/watch?v=4G_BzLxa9Nw&ab_channel=freeCodeCamp.org
+
+*   Let's Learn Blazor: Getting Started
+
+    *   https://www.youtube.com/watch?v=zbXESHQQVsE&ab_channel=BrianLagunas
+
+*   Learn Studio Session: Build a WebAssembly app with Blazor & VS Code | COM141
+
+    *   https://www.youtube.com/watch?v=4pBcGmm6nCI&ab_channel=MicrosoftDeveloper
+
+*   Learn Blazor and Build with Web Assembly - Your First Web Application with Blazor
+
+    *   https://www.youtube.com/watch?v=aqSinXoStAU&ab_channel=JeffreyT.Fritz
+
+
+
+
 ## Repos
+
+links-references.md
 
 *   EmbeddedBlazorContent
 
