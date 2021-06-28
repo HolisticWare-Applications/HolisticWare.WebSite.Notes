@@ -26,6 +26,6 @@ Manage Your Kubernetes Clusters with Built-in Best Practices
 
 *   https://github.com/mspnp/aks-secure-baseline
 
-
+*   https://info.microsoft.com/ww-thankyou-manage-your-kubernetes-clusters-with-built-in-best-practices-vdeo?LCID=EN-US
 
 
