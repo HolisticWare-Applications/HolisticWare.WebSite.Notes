@@ -2,6 +2,37 @@
 
 github-actions.md
 
+# GitHub Actions
+
+## Setup `dotnet`
+
+*   https://github.com/actions/setup-dotnet
+
+
+## Local tests
+
+
+https://github.com/nektos/act
+
+```
+brew install act
+```
+
+
+curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash
+
+```
+choco install act-cli
+```
+
+
+```
+act
+```
+
+
+https://mauricius.dev/run-and-debug-github-actions-locally/
+
 ## Links / References
 
 *   https://www.gep13.co.uk/blog/getting-started-with-github-actions
