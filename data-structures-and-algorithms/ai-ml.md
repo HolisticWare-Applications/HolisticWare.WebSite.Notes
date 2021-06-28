@@ -2,7 +2,10 @@
 
 ai-ml.md 
 
+*   roadmap
 
+    *   https://github.com/AMAI-GmbH/AI-Expert-Roadmap
+    
 *   AI artificial intelligence
 
     *   not new concept 

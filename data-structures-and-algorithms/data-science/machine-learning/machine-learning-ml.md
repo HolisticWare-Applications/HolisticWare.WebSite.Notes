@@ -2,6 +2,8 @@
 
 machine-learning-ml.md
 
+*   https://www.whizlabs.com/blog/machine-learning/
+
 ## Videos
 
 *   Machine Learning Foundations: Ep #1 - What is ML?
