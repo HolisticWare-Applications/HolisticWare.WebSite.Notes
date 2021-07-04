@@ -9,8 +9,8 @@ dotnet-tool-samples.md
 *   https://github.com/xamarin/XamarinComponents/tree/master/Util/Xamarin.AndroidBinderator
 
 ```
-dotnet tool uninstall --global Xamarin.AndroidBinderator.Tool
-dotnet tool install --global Xamarin.AndroidBinderator.Tool --version 0.4.2
+dotnet tool uninstall   --global Xamarin.AndroidBinderator.Tool
+dotnet tool install     --global Xamarin.AndroidBinderator.Tool
 ```
 
 ```
@@ -34,8 +34,8 @@ dotnet tool \
 *   https://github.com/xamarin/AndroidX
 
 ```
-dotnet tool uninstall --global Xamarin.AndroidX.Migration.Tool
-dotnet tool install --global Xamarin.AndroidX.Migration.Tool --version 1.0.0-rc1
+dotnet tool uninstall   --global Xamarin.AndroidX.Migration.Tool
+dotnet tool install     --global Xamarin.AndroidX.Migration.Tool
 ```
 
 ## Cake Tool
@@ -68,8 +68,19 @@ dotnet tool install --global \
 *   https://github.com/jonathanpeppers/boots
 
 ```
-dotnet tool uninstall --global boots
-dotnet tool install --global boots --version 1.0.1.386
+dotnet tool uninstall   --global boots
+dotnet tool install     --global boots
+```
+
+## MAUI check
+
+```
+dotnet tool uninstall -g Redth.Net.Maui.Check
+dotnet tool   install -g Redth.Net.Maui.Check
+```
+
+```
+maui-check
 ```
 
 ## `dotnet try-convert`
@@ -78,7 +89,8 @@ dotnet tool install --global boots --version 1.0.1.386
 
 
 ```
-dotnet tool install -g try-convert
+dotnet tool uninstall   -g try-convert
+dotnet tool install     -g try-convert
 ```
 
 Then restart the terminal and check if it was installed correctly with:
