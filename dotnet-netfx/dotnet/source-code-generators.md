@@ -30,8 +30,11 @@ source-code-generators.md
 
     *   https://www.youtube.com/watch?v=JSFZ3qDx83g&ab_channel=ImmoLandwerth
 
-    https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Source-Generators-in-CSharp
+    *   https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Source-Generators-in-CSharp
 
+    *   https://www.youtube.com/watch?v=qsZ1a0zuv_U&ab_channel=CodeOpinion
+
+    *   https://www.youtube.com/watch?v=Y_r5Z2UP_-s&ab_channel=SoftwareGlobe
 
 ## Samples / Repos
 
@@ -45,3 +48,6 @@ source-code-generators.md
 *   https://twitter.com/stuartblang/status/1333155665657933837/photo/1
 
 
+
+
+     
