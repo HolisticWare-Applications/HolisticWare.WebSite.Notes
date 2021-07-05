@@ -7,3 +7,9 @@ live-share.md
 *   https://www.youtube.com/watch?v=2tvbkCW4OIY
 
 *   https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs
+
+*   Collaboration made easy with Visual Studio Live Share
+
+    *   https://www.youtube.com/watch?v=9QXwSg9-2qQ&ab_channel=MicrosoftVisualStudio
+
+
