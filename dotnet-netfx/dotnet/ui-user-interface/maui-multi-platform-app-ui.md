@@ -132,3 +132,15 @@ maui-check
     *   How to be successful at building MAUI
 
     *   https://gist.github.com/PureWeen/3207e0d256fe2884f053ff7962c92cd7#vscode
+
+
+
+
+*   https://medium.com/successivetech/say-hello-to-net-maui-a-first-class-ui-framework-ed6b120d7612
+
+*   https://www.infoworld.com/article/3544632/microsoft-unveils-net-maui-for-cross-platform-apps.html
+
+*   https://visualstudiomagazine.com/articles/2021/04/07/vscode-net-maui.aspx
+
+*   https://www.telerik.com/blogs/sands-of-maui-issue-9
+
