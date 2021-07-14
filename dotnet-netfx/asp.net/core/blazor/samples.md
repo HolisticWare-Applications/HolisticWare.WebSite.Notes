@@ -1,5 +1,11 @@
 # Samples
 
+*   http://blazorgames.net/
+
+    *   https://github.com/exceptionnotfound
+
+    *   https://exceptionnotfound.net/solitaire-in-blazor-part-1-overview/
+
 *   https://github.com/rockfordlhotka/csla/tree/829-blazor/Samples/BlazorExample
 
 *   https://github.com/dotnetnoobie/GitHubBlazor/tree/master/GitHubBlazor
@@ -32,7 +38,7 @@
 
 *   https://github.com/msdickinson/RollerCoasterMaker/tree/loading_screen_update
 
-    http://www.rollercoastermaker.com/
+*   http://www.rollercoastermaker.com/
 
 *   https://github.com/aspnet/samples/tree/master/samples/aspnetcore/blazor
 
@@ -44,7 +50,7 @@
 
 *   https://github.com/SvenEV/Blazor/tree/xamzor
 
-    http://xamzor.azurewebsites.net/
+*   http://xamzor.azurewebsites.net/
 
 *   https://github.com/SteveSanderson/Blazor
 
@@ -76,11 +82,11 @@
 
 *   https://github.com/torhovland/blazor-realworld-example-app
 
-    https://github.com/torhovland/blazor-realworld-example-app/blob/master/src/BlazorRealworld/wwwroot/index.html
+*   https://github.com/torhovland/blazor-realworld-example-app/blob/master/src/BlazorRealworld/wwwroot/index.html
 
-    https://blazor-realworld.azurewebsites.net/
+*   https://blazor-realworld.azurewebsites.net/
 
-    https://github.com/gothinkster/realworld
+*   https://github.com/gothinkster/realworld
 
 *   https://github.com/agriffard/BlazorTodo
 
