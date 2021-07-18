@@ -1,5 +1,9 @@
 # ASP.net Core Introduction
 
+https://github.com/dodyg/practical-aspnetcore
+
+
+
 # Links / References
 
 *	Syncfusion
