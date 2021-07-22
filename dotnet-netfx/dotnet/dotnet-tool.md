@@ -2,6 +2,12 @@
 
 dotnet-tool.md 
 
+## dotnet global tools
+
+*   https://dasmulli.blog/2018/01/23/exploring-global-net-core-tools/
+
+*   https://github.com/dasMulli/GlobalCliToolsExample
+
 
 ```
 dotnet tool install -g Xamarin.AndroidBinderator.Tool
