@@ -18,6 +18,10 @@ dotnet tool   install -g redth.net.maui.check
 maui-check
 ```
 
+```
+dotnet new maui -n HelloMaui
+```
+
 ## Links / References
 
 *   https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/
@@ -136,6 +140,7 @@ maui-check
 
 
 
+<<<<<<< Updated upstream
 *   https://medium.com/successivetech/say-hello-to-net-maui-a-first-class-ui-framework-ed6b120d7612
 
 *   https://www.infoworld.com/article/3544632/microsoft-unveils-net-maui-for-cross-platform-apps.html
@@ -144,3 +149,5 @@ maui-check
 
 *   https://www.telerik.com/blogs/sands-of-maui-issue-9
 
+=======
+>>>>>>> Stashed changes
