@@ -42,6 +42,7 @@ source-code-generators.md
 
 *   https://github.com/iQuarc/Geco
 
+*   https://github.com/dotnet/roslyn-sdk/blob/master/samples/CSharp/SourceGenerators/SourceGeneratorSamples/HelloWorldGenerator.cs
 
 ## Links/References
 
@@ -49,5 +50,8 @@ source-code-generators.md
 
 
 
+<<<<<<< Updated upstream
 
      
+=======
+>>>>>>> Stashed changes
