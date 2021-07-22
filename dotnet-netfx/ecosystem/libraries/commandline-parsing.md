@@ -1,17 +1,20 @@
 # Commandline Parsing
 
+<<<<<<< Updated upstream
 https://dotnet.libhunt.com/search?query=command+line
 
 
 *   `Mono.Options`
 
     *   https://github.com/search?q=using+Mono.Options%3B
-
-        *   https://github.com/MaxxVelocity/MonoOptionParserSandbox
-
-        *   https://github.com/ryan-h/console-app-mono-boilerplate
+=======
+commandline-command-line-cmd.md
+>>>>>>> Stashed changes
 
 *   `System.CommandLine`
+
+
+    *   https://github.com/dotnet/command-line-api
 
     *   package
 
@@ -26,6 +29,7 @@ https://dotnet.libhunt.com/search?query=command+line
     *   https://dotnetdevaddict.co.za/2020/09/25/getting-started-with-system-commandline/
 
         *   https://github.com/dotnet/command-line-api
+<<<<<<< Updated upstream
 
     *  gitter
   
@@ -102,3 +106,34 @@ https://www.codeproject.com/Articles/19869/Powerful-and-simple-command-line-pars
 
 
 https://www.areilly.com/2017/04/21/command-line-argument-parsing-in-net-core-with-microsoft-extensions-commandlineutils/
+=======
+        
+
+
+*   `Mono.Options`
+
+    *   https://github.com/search?q=using+Mono.Options%3B
+
+        *   https://github.com/MaxxVelocity/MonoOptionParserSandbox
+
+        *   https://github.com/ryan-h/console-app-mono-boilerplate
+
+        *   the same API as `NDesk.Options`
+    
+*    NDesk.Options 
+
+    *   http://www.ndesk.org/doc/ndesk-options/
+
+    *   http://www.ndesk.org/doc/ndesk-options/NDesk.Options/OptionSet.html#T:NDesk.Options.OptionSet:Docs:Example:1
+
+*   Command Line Parser Library 
+
+    *   http://commandline.codeplex.com/
+
+*   CLAP (command line argument parser) h
+
+    *   http://adrianaisemberg.github.com/CLAP/
+    
+    *   https://github.com/adrianaisemberg/CLAP
+
+>>>>>>> Stashed changes
