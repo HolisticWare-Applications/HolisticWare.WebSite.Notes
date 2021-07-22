@@ -10,6 +10,8 @@ maui-samples.md
 
     *   https://github.com/davidortinau/WeatherTwentyOne
 
+    *   https://github.com/danroth27/BlazorWeather
+
 *   Create Basic Friends List using #dotNet #MAUI with MVVM
 
     *   https://www.facebook.com/groups/dotnetmaui/permalink/777709072928791/
@@ -21,3 +23,4 @@ maui-samples.md
 *   Comet
 
     *   https://github.com/dotnet/Comet
+    
