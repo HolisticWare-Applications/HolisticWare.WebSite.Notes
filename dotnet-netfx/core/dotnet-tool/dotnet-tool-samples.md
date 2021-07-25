@@ -248,6 +248,7 @@ dotnet tool uninstall   --global api-tools
 dotnet tool install     --global api-tools
 ```
 
+*   https://github.com/natemcmaster/dotnet-tools
 
 *   https://www.nuget.org/packages?page=5&q=dotnet%20tool&sortBy=relevance
 
@@ -260,6 +261,8 @@ cake.tool
 xamarin.androidbinderator.tool
 xamarin.androidx.migration.tool
 api-tools
+dotnet-ildasm
+assembly-differ
 Redth.Net.Maui.Check
 try-convert
 dotnet-grpc
@@ -282,7 +285,6 @@ dotnet-counters
 dotnet-dump
 dotnet-gcdump
 Microsoft.dotnet-interactive
-dotnet-ildasm
 dotnet-retire
 microsoft.tye 
 wyam.tool
@@ -291,6 +293,11 @@ dotnet-vs
 Microsoft.dotnet-httprepl
 Microsoft.dotnet-openapi
 dotnet-ignore
+dotnet-cleanup
+dotnet-serve
+dotnet-depends
+dotnet-obfuscar
+
 "
 
 # IFS=$'\n'
