@@ -12,5 +12,6 @@ New Android???
 
 *   https://pub.dartlang.org/flutter/packages?q=payments&fbclid=IwAR2KiEuOIBoSnIVwvKkpvsQkQf8c-TVOpRLWEFRApmThPLaG2I1b_gY3bj0
 
+*   https://betterprogramming.pub/why-flutter-isnt-the-next-big-thing-e268488521f4
 
 
