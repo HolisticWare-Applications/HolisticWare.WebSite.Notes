@@ -2,23 +2,26 @@
 
 readme.md
 
-maven artifact 
+Bindings improvements
 
-    *   2 use cases:
+*   2 use cases:
 
-        *   old/existing
+    *   old/existing - update
 
-            *   known urls
+        *   known 
+        
+        urls
 
-            *   known nuget id
+        *   nuget id
 
-            *   possibly unknown nuget version
+        *   possibly unknown nuget version
 
-        *   new binding
+    *   new binding
 
-            *   unknown urls
+        *   unknown urls
 
-            *   unknown nuget metadata
+        *   unknown nuget metadata
+
 
 *   problem 
 
