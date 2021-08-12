@@ -22,6 +22,9 @@ maui-check
 dotnet new maui -n HelloMaui
 ```
 
+https://devblogs.microsoft.com/xamarin/the-future-of-xamarin-community-toolkit/
+
+
 ## Links / References
 
 *   https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/
@@ -37,6 +40,12 @@ dotnet new maui -n HelloMaui
     *   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-4/
 
     *   https://devblogs.microsoft.com/dotnet/announcing-net-multi-platform-app-ui-preview-3/
+
+*   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-4/
+
+*   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/
+
+*   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/
 
 *   https://visualstudiomagazine.com/articles/2021/01/05/maui.aspx
 
