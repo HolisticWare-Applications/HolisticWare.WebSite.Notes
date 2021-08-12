@@ -192,5 +192,9 @@ dotnet nuget add source -n maui-preview https://aka.ms/maui-preview/index.json
 ```
 
 ```
+ maui-check  --fix --non-interactive
+```
+
+```
 dotnet new maui -n      HelloPreview6
 ```
