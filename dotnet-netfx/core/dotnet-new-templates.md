@@ -222,6 +222,25 @@ s*   https://github.com/dotnet/templating/wiki/%22Runnable-Project%22-Templates
 
 *   https://jeremylindsayni.wordpress.com/2017/03/21/how-to-a-net-core-template-to-create-a-new-project-from-the-command-line-with-dotnet-new-i/
 
+*   https://www.infoq.com/articles/dotnet-core-template-engine/
+
+*   https://cfrenzel.com/dotnet-new-templating-nuget/
+
+## dotnet new template postActions
+
+*   https://github.com/dotnet/templating/wiki/Post-Action-Registry#run-script
+
+
+## dotnet new template symbols
+
+*   https://github.com/dotnet/templating/issues/1728
+
+*   https://github.com/dotnet/templating/wiki/Reference-for-template.json#symbols
+
+*   https://github.com/dotnet/templating/wiki/Runnable-Project-Templates---Value-Forms
+
+*   https://www.patridgedev.com/2018/10/22/add-variables-to-your-custom-dotnet-new-template/
+
 
 ### Samples
 
