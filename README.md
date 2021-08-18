@@ -154,6 +154,19 @@ open -a Firefox
 		
 *	https://kdelmonte.github.io/json-to-markdown-table/
 
+#### Xamarin.Forms
+
+*	https://github.com/Samples-Playgrounds/Samples.Xamarin.Forms
+
+*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/xamarin/products/xamarin-platform/xamarin.forms/samples.md
+
+#### MAUI
+
+*	https://github.com/Samples-Playgrounds/Samples.MAUI
+
+*	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/dotnet-netfx/dotnet/ui-user-interface/maui-multi-platform-app-ui/maui-samples.md
+
+
 ### HolisticWare
 
 *   https://github.com/HolisticWare
