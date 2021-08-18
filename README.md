@@ -166,6 +166,10 @@ open -a Firefox
 
 *	https://github.com/moljac/HolisticWare.WebSite.Notes/blob/master/dotnet-netfx/dotnet/ui-user-interface/maui-multi-platform-app-ui/maui-samples.md
 
+*	https://github.com/Cheesebaron/HackerNews-Maui
+
+*	https://github.com/brminnick/HackerNews
+
 
 ### HolisticWare
 
