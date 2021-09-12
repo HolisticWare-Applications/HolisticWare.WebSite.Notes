@@ -8,17 +8,18 @@ dotnet-6-libraries-driven-by-community.md
 
 5th timer in .NET
 
+```
 System.Timers.Timer
 System.Threading.Timer
 System.Windows.Forms.Timer
 System.Web.UI.Timer
 System.Windows.Threading.DispatcherTimer
+```
 
-
-PeriodicTimer
+### `PeriodicTimer`
 
 *   https://docs.microsoft.com/en-us/dotnet/api/system.threading.periodictimer?view=net-6.0
 
-https://docs.microsoft.com/en-us/windows/uwp/threading-async/create-a-periodic-work-item
+*   https://docs.microsoft.com/en-us/windows/uwp/threading-async/create-a-periodic-work-item
 
-https://www.infoq.com/news/2021/08/net6-Threading/
+*   https://www.infoq.com/news/2021/08/net6-Threading/
