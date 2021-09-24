@@ -130,7 +130,7 @@ try-convert --help
 ## Diverse
 
 ```bash
-dotnet tools
+dotnet tool
 ```
 
 ```bash
@@ -218,35 +218,17 @@ dotnet tool install     --global dotnet-deb
 
     https://github.com/qmfrederik/dotnet-packaging/blob/master/dotnet-deb/dotnet-deb.csproj
 
-```bash
-dotnet tool uninstall   --global dotnet-grpc
-dotnet tool install     --global dotnet-grpc
-```
 
     https://github.com/grpc/grpc-dotnet/blob/master/src/dotnet-grpc/dotnet-grpc.csproj
 
-```bash
-dotnet tool uninstall   --global boots
-dotnet tool install     --global boots
-```
 
     https://github.com/jonathanpeppers/boots/blob/main/Boots/Boots.csproj
 
     https://github.com/jonathanpeppers/boots
 
-```bash
-dotnet tool uninstall   -g Redth.Net.Maui.Check
-dotnet tool install     -g Redth.Net.Maui.Check
-```
     https://github.com/Redth/dotnet-maui-check/blob/main/MauiCheck/MauiCheck.csproj
 
 
-```bash
-dotnet tool uninstall   --global xamarin.androidbinderator.tool
-dotnet tool install     --global xamarin.androidx.migration.tool
-dotnet tool uninstall   --global api-tools
-dotnet tool install     --global api-tools
-```
 
 *   https://github.com/natemcmaster/dotnet-tools
 
@@ -297,6 +279,56 @@ dotnet-cleanup
 dotnet-serve
 dotnet-depends
 dotnet-obfuscar
+coverlet.console
+BenchmarkDotNet.Tool
+CSharpSyntaxValidator
+Korzh.DbTool
+depguard
+dotnet-args
+dotnet-aspnet-codegenerator
+dotnet-combine
+dotnet-config
+dotnet-config2json
+dotnet-coverageconverter
+dotnet-depends
+dotnet-file
+dotnet-giio
+dotnet-grab
+dotnet-namechk
+dotnet-nuget-gc
+Obfuscar.GlobalTool
+dotnet-outdated-tool
+dotnet-retire
+dotnet-script
+DotNetSdkHelpers
+dotnet-search
+dotnet-serve
+DotNetSimpleServer
+dotnet-sonarscanner
+dotnet-sort-refs
+dotnet-sshdeploy
+dotnet-try
+dotnet-updatealltools
+dotnet-warp
+dotnet-wiremock
+dotnet-xdt
+ib
+ilspycmd
+InstallSdkGlobalTool
+json2yaml
+LiveReloadServer
+ndjson
+protobuf-net.Protogen
+PowerShell
+dotnet-rider-cli
+Snitch
+Elemental.SysInfoTool
+dotnet-t4
+todo
+dotnet-xscgen
+xunit-cli
+upgrade-assistant
+
 "
 
 # IFS=$'\n'
@@ -314,3 +346,35 @@ done
 dotnet tool list --global
 ```
 
+
+
+*   https://www.nuget.org/packages?packagetype=dotnettool
+
+
+*   https://github.com/devlooped/dotnet-evergreen/blob/main/src/dotnet-evergreen/Program.cs
+
+*   https://github.com/devlooped/dotnet-tor/blob/main/src/dotnet-tor/Program.cs
+
+*   https://github.com/kzu/dotnet-echo/blob/main/src/dotnet-echo/Program.cs
+
+*   https://github.com/augustoproiete/dotnet-args/blob/master/src/DotNet.Args/DotNet.Args.csproj
+
+*   https://github.com/jonathanpeppers/boots/blob/main/Boots/Program.cs
+
+https://github.com/mono/t4/blob/main/dotnet-t4-project-tool/dotnet-t4-project-tool.csproj
+
+
+
+
+## PackAsTool
+
+```
+    <PackAsTool>true</PackAsTool>
+```
+
+
+## ToolCommandName
+
+```
+    <ToolCommandName>csmin</ToolCommandName>
+```
