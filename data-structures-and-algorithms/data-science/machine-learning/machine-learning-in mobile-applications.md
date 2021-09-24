@@ -2,7 +2,7 @@
 
 machine-learning-in mobile-applications.md
 
-*   https://www.linkedin.com/learning/machine-learning-in-mobile-applications?u=3322
+*   https://www.linkedin.com/learning/machine-learning-in-mobile-applications
 
 ## Notes
 
