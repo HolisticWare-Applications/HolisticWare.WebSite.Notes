@@ -25,65 +25,25 @@ Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.9.nupkg
 Xamarin.AndroidX.AsyncLayoutInflater.1.0.0.8.nupkg
 Xamarin.AndroidX.AutoFill.1.1.0.7.nupkg
 Xamarin.AndroidX.Biometric.1.1.0.4.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 106ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Biometric.1.1.0.4.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Browser.1.3.0.6.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 131ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Browser.1.3.0.6.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Camera.Camera2.1.0.1.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 128ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Camera.Camera2.1.0.1.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Camera.Core.1.0.1.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 166ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Camera.Core.1.0.1.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Camera.Lifecycle.1.0.1.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 197ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Camera.Lifecycle.1.0.1.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Car.App.App.1.0.0.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 171ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Car.App.App.1.0.0.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Car.Car.1.0.0.6-alpha7.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 162ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Car.Car.1.0.0.6-alpha7.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Car.Cluster.1.0.0.6-alpha5.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 190ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Car.Cluster.1.0.0.6-alpha5.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.CardView.1.0.0.9.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 177ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.CardView.1.0.0.9.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Collection.1.1.0.8.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 105ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Collection.1.1.0.8.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Collection.Ktx.1.1.0.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 257ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Collection.Ktx.1.1.0.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Concurrent.Futures.1.1.0.3.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 216ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Concurrent.Futures.1.1.0.3.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.ConstraintLayout.2.1.0.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 190ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.ConstraintLayout.2.1.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.ConstraintLayout.Core.1.0.0.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 215ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.ConstraintLayout.Core.1.0.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.ConstraintLayout.Solver.2.0.4.3.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 168ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.ConstraintLayout.Solver.2.0.4.3.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.ContentPager.1.0.0.8.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 107ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.ContentPager.1.0.0.8.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.CoordinatorLayout.1.1.0.8.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 169ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.CoordinatorLayout.1.1.0.8.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Core.1.6.0.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 422ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Core.1.6.0.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Core.Animation.1.0.0.6-alpha02.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 149ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Core.Animation.1.0.0.6-alpha02.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Core.Core.Ktx.1.6.0.1.nupkg
-  Conflict https://www.nuget.org/api/v2/package/ 607ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Core.Core.Ktx.1.6.0.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Core.GoogleShortcuts.1.0.0.nupkg
   Conflict https://www.nuget.org/api/v2/package/ 576ms
 Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Core.GoogleShortcuts.1.0.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
