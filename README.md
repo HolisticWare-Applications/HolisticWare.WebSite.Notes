@@ -8,7 +8,9 @@ Notes in markdown format:
 
 ## Fast Links
 
-*	https://github.com/xamarin/xamarin-android/issues/5352
+*	bindings improvements 
+
+	*	https://github.com/xamarin/xamarin-android/issues/5352
 
 ## poslodavec
 
@@ -445,6 +447,8 @@ git clone --recursive \
 *	https://www.windy.com/?43.509,16.439,5
 
 *	Sabunike
+
+	*	https://www.windfinder.com/forecast/sabunike
 
 	*	https://meteo.hr/prognoze.php?section=prognoze_model&param=ala_k&el=web_uv10_HRv8_
 
