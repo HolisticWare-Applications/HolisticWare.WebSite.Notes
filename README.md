@@ -12,6 +12,24 @@ Notes in markdown format:
 
 	*	https://github.com/xamarin/xamarin-android/issues/5352
 
+*	Nuget
+
+	*	fuget
+	
+		*	http://fuget.org/
+
+	*	nuget
+
+		*	https://www.nuget.org/
+
+*	Maven
+
+	*	https://maven.google.com/web/index.html
+
+	*	https://search.maven.org/
+
+	*	https://mvnrepository.com/
+
 ## poslodavec
 
 ```
