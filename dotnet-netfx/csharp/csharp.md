@@ -99,4 +99,61 @@ csharp.md
 
 *   http://resourcerefactoring.codeplex.com/
 
+## Versions
 
+*   https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+
+*   versions:
+
+    *   1.0
+
+    *   1.1 and 1.2
+
+    *   2.0
+
+    *   3.0
+
+    *   4.0
+
+    *   5.0
+
+    *   6.0
+
+    *   7.0
+
+    *   7.1
+
+    *   7.2
+
+    *   7.3
+
+    *   8.0
+
+    *   9.0
+
+    *   10.0
+
+## v.10
+
+*   https://twitter.com/DanJSiegel/status/1448716839123488768
+
+*   https://sharplab.io/#gist:a20498078ba7f6376fd9413a15ba9ff9
+
+*   https://www.tabsoverspaces.com/233844-back-to-csharp-basics-difference-between-and-get-for-properties
+
+```csharp
+public class C 
+{
+    // defines the method body on the property getter
+    // Option one is equivalent to 
+    //  Foo { get { return Guid.NewGuid(); } } 
+    // so new Guid every time. 
+     public Guid Foo0 => Guid.NewGuid();
+
+    // assigns the value to the property when the object is instantiated
+    // Option two creates a default initializer that sets the auto backing field 
+    // to Guid.NewGuid(); 
+    // so same Guid every time.
+     public Guid Foo1 { get; } = Guid.NewGuid(); 
+}
+```
