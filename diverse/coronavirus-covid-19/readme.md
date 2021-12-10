@@ -104,11 +104,14 @@ corona-covid19.md
 
 *	neherlabs
 
-	*	https://neherlab.org/covid19/
-
+	*	https://covid19-scenarios.org/
+	
 	*	https://github.com/neherlab/covid19_scenarios
 
+	*	https://neherlab.org/covid19/
+
 *	https://github.com/institutefordiseasemodeling/covasim
+
 
 ## Dashboards
 
