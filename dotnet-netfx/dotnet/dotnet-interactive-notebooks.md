@@ -6,6 +6,10 @@ dotnet-interactive-notebooks.md
 
 *   https://www.hanselman.com/blog/introducing-the-net-coding-pack-for-vs-code-getting-started-with-c-for-beginners
 
+*   Learn C#, F#, and PowerShell with VS Code & .NET Interactive Notebooks
+
+    *   https://www.youtube.com/watch?v=NiRAOfH-PuM
+
 ## .NET Interactive Notebooks extension
 
 *   https://raw.githubusercontent.com/dotnet/vscode-dotnet-pack/main/misc/Getting%20started%20with%20.NET.dib
