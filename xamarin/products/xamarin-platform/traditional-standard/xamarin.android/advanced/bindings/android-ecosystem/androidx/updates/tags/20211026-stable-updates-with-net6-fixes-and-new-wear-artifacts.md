@@ -2,6 +2,8 @@
 
 20211026-stable-updates-with-net6-fixes-and-new-wear-artifacts.md
 
+Pushed / Published:
+
 ```
 Xamarin.Android.ReactiveX.RxJava3.RxJava.3.1.2.nupkg
 Xamarin.AndroidX.DataBinding.DataBindingAdapters.7.0.3.nupkg
@@ -18,6 +20,7 @@ Xamarin.AndroidX.Work.Work.Runtime.Ktx.2.7.0.nupkg
 Xamarin.KotlinX.Coroutines.Guava.1.5.0.nupkg
 ```
 
+Duplicates / Rejected:
 
 ```
 GoogleGson.2.8.8.2.nupkg
