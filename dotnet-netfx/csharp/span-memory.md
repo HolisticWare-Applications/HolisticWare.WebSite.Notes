@@ -120,6 +120,11 @@ readonly ref struct Span<T>
 *   to overcome heap restrictions!
 
 
+## Samples
+
+*   https://www.codeproject.com/Articles/5269747/Using-Span-T-to-Improve-Performance-of-Csharp-Code
+
+
 ## Diverse
 
 *   Product info: 
