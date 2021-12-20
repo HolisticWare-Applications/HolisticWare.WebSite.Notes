@@ -4,7 +4,6 @@
 
 Pushed / Published:
 
-
 ```
 Xamarin.AndroidX.Camera.Camera2.1.0.2.nupkg
 Xamarin.AndroidX.Camera.Core.1.0.2.nupkg
@@ -12,7 +11,6 @@ Xamarin.AndroidX.Camera.Lifecycle.1.0.2.nupkg
 ```
 
 Duplicates / Rejected:
-
 
 ```
 GoogleGson.2.8.8.2.nupkg
