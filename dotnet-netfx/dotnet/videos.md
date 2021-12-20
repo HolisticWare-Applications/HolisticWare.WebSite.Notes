@@ -2,6 +2,11 @@
 
 videos.md
 
+*   CODE Magazine
+
+    *   https://www.youtube.com/channel/UCfOXwZKBK42LF5N2il9_SUg
+
+    
 *   https://www.youtube.com/channel/UCvtT19MZW8dq5Wwfu6B0oxw/playlists
 
 *   https://www.youtube.com/channel/UCvtT19MZW8dq5Wwfu6B0oxw
