@@ -57,9 +57,18 @@ csharp-performance.md
 
     *   https://github.com/thangchung/awesome-dotnet-core
 
+## .NET Core 3
+
+*   https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-3-0/
+
 
 ## Comparisons
 
 *   https://www.itu.dk/~sestoft/papers/numericperformance.pdf
 
 *   https://github.com/moljac/Samples.CSharp/tree/master/performance
+
+
+## Samples
+
+*   https://www.codeproject.com/Articles/5269747/Using-Span-T-to-Improve-Performance-of-Csharp-Code
