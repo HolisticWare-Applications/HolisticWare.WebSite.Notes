@@ -15,3 +15,4 @@ New Android???
 *   https://betterprogramming.pub/why-flutter-isnt-the-next-big-thing-e268488521f4
 
 
+*   https://www.reddit.com/r/xamarindevelopers/comments/rjl5id/are_there_any_xamarin_devs_who_have_done_complete/
