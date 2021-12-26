@@ -5,7 +5,7 @@ videos-youtube-channels.md
 
 *   https://dev.to/designerakash/master-programming-with-best-youtube-channels-1n9h
 
-
+*   https://github.com/ErikCH/DevYouTubeList
 
 *   Computer Stuff They Didn't Teach You
 
