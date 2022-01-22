@@ -112,4 +112,50 @@ generic-math.md
 *   http://tomasp.net/blog/fsharp-generic-numeric.aspx/
 
 
+### 20220105
+
+
+*   https://github.com/dotnet/docs/pull/27503
+
+*   https://github.com/dotnet/designs/pull/205
+
+*   Statics in Interfaces
+
+    *   https://github.com/dotnet/designs/blob/3181db8296e2bdbeb0df97e44909de09eb133527/accepted/2021/statics-in-interfaces/README.md
+
+*   Self constraint for generic type parameters
+
+    *   https://github.com/dotnet/csharplang/blob/711b9406f07d1fc43d2825df4c0284c9614b7821/proposals/self-constraint.md
+
+
+https://github.com/brucificus/AdventOfCode/blob/a30d9826826d3e1951dc44d8adbf31f83aefe70c/src/Y2021/Shared/GenericMathEnumerableExtensions.cs
+
+https://github.com/rstropek/Samples/blob/96d03de93b4cab889f47b41ea23e682cdd135373/CSharp10/GenericMath/GenericMath.cs
+
+https://github.com/WaifuShork/Common/blob/94e0976d52c55af81951538d59706bc6b4a9213e/src/WaifuShork.Common/Math/Generic/GenericOperators.cs
+
+https://github.com/ufcpp/UfcppSample/blob/7cd41fbaa77360a66bfe7a542ea9c6faddb6e06e/Demo/2021/Csharp10/StaticAbstract/GenericMath/Algebra/GaloisField.cs
+
+https://github.com/NikolayIT/CSharp-New-Features/blob/be2ea33ef6cebf1995fc8bd17c85d01c8c787f4c/CSharp-10-New-Features/StaticAbstractInInterfaces/OneDigitNumber.cs
+
+https://github.com/asc-community/AngouriMath/blob/f457fcf60756a0bb60a18ebe683085ed12e27b9b/Sources/AngouriMath/AngouriMath/Core/Entity/GenericMath/IClosedArithmetics.cs
+
+
+https://github.com/Tavenem/HugeNumber/blob/a2e61e4678058c27ee36fc81c7b872fe8a29ba7f/src/HugeNumber.cs
+
+
+
+operator == (Equals)
+
+    *   https://github.com/angularsen/UnitsNet/pull/984
+
+
+https://github.com/asc-community/AngouriMath/pull/509
+
+
+
+
+
+
+
 
