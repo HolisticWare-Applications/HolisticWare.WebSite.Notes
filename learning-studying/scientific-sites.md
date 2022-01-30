@@ -6,6 +6,8 @@ scientific-sites.md
 
     *   https://sci-hub.se/
 
+    *   https://sci-hub.41610.org/
+
 *   Z library
 
     *   https://z-lib.org/
