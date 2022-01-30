@@ -192,7 +192,7 @@ videos.md
 *   Venkat K
 
     *   Pragimtech
-    
+
     *   https://www.youtube.com/channel/UCCTVrRB5KpIiK6V2GGVsR1Q
 
     *   https://twitter.com/kudvenkat
@@ -235,10 +235,35 @@ videos.md
 
         *   https://www.youtube.com/channel/UCCfqyGl3nq_V0bo64CjZh8g
 
-*   
-    https://www.youtube.com/channel/UCtLwBE6ZNXnQdQp5o36BUxA
+*   Rishab Kumar
 
-    https://twitter.com/jeremybytes
+    *   cloud, DevOps, Google
+
+    *   https://www.youtube.com/channel/UCtLwBE6ZNXnQdQp5o36BUxA
+
+*   Jeremy Clark
+
+    *   https://twitter.com/jeremybytes
+
+    *   http://www.jeremybytes.com/
+
+    *   https://github.com/jeremybytes/csharp-channels-presentation 
+
+
+*   C# Corner
+
+    *   https://www.youtube.com/channel/UCJ496avXb1xfjQY0JGHsFOg
+
+    *   C# Corner .NET Conference 2022 
+    
+        *   Day 1
+        
+            *   https://www.youtube.com/watch?v=LpoYTZSMeG0&ab_channel=C%23Corner
+
+        *   Day 2
+        
+            *   https://www.youtube.com/watch?v=tJldyGnWDEQ&t=131s
+
 
 ## Twitch
 
