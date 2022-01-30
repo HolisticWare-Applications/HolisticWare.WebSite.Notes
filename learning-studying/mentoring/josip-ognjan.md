@@ -70,3 +70,13 @@ josip-ognjan.md
         *   https://blazor.radzen.com/
 
         *   https://blazorise.com/
+
+https://jsakamoto.github.io/awesome-blazor-browser/
+
+        *   samples
+
+            *   Weather App
+
+                https://github.com/danroth27/BlazorWeather
+
+
