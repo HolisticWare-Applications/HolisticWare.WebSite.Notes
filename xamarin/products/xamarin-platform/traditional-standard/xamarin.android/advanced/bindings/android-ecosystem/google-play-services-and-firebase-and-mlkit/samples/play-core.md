@@ -8,6 +8,8 @@ play-core.md
 
 *   https://github.com/SanojPunchihewa/InAppUpdater/tree/master/app
 
-https://github.com/xamarin/GooglePlayServicesComponents/issues/348
+*   https://github.com/xamarin/GooglePlayServicesComponents/issues/348
 
-    https://github.com/PatGet/XamarinPlayCoreUpdater
+    *   https://github.com/PatGet/XamarinPlayCoreUpdater
+
+*   https://github.com/infinitespace-studios/XamarinLegacyDynamicAssetsExample
