@@ -45,6 +45,10 @@ adding and such to fully adopt netstandard so at least we can run the cake globa
 maybe see how dotnet tools can be invoked from cake
 This might provide a nice transition
 
+## Releaser
+
+https://github.com/xoofx/dotnet-releaser
+
 ## Cake
 
 ```
