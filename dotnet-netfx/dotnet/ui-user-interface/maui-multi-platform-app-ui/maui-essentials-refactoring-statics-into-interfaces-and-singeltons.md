@@ -12,7 +12,10 @@ API's to complete:
 
 *   [] Accelerometer
 
+    *   https://docs.microsoft.com/en-us/xamarin/essentials/accelerometer
+
     *   
+
 *   [] AppActions
 
 *   [x] AppInfo
