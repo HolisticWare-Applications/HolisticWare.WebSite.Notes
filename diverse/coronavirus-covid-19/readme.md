@@ -447,3 +447,35 @@ Podaci o simptomima upale pluća uzrokovane virusom Corona:
 O prevenciji:
 - Najčešći način da se zarazite je dodirnuti stvari u javnosti, kao što su rukohvati, ručke na vratima, ručke u autobusu itd., Pa biste trebali često oprati ruke. Virus može živjeti u vašim rukama samo 5-10 minuta, ali mnoge se stvari mogu dogoditi u tih 5-10 minuta, poput trljanja očiju, nosa, usta.
 - Preporučuje se grgljanje Betadine za grlo kako biste uklonili ili smanjili klice dok su još u grlu (prije nego što se spuste u pluća).
+
+
+
+
+
+
+
+
+
+https://www.reddit.com/r/dataisbeautiful/comments/heglc5/oc_a_regional_breakdown_of_the_united_states/
+
+https://www.reddit.com/r/dataisbeautiful/comments/hbio57/oc_heat_map_of_new_confirmed_covid19_cases_by_us/
+
+https://www.reddit.com/r/dataisbeautiful/comments/hf1477/oc_when_was_the_covid19_peak_by_country_7_day/
+
+https://www.reddit.com/r/dataisbeautiful/comments/hecwmy/oc_united_states_covid19_new_cases_per_day/
+
+https://www.kuow.org/stories/the-honeymoon-s-over-welcome-to-the-disillusionment-stage-of-covid-19?fbclid=IwAR1gB3aGx4miFUEZb39ArsT8Gh9DQT5Nt161J6XH69xrnRJ0hYgg2QwiBkA
+
+https://www.theverge.com/2020/4/29/21242102/elon-musk-coronavirus-fascist-shelter-in-place-tesla-covid-19-safety-science
+
+https://www.telegraph.co.uk/politics/2020/05/01/leading-businessman-launches-legal-challenge-against-governments/
+
+http://arhivanalitika.hr/blog/svi-pricaju-o-vladinih-94-ali-sto-se-sada-dogada/
+
+https://www.aier.org/article/woodstock-occurred-in-the-middle-of-a-pandemic/
+
+https://www.youtube.com/watch?v=bl-sZdfLcEk&feature=youtu.be
+
+https://www.youtube.com/watch?v=bfN2JWifLCY
+
+https://www.youtube.com/watch?v=bfN2JWifLCY
