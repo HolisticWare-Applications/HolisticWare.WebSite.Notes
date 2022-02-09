@@ -48,3 +48,24 @@ migration.md
     * Sasa and myself with projectKreator
 
 
+
+
+
+```
+System.BadImageFormatException: 
+    /Users/Shared/Projects/d/X/AX-issue0064_BundleAssemblies/output/AndroidSupport.Merged.dll ---> 
+System.IO.EndOfStreamException: Unable to read beyond the end of the stream.
+```
+
+```
+System.BadImageFormatException: 
+System.IO.EndOfStreamException: Unable to read beyond the end of the stream.
+```
+
+
+~/.dotnet/tools/androidx-migrator  \
+    generate -v \
+        --support ./output/AndroidSupport.Merged.dll \
+        --androidx ./output/AndroidX.Merged.dll \
+        --output ./output/mappings/androidx-mapping.csv
+    
