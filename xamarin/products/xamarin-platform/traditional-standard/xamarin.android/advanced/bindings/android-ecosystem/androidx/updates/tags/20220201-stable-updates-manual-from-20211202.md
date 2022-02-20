@@ -2,6 +2,7 @@
 
 20220201-stable-updates-manual-from-20211202.md
 
+Pushed / Published:
 
 ```
 GoogleGson.2.8.9.2.nupkg
