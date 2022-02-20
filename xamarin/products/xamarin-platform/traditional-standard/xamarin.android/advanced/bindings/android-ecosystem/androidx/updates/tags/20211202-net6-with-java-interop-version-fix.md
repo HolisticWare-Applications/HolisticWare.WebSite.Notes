@@ -2,6 +2,7 @@
 
 20211202-net6-with-java-interop-version-fix.md
 
+Pushed / Published:
 
 ```
 GoogleGson.2.8.9.1.nupkg
