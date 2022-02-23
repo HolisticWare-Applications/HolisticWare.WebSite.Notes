@@ -6,6 +6,18 @@ maui-essentials-refactoring-statics-into-interfaces-and-singeltons.md
 
     *   https://github.com/dotnet/maui/issues/4497
 
+```
+./bin/dotnet/dotnet build Microsoft.Maui-mac.slnf
+```
+
+
+```
+./bin/dotnet/dotnet build ./src/Essentials/test/UnitTests/Essentials.UnitTests.cspro
+```
+
+```
+./bin/dotnet/dotnet build ./src/Essentials/test/DeviceTests/Essentials.DeviceTests.csproj
+```
 
 API's to complete:
 
