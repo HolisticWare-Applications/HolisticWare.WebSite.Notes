@@ -2,130 +2,64 @@
 
 20220303-stable-updates.md
 
+
+```
 Xamarin.AndroidX.Compose.Animation.1.1.1.nupkg
-2336ms
 Xamarin.AndroidX.Compose.Animation.Core.1.1.1.nupkg
-724ms
 Xamarin.AndroidX.Compose.Foundation.1.1.1.nupkg
-600ms
 Xamarin.AndroidX.Compose.Foundation.Layout.1.1.1.nupkg
-649ms
 Xamarin.AndroidX.Compose.Material.1.1.1.nupkg
-704ms
 Xamarin.AndroidX.Compose.Material.Icons.Core.1.1.1.nupkg
-776ms
 Xamarin.AndroidX.Compose.Material.Icons.Extended.1.1.1.nupkg
-2790ms
 Xamarin.AndroidX.Compose.Material.Ripple.1.1.1.nupkg
-634ms
 Xamarin.AndroidX.Compose.Runtime.1.1.1.nupkg
-514ms
 Xamarin.AndroidX.Compose.Runtime.LiveData.1.1.1.nupkg
-499ms
 Xamarin.AndroidX.Compose.Runtime.RxJava2.1.1.1.nupkg
-591ms
 Xamarin.AndroidX.Compose.Runtime.Saveable.1.1.1.nupkg
-458ms
 Xamarin.AndroidX.Compose.UI.1.1.1.nupkg
-962ms
 Xamarin.AndroidX.Compose.UI.Geometry.1.1.1.nupkg
-500ms
 Xamarin.AndroidX.Compose.UI.Graphics.1.1.1.nupkg
-487ms
 Xamarin.AndroidX.Compose.UI.Text.1.1.1.nupkg
-597ms
 Xamarin.AndroidX.Compose.UI.Unit.1.1.1.nupkg
-504ms
 Xamarin.AndroidX.Compose.UI.Util.1.1.1.nupkg
-458ms
 Xamarin.AndroidX.Compose.UI.ViewBinding.1.1.1.nupkg
-444ms
 Xamarin.AndroidX.DataBinding.DataBindingAdapters.7.1.2.nupkg
-487ms
 Xamarin.AndroidX.DataBinding.DataBindingCommon.7.1.2.nupkg
-639ms
 Xamarin.AndroidX.DataBinding.DataBindingRuntime.7.1.2.nupkg
-493ms
 Xamarin.AndroidX.DataBinding.ViewBinding.7.1.2.nupkg
-492ms
 Xamarin.AndroidX.Emoji2.1.1.0.nupkg
-575ms
 Xamarin.AndroidX.Emoji2.ViewsHelper.1.1.0.nupkg
-490ms
 Xamarin.AndroidX.Room.Common.2.4.2.nupkg
-569ms
 Xamarin.AndroidX.Room.Guava.2.4.2.nupkg
-569ms
 Xamarin.AndroidX.Room.Room.Ktx.2.4.2.nupkg
-563ms
 Xamarin.AndroidX.Room.Room.RxJava2.2.4.2.nupkg
-495ms
 Xamarin.AndroidX.Room.Room.RxJava3.2.4.2.nupkg
-729ms
 Xamarin.AndroidX.Room.Runtime.2.4.2.nupkg
-563ms
 Xamarin.AndroidX.Window.1.0.0.7.nupkg
-537ms
+```
 
 
 
 
-
-
+```
 GoogleGson.2.9.0.nupkg
-623ms
-Package 'D:\a\r1\a\tempsigned\GoogleGson.2.9.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.Android.ReactiveStreams.1.0.3.5.nupkg
-176ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.Android.ReactiveStreams.1.0.3.5.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.Android.ReactiveX.RxJava.2.2.21.5.nupkg
-498ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.Android.ReactiveX.RxJava.2.2.21.5.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.Android.ReactiveX.RxJava3.RxJava.3.1.3.2.nupkg
-377ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.Android.ReactiveX.RxJava3.RxJava.3.1.3.2.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Activity.1.4.0.nupkg
-174ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Activity.1.4.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Activity.Ktx.1.4.0.nupkg
-182ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Activity.Ktx.1.4.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Ads.Identifier.1.0.0.10-alpha04.nupkg
-233ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Ads.Identifier.1.0.0.10-alpha04.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.10-alpha04.nupkg
-229ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Ads.IdentifierCommon.1.0.0.10-alpha04.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Ads.IdentifierProvider.1.0.0.10-alpha04.nupkg
-172ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Ads.IdentifierProvider.1.0.0.10-alpha04.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Annotation.1.3.0.2.nupkg
-185ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Annotation.1.3.0.2.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Annotation.Experimental.1.2.0.nupkg
-227ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Annotation.Experimental.1.2.0.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.AppCompat.1.4.1.nupkg
-228ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.AppCompat.1.4.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.AppCompat.AppCompatResources.1.4.1.nupkg
-182ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.AppCompat.AppCompatResources.1.4.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg
-229ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.AppCompat.Resources.1.1.0.1.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Arch.Core.Common.2.1.0.13.nupkg
-181ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Arch.Core.Common.2.1.0.13.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.13.nupkg
-170ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Arch.Core.Runtime.2.1.0.13.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.AsyncLayoutInflater.1.0.0.12.nupkg
-181ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.AsyncLayoutInflater.1.0.0.12.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.AutoFill.1.1.0.11.nupkg
-192ms
-Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.AutoFill.1.1.0.11.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
 Xamarin.AndroidX.Biometric.1.1.0.8.nupkg
 185ms
 Package 'D:\a\r1\a\tempsigned\Xamarin.AndroidX.Biometric.1.1.0.8.nupkg' already exists at feed 'https://www.nuget.org/api/v2/package'.
