@@ -2,6 +2,8 @@
 
 ukraina.md
 
+*   https://liveuamap.com/
+
 ## Telegram
 
 *   OSINT UKRAINE
@@ -42,23 +44,46 @@ ukraina.md
 
     *   https://t.me/operativnoZSU
 
+*   https://t.me/voynareal
+
+*   https://t.me/spravdi
+
+*   https://t.me/h_kiev
+
+*   https://t.me/opersvodki
+
+*   https://t.me/polkazov
+
+
+*   https://en.wikipedia.org/wiki/T-14_Armata
+
+*   https://en.wikipedia.org/wiki/T-15_Armata
+
+*   https://en.wikipedia.org/wiki/VPK-7829_Bumerang
+
+*   https://en.wikipedia.org/wiki/Bumerang-BM
+
+*   https://en.wikipedia.org/wiki/Kurganets-25
+
 
 
 ## 20220324
 
 *   https://www.reddit.com/search?q=Nato&source=trending
 
-https://www.reddit.com/r/nato/
+*   https://www.reddit.com/r/nato/
 
-https://www.reddit.com/r/ukraine/
+*   https://www.reddit.com/r/ukraine/
 
-https://www.reddit.com/r/UkraineWarVideoReport/
+*   https://www.reddit.com/r/UkraineWarVideoReport/
 
-https://www.reddit.com/r/UkrainianConflict/
+*   https://www.reddit.com/r/UkrainianConflict/
 
 *   https://www.rferl.org/amp/ukraine-invasion-russian-military-kofman-interview/31758392.html
 
 *   https://www.atlanticcouncil.org/blogs/new-atlanticist/russia-crisis-military-assessment-why-did-russias-invasion-stumble/
+
+*   https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html
 
 ## 20220228
 
@@ -69,4 +94,12 @@ https://www.reddit.com/r/UkrainianConflict/
 *   Ahmad Sila
 
     *   https://www.instagram.com/ahmad_sila_/?hl=en
+
+## Ukraine Microsoft MVP
+
+*   https://blog.scooletz.com/2022/03/02/ukraine-not-MS-mvp
+
+
+
+
 
