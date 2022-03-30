@@ -88,3 +88,56 @@ API's to complete:
 *   [] Vibration
 *   [] WebAuthenticator
 
+
+
+## Essentials Interfaces
+
+
+
+
+*   Essentials.WebAuthenticator refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4757
+*   Essentials.TextToSpeech refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4747
+*   Essentials.Vibration refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4727
+*   Essentials.MediaPicker refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4663
+*   Essentials.OrientationSensor refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4662
+*   Essentials.Magnetometer refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4652
+*   Essentials.HapticFeedback refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4651
+*   Essentials.Gyroscope refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4649
+*   Essentials.Accelerometer refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4644
+*   Essentials.Geolocation refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4634
+*   Essentials.FileSystem refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4633
+*   Essentials.Battery refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4629
+*   Essentials.Email refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4623
+*   Essentials.Connectivity refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4622
+*   Essentials.Compass refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4615
+*   Essentials.Clipboard refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4612
+*   Essentials.Browser refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4605
+*   Essentials.AppActions refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4596 
+
+
+
+
+*   Essentials.Launcher WIP refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4903 
+*   Essentials.FilePicker WIP refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4632
+*   Essentials.Barometer refactored to interface and singleton
+    *   https://github.com/dotnet/maui/pull/4604
