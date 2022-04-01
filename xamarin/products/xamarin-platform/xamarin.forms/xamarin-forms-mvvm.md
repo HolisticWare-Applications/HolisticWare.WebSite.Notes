@@ -12,6 +12,8 @@ Options:
 
     *   https://github.com/PrismLibrary/Prism
 
+    *   https://prismlibrary.com/docs/xamarin-forms/Getting-Started.html
+
 *   FreshMvvm
 
     *   https://www.youtube.com/watch?v=bj7ZxrmyzTA&ab_channel=GeraldVersluis
@@ -32,6 +34,8 @@ Options:
     
     *   https://github.com/MvvmCross/MvvmCross
 
+    *   https://www.mvvmcross.com/
+
 *   Catel
 
     *   https://github.com/Catel/Catel
@@ -40,15 +44,22 @@ Options:
 
     *   https://github.com/canton7/Stylet
 
-
+## Patterns
 
 *   https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm
 
-    https://dotnet.microsoft.com/en-us/download/e-book/xamarin/pdf
-
-    https://github.com/dotnet-architecture/eShopOnContainers
-
 *   https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-basics/data-bindings-to-mvvm
+
+## Books
+
+*   https://dotnet.microsoft.com/en-us/download/e-book/xamarin/pdf
+
+## Samples
+
+*   https://github.com/dotnet-architecture/eShopOnContainers
+
+
+## Videos
 
 *   MVVM 101 - Model-View-ViewModel Architecture for Xamarin.Forms & .NET MAUI (also WPF, UWP, & More)
 
