@@ -111,3 +111,13 @@ ukraina.md
 *   https://acestoohigh.com/2022/03/02/how-vladimir-putins-childhood-is-affecting-us-all/
 
 
+od
+2022-02-27T18:00
+https://youtu.be/YcRiCL1xKSQ?t=12
+
+do
+2022-03-19T15:00
+https://youtu.be/YcRiCL1xKSQ?t=39
+
+NE izmedju Chernihiv-a i Sumy-a
+neki rus je preskocil terapiju
