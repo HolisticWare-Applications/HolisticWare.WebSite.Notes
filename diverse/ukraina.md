@@ -54,6 +54,11 @@ ukraina.md
 
 *   https://t.me/polkazov
 
+*   https://t.me/botsmanua
+
+*   https://t.me/euroradio
+
+## Weapons
 
 *   https://en.wikipedia.org/wiki/T-14_Armata
 
@@ -65,6 +70,9 @@ ukraina.md
 
 *   https://en.wikipedia.org/wiki/Kurganets-25
 
+##
+
+*   https://www.youtube.com/watch?v=KOao41OlzaU&ab_channel=VICENews
 
 
 ## 20220324
@@ -100,6 +108,6 @@ ukraina.md
 *   https://blog.scooletz.com/2022/03/02/ukraine-not-MS-mvp
 
 
-
+*   https://acestoohigh.com/2022/03/02/how-vladimir-putins-childhood-is-affecting-us-all/
 
 
