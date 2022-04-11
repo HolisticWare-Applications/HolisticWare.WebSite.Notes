@@ -7,7 +7,7 @@ Pushed / Published:
 ```
 ```
 
-Rejected / Duplicates
+Rejected / Duplicates:
 
 ```
 GoogleGson.2.8.9.1.nupkg
