@@ -75,6 +75,24 @@ ukraina.md
 *   https://www.youtube.com/watch?v=KOao41OlzaU&ab_channel=VICENews
 
 
+## 20220412
+
+*   https://www.forbes.com/sites/davidaxe/2022/03/24/the-ukrainian-army-has-captured-enough-russian-tanks-to-make-good-all-its-own-losses-and-then-some/
+
+*   https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html
+
+*   https://www.thedrive.com/the-war-zone/45027/ukraine-situation-report-czech-republic-to-transfer-56-upgraded-bmp-1-armored-vehicles-to-ukraine
+
+*   https://www.wsj.com/articles/ukraine-quietly-receives-tanks-from-czech-republic-to-support-war-effort-11649160666?reflink=share_mobilewebshare
+
+*   https://www.bordermail.com.au/story/7691761/australia-sends-more-lethal-aid-to-ukraine/
+
+*   https://ukdefencejournal.org.uk/britain-sending-mastiff-armoured-vehicles-to-ukraine/
+
+*   https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-04-08/card/slovakia-delivers-soviet-designed-s-300-air-defense-system-to-ukraine-wLmJLguxLDQO4k28cKwR
+
+
+
 ## 20220324
 
 *   https://www.reddit.com/search?q=Nato&source=trending
