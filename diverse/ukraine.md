@@ -4,6 +4,8 @@ ukraine.md
 
 *   https://liveuamap.com/
 
+*   https://www.ukrinform.net/block-lastnews
+
 ## Telegram
 
 *   OSINT UKRAINE
@@ -57,6 +59,10 @@ ukraine.md
 *   https://t.me/botsmanua
 
 *   https://t.me/euroradio
+
+*   https://t.me/TheRealWar
+
+*   https://t.me/chub_detection
 
 ## Weapons
 
