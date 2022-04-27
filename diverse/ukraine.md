@@ -64,6 +64,9 @@ ukraine.md
 
 *   https://t.me/chub_detection
 
+*   https://t.me/Ukr_G_M
+
+
 ## Weapons
 
 *   https://en.wikipedia.org/wiki/T-14_Armata
