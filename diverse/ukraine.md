@@ -66,6 +66,33 @@ ukraine.md
 
 *   https://t.me/Ukr_G_M
 
+Music
+
+https://soundcloud.com/teoss/russian-warship-idi-nahui-original-mix
+
+https://www.youtube.com/watch?v=_TOGX6BxAMw&ab_channel=Despo%2aCRABCHANNEL
+
+https://www.sott.net/article/466805-The-Military-Situation-in-the-Ukraine-An-Update
+
+
+https://rusukr.quora.com/?q=ukr
+
+https://russiaandukraineconflict.quora.com/
+
+https://russianinvasionofukraine2022.quora.com/
+
+https://imagesoftheinvasionofukrainein2022.quora.com/
+
+https://ukraineuncensored.quora.com/
+
+https://therussianperspective.quora.com/
+
+https://thebattleforukraine.quora.com/
+
+
+
+
+
 
 ## Weapons
 
