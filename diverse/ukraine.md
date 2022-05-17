@@ -1,8 +1,10 @@
-# Ukraina
+# Ukraine
 
-ukraina.md
+ukraine.md
 
 *   https://liveuamap.com/
+
+*   https://www.ukrinform.net/block-lastnews
 
 ## Telegram
 
@@ -58,6 +60,46 @@ ukraina.md
 
 *   https://t.me/euroradio
 
+*   https://t.me/TheRealWar
+
+*   https://t.me/chub_detection
+
+*   https://t.me/Ukr_G_M
+
+*   https://t.me/razved_dozor
+
+## Quora
+
+
+*   https://rusukr.quora.com/?q=ukr
+
+*   https://russiaandukraineconflict.quora.com/
+
+*   https://russianinvasionofukraine2022.quora.com/
+
+*   https://imagesoftheinvasionofukrainein2022.quora.com/
+
+*   https://ukraineuncensored.quora.com/
+
+*   https://therussianperspective.quora.com/
+
+*   https://thebattleforukraine.quora.com/
+
+## Music
+
+*   https://soundcloud.com/teoss/russian-warship-idi-nahui-original-mix
+
+*   https://www.youtube.com/watch?v=_TOGX6BxAMw&ab_channel=Despo%2aCRABCHANNEL
+
+*   https://www.sott.net/article/466805-The-Military-Situation-in-the-Ukraine-An-Update
+
+
+
+
+
+
+
+
 ## Weapons
 
 *   https://en.wikipedia.org/wiki/T-14_Armata
@@ -73,6 +115,10 @@ ukraina.md
 ##
 
 *   https://www.youtube.com/watch?v=KOao41OlzaU&ab_channel=VICENews
+
+## Cope Cages
+
+*   https://www.youtube.com/watch?v=2TYGZ-V5OR4&ab_channel=AiirSourceMilitary
 
 
 ## 20220412

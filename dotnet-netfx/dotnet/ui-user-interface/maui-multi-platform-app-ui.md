@@ -29,7 +29,25 @@ https://devblogs.microsoft.com/xamarin/the-future-of-xamarin-community-toolkit/
 
 *   https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/
 
-*   announcing
+*   announcements
+
+    *   https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/
+
+    *   https://devblogs.microsoft.com/dotnet/dotnet-maui-preview-14/
+
+    *   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-13/
+
+    *   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-12/
+
+    *   https://devblogs.microsoft.com/dotnet/announcing-dotnet-maui-preview-11/
+
+    *   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-10/
+
+    *   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-9/
+
+    *   https://devblogs.microsoft.com/dotnet/update-on-dotnet-maui/
+
+    *   https://devblogs.microsoft.com/dotnet/introducing-the-net-maui-community-toolkit-preview/
 
     *   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-7/
 
@@ -41,11 +59,6 @@ https://devblogs.microsoft.com/xamarin/the-future-of-xamarin-community-toolkit/
 
     *   https://devblogs.microsoft.com/dotnet/announcing-net-multi-platform-app-ui-preview-3/
 
-*   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-4/
-
-*   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-5/
-
-*   https://devblogs.microsoft.com/dotnet/announcing-net-maui-preview-6/
 
 *   https://visualstudiomagazine.com/articles/2021/01/05/maui.aspx
 
