@@ -2,6 +2,16 @@
 
 generic-math.md
 
+*   requirements
+
+    *   enable language preview features
+
+    *   add
+
+        ```
+        <PackageReference Include="System.Runtime.Experimental" Version="*-*" />
+        ```
+
 
 *   https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/
 
