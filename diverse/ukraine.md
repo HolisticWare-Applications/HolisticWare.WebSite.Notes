@@ -97,6 +97,56 @@ ukraine.md
 
 
 
+## Music
+
+*   Dobravecer mi iz Ukraine
+
+    *   Тает лёд
+    
+        *   original
+
+            *   https://www.youtube.com/shorts/GyBSqc93aW4
+       
+        *   https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B5%D1%82_%D0%BB%D1%91%D0%B4
+
+        *   https://hiphop4real.com/texts/gribyi-taet-lyod/
+
+        *   parodies
+
+            *   MC KHOVANSKIY & SOBOLEV - DRINKING BEER ["Ice is Melting(Tayet Lod)" "Mushrooms(Griby)" band]
+
+                *   https://www.youtube.com/watch?v=_1nG5XTNDDM
+
+            *   A4 - Term Melts (Parody of Griby - Ice Melts)
+            
+                *   https://www.youtube.com/watch?v=5NQNJI1Ajfs
+
+
+    *   Доброго вечора, ми з України! | Good evening, we are from Ukraine!
+    
+        *   https://www.youtube.com/shorts/GyBSqc93aW4
+
+        *   https://www.youtube.com/watch?v=JXOWTQg1Am4
+
+        *   https://www.youtube.com/watch?v=dV23v_u64bM
+
+        *   https://www.youtube.com/watch?v=8HSbejS7gOc
+
+        *   https://www.youtube.com/shorts/2UDuFb3kgu4
+
+        *   https://www.youtube.com/watch?v=DGGZyQ0SVpg
+
+        *   https://www.youtube.com/watch?v=WWhtkUhIMAI
+
+    *   Russian warship FUCK YOU (Song) - Русский военный корабль ИДИ НАХУЙ
+
+        *   https://www.youtube.com/watch?v=J__0S7V4-Dw
+
+        *   https://www.youtube.com/watch?v=ZfYDo25ZgH0
+
+    *   Cavoglave
+        
+        *   https://www.youtube.com/watch?v=m2xrwF8SYxs
 
 
 
