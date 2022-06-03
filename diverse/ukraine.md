@@ -121,6 +121,11 @@ ukraine.md
             
                 *   https://www.youtube.com/watch?v=5NQNJI1Ajfs
 
+            *   https://www.youtube.com/watch?v=sHV2PkhT9-Y
+
+            *   https://www.youtube.com/watch?v=h8-vhd8f7kM&ab_channel=KWBNGR
+
+            *   https://www.youtube.com/watch?v=1dwEqk3yzXg&ab_channel=SheffeR
 
     *   Доброго вечора, ми з України! | Good evening, we are from Ukraine!
     
@@ -147,8 +152,6 @@ ukraine.md
     *   Cavoglave
         
         *   https://www.youtube.com/watch?v=m2xrwF8SYxs
-
-
 
 ## Weapons
 
