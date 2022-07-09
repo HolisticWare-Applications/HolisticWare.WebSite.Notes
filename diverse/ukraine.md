@@ -2,9 +2,23 @@
 
 ukraine.md
 
+https://www.youtube.com/watch?v=7WRPtWjZbf8&ab_channel=TheSun
+
+https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
+
+
+
 *   https://liveuamap.com/
 
 *   https://www.ukrinform.net/block-lastnews
+
+*   Österreichs Bundesheer
+
+    *   https://www.youtube.com/c/%C3%96sterreichsBundesheer
+
+    *   Heavy Weapons to Ukraine: Heavy Metal & Rock 'n' Roll
+
+    *   https://www.youtube.com/watch?v=Sd4xRBuVs48&t=1s&ab_channel=%C3%96sterreichsBundesheer
 
 ## Telegram
 
