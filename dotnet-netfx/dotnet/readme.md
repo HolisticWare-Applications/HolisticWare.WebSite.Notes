@@ -25,5 +25,9 @@ dotnet publish = ready up for deploy
 
 *   https://gist.github.com/richlander/63645f12d1bbe697fe5dc58df45862b1
 
+*   .NET source
+
+    *   https://source.dot.net/ 
+
 
 
