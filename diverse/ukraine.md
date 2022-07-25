@@ -12,6 +12,29 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
 *   https://www.ukrinform.net/block-lastnews
 
+## Reddit
+
+*   https://www.reddit.com/r/ukraine/
+
+*   https://www.reddit.com/r/UkraineWarVideoReport/
+
+*   https://www.reddit.com/r/UkrainianConflict/
+
+*   https://www.reddit.com/r/CombatFootage/
+
+*   https://www.reddit.com/r/RealCombatFootage/
+
+*   https://www.reddit.com/r/Military/
+
+*   https://www.reddit.com/r/UkraineRussiaCombat/
+
+*   https://www.reddit.com/r/UkraineWarVideoReport/
+
+
+
+## Youtube
+
+
 *   Österreichs Bundesheer
 
     *   https://www.youtube.com/c/%C3%96sterreichsBundesheer
@@ -19,6 +42,11 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
     *   Heavy Weapons to Ukraine: Heavy Metal & Rock 'n' Roll
 
         *   https://www.youtube.com/watch?v=Sd4xRBuVs48&t=1s&ab_channel=%C3%96sterreichsBundesheer
+
+
+*   https://www.youtube.com/c/rferlonline
+
+*   https://www.youtube.com/c/CRUXnews
 
 ## Telegram
 
