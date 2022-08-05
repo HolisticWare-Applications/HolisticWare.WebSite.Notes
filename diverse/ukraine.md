@@ -48,6 +48,17 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
 *   https://www.youtube.com/c/CRUXnews
 
+*   WarLeaks - Military Blog
+
+    *   https://www.youtube.com/c/WarLeaker
+
+*   https://www.youtube.com/user/WDocumentaries
+
+*  https://www.youtube.com/user/PoliceDocumentaries
+
+*   https://www.youtube.com/user/ArmedForcesUpdate
+
+
 ## Telegram
 
 *   OSINT UKRAINE
@@ -194,6 +205,54 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
     *   Cavoglave
         
         *   https://www.youtube.com/watch?v=m2xrwF8SYxs
+
+*   Beton - Kyiv Calling (official cover version of London Calling by The Clash)
+
+    https://www.youtube.com/watch?v=xWQUkRKqp2E&ab_channel=FreeUkraine-ResistanceChannel
+
+*   Жадан і Собаки – Рок-музикант
+
+    *   https://www.youtube.com/watch?v=UUSHzVDwrhA&list=PL_Y6Qxc6LB4-v1fYpfe3L7IWkKpItvUNE&ab_channel=%D0%96%D0%B0%D0%B4%D0%B0%D0%BD%D1%96%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B8
+
+
+BRUTTO - Underdog [Official Music Video]
+
+    https://www.youtube.com/watch?v=8cSdiTPMYME&ab_channel=BRUTTONOSTRA
+
+Brutto - Underdog (UA Armed Forces)
+
+    https://www.youtube.com/watch?v=CLpHK9zFISU&ab_channel=HansShepard
+
+Brutto - Гарри (UA Armed Forces)
+
+https://www.youtube.com/watch?v=6IxG0Uqrt0A&ab_channel=HansShepard
+
+BRUTTO — Гарри (LIVE IN MINSK ARENA)
+
+    https://www.youtube.com/watch?v=maOjjZDXaEk&ab_channel=BRUTTONOSTRA
+
+BRUTTO — Воины света (LIVE IN MINSK ARENA)
+
+    https://www.youtube.com/watch?v=zB53Gf6COV8&ab_channel=BRUTTONOSTRA
+
+
+BRUTTO - Саботаж (LIVE IN MINSK ARENA)
+
+    https://www.youtube.com/watch?v=MrI-P5Evgds&ab_channel=BRUTTONOSTRA
+
+https://www.youtube.com/watch?v=-yQsESJK71A&t=638s&ab_channel=Hooligan
+
+Ukrainian Nationalist Metal Mix
+
+    https://www.youtube.com/watch?v=-yQsESJK71A&t=638s&ab_channel=Hooligan
+
+
+Край - Героям Слава!
+
+    https://www.youtube.com/watch?v=e9_wqX95JHw&ab_channel=%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D0%B8%D1%8FN.
+
+
+
 
 ## Weapons
 
