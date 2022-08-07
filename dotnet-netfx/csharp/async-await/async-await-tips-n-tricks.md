@@ -16,9 +16,9 @@ out the patterns.
 For example also for things like smart batch and dispatch both count or time based. TCS is a nice 
 toolkit for those things
 
-https://github.com/Particular/NServiceBus.AzureServiceBus/blob/develop/src/Transport/Receiving/MultiProducerConcurrentCompletion.cs#L92 …
+*   https://github.com/Particular/NServiceBus.AzureServiceBus/blob/develop/src/Transport/Receiving/MultiProducerConcurrentCompletion.cs#L92 …
 
-https://github.com/Particular/NServiceBus.AzureServiceBus/blob/develop/src/Transport/Receiving/MultiProducerConcurrentCompletion.cs#L152 …
+*   https://github.com/Particular/NServiceBus.AzureServiceBus/blob/develop/src/Transport/Receiving/MultiProducerConcurrentCompletion.cs#L152 …
 
 Shouldn't we dispose all disposable things when we're done with them?
 
@@ -29,6 +29,6 @@ Most of the time yep.
 *   https://devblogs.microsoft.com/dotnet/configureawait-faq/
 
 
+*   Internals of How the await Keyword Works
 
-
-
+    *   https://www.codeproject.com/Articles/5327239/Internals-of-How-the-await-Keyword-Works
