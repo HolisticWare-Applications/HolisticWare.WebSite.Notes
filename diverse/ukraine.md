@@ -6,11 +6,27 @@ https://www.youtube.com/watch?v=7WRPtWjZbf8&ab_channel=TheSun
 
 https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
+*   https://www.bellingcat.com/
 
+*   https://theins.ru/en
+
+*   https://www.pravda.com.ua/eng/news/
 
 *   https://liveuamap.com/
 
 *   https://www.ukrinform.net/block-lastnews
+
+    *   https://www.themoscowtimes.com
+
+*   Olenivka prisoners
+
+    *   https://www.themoscowtimes.com/2022/08/03/what-we-know-about-the-olenivka-attack-that-killed-50-ukrainian-pows-a78482
+
+    *   https://www.nytimes.com/2022/08/01/world/ukraine-prisoner-camp-explosion.html
+
+    *   https://www.theguardian.com/world/2022/aug/03/blast-that-killed-ukraine-pows-was-kremlin-operation-kyiv-claims
+
+    *   https://en.wikipedia.org/wiki/Olenivka_prison_explosion
 
 ## Reddit
 
@@ -29,7 +45,6 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 *   https://www.reddit.com/r/UkraineRussiaCombat/
 
 *   https://www.reddit.com/r/UkraineWarVideoReport/
-
 
 
 ## Youtube
