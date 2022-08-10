@@ -107,31 +107,63 @@ csharp.md
 
     *   1.0
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-10
+
     *   1.1 and 1.2
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-12
 
     *   2.0
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-20
+
     *   3.0
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-30
 
     *   4.0
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-40
+
     *   5.0
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-50
 
     *   6.0
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-60
+
     *   7.0
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-70
 
     *   7.1
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-71
+
     *   7.2
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-72
 
     *   7.3
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history#c-version-73
+
     *   8.0
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8
 
     *   9.0
 
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9
+
     *   10.0
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-10
+
+    *   11
+
+        *   https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11
 
 ## v.10
 
