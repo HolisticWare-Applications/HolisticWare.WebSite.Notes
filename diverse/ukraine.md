@@ -28,6 +28,8 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
     *   https://en.wikipedia.org/wiki/Olenivka_prison_explosion
 
+    *   https://russianinvasionofukraine2022.quora.com/One-of-the-Executioners-of-Ukrainian-POWs-Identified
+
 ## Reddit
 
 *   https://www.reddit.com/r/ukraine/
@@ -42,10 +44,13 @@ https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
 *   https://www.reddit.com/r/Military/
 
+*   https://www.reddit.com/r/MilitaryPorn/
+
 *   https://www.reddit.com/r/UkraineRussiaCombat/
 
 *   https://www.reddit.com/r/UkraineWarVideoReport/
 
+*   https://www.reddit.com/r/army/
 
 ## Youtube
 
