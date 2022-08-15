@@ -2,14 +2,15 @@
 
 type-is-defined-multiple-times.md
 
-
+```
 java.lang.RuntimeException: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin
 Caused by: com.android.tools.r8.internal.f: 
 Type 
     com.google.android.gms.measurement.internal.zzgc 
 is defined multiple times: 
+```
 
-
+```
 java.lang.RuntimeException: com.android.tools.r8.CompilationFailedException: Compilation failed to complete, origin
 
 Caused by: com.android.tools.r8.internal.f: 
@@ -18,12 +19,13 @@ Type
 is defined multiple times: 
     obj/Debug/lp/150/jl/classes.jar:com/google/android/gms/measurement/internal/zzgc.class, 
     obj/Debug/lp/153/jl/classes.jar:com/google/android/gms/measurement/internal/zzgc.class
+```
 
 
-
+```
 playservices-measurement-base-21.0.0.aar
 playservices-measurement-sdk-20.1.2.aar
-
+```
 
 ```xml
 <?xml version='1.0' encoding='UTF-8'?>
