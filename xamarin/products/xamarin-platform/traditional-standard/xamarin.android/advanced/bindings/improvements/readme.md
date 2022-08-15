@@ -2,6 +2,8 @@
 
 readme.md
 
+*   https://github.com/xamarin/xamarin-android/issues/5352
+
 Bindings improvements
 
 *   2 use cases:
