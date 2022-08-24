@@ -6,6 +6,10 @@ maui-samples.md
 
     https://github.com/dotnet/maui-samples/archive/refs/heads/main.zip
     
+*   .NET Podcast
+
+    *   https://dotnetpodcasts.azurewebsites.net/subscriptions
+
 *   Weather '21
 
     *   https://github.com/davidortinau/WeatherTwentyOne
