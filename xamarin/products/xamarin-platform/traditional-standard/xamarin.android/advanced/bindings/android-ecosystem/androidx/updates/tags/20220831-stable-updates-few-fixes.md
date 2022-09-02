@@ -2,7 +2,7 @@
 
 20220831-stable-updates-few-fixes.md
 
-
+Pushed / Published:
 
 ```
 Xamarin.AndroidX.AppCompat.1.5.0.nupkg
@@ -51,6 +51,8 @@ Xamarin.Google.Android.Material.Compose.Theme.Adapter.1.1.16.nupkg
 Xamarin.Google.Crypto.Tink.Android.1.7.0.nupkg
 Xamarin.KotlinX.Coroutines.Rx3.1.6.4.nupkg
 ```
+
+Rejected / Duplicates:
 
 ```
 GoogleGson.2.9.1.nupkg
