@@ -2,10 +2,18 @@
 
 ukraine.md
 
-https://www.youtube.com/watch?v=7WRPtWjZbf8&ab_channel=TheSun
+*   https://www.youtube.com/watch?v=7WRPtWjZbf8&ab_channel=TheSun
 
-https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
+*   https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
+*   pro Russian
+
+    *   https://www.youtube.com/c/TheDuran
+
+    *   https://www.youtube.com/c/TheNewAtlas
+
+    *   https://www.youtube.com/c/MilitaryActionLeaks
+    
 *   https://www.bellingcat.com/
 
 *   https://theins.ru/en
