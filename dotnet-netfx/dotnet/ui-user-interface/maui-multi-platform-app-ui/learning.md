@@ -18,7 +18,14 @@ learning.md
 
     *   https://docs.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-6.0
 
+*   https://medium.com/tag/maui
 
+*   https://dotnet.microsoft.com/en-us/apps/maui
+
+
+DevOps
+
+https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/
 ## Links / References   
     
 *   https://github.com/MahmudX/awesome-maui
