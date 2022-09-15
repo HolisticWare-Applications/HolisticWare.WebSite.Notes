@@ -9,7 +9,15 @@ serialization-formats.md
     *   CSV, 
     
     *   JSON, 
+
+        *   Schema
     
+            *   https://endjin.com/blog/2021/05/csharp-serialization-with-system-text-json-schema
+
+            *   https://stackoverflow.com/questions/59811315/how-to-deserialize-json-objects-of-a-schema-given-at-runtime-to-serializable-c
+
+            *   https://docs.microsoft.com/en-us/dotnet/api/microsoft.analysisservices.tabular.jsonserializer.generateschema?view=analysisservices-dotnet
+             
     *   ORC
 
         *   https://en.wikipedia.org/wiki/Apache_ORC
