@@ -31,6 +31,29 @@ This will pull the latest changes for  all submodules, including the new one.
 
 *   https://davidltran.com/blog/updating-git-submodules/
 
+```
+git submodule init
+git submodule \
+    update --init --recursive --merge
+
+git submodule update                 
+git submodule foreach \
+    '\
+        git fetch origin; \
+        git checkout $(git rev-parse --abbrev-ref HEAD); \
+        git reset --hard origin/$(git rev-parse --abbrev-ref HEAD); \
+        git submodule update --recursive; \
+        git clean -dfx \
+    '
+```
+
+```
+git submodule \
+    foreach --recursive git pull origin master
+
+git submodule \
+    foreach --recursive git pull origin main
+```
 
 ## Reset repo and submodules
 
