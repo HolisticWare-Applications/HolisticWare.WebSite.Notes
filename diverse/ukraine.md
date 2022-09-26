@@ -38,6 +38,10 @@ ukraine.md
 
     *   https://russianinvasionofukraine2022.quora.com/One-of-the-Executioners-of-Ukrainian-POWs-Identified
 
+## Cyber Warfare
+
+*   https://cepa.org/comprehensive-reports/russian-cyberwarfare-unpacking-the-kremlins-capabilities/
+
 ## Reddit
 
 *   https://www.reddit.com/r/ukraine/
