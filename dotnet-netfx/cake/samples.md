@@ -41,3 +41,8 @@ StartProcess("dotnet", "tool -g uninstall   xamarin.androidx.migration.tool");
 
 *   https://cakebuild.net/api/Cake.Common.Tools.DotNetCore/DotNetCoreAliases
 
+*   https://github.com/cake-build/cake/blob/develop/build.cake
+
+*   https://github.com/JanDeDobbeleer/dotnet-core-sample/blob/master/build.cake
+
+*   https://github.com/luisgoncalves/cake-sample
