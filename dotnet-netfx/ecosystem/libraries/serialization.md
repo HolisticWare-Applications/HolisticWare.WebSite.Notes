@@ -217,3 +217,9 @@ ServiceStack.Text
 FsPickler.Json
 
 
+## EDN extensible data notation 
+
+*   https://github.com/edn-format/edn
+
+*   https://github.com/edn-format/edn-dot-net
+
