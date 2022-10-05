@@ -59,3 +59,8 @@ If you don't specify a target (content), it'll put everything in the root. Conte
 
 http://www.hanselman.com/blog/CreatingANuGetPackageIn7EasyStepsPlusUsingNuGetToIntegrateASPNETMVC3IntoExistingWebFormsApplications.aspx
 
+
+## Insights
+
+*   https://github.com/nuget/insights
+
