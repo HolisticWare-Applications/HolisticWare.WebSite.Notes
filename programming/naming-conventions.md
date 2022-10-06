@@ -10,3 +10,9 @@ naming-conventions.md
 
 
 
+*   dotnet
+
+    *   ../dotnet-netfx/rules-and-recommendations-aka-styleguides.md
+
+    
+
