@@ -4,6 +4,11 @@ readme.md
 
 *   https://github.com/xamarin/xamarin-android/issues/5352
 
+*   Classic Item Groups? #40
+
+    *   https://github.com/xamarin/Xamarin.Legacy.Sdk/issues/40
+
+
 Bindings improvements
 
 *   2 use cases:
