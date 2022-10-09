@@ -2,6 +2,14 @@
 
 ukraine.md
 
+*   https://www.understandingwar.org/
+
+    *   https://www.understandingwar.org/backgrounder/ukraine-conflict-updates
+
+    *   https://www.facebook.com/InstitutefortheStudyofWar/
+
+*   https://liveuamap.com/
+
 *   https://www.youtube.com/watch?v=7WRPtWjZbf8&ab_channel=TheSun
 
 *   https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
@@ -19,8 +27,6 @@ ukraine.md
 *   https://theins.ru/en
 
 *   https://www.pravda.com.ua/eng/news/
-
-*   https://liveuamap.com/
 
 *   https://www.ukrinform.net/block-lastnews
 
