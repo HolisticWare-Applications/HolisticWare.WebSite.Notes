@@ -28,3 +28,12 @@ maui-samples.md
 
     *   https://github.com/dotnet/Comet
     
+*   Octal
+
+    *   https://github.com/J-Swift/Noctal
+
+        *   https://github.com/J-Swift/Noctal.git
+
+    *   Octal is a modern, ad-free, tracking-free, full-featured Hacker News (news.ycombinator.com) client
+
+        *   https://github.com/dangwu/Octal
