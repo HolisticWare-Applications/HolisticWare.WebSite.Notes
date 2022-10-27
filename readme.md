@@ -10,14 +10,12 @@ Notes in markdown format:
 
 *	bindings 
 
-	*	[xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/]
-		(xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/)
+	*	[xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/](xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/)
 
 	*	improvements
 	
-		*	[xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/improvements]
-			(xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/improvements)
-			
+		*	https://github.com/moljac/HolisticWare.WebSite.Notes/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/improvements
+
 *	`dotnet`
 
 	*	tools
