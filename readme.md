@@ -8,27 +8,28 @@ Notes in markdown format:
 
 ## Fast Links
 
-*	bindings improvements 
+*	bindings 
 
-	*	https://github.com/xamarin/xamarin-android/issues/5352
+	*	xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/
+
+	*	improvements
+	
+		*	xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/improvements
+
+*	`dotnet`
+
+	*	tools
+
+		*	dotnet-netfx/core/dotnet-tool/
+
+	*	templates
+
+		*	dotnet-netfx/core/dotnet-new-templates/
 
 *	Nuget
 
-	*	fuget
-	
-		*	http://fuget.org/
+	*	dotnet-netfx/nuget
 
-	*	nuget
-
-		*	https://www.nuget.org/
-
-*	Maven
-
-	*	https://maven.google.com/web/index.html
-
-	*	https://search.maven.org/
-
-	*	https://mvnrepository.com/
 
 ## poslodavec
 
