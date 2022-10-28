@@ -10,7 +10,7 @@ Notes in markdown format:
 
 *	bindings 
 
-	*	[xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/](xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/)
+	*	https://github.com/moljac/HolisticWare.WebSite.Notes/xamarin/products/xamarin-platform/traditional-standard/xamarin.android/advanced/bindings/
 
 	*	improvements
 	
@@ -20,16 +20,17 @@ Notes in markdown format:
 
 	*	tools
 
-		*	dotnet-netfx/core/dotnet-tool/
+		*	https://github.com/moljac/HolisticWare.WebSite.Notes/dotnet-netfx/core/dotnet-tool/
 
 	*	templates
 
-		*	dotnet-netfx/core/dotnet-new-templates/
+		*	https://github.com/moljac/HolisticWare.WebSite.Notes/dotnet-netfx/core/dotnet-new-templates/
 
 *	Nuget
 
-	*	dotnet-netfx/nuget
+	*	https://github.com/moljac/HolisticWare.WebSite.Notes/dotnet-netfx/nuget
 
+*	MSBuild
 
 ## poslodavec
 
