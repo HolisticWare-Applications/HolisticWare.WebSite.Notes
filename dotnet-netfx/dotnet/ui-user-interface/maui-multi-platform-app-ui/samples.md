@@ -1,10 +1,10 @@
-# MAUI Samples
+# Samples
 
-maui-samples.md
+samples.md
 
 *   https://github.com/dotnet/maui-samples
 
-    https://github.com/dotnet/maui-samples/archive/refs/heads/main.zip
+    *   https://github.com/dotnet/maui-samples/archive/refs/heads/main.zip
     
 *   .NET Podcast
 
