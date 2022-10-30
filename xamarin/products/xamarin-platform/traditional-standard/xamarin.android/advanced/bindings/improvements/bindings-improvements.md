@@ -12,7 +12,8 @@ bindings-improvements.md
 
 *   https://docs.microsoft.com/en-us/xamarin/android/deploy-test/building-apps/build-items#javasourcejar
 
-```
+
+```xml
   <ItemGroup>
     <JavaDocJar Include="Jars\mixpanel-android-javadoc.jar" />
   </ItemGroup>
@@ -22,7 +23,7 @@ bindings-improvements.md
 ```
 
 
-
+## Warnings
 
 ```
 warning BG8102: Class 'X' has unknown base type 'y'
@@ -38,7 +39,10 @@ warning BG8A01: Metadata.xml element 'XPATH' matched no nodes
 warning BG8C00: Could not find base interface
 ```
 
-source/com.google.android.gms/play-services-tasks/Additions/Task.cs(51,6): warning CS0618: 
+```
+source/com.google.android.gms/play-services-tasks/Additions/Task.cs(51,6): 
+warning CS0618: 
 'PreserveAttribute' is obsolete: 
 'Please use [System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute]' 
 [./GPS-FB-MLKit/mu-20220215-split-fb/generated/com.google.android.gms.play-services-tasks/com.google.android.gms.play-services-tasks.csproj]
+```
