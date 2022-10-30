@@ -9,7 +9,11 @@ readme.md
     *   https://github.com/xamarin/Xamarin.Legacy.Sdk/issues/40
 
 
-Bindings improvements
+*   https://github.com/HolisticWare-Xamarin-Tools/HolisticWare.Xamarin.Tools.Bindings.XamarinAndroid.FassBinderMeister
+
+*   https://github.com/jpobst/Prototype.Android.MavenBindings
+
+## Bindings improvements
 
 *   2 use cases:
 
@@ -78,3 +82,6 @@ Artifact(s)
     
 ## nuget
 
+*   metadata
+
+    *   https://github.com/NuGet/Home/pull/12174
