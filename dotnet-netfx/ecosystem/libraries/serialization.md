@@ -28,6 +28,7 @@ serialization.md
             *   .NET Standard 2.0 and later versions
 
         *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-migrate-from-newtonsoft-how-to?pivots=dotnet-5-0
+
 ## Binary
 
 *   Avro (Apache)
@@ -84,6 +85,28 @@ serialization.md
     
 ## JSON
 
+*   Newtonsoft.Json
+
+*   System.Text.Json
+
+*   SpanJson
+
+    *   https://github.com/Tornhoof/SpanJson
+
+    *   https://github.com/Tornhoof/SpanJson/wiki/Performance
+
+    *   https://www.youtube.com/watch?v=XMoNYQPi2k8&ab_channel=CodeWithStu
+
+    *   https://github.com/Im5tu/SerializationBenchmarks
+
+### Performance
+
+    *   https://michaelscodingspot.com/the-battle-of-c-to-json-serializers-in-net-core-3/
+
+    http://aumcode.github.io/serbench/
+    https://github.com/aumcode/serbench
+    http://julian.farm/geekswithblogs/?url=/LeonidGaneline/archive/2015/05/06/serializers-in-.net.-v.2.aspx
+    
 ## Diverse
 
 *   ZeroFormatter
