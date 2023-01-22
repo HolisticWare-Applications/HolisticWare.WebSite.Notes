@@ -8,6 +8,7 @@ Xamarin.Android Java bindings projects will by default automatically bind any Ja
 
 
 So for example, you would add something like the following to the Metadata.xml file:
+
 ```
 <attr path="/api/package[@name='com.example.testandroidlib']/class[@name='MyClass']/method[@name='getNumberTen']" name="propertyName"></attr>
 ```
