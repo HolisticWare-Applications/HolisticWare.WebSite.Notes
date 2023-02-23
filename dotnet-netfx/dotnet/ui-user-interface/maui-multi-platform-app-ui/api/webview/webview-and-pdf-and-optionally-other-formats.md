@@ -6,14 +6,75 @@ webview-and-pdf-and-optionally-other-formats.md
 
 *   https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.webview?view=net-maui-7.0
 
+*   https://github.com/dotnet/maui/blob/main/src/Controls/src/Core/WebView.cs
+
+*   https://github.com/dotnet/maui/tree/main/src/Core/src/Handlers/WebView
+
+
 ## Analysis
+
+Presenting PDF, or any other format like Excel, in embedded WbView will be difficult to implement
+because only few platforms (browser rendering engines) implement PDF rendering
+
+WebView is based on platform embedded browser control/view/widget which is for security reasons
+based on slimmed down browser rendering engine depending on platform. So, installation of browser
+extensions/plugins/addins is not possible.
+
+Reference browser capabilities:
 
 *   https://caniuse.com/pdf-viewer
 
     When displaying PDFs inline rather than separately, iOS Safari will only display 
     the first page of the document.
 
-*   https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/appmodel/open-browser
+### Implementations
+
+*   google docs renderer
+
+    ```
+    https://drive.google.com/viewerng/viewer?url={0}
+    ```
+
+    *   subject to possible changes in ToS by Google
+
+*   native renderer app
+
+    *   mandatory app installation
+
+*   embedding native renderer 
+
+    *   windows desktop
+    
+        *   https://github.com/MicrosoftEdge/WebView2Feedback/issues/38
+
+    ```
+    <embed 
+        width="100%" height="100%" 
+        src="https://www.example.com/xxxxxxxx/TestPdfFile.pdf" type="application/pdf" 
+        style="margin:0px;padding:0px;overflow:hidden;display:block;"
+        >
+    ```
+
+*   using `pdf.js`
+
+
+### Other frameworks
+
+*   Xamarin.Forms
+
+    *   https://learn.microsoft.com/en-us/answers/questions/383713/xamarin-forms-issue-with-showing-a-pdf-files-using
+
+    *   https://github.com/xamarin/docs-archive/tree/master/Recipes/xamarin-forms/Controls/display-pdf
+
+    *   https://www.pujolsluis.com/how-to-display-pdf-in-xamarin-forms-with-ease/
+
+    *   https://stackoverflow.com/questions/47833809/xamarin-forms-display-pdf-in-webview-not-working
+
+    *   https://stackoverflow.com/questions/35474618/how-to-open-pdf-in-webview-for-android-in-xamarin-forms
+
+    *   https://stackoverflow.com/questions/58969480/how-to-load-the-online-pdf-files-in-xamarin-webview
+
+    *   https://medium.com/medialesson/show-pdf-files-in-your-xamarin-android-app-3718148de1c0    
 
 *   Flutter
 
@@ -63,3 +124,48 @@ webview-and-pdf-and-optionally-other-formats.md
         *   https://www.nuget.org/packages/XlsxToHtmlConverter/
 
         *   ...
+
+
+
+
+# Details
+
+```
+#if __IOS__ || MACCATALYST
+using PlatformView = WebKit.WKWebView;
+#elif MONOANDROID
+using PlatformView = Android.Webkit.WebView;
+#elif WINDOWS
+using PlatformView = Microsoft.UI.Xaml.Controls.WebView2;
+#elif TIZEN
+using PlatformView = Microsoft.Maui.Platform.MauiWebView;
+#elif (NETSTANDARD || !PLATFORM) || (NET6_0_OR_GREATER && !IOS && !ANDROID && !TIZEN)
+using PlatformView = System.Object;
+#endif
+
+#if __ANDROID__
+using Android.Webkit;
+#elif __IOS__
+using WebKit;
+#endif
+```
+
+*   https://github.com/dotnet/maui/tree/main/src/Core/src/Handlers/WebView
+
+*   https://github.com/dotnet/maui/blob/main/src/Controls/src/Core/WebViewSource.cs
+
+*   Handlers
+
+    *   https://github.com/dotnet/maui/blob/main/src/Core/src/Handlers/WebView/WebViewHandler.Android.cs
+
+    *   
+
+*   Compatibility - Renderers
+
+    *   https://github.com/dotnet/maui/blob/main/src/Compatibility/Core/src/Android/Renderers/WebViewRenderer.cs
+
+    *   https://github.com/dotnet/maui/blob/main/src/Compatibility/Core/src/MacOS/Renderers/WebViewRenderer.cs
+
+    *   https://github.com/dotnet/maui/blob/main/src/Compatibility/Core/src/iOS/Renderers/WkWebViewRenderer.cs
+
+
