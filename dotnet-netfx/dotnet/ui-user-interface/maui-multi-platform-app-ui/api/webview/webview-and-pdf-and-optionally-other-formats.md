@@ -2,29 +2,28 @@
 
 webview-and-pdf-and-optionally-other-formats.md
 
-*   https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/webview?view=net-maui-7.0
 
-*   https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.webview?view=net-maui-7.0
+This issue will be closed, because underlying platforms do not support rendering PDF in WebView.
 
-*   https://github.com/dotnet/maui/blob/main/src/Controls/src/Core/WebView.cs
+The most feasible solution would be to implement MAUI Control similar to Control implemented in
+Xamarin.Forms recipe:
 
-*   https://github.com/dotnet/maui/tree/main/src/Core/src/Handlers/WebView
+https://github.com/xamarin/docs-archive/tree/master/Recipes/xamarin-forms/Controls/display-pdf
 
+Such Control was not maintained in Xamarin.Forms and will not be implemented and maintained in
+MAUI.
 
 ## Analysis
 
-Presenting PDF, or any other format like Excel, in embedded WbView will be difficult to implement
-because only few platforms (browser rendering engines) implement PDF rendering
+Presenting PDF, or any other format like Excel, in embedded WbView will be difficult to implement, because only few platforms (browser rendering engines) implement PDF rendering.
 
-WebView is based on platform embedded browser control/view/widget which is for security reasons
-based on slimmed down browser rendering engine depending on platform. So, installation of browser
-extensions/plugins/addins is not possible.
+WebView is based on platform embedded browser control/view/widget which is for security reasons based on slimmed down browser rendering engine depending on platform. So, installation of browser, extensions/plugins/addins is not possible.
 
 Reference browser capabilities:
 
 *   https://caniuse.com/pdf-viewer
-
-    When displaying PDFs inline rather than separately, iOS Safari will only display 
+     iOS:
+    >When displaying PDFs inline rather than separately, iOS Safari will only display 
     the first page of the document.
 
 ### Implementations
@@ -100,12 +99,12 @@ Reference browser capabilities:
 
     *   https://github.com/react-native-webview/react-native-webview/issues/891
 
-    https://github.com/react-native-webview/react-native-webview/issues/2660
+    *   https://github.com/react-native-webview/react-native-webview/issues/2660
 
 
 ## Workaround[s]/[Re]Solution[s]
 
-*   native plugin 
+*   native plugin - 3rd party controls for PDF
     
     *   Xamarin.Forms plugin
 
@@ -149,6 +148,14 @@ using Android.Webkit;
 using WebKit;
 #endif
 ```
+
+*   https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/webview?view=net-maui-7.0
+
+*   https://learn.microsoft.com/en-us/dotnet/api/microsoft.maui.controls.webview?view=net-maui-7.0
+
+*   https://github.com/dotnet/maui/blob/main/src/Controls/src/Core/WebView.cs
+
+*   https://github.com/dotnet/maui/tree/main/src/Core/src/Handlers/WebView
 
 *   https://github.com/dotnet/maui/tree/main/src/Core/src/Handlers/WebView
 
