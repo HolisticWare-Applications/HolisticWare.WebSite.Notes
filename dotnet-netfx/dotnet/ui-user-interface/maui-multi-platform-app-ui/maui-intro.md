@@ -9,15 +9,18 @@ sudo dotnet workload \
         maui-android \
         maui-ios \
         maui-maccatalyst \
-        maui-desktop \
         maui-mobile \
         maui-windows \
-        maui-tizen \
-        wasm-tools-net6 \
         --source https://aka.ms/dotnet6/nuget/index.json \
+        --source https://pkgs.dev.azure.com/dnceng/internal/_packaging/dotnet7-early-access/nuget/v3/index.json \
+        --source https://pkgs.dev.azure.com/dnceng/internal/_packaging/dotnet6-early-access/nuget/v3/index.json \
+        --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-dea52219/nuget/v3/index.json \
         --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-dea52219/nuget/v3/index.json \
         --source https://api.nuget.org/v3/index.json \
 
+        maui-desktop \
+        maui-tizen \
+        wasm-tools-net6 \
 
 sudo dotnet workload \
     install \
@@ -31,6 +34,9 @@ sudo dotnet workload \
         maui-tizen \
         wasm-tools-net6 \
         --source https://aka.ms/dotnet6/nuget/index.json \
+        --source https://pkgs.dev.azure.com/dnceng/internal/_packaging/dotnet7-early-access/nuget/v3/index.json \
+        --source https://pkgs.dev.azure.com/dnceng/internal/_packaging/dotnet6-early-access/nuget/v3/index.json \
+        --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-dea52219/nuget/v3/index.json \
         --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-dea52219/nuget/v3/index.json \
         --source https://api.nuget.org/v3/index.json \
 
