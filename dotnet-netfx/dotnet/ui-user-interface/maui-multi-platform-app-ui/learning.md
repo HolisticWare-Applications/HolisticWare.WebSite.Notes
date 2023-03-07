@@ -22,10 +22,11 @@ learning.md
 
 *   https://dotnet.microsoft.com/en-us/apps/maui
 
+*   https://github.com/dotnet/docs-maui
 
-DevOps
+## DevOps
 
-https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/
+*   https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/
 ## Links / References   
     
 *   https://github.com/MahmudX/awesome-maui
