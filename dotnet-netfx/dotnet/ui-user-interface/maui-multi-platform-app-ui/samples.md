@@ -111,8 +111,7 @@ samples.md
     *   https://github.com/LeomarisReyes/PetAdoptionUI
 
     *   https://github.com/andreas-nesheim/MAUIUIJuly
-
-    
+   
     *   https://github.com/EduardoReisDev/SpaceXhistory
 
     *   https://github.com/BryanOroxon/MAUIPETS
@@ -126,5 +125,13 @@ samples.md
     *   https://github.com/jsuarezruiz/dotnet-maui-samples
 
     *   https://github.com/brminnick/HackerNews
+
+*   Marvelous .NET MAUI
+
+    *   https://github.com/RadekVyM/MarvelousMAUI
+
+        *   https://github.com/RadekVyM/MarvelousMAUI.git
+
+            *   https://github.com/RadekVyM/MarvelousMAUI/archive/refs/heads/main.zip
 
 
