@@ -2,8 +2,12 @@
 
 model-view-viewmodel-mvvm.md
 
+## Tutorials
 
-MVU
+*   https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-mvvm/
+
+
+## MVU
 
 *   https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/
 
