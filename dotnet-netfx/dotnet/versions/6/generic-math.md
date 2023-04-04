@@ -13,6 +13,13 @@ generic-math.md
         ```
 
 
+*   https://stackoverflow.com/questions/63694/creating-a-math-library-using-generics-in-c-sharp
+
+*   https://stackoverflow.com/questions/10951392/implementing-arithmetic-in-generics
+
+*   http://www.shujaat.net/2012/05/c-generics-arithmetic-operators.html
+
+
 *   https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/
 
     *   https://devblogs.microsoft.com/dotnet/preview-features-in-net-6-generic-math/#generic-math
