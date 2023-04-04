@@ -16,16 +16,26 @@
 
 *   https://github.com/Zubnix/skia-wasm-port
 
-https://www.samprof.com/2019/03/24/matblazor-0-6-1
+*   https://www.samprof.com/2019/03/24/matblazor-0-6-1
 
-https://github.com/SamProf/MatBlazor
-https://www.matblazor.com
+*   https://github.com/SamProf/MatBlazor
 
+*   https://www.matblazor.com
 
-https://www.samprof.com/2018/12/15/compile-csharp-and-blazor-inside-browser-en
+*   https://www.samprof.com/2018/12/15/compile-csharp-and-blazor-inside-browser-en
 
-https://github.com/BlazorComponents/CompileBlazorInBlazor
+*   https://github.com/BlazorComponents/CompileBlazorInBlazor
 
-https://blazorcomponents.github.io/CompileBlazorInBlazor/
+*   https://blazorcomponents.github.io/CompileBlazorInBlazor/
 
-https://blazorcomponents.github.io/CompileBlazorInBlazor/
+*   https://blazorcomponents.github.io/CompileBlazorInBlazor/
+
+*   MudBlazor
+
+    *   https://www.mudblazor.com/docs/overview
+
+    *   https://www.mudblazor.com/
+
+    *   https://www.mudblazor.com/getting-started/installation#online-playground
+
+    *   https://github.com/MudBlazor/MudBlazor/
