@@ -120,6 +120,8 @@ samples.md
 
     *   https://github.com/telerik/maui-samples/tree/main/Samples/CryptoTracker
 
+    *   https://github.com/Foda/MastodonMaui
+
 *   https://github.com/jsuarezruiz/awesome-dotnet-maui
 
     *   https://github.com/jsuarezruiz/dotnet-maui-samples
