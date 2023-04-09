@@ -24,6 +24,8 @@ learning.md
 
 *   https://github.com/dotnet/docs-maui
 
+*   https://www.infoq.com/articles/net-maui/
+
 ## DevOps
 
 *   https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/
