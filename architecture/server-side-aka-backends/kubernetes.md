@@ -28,4 +28,4 @@ Manage Your Kubernetes Clusters with Built-in Best Practices
 
 *   https://info.microsoft.com/ww-thankyou-manage-your-kubernetes-clusters-with-built-in-best-practices-vdeo?LCID=EN-US
 
-
+*   https://dev.to/leandronsp/kubernetes-101-part-i-the-fundamentals-23a1
