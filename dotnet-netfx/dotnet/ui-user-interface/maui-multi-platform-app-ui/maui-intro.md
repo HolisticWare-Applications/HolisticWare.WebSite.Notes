@@ -41,11 +41,22 @@ dev_nuget_nuke \
 && \
 sudo dotnet workload \
     install \
-        maui \
         android \
         ios \
         maccatalyst \
+        macos \
+        tvos \
+        maui \
+        maui-android \
+        maui-ios \
+        maui-maccatalyst \
+        maui-tizen \
+        maui-windows \        
+        maui-desktop \
+        maui-mobile \
+        wasm-tools \
         wasm-tools-net6 \
+        wasm-tools-experimental \
         --source https://aka.ms/dotnet6/nuget/index.json \
         --source https://api.nuget.org/v3/index.json \
         --source https://pkgs.dev.azure.com/dnceng/public/_packaging/darc-pub-dotnet-runtime-1a1a8d32/nuget/v3/index.json \
