@@ -1,22 +1,15 @@
-# Blazor school
+# Learning
 
-blazor-school.md
+learning.md
 
+*   https://jsakamoto.github.io/awesome-blazor-browser/?k=#e-books
 
-*   https://blazorschool.com/tutorial/blazor-wasm/dotnet7/component-interaction-836953
+*   https://www.linkedin.com/learning/blazor-getting-started/rich-web-apps-with-dot-net?u=0
 
-*   Open Collective: 
+*   New Blazor WebAssembly capabilities in .NET 6
 
-    *   https://opencollective.com/blazor-school-docs
+    *   https://www.youtube.com/watch?v=kesUNeBZ1Os&ab_channel=dotnet
 
-    *   Master Blazor .NET 6 Bundle Ebooks ($105 now only $49 - 55% off): 
+*   Enterprise-grade Blazor apps with .NET 6
 
-        *   https://opencollective.com/blazor-school-docs/contribute/ebooks-47824
-
-    *   Discord Community: 
-        
-        *   https://discord.com/invite/HsTu2Emqsd
-
-*   https://blazorschool.com/
-
-*   https://blazorschool.com/tutorial
+    *   https://www.youtube.com/watch?v=GKu-vRxOWr8&list=PLdo4fOcmZ0oVFtp9MDEBNbA2sSqYvXSXO&index=10&ab_channel=dotnet
