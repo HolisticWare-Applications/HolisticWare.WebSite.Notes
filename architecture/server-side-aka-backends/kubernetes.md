@@ -28,4 +28,17 @@ Manage Your Kubernetes Clusters with Built-in Best Practices
 
 *   https://info.microsoft.com/ww-thankyou-manage-your-kubernetes-clusters-with-built-in-best-practices-vdeo?LCID=EN-US
 
+## `dev.to`
+
 *   https://dev.to/leandronsp/kubernetes-101-part-i-the-fundamentals-23a1
+
+*   https://dev.to/leandronsp/kubernetes-101-part-ii-pods-19pb
+
+*   https://dev.to/leandronsp/kubernetes-101-part-iii-controllers-and-self-healing-4ki5
+
+*   https://dev.to/leandronsp/kubernetes-101-part-iv-deployments-20m3
+
+*   https://dev.to/leandronsp/kubernetes-101-part-v-statefulsets-5dob
+
+*   https://dev.to/leandronsp/kubernetes-101-part-vi-daemonsets-1ph0
+
