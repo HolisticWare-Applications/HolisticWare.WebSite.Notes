@@ -8,3 +8,6 @@ mlops.md
 
 *   https://docs.microsoft.com/en-us/devops/what-is-devops
 
+*   How can MLOps improve my predictive models?
+
+    *   https://damianbrady.com.au/2020/11/19/how-can-mlops-improve-my-models/
