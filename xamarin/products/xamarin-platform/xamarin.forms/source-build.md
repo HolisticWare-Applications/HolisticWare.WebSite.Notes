@@ -2,7 +2,7 @@
 
 
 ```
-git clean -xdf
+git clean -xdf && git pull
 ./build.sh --target vsmac
 
 dotnet cake --target=provision
