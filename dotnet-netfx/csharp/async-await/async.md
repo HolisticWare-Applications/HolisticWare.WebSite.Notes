@@ -9,6 +9,9 @@
 
 *   https://exceptionnotfound.net/using-async-and-await-in-asp-net-what-do-these-keywords-mean/
 
+*   https://devblogs.microsoft.com/dotnet/how-async-await-really-works/
+
+*   https://www.reddit.com/r/csharp/comments/10ukg6u/transitioning_to_async_development/
 
 ## Async methods with synchronous implementations
 
