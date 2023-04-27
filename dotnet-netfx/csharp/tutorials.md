@@ -7,6 +7,7 @@ tutorials.md
 *   https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/
 
 *   https://docs.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07
+
 # Beginners
 
 *   https://softchris.github.io/pages/dotnet-core.html#resources
