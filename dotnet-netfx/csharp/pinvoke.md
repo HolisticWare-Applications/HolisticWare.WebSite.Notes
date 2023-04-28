@@ -11,6 +11,8 @@
 
     https://github.com/AArnott/pinvoke
 
+*   https://github.com/jaredpar/pinvoke-interop-assistant
+
 *   http://www.mono-project.com/docs/advanced/pinvoke/
 
 *   PInvoke conventions for unix
