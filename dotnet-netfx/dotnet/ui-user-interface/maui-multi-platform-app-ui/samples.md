@@ -41,6 +41,7 @@ samples.md
 
         *   https://github.com/dangwu/Octal
 
+*   https://github.com/VladislavAntonyuk/MauiSamples
 
 *   https://github.com/jsuarezruiz/dotnet-maui-showcase
 
@@ -90,8 +91,6 @@ samples.md
 
     *   https://github.com/nikamvd/-.NET-MAUI-Beautiful-UI-Challenge-PlayerProfileApp
 
-    *   https://github.com/VladislavAntonyuk/MauiSamples
-
     *   https://github.com/jorgediegocrespo/MauiMemoryGame
 
     *   https://github.com/ahror1997/xaml-UI-maui
@@ -136,4 +135,6 @@ samples.md
 
             *   https://github.com/RadekVyM/MarvelousMAUI/archive/refs/heads/main.zip
 
+*   https://github.com/swharden/Csharp-Data-Visualization
 
+*   https://github.com/davidbritch/dotnet-maui-audioplayer
