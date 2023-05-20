@@ -8,6 +8,8 @@ blzor-united.md
 
 *   Blazor United prototype
 
+    *   https://www.youtube.com/watch?v=48G_CEGXZZM&t=1s&ab_channel=stevensandersonuk
+
     *   currently 2023-01
 
         *   HTML
@@ -62,3 +64,8 @@ blzor-united.md
 @attribute[ComponentRenderMode(WebComponentrenderMode.WebAssembly)]
 @attribute[ComponentRenderMode(WebComponentrenderMode.Auto)]
 ```
+
+
+*   https://visualstudiomagazine.com/articles/2023/02/03/blazor-united-plan.aspx
+
+*   https://www.reddit.com/r/programming/comments/10kp0it/blazor_united_when_it_ships_it_would_be_the_most/
