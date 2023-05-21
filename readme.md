@@ -54,6 +54,18 @@ open -a Firefox
 
 ### Tools
 
+```
+dotnet script ./build/scripts/update-config.csx -- ./config.json update
+```
+
+```
+rm -fr output externals generated && dotnet cake -t=clean && git clean -xdf && clean_term_screen_and_buffer && git pull
+dotnet cake -t=ci && dotnet cake nuget-diff.cake && dotnet cake utilities.cake
+```
+
+```
+dotnet cake utilities.cake -t=generate-markdown-publish-log
+```
 
 *	Android libraries
 
