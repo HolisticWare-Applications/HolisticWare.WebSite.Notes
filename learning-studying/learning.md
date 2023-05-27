@@ -1,5 +1,11 @@
 # Learning
 
+learning.md
+
+*   https://github.com/sindresorhus/awesome
+
+*   https://github.com/Developer-Y/cs-video-courses
+
 ## Repositories
 
 *   https://github.com/ossu/computer-science

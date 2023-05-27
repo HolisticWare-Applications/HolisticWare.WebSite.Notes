@@ -17,3 +17,11 @@ readme.md
 *   [dotnet.md](./dotnet.md)
 
 *   [reddit.md](./reddit.md)
+
+## Diverse
+
+*   freeCodeCamp
+
+    *   https://www.freecodecamp.org/
+
+    *   https://github.com/freeCodeCamp/freeCodeCamp

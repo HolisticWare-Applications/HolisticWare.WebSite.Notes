@@ -2,20 +2,22 @@
 
 books.md
 
+*   Neural Network Design 
+
+    *   https://hagan.okstate.edu/nnd.html
+    
+    *   https://hagan.okstate.edu/NNDesign.pdf
+
+
 *   https://dev.to/strikingloo/3-machine-learning-books-that-helped-me-level-up-as-a-data-scientist-15lm
 
-# Books
-
-books.md
 
 *   https://dev.to/strikingloo/3-machine-learning-books-that-helped-me-level-up-as-a-data-scientist-15lm
 
-http://www.datastuff.tech/data-science/3-machine-learning-books-that-helped-me-level-up-as-a-data-scientist/
+*   http://www.datastuff.tech/data-science/3-machine-learning-books-that-helped-me-level-up-as-a-data-scientist/
 
 
-
-
-
+## Blogs
 
 Top 10 Data Science Blogs:
 

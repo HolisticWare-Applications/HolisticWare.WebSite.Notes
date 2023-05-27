@@ -13,6 +13,35 @@ readme.md
 
 *   https://github.com/jpobst/Prototype.Android.MavenBindings
 
+## TODO
+
+### Urgent
+
+*   update 
+
+    *   list (config.json) update
+
+        *   bindings
+
+            *   `"dependencyOnly": false`
+
+            *   Maven discovery
+
+        *   dependenies 
+
+            *   `"dependencyOnly": true`
+
+            *   NuGet discovery
+
+*   nuget download count data
+
+    *   `nuget_id.versioned.csv` per 
+
+        *   date
+
+        *   nuget/artifact version
+
+
 ## Bindings improvements
 
 *   2 use cases:
