@@ -43,6 +43,12 @@ samples.md
 
 *   https://github.com/VladislavAntonyuk/MauiSamples
 
+    *   geolocation/maps
+
+    *   bluetooth
+
+    *   markdown - drawn with skia
+
 *   https://github.com/jsuarezruiz/dotnet-maui-showcase
 
     *   https://github.com/behl1anmol/Todo.me
