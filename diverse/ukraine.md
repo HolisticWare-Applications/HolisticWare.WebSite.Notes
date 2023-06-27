@@ -16,6 +16,18 @@ ukraine.md
 
 *   https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
+*   Denys Davydov 
+
+    *   Telegram Channel
+
+        *   https://t.me/pilotblog
+
+*   military map
+
+        *   https://militaryland.net/
+
+        *   https://deepstatemap.live/
+
 *   pro Russian
 
     *   https://www.youtube.com/c/TheDuran
