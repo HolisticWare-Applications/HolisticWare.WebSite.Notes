@@ -1,6 +1,6 @@
 # Docker
 
-dockere.md
+docker.md
 
 *   https://www.breakinglatest.news/technology/new-in-net-7-0-16-customize-docker-deployment-with-net-cli/
 
