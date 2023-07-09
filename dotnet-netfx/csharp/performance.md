@@ -2,6 +2,16 @@
 
 csharp-performance.md
 
+## Videos
+
+*   How IEnumerable can kill your performance in C#
+
+    *   https://www.youtube.com/watch?v=cLsmW7a8MkU&ab_channel=NickChapsas
+
+    *   beware of `IEnumerable` and `yield return`!!1
+
+        *   multiple enumeration
+
 ## Books
 
 *   Writing ing High-Performance .NET Applications
