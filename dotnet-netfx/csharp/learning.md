@@ -44,3 +44,8 @@ learning.md
 *   https://www.reddit.com/r/csharp/comments/zaoh2j/professional_transition_from_java_to_c/
 
 *   https://www.reddit.com/r/dotnet/comments/ys02xx/open_source_projects_looking_for_contributors/
+
+
+
+*   https://aka.ms/csharp-discord
+
