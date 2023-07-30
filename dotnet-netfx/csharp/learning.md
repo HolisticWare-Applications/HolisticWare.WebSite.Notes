@@ -49,3 +49,5 @@ learning.md
 
 *   https://aka.ms/csharp-discord
 
+    *   https://discord.com/invite/ccyrDKv
+    
