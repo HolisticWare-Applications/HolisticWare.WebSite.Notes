@@ -48,6 +48,12 @@ JohnHardman
 
 ### Avalonia
 
+### Spice
+
+*   https://github.com/jonathanpeppers/spice
+
+
+
 
 ## Windows
 
