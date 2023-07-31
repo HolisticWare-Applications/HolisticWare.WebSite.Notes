@@ -28,6 +28,7 @@ dotnet-new-templates.md
 
 *   https://www.bignerdranch.com/blog/descent-into-databinding/
 
+*   https://github.com/jonathanpeppers/spice/tree/main/src/Spice.Templates/templates
 
 ## Packaging
 
