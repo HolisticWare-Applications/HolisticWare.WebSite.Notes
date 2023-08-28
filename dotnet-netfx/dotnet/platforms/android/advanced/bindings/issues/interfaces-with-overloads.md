@@ -40,6 +40,6 @@ Workaround:
         path="/api/package[@name='com.google.android.gms.ads.mediation']/interface[@name='MediationNativeListener']/method[@name='onAdFailedToLoad' and count(parameter)=2 and parameter[1][@type='com.google.android.gms.ads.mediation.MediationNativeAdapter'] and parameter[2][@type='int']]"
         name="managedName"
         >
-        onAdFailedToLoadWithErrorCode
+        OnAdFailedToLoadWithErrorCode
     </attr>
 ```
