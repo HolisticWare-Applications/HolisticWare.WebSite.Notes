@@ -22,7 +22,6 @@ gradle.md
     *   no need for parentheses when calling methods with at least one parameter (Java Closures).
 
 
-
 ```
 System.out.println(“Hi, there!”);
 ```
@@ -31,5 +30,20 @@ System.out.println(“Hi, there!”);
 ```
 println “Hi, there!”
 ```
-to
+
+
+*   https://groovy-lang.org/syntax.html
+
+*   https://groovy-lang.org/style-guide.html
+
+*   https://www.tutorialspoint.com/groovy/groovy_basic_syntax.htm
+
+https://www.tabnine.com/blog/groovy-script-101/
+
+https://cs.au.dk/~amoeller/RegAut/JavaBNF.html
+
+https://cui.unige.ch/isi/bnf/JAVA/AJAVA.html
+
+https://matt.might.net/articles/grammars-bnf-ebnf/
+
 
