@@ -18,6 +18,12 @@ learning.md
 
     *   https://docs.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-6.0
 
+*   https://github.com/jfversluis/learn-dotnet-maui
+    
+    *   samples/plugins
+    
+        *   https://github.com/jfversluis/learn-dotnet-maui/blob/main/Code/README.md
+
 *   https://medium.com/tag/maui
 
 *   https://dotnet.microsoft.com/en-us/apps/maui
