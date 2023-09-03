@@ -8,6 +8,13 @@ learning.md
 
 *   [webistes.md](webistes.md)
 
+## videos
+
+*   C# in 101 Shorts
+
+    https://www.youtube.com/playlist?list=PLo7rGmaumEKDyrUy5rEFmiuRON_LeG5Rv
+
+## Diverse
 
 *   https://www.reddit.com/r/csharp/comments/12ll4hj/new_to_c/
 
