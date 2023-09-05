@@ -4,13 +4,23 @@
 
 *   https://learntocodewith.me/posts/code-for-free/
 
-*   https://medium.freecodecamp.org/500-free-online-programming-computer-science-courses-you-can-start-in-august-bc1bcac1af5e
+    *   https://learntocodewith.me/posts/hired-in-tech/
 
-*   https://medium.freecodecamp.org/why-you-learn-when-you-teach-d722e9b95902
+*   freeCodeCamp
 
-*   https://learntocodewith.me/posts/hired-in-tech/?utm_source=twitter&utm_medium=social&utm_campaign=SmarterQueue&utm_content=inspiration
+    *   https://medium.freecodecamp.org/500-free-online-programming-computer-science-courses-you-can-start-in-august-bc1bcac1af5e
 
-*   https://www.freecodecamp.org/news/free-online-programming-cs-courses/
+    *   https://medium.freecodecamp.org/why-you-learn-when-you-teach-d722e9b95902
+
+    *   https://www.freecodecamp.org/news/freecodecamp-press-books-handbooks/
+
+    *   https://www.freecodecamp.org/news/free-online-programming-cs-courses/
+
+    *   https://www.freecodecamp.org/news/the-c-programming-handbook-for-beginners/
+
+    *   https://www.freecodecamp.org/news/agile-software-development-handbook/
+
+    *   https://www.freecodecamp.org/news/owasp-api-security-top-10-secure-your-apis/
 
 ## Diverse
 
