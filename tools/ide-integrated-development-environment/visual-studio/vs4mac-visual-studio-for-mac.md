@@ -4,6 +4,14 @@ vs4mac-visual-studio-for-mac.md
 
 *   https://devblogs.microsoft.com/visualstudio/visual-studio-for-mac-retirement-announcement/
 
+*   https://www.reddit.com/r/dotnet/comments/165laz4/visual_studio_for_mac_is_being_retired/
+
+*   https://news.ycombinator.com/item?id=37326419
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/165ll87/visual_studio_for_mac_retirement_announcement/
+
+*   https://www.reddit.com/r/xamarindevelopers/comments/1668pn4/visual_studio_for_mac_will_be_retired_get_started/
+
 *   https://appleinsider.com/articles/23/08/30/microsoft-begins-sunsetting-process-for-visual-studio-for-mac
 
 *   https://visualstudiomagazine.com/articles/2023/08/30/vs-for-mac-retirement.aspx?m=1
@@ -33,6 +41,4 @@ vs4mac-visual-studio-for-mac.md
 *   https://visualstudiomagazine.com/articles/2023/08/30/vs-for-mac-retirement.aspx
 
 *   https://apple.slashdot.org/story/23/08/30/2057208/microsoft-is-discontinuing-visual-studio-for-mac-after-major-overhaul
-
-*   https://news.ycombinator.com/item?id=37326419
 
