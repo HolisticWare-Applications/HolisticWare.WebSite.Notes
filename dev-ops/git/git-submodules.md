@@ -111,3 +111,76 @@ git submodule foreach --recursive \
     git submodule update --init 
 ````
 
+
+
+
+# git submodules
+
+
+
+````
+git submodule foreach \
+    git reset --hard
+
+git submodule foreach \
+    --recursive \
+    git reset --hard
+
+git submodule deinit -f .
+git submodule update --init
+```
+
+
+
+
+```
+git submodule foreach \
+    git status
+
+
+git submodule foreach \
+    git add .
+git submodule foreach \
+    git status
+```
+
+```
+git push --recurse-submodules=on-demand
+git submodule foreach \
+    git push
+```
+
+
+````
+git submodule foreach \
+    git pull
+
+git submodule foreach \
+     --recursive \
+    git pull
+   
+```
+
+
+```
+git submodule update --init
+git submodule update --init --recursive
+git submodule update --recursive --remote --force
+git submodule foreach --quiet git pull --quiet origin
+
+git pull --rebase --recurse-submodules --quiet  
+
+git submodule update --init --recursive
+git submodule foreach git pull origin master
+```
+
+## git submodule pull latest commit
+
+
+```
+git submodule foreach git pull
+git submodule update --remote --merge
+git submodule update --init
+git submodule update --init --recursive
+git submodule update --recursive --remote --force
+```
