@@ -21,6 +21,19 @@ cross-platform/xplat/x-plat
     *   "developing to target X on Y" matrix
 
 
+| Target vs Development       | Development=Windows | Development=OSX | Development=Linux |
+|-----------------------------|---------------------|-----------------|-------------------|
+| target=Android              |   + (MAUI team)     |  + (MAUI team)  |   + (MAUI team)   |
+| target=iOS                  |   + (MAUI team)     |  + (MAUI team)  |   - (MAUI team)   |
+| target=MacCatalyst          |   + (MAUI team)     |  + (MAUI team)  |   - (MAUI team)   |
+| target=Windows.WinUI3       |   + (MAUI team)     |  - (MAUI team)  |   - (MAUI team)   |
+| target=Windows.UWP          |   -                 |  -              |   -               |
+| target=Windows.WindowsForms |   -                 |  -              |   -               |
+| target=Windows.WPF          |   -                 |  -              |   -               |
+| target=Linux.GTK            |   -                 |  -              |   -               |
+
+
+
 
 ## Linux
 
@@ -28,8 +41,11 @@ cross-platform/xplat/x-plat
 
     *   
 
-    *   
-    
+    *   https://github.com/dotnet/maui/pull/17205
+
+        Fix templates for Linux builds #17205
+        
+
 *   Open
 
     *   https://github.com/dotnet/maui/issues/14088
