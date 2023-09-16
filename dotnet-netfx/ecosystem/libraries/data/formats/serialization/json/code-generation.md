@@ -1,4 +1,8 @@
-https://github.com/jsontypedef/json-typedef-infer
+# Code Generation
+
+code-generation.md
+
+ttps://github.com/jsontypedef/json-typedef-infer
 
 https://jsontypedef.com/docs/csharp-codegen/
 
