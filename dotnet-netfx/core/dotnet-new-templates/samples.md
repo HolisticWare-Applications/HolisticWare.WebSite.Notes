@@ -2,8 +2,6 @@
 
 samples.md
 
-*   https://github.com/jfversluis/Plugin.Maui.Feature
-
 *   https://github.com/mattleibow/MauiMultiHeadProject
 
     *   https://github.com/mattleibow/MauiMultiHeadProject/blob/main/src/Microsoft.Maui.Templates.MauiMultiHeadApp/content/.template.config/template.json
