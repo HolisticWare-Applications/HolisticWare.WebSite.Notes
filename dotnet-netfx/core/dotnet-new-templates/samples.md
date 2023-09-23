@@ -2,6 +2,12 @@
 
 samples.md
 
+*   https://github.com/jfversluis/Plugin.Maui.Feature
+
+*   https://github.com/mattleibow/MauiMultiHeadProject
+
+    *   https://github.com/mattleibow/MauiMultiHeadProject/blob/main/src/Microsoft.Maui.Templates.MauiMultiHeadApp/content/.template.config/template.json
+
 *   https://github.com/dotnet/maui/tree/main/src/Templates/src
 
 *   https://github.com/dotnet/aspnetcore/tree/main/src/ProjectTemplates
@@ -33,4 +39,3 @@ samples.md
 *   https://github.com/Azaferany/dotnet-quickstart-template
 
 *   https://github.com/dotnet/templating/tree/main
-
