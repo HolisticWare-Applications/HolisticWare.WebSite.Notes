@@ -18,6 +18,8 @@ tutorials.md
 
 *   https://www.mytechramblings.com/posts/create-dotnet-templates-for-visual-studio-part-2/
 
+*   https://github.com/karlospn/MyTechRamblings.Templates
+
 *   https://docs.servicestack.net/dotnet-new#vue-spa
 
 *   https://codetherapist.com/blog/qt-powershell-after-dotnet-new/
@@ -27,3 +29,4 @@ tutorials.md
 *   https://github.com/dotnet/templating/wiki/Post-Action-Registry#display-manual-instructions
 
 *   https://damienbod.com/2022/08/15/creating-dotnet-solution-and-project-templates/
+
