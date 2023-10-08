@@ -16,6 +16,8 @@ ukraine.md
 
 *   https://www.youtube.com/watch?v=XpXVkYhwuKQ&ab_channel=WELTNachrichtensender
 
+*   https://texty.org.ua/d/2023/way_to_sea/
+
 *   Denys Davydov 
 
     *   Telegram Channel
