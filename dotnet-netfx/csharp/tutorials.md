@@ -10,6 +10,8 @@ tutorials.md
 
 # Beginners
 
+*   https://aka.ms/learnlive-get-started-with-csharp
+
 *   https://softchris.github.io/pages/dotnet-core.html#resources
 
 *   https://www.w3schools.com/cs/cs_getstarted.php
