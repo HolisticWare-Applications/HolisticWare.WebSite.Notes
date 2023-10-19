@@ -21,3 +21,11 @@ if ( a is >= 90 and <=100 )
     
 }
 ```
+
+```csharp
+string test = "TeST_something_CooL";
+
+if (working.IndexOf("_") is int idx && idx > 0)
+{
+}
+```
