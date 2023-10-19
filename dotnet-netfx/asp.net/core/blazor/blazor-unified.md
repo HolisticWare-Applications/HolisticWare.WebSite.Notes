@@ -1,6 +1,6 @@
 # Blazor United
 
-blzor-united.md
+blzor-unified.md
 
 *   Steve Sanderson Wows Web-Devs with Peek at 'Blazor United' for .NET 8
 
@@ -69,3 +69,8 @@ blzor-united.md
 *   https://visualstudiomagazine.com/articles/2023/02/03/blazor-united-plan.aspx
 
 *   https://www.reddit.com/r/programming/comments/10kp0it/blazor_united_when_it_ships_it_would_be_the_most/
+
+
+## Project Strucutre
+
+*   https://github.com/dotnet/aspnetcore/issues/49079
