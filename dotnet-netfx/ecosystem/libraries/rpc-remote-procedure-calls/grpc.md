@@ -40,4 +40,32 @@ grpc.md
     *   https://channel9.msdn.com/Shows/On-NET/gRPC-Web-with-NET
 
 *   https://grpc.io/docs/languages/csharp/quickstart/
-*   
+
+*   Intro to gRPC in C# - How To Get Started,
+
+    *   https://www.youtube.com/watch?v=QyxCX2GYHxk&t=1501s&ab_channel=IAmTimCorey
+
+*   Mark Gravell Talking Between Services with gRPC and Other Tricks - .NET Oxford - September 2019
+
+    *   https://www.youtube.com/watch?v=ZM0XeSjuwbc&ab_channel=Pusher
+
+*   Talking between services with gRPC, and other tricks - Marc Gravell
+
+    *   https://www.youtube.com/watch?v=W-bULzA0ki8&ab_channel=NETCoreSummerEvent
+
+## Repos
+
+*   https://github.com/protobuf-net/protobuf-net.Grpc
+
+*   https://github.com/protobuf-net/protobuf-net
+
+*   https://github.com/protobuf-net/protobuf-net.Grpc/tree/master/examples/pb-net-grpc
+
+*   https://code.google.com/archive/p/protobuf-net/
+
+
+## Schema
+
+*   https://github.com/chrusty/protoc-gen-jsonschema
+
+    
