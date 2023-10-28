@@ -43,3 +43,30 @@ interviews.md
 *   https://github.com/viraptor/reverse-interview
 
 *   https://github.com/Twipped/InterviewThis
+
+*   https://amazonbound.medium.com/im-32-and-want-to-start-programming-302e46a21c5d
+
+    *   https://www.hackerrank.com/
+
+    *   Triplebyte
+
+        *   https://triplebyte.com/
+
+    *   https://www.bloomtech.com/
+
+
+## Training/Practice
+
+*   https://codefinity.com/start/v8
+
+*   https://www.hackerrank.com/interview/interview-preparation-kit
+
+
+*   https://www.youtube.com/watch?v=6-EA0P9EzLU&ab_channel=Simplilearn
+
+
+## Assesment
+
+*   https://www.g2.com/products/hackerrank-developer-skills-platform/competitors/alternatives
+
+*   https://www.testgorilla.com/blog/testgorilla-vs-hackerrank/
