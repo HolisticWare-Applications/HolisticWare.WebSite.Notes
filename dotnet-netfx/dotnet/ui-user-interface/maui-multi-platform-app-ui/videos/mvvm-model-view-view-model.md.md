@@ -1,4 +1,4 @@
-#MVVM
+# MVVM 
 
 mvvm-model-view-view-model.md
 
@@ -6,8 +6,26 @@ mvvm-model-view-view-model.md
 
     *   https://www.youtube.com/watch?v=AXpTeiWtbC8
 
+    *   `CommunityToolkit.Mvvm`
 
-MVVM for Beginners: Model-View-ViewModel Architecture for Xamarin.Forms, .NET MAUI, WPF, UWP, & More
+        ```csharp
+        using CommunityToolkit.Mvvm.ComponentModel;
+
+        public partial class MainViewModel : ObservableObject
+        {
+            [ObservableProperty]
+            public string Name;
+
+            [ObservableProperty]
+            public string Address
+            {
+                get;
+                set;
+            }
+        }
+        ```
+
+*   MVVM for Beginners: Model-View-ViewModel Architecture for Xamarin.Forms, .NET MAUI, WPF, UWP, & More
 https://www.youtube.com/watch?v=Pso1MeX_HvI
 
 XAML Data Binding and MVVM Basics (.NET MAUI, WPF, UWP, Xamarin.Forms)
@@ -65,3 +83,49 @@ https://www.youtube.com/watch?v=kqsoG2Ii4w4
 
 TinyMvvm for .NET MAUI
 https://www.youtube.com/watch?v=XnBmvOu3MO4
+
+
+https://github.com/rid00z/FreshMvvm
+
+https://github.com/XAM-Consulting/FreshMvvm.Maui
+
+https://michaelridland.com/freshmvvm-maui/a-first-look-with-freshmvvm-maui/
+
+https://michaelridland.com/xamarin/freshmvvm-mvvm-framework-designed-xamarin-forms/
+
+https://learn.microsoft.com/en-us/shows/xamarinshow/freshmvvm-so-fresh-so-clean-mvvm-for-xamarinforms
+
+Xamarin.Forms MVVM Made Easy with FreshMvvm Framework
+https://www.youtube.com/watch?v=bj7ZxrmyzTA&ab_channel=GeraldVersluis
+
+.NET MAUI and FreshMvvm MVVM Framework: Getting Started
+https://www.youtube.com/watch?v=uke5GEt_Qoc&ab_channel=GeraldVersluis
+
+FreshMvvm Basic Navigation Concepts in Xamarin.Forms
+https://www.youtube.com/watch?v=C7ykJ66CbgY&ab_channel=GeraldVersluis
+
+https://www.c-sharpcorner.com/article/mvvm-databinding-in-xamarin-forms-using-fresh-mvvm/
+
+MVVM Source Generators: Never Write MVVM Boilerplate Code Again!
+https://www.youtube.com/watch?v=aCxl0z04BN8&ab_channel=JamesMontemagno
+
+
+
+Even More MVVM Source Generator Awesomeness for .NET Developers
+https://www.youtube.com/watch?v=9vvm_-YveTs&ab_channel=JamesMontemagno
+
+
+
+
+Why You NEED .NET MAUI's new Dependency Injection
+https://www.youtube.com/watch?v=xx1mve2AQr4&ab_channel=JamesMontemagno
+
+DotNet MAUI MVVM: Deep Dive into MVVM Architecture with .NET MAUI
+https://www.youtube.com/watch?v=B-5e0PJtSDs&ab_channel=CodingDroplets
+
+
+
+
+MVVMS... A Better MVVM? Model-View-ViewModel-Services Explained
+https://www.youtube.com/watch?v=ve0DFu-arD8&ab_channel=JamesMontemagno
+
