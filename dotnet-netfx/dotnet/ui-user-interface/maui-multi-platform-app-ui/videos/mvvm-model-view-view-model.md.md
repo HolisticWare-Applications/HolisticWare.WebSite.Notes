@@ -26,106 +26,124 @@ mvvm-model-view-view-model.md
         ```
 
 *   MVVM for Beginners: Model-View-ViewModel Architecture for Xamarin.Forms, .NET MAUI, WPF, UWP, & More
-https://www.youtube.com/watch?v=Pso1MeX_HvI
 
-XAML Data Binding and MVVM Basics (.NET MAUI, WPF, UWP, Xamarin.Forms)
-https://www.youtube.com/watch?v=sAn4RVsroF4
+    *   https://www.youtube.com/watch?v=Pso1MeX_HvI
 
-Implement MVVM and Databinding - .NET Maui Crash Course #4
-https://www.youtube.com/watch?v=XmdBXuNPShs
+*   XAML Data Binding and MVVM Basics (.NET MAUI, WPF, UWP, Xamarin.Forms)
 
-Better MVVM with MVVM Helpers (or Xamarin Community Toolkit)
-https://www.youtube.com/watch?v=y8ZqEOLDeo8
+    *   https://www.youtube.com/watch?v=sAn4RVsroF4
 
-MVVMS... A Better MVVM? Model-View-ViewModel-Services Explained
-https://www.youtube.com/watch?v=ve0DFu-arD8
+*   Implement MVVM and Databinding - .NET Maui Crash Course #4
 
-MVVM Source Generators: Never Write MVVM Boilerplate Code Again!
-https://www.youtube.com/watch?v=aCxl0z04BN8
+    *   https://www.youtube.com/watch?v=XmdBXuNPShs
 
-Even More MVVM Source Generator Awesomeness for .NET Developers
-https://www.youtube.com/watch?v=9vvm_-YveTs
+*   Better MVVM with MVVM Helpers (or Xamarin Community Toolkit)
 
-MVVM for the Xamarin.Forms ListView
-https://www.youtube.com/watch?v=71K4PVRLasI
+    *   https://www.youtube.com/watch?v=y8ZqEOLDeo8
 
-C#/WPF - Learn MVVM with the .NET Community Toolkit
-https://www.youtube.com/watch?v=uVIzK2snugk
+*   MVVMS... A Better MVVM? Model-View-ViewModel-Services Explained
 
-Models - WPF MVVM TUTORIAL #1
-https://www.youtube.com/watch?v=fZxZswmC_BY
+    *   https://www.youtube.com/watch?v=ve0DFu-arD8
 
-Views - WPF MVVM TUTORIAL #2
-https://www.youtube.com/watch?v=UQOi48H_84s
+*   MVVM Source Generators: Never Write MVVM Boilerplate Code Again!
 
-View Models - WPF MVVM TUTORIAL #3
-https://www.youtube.com/watch?v=2FPFgW0xVB0
+    *   https://www.youtube.com/watch?v=aCxl0z04BN8
 
-Commands - WPF MVVM TUTORIAL #4
-https://www.youtube.com/watch?v=DNez3wIpHeE
+*   Even More MVVM Source Generator Awesomeness for .NET Developers
 
-WPF in C# with MVVM using Caliburn Micro
-https://www.youtube.com/watch?v=laPFq3Fhs8k
+    *   https://www.youtube.com/watch?v=9vvm_-YveTs
 
+*   MVVM for the Xamarin.Forms ListView
 
+    *   https://www.youtube.com/watch?v=71K4PVRLasI
 
+*   C#/WPF - Learn MVVM with the .NET Community Toolkit
 
+    *   https://www.youtube.com/watch?v=uVIzK2snugk
 
-https://github.com/TinyStuff/TinyMvvm
+*   Models - WPF MVVM TUTORIAL #1
 
-https://github.com/TinyStuff/TinyMvvm/blob/master/docs/GetStarted.md
+    *   https://www.youtube.com/watch?v=fZxZswmC_BY
 
-https://danielhindrikes.se/post/tinymvvm-for-net-maui-preview
-https://www.youtube.com/watch?v=rS-cnU86870
+*   Views - WPF MVVM TUTORIAL #2
 
-An update on TinyMvvm for .NET MAUI
-https://www.youtube.com/watch?v=kqsoG2Ii4w4
+    *   https://www.youtube.com/watch?v=UQOi48H_84s
 
-TinyMvvm for .NET MAUI
-https://www.youtube.com/watch?v=XnBmvOu3MO4
+*   View Models - WPF MVVM TUTORIAL #3
 
+    *   https://www.youtube.com/watch?v=2FPFgW0xVB0
 
-https://github.com/rid00z/FreshMvvm
+*   Commands - WPF MVVM TUTORIAL #4
 
-https://github.com/XAM-Consulting/FreshMvvm.Maui
+    *   https://www.youtube.com/watch?v=DNez3wIpHeE
 
-https://michaelridland.com/freshmvvm-maui/a-first-look-with-freshmvvm-maui/
+*   WPF in C# with MVVM using Caliburn Micro
 
-https://michaelridland.com/xamarin/freshmvvm-mvvm-framework-designed-xamarin-forms/
+    *   https://www.youtube.com/watch?v=laPFq3Fhs8k
 
-https://learn.microsoft.com/en-us/shows/xamarinshow/freshmvvm-so-fresh-so-clean-mvvm-for-xamarinforms
+*   MVVM Source Generators: Never Write MVVM Boilerplate Code Again!
 
-Xamarin.Forms MVVM Made Easy with FreshMvvm Framework
-https://www.youtube.com/watch?v=bj7ZxrmyzTA&ab_channel=GeraldVersluis
+    *   https://www.youtube.com/watch?v=aCxl0z04BN8&ab_channel=JamesMontemagno
 
-.NET MAUI and FreshMvvm MVVM Framework: Getting Started
-https://www.youtube.com/watch?v=uke5GEt_Qoc&ab_channel=GeraldVersluis
+*   Even More MVVM Source Generator Awesomeness for .NET Developers
 
-FreshMvvm Basic Navigation Concepts in Xamarin.Forms
-https://www.youtube.com/watch?v=C7ykJ66CbgY&ab_channel=GeraldVersluis
+    *   https://www.youtube.com/watch?v=9vvm_-YveTs&ab_channel=JamesMontemagno
 
-https://www.c-sharpcorner.com/article/mvvm-databinding-in-xamarin-forms-using-fresh-mvvm/
+*   Why You NEED .NET MAUI's new Dependency Injection
 
-MVVM Source Generators: Never Write MVVM Boilerplate Code Again!
-https://www.youtube.com/watch?v=aCxl0z04BN8&ab_channel=JamesMontemagno
+    *   https://www.youtube.com/watch?v=xx1mve2AQr4&ab_channel=JamesMontemagno
+
+*   DotNet MAUI MVVM: Deep Dive into MVVM Architecture with .NET MAUI
+
+    *   https://www.youtube.com/watch?v=B-5e0PJtSDs&ab_channel=CodingDroplets
 
 
+*   MVVMS... A Better MVVM? Model-View-ViewModel-Services Explained
 
-Even More MVVM Source Generator Awesomeness for .NET Developers
-https://www.youtube.com/watch?v=9vvm_-YveTs&ab_channel=JamesMontemagno
-
-
+    *   https://www.youtube.com/watch?v=ve0DFu-arD8&ab_channel=JamesMontemagno
 
 
-Why You NEED .NET MAUI's new Dependency Injection
-https://www.youtube.com/watch?v=xx1mve2AQr4&ab_channel=JamesMontemagno
+*   TinyMvvm
 
-DotNet MAUI MVVM: Deep Dive into MVVM Architecture with .NET MAUI
-https://www.youtube.com/watch?v=B-5e0PJtSDs&ab_channel=CodingDroplets
+    *   https://github.com/TinyStuff/TinyMvvm
 
+    *   https://github.com/TinyStuff/TinyMvvm/blob/master/docs/GetStarted.md
 
+    *   https://danielhindrikes.se/post/tinymvvm-for-net-maui-preview
 
+    *   https://www.youtube.com/watch?v=rS-cnU86870
 
-MVVMS... A Better MVVM? Model-View-ViewModel-Services Explained
-https://www.youtube.com/watch?v=ve0DFu-arD8&ab_channel=JamesMontemagno
+    *   An update on TinyMvvm for .NET MAUI
+
+        *   https://www.youtube.com/watch?v=kqsoG2Ii4w4
+
+*   TinyMvvm for .NET MAUI
+
+    *   https://www.youtube.com/watch?v=XnBmvOu3MO4
+
+*   FreshMvvm
+
+    *   https://github.com/rid00z/FreshMvvm
+
+    *   https://github.com/XAM-Consulting/FreshMvvm.Maui
+
+    *   https://michaelridland.com/freshmvvm-maui/a-first-look-with-freshmvvm-maui/
+
+    *   https://michaelridland.com/xamarin/freshmvvm-mvvm-framework-designed-xamarin-forms/
+
+    *   https://learn.microsoft.com/en-us/shows/xamarinshow/freshmvvm-so-fresh-so-clean-mvvm-for-xamarinforms
+
+    *   Xamarin.Forms MVVM Made Easy with FreshMvvm Framework
+
+        *   https://www.youtube.com/watch?v=bj7ZxrmyzTA&ab_channel=GeraldVersluis
+
+    *   .NET MAUI and FreshMvvm MVVM Framework: Getting Started
+
+        *   https://www.youtube.com/watch?v=uke5GEt_Qoc&ab_channel=GeraldVersluis
+
+    *   FreshMvvm Basic Navigation Concepts in Xamarin.Forms
+
+        *   https://www.youtube.com/watch?v=C7ykJ66CbgY&ab_channel=GeraldVersluis
+
+    *   https://www.c-sharpcorner.com/article/mvvm-databinding-in-xamarin-forms-using-fresh-mvvm/
 
