@@ -30,6 +30,10 @@ ukraine.md
 
         *   https://deepstatemap.live/
 
+*   Military Lab
+
+    *   https://www.youtube.com/@militarylabb
+
 *   pro Russian
 
     *   https://www.youtube.com/c/TheDuran
