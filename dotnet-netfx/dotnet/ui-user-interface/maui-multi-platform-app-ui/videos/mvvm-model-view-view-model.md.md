@@ -8,19 +8,34 @@ mvvm-model-view-view-model.md
 
     *   `CommunityToolkit.Mvvm`
 
+
         ```csharp
         using CommunityToolkit.Mvvm.ComponentModel;
 
         public partial class MainViewModel : ObservableObject
         {
             [ObservableProperty]
-            public string Name;
+            [NotifiyPropertyChangedFor(nameof(NameFull))]
+            public string NameLast;
+
+            [ObservableProperty]
+            public string NameFirst;
+
+            [ObservableProperty]
+            public string NameFull;
 
             [ObservableProperty]
             public string Address
             {
                 get;
                 set;
+            }
+
+            [RelayCommand]
+            public string Name;
+
+            protected void ClickTap ()
+            {                
             }
         }
         ```
