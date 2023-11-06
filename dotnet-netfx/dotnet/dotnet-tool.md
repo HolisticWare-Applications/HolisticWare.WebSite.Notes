@@ -117,3 +117,15 @@ do
 done
 
 ```
+
+## Content files
+
+*   https://github.com/dotnet/sdk/issues/9730
+
+*   https://github.com/dotnet/sdk/issues/8677
+
+*   https://blog.ladeak.net/posts/grpc-proxy2
+
+```
+.dotnet/tools/.store/xunit-cli/0.1.16/xunit-cli/0.1.16/tools/net6.0/any 
+```
