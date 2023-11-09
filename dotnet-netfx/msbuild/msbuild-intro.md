@@ -4,6 +4,8 @@ msbuild-intro.md
 
 ## References / Links
 
+*   https://www.jon-douglas.com/2017/07/26/msbuild-basics/
+
 *   https://msdn.microsoft.com/en-us/library/ms164309.aspx
 
 *   https://github.com/Microsoft/msbuild/blob/master/documentation/wiki/MSBuild-Resources.md
