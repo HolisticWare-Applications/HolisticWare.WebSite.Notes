@@ -36,6 +36,12 @@ source-code-generators.md
 
     *   https://www.youtube.com/watch?v=Y_r5Z2UP_-s&ab_channel=SoftwareGlobe
 
+## Playgrounds
+
+## Applications
+
+*   https://wengier.com/SourceGeneratorPlayground/
+
 ## Samples / Repos
 
 *   https://github.com/ufcpp/StringLiteralGenerator
