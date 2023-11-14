@@ -18,6 +18,22 @@ ukraine.md
 
 *   https://texty.org.ua/d/2023/way_to_sea/
 
+*   https://www.understandingwar.org/
+
+    *   https://www.understandingwar.org/backgrounder/russian-offensive-campaign-assessment-november-6-2023
+
+*   Interactive Map: Russia's Invasion of Ukraine
+
+    *   https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375
+
+*   3D Ukraine Experience
+
+    *   https://understandingwar.maps.arcgis.com/apps/instant/3dviewer/index.html?appid=1602762dbcde419bb957dea358449580
+
+*   Interactive Time-lapse: Russia's War in Ukraine
+
+    *   https://storymaps.arcgis.com/stories/733fe90805894bfc8562d90b106aa895
+    
 *   Denys Davydov 
 
     *   Telegram Channel
