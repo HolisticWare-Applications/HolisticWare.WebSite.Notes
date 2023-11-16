@@ -128,6 +128,12 @@ dotnet run `
     --project SampleAspireStarter/SampleAspireStarter.AppHost
 ```
 
+### Deployment
+
+*   https://learn.microsoft.com/en-us/dotnet/aspire/deployment/overview
+
+*   https://github.com/dotnet/aspire/blob/main/samples/eShopLite/AppHost/aspire-manifest.json
+
 ## Blazor
 
     QuickGrid
