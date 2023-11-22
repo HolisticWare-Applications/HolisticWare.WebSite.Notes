@@ -296,3 +296,67 @@ Do you have a system where you think would be a good fit for a CQRS architecture
 Ye Gu, Scott Kinghorn, Kayode Prince
 
 At-scale monitoring of your .NET application infrastructure in real time is challenging given the number of steps and pieces typically involved to construct an end-to-end solution. We would like to discuss how Azure helps simplify this process for containerized .NET applications, especially those running on AKS. With the availability of a full monitoring software stack as managed services and automatic data enrichment, Azure makes monitoring more integrated and accessible as part of your application development and deployment cycles.
+
+
+
+
+Blazor Puzzles and Answers
+
+Jeffrey T. Fritz, Carl Franklin
+
+The Blazor Puzzle podcast team of Carl Franklin and Jeff Fritz have a collection of puzzles and brain-teasers for you in this code-focused session about the latest features of the Blazor framework. We'll fix bugs, build cool features, and even write a unit test or two
+
+https://blazorpuzzle.com/
+
+https://www.reddit.com/r/Blazor/comments/17i95xu/anyone_following_blazor_puzzle_on_youtube/
+
+https://www.youtube.com/live/BuB3mRHHIX8?si=8ioOu83ZZ5-X-zOw
+
+https://github.com/BlazorPuzzle
+
+
+
+## Integrating Third-party Services with .NET 8's Identity Framework
+
+Kiah Imani
+
+We've all been there - juggling multiple tools, trying to get them to play nicely together. And with .NET 8's robust Identity Framework, the idea of bringing in third-party services can feel a bit daunting. But here’s the good news: It doesn’t have to be! In this talk, we'll pull back the curtain on the seamless integration of third-party services with .NET 8. We'll start with the basics, understanding what the Identity Framework brings to our table. From there, we'll dive into real-world scenarios, like plugging in popular social logins and ensuring that Aunt Mabel can safely access her account without a hitch. And yes, we'll tackle the bumps along the way - challenges, security snags, and those "Oops, didn’t see that coming" moments. Together, we'll navigate the waters, learn from each other, and demystify the process of integrating third-party services, making it feel less like a chore and more like a new adventure. So, whether you're a .NET veteran or someone just dipping their toes in, come along! Let's make our projects a little less "How do I even?" and a lot more "Look what I just did!"
+
+copilot problems - overthinking
+
+
+## Clean Architecture with ASP.NET Core 8
+
+Steve Smith
+
+Clean Architecture (aka Onion, Hexagonal, Ports-and-Adapters) organizes your code in a way that limits its dependencies on infrastructure concerns. This results in much more testable, maintainable code and is ideal for Domain-Driven Design as well as microservices. Learn how to apply it to your ASP.NET Core apps!
+
+
+
+
+
+
+## .NET Conf 2023 - Student Zone
+
+https://www.youtube.com/watch?v=TH12YSLLe9E&ab_channel=dotnet
+
+
+General .NET Conf Student Zone is done! And, if you haven't shared your feedback, we really appreciate to know more about the experience and what can we do better. 
+Event Recording: https://aka.ms/netconf23/studentstream
+Please leave your feedback on the event! https://aka.ms/netconf23/studentfeedback
+
+1:58 - Introduction 
+14:09 - Building Your Own Course Assistant with AI
+1:10:45 - Minimal API + SPA, a perfect match
+2:21:04 - Building an intelligent app with Blazor and Azure OpenAI
+3:32:40 - Get started building mobile & desktop apps with .NET
+4:19:19 - Games in Godot! Let’s make a classic Paddle game with C#!
+4:47:53 - .NET Backend Mastery for Game Development
+5:10:20 - Coding a Drone Using .NET and ChatGPT AI & Flying in MR!
+5:39:46 - Outro
+
+*   Get the code 
+
+    *   https://aka.ms/netconf23/studentrepo
+
+    *   https://aka.ms/netconf23/studentrepo
