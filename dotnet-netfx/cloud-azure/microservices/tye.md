@@ -2,14 +2,20 @@
 
 tye.md
 
+*   https://github.com/dotnet/tye
 
 
-Project Tye is an experimental developer tool that makes developing, testing, and deploying microservices and distributed applications easier.
+
+
+Project Tye is an experimental developer tool that makes developing, testing, and deploying 
+microservices and distributed applications easier.
 
 https://github.com/dotnet/tye
 
 
-Tye is a developer tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.
+Tye is a developer tool that makes developing, testing, and deploying microservices and distributed 
+applications easier. Project Tye includes a local orchestrator to make developing microservices 
+easier and the ability to deploy microservices to Kubernetes with minimal configuration.
 
 
 https://github.com/dotnet/tye/blob/main/docs/README.md
@@ -25,6 +31,15 @@ Deploy .NET applications to Kubernetes by:
 Automatically containerizing .NET applications
 Generating Kubernetes manifests with minimal knowledge or configuration
 Using the same conventions as development to keep it consistent
+
+https://github.com/microsoft/vscode-tye
+
+https://github.com/jlikens/tye-series
+
+https://github.com/geffzhang/TyeAndYarp
+
+https://github.com/ddobric/tye-demo
+
 
 ```
 dotnet tool install -g Microsoft.Tye --version "0.6.0-alpha.21070.5"
