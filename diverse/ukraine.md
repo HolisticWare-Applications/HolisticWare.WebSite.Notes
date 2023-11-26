@@ -10,6 +10,21 @@ ukraine.md
 
     *   https://www.facebook.com/InstitutefortheStudyofWar/
 
+*   reddit
+
+    *   https://www.reddit.com/r/UkraineWarVideoReport/
+
+    *   https://www.reddit.com/search?q=Nato&source=trending
+
+    *   https://www.reddit.com/r/nato/
+
+    *   https://www.reddit.com/r/ukraine/
+
+
+*   rumble
+
+    *   https://rumble.com/c/ReflectionsUkraine
+
 *   https://liveuamap.com/
 
 *   https://www.youtube.com/watch?v=7WRPtWjZbf8&ab_channel=TheSun
