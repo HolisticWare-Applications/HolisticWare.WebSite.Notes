@@ -66,13 +66,13 @@ testing.md
             --usenuget=false \
             --catalyst
 
-            ./build.ps1 \
-                -Script eng/devices/catalyst.cake \
-                --verbosity=diagnostic \
-                --configuration="Release" \
-                --apiversion="10.13" \
-                --target=uitest \
-                --device=mac
+        ./build.ps1 \
+            -Script eng/devices/catalyst.cake \
+            --verbosity=diagnostic \
+            --configuration="Release" \
+            --apiversion="10.13" \
+            --target=uitest \
+            --device=mac
         ```
 
         ```bash
@@ -85,12 +85,12 @@ testing.md
             --catalyst
 
         dotnet cake \
-                -Script eng/devices/catalyst.cake \
-                --verbosity=diagnostic \
-                --configuration="Release" \
-                --apiversion="10.13" \
-                --target=uitest \
-                --device=mac
+            -Script eng/devices/catalyst.cake \
+            --verbosity=diagnostic \
+            --configuration="Release" \
+            --apiversion="10.13" \
+            --target=uitest \
+            --device=mac
         ```
 
 
@@ -163,7 +163,11 @@ testing.md
 65 = Java 21
 
 /usr/libexec/java_home -V
+echo "JAVA_HOME            = "$JAVA_HOME
+
 export JAVA_HOME=`/usr/libexec/java_home -v 17`
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home/
+
 /usr/libexec/java_home -V
 
 
