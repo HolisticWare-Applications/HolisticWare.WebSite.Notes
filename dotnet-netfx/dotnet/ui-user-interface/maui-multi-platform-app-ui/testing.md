@@ -19,12 +19,26 @@ testing.md
         
         ```pwsh
         dotnet tool restore
-        ./build.ps1 --target=dotnet-buildtasks --configuration="Release" --workloads=global
+        ./build.ps1 `
+            --target=dotnet-buildtasks `
+            --configuration="Release" `
+            --workloads=global
         ```
 
         ```pwsh
         dotnet tool restore
-        dotnet cake --target=dotnet-buildtasks --configuration="Release" --workloads=global
+        dotnet cake `
+            --target=dotnet-buildtasks `
+            --configuration="Release" `
+            --workloads=global
+        ```
+
+        ```bash
+        dotnet tool restore
+        dotnet cake \
+            --target=dotnet-buildtasks \
+            --configuration="Release" \
+            --workloads=global
         ```
 
     *   https://github.com/dotnet/maui/wiki/UITests
