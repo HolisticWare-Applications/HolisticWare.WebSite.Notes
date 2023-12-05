@@ -331,6 +331,29 @@ Steve Smith
 
 Clean Architecture (aka Onion, Hexagonal, Ports-and-Adapters) organizes your code in a way that limits its dependencies on infrastructure concerns. This results in much more testable, maintainable code and is ideal for Domain-Driven Design as well as microservices. Learn how to apply it to your ASP.NET Core apps!
 
+*   https://www.youtube.com/watch?v=yF9SwL0p0Y0&ab_channel=dotnet
+
+*   Clean Architecture
+
+    *   formerly known as 
+    
+        *   Onion Architecture
+
+        *   Hexagonal Architecture
+
+        *   Ports and Adapters Architecture
+
+    *   goal
+
+        *   domain centric approach to 
+        
+            *   software design
+
+            *   dependency organization/management
+
+    *   eariler
+
+        *   storage (database) as centre of the universe
 
 
 
@@ -360,3 +383,21 @@ Please leave your feedback on the event! https://aka.ms/netconf23/studentfeedbac
     *   https://aka.ms/netconf23/studentrepo
 
     *   https://aka.ms/netconf23/studentrepo
+
+
+
+
+
+What Is .NET Aspire? The Insane Future of .NET!
+
+    https://www.youtube.com/watch?v=DORZA_S7f9w&ab_channel=NickChapsas
+
+How to Deploy .NET 8's New .NET Aspire Stack
+
+    https://www.youtube.com/watch?v=HYe6y1kBuGI&ab_channel=NickChapsas
+
+    dotnet run --publisher mannigest --output-path manifest.json
+
+    azd init
+
+    
