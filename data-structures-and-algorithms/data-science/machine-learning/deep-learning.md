@@ -12,7 +12,11 @@ deep-learning.md
 
     *   https://fall2019.fullstackdeeplearning.com/
 
+*   Deep Learning - Foundations and Concepts
 
+    Bishop
+
+    https://www.bishopbook.com/
 
 
 
