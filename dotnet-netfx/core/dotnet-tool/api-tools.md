@@ -21,13 +21,29 @@ dotnet cake ./nuget-diff.cake -v=diagnostic
 
 
 ```bash
+rm -fr  ./Mono.ApiTools.NuGetDiff-master
+rm      Mono.ApiTools.NuGetDiff-master.zip
+curl \
+    -v -L -C - \
+    -o Mono.ApiTools.NuGetDiff-master.zip \
+    -O \
+        https://codeload.github.com/mattleibow/Mono.ApiTools.NuGetDiff/zip/refs/heads/master
+
+unzip \
+    -o \
+    ./Mono.ApiTools.NuGetDiff-master.zip
+
+cd ./Mono.ApiTools.NuGetDiff-master
+dotnet cake
+
+
 dotnet tool \
     uninstall \
         api-tools \
             --global \
-```
 
-```bash
+
+
 dotnet tool \
     install \
         api-tools \
