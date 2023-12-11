@@ -9,6 +9,8 @@ serialization.md
 
 *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/
 
+*   https://learn.microsoft.com/en-us/dotnet/standard/serialization/
+
     *   binary
     
         *   https://docs.microsoft.com/en-us/dotnet/standard/serialization/binary-serialization
@@ -31,10 +33,40 @@ serialization.md
 
 ## Binary
 
+*   `System.Runtime.Serialization.Formatters.Binary.BinaryFormatter`
+
+    *   https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter
+
+    *   https://learn.microsoft.com/en-us/dotnet/core/compatibility/serialization/5.0/binaryformatter-serialization-obsolete
+
+    *   https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter?view=net-5.0https://learn.microsoft.com/en-us/dotnet/standard/serialization/binaryformatter-security-guide
+
 *   Avro (Apache)
 
     [./serialization/apache-avro.md](./serialization/apache-avro.md)
     
+*   MemoryPack
+
+    *   https://github.com/Cysharp/MemoryPack
+
+    *   Zero encoding extreme performance binary serializer for C# and Unity.
+
+    *   System.Text.Json
+
+    *   protobuf-net
+    
+    *   MessagePack for C#
+
+    *   Orleans.Serialization
+
+    MemoryPack is my 4th serializer, previously I've created well known serializers, 
+    
+        ZeroFormatter, 
+        Utf8Json, 
+        MessagePack for C#. 
+        
+    The reason for MemoryPack's speed is due to its C#-specific, C#-optimized binary format and a well tuned implementation based on my past experience. It is also a completely new design utilizing .NET 7 and C# 11 and the Incremental Source Generator (.NET Standard 2.1 (.NET 5, 6) and there is also Unity support).
+
 *   Bond (Microsoft)
 
     [./serialization/microsoft-bond.md](./serialization/microsoft-bond.md) 
@@ -83,6 +115,7 @@ serialization.md
 
     *   https://github.com/generatives/WirePCL
     
+
 ## JSON
 
 *   Newtonsoft.Json
