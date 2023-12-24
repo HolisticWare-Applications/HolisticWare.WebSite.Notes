@@ -18,7 +18,9 @@ deep-learning.md
 
     https://www.bishopbook.com/
 
+    Chris Bishop "Deep Learning: Foundations and Concepts"
 
+    new book 20231211
 
 
 The AI we use everyday in our phones, cameras, and smart devices usually falls into the category 
