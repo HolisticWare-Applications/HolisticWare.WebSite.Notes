@@ -17,8 +17,12 @@ jobs-talent-markets.md
 *   https://developers.turing.com/welcome
 
 
-# Turing
+## Turing
 
 *   https://developers.turing.com/welcome
 
 *   https://developers.turing.com/dashboard/turing_test
+
+## Jokes
+
+*   https://www.youtube.com/watch?v=zwCD6DZCg7U&ab_channel=HonestAds
