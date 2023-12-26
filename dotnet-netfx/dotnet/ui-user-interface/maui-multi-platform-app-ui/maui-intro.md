@@ -2,6 +2,35 @@
 
 maui-intro.md
 
+https://github.com/jfversluis/learn-dotnet-maui
+
+
+Get Started: .NET MAUI / Xamarin Forms
+
+    https://docs.devexpress.com/MAUI/403249/get-started/get-started
+
+
+Online Documentation: .NET MAUI / Xamarin Forms
+
+    https://docs.devexpress.com/MAUI/403245/maui
+
+Knowledge Base: .NET MAUI / Xamarin Forms
+
+    https://supportcenter.devexpress.com/ticket/list?preset=884f819e-5ea0-420b-9306-0a08e96fc11f
+
+YouTube Videos: .NET MAUI / Xamarin Forms
+
+    https://www.youtube.com/playlist?list=PL8h4jt35t1wghepqsh6REGhL_yeugE58m
+
+Code Examples: .NET MAUI / Xamarin Forms
+
+    https://github.com/search?q=org%3ADevExpress-Examples+.net+maui&type=repositories
+
+Team Blog: .NET MAUI & Xamarin Forms
+
+    https://community.devexpress.com/blogs/mobile/
+
+
 
 https://github.com/dotnet/sdk/issues/23820
 
