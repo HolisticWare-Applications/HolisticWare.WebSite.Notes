@@ -9,6 +9,8 @@ readme.md
 
 *   https://github.com/CoreBTS/shield-mvvm
 
+*   https://www.nuget.org/packages/CoreBTS.Maui.ShieldMVVM
+
 
 ## Tiny MVVM
 
@@ -30,5 +32,14 @@ readme.md
 
     *   https://prismlibrary.com/docs/
 
+    *   https://prismlibrary.com/docs/wpf/legacy/Implementing-MVVM.html
+
     *   https://xamgirl.com/prism-in-xamarin-forms-step-by-step-part-1/
 
+    *   https://www.youtube.com/watch?v=Ng-hkI-1zpg&ab_channel=HelloESAPI
+
+    *   https://prismlibrary.com/docs/maui/index.html
+
+    *   [MauiFest] Updating to Prism for .NET MAUI by Dan Siegel
+
+        *   https://www.youtube.com/watch?v=KWiWMp6jklI&ab_channel=JavierSu%C3%A1rez
