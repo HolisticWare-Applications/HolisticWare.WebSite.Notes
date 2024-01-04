@@ -70,3 +70,9 @@ interviews.md
 *   https://www.g2.com/products/hackerrank-developer-skills-platform/competitors/alternatives
 
 *   https://www.testgorilla.com/blog/testgorilla-vs-hackerrank/
+
+## 
+
+*   https://www.reddit.com/r/dotnet/comments/18upo6g/why_most_interviews_suck/
+
+*   https://www.reddit.com/r/dotnet/comments/18svk58/are_junior_prospects_in_net_better_than_more/
