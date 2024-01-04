@@ -2,6 +2,12 @@
 
 youtube--james-montemagno--what-is-the-mvvm-pattern-what-benefits-does-mvvm-have.md
 
+# What is the MVVM pattern, What benefits does MVVM have?
+
+youtube--james-montemagno--what-is-the-mvvm-pattern-what-benefits-does-mvvm-have.md
+
+https://www.youtube.com/watch?v=Pso1MeX_HvI
+
 What is the MVVM pattern, What benefits does MVVM have?
 
 *   https://www.youtube.com/watch?v=AXpTeiWtbC8
