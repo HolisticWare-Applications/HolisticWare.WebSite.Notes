@@ -20,6 +20,7 @@ shut down all but the first docker-compose service
  docker-compose ps --services | tail +2 | xargs docker-compose stop
 ```
 
+*   https://dev.to/davidmm1707/docker-basics-for-beginners-49l9
 
 ## Moby
 
