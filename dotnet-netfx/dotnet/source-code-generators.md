@@ -20,6 +20,13 @@ source-code-generators.md
 
 *   https://www.techcentral.ie/c-source-generators-to-boost-performance-in-net-5/
 
+
+## Tools
+
+*   https://roslynquoter.azurewebsites.net/
+
+
+
 *   videos
 
     *   https://www.youtube.com/watch?v=zHYd9o7-wlw&ab_channel=MicrosoftVisualStudio
@@ -160,3 +167,12 @@ use incremental source generators. Official docs: https://github.com/dotnet/rosl
 *   https://medium.com/@edin.sahbaz/mvvm-implementation-using-net-community-toolkit-mvvm-source-generator-in-net-maui-810a137af47e
 
 *   https://devblogs.microsoft.com/dotnet/announcing-the-dotnet-community-toolkit-821/
+
+
+## Syntax Visualizers
+
+*   https://github.com/dotnet/roslyn/blob/main/docs/wiki/Syntax-Visualizer.md
+
+*   https://devblogs.microsoft.com/visualstudio/roslyn-syntax-visualizers/
+
+*   https://computingonplains.wordpress.com/tools-for-viewing-and-creating-roslyn-syntax-trees/
