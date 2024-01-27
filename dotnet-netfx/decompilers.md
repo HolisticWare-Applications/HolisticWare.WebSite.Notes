@@ -1,8 +1,3 @@
 # Decompilers in .NET
 
-## ILSpy
-
-*   https://github.com/icsharpcode/AvaloniaILSpy/
-
-*   macOSX
-
+*   [./tools/decompilers.md](./tools/decompilers.md)
