@@ -36,7 +36,7 @@ interviews.md
 
 *   https://github.com/checkcheckzz/system-design-interview
 
-
+*   https://www.reddit.com/r/csharp/comments/18zz2vj/interview_practice_questions_for_c_for_mid_and/
 
 
 
