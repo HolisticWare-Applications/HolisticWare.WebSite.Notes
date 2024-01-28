@@ -8,5 +8,7 @@ learn-coding-for-free.md
 
 *   https://medium.freecodecamp.org/why-you-learn-when-you-teach-d722e9b95902
 
-https://learntocodewith.me/posts/hired-in-tech/?utm_source=twitter&utm_medium=social&utm_campaign=SmarterQueue&utm_content=inspiration
+*   https://learntocodewith.me/posts/hired-in-tech/?utm_source=twitter&utm_medium=social&utm_campaign=SmarterQueue&utm_content=inspiration
+
+*   https://exercism.org/
 
