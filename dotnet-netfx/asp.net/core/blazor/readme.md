@@ -1,5 +1,9 @@
 # Samples
 
+*   https://learn.microsoft.com/en-us/training/paths/build-web-apps-with-blazor/
+
+*   https://www.jetbrains.com/guide/dotnet/tutorials/blazor-essentials/
+
 *   https://github.com/rockfordlhotka/csla/tree/829-blazor/Samples/BlazorExample
 
 *   https://github.com/dotnetnoobie/GitHubBlazor/tree/master/GitHubBlazor
