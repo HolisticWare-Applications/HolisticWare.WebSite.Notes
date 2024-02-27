@@ -5,7 +5,29 @@
 *   https://www.coredna.com/blogs/headless-vs-decoupled-cms
 
 
+https://www.hanselman.com/blog/headless-cms-and-decoupled-cms-in-net-core
 
+https://dottutorials.net/top-open-source-asp-net-core-cms/
+
+https://github.com/topics/headless-cms?l=c%23&o=desc&s=updated
+
+
+https://piranhacms.org/
+
+https://www.cofoundry.org/
+
+https://mixcore.org/
+
+
+https://orchardcore.net/    
+    https://github.com/OrchardCMS/OrchardCore
+    https://try.orchardcore.net/
+
+https://www.cofoundry.org/
+
+    https://github.com/cofoundry-cms/cofoundry
+
+https://squidex.io/
 
 https://www.hanselman.com/blog/HeadlessCMSAndDecoupledCMSInNETCore.aspx
 
