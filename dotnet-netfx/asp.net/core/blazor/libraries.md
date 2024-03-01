@@ -1,6 +1,63 @@
 ## Libraries
 
+libraries.md
+
+## FLuentUI
+
+*   https://www.fluentui-blazor.net/
+
+*   https://github.com/microsoft/fluentui-blazor
+
+```
+dotnet new install \
+    Microsoft.FluentUI.AspNetCore.Templates
+```
+
+```
+dotnet new fluentblazor --name MyApplication
+
+dotnet new fluentblazorwasm --name MyApplication
+```
+
+## MudBlazor
+
+*   https://mudblazor.com/
+
+    *   https://mudblazor.com/docs/overview
+
+*   https://www.mudblazor.com/docs/overview
+
+*   https://www.mudblazor.com/
+
+*   https://github.com/MudBlazor/MudBlazor/tree/dev
+
+*   https://www.mudblazor.com/getting-started/installation#online-playground
+
+*   https://github.com/MudBlazor/MudBlazor/
+
 *   https://github.com/lrz/mono-wasm
+
+*   https://try.mudblazor.com/
+
+*   https://try.mudblazor.com/snippet
+
+
+## Blazorise
+
+*   https://preview.blazorise.com/docs/usage/fluent2
+
+
+## Blazor .NET 8 boilerplate with (RenderMode: Auto, SCSS and TS) 
+
+*   https://github.com/Wreit/BlazorBoilerplate
+
+
+
+
+*   https://github.com/AmbachtIT/blazor-rx-mouse
+
+
+## Diverse
 
 *   https://github.com/mono/TsToCSharp
 
@@ -30,12 +87,3 @@
 
 *   https://blazorcomponents.github.io/CompileBlazorInBlazor/
 
-*   MudBlazor
-
-    *   https://www.mudblazor.com/docs/overview
-
-    *   https://www.mudblazor.com/
-
-    *   https://www.mudblazor.com/getting-started/installation#online-playground
-
-    *   https://github.com/MudBlazor/MudBlazor/
