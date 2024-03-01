@@ -2,7 +2,34 @@
 
 deep-learning.md
 
-*   https://twitter.com/PrasoonPratham/status/1332934132792365056
+## Prerequisites
+
+*   Learn Data Structures and Algorithms in 48 Hours
+
+    *   https://www.freecodecamp.org/news/learn-data-structures-and-algorithms-2/
+    
+*   Deep Learning Fundamentals Handbook – What You Need to Know to Start Your Career in AI
+
+    *   https://www.freecodecamp.org/news/deep-learning-fundamentals-handbook-start-a-career-in-ai/
+
+*   Machine Learning Fundamentals Handbook – Key Concepts, Algorithms, and Python Code Examples
+
+    *   https://www.freecodecamp.org/news/machine-learning-handbook/
+
+*   Data science
+
+    *   https://lunartech.ai/course-overview/
+
+
+https://en.wikipedia.org/wiki/Differential_(mathematics)
+
+https://www.freecodecamp.org/news/linear-algebra-full-course/
+
+College Algebra - Full Course
+
+    https://www.youtube.com/watch?v=LwCRRUa8yTU&ab_channel=freeCodeCamp.org
+    
+    *   https://twitter.com/PrasoonPratham/status/1332934132792365056
 
 *   https://www.freecodecamp.org/news/learn-deep-learning-from-the-president-of-kaggle/
 
