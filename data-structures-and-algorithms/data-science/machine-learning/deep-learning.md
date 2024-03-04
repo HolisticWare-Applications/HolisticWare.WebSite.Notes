@@ -2,6 +2,8 @@
 
 deep-learning.md
 
+*   https://www.freecodecamp.org/news/tag/deep-learning/
+
 ## Prerequisites
 
 *   Learn Data Structures and Algorithms in 48 Hours
@@ -15,6 +17,40 @@ deep-learning.md
 *   Machine Learning Fundamentals Handbook – Key Concepts, Algorithms, and Python Code Examples
 
     *   https://www.freecodecamp.org/news/machine-learning-handbook/
+
+*   Ace Your Deep Learning Job Interview
+
+    *   https://www.freecodecamp.org/news/ace-your-deep-learning-job-interview/
+
+*   How to Use Fast.ai – A Beginner-Friendly Gateway to Deep Learning
+
+    *   https://www.freecodecamp.org/news/how-to-use-fast-ai-for-beginners/
+
+*   PyTorch vs TensorFlow – Which is Better for Deep Learning Projects?
+
+    *   https://www.freecodecamp.org/news/pytorch-vs-tensorflow-for-deep-learning-projects/
+
+*   Free Live Course: Deep Learning with PyTorch
+
+    *   https://www.freecodecamp.org/news/free-deep-learning-with-pytorch-live-course/
+
+*   How to Add Two Numbers – The Machine Learning Way
+
+    https://www.freecodecamp.org/news/how-to-add-two-numbers-using-machine-learning/
+
+How to Use TensorFlow for Deep Learning – Basics for Beginners
+
+    https://www.freecodecamp.org/news/tensorflow-basics/
+
+Deep Learning with Julia – How to Build and Train a Model using a Neural Network
+
+    https://www.freecodecamp.org/news/deep-learning-with-julia/
+
+Perception for Self-Driving Cars — Free Deep Learning Course
+
+    https://www.freecodecamp.org/news/perception-for-self-driving-cars-deep-learning-course/
+
+
 
 *   Data science
 
