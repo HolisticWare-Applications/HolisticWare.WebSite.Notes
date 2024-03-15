@@ -2,6 +2,11 @@
 
 kubernetes.md
 
+
+## Alternatives
+
+# Learning
+
 *   https://kube.academy/courses
 
 *   https://info.microsoft.com/ww-thankyou-manage-your-kubernetes-clusters-with-built-in-best-practices-vdeo?LCID=EN-US
