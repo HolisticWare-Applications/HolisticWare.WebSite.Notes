@@ -25,24 +25,6 @@ source-code-generators.md
 
 *   https://roslynquoter.azurewebsites.net/
 
-
-
-*   videos
-
-    *   https://www.youtube.com/watch?v=zHYd9o7-wlw&ab_channel=MicrosoftVisualStudio
-
-    *   https://www.youtube.com/watch?v=pqLs7X6Cr6s&ab_channel=NDCConferences
-
-    *   https://www.youtube.com/watch?v=3YwwdoRg2F4&ab_channel=dotNET
-
-    *   https://www.youtube.com/watch?v=JSFZ3qDx83g&ab_channel=ImmoLandwerth
-
-    *   https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Source-Generators-in-CSharp
-
-    *   https://www.youtube.com/watch?v=qsZ1a0zuv_U&ab_channel=CodeOpinion
-
-    *   https://www.youtube.com/watch?v=Y_r5Z2UP_-s&ab_channel=SoftwareGlobe
-
 ## Playgrounds
 
 ## Applications
