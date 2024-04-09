@@ -6,6 +6,10 @@ videos.md
 
     *   https://www.youtube.com/watch?v=il9gl8MH17s&ab_channel=RawCoding
 
+*   Writing async/await from scratch in C# with Stephen Toub
+
+    *   https://www.youtube.com/watch?v=R-z2Hv-7nxk&ab_channel=dotnet
+
 *   Master C# async/await with Concurrency Like a Senior
 
     *   https://www.youtube.com/watch?v=_fPNcQrB1JA&ab_channel=DecodeBytes
@@ -13,6 +17,10 @@ videos.md
 *   What are ASYNC and AWAIT in C#? Asynchronous Programming Tutorial
 
     *   https://www.youtube.com/watch?v=5a6WCBftjvw&ab_channel=tutorialsEU
+
+*   C# Async / Await - Make your app more responsive and faster with asynchronous programming
+
+    *   https://www.youtube.com/watch?v=2moh18sh5p4&ab_channel=IAmTimCorey
 
 *   Back to Basics: Efficient Async and Await - Filip Ekberg - NDC Oslo 2023
 
