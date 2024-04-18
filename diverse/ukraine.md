@@ -20,7 +20,6 @@ ukraine.md
 
     *   https://www.reddit.com/r/ukraine/
 
-
 *   rumble
 
     *   https://rumble.com/c/ReflectionsUkraine
@@ -95,8 +94,18 @@ ukraine.md
 
     *   https://russianinvasionofukraine2022.quora.com/One-of-the-Executioners-of-Ukrainian-POWs-Identified
 
-
 *   https://liveuamap.com/
+
+*   Combat Vets from Ukraine Explain Drone Warfare, Trench Warfare and More
+
+    *   https://www.youtube.com/watch?v=Tge7YMi4gJs&t=254s&ab_channel=GarandThumb
+
+Combat Vets from Israel Explain Urban Warfare, Drones, Insurgency tactics
+https://www.youtube.com/watch?v=gdQS97fJY4Q&ab_channel=GarandThumb
+
+*   night vision
+
+    *   https://www.reddit.com/r/army/comments/t8heg2/why_do_we_use_red_light/
 
 ## Telegram
 
