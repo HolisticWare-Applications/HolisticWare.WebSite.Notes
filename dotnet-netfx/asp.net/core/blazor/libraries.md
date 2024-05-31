@@ -19,6 +19,11 @@ dotnet new fluentblazor --name MyApplication
 dotnet new fluentblazorwasm --name MyApplication
 ```
 
+*   Exploring the Fluent UI Blazor components
+
+    *   https://www.youtube.com/watch?v=jOv9ioCVDFU&ab_channel=MicrosoftDeveloper
+    
+
 ## MudBlazor
 
 *   https://mudblazor.com/
