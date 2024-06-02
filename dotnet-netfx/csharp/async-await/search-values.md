@@ -27,3 +27,13 @@ string searching algorithm like Aho Corasick or CWalter
     *   https://www.youtube.com/watch?v=qIadl17UE2w&ab_channel=VisualCodeLibrary
 
 *   https://dotnetcode.medium.com/net-8-new-features-benefits-improvements-and-tool-updates-63e4db88772a
+
+# SearchValue
+
+The Fastest Way to Search Gets Even Better in .NET 9
+
+    https://www.youtube.com/watch?v=q0VENoIXWso&ab_channel=NickChapsas
+
+I messed up. I'm sorry.
+
+    https://www.youtube.com/watch?v=K3aByK0Wgh8&ab_channel=Scripter
