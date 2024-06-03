@@ -2,6 +2,10 @@
 
 videos.md
 
+*   Writing async/await from scratch in C# with Stephen Toub
+
+    *   https://www.youtube.com/watch?v=R-z2Hv-7nxk&ab_channel=dotnet
+    
 *   C# Async/Await/Task Explained (Deep Dive)
 
     *   https://www.youtube.com/watch?v=il9gl8MH17s&ab_channel=RawCoding
