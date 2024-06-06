@@ -186,19 +186,19 @@ done
 
 
 
-create a dotnet template
+## create a dotnet template
 
-https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new
+*   https://github.com/dotnet/templating/wiki/Available-templates-for-dotnet-new
 
-https://dotnetnew.azurewebsites.net/Search/holisticware
+*   https://dotnetnew.azurewebsites.net/Search/holisticware
 
-https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
+*   https://dotnetnew.azurewebsites.net/template/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp/HolisticWare.DotNetNew.XamarinProjectsStructureTemplate.CSharp
 
 ## Item Template
 
 *   https://docs.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template
 
-```
+```bash
 mkdir tests
 mkdir source
 mkdir source/templates
