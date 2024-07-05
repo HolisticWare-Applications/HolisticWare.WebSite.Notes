@@ -100,8 +100,27 @@ ukraine.md
 
     *   https://www.youtube.com/watch?v=Tge7YMi4gJs&t=254s&ab_channel=GarandThumb
 
-Combat Vets from Israel Explain Urban Warfare, Drones, Insurgency tactics
-https://www.youtube.com/watch?v=gdQS97fJY4Q&ab_channel=GarandThumb
+*   Combat Vets from Israel Explain Urban Warfare, Drones, Insurgency tactics
+
+    *   https://www.youtube.com/watch?v=gdQS97fJY4Q&ab_channel=GarandThumb
+
+*   ambush by Chechen Voluntary Corps
+
+    *   https://www.youtube.com/watch?v=LFSpnb0xHqc
+
+*   Marine reacts to a Russian Combat Survival Guide
+
+    *   https://www.youtube.com/watch?v=oadWIt0AevI
+
+*   Marine reacts to a Russian Combat Survival Guide
+
+    *   https://www.youtube.com/watch?v=oadWIt0AevI
+
+*   Russian Combat Survival Guide: How to survive the war in Ukraine
+
+    *   https://www.youtube.com/watch?v=BX0sCi1Fl9c&rco=1
+
+    *   https://lethalmindsjournal.substack.com/p/i-live-i-fight-i-win-rules-of-life
 
 *   night vision
 
