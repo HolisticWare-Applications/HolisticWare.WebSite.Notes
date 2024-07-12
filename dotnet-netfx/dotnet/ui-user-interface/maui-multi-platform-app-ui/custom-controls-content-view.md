@@ -42,17 +42,33 @@ custom-controls-content-view.md
 
 ## Xamarin.Forms
 
-https://www.mfractor.com/blogs/news/custom-controls-in-xamarin-forms
+*   https://www.mfractor.com/blogs/news/custom-controls-in-xamarin-forms
 
 *   https://trailheadtechnology.com/custom-controls-in-xamarin-forms/
 
-https://xamgirl.com/tips-and-ticks-when-creating-a-custom-control-in-xamarin-forms-part-1/
+*   https://xamgirl.com/tips-and-ticks-when-creating-a-custom-control-in-xamarin-forms-part-1/
 
-https://xamgirl.com/tips-and-ticks-when-creating-a-custom-control-in-xamarin-forms-part-2/
+*   https://xamgirl.com/tips-and-ticks-when-creating-a-custom-control-in-xamarin-forms-part-2/
 
-https://www.youtube.com/watch?v=cbmoaD-PDtA&ab_channel=GeraldVersluis
+*   https://www.youtube.com/watch?v=cbmoaD-PDtA&ab_channel=GeraldVersluis
 
-https://www.youtube.com/watch?v=ZViJyL9Ptqg&ab_channel=XamarinUniversity
+*   https://www.youtube.com/watch?v=ZViJyL9Ptqg&ab_channel=XamarinUniversity
+
+*   .NET MAUI - Building your own custom controls
+
+    *   https://www.youtube.com/watch?v=3Cd3amJ-qcw&ab_channel=DanielHindrikes
+
+*   Be productive with .NET MAUI and your own control library
+
+    *   https://www.youtube.com/watch?v=pqaJ7IKO2Kw&ab_channel=DanielHindrikes
+
+*   Reusable, Custom Controls in .Net Maui!
+
+    *   https://www.youtube.com/watch?v=YLx2L7SXeaY&ab_channel=ProgrammingWithChris
+
+*   Reusable Controls and Data Template Selectors in Xamarin.Forms & .NET MAUI
+
+    *   https://www.youtube.com/watch?v=TkadU_OfmIE&ab_channel=JamesMontemagno
 
 *   Xamarin Forms - Create a Custom Control Library
 
