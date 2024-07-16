@@ -36,3 +36,11 @@ ArcGIS Maps SDK for .NET
 
 *   based on OpenStreetMap
 
+
+## Diverse
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/1blvb2l/maui_maps/
+
+*   https://github.com/themronion/Maui.GoogleMaps
+
+*   
