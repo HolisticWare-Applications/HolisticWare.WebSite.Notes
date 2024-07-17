@@ -32,9 +32,22 @@ learning.md
 
 *   https://www.infoq.com/articles/net-maui/
 
+## Podcasts
+
+*   https://www.dotnetmauipodcast.com/episodes
+
+*   https://www.gonemobile.io/
+
+*   https://dev.to/davidortinau
+
+## Tips n Tricks
+
+*   https://dev.to/davidortinau/net-maui-dos-and-donts-19g3
+
 ## DevOps
 
 *   https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui/
+
 ## Links / References   
     
 *   https://github.com/MahmudX/awesome-maui
