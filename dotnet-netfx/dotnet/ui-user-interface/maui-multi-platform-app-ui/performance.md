@@ -24,3 +24,22 @@ https://adamsitnik.com/Sample-Perf-Investigation/
 https://adamsitnik.com/ETW-Profiler/
 
 
+
+*   https://github.com/xamarin/xamarin-android/pull/8713/files
+
+*   https://www.sharpnado.com/net-maui-painfully-slow-debugging/
+
+## Ideas
+
+*   https://github.com/vescon/MethodBoundaryAspect.Fody
+
+*   https://github.com/Fody/MethodTimer
+
+Fody MethodTimer
+
+https://github.com/Fody/MethodTimer
+
+https://www.infoworld.com/article/3710708/how-to-measure-api-performance-in-asp-net-core.html
+
+
+
