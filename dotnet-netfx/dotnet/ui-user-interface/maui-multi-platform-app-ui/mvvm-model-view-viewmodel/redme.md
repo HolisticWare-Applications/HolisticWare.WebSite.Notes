@@ -108,6 +108,10 @@ readme.md
         *   https://www.youtube.com/watch?v=KWiWMp6jklI&ab_channel=JavierSu%C3%A1rez
 
 
+### Epoxy
+
+*   https://github.com/kekyo/Epoxy/tree/main/templates/templates
+
 ## Diverse
 
 *   https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
@@ -117,3 +121,6 @@ readme.md
 *   https://medium.com/@dugguRK/mastery-in-mvvm-architecture-f864d01db812
 
 *   https://www.reddit.com/r/dotnetMAUI/comments/17gpvjn/migrating_xf_with_freshmvvm_to_maui/
+
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/1dr8ad5/does_it_make_sense_to_bind_app_to_a_viewmodel/
