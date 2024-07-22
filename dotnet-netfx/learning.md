@@ -2,6 +2,31 @@
 
 learning.md
 
+## Podcasts
+
+*   https://www.gonemobile.io/
+
+*   https://www.mergeconflict.fm/
+
+*   https://www.dotnetrocks.com/
+
+*   https://dotnetcore.show/
+
+*   https://www.dotnetmauipodcast.com/
+
+*   https://podcast.dotnetrambles.com/
+
+*   https://podtail.com/fr/podcast/on-net-channel-9
+
+*   https://podcasters.spotify.com/pod/show/dotnetlabs
+
+*   https://www.podchaser.com/podcasts/net-bytes-812872
+
+*   https://dotnetflix.com/
+
+
+## Diverse
+
 *   Learning
 
 *   Develop Apps with .NET
