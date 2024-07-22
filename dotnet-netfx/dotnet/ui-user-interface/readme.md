@@ -31,6 +31,17 @@ readme.md
 
     *   AvaloniaUI [unoplatform](./unoplatform/readme.md)
 
+## Comparison
+
+*   MAUI 
+
+    *   MAUI uses Xamarin's XAML format 
+    
+    *   UNO uses UWP/WinUI3 XAML, 
+    
+    *   Avalonia uses WPF's XAML dialect with some extras on top
+    
+
 ## Diverse
 
 *   https://sourceforge.net/software/compare/.NET-MAUI-vs-Avalonia-UI-vs-Uno-Platform-vs-Xamarin/
