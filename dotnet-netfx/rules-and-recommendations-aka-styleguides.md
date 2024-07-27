@@ -2,13 +2,33 @@
 
 rules-and-recommendations-aka-styleguides.md
 
+*   not C# specific
+
+    *   https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines
+
+## Curly Braces
+
+Using
+
+```csharp
+if (condition)
+{
+    DoSomething();
+}
+```
+
+over
+
+```csharp
+if (condition)
+    DoSomething();
+```
+
+can prevent problems like:
+
 *   https://blog.codecentric.de/en/2014/02/curly-braces/
 
 *   https://embeddedgurus.com/barr-code/2014/03/apples-gotofail-ssl-security-bug-was-easily-preventable/
-
-
-
-*   https://dotnetdevaddict.co.za/2019/11/19/beware-csharp-8-using-statements/
 
 ## Casing
 
@@ -42,3 +62,12 @@ serializer_settings.Converters.Add (new Newtonsoft.Json.Converters.StringEnumCon
 *   https://chaseadams.io/posts/most-common-programming-case-types/
 
 *   https://medium.com/nerd-for-tech/programming-case-types-explained-143cad3681e3
+
+## Shorthands (`var`, `new()` and ...)
+
+
+## `using` Statements
+
+*   https://dotnetdevaddict.co.za/2019/11/19/beware-csharp-8-using-statements/
+
+
