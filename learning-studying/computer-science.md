@@ -17,3 +17,19 @@ computer-science.md
 *   https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
 
 
+## Computer Science Unplugged
+
+*   https://www.csunplugged.org/en/
+
+*   https://code.org/curriculum/unplugged
+
+*   https://ncwit.org/resource/unplugged/
+
+*   https://k12cs.org/
+
+*   https://csfirst.withgoogle.com/c/cs-first/en/cs-first-unplugged/overview.html
+
+*   https://www.stem.org.uk/resources/collection/3909/computer-science-unplugged
+
+*   https://www.youtube.com/c/UCComputerScienceEducation
+
