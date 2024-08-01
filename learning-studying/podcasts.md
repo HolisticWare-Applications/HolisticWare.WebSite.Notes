@@ -2,9 +2,19 @@
 
 podcasts.md
 
+*   Gone Mobile
+
+    *   https://www.gonemobile.io/
+
 *   mergeconfict.fm
 
     *   https://mergeconflict.fm/
+
+*   The Modern .NET Show
+
+    *   https://dotnetcore.show/
+
+    *   formerly: The .NET Core Podcast
 
 *   xamarinshow.com
 
@@ -17,7 +27,11 @@ podcasts.md
     .NET Community Standups
 
     https://www.youtube.com/channel/UCiaZbznpWV1o-KLxj8zqR6A/channels
+
     
+
+
+
 
 ```
 All-In with Chamath, Jason, Sacks & Friedberg
