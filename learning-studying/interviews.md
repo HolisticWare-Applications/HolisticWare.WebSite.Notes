@@ -76,3 +76,9 @@ interviews.md
 *   https://www.reddit.com/r/dotnet/comments/18upo6g/why_most_interviews_suck/
 
 *   https://www.reddit.com/r/dotnet/comments/18svk58/are_junior_prospects_in_net_better_than_more/
+
+## Behavioral
+
+*   https://www.educative.io/courses/grokking-the-behavioral-interview
+
+*   https://www.educative.io/courses/grokking-the-behavioral-interview/why-prepare
