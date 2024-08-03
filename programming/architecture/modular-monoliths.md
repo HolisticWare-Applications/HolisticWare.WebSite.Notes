@@ -12,6 +12,8 @@ modular-monoliths.md
 
     *   https://github.com/dotnet-architecture/eShopOnWeb
 
+*   https://jeremydmiller.com/2024/04/08/
+
 ## Videos
 
 *   Building Modular Monolith with ASP.NET Core, .NET 5 and C# 9 - Implementing Module Client
