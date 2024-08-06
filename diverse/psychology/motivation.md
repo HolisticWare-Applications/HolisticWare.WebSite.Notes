@@ -2,22 +2,37 @@
 
 motivation.md
 
-motivation
 
-“We suffer more often in imagination than in reality.” Seneca
+*   Seneca
 
-It’s Never Too Late To Be What You Might Have Been George Eliot
+    *   “We suffer more often in imagination than in reality.”
 
-Marcus Aurelius - Our life is what our thoughts make it.
+*   George Eliot
 
-"Thinking is difficult, that's why most people judge." - Carl Jung
+    *   It’s Never Too Late To Be What You Might Have Been
 
-“Care about what other people think and you will always be their prisoner.” -Lao Tzu
+*   Marcus Aurelius
 
-“A fool is known by his speech and a wise man by silence.” —Pythagoras
+    *   Our life is what our thoughts make it.
 
-"If you're the smartest person in the room, then you're in the wrong room." ~ Richard P. Feynman, Confucious
+*   Carl Jung
 
-“The quieter you become, the more you are able to hear.”
-― Rumi
+    *   "Thinking is difficult, that's why most people judge."
+
+*   Lao Tzu
+
+    *   “Care about what other people think and you will always be their prisoner.”
+
+*   Pythagoras
+
+    *   “A fool is known by his speech and a wise man by silence.”
+
+*   Richard P. Feynman, Confucious
+
+    *   "If you're the smartest person in the room, then you're in the wrong room."
+
+*   Rumi
+
+    *   “The quieter you become, the more you are able to hear.”
+
 
