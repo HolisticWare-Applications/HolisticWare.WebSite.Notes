@@ -75,3 +75,14 @@ code --install-extension WakaTime.vscode-wakatime
 code --install-extension wk-j.vscode-cil-complete
 code --install-extension ybaumes.highlight-trailing-white-spaces
 ```
+
+```
+code --install-extension \
+    $HOME/Downloads/csharp-darwin-arm64-2.30.17.vsix
+```
+ 
+code -n $HOME/Library/Application\ Support/Code/User/settings.json
+ 
+    "csharp.experimental.debug.hotReload": true,
+    "dotnet.enableMobileHotReloadPreview": true,
+ 
