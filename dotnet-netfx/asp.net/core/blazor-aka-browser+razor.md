@@ -1,6 +1,6 @@
 # Blazor = Browser + Razor
 
-# Blazor
+blazor-aka-browser+razor.md
 
 Blazor = Browser + Razor
 
@@ -244,3 +244,10 @@ dotnet new --list
 
 
 *   https://blazor.net/community.html
+
+
+## Videos
+
+*   Modern Full-Stack Web Development with ASP.NET Core & Blazor | OD533
+
+    *   https://www.youtube.com/watch?v=NbfhbDKiFpM
