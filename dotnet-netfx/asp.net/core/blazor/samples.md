@@ -101,3 +101,18 @@
 *   https://github.com/panesofglass/trail
 
 *   https://github.com/harveytriana/BlazorGamePractice
+
+*   https://github.com/jrhodnik/NameGate
+
+*   https://www.reddit.com/r/Blazor/comments/1esp89m/fluentcms_a_blazor_based_cms/
+
+*   Luthetus.Ide
+
+    *   https://github.com/Luthetus/Luthetus.Ide/
+
+    *   Blazor Optimizations for an IDE
+
+        *   https://www.youtube.com/watch?v=3xqcDGrS2mY
+
+            *   https://learn.microsoft.com/en-us/aspnet/core/blazor/performance
+
