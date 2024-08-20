@@ -31,18 +31,34 @@ learning.md
 
 *   https://github.com/microsoft/fluentui-blazor
 
-*   https://www.fast.design/
+*   FAST 
 
-*   https://fluent2.microsoft.design/
+    *   https://www.fast.design/
 
-*   https://fluent1.microsoft.design/#/web
+    *   Fluent UI
+    
+        *   https://fluent2.microsoft.design/
 
-*   https://learn.microsoft.com/en-us/fluent-ui/web-components/
+        *   https://fluent1.microsoft.design/#/web
 
-*   https://fluent-components.azurewebsites.net/?path=/docs/getting-started-overview--page
+        *   https://learn.microsoft.com/en-us/fluent-ui/web-components/
 
-*   https://www.fluentui-blazor.net/
+        *   https://fluent-components.azurewebsites.net/?path=/docs/getting-started-overview--page
 
-*   https://preview.fluentui-blazor.net/
+        *   https://www.fluentui-blazor.net/
 
-*   https://calm-sea-053fa6a03-archivesv3.westeurope.3.azurestaticapps.net/
+        *   https://preview.fluentui-blazor.net/
+
+        *   https://calm-sea-053fa6a03-archivesv3.westeurope.3.azurestaticapps.net/
+
+    *   https://fabricweb.z5.web.core.windows.net/pr-deploy-site/refs/heads/7.0/theming-designer/index.html
+
+    *   https://developer.microsoft.com/en-us/fluentui#/
+
+    *   https://github.com/microsoft/fluentui
+
+    *   OneNote         #7719aa
+
+    *   Teams           #6264a7
+
+    *   https://learn.microsoft.com/en-us/fluent-ui/web-components/getting-started/styling
