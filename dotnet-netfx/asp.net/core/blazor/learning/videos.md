@@ -9,3 +9,7 @@ videos.md
 *   Front-end Web Development with .NET for Beginners
 
     *   https://www.youtube.com/playlist?list=PLdo4fOcmZ0oXNZX1Q8rB-5xgTSKR8qA5k
+
+*   What's New in Blazor for .NET 8
+
+    *   https://www.youtube.com/watch?v=QD2-DwuOfKM
