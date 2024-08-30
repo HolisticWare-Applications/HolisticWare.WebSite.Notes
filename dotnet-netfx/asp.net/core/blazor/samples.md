@@ -116,3 +116,8 @@
 
             *   https://learn.microsoft.com/en-us/aspnet/core/blazor/performance
 
+*   https://github.com/MindWorkAI/AI-Studio
+
+*   https://github.com/fluentcms/FluentCMS
+
+*   https://github.com/loresoft/Estimatorx
