@@ -104,7 +104,23 @@
 
 *   https://github.com/jrhodnik/NameGate
 
-*   https://www.reddit.com/r/Blazor/comments/1esp89m/fluentcms_a_blazor_based_cms/
+
+*   https://github.com/MindWorkAI/AI-Studio
+
+*   https://github.com/loresoft/Estimatorx
+
+## CMS
+
+*   https://github.com/fluentcms/FluentCMS
+
+    *   https://www.reddit.com/r/Blazor/comments/1esp89m/fluentcms_a_blazor_based_cms/
+
+*   https://github.com/YodasMyDad/ZauberCMS
+
+    *   https://aptitude.gitbook.io/zaubercms
+
+
+## IDE
 
 *   Luthetus.Ide
 
@@ -115,9 +131,3 @@
         *   https://www.youtube.com/watch?v=3xqcDGrS2mY
 
             *   https://learn.microsoft.com/en-us/aspnet/core/blazor/performance
-
-*   https://github.com/MindWorkAI/AI-Studio
-
-*   https://github.com/fluentcms/FluentCMS
-
-*   https://github.com/loresoft/Estimatorx
