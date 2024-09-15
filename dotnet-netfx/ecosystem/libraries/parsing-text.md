@@ -34,7 +34,15 @@ https://tomassetti.me/parsing-in-csharp/#parseTree
 
 *   https://www.youtube.com/playlist?list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y
 
-## Mondaic Parsers
+## Parser Combinators
+
+*   What the heck is a parser-combinator? 
+
+    *   https://news.ycombinator.com/item?id=14600079
+
+*   https://www.scribd.com/document/453395677/Comparison-of-parser-generators
+
+## Monadic Parsers
 
 *   https://github.com/moljac/Samples.CSharp/blob/master/docs/monadic-parser-combinators.md
 
@@ -44,7 +52,19 @@ https://tomassetti.me/parsing-in-csharp/#parseTree
 
 *   https://adamgordonbell.com/posts/2010-11-20-parser-combinators-csharp.html
 
+## Lexers and Parsers/YACCers
 
+*   https://github.com/b3b00/csly/
+
+    *   TODO: replace StringBuilder with 
+
+*   https://openhub.net/p/CSharpLexYacc
+
+*   https://github.com/picoe/Eto.Parse
+
+*   https://github.com/IronyProject/Irony
+
+*   https://www.reddit.com/r/csharp/comments/17nufvf/are_there_any_kind_of_libraries_that_allow_you_to/
 
 ## Code Samples    
 
