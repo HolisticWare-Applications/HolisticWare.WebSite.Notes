@@ -109,6 +109,24 @@
 
 *   https://github.com/loresoft/Estimatorx
 
+*   https://github.com/neozhu/CleanArchitectureWithBlazorServer
+
+    *   https://demo.thedpp.dev/
+
+
+    *   https://passgen.lol/
+
+        *   https://www.reddit.com/r/dataisbeautiful/comments/vmw0eu/oc_frequency_of_compound_insults_eg_poophead/
+
+*   https://openhabittracker.net/
+
+    *   https://github.com/Jinjinov/OpenHabitTracker
+
+    *   https://www.reddit.com/r/Blazor/comments/1fai5dy/what_led_me_to_creating_openhabittracker_and/
+
+    *   https://www.reddit.com/r/Blazor/comments/1fklmmr/how_to_create_a_blazor_app_for_wasm_windows_linux/
+    
+
 ## CMS
 
 *   https://github.com/fluentcms/FluentCMS
