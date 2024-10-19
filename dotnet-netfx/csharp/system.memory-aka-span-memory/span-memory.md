@@ -2,6 +2,14 @@
 
 span-memory.md
 
+*   Deep .NET: A Complete .NET Developer's Guide to Span with Stephen Toub and Scott Hanselman
+
+    *   https://www.youtube.com/watch?v=5KdICNWOfEQ 
+
+*   https://learn.microsoft.com/en-us/dotnet/standard/memory-and-spans/
+
+https://www.reddit.com/r/csharp/comments/1g6djw1/trying_to_understand_spant_usages/
+
 https://github.com/dfederm/DelimiterSeparatedTextParser/blob/master/src/DsvReader.cs
 
 https://msdn.microsoft.com/en-us/magazine/mt814808.aspx
