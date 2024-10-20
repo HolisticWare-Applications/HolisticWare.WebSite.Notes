@@ -4,6 +4,12 @@
     
 *   https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/blazor
 
+*   https://github.com/devessenceinc/BlackBeltBlazor
+
+    *   Expert Tips For .NET 8 – Black Belt Blazor #dotnet #blazor
+    
+        *   https://www.youtube.com/watch?v=1lsjpfdqBk0
+
 *   http://blazorgames.net/
 
     *   https://github.com/exceptionnotfound
@@ -104,7 +110,6 @@
 
 *   https://github.com/jrhodnik/NameGate
 
-
 *   https://github.com/MindWorkAI/AI-Studio
 
 *   https://github.com/loresoft/Estimatorx
@@ -136,6 +141,12 @@
 *   https://github.com/YodasMyDad/ZauberCMS
 
     *   https://aptitude.gitbook.io/zaubercms
+
+*   https://www.oqtane.org/
+
+    *   https://github.com/oqtane/oqtane.framework
+
+    *   https://www.google.com/search?q=blazor+octane
 
 
 ## IDE
