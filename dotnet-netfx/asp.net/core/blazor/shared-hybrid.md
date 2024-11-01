@@ -1,4 +1,4 @@
-# Shared 
+# Shared
 
 shared.md
 
@@ -22,6 +22,16 @@ shared.md
 *   https://github.com/BethMassi/HybridSharedUI/tree/master
 
 *   https://github.com/Eilon/MauiHybridWebView
+
+*   iceHub82
+
+       *   https://github.com/iceHub82/PythonNet
+
+            *   https://icehub82.github.io/
+
+        *   https://github.com/iceHub82/IceNet.Shared
+
+        *   https://github.com/iceHub82/Blazor.Shared
 
 ### Personal
 
