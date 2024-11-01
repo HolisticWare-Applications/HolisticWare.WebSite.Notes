@@ -4,8 +4,6 @@ coding-assistants.md
 
 *   Github Copilot
 
-    
-
 *   ChatGPT
 
 *   Amazon Code Whisperer
@@ -38,3 +36,40 @@ coding-assistants.md
 
     *   https://www.reddit.com/r/LocalLLaMA/comments/1dhx449/deepseekcoderv2_breaking_the_barrier_of/
     
+
+## Github Copilot
+
+1.  tests
+
+    ```
+    without using var, but fully qualified type names
+    generate 
+        nunit
+        xunit
+        mstest
+        tunit
+    unit tests for class 
+        ClassX
+    ```
+
+2.  ui Blazor 
+
+    ```
+    without using var, but fully qualified type names generate 
+        Blazor
+    UI component using 
+        FluentUI 
+    for class 
+        ClassX
+    ```
+
+3.  ui Fluent 
+
+    ```
+    without using var, but fully qualified type names generate 
+        Blazor
+    UI component and page with route using 
+        FluentUI 
+    for class 
+        ClassX
+    ```
