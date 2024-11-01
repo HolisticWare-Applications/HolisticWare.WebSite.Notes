@@ -1,13 +1,13 @@
 # Samples
 
 *   https://github.com/dotnet/blazor-samples
-    
+
 *   https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/blazor
 
 *   https://github.com/devessenceinc/BlackBeltBlazor
 
     *   Expert Tips For .NET 8 – Black Belt Blazor #dotnet #blazor
-    
+
         *   https://www.youtube.com/watch?v=1lsjpfdqBk0
 
 *   http://blazorgames.net/
@@ -130,7 +130,17 @@
     *   https://www.reddit.com/r/Blazor/comments/1fai5dy/what_led_me_to_creating_openhabittracker_and/
 
     *   https://www.reddit.com/r/Blazor/comments/1fklmmr/how_to_create_a_blazor_app_for_wasm_windows_linux/
-    
+
+
+*   iceHub82
+
+       *   https://github.com/iceHub82/PythonNet
+
+            *   https://icehub82.github.io/
+
+        *   https://github.com/iceHub82/IceNet.Shared
+
+        *   https://github.com/iceHub82/Blazor.Shared
 
 ## CMS
 
