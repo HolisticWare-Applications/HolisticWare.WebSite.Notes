@@ -89,3 +89,17 @@ They are mostly the same. The only difference is that in server mode you cannot 
 ## Diverse
 
 *   https://www.reddit.com/r/Blazor/comments/1fkgyjq/difference_between_blazor_web_assembly_and_blazor/
+
+*   https://www.reddit.com/r/Blazor/comments/1gi50dw/blazor_render_modes_are_confusing_me/
+
+*   https://www.reddit.com/r/Blazor/comments/1gh3cy5/host_blazor_webassembly_in_a_blazor_server_app/
+
+With .NET8 came render modes. You can control if the component should be rendered as wasm or server. For wasm you would need a wasm project as well in your solution, but it's doable. You could create a new .NET8 project and look at the template for how it's done.
+
+https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-8.0#client-side-rendering-csr
+
+Is there a way to just add something to one razor page in a Blazor Server app to make it static? I swear I thought there was a tag or something but I can’t find it anymore
+
+Do you mean server side rendered?
+
+https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-8.0#static-server-side-rendering-static-ssr
