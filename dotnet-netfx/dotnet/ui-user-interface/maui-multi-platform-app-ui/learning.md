@@ -40,6 +40,14 @@ learning.md
 
 *   https://dev.to/davidortinau
 
+## Tutorials
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/1g7c00j/good_tutorials_for_net_maui/
+
+*   https://dometrain.com/course/getting-started-dotnet-maui/
+
+*   https://dometrain.com/course/deep-dive-dotnet-maui/
+
 ## Tips n Tricks
 
 *   https://dev.to/davidortinau/net-maui-dos-and-donts-19g3
