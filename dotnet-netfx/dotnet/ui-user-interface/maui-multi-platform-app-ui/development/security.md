@@ -33,6 +33,17 @@
 
 ## Package Dependencies
 
+### NuGet Package Auditing
+
+*   https://learn.microsoft.com/en-us/nuget/concepts/auditing-packages
+
+    *   https://learn.microsoft.com/en-us/nuget/concepts/auditing-packages#configuring-nuget-audit
+
+    *   Added to MAUI for `net8.0`
+
+    *   by default in `net9.0`
+
+
 ### NuGetDefense
 
 *   https://digitalcoyote.github.io/NuGetDefense/docs/intro/
@@ -45,6 +56,8 @@
 
 ### HolisticWare.*.OpenSourceVulnerabilities.OSV
 
+*   NuGet auditing tools cannot verify payload in our case Maven artifacts
+
 *   finishing PR in `dotnet/android-libraries`
 
     *   during/before/after binderate step
@@ -53,6 +66,16 @@
 
         *   no transitive dependencies [yet] - WIP
 
+    *   basic queries for now
+
+        ```shell
+        curl -d \
+            '{"package": {"name": "com.google.guava:guava-jdk5"}, "version": "13.0"}' \
+            "https://api.osv.dev/v1/query"
+        ```
+
+        *   [response-osv.json](response-osv.json)
+        
     *   SpanJson (see [./performance.md](./preformance.md))
 
 ## Developer Environment
