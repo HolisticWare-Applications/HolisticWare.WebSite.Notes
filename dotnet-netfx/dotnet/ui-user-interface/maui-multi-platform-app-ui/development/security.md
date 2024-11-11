@@ -33,9 +33,29 @@
 
 ## Package Dependencies
 
-### AttackSurfaceAnalyzer
+### NuGetDefense
 
-*   https://github.com/microsoft/AttackSurfaceAnalyzer
+*   https://digitalcoyote.github.io/NuGetDefense/docs/intro/
+
+*   https://github.com/digitalcoyote/NuGetDefense
+
+### SafeNuget
+
+*   https://github.com/OWASP/SafeNuGet
+
+### HolisticWare.*.OpenSourceVulnerabilities.OSV
+
+*   finishing PR in `dotnet/android-libraries`
+
+    *   during/before/after binderate step
+
+        *   checks vulnerability info for Maven artifact from https://osv.dev/ 
+
+        *   no transitive dependencies [yet] - WIP
+
+    *   SpanJson (see [./performance.md](./preformance.md))
+
+## Developer Environment
 
 ### DevSkim
 
@@ -68,8 +88,9 @@
 
                 *   `Cryptography.BannedHashAlgorithm` `"Weak/Broken Hash Algorithm"`
 
-### NuGetDefense
+## System 
 
-*   https://digitalcoyote.github.io/NuGetDefense/docs/intro/
+### AttackSurfaceAnalyzer
 
-*   https://github.com/digitalcoyote/NuGetDefense
+*   https://github.com/microsoft/AttackSurfaceAnalyzer
+
