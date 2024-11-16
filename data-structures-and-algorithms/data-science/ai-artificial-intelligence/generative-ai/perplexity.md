@@ -4,6 +4,8 @@ perplexity.md
 
 *   https://www.perplexity.ai/
 
+*   https://en.wikipedia.org/wiki/Perplexity_AI
+
 *   How To Use Perplexity AI For Beginners
 
     *   https://www.youtube.com/watch?v=qpN-pjev-vM&ab_channel=CorbinBrown
