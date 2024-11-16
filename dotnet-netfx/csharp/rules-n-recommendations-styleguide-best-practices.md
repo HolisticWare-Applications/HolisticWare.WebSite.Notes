@@ -18,7 +18,7 @@ rules-n-recommendations-styleguide-best-practices.md
 
         *   reading w/o tools (intellisense, etc.) is easier
 
-
+## References
 
 *   https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
 
@@ -46,3 +46,4 @@ rules-n-recommendations-styleguide-best-practices.md
 
 *   https://www.geeksforgeeks.org/c-sharp-coding-standards/
 
+*   https://www.reddit.com/r/csharp/comments/1gog5ag/do_you_prefer_implicit_type_var_for_local/
