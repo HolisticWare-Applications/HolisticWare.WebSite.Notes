@@ -35,30 +35,76 @@ priority:
 | Class_Static_Member_Object_Regex_Match_SourceCodeGenerated_Method |        25.24 ns |     0.064 ns |     0.060 ns |      - |      - |         - |
 
 
-### MAUI Code
+### MAUI Code - Usage in MAUI
 
-*   Method_Local_Static_Call_Regex_Match_None                        
+https://github.com/search?q=repo%3Adotnet%2Fmaui%20Regex&type=code
 
-*   Method_Local_Static_Call_Regex_Match_Compiled                    
+## Analysis
 
-*   Method_Local_Object_Regex_Match_None                             
+*   Method_Local_Static_Call_Regex_Match_None
 
-*   Method_Local_Object_Regex_Match_Compiled                         
+    ```
+    src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.cs
+        367
+        389
+    src/Compatibility/Core/src/Windows/LabelRenderer.cs        
+        371
+    src/Controls/src/Core/WebView/WebView.cs
+        321
+    ```
 
-*   Method_Local_Lazy_Object_Regex_Match_None                        
+*   Method_Local_Static_Call_Regex_Match_Compiled
 
-*   Method_Local_Lazy_Object_Regex_Match_Compiled                    
+    ```
+    src/Core/src/Platform/Windows/TextBlockExtensions.cs
+        83
+    ```
 
-*   Class_Member_Object_Regex_Match_None                             
+*   Method_Local_Object_Regex_Match_None
 
-*   Class_Member_Object_Regex_Match_Compiled                         
+*   Method_Local_Object_Regex_Match_Compiled
 
-*   Class_Static_Member_Object_Regex_Match_None                      
+*   Method_Local_Lazy_Object_Regex_Match_None
 
-*   Class_Static_Member_Object_Regex_Match_Compiled                  
+*   Method_Local_Lazy_Object_Regex_Match_Compiled
+
+    ```
+    src/Controls/src/Core.Design/ColorDesignTypeConverter.cs
+        180
+        189
+    ```
+
+*   Class_Member_Object_Regex_Match_None
+
+*   Class_Member_Object_Regex_Match_Compiled
+
+*   Class_Static_Member_Object_Regex_Match_None
+
+    ```
+    src/BlazorWebView/src/SharedSource/StaticContentHotReloadManager.cs
+        20
+    ```
+*   Class_Static_Member_Object_Regex_Match_Compiled
+
+    ```
+    src/SingleProject/Resizetizer/src/Utils.cs
+        12
+    ```
 
 *   Class_Static_Member_Object_Regex_Match_SourceCodeGenerated_Method
 
+
+```shell
+code -n \
+src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.cs \
+src/Core/src/Platform/Windows/TextBlockExtensions.cs \
+src/Controls/src/Core/WebView/WebView.cs \
+src/Controls/src/Core.Design/ColorDesignTypeConverter.cs \
+src/SingleProject/Resizetizer/src/Utils.cs \
+src/BlazorWebView/src/SharedSource/StaticContentHotReloadManager.cs \
+src/Compatibility/Core/src/Windows/LabelRenderer.cs \
+
+```
 
 Note: seems like source generator fails on Mac
 
