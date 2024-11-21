@@ -1,4 +1,6 @@
-#
+# Performance
+
+performance.md
 
 ## Analysis
 
@@ -38,10 +40,40 @@
 
 *   logging with ZString
 
+    *   ZLogger
+
+        *   https://github.com/Cysharp/ZLogger/
+        
+
+
+### `RegEx` => `[GeneratedRegex]` AKA `GeneratedRegexAttribute`
+
+https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.generatedregexattribute
+
+https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators
+
+https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.compiletoassembly
+
+```
+GeneratedRegex
+error CS8795: Partial method 
+must have an implementation part because it has accessibility modifiers.
+```
+
+```
+error CS8795: Partial method 
+    'HybridWebViewHandler.RegexHelper.AllQuotesWithPrecedingBackslashsRegex()' 
+must have an implementation part because it has accessibility modifiers.
+```
+
+
 
 ## Benchmarks
 
-BinderatorConfig Deserialization
+### Regex
+
+
+### BinderatorConfig Deserialization
 
 20241111
 
