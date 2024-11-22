@@ -10,6 +10,10 @@ ukraine.md
 
     *   https://www.facebook.com/InstitutefortheStudyofWar/
 
+    *   https://www.thedailybeast.com/author/julia-davis/
+
+    *   https://www.youtube.com/@russianmediamonitor/videos
+    
 *   reddit
 
     *   https://www.reddit.com/r/UkraineWarVideoReport/
