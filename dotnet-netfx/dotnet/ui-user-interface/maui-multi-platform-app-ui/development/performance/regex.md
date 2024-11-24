@@ -198,3 +198,52 @@ https://www.reddit.com/r/csharp/comments/yrkl90/generatedregex_in_static_class/?
 ```
 
 
+
+## `Regex` `GenerateRegexAttribute`
+
+
+EnumerateMatches
+
+aka.ms/net9perf
+
+```
+// c#13
+GetAlternateLookup<ReadOnlySpan<char>>
+```
+
+RegEx
+
+```
+src/SingleProject/Resizetizer/src/Utils.cs
+    12
+eng/devices/ios.cake
+    601
+src/Controls/src/Core.Design/ColorDesignTypeConverter.cs
+    180
+    189
+src/Core/src/Platform/Windows/TextBlockExtensions.cs
+    83
+src/Controls/samples/Controls.Sample/Extensions/GalleryBuilder.cs
+    12
+src/BlazorWebView/src/SharedSource/StaticContentHotReloadManager.cs
+    20
+src/Compatibility/ControlGallery/src/Issues.Shared/Issue3262.cs
+    139
+src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.cs
+    367
+    389
+src/Compatibility/ControlGallery/src/UITests.Shared/Utilities/AppExtensions.cs
+    229
+src/Controls/samples/Controls.Sample/Pages/Controls/GalleryBuilder.cs
+    13
+src/Compatibility/ControlGallery/src/Core/GalleryPages/GalleryBuilder.cs
+    10
+src/Compatibility/Core/src/Windows/LabelRenderer.cs
+    371
+src/Controls/src/Core/WebView/WebView.cs
+    299
+    321
+src/Compatibility/ControlGallery/src/Core/HanselForms/BlogPage.xaml.cs
+    253
+    257
+```
