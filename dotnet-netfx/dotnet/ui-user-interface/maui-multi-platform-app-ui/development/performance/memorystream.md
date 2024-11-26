@@ -20,6 +20,14 @@ Microsoft.IO.RecyclableMemoryStream
 
 ## Usage in MAUI
 
+*   https://github.com/dotnet/maui/blob/9416968bff8156356dd98f8684e1d8f6f4965998/src/Graphics/src/Graphics/Graphics.csproj#L39
+
+*   https://github.com/dotnet/maui/blob/9416968bff8156356dd98f8684e1d8f6f4965998/eng/NuGetVersions.targets#L131-L134
+
+*   https://github.com/dotnet/maui/blob/9416968bff8156356dd98f8684e1d8f6f4965998/src/Graphics/src/Graphics/Platforms/Windows/PlatformImage.cs#L29
+
+*   https://github.com/dotnet/maui/blob/9416968bff8156356dd98f8684e1d8f6f4965998/eng/Versions.props#L100
+
 ```shell
 find . -iname "*.csproj" -exec grep -Hni "MemoryStream" {} \;
 ```
@@ -33,19 +41,64 @@ find . -iname "*.cs" -exec grep -Hni "MemoryStream" {} \;
 ```
 
 ```
-./src/Core/src/Platform/Android/MauiHybridWebViewClient.cs:55:						contentStream = new MemoryStream(contentBytes);
-./src/Core/src/Platform/Android/MauiHybridWebViewClient.cs:86:					var notFoundContentStream = new MemoryStream(notFoundByteArray);
-./src/Core/src/VisualDiagnostics/VisualDiagnostics.cs:110:			using var ms = new MemoryStream();
-./src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.Windows.cs:125:						contentStream = new MemoryStream(contentBytes);
-./src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.Windows.cs:180:				using var memStream = new MemoryStream();
-./src/BlazorWebView/src/Maui/Windows/WinUIWebViewManager.cs:189:				using var memStream = new MemoryStream();
-./src/BlazorWebView/src/Maui/iOS/BlazorWebViewHandler.iOS.cs:293:					using var ms = new MemoryStream();
-./src/BlazorWebView/src/Maui/Tizen/BlazorWebViewHandler.Tizen.cs:134:					MemoryStream memstream = new MemoryStream();
-./src/BlazorWebView/src/SharedSource/StaticContentHotReloadManager.cs:71:					responseContent = new MemoryStream(values.Content);
-./src/Compatibility/Core/src/GTK/GtkSerializer.cs:38:							using (Stream stream = new MemoryStream())
-./src/Compatibility/Core/src/GTK/Renderers/ImageRenderer.cs:270:				using (var stream = new MemoryStream())
-./src/Compatibility/Core/src/WPF/Microsoft.Windows.Shell/Standard/Utilities.Wpf.cs:277:			using (MemoryStream memstm = new MemoryStream())
-./src/Compatibility/Core/tests/Android/AssertionExtensions.cs:19:			using (var ms = new MemoryStream())
+code -n \
+./src/Core/src/Platform/Android/MauiHybridWebViewClient.cs \
+./src/Core/src/Platform/Android/MauiHybridWebViewClient.cs \
+./src/Core/src/VisualDiagnostics/VisualDiagnostics.cs \
+./src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.Windows.cs \
+./src/Core/src/Handlers/HybridWebView/HybridWebViewHandler.Windows.cs \
+./src/BlazorWebView/src/Maui/Windows/WinUIWebViewManager.cs \
+./src/BlazorWebView/src/Maui/iOS/BlazorWebViewHandler.iOS.cs \
+./src/BlazorWebView/src/Maui/Tizen/BlazorWebViewHandler.Tizen.cs \
+./src/BlazorWebView/src/SharedSource/StaticContentHotReloadManager.cs \
+./src/Compatibility/Core/src/GTK/GtkSerializer.cs \
+./src/Compatibility/Core/src/GTK/Renderers/ImageRenderer.cs \
+./src/Compatibility/Core/src/WPF/Microsoft.Windows.Shell/Standard/Utilities.Wpf.cs \
+./src/Compatibility/Core/tests/Android/AssertionExtensions.cs \
+
+```
+
+```
+./tests/Graphics.Tests/PlatformImageTests.cs:15:		using MemoryStream memoryStream = new(orange1x1pxPngBytes);
+./tests/Graphics.Tests/PlatformImageTests.cs:16:		Stream stream = seekable ? memoryStream : new NonSeekableReadOnlyStream(memoryStream);
+./src/Graphics/ImageLoadingServiceExtensions.cs:9:			using (var stream = new MemoryStream(bytes))
+./src/Graphics/PictureWriterExtensions.cs:14:			using (var stream = new MemoryStream())
+./src/Graphics/PictureWriterExtensions.cs:26:			using (var stream = new MemoryStream())
+./src/Graphics/PictureWriterExtensions.cs:48:			return new MemoryStream(bytes);
+./src/Graphics/PictureReaderExtensions.cs:10:			if (!(stream is MemoryStream memoryStream))
+./src/Graphics/PictureReaderExtensions.cs:12:				memoryStream = new MemoryStream();
+./src/Graphics/PictureReaderExtensions.cs:13:				stream.CopyTo(memoryStream);
+./src/Graphics/PictureReaderExtensions.cs:16:			var bytes = memoryStream.ToArray();
+./src/Graphics/PictureReaderExtensions.cs:22:			if (!(stream is MemoryStream memoryStream))
+./src/Graphics/PictureReaderExtensions.cs:24:				memoryStream = new MemoryStream();
+./src/Graphics/PictureReaderExtensions.cs:25:				await stream.CopyToAsync(memoryStream);
+./src/Graphics/PictureReaderExtensions.cs:28:			var bytes = memoryStream.ToArray();
+./src/Graphics/PdfPageExtensions.cs:14:			using (var stream = new MemoryStream())
+./src/Graphics/PdfPageExtensions.cs:26:			var stream = new MemoryStream();
+./src/Graphics/PdfPageExtensions.cs:38:			using (var stream = new MemoryStream())
+./src/Graphics/PlatformImage.cs:116:			var stream = new MemoryStream(_bytes);
+./src/Graphics/PlatformImage.cs:179:			using (var memoryStream = new MemoryStream())
+./src/Graphics/PlatformImage.cs:183:					stream.CopyTo(memoryStream);
+./src/Graphics/PlatformImage.cs:186:				return new PlatformImage(memoryStream.ToArray(), format);
+./src/Graphics/ImageExtensions.cs:14:			using (var stream = new MemoryStream())
+./src/Graphics/ImageExtensions.cs:26:			var stream = new MemoryStream();
+./src/Graphics/ImageExtensions.cs:38:			using (var stream = new MemoryStream())
+./src/Graphics/Platforms/Windows/PlatformImage.cs:29:		private static readonly RecyclableMemoryStreamManager recyclableMemoryStreamManager = new();
+./src/Graphics/Platforms/Windows/PlatformImage.cs:54:				using (var memoryStream = new InMemoryRandomAccessStream())
+./src/Graphics/Platforms/Windows/PlatformImage.cs:56:					Save(memoryStream.AsStreamForWrite());
+./src/Graphics/Platforms/Windows/PlatformImage.cs:57:					memoryStream.Seek(0);
+./src/Graphics/Platforms/Windows/PlatformImage.cs:60:					var newBitmap = AsyncPump.Run(async () => await CanvasBitmap.LoadAsync(_creator, memoryStream, 96));
+./src/Graphics/Platforms/Windows/PlatformImage.cs:61:					using (var memoryStream2 = new InMemoryRandomAccessStream())
+./src/Graphics/Platforms/Windows/PlatformImage.cs:64:						AsyncPump.Run(async () => await newBitmap.SaveAsync(memoryStream2, CanvasBitmapFileFormat.Png));
+./src/Graphics/Platforms/Windows/PlatformImage.cs:66:						memoryStream2.Seek(0);
+./src/Graphics/Platforms/Windows/PlatformImage.cs:67:						var newImage = FromStream(memoryStream2.AsStreamForRead());
+./src/Graphics/Platforms/Windows/PlatformImage.cs:175:				using var memoryStream = recyclableMemoryStreamManager.GetStream();
+./src/Graphics/Platforms/Windows/PlatformImage.cs:176:				stream.CopyTo(memoryStream);
+./src/Graphics/Platforms/Windows/PlatformImage.cs:177:				memoryStream.Seek(0, SeekOrigin.Begin);
+./src/Graphics/Platforms/Windows/PlatformImage.cs:179:				var bitmapAsync = CanvasBitmap.LoadAsync(creator, memoryStream.AsRandomAccessStream());
+```
+
+```
 ./src/Graphics/src/Graphics/ImageLoadingServiceExtensions.cs:9:			using (var stream = new MemoryStream(bytes))
 ./src/Graphics/src/Graphics/PictureWriterExtensions.cs:14:			using (var stream = new MemoryStream())
 ./src/Graphics/src/Graphics/PictureWriterExtensions.cs:26:			using (var stream = new MemoryStream())
