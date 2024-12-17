@@ -6,3 +6,4 @@ cli-command-line-interface.md
 
     *   https://cheatography.com/oba/cheat-sheets/dotnet-cli/
 
+*   https://alexandrehtrb.github.io/posts/2024/12/special-properties-in-dotnet-projects/
