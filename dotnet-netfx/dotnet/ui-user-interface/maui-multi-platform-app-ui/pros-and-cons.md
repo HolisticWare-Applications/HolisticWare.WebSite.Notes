@@ -3,6 +3,8 @@
 pros-and-cons.md
 
 
+*   https://www.reddit.com/r/dotnetMAUI/comments/1hfofsc/should_i_choose_maui_flutter_or_react_native_for/
+
 *   https://www.reddit.com/r/dotnetMAUI/comments/1fmt0vc/my_opinion_on_maui_as_a_web_full_stack_engineer/
 
 *   https://www.reddit.com/r/dotnetMAUI/comments/1e4e14u/maui_rant/
