@@ -12,3 +12,17 @@ blazor-hosting.md
 
         *   `dotnet new blazorserver`
 
+
+*   MonsterAsp.net
+
+    *   https://www.monsterasp.net/
+
+*   SmarterAsp.NET
+
+    *   https://www.smarterasp.net/
+
+*   AdaptiveWebHosting
+
+    *   https://adaptivewebhosting.com/php-hosting-plans/
+
+    
