@@ -25,3 +25,6 @@ that is compatible with ECMA Script (JavaScript), PCRE (Perl Compatible Regular 
 *   https://devopedia.org/semantic-versioning
 
 *   https://en.wikipedia.org/wiki/Software_versioning
+
+
+*   https://github.com/NuGetArchive/NuGet.Versioning/blob/master/src/NuGet.Versioning/SemanticVersion.cs#L10
