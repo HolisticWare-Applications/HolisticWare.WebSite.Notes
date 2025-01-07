@@ -6,11 +6,23 @@ hosting-plans.md
 
 *   https://hostadvice.com/lp/hosting-services/windows/
 
-
 *   Linode
 
     *   https://www.linode.com/
 
+*   MonsterAsp.net
+
+    *   https://www.monsterasp.net/
+
+*   SmarterAsp.NET
+
+    *   https://www.smarterasp.net/
+
+*   AdaptiveWebHosting
+
+    *   https://adaptivewebhosting.com/php-hosting-plans/
+
+    
 
 
 
