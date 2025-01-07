@@ -103,3 +103,13 @@ Is there a way to just add something to one razor page in a Blazor Server app to
 Do you mean server side rendered?
 
 https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-8.0#static-server-side-rendering-static-ssr
+
+
+## Auto
+
+*   https://www.reddit.com/r/Blazor/comments/1hk302e/questions_about_how_blazor_auto_works/
+
+
+## Code Sharing
+
+*   https://www.reddit.com/r/Blazor/comments/1hr6879/how_to_handle_data_retrieval_for_both_ssr_and_csr/
