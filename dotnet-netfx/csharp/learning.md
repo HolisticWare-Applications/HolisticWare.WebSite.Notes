@@ -52,6 +52,16 @@ learning.md
 
 *   https://www.reddit.com/r/dotnet/comments/ys02xx/open_source_projects_looking_for_contributors/
 
+*   https://www.w3schools.com/cs/index.php
+
+*   https://www.tutlane.com/tutorial/csharp
+
+*   https://codeeasy.io/courses
+
+*   http://www.learncs.org/
+
+*   https://www.codecademy.com/learn/learn-c-sharp
+
 
 
 *   https://aka.ms/csharp-discord
@@ -84,16 +94,6 @@ LINQ (not pictured, but I had to mention it)
 
 
 
-# TPL Data flow 
-
-
-https://www.reddit.com/r/dotnet/comments/17xv4tx/is_tpl_data_flow_still_a_thing/?share_id=2je1wQMqDwcvdkVXl2T7D&utm_content=1&utm_medium=android_app&utm_name=androidcss&utm_source=share&utm_term=1
-
-https://github.com/Open-NET-Libraries/Open.ChannelExtensions
-https://open-net-libraries.github.io/Open.ChannelExtensions/api/Open.ChannelExtensions.Extensions.html#methods
-
-https://learn.microsoft.com/en-us/dotnet/core/extensions/channels
-https://devblogs.microsoft.com/dotnet/an-introduction-to-system-threading-channels/
 
 
 BufferBlock<T>
