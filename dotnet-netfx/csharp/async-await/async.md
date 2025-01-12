@@ -13,6 +13,14 @@
 
 *   https://www.reddit.com/r/csharp/comments/10ukg6u/transitioning_to_async_development/
 
+*   https://www.reddit.com/r/dotnet/comments/1hyyzdx/help_finding_a_specific_github_repository_related/
+
+*   https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios
+
+*   https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model
+
+*   https://github.com/ivaylokenov/C-Sharp-Async-Await-In-Detail
+
 ## Async methods with synchronous implementations
 
 two common use cases:
