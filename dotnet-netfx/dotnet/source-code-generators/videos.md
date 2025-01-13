@@ -2,25 +2,15 @@
 
 videos.md
 
-*   On .NET Live: Lessons Learned Building Source Generators
-
-    *   https://www.youtube.com/watch?v=KTsyS3rDUgg&ab_channel=dotnet
-
-*   All About C# Source Generators | .NET Conf 2023
-
-    *   https://www.youtube.com/watch?v=Yf8t7GqA6zA&ab_channel=dotnet
-
-*   Episode 21: Roslyn Source Generators
-
-    *   https://www.youtube.com/watch?v=JSFZ3qDx83g&ab_channel=ImmoLandwerth
+## Incremental
 
 *   Coding Shorts: Building a Source Generator - Part 1
 
     *   https://www.youtube.com/watch?v=KNUUkD9OoOQ&ab_channel=ShawnWildermuth
 
-*   Let’s Build an Incremental Source Generator With Roslyn, by Stefan Pölz
+*   Coding Shorts: Building a Source Generator - Part 2
 
-    *   https://www.youtube.com/watch?v=azJm_Y2nbAI&ab_channel=JetBrains
+    *   https://www.youtube.com/watch?v=DMQKSQQ4rrA
 
 *   Let's Code an incremental source generator with Roslyn - Stefan Pölz - NDC Oslo 2023
 
@@ -30,6 +20,38 @@ videos.md
 
     *   https://www.youtube.com/watch?v=iOp3mN933Og&ab_channel=NDCConferences
 
+*   Let’s Build an Incremental Source Generator With Roslyn, by Stefan Pölz
+
+    *   https://www.youtube.com/watch?v=azJm_Y2nbAI&ab_channel=JetBrains
+
+*   C# Source Generators in Action, by Andrey Dyatlov
+    
+    *   https://www.youtube.com/watch?v=052xutD86uI&ab_channel=JetBrains
+
+*   Let’s Build an Incremental Source Generator With Roslyn, by Stefan Pölz
+
+    *   https://www.youtube.com/watch?v=azJm_Y2nbAI&ab_channel=JetBrains
+
+*   On .NET Live: Lessons Learned Building Source Generators
+
+    *   https://www.youtube.com/watch?v=KTsyS3rDUgg&ab_channel=dotnet
+
+*   All About C# Source Generators | .NET Conf 2023
+
+    *   https://www.youtube.com/watch?v=Yf8t7GqA6zA&ab_channel=dotnet
+
+## Older
+
+*   C# Source Generators Tutorial
+
+    *   https://www.youtube.com/watch?v=IUMZH5Z4r00&ab_channel=RawCoding
+
+    *   older video based on deprecated `ISourceGenerator`
+
+*   Episode 21: Roslyn Source Generators
+
+    *   https://www.youtube.com/watch?v=JSFZ3qDx83g&ab_channel=ImmoLandwerth
+    
 *   Exploring Source Generators - Martin Ullrich - NDC Oslo 2022
 
     *   https://www.youtube.com/watch?v=_zjv0CHf--4&ab_channel=NDCConferences
