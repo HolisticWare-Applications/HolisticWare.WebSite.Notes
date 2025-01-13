@@ -80,43 +80,40 @@ source-code-generators.md
 
 *   https://www.infoq.com/articles/CSharp-Source-Generator/
 
-*   C# Source Generators Tutorial
+*   https://www.linkedin.com/pulse/magic-c-source-generators-eduardo-fonseca-6rhve/
 
-    *   https://www.youtube.com/watch?v=IUMZH5Z4r00&ab_channel=RawCoding
+*   https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
 
-    *   older video based on deprecated `ISourceGenerator`
+*   https://themisir.com/c-sharp-codegen/
 
-https://www.linkedin.com/pulse/magic-c-source-generators-eduardo-fonseca-6rhve/
+*   https://blog.jetbrains.com/dotnet/2023/07/13/debug-source-generators-in-jetbrains-rider/
 
-https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
+*   https://github.com/dotnet/roslyn-sdk/blob/main/samples/CSharp/SourceGenerators/SourceGeneratorSamples/AutoNotifyGenerator.cs
 
-https://themisir.com/c-sharp-codegen/
-
-https://blog.jetbrains.com/dotnet/2023/07/13/debug-source-generators-in-jetbrains-rider/
-
-https://github.com/dotnet/roslyn-sdk/blob/main/samples/CSharp/SourceGenerators/SourceGeneratorSamples/AutoNotifyGenerator.cs
-
-https://medium.com/c-sharp-progarmming/mastering-at-source-generators-18125a5f3fca
+*   https://medium.com/c-sharp-progarmming/mastering-at-source-generators-18125a5f3fca
 
 https://bulldogjob.pl/readme/source-generators-in-c-best-practices
 
-C# Source Generators in Action, by Andrey Dyatlov
-    https://www.youtube.com/watch?v=052xutD86uI&ab_channel=JetBrains
 
-https://www.c-sharpcorner.com/article/source-generators-in-c-sharp/
-
-Let’s Build an Incremental Source Generator With Roslyn, by Stefan Pölz
-
-        https://www.youtube.com/watch?v=azJm_Y2nbAI&ab_channel=JetBrains
+*   https://www.c-sharpcorner.com/article/source-generators-in-c-sharp/
 
 https://www.reddit.com/r/csharp/comments/z6toir/material_about_c_source_generators/
 
 https://andrewlock.net/series/creating-a-source-generator/
 
 
-use incremental source generators. Official docs: https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md Andrew Lock's blog: https://andrewlock.net/creating-a-source-generator-part-1-creating-an-incremental-source-generator/
+## incremental source generators
+
+*   Official docs
+
+    *   https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md 
+    
+    Andrew Lock's blog: 
+    
+    *   https://andrewlock.net/creating-a-source-generator-part-1-creating-an-incremental-source-generator/
 
 
+## Samples
 
 *   MVVM
 
