@@ -2,6 +2,28 @@
 
 *   https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history
 
+*   https://csharp-evolution.com/
+
+*   C# 13 - What's new
+
+    *   https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-13
+
+    *   What's new in C# 13
+    
+        *   https://www.youtube.com/watch?v=japXYFS9YPQ
+
+    *   What’s new in C# 13 | BRK186
+
+        *   https://www.youtube.com/watch?v=O3hx6oPWzX8
+
+    *   What's new in .NET 9 and C# 13
+
+        *   https://www.youtube.com/watch?v=IxpKOvI5cdo
+
+    *   https://devblogs.microsoft.com/dotnet/csharp-13-explore-preview-features/
+    
+    *   https://www.syncfusion.com/blogs/post/whats-new-csharp-13-for-developers
+
 *   C# 12 - What's new
 
     *   https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-12
