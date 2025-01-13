@@ -18,7 +18,6 @@ span-memory.md
 
 *   https://medium.com/@antao.almada/how-to-use-span-t-and-memory-t-c0b126aae652
 
-
 https://stackoverflow.com/questions/51864673/c-sharp-readonlyspanchar-vs-substring-for-string-dissection
 
 https://medium.com/@antao.almada/slicing-managed-arrays-ae4f412a5d9e
