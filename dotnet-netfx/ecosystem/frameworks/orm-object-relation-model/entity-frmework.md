@@ -6,6 +6,8 @@ entity-frmework.md
 
 *   https://www.entityframeworktutorial.net/what-is-entityframework.aspx
 
+*   https://www.reddit.com/r/dotnet/comments/1hx9eld/top_10_mistakes_developers_make_in_ef_core/
+
 ## File Storage
 
 *   https://github.com/morrisjdev/FileContextCore
