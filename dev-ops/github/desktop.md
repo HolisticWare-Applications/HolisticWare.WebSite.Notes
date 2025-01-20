@@ -2,6 +2,7 @@
 
 desktop.md
 
-```
-$HOME/Library/Application\ Support/GitHub\ Desktop/
+```shell
+code -n \
+    "$HOME/Library/Application Support/GitHub Desktop/"
 ```
