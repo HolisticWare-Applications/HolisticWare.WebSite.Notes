@@ -16,6 +16,10 @@ computer-science.md
 
 *   https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/
 
+## Books
+
+*   https://www.reddit.com/r/compsci/comments/1eevo0x/best_book_to_learn_computer_science/
+
 
 ## Computer Science Unplugged
 
