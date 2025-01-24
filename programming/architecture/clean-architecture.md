@@ -21,3 +21,9 @@ and runs with Tye on Dapr (Kubernetes) 👍
 
 I share here for those of you who want to learn and play new things in the .NET world like me. 
 For a strong .NET community. Check it out 👉 https://github.com/thangchung/clean-architecture-dotnet
+
+
+*   https://github.com/neozhu/CleanArchitectureWithBlazorServer
+
+*   https://github.com/neozhu/cleanaspire
+
