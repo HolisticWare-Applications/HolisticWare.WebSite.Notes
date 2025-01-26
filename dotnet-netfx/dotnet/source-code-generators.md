@@ -1,5 +1,5 @@
 # Source Code Generators
-
+    
 source-code-generators.md
 
 *   https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/
@@ -20,6 +20,11 @@ source-code-generators.md
 
 *   https://www.techcentral.ie/c-source-generators-to-boost-performance-in-net-5/
 
+*   https://www.reddit.com/r/csharp/comments/1gy2c4h/what_wrong_with_my_source_generators/
+
+*   https://www.meziantou.net/testing-roslyn-incremental-source-generators.htm
+
+*   https://github.com/VerifyTests/Verify
 
 ## Tools
 
