@@ -1,4 +1,3 @@
-
 # Mentoring
 
 mentoring.md
@@ -10,3 +9,5 @@ mentoring.md
 *   Jason Blanchard, How to Find a Mentor and Be Mentored | FrostFest 2021
 
     *   https://www.youtube.com/watch?v=jpGVhAf9MI8&ab_channel=KringleCon
+
+*   https://www.reddit.com/r/Blazor/comments/1i9br36/mentoring/
