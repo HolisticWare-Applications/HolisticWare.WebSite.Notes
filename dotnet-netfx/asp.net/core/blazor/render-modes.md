@@ -86,13 +86,27 @@ They are mostly the same. The only difference is that in server mode you cannot 
     *   https://www.youtube.com/watch?v=FS3ZN0NYrVk
 
 
+https://www.reddit.com/r/dotnet/comments/1gyxwuu/i_fail_to_see_the_difference_between_blazor/
+
+
+	                    Blazor Web App (CSR)	            Blazor Standalone
+Backend	                requires ASP.NET Core backend	    Does not require a backend
+Interactivity	        Runs interactive in the browser	    Runs interactive in the browser
+Server dependency	    Dependend on a server for hosting	Not dependend on a server for hosting
+Offline functionality	With catching	                    With PWA
+Hosting	                Hosted on a server	                Hostet as static files
+
+
 ## Diverse
+
+*   https://www.reddit.com/r/Blazor/comments/1i79jul/blazor_webassembly_interactivity_creates_two/
 
 *   https://www.reddit.com/r/Blazor/comments/1fkgyjq/difference_between_blazor_web_assembly_and_blazor/
 
 *   https://www.reddit.com/r/Blazor/comments/1gi50dw/blazor_render_modes_are_confusing_me/
 
 *   https://www.reddit.com/r/Blazor/comments/1gh3cy5/host_blazor_webassembly_in_a_blazor_server_app/
+
 
 With .NET8 came render modes. You can control if the component should be rendered as wasm or server. For wasm you would need a wasm project as well in your solution, but it's doable. You could create a new .NET8 project and look at the template for how it's done.
 
