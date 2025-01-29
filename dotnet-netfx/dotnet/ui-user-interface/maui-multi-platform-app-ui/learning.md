@@ -48,6 +48,10 @@ learning.md
 
 *   https://dometrain.com/course/deep-dive-dotnet-maui/
 
+*   Learn to Build Your First Mobile App: .NET MAUI 
+
+    *   https://www.youtube.com/watch?v=mgW6xviirQk&list=PLfbOp004UaYVt1En4WW3pVuM-vm66OqZe
+
 ## Tips n Tricks
 
 *   https://dev.to/davidortinau/net-maui-dos-and-donts-19g3
