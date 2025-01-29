@@ -26,6 +26,9 @@ source-code-generators.md
 
 *   https://github.com/VerifyTests/Verify
 
+https://kafkawannafly.medium.com/c-how-to-write-a-source-generator-part-3-5-coding-181703d47308
+
+
 ## Tools
 
 *   https://roslynquoter.azurewebsites.net/
@@ -102,9 +105,9 @@ https://bulldogjob.pl/readme/source-generators-in-c-best-practices
 
 *   https://www.c-sharpcorner.com/article/source-generators-in-c-sharp/
 
-https://www.reddit.com/r/csharp/comments/z6toir/material_about_c_source_generators/
+*   https://www.reddit.com/r/csharp/comments/z6toir/material_about_c_source_generators/
 
-https://andrewlock.net/series/creating-a-source-generator/
+*   https://andrewlock.net/series/creating-a-source-generator/
 
 
 ## incremental source generators
