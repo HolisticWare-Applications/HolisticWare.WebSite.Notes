@@ -27,6 +27,68 @@ learning.md
 
 ## Diverse
 
+CodeOpinion
+
+    https://www.youtube.com/channel/UC3RKA4vunFAfrfxiJhPEplw
+    
+    https://codeopinion.com/
+
+Zoran Horvat
+
+    https://www.youtube.com/@zoran-horvat
+
+    https://codinghelmet.com/articles
+
+Raw Coding
+
+    https://www.youtube.com/c/RawCoding
+
+    https://learning.raw-coding.dev/
+
+    https://github.com/T0shik/raw-coding-101-tutorials
+
+Milan Jovanović
+
+    https://www.youtube.com/@MilanJovanovicTech
+
+## Authors
+
+*   Articles Authors:
+
+    *   David Fowler
+
+    *   Eric Lippert
+
+    *   Stephen Toub
+
+    *   Bart de Smeet
+
+## Books
+
+*   "C# in a Nutshell" - Joe Albahari
+
+*   "C# in Depth" - Jon Skeet 
+
+*   "Concurrency in C# Cookbook" - Stephen Cleary 
+
+*   "Pro .NET Memory Management" - Konrad Kokosa 
+
+*   "CLR via C#" - Jeffrey Richter 
+
+*   "Writing High-Performance .NET code" - Ben Watson
+
+
+Matt Warren's blog and the online book for Threading by Albahari (which contains stuff not included in the later versions of the C# in a nutshell book
+
+https://www.reddit.com/r/csharp/comments/1i98ox6/c_knowledge_expansion/
+
+https://thecsharpacademy.com/
+
+
+*   Interviews
+
+    *   https://www.reddit.com/r/dotnet/comments/1i3vbl3/what_advanced_c_andor_net_concepts_are_expected/
+
 *   Learning
 
 *   Develop Apps with .NET
