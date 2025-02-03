@@ -10,6 +10,13 @@ readme.md
 
 *   https://www.baltimorechronicle.com/web-application-testing-tool-market-2023-trends-bugbug-testim-katalon-studio/
 
+*   https://martinfowler.com/articles/practical-test-pyramid.html
+
+*   https://www.slideshare.net/slideshow/testing-in-production-242810128/242810128
+
+*   https://slides.com/vmandic/dotnet-integration-tested#/15
+
+*   https://github.com/vmandic/dotnet-integration-tested?tab=readme-ov-file
 
 ## UI testing
 
