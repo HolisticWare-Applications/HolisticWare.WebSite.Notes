@@ -2,21 +2,26 @@
 
 benchmarking.md
 
-http://www.redperegrine.net/2017/12/23/measuring-csharp-perf-with-benchmarkdotnet/
-
-https://baskarrao.wordpress.com/2017/12/15/using-benchmarkdotnet-for-performance-benchmarking/
-
-http://www.csharp4u.com/2017/02/memory-usage-in-c-stringbuilder-versus_18.html
-
-http://www.csharp4u.com/2017/02/memory-usage-in-c-stringbuilder-versus_18.html
-
-https://devhub.io/repos/FransBouma-BenchmarkDotNet
-
-https://blog.codingmilitia.com/2016/10/24/benchmarkdotnet
+# .NET Benchmarking
 
 
+*   https://github.com/dotnet/BenchmarkDotNet
+
+*   http://www.redperegrine.net/2017/12/23/measuring-csharp-perf-with-benchmarkdotnet/
+
+*   https://baskarrao.wordpress.com/2017/12/15/using-benchmarkdotnet-for-performance-benchmarking/
+
+*   http://www.csharp4u.com/2017/02/memory-usage-in-c-stringbuilder-versus_18.html
+
+*   http://www.csharp4u.com/2017/02/memory-usage-in-c-stringbuilder-versus_18.html
+
+*   https://devhub.io/repos/FransBouma-BenchmarkDotNet
+
+*   https://blog.codingmilitia.com/2016/10/24/benchmarkdotnet
 
 
+
+```
 /Projects/HW/0-Core/2511-HWC.Math.Statistics.Descriptive.Sequential/tests/unit-tests/UnitTests.CommonShared/Sync/UnitTests20180227DataSet002/Tests00Data.cs(6,6):
 Error CS0619: 
   'TestFixtureAttribute' 
@@ -38,12 +43,13 @@ MStest
 
 w
 update packages  
+```
 
 
 
+*   https://kaushalsubedi.com/blog/2018/04/24/how-microsoft-made-me-love-net-core-and-c-again/
 
-https://kaushalsubedi.com/blog/2018/04/24/how-microsoft-made-me-love-net-core-and-c-again/
-|https://codingblast.com/why-asp-net-core/
+*   https://codingblast.com/why-asp-net-core/
 
 
 
