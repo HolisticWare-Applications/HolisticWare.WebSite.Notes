@@ -2,16 +2,19 @@
 
 comparison.md
 
-https://www.meziantou.net/2019/03/18/string-comparisons-are-harder-than-it-seems
+*   https://www.meziantou.net/2019/03/18/string-comparisons-are-harder-than-it-seems
 
-https://github.com/meziantou/Meziantou.Analyzer. In fact, it was the first rules I've created because it's so easy to forget them, especially for junior developers.
+*   https://github.com/meziantou/Meziantou.Analyzer. 
 
+    In fact, it was the first rules I've created because it's so easy to forget them, especially for junior developers.
+
+```
 MA0001 - Use StringComparison parameter when possible
 MA0002 - Use an overload that has a IEqualityComparer<string> parameter
 MA0006 - Use string.Equals instead of == or !=
 MA0020 - Use StringComparer.GetHashCode instead of string.GetHashCode
 MA0024 - Do not use EqualityComparer<string>.Default
-
+```
 
 In .NET there are 6 ways to compare strings:
 
