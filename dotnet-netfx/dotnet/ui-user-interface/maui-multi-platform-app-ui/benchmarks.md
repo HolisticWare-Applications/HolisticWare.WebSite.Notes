@@ -2,8 +2,7 @@
 
 benchmarks.md
 
-
-https://github.com/dotnet/maui/pull/18499/files
+*	https://github.com/dotnet/maui/pull/18499/files
 
 
 ```csharp
