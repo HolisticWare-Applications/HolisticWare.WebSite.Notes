@@ -12,6 +12,8 @@ maps.md
 
 *   https://leafletjs.com/
 
+*   https://darnton.co.nz/2020/11/04/slippy-maps-in-blazor-with-leaflet/
+
 ## Google Maps
 
 *   https://github.com/majorimi/blazor-components/blob/master/.github/docs/Maps.md
