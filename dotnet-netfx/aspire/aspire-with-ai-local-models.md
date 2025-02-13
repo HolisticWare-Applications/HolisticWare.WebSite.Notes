@@ -11,3 +11,9 @@ aspire-with-ai-local-models.md
     *   https://ollama.com/blog/vision-models
 
     *   https://github.com/dotnet/eshop
+
+*   .NET AI Community Standup - Local AI on .NET using Ollama & .NET Aspire
+
+    *   https://www.youtube.com/watch?v=KX_jVyhrnWk
+
+    
