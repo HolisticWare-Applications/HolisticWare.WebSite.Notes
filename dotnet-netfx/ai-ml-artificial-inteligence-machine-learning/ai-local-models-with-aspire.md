@@ -16,4 +16,4 @@ ai-local-models-with-aspire.md
 
     *   https://www.youtube.com/watch?v=KX_jVyhrnWk
 
-    
+*   https://medium.com/write-a-catalyst/how-to-use-deepseek-with-net-9-hands-on-with-deepseek-r1-semantic-kernel-c-9a35347dc22c
