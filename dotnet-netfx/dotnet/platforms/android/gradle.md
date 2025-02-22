@@ -47,3 +47,25 @@ https://cui.unige.ch/isi/bnf/JAVA/AJAVA.html
 https://matt.might.net/articles/grammars-bnf-ebnf/
 
 
+
+
+
+https://gradle.org/install/
+
+```
+brew uninstall gradle ; gradle -v
+```
+
+```
+brew uninstall gradle ; gradle -v
+```
+
+
+
+/opt/homebrew/gradle...
+
+## Gradle Wrapper - local
+
+source/com.google.android.material/material.extensions/gradlew
+
+cd source/com.google.android.material/material.extensions ; gradlew
