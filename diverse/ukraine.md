@@ -4,6 +4,10 @@ ukraine.md
 
 *   https://ukrainefacts.org/
 
+*   https://informnapalm.org/en/
+
+*   https://osintforukraine.com/
+
 *   https://www.understandingwar.org/
 
     *   https://www.understandingwar.org/backgrounder/ukraine-conflict-updates
