@@ -32,3 +32,8 @@ Most of the time yep.
 *   Internals of How the await Keyword Works
 
     *   https://www.codeproject.com/Articles/5327239/Internals-of-How-the-await-Keyword-Works
+
+*   Don't Use WhenAll in .NET! Use WaitAny Instead | Code Cop #027
+
+    *   https://www.youtube.com/watch?v=dGyr6hiy-lE
+    
