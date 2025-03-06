@@ -11,4 +11,3 @@ dictionary.md
 		*	reference types 
 		
 			*	hashed
-
