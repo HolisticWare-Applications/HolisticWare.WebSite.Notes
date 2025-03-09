@@ -14,7 +14,21 @@ learning.md
 
     https://www.youtube.com/playlist?list=PLo7rGmaumEKDyrUy5rEFmiuRON_LeG5Rv
 
+## Tips and Tricks
+
+*   10 Advanced C# Tricks for Experienced Developers
+
+    *   https://archive.ph/baecw
+
 ## Diverse
+
+*   C# Digest
+
+    *   https://csharpdigest.net/
+
+*   C# for Java devs
+
+    *   https://www.reddit.com/r/csharp/comments/1hj5hyw/c_for_java_especially_kotlin_and_scala_developers/
 
 *   https://www.reddit.com/r/csharp/comments/12ll4hj/new_to_c/
 
