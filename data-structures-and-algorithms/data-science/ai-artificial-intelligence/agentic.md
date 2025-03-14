@@ -2,6 +2,12 @@
 
 agentic.md
 
+*   AI
+
+    *   conversational interactions
+
+    *   agentic interactions
+
 What is agentic AI?
 Agentic AI refers to a class of artificial intelligence that is designed to act autonomously to achieve specific goals, typically with the ability to make decisions, take actions, and interact with the environment or other systems to reach those goals. The term “agentic” comes from the concept of an "agent" in philosophy and artificial intelligence, where an agent is defined as an entity that has the capacity to act in an environment in pursuit of some objective or mission.
 
