@@ -12,7 +12,7 @@ coding-assistants.md
 
 *   Cody
 
-*   Codium
+*   Codeium
 
 *   Gemini
 
@@ -73,3 +73,9 @@ coding-assistants.md
     for class 
         ClassX
     ```
+
+## Codeium
+
+*   https://codeium.com/university
+
+*   https://codeium.com/download
