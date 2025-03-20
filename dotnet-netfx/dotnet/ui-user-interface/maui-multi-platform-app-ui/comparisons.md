@@ -21,3 +21,19 @@ comparisons.md
     *   The complete guide to learn how to contribute to .NET MAUI 🌺💻
     
         *   https://www.youtube.com/watch?v=8LRfy6Omp9I
+
+
+MAUI Competitive Flutter Compose
+
+https://www.youtube.com/watch?v=EELwOtvywZc&list=PLaYEo-GjyuVn99vkYOdbid3y1GrOVrCUC&index=2&pp=iAQB
+https://www.youtube.com/watch?v=8sAyPDLorek&list=PLaYEo-GjyuVn99vkYOdbid3y1GrOVrCUC&index=3&pp=iAQB
+https://www.youtube.com/watch?v=tZfZabm2DDM&list=PLaYEo-GjyuVn99vkYOdbid3y1GrOVrCUC&index=7&pp=iAQB
+https://www.youtube.com/watch?v=EELwOtvywZc&list=PLaYEo-GjyuVn99vkYOdbid3y1GrOVrCUC&index=2&pp=iAQB
+ 
+I think this is the set we went through 
+ 
+The setting up of flutter through the CLI is a useful one to watch to comparing it to setting up maui
+ 
+This one is useful
+https://www.youtube.com/watch?v=8sAyPDLorek&list=PLaYEo-GjyuVn99vkYOdbid3y1GrOVrCUC&index=3&pp=iAQB
+ 
