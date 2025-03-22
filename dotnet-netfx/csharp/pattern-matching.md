@@ -29,3 +29,11 @@ if (working.IndexOf("_") is int idx && idx > 0)
 {
 }
 ```
+
+```csharp
+is {}
+```
+
+*   https://stackoverflow.com/questions/60417114/what-does-is-mean
+
+*   https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns
