@@ -74,5 +74,13 @@ vscode://settings/github.copilot.chat.codeGeneration.useInstructionFiles
 
     *   https://www.youtube.com/watch?v=JHGBPS1779I
 
+*   Advancing code completion with GPT-4o Copilot | GitHub Checkout
 
+    *   https://www.youtube.com/watch?v=vQ9C-9iv3Zs
+
+*   GitHub Copilot 101 - Essential features | Tutorial
+
+    *   https://www.youtube.com/watch?v=b5xcWdzAB5c
+
+    
 
