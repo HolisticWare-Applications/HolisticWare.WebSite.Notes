@@ -79,3 +79,8 @@ coding-assistants.md
 *   https://codeium.com/university
 
 *   https://codeium.com/download
+
+## Diverse
+
+*   https://www.reddit.com/r/csharp/comments/1jkr9tz/my_coworkers_think_ai_will_replace_them/
+
