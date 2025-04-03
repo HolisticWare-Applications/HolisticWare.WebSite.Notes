@@ -4,7 +4,11 @@ readme.md
 
 *   Language Models
 
+    *   https://en.wikipedia.org/wiki/Language_model
+
     *   Large Language Models - LLM
+
+        https://en.wikipedia.org/wiki/Large_language_model
 
     *   Small Language Models - SLM
 
@@ -13,6 +17,7 @@ readme.md
         *   Coding Assistants
 
             ./coding-assistants.md
+
 
 *   https://medium.com/data-science-at-microsoft/harnessing-the-power-of-large-language-models-a-comparative-overview-of-langchain-semantic-c21f5c19f93e
 
