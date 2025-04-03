@@ -2,10 +2,19 @@
 
 retrieval-augmented-generation-rag.md
 
+*   https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview
+
+*   RAG Time: Ultimate Guide to Mastering RAG
+
+    *   https://github.com/microsoft/rag-time
+
+
 
 ## Videos
 
 *   https://www.freecodecamp.org/news/mastering-rag-from-scratch/
+
+*   https://www.freecodecamp.org/news/what-is-retrieval-augmented-generation-rag/
 
 *   Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer
 
