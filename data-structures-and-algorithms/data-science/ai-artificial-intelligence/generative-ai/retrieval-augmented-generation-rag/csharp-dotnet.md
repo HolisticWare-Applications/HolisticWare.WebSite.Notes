@@ -224,3 +224,95 @@ https://microsoft.github.io/graphrag/
 
 
 
+cE rag markdown
+
+https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/retrieval-augmented-generation?view=doc-intel-4.0.0
+
+https://medium.com/@pymupdf/rag-llm-and-pdf-conversion-to-markdown-text-with-pymupdf-03af00259b5d
+
+https://github.com/microsoft/kernel-memory
+
+
+
+https://www.reddit.com/r/LangChain/comments/1fsd1yw/best_open_source_rag_for_100s_of_pdfs/
+
+f you don’t want your data going anywhere use AnythingLLM with a local LLM. You’re likely best organizing your PDFs into topic-based workspaces. Putting them all into a single RAG system runs the risk of somewhat “dirty” replies since the vector database may start pulling inferior data from documents unrelated to the query.
+
+Be warned, unless you have a great GPU results also may not be great. The small LLM models still struggle a bit with nuanced QA, an important part of knowledge based RAG systems.
+
+
+I am working with ~35k pdfs, most of them are really old dense texts from 1950's. I've tested Various packages like pymupdf, pydf, unstructured. IMO pypdf provided me the best output
+
+    Interesting that it’s better than unstructured .. I’ll give it a try. Does it maintain context tho? Eg if there’s text then a table then an image
+
+        if the text is easily readable and it contains table and stuff then unstructured is better. Or even better use LlamaIndex.
+
+I use unstructured. You can install it locally or deploy unstrucutred-api as your own microservice. No need to use their paid api.
+
+https://github.com/Unstructured-IO/unstructured 
+https://github.com/Unstructured-IO/unstructured-api
+
+
+All these methods employ the same Retrieval-Augmented Generation (RAG) approach:
+
+Convert PDF to text
+
+Divide text into chunks
+
+Transform chunks into vectors
+
+When querying a Large Language Model (LLM), it retrieves the most relevant chunks along with their surrounding text. This technique is highly effective for processing a small number of PDFs or files.
+
+However, when dealing with a large volume of files, the standard RAG approach may lead to hallucinations or inaccuracies. To address this limitation, I am currently developing a novel method for handling multi-layer processing of extensive file collections.
+
+I built a completely local vector database of 10,000 pdfs. I tried many tools but the best workflow for me was to convert every page to an image using pdf2image and then pytesseract to extract the text. Every other method had annoying artifacts.
+
+https://www.reddit.com/r/LangChain/comments/1gtj631/a_smart_way_to_split_markdown_documents_for_rag/
+
+https://www.reddit.com/r/Rag/comments/1hb07mz/rag_with_plain_text_and_markdown/
+
+https://www.reddit.com/r/Rag/comments/1f0q2b7/rethinking_markdown_splitting_for_rag_context/
+
+https://medium.com/data-science/improved-rag-document-processing-with-markdown-426a2e0dd82b
+
+· Comparing PDF Libraries
+∘ PyPDF
+∘ Unstructured.io
+∘ PyMuPDF4LLM
+∘ Docling
+∘ Processing Speed
+· Chunking
+· Adding Metadata To Markdown
+· Conclusion
+· References
+
+Comparing PDF Libraries
+
+https://github.com/mathieumack/RAG.Parsers
+
+https://github.com/mathieumack/RAG.Parsers/tree/main/src
+
+https://stackoverflow.blog/2024/12/27/breaking-up-is-hard-to-do-chunking-in-rag-applications/
+
+C# RAG
+
+https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/
+
+
+Retrieval-Augmented Generation (RAG) with .NET 8: A Full Local Resource Guide
+https://www.youtube.com/watch?v=VVZU-lbEegw
+
+RAG in C# using DeepSeek-R1
+https://www.youtube.com/watch?v=KAZ4MJ9HPpU
+https://github.com/elbruno/deepseek-rag-ollama
+
+https://github.com/elbruno/Ollama-CSharp-Playground
+
+https://github.com/microsoft/PhiCookBook
+
+What is Retrieval-Augmented Generation (RAG)?
+    https://www.youtube.com/watch?v=T-D1OfcDW1M
+
+RAG vs. CAG: Solving Knowledge Gaps in AI Models
+https://www.youtube.com/watch?v=HdafI0t3sEY
+
