@@ -249,7 +249,7 @@ I am working with ~35k pdfs, most of them are really old dense texts from 1950's
 
 I use unstructured. You can install it locally or deploy unstrucutred-api as your own microservice. No need to use their paid api.
 
-https://github.com/Unstructured-IO/unstructured 
+https://github.com/Unstructured-IO/unstructured
 https://github.com/Unstructured-IO/unstructured-api
 
 
