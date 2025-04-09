@@ -2,9 +2,11 @@
 
 mcp-model-context-protocol.md
 
-*   https://modelcontextprotocol.io/docs/concepts/sampling
+*   https://modelcontextprotocol.io/introduction
 
     *   https://modelcontextprotocol.io/docs/concepts/sampling
+
+*   https://devblogs.microsoft.com/blog/microsoft-partners-with-anthropic-to-create-official-c-sdk-for-model-context-protocol
 
 *   https://github.com/modelcontextprotocol/csharp-sdk
 
@@ -12,7 +14,11 @@ mcp-model-context-protocol.md
 
     *   https://www.nuget.org/packages/Mcp.Server.NuGet
 
-*   https://github.com/jamesmontemagno/MonkeyMCP/blob/main/MonkeyMCP/MonkeyTools.cs#L12
+*   Samples
+
+    *   https://github.com/jamesmontemagno/MonkeyMCP/blob/main/MonkeyMCP/MonkeyTools.cs#L12
+
+    *   https://github.com/jsuarezruiz/mobile-dev-mcp-server
 
 *   https://www.home-assistant.io/integrations/mcp_server/
 
