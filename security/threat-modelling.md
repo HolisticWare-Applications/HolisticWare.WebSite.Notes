@@ -2,21 +2,34 @@
 
 threat-modelling.md
 
-https://en.wikipedia.org/wiki/Threat_model
+*   https://en.wikipedia.org/wiki/Threat_model
 
-https://owasp.org/www-community/Threat_Modeling
+*   https://owasp.org/www-community/Threat_Modeling
 
-STRIDE Threat Modeling for Beginners - In 20 Minutes
-    https://www.youtube.com/watch?v=rEnJYNkUde0
+*   What is Threat Modeling? (Threat Modeling Explained)
 
-OWASP Threat Modeling Process - 
-    https://owasp.org/www-community/Threat_Modeling_Process
-Completed AI application threat model
-https://aivillage.org/large%20language%20models/threat-modeling-llm/
-Draw.io Desktop
-    https://github.com/jgraph/drawio-desktop
-Software Development Lifecycle (SDLC)
-    https://www.synotive.com/blog/softwar...
+    *   https://www.youtube.com/watch?v=KOq56Iyw8WY
+
+        *   proactive process to identify, analyze/evaluate and mitigate threats
+
+        *   
+*   STRIDE Threat Modeling for Beginners - In 20 Minutes
+    
+    *   https://www.youtube.com/watch?v=rEnJYNkUde0
+
+    *   OWASP Threat Modeling Process - 
+        
+        *   https://owasp.org/www-community/Threat_Modeling_Process
+
+        *   Completed AI application threat model
+
+        *   https://aivillage.org/large%20language%20models/threat-modeling-llm/
+
+        *   Draw.io Desktop
+
+            *   https://github.com/jgraph/drawio-desktop
+
+        *   Software Development Lifecycle (SDLC)
 
     1.  DFD Datav Flow Diagrams
 
@@ -28,22 +41,33 @@ Software Development Lifecycle (SDLC)
 
         STRIDE
 
-            Spoofing / Authentication
+            characteristics of the system (strngths and weakness)
 
-                A threat action aimed at accessing the user of another’s credentials, such as username and password
+                Spoofing / Authentication
 
-            Tampering / Integrity
+                    A threat action aimed at accessing the user of another’s credentials, such as username and password
 
-                A threat action that maliciously changes or modifies persistent data, such as database records or data
-                in transit
+                Tampering / Integrity
 
-            Repudiation
+                    A threat action that maliciously changes or modifies persistent data, such as database records or data
+                    in transit
 
-            Info Disclosure
+                Repudiation / Non-repudiation
 
-            Denial
+                    A threat action aimed at performing actions that lack the ability to be traced back to the malicious 
+                    user.
 
-            Elevation
+                Info Disclosure / Confidentiality
+
+                    A threat action with the intention of reading information that a user was not authorized to access.
+
+                Denial of Service / Availability
+                
+                    A threat action attempting to prevent or deny legitimate access to valid users.
+
+                Elevation / Authorization
+
+                    A threat action attempting to gain privileged access to a resource, typically to further unauthorized access to additional resources.
 
             when
 
