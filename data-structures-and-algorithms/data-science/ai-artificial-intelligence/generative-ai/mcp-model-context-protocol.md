@@ -4,6 +4,10 @@ mcp-model-context-protocol.md
 
 *   https://modelcontextprotocol.io/introduction
 
+    *   https://modelcontextprotocol.io/clients
+
+    *   https://modelcontextprotocol.io/servers
+
     *   https://modelcontextprotocol.io/docs/concepts/sampling
 
 *   https://devblogs.microsoft.com/blog/microsoft-partners-with-anthropic-to-create-official-c-sdk-for-model-context-protocol
@@ -16,7 +20,9 @@ mcp-model-context-protocol.md
 
 *   Samples
 
-    *   https://github.com/jamesmontemagno/MonkeyMCP/blob/main/MonkeyMCP/MonkeyTools.cs#L12
+    *   https://github.com/jamesmontemagno/MonkeyMCP
+
+        *   https://github.com/jamesmontemagno/MonkeyMCP/blob/main/MonkeyMCP/MonkeyTools.cs#L12
 
     *   https://github.com/jsuarezruiz/mobile-dev-mcp-server
 
@@ -28,3 +34,6 @@ mcp-model-context-protocol.md
     
         *   example: Claude for Desktop
     
+## Diverse
+
+*   https://www.zdnet.com/article/google-joins-openai-in-adopting-anthropics-protocol-for-connecting-ai-agents-why-it-matters/
