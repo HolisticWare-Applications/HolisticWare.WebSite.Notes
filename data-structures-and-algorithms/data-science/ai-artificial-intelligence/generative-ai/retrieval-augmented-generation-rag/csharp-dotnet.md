@@ -224,7 +224,7 @@ https://microsoft.github.io/graphrag/
 
 
 
-cE rag markdown
+C# rag markdown
 
 https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept/retrieval-augmented-generation?view=doc-intel-4.0.0
 
