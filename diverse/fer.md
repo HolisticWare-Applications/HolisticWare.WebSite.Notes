@@ -13,3 +13,6 @@ fer.md
     *   Pejo Pejkovic
 
         *   https://youtu.be/M4FiXQzKQlU?t=17990
+
+*   https://www.reddit.com/r/studenti/comments/1jk9z1e/iskustva_ferovaca_koji_su_se_prebacili_na_tvz/
+
