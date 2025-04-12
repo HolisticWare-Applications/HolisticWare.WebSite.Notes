@@ -76,3 +76,5 @@ Check out quantized
     https://huggingface.co/spaces/radames/Candle-phi1-phi2-wasm-demo?model=phi_2_0_q4k
     
 
+
+https://www.zdnet.com/article/how-to-install-an-llm-on-macos-and-why-you-should/
