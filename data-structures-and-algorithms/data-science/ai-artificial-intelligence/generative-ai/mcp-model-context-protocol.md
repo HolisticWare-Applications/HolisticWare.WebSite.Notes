@@ -26,6 +26,8 @@ mcp-model-context-protocol.md
 
     *   https://github.com/jsuarezruiz/mobile-dev-mcp-server
 
+    *   https://github.com/AliRezaFarahnak-Private/AutonomousCSharpAgent
+
 *   https://www.home-assistant.io/integrations/mcp_server/
 
 *   Prerequisites
