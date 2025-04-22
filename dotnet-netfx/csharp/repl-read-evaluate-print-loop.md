@@ -2,10 +2,6 @@
 
 repl-read-evaluate-print-loop.md
 
-*   https://dotnetfiddle.net/
-
-*   https://sharplab.io/
-
 *   https://dev.to/tallesl/c-repl-gkn
 
 *   https://replit.com/languages/csharp
