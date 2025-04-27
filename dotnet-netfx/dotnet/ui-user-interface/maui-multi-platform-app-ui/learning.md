@@ -113,3 +113,6 @@ learning.md
             *   https://lvcharts.net/App/examples/Wpf/start
 
             *   https://swharden.com/csdv/plotting-free/livecharts/
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/1ib54ne/looking_for_resources_to_learn_net_maui_any/
+
