@@ -30,13 +30,13 @@ choco install act-cli
 act
 ```
 
+*   https://github.blog/open-source/maintainers/5-github-actions-every-maintainer-needs-to-know/
 
-https://mauricius.dev/run-and-debug-github-actions-locally/
+*   https://mauricius.dev/run-and-debug-github-actions-locally/
 
 ## Links / References
 
 *   https://www.gep13.co.uk/blog/getting-started-with-github-actions
-
 
 *   https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/
 
