@@ -6,7 +6,8 @@ repro.md
 
 ## [Re]Solution AKA Workaround
 
-The above is because you are resolving it too early. If you want to print the endpoint then you can resolve it after Starting:
+The above is because you are resolving it too early. If you want to print the endpoint then you can 
+resolve it after Starting:
 
 ```csharp
 var builder = DistributedApplication.CreateBuilder(args);
