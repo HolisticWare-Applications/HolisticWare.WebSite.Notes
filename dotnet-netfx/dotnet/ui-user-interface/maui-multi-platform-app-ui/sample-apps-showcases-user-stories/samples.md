@@ -144,3 +144,8 @@ samples.md
 *   https://github.com/swharden/Csharp-Data-Visualization
 
 *   https://github.com/davidbritch/dotnet-maui-audioplayer
+
+*   https://github.com/KrawMire/profitocracy
+
+    *   https://www.reddit.com/r/dotnetMAUI/comments/1janrqx/opensource_net_maui_app_for_personal_budget/
+    
