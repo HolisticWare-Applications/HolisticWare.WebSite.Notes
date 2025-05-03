@@ -16,6 +16,10 @@ https://www.reddit.com/r/dotnetMAUI/comments/1ibte26/trying_to_decide_whether_to
 https://stackoverflow.com/questions/73965907/how-can-i-navigate-between-pages-in-net-maui-without-using-shell
 
 
+https://www.reddit.com/r/dotnetMAUI/comments/1ibte26/trying_to_decide_whether_to_use_shell_in_a_net/
+
+
+
 Shell Navigation
 
 
