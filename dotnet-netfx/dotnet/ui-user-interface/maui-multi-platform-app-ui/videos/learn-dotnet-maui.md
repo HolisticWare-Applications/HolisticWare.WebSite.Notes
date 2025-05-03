@@ -90,3 +90,9 @@ learn-dotnet-maui.md
         *   Nick: https://www.youtube.com/c/Elfocrash
         
         *   .NET YT: https://www.youtube.com/dotnet
+
+*   .NET MAUI Course for Beginners – Create Cross-Platform Apps with C#
+
+    *   https://www.youtube.com/watch?v=n3tA3Ku65_8
+
+    
