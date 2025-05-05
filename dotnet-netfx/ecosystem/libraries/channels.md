@@ -36,7 +36,21 @@ channels.md
 
 *   https://jeremybytes.blogspot.com/2021/02/an-introduction-to-channels-in-c.html
 
+    *   https://jeremybytes.blogspot.com/2021/02/whats-difference-between-channel-and.html
+
 *   https://www.reddit.com/r/csharp/comments/lh4zo6/an_introduction_to_channels_in_c/
+
+*   https://www.reddit.com/r/dotnet/comments/elbwpe/c_channels_async_data_pipelines/
+
+*   DK
+
+    *   https://deniskyashif.com/2019/12/08/csharp-channels-part-1/
+
+    *   https://deniskyashif.com/2019/12/11/csharp-channels-part-2/
+
+    *   https://deniskyashif.com/2020/01/07/csharp-channels-part-3/
+
+    *   https://github.com/deniskyashif/trydotnet-channels
 
 *   https://adnanrafiq.com/blog/understanding-csharp-channels-and-unit-testing-channels-in-asp-net-core/
 
@@ -53,6 +67,9 @@ channels.md
 
     *   https://www.youtube.com/watch?v=E0Ld7ZgE4oY
 
+*   The Most Underrated .NET Feature You Must Use
+
+    *   https://www.youtube.com/watch?v=lHC38t1w9Nc
 
 *   https://github.com/Open-NET-Libraries/Open.ChannelExtensions
 
