@@ -16,6 +16,10 @@ jobs-talent-markets.md
 
 *   https://developers.turing.com/welcome
 
+*   Croatia
+
+    *   https://skillsets.tech/
+    
 ## Jobs
 
 *   https://www.reddit.com/r/dotnet/s/6K4FjkHmh3
