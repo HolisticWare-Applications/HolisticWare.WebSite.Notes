@@ -15,6 +15,8 @@ prompt-engineering.md
 *   https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)
 
 
+https://www.kaggle.com/whitepaper-prompt-engineering
+
 ## Samples
 
 Prompt engineering refers to the craft of designing and formulating prompts or inputs that are given to an AI model, particularly language models, in order to elicit the most useful, accurate, or desired outputs. In the context of AI, a "prompt" is the initial piece of text or instruction to which the AI model responds.
