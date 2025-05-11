@@ -41,4 +41,7 @@ embeddings-onnx.md
     *   Semantic Search Demo
     
         *   https://github.com/Giorgi/Semantic-Search-Demo
-        
+
+*   Model
+
+    https://huggingface.co/BAAI/bge-m3
