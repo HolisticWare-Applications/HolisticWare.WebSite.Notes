@@ -1,6 +1,6 @@
 # Font Icons
 
-font-icons.md
+## font-icons.md
 
 *   https://montemagno.com/using-font-icons-in-xamarin-forms-goodbye-images-hello-fonts/
 
