@@ -58,10 +58,13 @@ embeddings-onnx.md
 
          https://github.com/ggml-org/llama.cpp
 
-         and it runs models directly in your app without any external services.
-The BGE-M3 model is actually available in GGUF format here:
-https://huggingface.co/bbvch-ai/bge-m3-GGUF
-Since it works with llama.cpp, it should also work with LLamaSharp.
+         *  runs models directly in your app without any external services.
+
+            The BGE-M3 model is actually available in GGUF format here:
+
+            https://huggingface.co/bbvch-ai/bge-m3-GGUF
+
+            Since it works with llama.cpp, it should also work with LLamaSharp.
 
 *   Convert your PyTorch training model to ONNX
 
@@ -69,10 +72,16 @@ Since it works with llama.cpp, it should also work with LLamaSharp.
 
 *   https://github.com/Const-me/Cgml/tree/master/CGML
 
+    haven't worked with more complex models, but as a little exercise, I was able to 
+    
+    *   run GPT2 in a .NET MAUI app using ML.NET and the ONNX version of the model. 
+    
+        *   used the `TiktokenTokenizer` like this:
 
- haven't worked with more complex models, but as a little exercise, I was able to run GPT2 in a .NET MAUI app using ML.NET and the ONNX version of the model. I used the TiktokenTokenizer like this:
-
-_tokenizer = TiktokenTokenizer.CreateForModel("gpt2");
-
+            https://learn.microsoft.com/en-us/dotnet/api/microsoft.ml.tokenizers.tiktokentokenizer
+            
+            ```csharp
+            _tokenizer = TiktokenTokenizer.CreateForModel("gpt2");
+            ```
 
 
