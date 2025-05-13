@@ -2,6 +2,22 @@
 
 tools.md
 
+AI Tools
+
+Editor
+
+    https://www.cursor.com/
+
+```bash
+brew install --cask \
+    claude
+```    
+
+```bash
+brew install --cask \
+    cursor
+```
+
 ## Machine Learning tools
 
 *   Mathematics
