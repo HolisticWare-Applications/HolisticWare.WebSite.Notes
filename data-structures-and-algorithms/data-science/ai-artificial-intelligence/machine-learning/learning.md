@@ -14,4 +14,6 @@ learning.md
 
 
     
-https://github.com/trekhleb/machine-learning-octave
+*   https://github.com/trekhleb/machine-learning-octave
+
+*   https://github.com/josephmisiti/awesome-machine-learning
