@@ -30,6 +30,19 @@ mcp-model-context-protocol.md
 
 *   https://www.home-assistant.io/integrations/mcp_server/
 
+*   https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022
+
+*   https://github.com/microsoft/vscode/issues/243522
+
+*   https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server
+
+*   https://github.com/davidfowl/RepoAnalysis/tree/main
+
+*   https://github.com/davidfowl/feedbackflow
+
+*   https://playbooks.com/mcp
+
+
 *   Prerequisites
 
     *   MCP client LLM Application
@@ -39,3 +52,5 @@ mcp-model-context-protocol.md
 ## Diverse
 
 *   https://www.zdnet.com/article/google-joins-openai-in-adopting-anthropics-protocol-for-connecting-ai-agents-why-it-matters/
+
+
