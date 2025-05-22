@@ -25,6 +25,24 @@ readme.md
 
 *   https://medium.com/data-science-at-microsoft/customer-retention-part-2-of-2-framework-architecture-9ce68f2734da
 
+Gen AI
+
+*   Introduction to Generative AI and LLMs
+
+    *   https://lnkd.in/dh3bpqit
+
+*   Exploring and Comparing Different LLMs
+
+    *   https://lnkd.in/dQ3uzqxi
+
+*   Understanding Prompt Engineering Fundamentals
+https://lnkd.in/dsqKvcHW 
+
+*   Building Low-Code AI Applications
+https://lnkd.in/dS8BrRkf
+
+*   AI Agents – Introduces AI Agents, where LLMs can take actions via tools or frameworks. 
+https://lnkd.in/di3B3iK9
 
 generative AI
 
