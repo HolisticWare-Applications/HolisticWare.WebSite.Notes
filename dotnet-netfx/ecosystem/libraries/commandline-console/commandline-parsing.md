@@ -2,16 +2,22 @@
 
 *   https://dotnet.libhunt.com/search?query=command+line
 
+Commandline parsing
+
+https://github.com/commandlineparser/commandline
+
 
 *   `Mono.Options`
 
     *   https://github.com/search?q=using+Mono.Options%3B
 
-commandline-command-line-cmd.md
->>>>>>> Stashed changes
+        *   https://github.com/MaxxVelocity/MonoOptionParserSandbox
+
+        *   https://github.com/ryan-h/console-app-mono-boilerplate
+
+        *   the same API as `NDesk.Options`
 
 *   `System.CommandLine`
-
 
     *   https://github.com/dotnet/command-line-api
 
@@ -100,16 +106,6 @@ commandline-command-line-cmd.md
 *   https://www.codeproject.com/Articles/19869/Powerful-and-simple-command-line-parsing-in-C
 
 *   https://www.areilly.com/2017/04/21/command-line-argument-parsing-in-net-core-with-microsoft-extensions-commandlineutils/
-
-*   `Mono.Options`
-
-    *   https://github.com/search?q=using+Mono.Options%3B
-
-        *   https://github.com/MaxxVelocity/MonoOptionParserSandbox
-
-        *   https://github.com/ryan-h/console-app-mono-boilerplate
-
-        *   the same API as `NDesk.Options`
     
 *    NDesk.Options 
 
