@@ -34,3 +34,10 @@ spectre-console.md
 *   https://www.reddit.com/r/dotnet/comments/xlczcl/spectreconsole_is_a_net_standard_20_library_that/
 
 *   https://dev.to/dotnet/how-you-can-build-a-great-looking-net-console-app-with-spectre-2f6g
+
+*   https://github.com/AlexanderDotH/Swig/blob/master/Swig.Console/Swig.Console.csproj
+
+*   https://github.com/agc93/spectre.console.extensions.logging
+
+*   https://code-maze.com/csharp-create-better-looking-console-applications-with-spectre-console/
+
