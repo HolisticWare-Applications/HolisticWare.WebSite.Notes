@@ -63,3 +63,29 @@
                 *   connect to information sources (database, files, ...)
 
                 *   execute 
+
+            *   primitives
+
+                published via catalog
+
+                *   types
+                    
+                    *   tools
+
+                        ```
+                        tools/list
+                        ```
+
+                    *   resources
+
+                        *   read only
+
+                        ```
+                        resources/list
+                        ```
+
+                    *   prompt templates
+
+                        ```
+                        prompts/list
+                        ```
