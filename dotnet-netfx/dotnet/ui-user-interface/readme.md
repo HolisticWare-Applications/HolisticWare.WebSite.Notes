@@ -2,34 +2,81 @@
 
 readme.md
 
+*   GUI Graphical User Interface
 
-*   MAUI
+    gui-graphical-user-interface.md
 
-    *   evolution of Xamarin.Forms
+    *   MAUI
 
-        *   Xamarin.Forms
+        *   evolution of Xamarin.Forms
 
-*   Avalonia UI
+            *   Xamarin.Forms
 
-    *   https://avaloniaui.net/
+    *   Avalonia UI
 
-        *   https://docs.avaloniaui.net/docs/getting-started
+        *   https://avaloniaui.net/
 
-    *   https://github.com/AvaloniaUI/Avalonia
+            *   https://docs.avaloniaui.net/docs/getting-started
 
-    *   https://github.com/AvaloniaUI/Documentation
+        *   https://github.com/AvaloniaUI/Avalonia
 
-    *   AvaloniaUI [avaloniaui](./avaloniaui/readme.md)
+        *   https://github.com/AvaloniaUI/Documentation
 
-*   Uno Platform
+        *   AvaloniaUI [avaloniaui](./avaloniaui/readme.md)
 
-    *   https://platform.uno/
+    *   Uno Platform
 
-        *   https://platform.uno/docs/articles/get-started.html
+        *   https://platform.uno/
 
-    *   https://github.com/unoplatform/uno
+            *   https://platform.uno/docs/articles/get-started.html
 
-    *   AvaloniaUI [unoplatform](./unoplatform/readme.md)
+        *   https://github.com/unoplatform/uno
+
+        *   AvaloniaUI [unoplatform](./unoplatform/readme.md)
+
+    *   QtSharp
+
+        *   https://gitlab.com/ddobrev/QtSharp
+
+        *   https://github.com/dsoronda/QtSharpDemos
+
+        *   old
+
+            *   https://github.com/ddobrev/QtSharp
+
+    *   ImGui
+
+        *   https://github.com/zwcloud/ImGui
+
+        *   https://github.com/zwcloud/ImGui.Docs
+
+        *   http://imgui.net/index.html
+
+*   TUI Textual User Interface
+
+    tui-textual-user-interface.md
+
+    *   Consolonia
+
+        *   https://github.com/jinek/Consolonia
+
+        *   https://www.reddit.com/r/csharp/comments/ygscxa/avalonia_ui_app_running_in_text_console_using/
+
+        *   https://www.libhunt.com/compare-Consolonia-vs-consoleframework
+
+        *   WPF Based (XAML)
+
+    *   Console Framework
+
+        *   https://github.com/elw00d/consoleframework
+
+        *   WPF Based (XAML)
+
+    *   Terminal.GUI
+
+        *   https://github.com/gui-cs/Terminal.Gui
+
+        *   https://github.com/gui-cs/TerminalGuiDesigner
 
 ## Comparison
 
