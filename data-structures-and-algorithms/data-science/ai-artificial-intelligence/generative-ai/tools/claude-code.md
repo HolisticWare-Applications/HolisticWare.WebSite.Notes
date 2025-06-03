@@ -14,3 +14,36 @@ npm install -g @anthropic-ai/claude-code
 *   https://www.reddit.com/r/ClaudeAI/comments/1kcdh5o/claude_max_now_include_claude_code_use/
 
 
+Node.js 18+
+git 2.23+ (optional)
+
+*   git backend CLI for PR workflows (optional)
+
+    *   GitHub 
+    
+        *   https://cli.github.com/
+
+            ```
+            brew install gh
+            ```
+
+    *   GitLab 
+        
+        *   https://gitlab.com/gitlab-org/cli
+
+            ```
+            brew install glab
+            ```
+
+*   ripgrep (rg) for enhanced file search (optional)
+
+    *   https://github.com/BurntSushi/ripgrep
+
+    ```
+    brew install ripgrep
+    ```
+
+
+## Diverse
+
+*   https://www.reddit.com/r/cursor/comments/1l0whwj/cracked_the_code/
