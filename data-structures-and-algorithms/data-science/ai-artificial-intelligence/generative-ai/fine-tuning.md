@@ -29,3 +29,8 @@ AND RECOMMENDATIONS
 
     https://arxiv.org/html/2404.10779v1
     
+
+https://codinginterviewsmadesimple.substack.com/p/fine-tuning-llms-is-a-huge-waste
+
+    https://news.ycombinator.com/item?id=44242737
+
