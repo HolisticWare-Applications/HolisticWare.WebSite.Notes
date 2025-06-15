@@ -2,6 +2,49 @@
 
 local-lms.md
 
+*   Backyard AI
+
+    *   https://backyard.ai/desktop
+
+    *   https://www.reddit.com/r/BackyardAI/comments/1el2odh/ios_android_mobile_app_public_beta/
+
+    ```
+    brew install --cask backyard-ai
+    ```
+
+*   LM Studio
+
+    *   https://lmstudio.ai/
+
+    *   https://github.com/lmstudio-ai
+
+    ```
+    brew install --cask lm-studio
+    ```
+
+    https://www.reddit.com/r/LocalLLaMA/comments/1bphf6n/random_question_what_are_your_opinions_on/
+    https://www.reddit.com/r/LocalLLaMA/comments/1cvawmz/why_do_people_say_lm_studio_isnt_opensourced/
+    https://lmstudio.ai/docs/cli
+    https://gptforwork.com/help/ai-models/local-servers/set-up-lm-studio-on-macos
+
+    https://github.com/lmstudio-ai/lms
+
+*   Open WebUI
+
+*   Msty
+    https://msty.app/
+
+Jan.ai
+    https://jan.ai/
+
+koboldcpp and sillytavern
+
+AnythingLLM
+
+    https://anythingllm.com/
+
+    https://github.com/Mintplex-Labs/anything-llm
+
 ## Android
 
 https://www.kdnuggets.com/using-claude-3-7-locally
