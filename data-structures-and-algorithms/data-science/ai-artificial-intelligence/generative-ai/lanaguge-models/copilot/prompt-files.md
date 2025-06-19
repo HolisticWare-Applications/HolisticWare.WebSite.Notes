@@ -2,6 +2,12 @@
 
 prompt-files.md
 
+*   https://github.com/search?q=path%3A.github%2F**%2Fprompts%2F*.md&type=code&ref=advsearch
+
+    ```
+    path:.github/**/prompts/*.md
+    ```
+
 *   2 types
 
     *   Custom instructions 
@@ -26,7 +32,15 @@ prompt-files.md
 
             *   Regardless of which model you pick when working with the GitHub Copilot chat pane, 
 
-        *   by default are stored in `.github/prompts/promptfilename.md`
+        *   by default are stored in 
+        
+            *   `.github/prompts/promptfilename.md`
+
+            *   `https://github.com/julielaursen/portfolio-playwright-tests/tree/main/.github/prompts`
+
+            *   https://github.com/mxschmitt/generate-test-with-copilot/blob/main/.github/prompts/generate_test.prompt.md
+            
+
 
         *   are only used when you reference them directly. 
         
