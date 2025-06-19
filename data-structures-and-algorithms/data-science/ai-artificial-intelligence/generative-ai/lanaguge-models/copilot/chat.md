@@ -5,7 +5,6 @@ chat.md
 
 *   https://visualstudiomagazine.com/Articles/2025/04/04/VS-Code-v1-99-Is-All-About-Copilot-Chat.aspx
 
-
 *   built-in tools for Agent Mode
 
     providing a variety of AI-driven features to enhance productivity and task execution:
