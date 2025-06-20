@@ -42,4 +42,6 @@ readme.md
 
 ## Samples
 
+*   https://github.com/dotnet/android-libraries/blob/main/.github/copilot-instructions.md
+
 *   https://github.com/dotnet/winforms/blob/69e044f65cf59dc747324276e28ddce341b84a79/.github/copilot-instructions.md
