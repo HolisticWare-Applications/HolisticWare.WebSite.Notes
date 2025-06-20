@@ -73,6 +73,8 @@ local llms
 
 https://www.reddit.com/r/LocalLLaMA/comments/1fckgnz/how_to_run_local_llm_on_phone/
 
+https://pieces.app/blog/best-llm-for-coding-cloud-vs-local
+
 Models can be obtained in Huggingface. I like the ones made by person named Bartowsky. Phi-3.5 and Gemma 2 2B are both good and the concrete quant version depends on the speed-quality ratio that you need. Basically the bigger model size the smarter and slower it is 
 https://huggingface.co/bartowski/Phi-3.5-mini-instruct_Uncensored-GGUF
 https://huggingface.co/bartowski/gemma-2-2b-it-abliterated-GGUF
