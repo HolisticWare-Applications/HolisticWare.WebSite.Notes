@@ -1,5 +1,29 @@
 # Local Models
 
+*   https://www.datacamp.com/tutorial/run-llms-locally-tutorial
+
+*   https://medium.com/@cactusmccoy/run-a-llm-locally-from-cli-gui-or-web-app-48224ebcd511
+
+*   tools
+
+    *   Ollama
+
+    *   openwebui
+
+        *   https://github.com/open-webui/open-webui
+
+            brew install uv
+
+            https://www.jjude.com/tech-notes/run-owui-on-mac/
+
+            
+
+    *   Msty
+
+    *   LM Studio
+
+    *   Jan
+
 ## For Coding
 
 *   This IS the best Local LLM for Coding Right Now | GLM-4-32B
