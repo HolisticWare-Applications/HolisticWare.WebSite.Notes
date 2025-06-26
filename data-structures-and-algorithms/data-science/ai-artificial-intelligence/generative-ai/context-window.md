@@ -28,3 +28,13 @@ https://blog.google/technology/ai/long-context-window-ai-models/
 https://www.youtube.com/watch?v=-QVoIxEpFkM
 
 https://www.youtube.com/watch?v=TeQDr4DkLYo
+
+
+## Videos
+
+*   What is a Context Window? Unlocking LLM Secrets
+
+    *   https://youtu.be/-QVoIxEpFkM
+
+
+
