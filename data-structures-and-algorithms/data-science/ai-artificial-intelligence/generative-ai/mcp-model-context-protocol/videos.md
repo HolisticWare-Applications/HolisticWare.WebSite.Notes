@@ -89,3 +89,13 @@
                         ```
                         prompts/list
                         ```
+
+
+*   Your API is not an MCP | DEMFP786
+
+    *   https://www.youtube.com/watch?v=eeOANluSqAE
+
+*   Introduction to Model Context Protocol (MCP) Servers | DEM517
+
+    *   https://www.youtube.com/watch?v=cfwooBzzHBs
+    
