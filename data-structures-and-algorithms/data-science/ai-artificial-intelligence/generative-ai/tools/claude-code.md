@@ -47,3 +47,10 @@ git 2.23+ (optional)
 ## Diverse
 
 *   https://www.reddit.com/r/cursor/comments/1l0whwj/cracked_the_code/
+
+
+*   
+    *   https://github.com/disler/quick-data-mcp/tree/main/.claude
+
+    *   https://www.youtube.com/@indydevdan
+    
