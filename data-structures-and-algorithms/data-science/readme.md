@@ -38,8 +38,16 @@ data-science.md
 
                 *   Sequence to Sequence Models
 
+## Definitions
+
+*   https://magnimindacademy.com/blog/connection-between-data-science-machine-learning-ml-and-artificial-intelligence-ai/
+
+*   https://www.mygreatlearning.com/blog/difference-data-science-machine-learning-ai/
+
+
 ## Links
 
 *   https://github.com/microsoft/Data-Science-For-Beginners
 
 *   https://github.com/microsoft/ML-For-Beginners
+
