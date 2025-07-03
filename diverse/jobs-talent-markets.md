@@ -20,6 +20,12 @@ jobs-talent-markets.md
 
     *   https://skillsets.tech/
     
+## Turing
+
+*   https://developers.turing.com/welcome
+
+*   https://developers.turing.com/dashboard/turing_test
+
 ## Jobs
 
 *   https://www.reddit.com/r/dotnet/s/6K4FjkHmh3
@@ -44,11 +50,7 @@ jobs-talent-markets.md
 
 *   https://www.reddit.com/r/leetcode/s/G2mOEEIvfY
 
-## Turing
-
-*   https://developers.turing.com/welcome
-
-*   https://developers.turing.com/dashboard/turing_test
+*   https://www.reddit.com/r/programiranje/comments/1l2z96u/zasto_faang_nema_kancelarije_u_srbiji/
 
 ## Jokes
 
