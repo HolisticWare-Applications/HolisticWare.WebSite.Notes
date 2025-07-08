@@ -1,7 +1,27 @@
-Context Window
-
+# Context Window
 
 context-window.md
+
+*   What is a Context Window? Unlocking LLM Secrets
+    
+    *   https://youtu.be/-QVoIxEpFkM
+
+
+    *   Context Window
+
+        *   Chat History
+
+            *   tokenization
+
+            Context Length Size
+
+            Challenges
+
+            Self Attention
+
+                process of calculating relationships and dependencies between different part of the input
+                
+
 
 A "context window" in the realm of large language models (LLMs) refers to the amount of text, measured in tokens, that the model can consider or "remember" when generating or understanding language. Essentially, it's the model's working memory. A larger context window allows the model to process longer inputs and incorporate more information, leading to potentially more coherent and contextually relevant responses. 
 
