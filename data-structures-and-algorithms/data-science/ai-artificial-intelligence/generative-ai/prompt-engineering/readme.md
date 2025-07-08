@@ -54,8 +54,10 @@ Formats
 
     RTF
     
-        Role 
+        Role
+
         Task 
+
         Format
 
         example
