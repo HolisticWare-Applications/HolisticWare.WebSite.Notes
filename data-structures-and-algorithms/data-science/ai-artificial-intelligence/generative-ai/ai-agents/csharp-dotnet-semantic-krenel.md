@@ -1,21 +1,42 @@
+# Semantic Kernel
 
 
+*   https://learn.microsoft.com/en-us/semantic-kernel/overview/
 
-Building your first AI Agent with the Semantic Kernel SDK and C# 
+*   Building your first AI Agent with the Semantic Kernel SDK and C# 
 
-    https://www.youtube.com/watch?v=ZIBSD8ECuiw
+    *   https://www.youtube.com/watch?v=ZIBSD8ECuiw
 
+    *   Semantic Kernel
 
-    Semantic Kernel
-
-        Memories
+        *   Memories
 
         Connectors
 
         Plugins
 
+*   https://github.com/frankhaugen/Frank.SemanticKernel
 
-Local AI Agents with Semantic Kernel and Ollama in C#
+*   https://github.com/search?q=%3CPackageReference+Include%3D%22Microsoft.SemanticKernel&type=code
+
+https://github.com/PacktPublishing/Building-AI-Applications-with-Microsoft-Semantic-Kernel
+
+https://github.com/vasalis/semantic-kernel-demo
+
+https://github.com/cyberkoolman/sk.workshop
+
+https://github.com/Vikas-Makhija/LegalAdvisor
+
+https://github.com/glen-fdce/sk-multi-model-example
+
+https://github.com/christianarg/SKOllama
+
+https://github.com/bronthulke/semantic-kernel-workshop-ndc-melbourne-2025
+
+https://github.com/markrussinovich/DesktopOrganizerBot
+
+
+*   Local AI Agents with Semantic Kernel and Ollama in C#
 
     https://www.reddit.com/r/dotnet/comments/1j10pr5/building_local_ai_agents_with_semantic_kernel_and/
 
