@@ -5,8 +5,7 @@ tutorials:
 
     *   https://github.com/NirDiamant/agents-towards-production
 
-Tutorials
-
+    *   https://github.com/coleam00/ai-agents-masterclass
 
 *   https://www.reddit.com/r/AI_Agents/comments/1lp979i/i_released_the_most_comprehensive_gen_ai_course/
 
