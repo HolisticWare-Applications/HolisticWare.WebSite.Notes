@@ -59,3 +59,23 @@ Database replication takes data from your source databases—like Oracle, Cloud 
 Cloud migration
 
 Companies are moving their data and applications from on-premises to the cloud to save money, make their applications more scalable, and secure their data, and ETL is commonly used to run these migrations.
+
+
+https://github.com/HolisticWare-Libraries/HolisticWare.DataScience.AI.LMs.RAG.Docling
+
+https://github.com/Samples-Playgrounds/Samples.CSharp/tree/master/samples/features-topics/interoperability/python
+
+https://github.com/HolisticWare-Libraries/HolisticWare.DataScience.AI.LMs.RAG.Docling/tree/main/source
+
+*   docling
+
+*   pymuPDF4LLM
+
+*   refinedoc
+
+    *   https://github.com/CyberCRI/refinedoc
+
+    *   https://pypi.org/project/refinedoc/
+
+    *   https://www.researchgate.net/publication/221253782_Header_and_Footer_Extraction_by_Page-Association
+
