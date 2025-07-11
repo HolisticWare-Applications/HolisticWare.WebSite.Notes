@@ -36,6 +36,7 @@ coding-assistants.md
 
     *   https://www.reddit.com/r/LocalLLaMA/comments/1dhx449/deepseekcoderv2_breaking_the_barrier_of/
     
+*   https://simonwillison.net/2025/Mar/11/using-llms-for-code/
 
 ## Github Copilot
 
