@@ -69,6 +69,12 @@ https://github.com/HolisticWare-Libraries/HolisticWare.DataScience.AI.LMs.RAG.Do
 
 *   docling
 
+*   Unstructured
+
+*   PyMuPDF
+
+*   PyPDF2
+
 *   pymuPDF4LLM
 
 *   refinedoc
@@ -79,3 +85,29 @@ https://github.com/HolisticWare-Libraries/HolisticWare.DataScience.AI.LMs.RAG.Do
 
     *   https://www.researchgate.net/publication/221253782_Header_and_Footer_Extraction_by_Page-Association
 
+*   morphik
+
+    *   https://morphik.ai/
+
+    *   https://pypi.org/project/morphik/
+
+    *   https://github.com/morphik-org/morphik-core
+    
+
+NotebookLM
+
+ChatDOC
+
+https://searchplus.ai/#pricing
+
+https://elephas.app/?utm_campaign=LanguageTechnology
+
+https://scisummary.com/
+
+ - full write up is here: https://cocoindex.io/blogs/academic-papers-indexing/
+- source code: https://github.com/cocoindex-io/cocoindex/tree/main/examples/paper_metadata
+
+
+https://github.com/pipeshub-ai/pipeshub-ai
+
+    Demo Video: https://youtu.be/1MPsp71pkVk 
