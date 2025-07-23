@@ -38,6 +38,8 @@ coding-assistants.md
     
 *   https://simonwillison.net/2025/Mar/11/using-llms-for-code/
 
+
+
 ## Github Copilot
 
 1.  tests
