@@ -73,3 +73,7 @@
 
     *   https://github.com/features/copilot/plans
         
+
+## Samples
+
+*   https://devblogs.microsoft.com/dotnet/maui-team-copilot-tips/#storytime:-ai’s-little-white-lies
