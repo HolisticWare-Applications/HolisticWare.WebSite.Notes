@@ -1,0 +1,4 @@
+# Data
+
+
+$HOME/.lmstudio/models/
