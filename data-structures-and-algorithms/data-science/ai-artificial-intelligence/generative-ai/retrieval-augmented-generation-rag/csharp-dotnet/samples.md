@@ -2,7 +2,11 @@
 
 samples.md
 
-C# Agents
+## RAG C#
+
+*   https://github.com/tryAGI/LangChain/tree/main/examples
+
+## C# Agents
 
 https://github.com/EdisonTalk/EdisonTalk.AI.Agents
 
