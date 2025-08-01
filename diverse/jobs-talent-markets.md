@@ -6,6 +6,8 @@ jobs-talent-markets.md
 
     *   email based on github activity
 
+*   https://stillhiring.today/
+
 *   https://www.hackerrank.com/
 
 *   https://stackoverflow.com/jobs
@@ -19,6 +21,7 @@ jobs-talent-markets.md
 *   Croatia
 
     *   https://skillsets.tech/
+    
     
 ## Turing
 
@@ -57,3 +60,21 @@ jobs-talent-markets.md
 *   https://www.youtube.com/watch?v=zwCD6DZCg7U&ab_channel=HonestAds
 
 
+# Employment
+
+
+middle age
+
+    every advantage will be turned into a disadvantage
+    
+
+    experience will be re-phrased as being “overqualified” 
+    
+        actually means that you will probably have an established opinion, making you less malleable.
+
+    age will be seen as a weakness, both physically and psychologically
+        nowadays younger people are much more prone to burnouts, long vacations (me-time, again and again), mental 
+        breakdowns, and demands about office hours and pay checks before the work has even started.
+
+And last but certainly not least: you’ll cost them more compared to younger applicants.
+In the end, the hiring manager will mask his true intentions with a smile, and then (eventually) see you off because he is afraid that your age and experience will infest the workplace, as if you entered with “Bubonic plague" written all over you —
