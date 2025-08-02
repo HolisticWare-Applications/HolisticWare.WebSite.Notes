@@ -6,6 +6,24 @@ hosting-plans.md
 
 *   https://hostadvice.com/lp/hosting-services/windows/
 
+*   DigitalOcean
+
+    *   https://www.digitalocean.com/
+
+    *   https://www.digitalocean.com/pricing/app-platform#pricing
+
+*   Railway
+
+    *   https://railway.com/pricing
+
+*   alwaysdata
+
+    *   https://www.alwaysdata.com/en/
+
+    *   https://www.alwaysdata.com/en/offers/
+
+    *   https://blog.pitermarx.com/2024/04/free-dotnet-hosting-or...-having-fun-with-dotnet/
+
 *   Linode
 
     *   https://www.linode.com/
