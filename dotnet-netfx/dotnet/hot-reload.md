@@ -16,4 +16,23 @@ hot-reload.md
 
 ## Alternatives
 
-*   https://www.livesharp.net/
+*   tbc
+
+    *   https://github.com/rdavisau/tbc
+
+*   LiveSharp
+
+    *   https://www.livesharp.net/
+
+*   Reloadify3000
+
+    *   https://github.com/Clancey/Reloadify3000
+
+    *   Continuous
+
+        *   https://github.com/praeclarum/Continuous
+
+*   Native
+
+    *   https://github.com/ivmirx/HotDemo
+
