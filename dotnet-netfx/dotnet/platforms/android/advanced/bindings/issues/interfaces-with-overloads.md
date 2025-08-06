@@ -2,6 +2,36 @@
 
 interfaces-with-overloads.md
 
+https://discord.com/channels/732297728826277939/732297837953679412/1382321296242905129
+
+```java
+public interface TypeConverter extends FromNativeConverter, ToNativeConverter {}
+
+public interface ToNativeConverter {
+    Class<?> nativeType();
+}
+
+public interface FromNativeConverter {
+    Class<?> nativeType();
+}```
+
+Fix that oversight so that using `//attr[@name='managedOverride']`
+can be used to emit `override abstract`:
+
+https://github.com/dotnet/java-interop/commit/73ebad2496a0d6df251fd24e216248da70e3fea9
+
+We have decided to support `//attr[@name='skipInvokerMethods']`
+metadata on the `class` that the invoker class would be created for:
+
+	<attr path="/api/package[@name='java.nio']/class[@name='CharBuffer']"
+	    name="skipInvokerMethods">java/nio/Buffer.duplicate()Ljava/nio/Buffer;</attr>
+
+and/or possibly skipInvokerMethods?
+
+https://github.com/dotnet/java-interop/commit/22d5687bc5c572ea0eadbd1a23f02f424af782d1
+
+
+
 
 
 ```csharp
