@@ -70,10 +70,29 @@ https://learn.microsoft.com/en-us/visualstudio/debugger/hot-reload-metadataupdat
 https://learn.microsoft.com/en-us/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue?view=vs-2022
 
 
-VSCode + Hotreload
+## VSCode + HotReload
 
 1.  dotnet watch
 
 2.  attach debugger
 
 
+## Native
+
+*   https://github.com/ivmirx/HotDemo
+
+*   tbc
+
+    *   https://github.com/rdavisau/tbc
+
+*   LiveSharp
+
+    *   https://www.livesharp.net/
+
+*   Reloadify3000
+
+    *   https://github.com/Clancey/Reloadify3000
+
+    *   Continuous
+
+        *   https://github.com/praeclarum/Continuous
