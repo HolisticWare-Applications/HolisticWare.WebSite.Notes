@@ -1,17 +1,21 @@
-# 
+# Source Code Generators
 
-https://github.com/amis92/csharp-source-generators
+readme.md
+
+*   https://github.com/amis92/csharp-source-generators
 
 
 *   https://www.reddit.com/r/csharp/comments/1m0byke/i_created_a_c_source_generator_that_automatically/
 
-```
+```xml
 <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
 ```
 
-https://www.nuget.org/packages/NotNot.AppSettings
+## Samples
 
-    https://github.com/NotNotTech/NotNot-MonoRepo/tree/master/src/nuget/NotNot.AppSettings/
+*   https://www.nuget.org/packages/NotNot.AppSettings
+
+    *   https://github.com/NotNotTech/NotNot-MonoRepo/tree/master/src/nuget/NotNot.AppSettings/
 
 https://github.com/beheshty/SetSharp
 
@@ -25,3 +29,14 @@ https://learn.microsoft.com/en-us/dotnet/core/extensions/options-validation-gene
 https://andrewlock.net/exploring-the-dotnet-8-preview-using-the-new-configuration-binder-source-generator/
 
 https://albertromkes.com/2020/11/04/a-source-generator-for-your-appsettings-json/
+
+
+## Diverse 
+
+*   https://www.reddit.com/r/csharp/comments/19067b7/notnotappsettings_autogen_stronglytyped_settings/
+
+*   https://andrewlock.net/exploring-the-dotnet-8-preview-using-the-new-configuration-binder-source-generator/
+
+*   https://albertromkes.com/2020/11/04/a-source-generator-for-your-appsettings-json/
+
+*   https://stackoverflow.com/questions/46940710/getting-value-from-appsettings-json-in-net-core
