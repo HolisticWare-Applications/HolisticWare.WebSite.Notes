@@ -11,19 +11,29 @@ performance.md
     *   https://aka.ms/dotnetperfstatus
 
 
-I have benchmarks (startup time, memory consuption, package size, render time) from
+*   benchmarks 
 
-    Chat App UI Challenge made with .NET MAUI. (github.com)
-
-with net6/7. Will compare with latest versions from net7/8.
-
-    https://github.com/jsuarezruiz/netmaui-chat-app-challenge
+    *   startup time
     
-https://adamsitnik.com/Sample-Perf-Investigation/
+    *   memory consuption
+    
+    *   package size
+    
+    *   render time
+    
+*   from
 
-https://adamsitnik.com/ETW-Profiler/
+        *   Chat App UI Challenge made with .NET MAUI. (github.com)
 
+        *   with net6/7. Will compare with latest versions from net7/8.
 
+    *   https://github.com/jsuarezruiz/netmaui-chat-app-challenge
+
+    *   https://adamsitnik.com/Sample-Perf-Investigation/
+
+*   https://adamsitnik.com/ETW-Profiler/
+
+*   https://moldstud.com/articles/p-boost-your-xamarin-apps-performance-key-optimization-techniques-to-improve-startup-time
 
 *   https://github.com/xamarin/xamarin-android/pull/8713/files
 
