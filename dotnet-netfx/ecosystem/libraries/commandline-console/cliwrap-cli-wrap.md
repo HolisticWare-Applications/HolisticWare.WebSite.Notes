@@ -28,6 +28,10 @@ var stdOut = await Cli
 
 *   https://www.reddit.com/r/csharp/comments/k8hsoy/getting_lines_written_to_stdout_in_4_conceptually/
 
+*   sample snippets and performance
+
+    *   https://github.com/Samples-Playgrounds/Samples.CSharp/tree/master/samples/performance/ecosystem-libraries/CliWrap
+    
 ## Videos
 
 *   Svitla Smart Talk: Oleksii Holub - Interacting with command line in .NET using CliWrap
