@@ -2,6 +2,8 @@
 
 embeddings.md
 
+*   https://huggingface.co/spaces/mteb/leaderboard
+
 *   https://www.reddit.com/r/dotnet/comments/1kgb25u/i_finally_got_embedding_models_running_natively/
 
 *   https://github.com/dotnet/smartcomponents/blob/main/docs/local-embeddings.md
@@ -31,4 +33,3 @@ embeddings.md
 
     *   https://www.youtube.com/watch?v=SoIRV6vPM7Y&ab_channel=MicrosoftReactor
 
-    
