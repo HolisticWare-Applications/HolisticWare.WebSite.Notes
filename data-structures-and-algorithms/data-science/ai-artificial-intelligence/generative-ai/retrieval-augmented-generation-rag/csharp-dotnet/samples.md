@@ -8,11 +8,11 @@ samples.md
 
 ## C# Agents
 
-https://github.com/EdisonTalk/EdisonTalk.AI.Agents
+*   https://github.com/EdisonTalk/EdisonTalk.AI.Agents
 
-https://github.com/JocysCom/VsAiCompanion
+*   https://github.com/JocysCom/VsAiCompanion
 
-https://github.com/microsoft/RAG-PDF-Analyzer-WPF-Sample
+*   https://github.com/microsoft/RAG-PDF-Analyzer-WPF-Sample
 
 https://github.com/SteveSandersonMS/dotnet-ai-workshop
 
