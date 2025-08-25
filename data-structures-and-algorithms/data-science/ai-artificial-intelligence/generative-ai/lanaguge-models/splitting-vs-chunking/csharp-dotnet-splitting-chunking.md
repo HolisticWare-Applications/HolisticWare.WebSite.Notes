@@ -18,3 +18,7 @@ Microsoft.SemanticKernel.Text
 
 
 *   https://github.com/sschoener/TextSplitter
+
+*   Chunklet
+
+    *   https://github.com/speedyk-005/chunklet
