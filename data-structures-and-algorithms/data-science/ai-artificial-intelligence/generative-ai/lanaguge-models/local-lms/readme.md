@@ -47,3 +47,19 @@
     *   YI Coder
 
     *   QWEN Coder
+
+
+There are many ways to run local models that are compatible with Continue. Three popular options are Ollama, Llama.cpp, and LM Studio. Ollama is an open-source tool that allows users to easily run large language models (LLMs) locally. Llama.cpp is a high-performance C++ library for running LLMs that also includes an OpenAI-compatible server. LM Studio provides a graphical interface for running local models.
+
+Llama.cpp provides llama-server, a lightweight, OpenAI API compatible, HTTP server for serving LLMs. You can either build it from source by following the instructions in the Llama.cpp repository, or use a pre-built binary if available for your system. Check out the Llama.cpp documentation for more information.
+
+Once you have llama-server, you can run a model from Hugging Face with a command like this:
+
+llama-server -hf unsloth/Devstral-Small-2505-GGUF:Q4_K_M
+
+
+To use Ollama, you can install it and download the model you want to run with the ollama run command.
+
+For example, you can download and run the Devstral-Small model with:
+
+ollama run unsloth/devstral-small-2505-gguf:Q4_K_M
