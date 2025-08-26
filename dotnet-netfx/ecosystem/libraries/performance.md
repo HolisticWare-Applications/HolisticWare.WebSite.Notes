@@ -4,11 +4,17 @@ performance.md
 
 *   https://github.com/bruno-garcia/unoptimized-assembly-detector
 
-## ZString
+*   ZString
 
-*   https://github.com/Cysharp/ZString
+    *   [./performance/zstring.md](./performance/zstring.md)
 
-*   https://neuecc.medium.com/zstring-zero-allocation-stringbuilder-for-net-core-and-unity-f3163c88c887
+    *   zero allocation string
+
+*   ZLogger
+
+    *   [./performance/zlogger.md](./performance/zlogger.md)
+
+    *   zero allocation string
 
 ## `Rope<T>`
 
@@ -23,11 +29,6 @@ performance.md
 
 *   https://github.com/CommunityToolkit/dotnet
 
-## `ZLogger`
-
-https://github.com/Cysharp/ZLogger
-
-https://neuecc.medium.com/zlogger-v2-architecture-leveraging-net-8-to-maximize-performance-2d9733b43789
 
 
 
