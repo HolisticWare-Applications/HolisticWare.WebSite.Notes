@@ -1,5 +1,5 @@
 # DotNext
 
-dotnetxt.md
+dotnext.md
 
 *   https://dotnet.github.io/dotNext/
