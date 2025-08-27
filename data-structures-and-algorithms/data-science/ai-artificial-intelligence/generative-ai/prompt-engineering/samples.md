@@ -172,3 +172,24 @@ https://thenewstack.io/how-to-define-an-ai-agent-persona-by-tweaking-llm-prompts
     *   https://www.thatsoftwaredude.com/content/13994/prompt-engineering
 
 
+https://www.reddit.com/r/PromptEngineering/comments/1n08dpp/anthropic_just_revealed_their_internal_prompt/
+
+https://gist.github.com/skozz/d5bc0b617a6b640a3347b87590a407ed
+
+
+
+7 frameworks that everyone should be using (if they want results):
+
+Meta Prompting: Request the AI to rewrite or refine your original prompt before generating an answer
+
+Chain-of-Thought: Instruct the AI to break down its reasoning process step-by-step before producing an output or recommendation
+
+Prompt Chaining: Link multiple prompts together, where each output becomes the input for the next task, forming a structured flow that simulates layered human thinking
+
+Generate Knowledge: Ask the AI to explain frameworks, techniques, or concepts using structured steps, clear definitions, and practical examples
+
+Retrieval-Augmented Generation (RAG): Enables AI to perform live internet searches and combine external data with its reasoning
+
+Reflexion: The AI critiques its own response for flaws and improves it based on that analysis
+
+ReAct: Ask the AI to plan out how it will solve the task (reasoning), perform required steps (actions), and then deliver a final, clear result 
