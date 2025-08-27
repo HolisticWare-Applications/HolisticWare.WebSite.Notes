@@ -49,6 +49,25 @@
     *   QWEN Coder
 
 
+
+Continue, a tool for building AI coding assistants that works with local tools like Ollama.
+
+You can install Continue from the VS Code marketplace.
+
+Continue also has an extension for JetBrains.
+
+VS Code extension
+Click Install on the Continue extension page in the Visual Studio Marketplace
+
+https://plugins.jetbrains.com/plugin/22707-continue
+
+https://marketplace.visualstudio.com/items?itemName=Continue.continue
+
+Unique Identifier	Continue.continue	
+
+https://docs.continue.dev/guides/cli
+
+
 There are many ways to run local models that are compatible with Continue. Three popular options are Ollama, Llama.cpp, and LM Studio. Ollama is an open-source tool that allows users to easily run large language models (LLMs) locally. Llama.cpp is a high-performance C++ library for running LLMs that also includes an OpenAI-compatible server. LM Studio provides a graphical interface for running local models.
 
 Llama.cpp provides llama-server, a lightweight, OpenAI API compatible, HTTP server for serving LLMs. You can either build it from source by following the instructions in the Llama.cpp repository, or use a pre-built binary if available for your system. Check out the Llama.cpp documentation for more information.
