@@ -94,6 +94,12 @@ https://github.com/HolisticWare-Libraries/HolisticWare.DataScience.AI.LMs.RAG.Do
     *   https://github.com/morphik-org/morphik-core
     
 
+https://github.com/bytedance/Dolphin
+
+https://www.llamaindex.ai/blog/pdf-parsing-llamaparse
+
+https://github.com/minitap-ai/mobile-use
+
 NotebookLM
 
 ChatDOC
