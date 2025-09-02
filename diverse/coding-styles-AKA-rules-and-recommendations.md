@@ -9,3 +9,5 @@ coding-styles-AKA-rules-and-recommendations.md
 
 https...https://martinfowler.com/articles/testing-culture.html
 
+
+*   https://embeddedgurus.com/barr-code/2014/03/apples-gotofail-ssl-security-bug-was-easily-preventable/
