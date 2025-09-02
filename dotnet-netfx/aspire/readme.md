@@ -2,6 +2,15 @@
 
 readme.md
 
+*    https://aka.ms/aspire-discord
+
+*   Roadmap (2025 → 2026)
+
+    *   https://github.com/dotnet/aspire/discussions/10644
+
+*   https://aspire.dev/
+
+
 Elevator:
 
 Aspire is “Docker Compose without the YAML,” a code-first orchestrator that runs locally, includes built-in observability,
