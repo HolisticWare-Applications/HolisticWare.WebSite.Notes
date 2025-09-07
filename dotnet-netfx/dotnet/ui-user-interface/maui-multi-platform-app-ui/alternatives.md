@@ -5,11 +5,14 @@ alernatives.md
 
 ## .NET
 
-*   Blazor
-
 *   Avalonia
 
 *   Uno
+
+*   Blazor Hybrid
+
+    *   Blazor in WebView in .NET MAUI
+
 
 ## Flutter
 
