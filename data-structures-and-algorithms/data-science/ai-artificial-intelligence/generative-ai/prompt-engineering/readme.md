@@ -2,6 +2,30 @@
 
 readme.md
 
+*   https://learnprompting.org/docs/introduction
+
+*   https://www.promptingguide.ai/introduction/basics
+
+*   https://www.promptingguide.ai/introduction/examples
+
+*   https://blog.alexanderfyoung.com/how-to-craft-the-perfect-prompt/
+
+*   How I Write The Perfect Prompt (ChatGPT Masterclass)
+
+    *   https://www.youtube.com/watch?v=0vS4UKyNk8k
+
+*   https://www.vidilab.com/teme/softverska-tema/7744-intervju-marko-horvat-pravila-za-kreiranje-upita
+
+*   https://microsoft.github.io/generative-ai-for-beginners/#/04-prompt-engineering-fundamentals/
+
+*   https://www.promptingguide.ai/techniques
+
+*   https://platform.openai.com/docs/examples
+
+*   https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api
+
+*   https://www.anthropic.com/engineering/claude-code-best-practices
+
 *   https://orkes.io/blog/guide-to-prompt-engineering/
 
 *   State-Of-The-Art Prompting For AI Agents
@@ -195,16 +219,4 @@ Examples: Sample inputs/outputs to guide the expected response.
 Role (Persona): The perspective or tone the AI should adopt.
 Output Formatting: Specifications for how the response should be structured.
 Additional Information: Background or context that informs the task.
-
-https://learnprompting.org/docs/introduction
-
-https://www.promptingguide.ai/introduction/basics
-
-https://www.promptingguide.ai/introduction/examples
-
-https://blog.alexanderfyoung.com/how-to-craft-the-perfect-prompt/
-
-How I Write The Perfect Prompt (ChatGPT Masterclass)
-
-    https://www.youtube.com/watch?v=0vS4UKyNk8k
 
