@@ -2,6 +2,15 @@
 
 csnakes.md
 
+## Naming
+
+api.py  -> IApi.py.cs
+
+api_topic.py -> IApiTopic.py.cs
+
+*   https://devblogs.microsoft.com/dotnet/gpt-oss-csharp-ollama/
+
+
 ## Videos
 
 *   Deep .NET - Using AI Python Libraries in .NET Apps with Csnakes
