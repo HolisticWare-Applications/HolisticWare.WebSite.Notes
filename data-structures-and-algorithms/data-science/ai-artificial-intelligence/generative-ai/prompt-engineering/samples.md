@@ -193,3 +193,14 @@ Retrieval-Augmented Generation (RAG): Enables AI to perform live internet search
 Reflexion: The AI critiques its own response for flaws and improves it based on that analysis
 
 ReAct: Ask the AI to plan out how it will solve the task (reasoning), perform required steps (actions), and then deliver a final, clear result 
+
+
+
+# .NET Prompts
+
+split this file into multiple files with each class in separate file
+
+make all classes partial
+
+
+
