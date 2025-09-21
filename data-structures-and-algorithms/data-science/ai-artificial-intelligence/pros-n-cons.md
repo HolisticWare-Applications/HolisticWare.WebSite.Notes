@@ -36,3 +36,11 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
     https://www.youtube.com/watch?v=5UhnQ2h-5BY
 
+
+
+AI learning or brain rot
+
+https://ghuntley.com/cursed/
+
+https://github.com/ghuntley/cursed
+
