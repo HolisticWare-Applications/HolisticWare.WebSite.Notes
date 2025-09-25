@@ -32,15 +32,29 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
     *   https://www.youtube.com/watch?v=FIxLJVthW6I
 
-"Don’t Learn to Code" Is WRONG | GitHub CEO Thomas Dohmke
+*   "Don’t Learn to Code" Is WRONG | GitHub CEO Thomas Dohmke
 
-    https://www.youtube.com/watch?v=5UhnQ2h-5BY
+    *   https://www.youtube.com/watch?v=5UhnQ2h-5BY
+
+## AI Pros
+
+*   https://www.leravi.org/bill-gates-reveals-the-one-job-ai-will-never-replace-even-in-100-years-10272/
+
+## AI Cons
+
+*   Geoffrey Hinton’s Final Warning: AI Might Already Be Alive
+
+    *   https://www.youtube.com/watch?v=9F65QGgCXpg&ab_channel=Technomics
+
+*   Will AI outsmart human intelligence? - with 'Godfather of AI' Geoffrey Hinton
+
+    *   https://www.youtube.com/watch?v=IkdziSLYzHw&ab_channel=TheRoyalInstitution
 
 
 
-AI learning or brain rot
+### AI learning or brain rot
 
-https://ghuntley.com/cursed/
+*   https://ghuntley.com/cursed/
 
-https://github.com/ghuntley/cursed
+*   https://github.com/ghuntley/cursed
 
