@@ -17,4 +17,12 @@ learning.md
 *   https://www.reddit.com/r/Rag/comments/1m5ux9n/my_rag_journey_3_real_projects_lessons_learned/
 
 
+## Benchmarking
 
+*   https://www.reddit.com/r/Rag/comments/1nkad09/open_rag_bench_dataset_1000_pdfs_3000_queries/
+
+    *   https://github.com/vectara/open-rag-bench
+
+    *   https://huggingface.co/datasets/vectara/open_ragbench
+
+    *   https://drive.google.com/drive/u/1/folders/18q_zokgsrMsL-Xfx4OcYST1DLb8TNzYY
