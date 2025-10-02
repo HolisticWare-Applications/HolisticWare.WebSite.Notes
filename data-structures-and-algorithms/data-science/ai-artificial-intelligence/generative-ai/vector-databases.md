@@ -61,3 +61,29 @@ convert model-from-[hugFace] to onnx
 it seems like it maybe helps to educate llm for my docx/xlsx documents (i have html version of all). Is it?
 
 
+
+https://www.reddit.com/r/Rag/comments/1ntdgsd/youre_in_an_ai_engineering_interview_and_they_ask/
+
+false thinking
+
+    *   steps
+
+        *   query comes in
+    
+        *   database compares against all vectors
+        
+        *   returns top-k. 
+    
+    *   That would take seconds.
+
+*   HNSW builds navigable graphs: Instead of brute-force comparison, it constructs multi-layer "social networks" of vectors. Searches jump through sparse top layers , then descend for fine-grained results. You visit ~200 vectors instead of all million.
+
+*   High dimensions are weird: At 1536 dimensions, everything becomes roughly equidistant (distance concentration). Your 2D/3D geometric sense fails completely. This is why approximate search exists -- exact nearest neighbors barely matter.
+
+*   Different RAG patterns stress DBs differently: Naive RAG does one query per request. Agentic RAG chains 3-10 queries (latency compounds). Hybrid search needs dual indices. Reranking over-fetches then filters. Each needs different optimizations.
+
+*   Metadata filtering kills performance: Filtering by user_id or date can be 10-100x slower. The graph doesn't know about your subset -- it traverses the full structure checking each candidate against filters.
+
+*   Updates degrade the graph: Vector DBs are write-once, read-many. Frequent updates break graph connectivity. Most systems mark as deleted and periodically rebuild rather than updating in place.
+
+*   When to use what: HNSW for most cases. IVF for natural clusters. Product Quantization for memory constraints.
