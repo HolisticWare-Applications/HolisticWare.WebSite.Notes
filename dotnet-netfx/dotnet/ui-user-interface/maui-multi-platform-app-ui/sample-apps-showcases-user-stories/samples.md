@@ -149,3 +149,6 @@ samples.md
 
     *   https://www.reddit.com/r/dotnetMAUI/comments/1janrqx/opensource_net_maui_app_for_personal_budget/
     
+*   HeadsUp
+
+    *   https://github.com/GoneDotNet/HeadsUp
