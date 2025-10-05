@@ -1,4 +1,4 @@
-# Laraning
+# Learning
 
 learning.md
 
@@ -26,3 +26,13 @@ learning.md
     *   https://huggingface.co/datasets/vectara/open_ragbench
 
     *   https://drive.google.com/drive/u/1/folders/18q_zokgsrMsL-Xfx4OcYST1DLb8TNzYY
+
+## Videos
+
+*   RAG + Langchain Python Project: Easy AI/Chat For Your Docs
+
+    *   https://www.youtube.com/watch?v=tcqEUSNCn8I
+
+*   Python RAG Tutorial (with Local LLMs): AI For Your PDFs
+
+    *   https://www.youtube.com/watch?v=2TJxpyO3ei4
