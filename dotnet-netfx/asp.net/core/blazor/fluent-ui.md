@@ -11,3 +11,12 @@ fluent-ui.md
 
     *   component renders to the response stream and there is no interactivity
 
+*   https://www.fluentui-blazor.net/
+
+*   https://github.com/microsoft/fluentui-blazor
+
+*   https://developer.microsoft.com/en-us/fluentui
+
+*   https://fluent2.microsoft.design/
+
+*   https://moldstud.com/articles/p-common-mistakes-in-hybrid-app-development-with-xamarin-how-to-avoid-them
