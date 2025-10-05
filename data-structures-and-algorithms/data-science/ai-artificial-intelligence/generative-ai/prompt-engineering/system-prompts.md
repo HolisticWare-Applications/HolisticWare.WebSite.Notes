@@ -68,3 +68,17 @@ Okay, here are a few system prompts designed for advanced .NET/C# development wi
 To help me refine these prompts further, could you tell me:
 
 *   **What’s the overall goal of the MAUI app?** (e.g.,  a game, a utility app, a productivity tool?)
+
+
+system-prompt
+
+
+
+When you send a message to chatGPT (or any LLM), it uses a “system prompt” before what you’ve written. It’s like an invisible message that gives some additional instructions on how to deal with your request. Think of it like the “secret sauce” of the LLM. A big part of what differentiates the LLMs (given that they all use huge data sets now), will be things like this system message.
+
+So what OP has done is find a way to see the recipe for the secret sauce.
+
+Now, you might want to know why this is significant?
+
+Having this information can enable people to “break” the rules of the AI by lawyering the script to find loopholes to get it to do things it isn’t supposed to do.
+
