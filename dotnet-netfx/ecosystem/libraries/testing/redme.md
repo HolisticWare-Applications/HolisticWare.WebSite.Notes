@@ -17,3 +17,8 @@ readme.md
     *   https://www.youtube.com/watch?v=dtdgm8lKJZU
 
     
+
+## Diverse
+
+*   https://www.reddit.com/r/dotnet/comments/1it1eqq/how_do_you_best_prepare_for_writing_solid_unit/
+
