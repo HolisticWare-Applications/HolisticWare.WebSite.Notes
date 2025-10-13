@@ -117,7 +117,9 @@ static-analyzers.md
     *   Few more analyzers — https://github.com/dotnet/roslyn-analyzers
 
 
+## Diverse
 
+*   https://www.reddit.com/r/csharp/comments/1eherwi/do_you_use_any_analyzer_like_sonar_net_or/
 
 
 Such as SonarAnalyzer, XUnit Analyzers, Code Cracker, FxCop and StyleCop can do this analysis relatively easily is due to the unique way that the Roslyn compiler has been created. As shown below, rather than being a black box, the compiler and tools are provided as a series of APIs and services. These tools can use the compiler APIs both to identify problem code and to generate replacements.
