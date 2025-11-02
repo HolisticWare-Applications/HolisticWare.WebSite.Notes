@@ -12,3 +12,6 @@ functional-programming.md
 *   https://github.com/louthy/csharp-monad
 
 *   https://paullouth.com/about/
+
+*   https://blog.ploeh.dk/2025/09/01/song-recommendations-with-c-free-monads/
+
