@@ -3,7 +3,17 @@
 shared-project.md
 
 
-# Projitems
+*   https://manski.net/articles/msbuild/msbuild-cheat-sheet
+
+*   https://github.com/dotnet/sdk/issues/2511
+
+*   https://github.com/microsoft/MSBuildSdks
+
+*   https://github.com/sharpjs/Subatomix.Build.Packaging.PowerShellModule/blob/master/.root.targets
+
+*   https://dansiegel.net/post/2018/08/21/demystifying-the-sdk-project
+
+## Projitems
 
 *   https://github.com/sharpjs/Subatomix.Build.Packaging.PowerShellModule/blob/master/.root.targets
 
