@@ -23,3 +23,8 @@ dependency-analyzer <SolutionFullPath> <OutputPath>
 https://github.com/bjorkstromm/depends
 
 dotnet depends ./depends.sln
+
+## Transitive deps
+
+*   https://www.erikheemskerk.nl/transitive-nuget-dependencies-net-core-got-your-back/
+
