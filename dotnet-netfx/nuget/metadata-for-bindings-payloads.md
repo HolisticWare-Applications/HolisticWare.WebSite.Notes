@@ -4,6 +4,12 @@ metadata-for-bindings-payloads.md
 
 *   https://github.com/NuGet/Home/pull/12174
 
+*   Proposal
+
+    *   https://github.com/NuGet/Home/pull/12174#pullrequestreview-2626780356
+
+
+## Text
 
 Sorry for coming late to the show. 
 
