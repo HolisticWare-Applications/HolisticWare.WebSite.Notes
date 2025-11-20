@@ -2,6 +2,11 @@
 
 license.md
 
+```xml
+<PackageLicenseExpression>MIT AND public</PackageLicenseExpression>
+```
+
+
 *   [nuget] use $(PackageLicenseExpression), not $(PackageLicenseUrl)
 
     *   https://github.com/mono/opentk/pull/35
@@ -22,5 +27,9 @@ We found the following issue(s):
 We recommend that you fix these issues and upload a new package. To learn more about authoring great packages, view our Best Practices page.
 ```
 
+*   https://www.reddit.com/r/dotnet/comments/1i4ekqz/net_oss_projects_better_to_relicense_or_die/
 
-https://www.reddit.com/r/dotnet/comments/1i4ekqz/net_oss_projects_better_to_relicense_or_die/
+
+
+
+
