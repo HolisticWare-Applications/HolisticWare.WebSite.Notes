@@ -82,3 +82,13 @@ To use Ollama, you can install it and download the model you want to run with th
 For example, you can download and run the Devstral-Small model with:
 
 ollama run unsloth/devstral-small-2505-gguf:Q4_K_M
+
+
+
+
+
+
+This IS the best Local LLM for Coding Right Now | GLM-4-32B
+
+    https://huggingface.co/THUDM/GLM-4-32B-0414
+

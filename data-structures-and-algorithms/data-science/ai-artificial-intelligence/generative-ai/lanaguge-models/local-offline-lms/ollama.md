@@ -83,3 +83,47 @@ all-minilm:latest
 llama3.3:latest
 llama3.2-vision:latest
 ```
+
+ollama youtube
+
+https://www.reddit.com/r/ollama/comments/1e8iy7t/a_youtube_video_summarizer_using_ollama/
+
+https://github.com/shun-liang/yt2doc
+
+ollama serve
+
+
+https://github.com/ollama/ollama/blob/main/docs/faq.md#how-can-i-specify-the-context-window-size
+
+
+OLLAMA_HOST=127.0.0.1:22001 ollama serve
+OLLAMA_HOST=127.0.0.1:22002 ollama serve
+
+https://github.com/ollama/ollama/issues/2194
+
+OLLAMA_NUM_PARALLEL: Maximum number of parallel requests
+
+OLLAMA_MAX_QUEUE: The queue length, defines number of requests that might be sitting there and waiting for being picked up
+
+OLLAMA_MAX_LOADED_MODELS: Maximum number of loaded models
+
+OLLAMA_KEEP_ALIVE: The duration that models stay loaded in memory (-1 is forever)
+
+https://www.reddit.com/r/ollama/comments/1hmoaqf/ollama_parallelism/
+
+ollama run llama3
+ollama run mistral
+
+
+https://www.byteplus.com/en/topic/516162?title=how-to-run-multiple-models-in-ollama
+
+
+# Example of starting the server with custom settings on Linux/macOS
+OLLAMA_MAX_LOADED_MODELS=3 OLLAMA_KEEP_ALIVE="10m" ollama serve
+
+https://github.com/microsoft/agent-framework/tree/main/dotnet/samples/GettingStarted/AgentProviders
+
+https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai
+
+https://dev.to/expecho/give-your-llm-vibe-coding-superpowers-using-net-10-24fe
+
