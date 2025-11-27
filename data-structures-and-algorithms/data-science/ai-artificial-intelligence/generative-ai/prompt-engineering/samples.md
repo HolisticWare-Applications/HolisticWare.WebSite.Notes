@@ -203,4 +203,18 @@ split this file into multiple files with each class in separate file
 make all classes partial
 
 
+Propmts
+
+Deep Fake Detection
+
+https://danielkliewer.com/blog/2024-11-04-Deep-Fake
+
+prompt
+
+"Please can you look at the attached image,and then create a table in html that matches the 
+table in the image. We need to data to be an accuracte copy. Please style the table so it looks just 
+like the one in the attachment."
+
+
+
 
