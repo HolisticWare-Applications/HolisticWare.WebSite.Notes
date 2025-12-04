@@ -42,6 +42,11 @@ readme.md
 
         *   user
 
+Prompting
+
+https://github.com/NirDiamant/Prompt_Engineering
+
+https://github.com/NirDiamant/Prompt_Engineering/tree/main/all_prompt_engineering_techniques
 
     
 
@@ -219,4 +224,7 @@ Examples: Sample inputs/outputs to guide the expected response.
 Role (Persona): The perspective or tone the AI should adopt.
 Output Formatting: Specifications for how the response should be structured.
 Additional Information: Background or context that informs the task.
+
+
+
 
