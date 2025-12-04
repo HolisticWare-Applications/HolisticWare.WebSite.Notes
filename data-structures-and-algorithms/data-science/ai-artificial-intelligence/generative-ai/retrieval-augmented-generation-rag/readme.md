@@ -41,6 +41,14 @@
 
 *   https://www.reddit.com/r/Rag/comments/1mjs6q1/graphrag_stack_what_actually_works_and_when_to/
 
+*   https://www.reddit.com/r/Rag/comments/1ndgqjz/my_opensource_project_on_different_rag_techniques/
+
+*   https://github.com/NirDiamant/RAG_Techniques
+
+*   https://arxiv.org/pdf/2312.10997
+
+*   Retrieval-Augmented Generation for Large Language Models: A Survey
+
 
 ## OCR
 
