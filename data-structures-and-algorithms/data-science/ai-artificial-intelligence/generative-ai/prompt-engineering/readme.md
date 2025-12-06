@@ -42,11 +42,11 @@ readme.md
 
         *   user
 
-Prompting
+*   https://dev.to/piyushpk/what-is-prompt-enginnering-and-types-of-it--5blm
 
-https://github.com/NirDiamant/Prompt_Engineering
+*   https://github.com/NirDiamant/Prompt_Engineering
 
-https://github.com/NirDiamant/Prompt_Engineering/tree/main/all_prompt_engineering_techniques
+*   https://github.com/NirDiamant/Prompt_Engineering/tree/main/all_prompt_engineering_techniques
 
     
 
