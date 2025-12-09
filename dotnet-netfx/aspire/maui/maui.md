@@ -2,23 +2,52 @@
 
 maui.md
 
+*   https://github.com/jfversluis/MauiAspire
+
+*   https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/aspire-integration?view=net-maui-10.0
+
+*   https://learn.microsoft.com/en-us/samples/dotnet/maui-samples/maui-aspire-integration/
+
+*   https://aspire.dev/integrations/frameworks/maui/
+
+*   https://github.com/egvijayanand/dotnet-maui-samples
+
+*   https://egvijayanand.in/2025/10/29/integrating-dotnet-maui-with-aspire-a-comprehensive-guide/
+
 ## Videos
 
-holisticware.it
+*   Official Aspire Integration for .NET MAUI is here!
 
-*   HolisticWare featuring Aspire launching MAUI Apps 20240120
+    *   https://www.youtube.com/watch?v=iQ118UkM6J4
 
-    *   https://www.youtube.com/watch?v=fx1XOUFdU8k
+*   .NET Aspire for Mobile Apps?!
 
-*   HolisticWare featuring Aspire launching MAUI eShop Apps
+    *   https://www.youtube.com/watch?v=RCIM6qagZ-U
 
-    *   https://www.youtube.com/watch?v=nnFf58Ff1jA
+*   .NET MAUI Community Standup: Aspire & MAUI - A match made in the cloud!
 
-*   HolisticWare featuring MAUI and Aspire with Weather Service API
+    *   https://www.youtube.com/watch?v=b58K9vBjlIM
 
-    *   https://www.youtube.com/watch?v=zkvAaSTPs0c
+*   Share Local Web Services Across the Internet with Dev Tunnels CLI
 
-*   HolisticWare featuring Aspire with Python (Web and Script), MatLab, Julia and R
+    *   https://www.youtube.com/watch?v=doUDcQNoy38
 
-    *   https://www.youtube.com/watch?v=oDSW0t_x9MM
+
+*   holisticware.it
+
+    *   HolisticWare featuring Aspire launching MAUI Apps 20240120
+
+        *   https://www.youtube.com/watch?v=fx1XOUFdU8k
+
+    *   HolisticWare featuring Aspire launching MAUI eShop Apps
+
+        *   https://www.youtube.com/watch?v=nnFf58Ff1jA
+
+    *   HolisticWare featuring MAUI and Aspire with Weather Service API
+
+        *   https://www.youtube.com/watch?v=zkvAaSTPs0c
+
+    *   HolisticWare featuring Aspire with Python (Web and Script), MatLab, Julia and R
+
+        *   https://www.youtube.com/watch?v=oDSW0t_x9MM
 
