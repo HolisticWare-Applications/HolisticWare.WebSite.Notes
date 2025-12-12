@@ -155,6 +155,25 @@ testing.md
             --configuration="Release"
         ```
 
+https://github.com/PureWeen/maui-appium-mcp
+
+https://github.com/mobile-next/mobile-mcp
+
+https://github.com/mattleibow/DeviceRunners
+
+https://github.com/CommunityToolkit/Maui/pull/1444
+
+https://github.com/shinyorg/mediator/tree/main/tests/Shiny.Mediator.Maui.Tests
+
+https://github.com/Axemasta/DeviceTestingSampleApp
+
+https://github.com/dotMorten/MSTestX
+
+dotnet tool install --global MSTestX.Console --version 0.37.0
+dotnet restore MauiTestProject.csproj -p:TargetFrameworks=$TARGETFRAMEWORK -p:Configuration=Release 
+dotnet build MauiTestProject.csproj -r ios-arm64 -f $TARGETFRAMEWORK -p:TargetFrameworks=$TARGETFRAMEWORK -p:Configuration=Release
+MSTestX.Console -logFileName $TRXRESULTFILE -settings ${iOS_test_dir}/testsettings.runsettings -device $DEVICE_UUID -apppath "${WORKSPACE}/output/dotnet_AnyCPU_Release/uitests/$TARGETFRAMEWORK/iOS-arm64/MauiTestProject.app"
+
 
 
 
