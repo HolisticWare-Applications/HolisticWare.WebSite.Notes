@@ -18,28 +18,27 @@ span-memory.md
 
 *   https://medium.com/@antao.almada/how-to-use-span-t-and-memory-t-c0b126aae652
 
-https://stackoverflow.com/questions/51864673/c-sharp-readonlyspanchar-vs-substring-for-string-dissection
+*   https://stackoverflow.com/questions/51864673/c-sharp-readonlyspanchar-vs-substring-for-string-dissection
 
-https://medium.com/@antao.almada/slicing-managed-arrays-ae4f412a5d9e
+*   https://medium.com/@antao.almada/slicing-managed-arrays-ae4f412a5d9e
 
-https://github.com/aalmada/SpanSample/blob/master/SpanSample/StringBenchmarks.cs
+*   https://github.com/aalmada/SpanSample/blob/master/SpanSample/StringBenchmarks.cs
 
-https://blog.marcgravell.com/2017/04/spans-and-ref-part-1-ref.html
+*   https://blog.marcgravell.com/2017/04/spans-and-ref-part-1-ref.html
 
-https://blog.marcgravell.com/2017/04/spans-and-ref-part-2-spans.html
+*   https://blog.marcgravell.com/2017/04/spans-and-ref-part-2-spans.html
 
-https://github.com/dotnet/corefxlab/blob/master/docs/specs/span.md
+*   https://github.com/dotnet/corefxlab/blob/master/docs/specs/span.md
 
-https://www.reddit.com/r/programming/comments/7dzzpq/spant_in_c/
+*   https://www.reddit.com/r/programming/comments/7dzzpq/spant_in_c/
 
-https://adamsitnik.com/Span/#performance
+*   https://adamsitnik.com/Span/#performance
 
-https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
+*   https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
 
-https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
+*   https://blogs.msdn.microsoft.com/dotnet/2017/10/16/ryujit-just-in-time-compiler-optimization-enhancements/
 
-https://codereview.stackexchange.com/questions/204539/using-span-and-memory-to-read-utf8-from-a-socket
-
+*   https://codereview.stackexchange.com/questions/204539/using-span-and-memory-to-read-utf8-from-a-socket
 
 
 # Span
@@ -146,10 +145,27 @@ ReadOnlySpan<char> myReadOnlySpan = "My read only string".AsReadOnlySpan();
 
 *   http://mattwarren.org/2018/10/02/A-History-of-.NET-Runtimes/
 
+## Alternative
+
+*   https://github.com/VictorNicollet/NoAlloq
+
+*   https://www.reddit.com/r/csharp/comments/1d9osi1/has_anybody_used_span_yet/
+
+*   https://www.reddit.com/r/csharp/comments/or08ny/returning_spans_from_methods/
+
+*   https://www.reddit.com/r/csharp/comments/1lgrxbl/c_span_and_garbage_collection/
+
+
+*   https://medium.com/@hpultimatemedia/master-zero-allocation-programming-the-ultimate-guide-to-span-t-and-memory-t-in-c-to-read-318c5da9d31c
+
 
 ## Videos
 
 *   https://www.youtube.com/watch?v=7GTpwgsmHgU
+
+*   Stackalloc and Spans
+
+    *   https://www.youtube.com/watch?v=pcHu7-SEsug
 
 
 ```csharp
