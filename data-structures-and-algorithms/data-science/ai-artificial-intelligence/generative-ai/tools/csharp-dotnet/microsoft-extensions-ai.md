@@ -21,3 +21,5 @@ microsoft-extensions-ai.md
         *   https://github.com/Esquetta/MicrosoftExtensionsAI.Example/blob/master/Program.cs
 
         *   https://github.com/gncyyldz/MicrosoftExtensionsAI.Example
+
+*   https://medium.com/bytehide/llms-in-net-made-easy-hands-on-with-microsoft-extensions-ai-0734b41a02e0
