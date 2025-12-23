@@ -14,32 +14,38 @@ fine-tuning.md
 
     *   https://huggingface.co/datasets/internlm/Agent-FLAN
 
-https://github.com/LM-Kit/Maestro
+*   LoRA & QLoRA Fine-tuning Explained In-Depth
 
-https://github.com/LM-Kit/lm-kit-net-samples/blob/main/console_net/custom_chatbot_with_rag/Program.cs
+    *   https://www.youtube.com/watch?v=t1caDsMzWBk
 
-fine tuning dataset for c#
+*   https://github.com/LM-Kit/Maestro
 
-https://discuss.huggingface.co/t/fine-tuning-a-llm-with-a-code/70353/8
+*   https://github.com/LM-Kit/lm-kit-net-samples/blob/main/console_net/custom_chatbot_with_rag/Program.cs
 
-Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Instruct
-Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Code-ORPO-LoRA
-Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp
-Safurai/Safurai-Csharp-34B
-Safurai/Safurai-Csharp-34B-GGUF
+*   fine tuning dataset for c#
 
-https://huggingface.co/blog/personal-copilot
+    *   https://discuss.huggingface.co/t/fine-tuning-a-llm-with-a-code/70353/8
 
-https://github.com/georgesung/llm_qlora
+    ```
+    Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Instruct
+    Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Code-ORPO-LoRA
+    Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp
+    Safurai/Safurai-Csharp-34B
+    Safurai/Safurai-Csharp-34B-GGUF
+    ```
 
-https://www.georgesung.com/ai/qlora-ift/
+*   https://huggingface.co/blog/personal-copilot
 
-https://discuss.huggingface.co/t/fine-tuning-llms-on-large-proprietary-codebases/155828/5
+*   https://github.com/georgesung/llm_qlora
 
-https://huggingface.co/papers/2311.03243
+*   https://www.georgesung.com/ai/qlora-ift/
 
-Finally, LLMs in .NET with Fine-Tuning Llama 3
+*   https://discuss.huggingface.co/t/fine-tuning-llms-on-large-proprietary-codebases/155828/5
 
-    https://www.youtube.com/watch?v=pCG6prC1ZDU
+*   https://huggingface.co/papers/2311.03243
 
-    https://github.com/MaxAkbar/Local.NET.LLM
+*   Finally, LLMs in .NET with Fine-Tuning Llama 3
+
+    *   https://www.youtube.com/watch?v=pCG6prC1ZDU
+
+    *   https://github.com/MaxAkbar/Local.NET.LLM
