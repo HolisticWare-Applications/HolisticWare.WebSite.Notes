@@ -92,3 +92,7 @@ https://www.careercup.com/page?pid=google-interview-questions
 https://www.careercup.com/page?pid=microsoft-interview-questions
 
 https://goalkicker.com/
+
+*   https://codeload.github.com/fedcal/libriInformatica/zip/refs/heads/master
+
+*   https://github.com/ensarbooks/guides
