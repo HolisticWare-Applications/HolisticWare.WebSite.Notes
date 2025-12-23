@@ -15,4 +15,15 @@
 
     *   https://github.com/thinkpixellab/kaxaml
 
-    
+## XAML compilers
+
+*   XamlC
+
+    *   https://learn.microsoft.com/en-us/dotnet/maui/xaml/xamlc
+
+*   XamlX
+
+    *   https://github.com/kekekeks/XamlX
+
+
+*   https://github.com/ForNeVeR/xaml-compiler
