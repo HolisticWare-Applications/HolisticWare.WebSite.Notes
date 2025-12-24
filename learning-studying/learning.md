@@ -41,3 +41,14 @@ learning.md
 
 *   http://www.weeklydevtips.com/016
 
+Learning
+
+Biggest career accelerator in the next decade: get really, really good at learning.
+
+- figure out your learning style
+
+- use AI to convert material into that format/style (podcasts, quizzes, etc.)
+
+- apply knowledge
+
+- repeat
