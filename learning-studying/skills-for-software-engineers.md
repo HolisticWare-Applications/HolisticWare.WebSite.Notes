@@ -20,3 +20,19 @@ skills-for-software-engineers.md
     *   Without that, the whole development process falls apart
     
 *   communication
+
+
+*   This is the Skill you NEED as a software engineer
+
+    *   https://youtu.be/sFKTYi6aLIE
+
+    *   complex problem analysis
+
+        *   decomposing/partioning
+
+        *   detecting knowledge
+
+            *   present/ackqiured
+
+            *   needed
+        
