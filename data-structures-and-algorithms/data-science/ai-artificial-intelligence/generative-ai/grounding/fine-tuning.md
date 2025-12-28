@@ -26,7 +26,7 @@ fine-tuning.md
 
     *   https://discuss.huggingface.co/t/fine-tuning-a-llm-with-a-code/70353/8
 
-    ```
+    ```shell
     Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Instruct
     Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Code-ORPO-LoRA
     Alexis-Az/Qwen-2.5-Coder-7B-4bit-CSharp
