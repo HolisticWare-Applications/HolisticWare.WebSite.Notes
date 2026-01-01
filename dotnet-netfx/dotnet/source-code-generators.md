@@ -26,7 +26,9 @@ source-code-generators.md
 
 *   https://github.com/VerifyTests/Verify
 
-https://kafkawannafly.medium.com/c-how-to-write-a-source-generator-part-3-5-coding-181703d47308
+*   https://kafkawannafly.medium.com/c-how-to-write-a-source-generator-part-3-5-coding-181703d47308
+
+*   https://stackoverflow.com/questions/75743629/source-generator-method-of-getting-all-implementations-of-a-symbol-including
 
 
 ## Tools
