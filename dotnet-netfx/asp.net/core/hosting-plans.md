@@ -2,6 +2,18 @@
 
 hosting-plans.md
 
+*   Linode
+
+    *   https://www.linode.com/
+
+*   https://www.hetzner.com/
+
+    *   https://www.reddit.com/r/devops/comments/oybn8k/deploy_net_project_to_hetzner/
+
+*   https://fly.io/
+
+    *   https://fly.io/calculator
+
 *   https://www.smarterasp.net/hosting_plans
 
 *   https://hostadvice.com/lp/hosting-services/windows/
@@ -24,10 +36,6 @@ hosting-plans.md
 
     *   https://blog.pitermarx.com/2024/04/free-dotnet-hosting-or...-having-fun-with-dotnet/
 
-*   Linode
-
-    *   https://www.linode.com/
-
 *   MonsterAsp.net
 
     *   https://www.monsterasp.net/
@@ -42,10 +50,11 @@ hosting-plans.md
 
     
 
+*   https://www.hanselman.com/blog/penny-pinching-in-the-cloud-running-and-managing-lots-of-web-apps-on-a-single-azure-app-service
 
+*   https://www.reddit.com/r/dotnet/comments/1q0vg76/azure_feels_like_overkill_for_small_net_sites_am/
 
-
-https://www.reddit.com/r/dotnet/comments/1c84plr/want_to_launchhost_side_project/
+*   https://www.reddit.com/r/dotnet/comments/1c84plr/want_to_launchhost_side_project/
 
 
 Look into incorporating and applying for this: https://foundershub.startups.microsoft.com/signup it’s free credits and I’ve never seen someone turned down.
