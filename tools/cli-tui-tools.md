@@ -8,9 +8,12 @@ cli-tui-tools.md
 
     *   notes
 
-        *   gofumpt
-
-        *   golangci-lint
+        *   tmux
+        
+        
+            ```shell
+            brew install tmux
+            ```
 
         *   colima
 
@@ -26,135 +29,149 @@ cli-tui-tools.md
             brew install lazydocker
             ```
 
-    https://github.com/jesseduffield/lazydocker
+            *   https://github.com/jesseduffield/lazydocker
 
-dive
+        *   dive
 
             ```shell
             brew install dive
             ```
 
-    https://github.com/wagoodman/dive
+            *   https://github.com/wagoodman/dive
 
-ctop
+        *   ctop
 
             ```shell
             brew install ctop
             ```
 
-    https://ctop.sh/
+            *   https://ctop.sh/
 
-    https://github.com/bcicen/ctop
+            *   https://github.com/bcicen/ctop
 
-
-kubernetes
+        *   kubernetes
 
             ```shell
             brew install kubernetes-cli
             ```
 
-    https://kubernetes.io/docs/reference/kubectl/
+            *   https://kubernetes.io/docs/reference/kubectl/
 
-fuzzy finder
+        *   fuzzy finder
 
             ```shell
             brew install fzf
             ```
 
-    https://github.com/junegunn/fzf
+            *   https://github.com/junegunn/fzf
 
-ripgrep
+        *   ripgrep
 
             ```shell
             brew install ripgrep
             ```
 
-    https://github.com/BurntSushi/ripgrep
+            *   https://github.com/BurntSushi/ripgrep
 
             ```shell
             brew install ripgrep-all
             ```
 
-    https://github.com/phiresky/ripgrep-all
+            *   https://github.com/phiresky/ripgrep-all
 
-fd
+        *   fd
 
             ```shell
             brew install fd
             ```
 
-    https://github.com/sharkdp/fd
+            *   https://github.com/sharkdp/fd
     
-bat
+        *   bat
 
             ```shell
             brew install bat
             ```
 
-    https://github.com/sharkdp/bat
+            *   https://github.com/sharkdp/bat
 
-lazygit
+        *   lazygit
 
             ```shell
             brew install lazygit
             ```
 
-    https://github.com/jesseduffield/lazygit/
+            *   https://github.com/jesseduffield/lazygit/
 
-k6
+        *   k6
 
             ```shell
             brew install k6
             ```
 
-    https://k6.io/
+            *   https://k6.io/
 
-    https://k6.io/open-source/
+            *   https://k6.io/open-source/
 
-    https://github.com/grafana/k6
+            *   https://github.com/grafana/k6
 
             ```shell
             brew install --cask k6-studio
             ```
 
-    https://grafana.com/docs/k6-studio/
+            *   https://grafana.com/docs/k6-studio/
 
-            ```shell
-            brew install xk6
-            ```
     
-vegeta
+        *   vegeta
 
             ```shell
             brew install vegeta
             ```
 
-    https://github.com/tsenart/vegeta
+            *   https://github.com/tsenart/vegeta
 
-gping
+        *   gping
 
             ```shell
             brew install gping
             ```
 
-    https://github.com/orf/gping
+            *   https://github.com/orf/gping
 
-doggo
+        *   doggo
 
             ```shell
             brew install doggo
             ```
 
-    https://doggo.mrkaran.dev/
+            *   https://doggo.mrkaran.dev/
 
-    https://github.com/mr-karan/doggo
+            *   https://github.com/mr-karan/doggo
 
-asciinema
+        *   asciinema
 
             ```shell
             brew install asciinema
             ```
 
-    https://asciinema.org/
+            *   https://asciinema.org/
+
+        *   gofumpt
+
+            ```shell
+            brew install gofumpt
+            ```
+
+            *   https://github.com/mvdan/gofumpt
+
+        *   golangci-lint
+
+            ```shell
+            brew install golangci-lint
+            ```
+
+            *   https://golangci-lint.run/
+
+
 
     
