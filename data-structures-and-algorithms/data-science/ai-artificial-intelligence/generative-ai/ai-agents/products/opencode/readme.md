@@ -10,16 +10,13 @@ readme.md
 ```shell
 brew \
     install \
+        opencode
+
+brew \
+    install \
         --cask \
             opencode-desktop
 ```
-
-Easy OLLAMA Setup with OpenCode in MINUTES
-
-```
-$HOME/.config/opencode/opencode.json
-```
-
 
 *   Easy OLLAMA Setup with OpenCode in MINUTES
 
@@ -30,3 +27,20 @@ $HOME/.config/opencode/opencode.json
     *   https://www.youtube.com/watch?v=M0P_wzJPxMU
 
         *   https://github.com/darrenhinde/Opencode-skills-example
+
+*   opencode
+
+    *   https://www.reddit.com/r/GithubCopilot/comments/1pxicdu/recommending_everyone_to_download_opencode_and/
+
+*   Opencode Is Probably The Best Coding Agent I've Ever Used
+
+    *   https://www.youtube.com/watch?v=e9j2iEwJru0
+
+
+*   You've Been Using AI the Hard Way (Use This Instead)
+
+    *   https://www.youtube.com/watch?v=MsQACpcuTkU
+
+*   AI in the Terminal - Complete Guide
+
+    *   https://github.com/theNetworkChuck/ai-in-the-terminal
