@@ -2,7 +2,10 @@
 
 readme.md
 
+
 *   https://learnprompting.org/docs/introduction
+
+    *   https://learnprompting.org/docs/advanced/thought_generation/introduction
 
 *   https://www.promptingguide.ai/introduction/basics
 
