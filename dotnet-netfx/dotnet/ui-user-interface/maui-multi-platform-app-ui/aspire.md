@@ -2,10 +2,13 @@
 
 aspire.md
 
+*   current implementation
+
+    *   DevTunnels needed
 
 *   https://github.com/jfversluis/MauiAspire
 
-*   https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/aspire-integration?view=net-maui-10.0
+*   https://learn.microsoft.com/en-us/dotnet/maui/data-cloud/aspire-integration
 
 *   https://learn.microsoft.com/en-us/samples/dotnet/maui-samples/maui-aspire-integration/
 
@@ -14,6 +17,9 @@ aspire.md
 *   https://github.com/egvijayanand/dotnet-maui-samples
 
 *   https://egvijayanand.in/2025/10/29/integrating-dotnet-maui-with-aspire-a-comprehensive-guide/
+
+*   https://github.com/BretJohnson/aspire-mobile
+
 
 ## Videos
 
@@ -33,6 +39,9 @@ aspire.md
 
     *   https://www.youtube.com/watch?v=doUDcQNoy38
 
+*   Aspire, MAUI and whatnot on @GoneDotNet
+
+    *   https://www.youtube.com/watch?v=kCINvbYcmv0
 
 *   holisticware.it
 
