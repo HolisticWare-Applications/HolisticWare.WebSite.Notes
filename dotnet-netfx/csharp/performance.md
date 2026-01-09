@@ -61,6 +61,18 @@ csharp-performance.md
 
 ## References / Links
 
+*   https://chainding.wordpress.com/2011/12/22/c-optimization-secrets/
+
+*   https://learn.microsoft.com/en-us/previous-versions/dotnet/articles/ms973839(v=msdn.10)?redirectedfrom=MSDN#dotnetperftips_topic2
+
+*   https://bornagajic.medium.com/c-structs-101-aa5ff20963df
+
+*   https://mono.software/2022/11/18/efficient-code-opimizations-in-C/
+
+*   https://ironpdf.com/blog/net-help/csharp-const/
+
+*   https://lionadi.wordpress.com/2016/05/16/c-code-optimization-methods-and-techniques/
+
 *   https://www.itu.dk/~sestoft/papers/numericperformance.pdf
 
 *   https://www.codeproject.com/Articles/212856/Head-to-head-benchmark-Csharp-vs-NET
