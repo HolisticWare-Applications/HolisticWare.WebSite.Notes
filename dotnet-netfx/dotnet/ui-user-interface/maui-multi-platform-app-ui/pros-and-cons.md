@@ -35,3 +35,8 @@ pros-and-cons.md
     *   https://x.com/sandofsky/status/1610470289435164673
 
 ## Pros
+
+
+## Diverse
+
+*   https://www.reddit.com/r/dotnet/comments/1pvjr08/is_maui_production_ready/
