@@ -2,6 +2,18 @@
 
 performance.md
 
+MAUI Performance
+
+*   https://www.nuget.org/packages/PerformanceDebugOverlay/
+
+*   https://github.com/vankraster/MauiPerfDebugOverlay
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/1nbzp8q/realtime_performance_overlay_for_net_maui_apps/
+
+*   https://github.com/dotnet/maui/pull/31058
+
+    *   [v3] Add Diagnostics Metrics Tracking to MAUI Applications #31058
+
 *   https://github.com/jonathanpeppers/lols/issues/4
 
     *   https://github.com/jonathanpeppers/lols
