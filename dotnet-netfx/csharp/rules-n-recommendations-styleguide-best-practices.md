@@ -18,6 +18,11 @@ rules-n-recommendations-styleguide-best-practices.md
 
         *   reading w/o tools (intellisense, etc.) is easier
 
+*   C# R&Rs
+
+    *   https://www.youtube.com/watch?v=_ceGKgNWFXw
+
+
 ## References
 
 *   https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
