@@ -42,6 +42,10 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
 ## AI Cons
 
+*   https://ppc.land/why-expert-developers-refuse-to-vibe-with-ai-coding-tools/
+
+*   https://ppc.land/github-loses-independence-as-microsoft-absorbs-developer-platform-into-coreai/
+
 *   Geoffrey Hinton’s Final Warning: AI Might Already Be Alive
 
     *   https://www.youtube.com/watch?v=9F65QGgCXpg&ab_channel=Technomics
