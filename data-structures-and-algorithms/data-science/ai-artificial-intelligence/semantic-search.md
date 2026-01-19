@@ -48,3 +48,9 @@ https://github.com/OpenInterpreter/aifs/tree/main/aifs
 
                 json
 
+Semantic Search
+
+*   https://codito.in/semantic-search-ml-dotnet/
+
+*   https://devblogs.microsoft.com/visualstudio/improving-codebase-awareness-in-visual-studio-chat/
+
