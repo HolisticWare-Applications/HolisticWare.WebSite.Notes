@@ -2,6 +2,38 @@
 
 serialization-formats.md
 
+Binary Serialization
+
+https://github.com/Digvijay/Rapp
+
+https://www.reddit.com/r/dotnet/comments/1qa9ygx/i_built_a_schemaaware_binary_serializer_for_net/
+
+
+Protobuf
+
+Avro
+
+MemoryPack
+
+FlatSharp
+
+    https://github.com/jamescourtney/FlatSharp
+
+MagicOnion
+
+    gRPC
+
+        https://grpc.io/docs/languages/csharp/
+
+    https://neuecc.medium.com/magiconion-unified-realtime-api-engine-for-net-core-and-unity-21e02a57a3ff
+
+    https://neuecc.medium.com/magiconion-unified-realtime-api-engine-for-net-core-and-unity-21e02a57a3ff
+
+    https://www.reddit.com/r/dotnet/comments/18dr0qf/stlrpc_the_fastest_rpc_protocol_for_net/
+
+    https://github.com/Byndyusoft/grpc-tools
+    
+    
 *   https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats
 
     *   Avro, 
