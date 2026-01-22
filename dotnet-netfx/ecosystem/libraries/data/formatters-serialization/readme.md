@@ -21,7 +21,7 @@ Definition:
 
 *   https://github.com/morrisjdev/FileContextCore
 
-Terms:
+Term
 
 *   Serialization/Deserialization
 
