@@ -54,6 +54,7 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
     *   https://www.youtube.com/watch?v=IkdziSLYzHw&ab_channel=TheRoyalInstitution
 
+*   https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur
 
 
 ### AI learning or brain rot
@@ -61,4 +62,10 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 *   https://ghuntley.com/cursed/
 
 *   https://github.com/ghuntley/cursed
+
+### Applications
+
+*   AI Floor Plans are worse than you'd think (with @AbbyCox )
+
+    *   https://www.youtube.com/watch?v=VkPbBcdrd0U
 
