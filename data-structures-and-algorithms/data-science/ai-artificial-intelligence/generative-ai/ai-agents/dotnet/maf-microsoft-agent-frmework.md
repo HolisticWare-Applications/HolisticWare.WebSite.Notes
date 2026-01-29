@@ -95,3 +95,6 @@ https://github.com/estebanGps/ai-agents-course
 https://github.com/devlooped/Extensions.AI
 
 https://github.com/vijaymoorthy/MicrosoftAIExtension-Agents    
+
+
+https://www.reddit.com/r/dotnet/comments/1qo8byw/net_10_ai_is_anyone_actually_adopting_microsofts/
