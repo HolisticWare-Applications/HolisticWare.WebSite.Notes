@@ -21,11 +21,24 @@ context-window.md
 
                 process of calculating relationships and dependencies between different part of the input
                 
+*   https://www.reddit.com/r/GithubCopilot/comments/1qoz1xi/why_128k_context_window_is_not_enough/
 
 
-A "context window" in the realm of large language models (LLMs) refers to the amount of text, measured in tokens, that the model can consider or "remember" when generating or understanding language. Essentially, it's the model's working memory. A larger context window allows the model to process longer inputs and incorporate more information, leading to potentially more coherent and contextually relevant responses. 
+*   amount of text
 
-https://www.ibm.com/think/topics/context-window
+    *   model can consider or "remember" when generating or understanding language
+
+    *   measured in tokens
+        
+    *   models working memory
+    
+    *   larger context window 
+    
+        *   allows the model to process longer inputs and incorporate more information
+        
+            *   leading to potentially more coherent and contextually relevant responses
+
+*   https://www.ibm.com/think/topics/context-window
 
 Key points about context windows:
 Tokens:
