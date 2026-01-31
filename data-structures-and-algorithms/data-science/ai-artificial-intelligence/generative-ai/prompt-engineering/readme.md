@@ -5,6 +5,10 @@ readme.md
 
 *   https://learnprompting.org/docs/introduction
 
+    *   Prompting
+
+        *   https://learnprompting.org/docs/basics/beyond_basics
+
     *   https://learnprompting.org/docs/advanced/thought_generation/introduction
 
 *   https://www.promptingguide.ai/introduction/basics
