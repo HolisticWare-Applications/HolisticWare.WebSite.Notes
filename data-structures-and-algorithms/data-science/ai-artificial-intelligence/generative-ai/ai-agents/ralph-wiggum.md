@@ -23,6 +23,8 @@ https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum
 
 https://venturebeat.com/technology/how-ralph-wiggum-went-from-the-simpsons-to-the-biggest-name-in-ai-right-now
 
+https://www.theregister.com/2026/01/27/ralph_wiggum_claude_loops/
+
 https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum
 
 https://medium.com/vibe-coding/everyones-using-ralph-loops-wrong-here-s-what-actually-works-e5e4208873c1
