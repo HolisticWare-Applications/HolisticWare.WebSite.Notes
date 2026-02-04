@@ -60,10 +60,13 @@ For example:
 
 YAML file with Workflow name `build-source`:
 
-```
-https://github.com/HolisticWare/HolisticWare.Core.Text/blob/master/.github/workflows/build.yml#L2
-```
 
 ```
 https://github.com/holisticware/Holisticware.Core.Text/workflows/build-source/badge.svg
+https://github.com/github/copilot-cli/tree/main/.github/workflows
+https://github.com/HolisticWare/HolisticWare.Core.Text/blob/master/.github/workflows/build.yml#L2
 ```
+
+
+
+
