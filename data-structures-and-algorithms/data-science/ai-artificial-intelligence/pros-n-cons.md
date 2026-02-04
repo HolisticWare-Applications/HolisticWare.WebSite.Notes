@@ -36,11 +36,27 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
     *   https://www.youtube.com/watch?v=5UhnQ2h-5BY
 
-## AI Pros
+## Pros
 
 *   https://www.leravi.org/bill-gates-reveals-the-one-job-ai-will-never-replace-even-in-100-years-10272/
 
-## AI Cons
+## Cons
+
+*   If AI Takes All Jobs, Who Will Buy Everything?
+
+    *   https://www.youtube.com/watch?v=1gmaQwp5uSk
+
+*   If AI Takes All the Jobs, Who Will Buy the Stuff?
+
+    *   https://www.youtube.com/watch?v=YgD61aSPWRs
+
+*   If AI Takes All Of Our Jobs... Who's Going To Buy Everything?
+
+    *   https://www.youtube.com/watch?v=MYB0SVTGRj4
+    
+*   The Real A.I. Problem No One Is Talking About (Who Buys Your Stuff, Robots?)
+
+    *   https://www.youtube.com/watch?v=tK7qIn6Y0K8
 
 *   https://ppc.land/why-expert-developers-refuse-to-vibe-with-ai-coding-tools/
 
@@ -56,6 +72,17 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
 *   https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur
 
+## Neutral
+
+*   https://devclass.com/2026/01/28/typescript-inventor-anders-hejlsberg-ai-is-a-big-regurgitator-of-stuff-someone-has-done/
+
+*   https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/
+
+*   All things AI w @altcap @sama & @satyanadella. A Halloween Special. 🎃🔥BG2 w/ Brad Gerstner
+
+
+    *   https://www.youtube.com/watch?v=Gnl833wXRz0
+
 
 ### AI learning or brain rot
 
@@ -68,4 +95,13 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 *   AI Floor Plans are worse than you'd think (with @AbbyCox )
 
     *   https://www.youtube.com/watch?v=VkPbBcdrd0U
+
+
+
+AI pros cons
+
+Clawdbot
+Moldbook
+
+https://news.ycombinator.com/item?id=46821482
 
