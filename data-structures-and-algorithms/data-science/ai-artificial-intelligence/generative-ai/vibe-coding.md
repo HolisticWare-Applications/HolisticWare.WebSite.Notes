@@ -61,3 +61,23 @@ $(MSBuildThisFileDirectory)
 
 https://github.com/dotnet/extensions/blob/main/Directory.Build.props
 
+
+https://visualstudiomagazine.com/articles/2026/01/29/hands-on-new-github-agents-tab-for-repo-level-copilot-coding-agent-workflows.aspx
+
+    https://github.com/dsramel/antigravity-ticket-desk
+
+    Add a GitHub Actions workflow that runs on pull requests and pushes to main.
+
+    Improve README documentation with clearer setup and run instructions and a short project 
+    structure overview.
+
+https://visualstudiomagazine.com/articles/2026/01/28/hands-on-comparison-building-a-dynamic-web-app-in-vs-code-and-google-antigravity-with-prompts-only.aspx
+
+https://visualstudiomagazine.com/articles/2026/01/26/what-a-difference-a-vs-code-fork-makes-antigravity-cursor-and-windsurf-compared.aspx
+
+*   https://visualstudiomagazine.com/articles/2026/01/23/hands-on-testing-cursor-windsurf-and-vs-code-on-text-to-web-site-generation.aspx
+
+*   https://visualstudiomagazine.com/articles/2026/01/14/hands-on-with-copilot-vision-vs-codes-head-start-and-how-the-ide-is-catching-up.aspx
+
+*   https://visualstudiomagazine.com/articles/2025/02/20/vs-code-insiders-creates-web-page-from-image-in-seconds.aspx
+
