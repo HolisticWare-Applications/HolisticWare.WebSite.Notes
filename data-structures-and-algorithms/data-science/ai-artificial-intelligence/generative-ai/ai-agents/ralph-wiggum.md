@@ -82,3 +82,26 @@ https://www.reddit.com/r/ClaudeAI/comments/1pxc31u/a_quick_guide_to_ralph_wiggum
 
 https://awesomeclaude.ai/ralph-wiggum
 
+
+https://github.com/ghuntley/how-to-ralph-wiggum
+
+*   Ryan Carson Explains The Ralph Wiggum Loop - Ep 76
+
+    *   https://www.youtube.com/watch?v=08xOaAN7zv0
+
+*   "Ralph Wiggum" AI Agent will 10x Claude Code/Amp
+
+    *   https://www.youtube.com/watch?v=RpvQH0r0ecM
+
+Ralph Wiggum with Ryan Carson: Autonomous loops: give agents atomic user stories and let them finish
+
+    https://www.youtube.com/shorts/kledazj3pjg
+
+I Can't Believe Anthropic Messed Up The Ralph Wiggum
+
+    https://www.youtube.com/watch?v=XVAhQ-EcrWA
+
+https://thegoodprogrammer.medium.com/the-ralph-wiggum-pattern-automation-and-persistence-for-coding-agents-4e8fa6f81dff
+
+
+https://addyosmani.com/blog/self-improving-agents/
