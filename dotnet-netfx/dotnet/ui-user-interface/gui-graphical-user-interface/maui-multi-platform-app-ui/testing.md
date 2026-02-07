@@ -155,28 +155,35 @@ testing.md
             --configuration="Release"
         ```
 
-https://github.com/PureWeen/maui-appium-mcp
+testing
 
-https://github.com/mobile-next/mobile-mcp
+*   https://github.com/shinyorg/xunit-maui
 
-https://github.com/mattleibow/DeviceRunners
+*   https://github.com/dotnet/xharness
 
-https://github.com/CommunityToolkit/Maui/pull/1444
+*   https://github.com/PureWeen/maui-appium-mcp
 
-https://github.com/shinyorg/mediator/tree/main/tests/Shiny.Mediator.Maui.Tests
+*   https://github.com/mobile-next/mobile-mcp
 
-https://github.com/Axemasta/DeviceTestingSampleApp
+*   https://github.com/mattleibow/DeviceRunners
 
-https://github.com/dotMorten/MSTestX
+*   https://github.com/CommunityToolkit/Maui/pull/1444
 
+*   https://github.com/shinyorg/mediator/tree/main/tests/Shiny.Mediator.Maui.Tests
+
+*   https://github.com/Axemasta/DeviceTestingSampleApp
+
+*   https://github.com/dotMorten/MSTestX
+
+```bash
 dotnet tool install --global MSTestX.Console --version 0.37.0
 dotnet restore MauiTestProject.csproj -p:TargetFrameworks=$TARGETFRAMEWORK -p:Configuration=Release 
 dotnet build MauiTestProject.csproj -r ios-arm64 -f $TARGETFRAMEWORK -p:TargetFrameworks=$TARGETFRAMEWORK -p:Configuration=Release
 MSTestX.Console -logFileName $TRXRESULTFILE -settings ${iOS_test_dir}/testsettings.runsettings -device $DEVICE_UUID -apppath "${WORKSPACE}/output/dotnet_AnyCPU_Release/uitests/$TARGETFRAMEWORK/iOS-arm64/MauiTestProject.app"
+```
 
 
-
-
+```
 49 = Java 5
 50 = Java 6
 51 = Java 7
@@ -202,7 +209,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v 17`
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/microsoft-17.jdk/Contents/Home/
 
 /usr/libexec/java_home -V
-
+```
 
 ```bash
 $HOME/Library/Android/sdk/cmdline-tools/latest/bin/avdmanager delete avd -n DEVICE_TESTS_EMULATOR
@@ -216,6 +223,7 @@ Error: LinkageError occurred while loading main class com.android.sdklib.tool.Av
 
 ```bash
 which avdmanager
+```
 
 ```bash
 /usr/local/bin/avdmanager
@@ -254,8 +262,7 @@ echo $ANDROID_SDK_ROOT
 $HOME/Library/Android/sdk
 ```
 
-
-https://formulae.brew.sh/cask/android-commandlinetools
+*   https://formulae.brew.sh/cask/android-commandlinetools
 
 ```
 brew uninstall --cask android-commandlinetools
