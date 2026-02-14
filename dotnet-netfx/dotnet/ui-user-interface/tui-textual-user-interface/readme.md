@@ -8,19 +8,6 @@ TUIs Are Back (Although They Never Left): Creating Modern CLI Apps in .NET.
 https://github.com/RazorConsole/RazorConsole
 
 
-https://github.com/gui-cs/Terminal.Gui
-
-dotnet new --install Terminal.Gui.templates
-dotnet new tui -n myproj
-cd myproj
-dotnet run
-
-https://gui-cs.github.io/Terminal.Gui/
-
-https://github.com/tznind/TerminalGuiDesigner 
-
-dotnet tool install --global TerminalGuiDesigner
-
 https://spectreconsole.net/
 
 https://github.com/spectreconsole/spectre.console
