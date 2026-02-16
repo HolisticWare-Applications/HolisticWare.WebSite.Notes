@@ -105,3 +105,26 @@ Moldbook
 
 https://news.ycombinator.com/item?id=46821482
 
+AI cons
+
+https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/
+
+https://forkingmad.blog/insulted-today-ai/
+
+https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
+
+https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html
+
+```
+People generally try to market new technologies by telling you their upsides, not their downsides.
+
+But Microsoft’s AI CEO is saying AI is going to take everybody’s job. And Sam Altman is saying that AI will wipe out 
+entire categories of jobs. ANd Matt Shumer is saying that AI is currently like Covid in January 2020—as in, “kind of 
+under the radar, but about to kill millions of people”.
+
+I legitimately feel like I am going insane when I hear AI technologists talk about the technology. They’re supposed to 
+market it. But they’re instead saying that it is going to leave me a poor, jobless wretch, a member of the “permanent
+underclass,” as the meme on Twitter goes. Half the videos and blog posts I see about new models boil down to somebody
+running it through a benchmark, then saying “chat we’re cooked, might as well end it all now.” This isn’t just a strange
+way of marketing a product, it is a completely psychotic one.
+```
