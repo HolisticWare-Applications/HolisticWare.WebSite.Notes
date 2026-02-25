@@ -107,6 +107,18 @@ https://news.ycombinator.com/item?id=46821482
 
 AI cons
 
+https://shows.acast.com/scott-and-mark-learn-to/episodes/scott-mark-learn-to-the-ai-productivity-trap-senior-boost-ju
+
+https://shows.acast.com/scott-and-mark-learn-to/episodes/
+
+    https://feeds.acast.com/public/shows/scott-and-mark-learn-to
+
+https://huggingface.co/papers/2602.20021
+
+https://arxiv.org/pdf/2602.20021
+
+https://www.constellationr.com/insights/news/agents-chaos-paper-raises-agentic-ai-questions
+
 https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/
 
 https://forkingmad.blog/insulted-today-ai/
