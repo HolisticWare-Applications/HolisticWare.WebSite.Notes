@@ -16,3 +16,5 @@ brew install copilot-cli
 ```shell
 brew install copilot-cli@prerelease
 ```
+
+*   https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli
