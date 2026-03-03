@@ -1,17 +1,28 @@
 
-export OPENCODE_CONFIG=/path/to/my/custom-config.json
-opencode run "Hello world"
-
-export OPENCODE_CONFIG_DIR=/path/to/my/config-directory
-opencode run "Hello world"
 
 
-https://github.com/rothnic/opencode-island/tree/main/docs
+```
+https://github.com/search?q=path%3A**%2Fopencode.json
+https://github.com/search?q=path%3A**%2Fopencode.jsonc
+```
 
 ```
 $HOME/.config/opencode/opencode.json
 $HOME/.config/opencode/opencode.jsonc
 ```
+
+```
+export OPENCODE_CONFIG=/path/to/my/custom-config.json
+opencode run "Hello world"
+```
+
+```
+export OPENCODE_CONFIG_DIR=/path/to/my/config-directory
+opencode run "Hello world"
+```
+
+* https://github.com/rothnic/opencode-island/tree/main/docs
+
 
 https://github.com/inkeep/agents/blob/main/opencode.jsonc
 
