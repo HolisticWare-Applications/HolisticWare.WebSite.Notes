@@ -34,6 +34,14 @@ skills.md
         $PROJECT_ROOT/.claude/skills/developer-blazor/SKILL.md
         ```
 
+*   https://github.com/microsoft/skills
+
+*   https://microsoft.github.io/skills/
+
+*   https://github.com/microsoft/skills/blob/main/.vscode/mcp.json
+
+
+
 
 ```markdown
 ---
