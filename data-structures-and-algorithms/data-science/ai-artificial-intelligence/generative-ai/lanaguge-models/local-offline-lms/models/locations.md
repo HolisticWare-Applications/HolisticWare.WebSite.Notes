@@ -5,7 +5,7 @@ tree -L2 -d $HOME/.cache/huggingface/
 ```
 
 ```shell
-/Users/moljac/.cache/huggingface/
+~/.cache/huggingface/
 ├── hub
 │   ├── models--Alexis-Az--Qwen-2.5-Coder-7B-4bit-CSharp
 │   ├── models--Alexis-Az--Qwen-2.5-Coder-7B-4bit-CSharp-Alpaca-Code-ORPO-LoRA
