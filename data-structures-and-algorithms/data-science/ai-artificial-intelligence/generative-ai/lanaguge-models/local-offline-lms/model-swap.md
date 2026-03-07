@@ -61,4 +61,5 @@ jq -R -s -c '{"models": [split("\n")[:-1][] | {"model": .}]}'
       "model": "~/.lmstudio/models/unsloth/Qwen3.5-35B-A3B-GGUF/mmproj-F32.gguf"
     }
   ]
-}```
+}
+```
