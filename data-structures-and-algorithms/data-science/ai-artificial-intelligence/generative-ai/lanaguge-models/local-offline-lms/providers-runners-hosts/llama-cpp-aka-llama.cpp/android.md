@@ -20,3 +20,8 @@
 
     *   https://github.com/mybigday/llama.rn
     
+
+    
+*   https://github.com/Siddhesh2377/Ai-Core
+    
+    *   llama.cpp Android
