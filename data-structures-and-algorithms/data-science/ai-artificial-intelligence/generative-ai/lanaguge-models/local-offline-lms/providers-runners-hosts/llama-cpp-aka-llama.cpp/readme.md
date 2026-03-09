@@ -2,7 +2,7 @@
 
 https://blog.steelph0enix.dev/posts/llama-cpp-guide/
 
-```bash
+```shell
 find ~ -iname "*.gguf"
 find ~ -type f -iname "*.gguf"
 ```
@@ -21,7 +21,7 @@ $HOME/.lmstudio/models/lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-GGUF/DeepSee
 ```
 
 
-```bash
+```shell
 llama-run \
     $HOME/Library/Caches/llama.cpp/ggml-org_gpt-oss-120b-GGUF_gpt-oss-120b-mxfp4-00001-of-00003.gguf
 
@@ -54,3 +54,41 @@ Statistics:
                 47.03s
 ```
 
+llama.cpp
+
+Tutorial: Offline Agentic coding with llama-server
+
+    https://github.com/ggml-org/llama.cpp/discussions/14758
+
+https://huggingface.co/blog/ggml-org/model-management-in-llamacpp
+
+This auto-discovers models from your llama.cpp cache (LLAMA_CACHE or ~/.cache/llama.cpp). If you've previously downloaded models via llama-server -hf user/model, they'll be available automatically.
+
+You can also point to a local directory of GGUF files:
+
+```shell
+llama-server \
+    --models-dir ./my-models
+```
+
+```shell
+curl http://localhost:8080/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "ggml-org/gemma-3-4b-it-GGUF:Q4_K_M",
+    "messages": [{"role": "user", "content": "Hello!"}]
+  }'
+```
+```shell
+curl http://localhost:8080/models
+```
+
+https://github.com/ggml-org/llama.cpp/discussions/18685
+
+```shell
+llama-server -hf org/repo
+llama-server -cl
+```
+
+
+https://www.datacamp.com/tutorial/llama-cpp-tutorial
