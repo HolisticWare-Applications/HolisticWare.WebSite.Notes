@@ -1,5 +1,7 @@
 RAG Products
 
+https://www.fastrag.live/
+
 txtai
 
 https://github.com/neuml/txtai/
