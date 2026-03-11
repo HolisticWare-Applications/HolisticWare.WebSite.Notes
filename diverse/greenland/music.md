@@ -148,3 +148,63 @@ But the only hole we finish is a place to sh17 into.
 https://www.youtube.com/watch?v=-tRDYP-mNA8
 
 
+Panzerlied
+
+Ob’s stürmt oder schneit, Ob die Sonne uns lacht,
+Der Tag glühend heiß, Oder eiskalt die Nacht.
+Bestaubt sind die Gesichter, Doch froh ist unser Sinn,
+Ist unser Sinn;
+Es braust unser Panzer, Im Sturmwind dahin. 
+Mit donnernden Motoren, Geschwind wie der Blitz,
+Dem Feinde entgegen, Im Panzer geschützt.
+Voraus den Kameraden, Im Kampfe ganz allein,
+Ja, ganz allein;
+Es braust unser Panzer, Im Sturmwind dahin. 
+Kam ein feindliches Geschütz, Hervor aus dem Sand,
+Wir suchen uns Wege, Die keiner sonst fand.
+Und droh'n vor uns Geschütze, Im gelben Sand,
+Im gelben Sand;
+Es braust unser Panzer, Im Sturmwind dahin. 
+Und läßt uns im Stich, Das treulose Glück,
+Und kehren wir nicht mehr, Zur Heimat zurück,
+Trifft uns die Todeskugel, Ruft uns das Schicksal ab,
+Das Schicksal ab;
+Dann wird uns der Panzer, Ein ehernes Grab. 
+
+
+ICE, F**K You - A Protest Song for Minneapolis
+
+    https://www.youtube.com/watch?v=4PUOhAJG5EU
+
+Greenland Defense Front - Not For Sale (Official Music Video)
+
+    https://www.youtube.com/watch?v=d1ln5Pqbh5c
+
+Greenland Defense Front - The Hungry Giant (Official Music Video)
+
+    https://www.youtube.com/watch?v=hS0wFiWpU4U
+
+You Invaded the Wrong Iceberg 🐧 (Greenlandic Penguin Army)
+
+    https://www.youtube.com/watch?v=8ETxXS7q-bI
+    
+He's in the files
+
+    https://www.youtube.com/watch?v=I9ZaallZx84
+
+Minnesota Nazis
+
+    https://www.youtube.com/watch?v=sU6s6VEJxrU
+
+"Join ICE" - Jesse Welles (LIVE on The Late Show)
+
+    https://www.youtube.com/watch?v=61I4hlig78w
+
+The Great Caucasian God
+
+    https://www.youtube.com/watch?v=RJiwovX3mNA
+
+Hey Kristi Noem - The Music Video (Minneapolis in the House)
+
+    https://www.youtube.com/watch?v=pgo8NeI888A
+
