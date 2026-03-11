@@ -98,14 +98,27 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
 
 
-AI pros cons
+AI cons
+
+Ai cons
+
+https://www.reddit.com/r/LargeLanguageModels/comments/1qej621/dont_fall_into_the_antiai_hype_ai_coding/
+
+https://www.reddit.com/r/LargeLanguageModels/comments/1qk16p3/the_recurring_dream_of_replacing_developers_genai/
+
+https://www.reddit.com/r/LargeLanguageModels/comments/1q7hci5/why_didnt_ai_join_the_workforce_in_2025_us_job/
 
 Clawdbot
 Moldbook
 
 https://news.ycombinator.com/item?id=46821482
 
-AI cons
+https://www.theregister.com/2026/02/23/microsoft_ai_entry_level_russinovich_hanselman/?td=rt-3a
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
+
+
+https://dl.acm.org/doi/epdf/10.1145/3779312
 
 https://shows.acast.com/scott-and-mark-learn-to/episodes/scott-mark-learn-to-the-ai-productivity-trap-senior-boost-ju
 
@@ -115,13 +128,23 @@ https://shows.acast.com/scott-and-mark-learn-to/episodes/
 
 https://huggingface.co/papers/2602.20021
 
-https://arxiv.org/pdf/2602.20021
+*   Agents of chaos
 
-https://www.constellationr.com/insights/news/agents-chaos-paper-raises-agentic-ai-questions
+    *   https://x.com/alex_prompter/status/2026226107104817207?s=46
 
-https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/
+        > It emerges from incentives.
 
-https://forkingmad.blog/insulted-today-ai/
+        > Local alignment ≠ global stability.
+
+        short term benefit != long term benefit
+
+    *   https://arxiv.org/pdf/2602.20021
+
+    *   https://www.constellationr.com/insights/news/agents-chaos-paper-raises-agentic-ai-questions
+
+    *   https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/
+
+    *   https://forkingmad.blog/insulted-today-ai/
 
 https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
 
@@ -140,3 +163,5 @@ underclass,” as the meme on Twitter goes. Half the videos and blog posts I see
 running it through a benchmark, then saying “chat we’re cooked, might as well end it all now.” This isn’t just a strange
 way of marketing a product, it is a completely psychotic one.
 ```
+
+https://arstechnica.com/ai/2026/02/ais-can-generate-near-verbatim-copies-of-novels-from-training-data/
