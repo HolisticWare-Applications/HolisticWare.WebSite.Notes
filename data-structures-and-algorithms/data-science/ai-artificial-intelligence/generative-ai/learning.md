@@ -23,3 +23,26 @@ learning.md
 *   https://github.com/tuxu/nbviewer-app
 
 
+## Stanford CS336 | Language Modeling from Scratch
+
+*   https://stanford-cs336.github.io/spring2025/
+
+*   https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_
+
+
+*   https://karpathy.ai/zero-to-hero.html
+
+*   https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+
+*   https://github.com/adrische/karpathy-neural-networks-zero-to-hero
+
+*   https://news.ycombinator.com/item?id=35459031
+
+
+
+*   https://www.reddit.com/r/learnmachinelearning/comments/1qpiq1c/i_built_a_neural_network_using_only_numpy_no/
+
+*   https://github.com/0Chris5R/smulgrad
+
+*   https://zekcrates.quarto.pub/deep-learning-library/chapter1.html
+
