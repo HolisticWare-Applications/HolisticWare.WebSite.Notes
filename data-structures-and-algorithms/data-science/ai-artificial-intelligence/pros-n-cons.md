@@ -72,61 +72,20 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
 *   https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur
 
-## Neutral
-
-*   https://devclass.com/2026/01/28/typescript-inventor-anders-hejlsberg-ai-is-a-big-regurgitator-of-stuff-someone-has-done/
-
-*   https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/
-
-*   All things AI w @altcap @sama & @satyanadella. A Halloween Special. 🎃🔥BG2 w/ Brad Gerstner
-
-
-    *   https://www.youtube.com/watch?v=Gnl833wXRz0
-
 
 ### AI learning or brain rot
 
+*   AI Cognitive Debt: The Crisis Nobody Sees Coming
+
+    *   https://www.youtube.com/watch?v=Tk0hIOAwf6M
+
+        *   cognitive debt
+
+        *   velocity illusion
+
 *   https://ghuntley.com/cursed/
 
-*   https://github.com/ghuntley/cursed
-
-### Applications
-
-*   AI Floor Plans are worse than you'd think (with @AbbyCox )
-
-    *   https://www.youtube.com/watch?v=VkPbBcdrd0U
-
-
-
-AI cons
-
-Ai cons
-
-https://www.reddit.com/r/LargeLanguageModels/comments/1qej621/dont_fall_into_the_antiai_hype_ai_coding/
-
-https://www.reddit.com/r/LargeLanguageModels/comments/1qk16p3/the_recurring_dream_of_replacing_developers_genai/
-
-https://www.reddit.com/r/LargeLanguageModels/comments/1q7hci5/why_didnt_ai_join_the_workforce_in_2025_us_job/
-
-Clawdbot
-Moldbook
-
-https://news.ycombinator.com/item?id=46821482
-
-https://www.theregister.com/2026/02/23/microsoft_ai_entry_level_russinovich_hanselman/?td=rt-3a
-
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
-
-
-https://dl.acm.org/doi/epdf/10.1145/3779312
-
-https://shows.acast.com/scott-and-mark-learn-to/episodes/scott-mark-learn-to-the-ai-productivity-trap-senior-boost-ju
-
-https://shows.acast.com/scott-and-mark-learn-to/episodes/
-
-    https://feeds.acast.com/public/shows/scott-and-mark-learn-to
-
-https://huggingface.co/papers/2602.20021
+    *   https://github.com/ghuntley/cursed
 
 *   Agents of chaos
 
@@ -146,9 +105,48 @@ https://huggingface.co/papers/2602.20021
 
     *   https://forkingmad.blog/insulted-today-ai/
 
-https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
+*   https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
 
-https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html
+*   https://anthony.noided.media/blog/ai/programming/2026/02/14/i-guess-i-kinda-get-why-people-hate-ai.html
+
+### Applications
+
+*   AI Floor Plans are worse than you'd think (with @AbbyCox )
+
+    *   https://www.youtube.com/watch?v=VkPbBcdrd0U
+
+
+*   https://www.cnbc.com/2026/03/11/atlassian-slashes-10percent-of-workforce-to-self-fund-investments-in-ai.html
+
+https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-deletes-developers-production-setup-including-its-database-and-snapshots-2-5-years-of-records-were-nuked-in-an-instant
+
+
+*   When ChatGPT is gone: Creativity reverts and homogeneity persists
+
+    *   https://arxiv.org/abs/2401.06816
+    
+    *   https://x.com/sukh_saroy/status/2030316525010489525?s=46
+
+    
+
+
+
+https://www.reddit.com/r/LargeLanguageModels/comments/1qej621/dont_fall_into_the_antiai_hype_ai_coding/
+
+https://www.reddit.com/r/LargeLanguageModels/comments/1qk16p3/the_recurring_dream_of_replacing_developers_genai/
+
+https://www.reddit.com/r/LargeLanguageModels/comments/1q7hci5/why_didnt_ai_join_the_workforce_in_2025_us_job/
+
+#### Clawdbot/Moldbook
+
+*   https://news.ycombinator.com/item?id=46821482
+
+*   https://www.theregister.com/2026/02/23/microsoft_ai_entry_level_russinovich_hanselman/?td=rt-3a
+
+*   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
+
+*   https://dl.acm.org/doi/epdf/10.1145/3779312
+
 
 ```
 People generally try to market new technologies by telling you their upsides, not their downsides.
@@ -164,4 +162,15 @@ running it through a benchmark, then saying “chat we’re cooked, might as wel
 way of marketing a product, it is a completely psychotic one.
 ```
 
-https://arstechnica.com/ai/2026/02/ais-can-generate-near-verbatim-copies-of-novels-from-training-data/
+*   https://arstechnica.com/ai/2026/02/ais-can-generate-near-verbatim-copies-of-novels-from-training-data/
+
+
+## Neutral
+
+*   https://devclass.com/2026/01/28/typescript-inventor-anders-hejlsberg-ai-is-a-big-regurgitator-of-stuff-someone-has-done/
+
+*   https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/
+
+*   All things AI w @altcap @sama & @satyanadella. A Halloween Special. 🎃🔥BG2 w/ Brad Gerstner
+
+    *   https://www.youtube.com/watch?v=Gnl833wXRz0
