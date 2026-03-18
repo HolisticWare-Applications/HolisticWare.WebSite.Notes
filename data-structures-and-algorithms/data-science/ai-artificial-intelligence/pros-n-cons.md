@@ -115,10 +115,9 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
     *   https://www.youtube.com/watch?v=VkPbBcdrd0U
 
-
 *   https://www.cnbc.com/2026/03/11/atlassian-slashes-10percent-of-workforce-to-self-fund-investments-in-ai.html
 
-https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-deletes-developers-production-setup-including-its-database-and-snapshots-2-5-years-of-records-were-nuked-in-an-instant
+*   https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-deletes-developers-production-setup-including-its-database-and-snapshots-2-5-years-of-records-were-nuked-in-an-instant
 
 
 *   When ChatGPT is gone: Creativity reverts and homogeneity persists
@@ -128,14 +127,13 @@ https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-d
     *   https://x.com/sukh_saroy/status/2030316525010489525?s=46
 
     
+*   https://futurism.com/artificial-intelligence/anthropic-jobs-most-risk-ai
 
+*   https://www.reddit.com/r/LargeLanguageModels/comments/1qej621/dont_fall_into_the_antiai_hype_ai_coding/
 
+*   https://www.reddit.com/r/LargeLanguageModels/comments/1qk16p3/the_recurring_dream_of_replacing_developers_genai/
 
-https://www.reddit.com/r/LargeLanguageModels/comments/1qej621/dont_fall_into_the_antiai_hype_ai_coding/
-
-https://www.reddit.com/r/LargeLanguageModels/comments/1qk16p3/the_recurring_dream_of_replacing_developers_genai/
-
-https://www.reddit.com/r/LargeLanguageModels/comments/1q7hci5/why_didnt_ai_join_the_workforce_in_2025_us_job/
+*   https://www.reddit.com/r/LargeLanguageModels/comments/1q7hci5/why_didnt_ai_join_the_workforce_in_2025_us_job/
 
 #### Clawdbot/Moldbook
 
