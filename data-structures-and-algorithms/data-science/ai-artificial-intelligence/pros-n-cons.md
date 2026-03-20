@@ -42,6 +42,12 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 
 ## Cons
 
+*   rate limiting
+
+    *   https://www.reddit.com/r/GithubCopilot/comments/1rxsi64/bruh_the_rate_limits/
+
+    *   https://www.reddit.com/r/GithubCopilot/comments/1rxt9mv/the_frustrating_rate_limitted_brings_me_back_to/
+
 *   If AI Takes All Jobs, Who Will Buy Everything?
 
     *   https://www.youtube.com/watch?v=1gmaQwp5uSk
