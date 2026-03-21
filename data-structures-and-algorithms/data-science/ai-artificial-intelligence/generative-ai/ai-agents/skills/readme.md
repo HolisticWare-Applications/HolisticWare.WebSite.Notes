@@ -6,6 +6,18 @@ skills.md
 
     *   https://agentskills.io/home
 
+*   https://skills.sh/
+
+*   https://github.com/anthropics/skills
+
+*   https://code.claude.com/docs/en/skills
+
+## Vendors
+
+*   Claude
+
+    *   https://code.claude.com/docs/en/skills#control-who-invokes-a-skill
+
 *   Copilot
 
     *   https://code.visualstudio.com/docs/copilot/customization/agent-skills
@@ -40,9 +52,12 @@ skills.md
 
 *   https://github.com/microsoft/skills/blob/main/.vscode/mcp.json
 
+*   Codex
 
+    *   https://developers.openai.com/codex/skills
 
-
+    *   https://developers.openai.com/codex/skills
+    
 ```markdown
 ---
 name: straighten-quotes
@@ -59,3 +74,24 @@ When I ask you to "clean this article" or "fix formatting," perform all these st
 4. Remove any double spaces between words and replace them with a single space.
 
 ```
+
+SKILL.md
+
+*   https://agentskills.io/home
+
+```shell
+my-skill/
+├── SKILL.md          # Required: instructions + metadata
+├── scripts/          # Optional: executable code
+├── references/       # Optional: documentation
+└── assets/           # Optional: templates, resources
+```
+
+https://github.com/MBrekhof/xafmaui/blob/master/CLAUDE.md
+
+Ideas
+
+    Project management
+
+        https://github.com/MBrekhof/xafmaui
+
