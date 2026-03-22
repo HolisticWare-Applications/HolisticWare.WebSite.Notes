@@ -2,6 +2,8 @@
 
 mgrep.md
 
+*   CLI-native way to semantically grep everything
+
 *   cons
 
     *   API key needed
