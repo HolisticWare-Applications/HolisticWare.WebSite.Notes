@@ -71,3 +71,60 @@ qwen2.5-coder:32b                              b92d6a0bd47e    19        GB 9 da
 qwen2-math:72b                                 9cf426342464    41        GB 9 days       completion
 deepseek-coder:33b                             acec7c0b0fd9    18        GB 9 days       completion
 ```
+
+```shell
+dev_ai_ollama_list | grep thinking
+```
+
+```shell
+qwen3:32b                                      030ee887880f    20        GB 18 hours     completion,tools,thinking
+qwen3-vl:32b                                   ff2e46876908    20        GB 18 hours     completion,vision,tools,thinking
+deepseek-r1:latest                             6995872bfe4c    5.2       GB 2 days       completion,thinking
+gpt-oss:latest                                 17052f91a42e    13        GB 2 days       completion,tools,thinking
+gpt-oss:120b                                   a951a23b46a1    65        GB 2 days       completion,tools,thinking
+gpt-oss:20b                                    17052f91a42e    13        GB 2 days       completion,tools,thinking
+ibm/granite3.3:8b                              840c9066413c    4.9       GB 2 days       completion,tools,thinking
+```
+
+```shell
+dev_ai_ollama_list | grep tools   
+```
+
+```shell
+qwen2.5-coder:32b                              b92d6a0bd47e    19        GB 19 hours     completion,tools,insert
+qwen3:32b                                      030ee887880f    20        GB 19 hours     completion,tools,thinking
+qwen3-vl:32b                                   ff2e46876908    20        GB 19 hours     completion,vision,tools,thinking
+qwq:latest                                     009cb3f08d74    19        GB 2 days       completion,tools
+llama3.3:latest                                a6eb4748fd29    42        GB 2 days       completion,tools
+mistral-large:123b                             bbcf36dc47ad    73        GB 2 days       completion,tools
+mistral-large:latest                           bbcf36dc47ad    73        GB 2 days       completion,tools
+gpt-oss:latest                                 17052f91a42e    13        GB 2 days       completion,tools,thinking
+gpt-oss:120b                                   a951a23b46a1    65        GB 2 days       completion,tools,thinking
+gpt-oss:20b                                    17052f91a42e    13        GB 2 days       completion,tools,thinking
+granite3.3:8b                                  fd429f23b909    4.9       GB 2 days       completion,tools
+granite4:3b                                    89962fcc7523    2.1       GB 2 days       completion,tools
+ibm/granite3.3:8b                              840c9066413c    4.9       GB 2 days       completion,tools,thinking
+qwen3-coder:latest                             06c1097efce0    18        GB 2 days       completion,tools
+devstral-2:latest                              524a6607f0f5    74        GB 2 days       completion,tools
+karanchopda333/whisper:latest                  96681b6cccda    2.0       GB 2 days       completion,tools
+devstral-small-2:latest                        24277f07f62d    15        GB 2 days       completion,vision,tools
+cogito:32b                                     0b4aab772f57    19        GB 2 days       completion,tools
+cogito:70b                                     8f2632d0faa4    42        GB 2 days       completion,tools
+qwen3-coder:30b                                06c1097efce0    18        GB 2 days       completion,tools
+```
+
+```shell
+dev_ai_ollama_list | grep vision
+```
+
+```shell
+qwen2.5vl:32b                                  3edc3a52fe98    21        GB 19 hours     completion,vision
+qwen3-vl:32b                                   ff2e46876908    20        GB 19 hours     completion,vision,tools,thinking
+llama3.2-vision:latest                         6f2f9757ae97    7.8       GB 2 days       completion,vision
+gemma3:12b                                     f4031aab637d    8.1       GB 2 days       completion,vision
+gemma3:27b                                     a418f5838eaf    17        GB 2 days       completion,vision
+gemma3:latest                                  a2af6cc3eb7f    3.3       GB 2 days       completion,vision
+gemma3:4b                                      a2af6cc3eb7f    3.3       GB 2 days       completion,vision
+llava:34b                                      3d2d24f46674    20        GB 2 days       completion,vision
+devstral-small-2:latest                        24277f07f62d    15        GB 2 days       completion,vision,tools
+```
