@@ -4,6 +4,28 @@ pros-n-cons.md
 
 *   https://www.theatlantic.com/culture/archive/2025/06/artificial-intelligence-illiteracy/683021/
 
+## Pros
+
+*   https://www.leravi.org/bill-gates-reveals-the-one-job-ai-will-never-replace-even-in-100-years-10272/
+
+## Cons
+
+*   rate limiting
+
+    *   https://www.reddit.com/r/GithubCopilot/comments/1rxsi64/bruh_the_rate_limits/
+
+    *   https://www.reddit.com/r/GithubCopilot/comments/1rxt9mv/the_frustrating_rate_limitted_brings_me_back_to/
+
+*   https://www.reddit.com/r/CroIT/comments/1rx8vyy/da_li_vas_ovaj_ai_%C4%8Dini_depresivnim/
+
+https://www.theregister.com/2026/03/19/ai_skeptic_labels/
+
+https://www.todayintabs.com/p/a-i-isn-t-people
+
+https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html
+
+#### Videos
+
 Eric Schmidt's 18-Month Warning: "You Have No Idea What's Coming"
 
     https://www.youtube.com/watch?v=j2NR_ntEDfM&ab_channel=AIUpload
@@ -35,18 +57,6 @@ How AI Takeover Could Happen In 2 Years: A Scenario
 *   "Don’t Learn to Code" Is WRONG | GitHub CEO Thomas Dohmke
 
     *   https://www.youtube.com/watch?v=5UhnQ2h-5BY
-
-## Pros
-
-*   https://www.leravi.org/bill-gates-reveals-the-one-job-ai-will-never-replace-even-in-100-years-10272/
-
-## Cons
-
-*   rate limiting
-
-    *   https://www.reddit.com/r/GithubCopilot/comments/1rxsi64/bruh_the_rate_limits/
-
-    *   https://www.reddit.com/r/GithubCopilot/comments/1rxt9mv/the_frustrating_rate_limitted_brings_me_back_to/
 
 *   If AI Takes All Jobs, Who Will Buy Everything?
 
