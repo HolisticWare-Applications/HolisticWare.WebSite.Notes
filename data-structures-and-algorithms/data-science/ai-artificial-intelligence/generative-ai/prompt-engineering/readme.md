@@ -55,6 +55,11 @@ readme.md
 
 *   https://github.com/NirDiamant/Prompt_Engineering/tree/main/all_prompt_engineering_techniques
 
+
+https://www.reddit.com/r/ClaudeAI/comments/1rxte15/what_if_cognitive_science_has_something_to_say/
+
+https://alignment.anthropic.com/2025/subliminal-learning/
+
     
 
 
