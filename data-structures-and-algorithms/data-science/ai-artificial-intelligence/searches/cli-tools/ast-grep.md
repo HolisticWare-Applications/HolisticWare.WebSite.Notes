@@ -5,6 +5,7 @@ ast-grep.md
 ```shell
 brew install ast-grep
 ```
+*   CLI tool for code structural search, lint, and rewriting.
 
 *   https://github.com/ast-grep/ast-grep
 
