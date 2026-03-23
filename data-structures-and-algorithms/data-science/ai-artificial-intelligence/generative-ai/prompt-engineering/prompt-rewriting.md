@@ -2,13 +2,19 @@
 
 prompt-rewriting.md
 
-Paraphrase: This is useful when you want to avoid plagiarism
+*   Paraphrase 
 
-Reframe: Change the perspective or focus of the rewrite.
+    useful to avoid plagiarism
 
-Summarize: When you want a quick overview of a lengthy topic.
+*   Reframe 
 
-Expand: For a more comprehensive understanding of a topic.
+    *   Change the perspective or focus of the rewrite
+
+*   Summarize
+
+    for a quick overview of a lengthy topic
+
+*   Expand For a more comprehensive understanding of a topic.
 
 Explain: Make the meaning of something clearer in the rewrite.
 
