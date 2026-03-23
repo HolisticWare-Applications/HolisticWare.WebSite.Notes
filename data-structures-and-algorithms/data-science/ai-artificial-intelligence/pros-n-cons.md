@@ -10,6 +10,15 @@ pros-n-cons.md
 
 ## Cons
 
+
+*   ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention
+
+    *   https://www.sciencedirect.com/science/article/pii/S2590291125010186
+
+*   GitHub Issue Title Compromised 4,000 Developer Machines
+
+    *   https://byteiota.com/github-issue-title-compromised-4000-developer-machines/
+
 *   rate limiting
 
     *   https://www.reddit.com/r/GithubCopilot/comments/1rxsi64/bruh_the_rate_limits/
