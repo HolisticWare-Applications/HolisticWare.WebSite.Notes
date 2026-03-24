@@ -89,9 +89,15 @@ my-skill/
 
 https://github.com/MBrekhof/xafmaui/blob/master/CLAUDE.md
 
-Ideas
+*   Ideas
 
-    Project management
+    *   Project management
 
-        https://github.com/MBrekhof/xafmaui
+        *   https://github.com/MBrekhof/xafmaui
 
+
+
+
+*   https://github.com/kreuzberg-dev/kreuzberg/blob/main/.ai-rulez/skills/chunking-embeddings/SKILL.md
+
+*   https://github.com/kreuzberg-dev/kreuzberg/tree/main/.ai-rulez/skills
