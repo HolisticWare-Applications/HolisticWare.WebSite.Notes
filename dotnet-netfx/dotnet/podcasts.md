@@ -5,11 +5,17 @@ podcasts.md
 *   https://www.ezzylearning.net/tutorial/10-best-podcasts-net-developers-will-love-in-2021
 
 
-https://dotnet.microsoft.com/en-us/live/community-standup
+*   https://dotnet.microsoft.com/en-us/live/community-standup
 
-https://learn.microsoft.com/en-us/shows/
+*   https://learn.microsoft.com/en-us/shows/
 
-The Modern .NET Show
+*   Scott and Mark Learn To...
+
+    *   https://www.youtube.com/playlist?list=PL0M0zPgJ3HSf4XZvYgZPUXgSrfzBN26pf
+
+    *   https://shows.acast.com/scott-and-mark-learn-to
+    
+*   The Modern .NET Show
 
     https://dotnetcore.show/episodes/
 
