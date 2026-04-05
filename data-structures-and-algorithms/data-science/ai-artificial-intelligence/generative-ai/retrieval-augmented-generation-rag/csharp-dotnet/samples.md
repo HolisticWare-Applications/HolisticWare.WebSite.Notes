@@ -6,6 +6,13 @@ samples.md
 
 *   https://github.com/tryAGI/LangChain/tree/main/examples
 
+*   https://dev.to/rineshpk/simple-rag-application-in-net-clean-architecture-aspire-cec
+
+    *   https://github.com/rineshpk/dotnet-rag-pgvector
+
+
+*   https://github.com/Azure-Samples/interview-coach-agent-framework
+
 ## C# Agents
 
 ### Repositories
