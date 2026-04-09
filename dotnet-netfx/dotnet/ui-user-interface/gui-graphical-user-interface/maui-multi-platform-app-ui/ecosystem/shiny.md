@@ -2,6 +2,12 @@
 
 shiny.md
 
+*   Shiny.NET
+
+    *   https://shinylib.net/
+    
+*   https://github.com/shinyorg/msbuildpermissions
+
 *   Shiny.NET for .NET MAUI | .NET Dev Show
 
     *   https://www.youtube.com/watch?v=Ng5halA_HAU&ab_channel=ProgressTelerik
