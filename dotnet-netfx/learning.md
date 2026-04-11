@@ -4,11 +4,17 @@ learning.md
 
 ## Podcasts
 
-*   https://www.gonemobile.io/
+*   GoneDotNet
 
-*   https://www.mergeconflict.fm/
+    *   https://www.gonemobile.io/
 
-*   https://www.dotnetrocks.com/
+*   Merge Conflict
+
+    *   https://www.mergeconflict.fm/
+
+*   .NET Rocks - dotnetrocks
+
+    *   https://www.dotnetrocks.com/
 
 *   https://dotnetcore.show/
 
@@ -24,6 +30,21 @@ learning.md
 
 *   https://dotnetflix.com/
 
+*   Scott and Mark Learn To...
+
+    *   https://www.youtube.com/playlist?list=PL0M0zPgJ3HSf4XZvYgZPUXgSrfzBN26pf
+
+*   The Hanselminutes Podcast - Fresh Tech
+
+    *   https://www.youtube.com/playlist?list=PL0M0zPgJ3HSf55bZCgrRfsYTApHzBhzMi
+    
+*   Learn C#
+
+    *   https://www.youtube.com/playlist?list=PL0M0zPgJ3HScx3yh2pTuUwJAWIQPAnL9D
+
+*   Computer Stuff They Didn't Teach You
+
+    *   https://www.youtube.com/playlist?list=PL0M0zPgJ3HSesuPIObeUVQNbKqlw5U2Vr
 
 ## Diverse
 
