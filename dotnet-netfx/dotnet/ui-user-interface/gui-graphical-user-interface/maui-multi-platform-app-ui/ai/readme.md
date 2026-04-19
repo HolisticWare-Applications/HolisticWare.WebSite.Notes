@@ -23,3 +23,22 @@ https://code.claude.com/docs/en/skills#control-who-invokes-a-skill
 
 > GPT-5.3-Codex
 
+*   https://dev.to/davidortinau/5-years-of-work-in-2-weeks-okg
+
+## MAUI skills
+
+*   https://docs.github.com/en/copilot/concepts/agents/about-agent-skills
+
+*   https://github.com/davidortinau/maui-skills
+
+*   https://learn.microsoft.com/en-us/dotnet/maui/
+
+recommend everyone do:
+
+1.  Install MAUI Sherpa and run doctor on your environment
+
+2.  Use MauiDevFlow with Copilot to close the loop
+
+3.  Install maui-skills to sharpen Copilot's solutions
+
+4.  Multiply this by adding PolyPilot
