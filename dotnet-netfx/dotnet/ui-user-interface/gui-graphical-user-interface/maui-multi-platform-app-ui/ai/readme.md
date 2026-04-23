@@ -42,3 +42,21 @@ recommend everyone do:
 3.  Install maui-skills to sharpen Copilot's solutions
 
 4.  Multiply this by adding PolyPilot
+
+
+
+*   https://github.com/PureWeen/PolyPilot
+
+https://github.com/Redth/MauiDevFlow
+
+https://github.com/Redth/MAUI.Sherpa
+
+desktop application for macOS, Windows, and Linux that helps manage your .NET MAUI development environment. It provides a unified interface for Android SDK management, Apple Developer tools, environment diagnostics, DevFlow app inspection, and GitHub Copilot integration.
+
+
+https://redth.github.io/MAUI.Sherpa/
+
+
+brew tap redth/tap
+brew install --cask mauisherpa
+brew upgrade --cask mauisherpa
