@@ -11,6 +11,10 @@ readme.md
 *   https://aspire.dev/
 
 
+aspire update --self
+
+
+
 Elevator:
 
 Aspire is “Docker Compose without the YAML,” a code-first orchestrator that runs locally, includes built-in observability,
