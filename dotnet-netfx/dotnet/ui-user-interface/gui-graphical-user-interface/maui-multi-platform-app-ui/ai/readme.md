@@ -43,7 +43,15 @@ recommend everyone do:
 
 4.  Multiply this by adding PolyPilot
 
+## MAUI DevFlow
 
+*   [./maui-devflow/readme.md](./maui-devflow/readme.md)
+
+## MAUI Sherpa
+
+*   [./maui-sherpa/readme.md](./maui-sherpa/readme.md)
+
+## PolyPilot
 
 *   https://github.com/PureWeen/PolyPilot
 
@@ -54,9 +62,3 @@ https://github.com/Redth/MAUI.Sherpa
 desktop application for macOS, Windows, and Linux that helps manage your .NET MAUI development environment. It provides a unified interface for Android SDK management, Apple Developer tools, environment diagnostics, DevFlow app inspection, and GitHub Copilot integration.
 
 
-https://redth.github.io/MAUI.Sherpa/
-
-
-brew tap redth/tap
-brew install --cask mauisherpa
-brew upgrade --cask mauisherpa
