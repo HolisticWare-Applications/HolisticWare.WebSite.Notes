@@ -1,9 +1,9 @@
 # `fd`
 
-alternative to find
+*   alternative to find
 
-https://github.com/sharkdp/fd
+*   https://github.com/sharkdp/fd
 
-to find entries in your filesystem
+*   to find entries in your filesystem
 
-https://github.com/burntsushi/ripgrep
+    *   https://github.com/burntsushi/ripgrep
