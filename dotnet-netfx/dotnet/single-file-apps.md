@@ -22,3 +22,10 @@ single-file-apps.md
 
     *   https://github.com/dotnet/sdk/issues/48174
 
+## include directive
+
+```
+#:property ExperimentalFileBasedProgramEnableIncludeDirective=true
+```
+
+*   https://github.com/dotnet/sdk/blob/main/documentation/general/dotnet-run-file.md
