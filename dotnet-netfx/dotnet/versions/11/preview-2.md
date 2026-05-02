@@ -2,6 +2,8 @@
 
 preview-2.md
 
+*   https://www.infoq.com/news/2026/03/net-11-preview2-maui/
+
 *   https://devblogs.microsoft.com/dotnet/dotnet-11-preview-2/
 
 *   https://www.heise.de/en/news/NET-11-0-Preview-2-delivers-asynchronous-runtime-11207714.html
