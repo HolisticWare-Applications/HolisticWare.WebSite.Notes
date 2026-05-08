@@ -10,6 +10,14 @@ pros-n-cons.md
 
 ## Cons
 
+*   https://www.404media.co/asu-atomic-ai-modules-arizona-state-university/
+
+*   https://legallayer.substack.com/p/who-owns-the-claude-code-wrote
+
+*   https://www.reddit.com/r/CroIT/comments/1t641l1/new_report_shows_that_the_use_of_ai_in_the_office/
+
+*   https://www.reddit.com/r/GenAI4all/comments/1t61se0/new_report_shows_that_the_use_of_ai_in_the_office/
+
 
 *   ChatGPT as a cognitive crutch: Evidence from a randomized controlled trial on knowledge retention
 
@@ -33,7 +41,7 @@ https://www.todayintabs.com/p/a-i-isn-t-people
 
 https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html
 
-#### Videos
+### Videos
 
 Eric Schmidt's 18-Month Warning: "You Have No Idea What's Coming"
 
