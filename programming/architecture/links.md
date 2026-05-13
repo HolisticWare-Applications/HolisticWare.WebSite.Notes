@@ -6,6 +6,7 @@
 
 *   https://github.com/ardalis/CleanArchitecture
 
+*   https://www.reddit.com/r/softwarearchitecture/comments/1q0buq1/did_i_do_any_good_trying_to_graph_and_understand/
 
 
 *   https://www.thriftbooks.com/w/patterns-of-enterprise-application-architecture_martin-fowler_david-rice/250298/item/5855782/?mkwid=%7cdc&pcrid=448918537671&pkw=&pmt=&slid=&plc=&pgrid=107461511234&ptaid=pla-926306231709#isbn=0321127420&idiq=5855782
