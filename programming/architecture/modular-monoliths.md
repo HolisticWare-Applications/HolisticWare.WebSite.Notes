@@ -24,3 +24,7 @@ modular-monoliths.md
 
     *   https://www.youtube.com/watch?v=wkAc6K09pKQ&ab_channel=MicrosoftVisualStudio
 
+*   A Practical Guide to Modular Monoliths with .NET - Build Web Scale Monolithic Architectures
+
+    *   https://www.youtube.com/watch?v=VEggfW0A_Oo&t=12s
+    
