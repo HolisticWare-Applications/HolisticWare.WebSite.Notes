@@ -62,6 +62,19 @@ https://alignment.anthropic.com/2025/subliminal-learning/
 
     
 
+Prompting
+
+https://www.deeplearning.ai/courses/ai-prompting-for-everyone/
+
+https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/de11nq6r/the-ai-novice-and-the-ai-power-user
+
+https://anthropic.skilljar.com/introduction-to-agent-skills
+
+Prompting 101 | Code w/ Claude
+
+    https://www.youtube.com/watch?v=ysPbXH0LpIE
+
+
 
 Abbreviation
 Formats
