@@ -10,6 +10,14 @@ pros-n-cons.md
 
 ## Cons
 
+*   https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/
+
+*   https://edition.cnn.com/2026/05/13/business/ai-financial-statements-money-advice
+
+*   AI Chatbots: Last Week Tonight with John Oliver (HBO)
+
+    *   https://www.youtube.com/watch?v=Ykvf3MunGf8
+
 *   https://www.404media.co/asu-atomic-ai-modules-arizona-state-university/
 
 *   https://legallayer.substack.com/p/who-owns-the-claude-code-wrote
