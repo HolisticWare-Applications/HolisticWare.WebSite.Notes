@@ -8,11 +8,11 @@ readme.md
 
 *   https://www.reddit.com/r/dotnetMAUI/comments/1ryy5sz/whats_the_best_ai_model_youve_used_for_net_maui/
 
-https://github.com/MBrekhof/xafmaui
+*   https://github.com/MBrekhof/xafmaui
 
-https://github.com/davidortinau/maui-skills
+*   https://github.com/davidortinau/maui-skills
 
-https://code.claude.com/docs/en/skills#control-who-invokes-a-skill
+*   https://code.claude.com/docs/en/skills#control-who-invokes-a-skill
 
 > mostly use Claude Opus 4.6 atm
 
@@ -55,10 +55,17 @@ recommend everyone do:
 
 *   https://github.com/PureWeen/PolyPilot
 
-https://github.com/Redth/MauiDevFlow
+*   https://github.com/Redth/MauiDevFlow
 
-https://github.com/Redth/MAUI.Sherpa
+*   https://github.com/Redth/MAUI.Sherpa
 
 desktop application for macOS, Windows, and Linux that helps manage your .NET MAUI development environment. It provides a unified interface for Android SDK management, Apple Developer tools, environment diagnostics, DevFlow app inspection, and GitHub Copilot integration.
 
+*   Speed Up Your AI Development Workflow by 2x
+
+    *   https://www.youtube.com/watch?v=lp9jwmBNMvA
+
+*   This is Why AI Could Replace Programmers
+
+    *   https://www.youtube.com/watch?v=Bc98jtvwkQ8
 
