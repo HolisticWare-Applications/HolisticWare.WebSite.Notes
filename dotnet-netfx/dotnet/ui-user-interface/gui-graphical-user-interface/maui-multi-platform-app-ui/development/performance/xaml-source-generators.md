@@ -27,3 +27,28 @@ xaml-source-generators.md
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
 ```
+
+*   Faster Apps with XAML Source Generation in .NET MAUI
+
+    *   https://www.youtube.com/watch?v=3APIPxqpzTc
+
+*   Boost .NET MAUI Performance with XAML Source-Generation
+
+    *   https://www.youtube.com/watch?v=I9X8McUF9pQ&t=2s
+
+```xml
+<MauiXamlInflator>SourceGen</MauiXamlInflator>
+```
+
+*   https://github.com/jfversluis/MauiXamlSourceGenDemo
+
+    *   https://github.com/jfversluis/MauiXamlSourceGenDemo/blob/main/MauiXamlSourceGenDemo/MauiXamlSourceGenDemo.csproj
+
+    ```xml
+		<!-- XAML Source Generation -->
+		<MauiXamlInflator>SourceGen</MauiXamlInflator>
+		<!--
+        <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>C:\x</CompilerGeneratedFilesOutputPath>
+        -->    
+    ```
