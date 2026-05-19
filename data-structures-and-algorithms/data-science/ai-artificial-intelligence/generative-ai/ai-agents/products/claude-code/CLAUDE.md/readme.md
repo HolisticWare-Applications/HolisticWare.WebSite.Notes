@@ -38,3 +38,5 @@ readme.md
 *   https://github.com/disler/pocket-pick
 
 *   https://agenticengineer.com/principled-ai-coding
+
+*   https://hackernoon.com/navigating-claude-code-claudemd-done-right
