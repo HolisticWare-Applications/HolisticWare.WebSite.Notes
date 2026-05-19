@@ -47,8 +47,10 @@
     *   QWEN Coder
 
 
+*   https://medium.com/@luongnv89/run-claude-code-on-local-cloud-models-in-5-minutes-ollama-openrouter-llama-cpp-6dfeaee03cda
 
-Continue, a tool for building AI coding assistants that works with local tools like Ollama.
+
+*   Continue, a tool for building AI coding assistants that works with local tools like Ollama.
 
 You can install Continue from the VS Code marketplace.
 
