@@ -10,6 +10,19 @@ pros-n-cons.md
 
 ## Cons
 
+*   https://www.reddit.com/r/ClaudeCode/comments/1t55mi9/built_our_entire_product_with_claude_code_now/
+
+*   Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task
+
+    *   https://arxiv.org/abs/2506.08872
+
+*   AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+
+    *   https://mdpi-res.com/d_attachment/societies/societies-15-00006/article_deploy/societies-15-00006-v2.pdf?version=1757508056
+
+*   How AI Impacts Skill Formation
+
+    *   https://arxiv.org/abs/2601.20245
 *   https://arstechnica.com/tech-policy/2026/05/will-i-be-ok-teen-died-after-chatgpt-pushed-deadly-mix-of-drugs-lawsuit-says/
 
 *   https://edition.cnn.com/2026/05/13/business/ai-financial-statements-money-advice
