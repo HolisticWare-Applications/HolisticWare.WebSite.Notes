@@ -2,6 +2,13 @@
 
 readme.md
 
+
+*   https://visualstudiomagazine.com
+
+    *   James McCaffrey
+
+
+```
 I Foundations
 1 The Role of Algorithms in Computing
 2 Getting Started
@@ -49,3 +56,4 @@ A Summations
 B Sets, Etc.
 C Counting and Probability
 D Matrices
+```
