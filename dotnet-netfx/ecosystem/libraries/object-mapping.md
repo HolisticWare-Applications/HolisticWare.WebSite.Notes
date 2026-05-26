@@ -8,6 +8,8 @@ object-mapping.md
 
     *   https://github.com/MapsterMapper/Mapster
 
+    *   https://mapstermapper.github.io/Mapster/
+
     *   https://github.com/MapsterMapper/Mapster/wiki/Mapster.Tool
 
     *   https://code-maze.com/mapster-aspnetcore-introduction/
@@ -20,3 +22,6 @@ object-mapping.md
 
 *   Automapper
 
+Mapperly
+
+https://github.com/riok/mapperly
