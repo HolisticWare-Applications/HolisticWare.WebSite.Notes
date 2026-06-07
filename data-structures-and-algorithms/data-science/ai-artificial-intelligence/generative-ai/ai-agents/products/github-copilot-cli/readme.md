@@ -32,3 +32,20 @@ brew \
 *   https://code.visualstudio.com/docs/copilot/language-models#_bring-your-own-language-model-key
 
 *   https://www.youtube.com/watch?v=tqoGDAAfSWc&t=1s
+
+
+
+
+Github Copilot
+
+
+https://devblogs.microsoft.com/dotnet/improve-productivity-with-github-copilot-dotnet/
+
+Awesome GitHub Copilot
+
+    https://github.com/github/awesome-copilot
+
+    https://awesome-copilot.github.com/
+
+    https://developer.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins
+    
