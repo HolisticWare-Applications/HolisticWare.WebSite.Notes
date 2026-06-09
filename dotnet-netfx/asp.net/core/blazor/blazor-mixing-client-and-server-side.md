@@ -35,13 +35,13 @@ dotnet new blazorwasm --hosted
 ```
 
 
-https://stackoverflow.com/questions/60487906/how-to-use-blazor-serverside-with-blazor-webassembly
+*   https://stackoverflow.com/questions/60487906/how-to-use-blazor-serverside-with-blazor-webassembly
 
-https://stackoverflow.com/questions/65278119/blazor-combine-client-and-server
+*   https://stackoverflow.com/questions/65278119/blazor-combine-client-and-server
 
-https://itnext.io/blazor-switching-server-and-webassembly-at-runtime-d65c25fd4d8
+*   https://itnext.io/blazor-switching-server-and-webassembly-at-runtime-d65c25fd4d8
 
-    https://github.com/jdtcn/HybridBlazor
+    *   https://github.com/jdtcn/HybridBlazor
 
 https://github.com/dotnet-presentations/blazor-workshop
 
