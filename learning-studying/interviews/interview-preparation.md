@@ -14,6 +14,8 @@ interview-preparation.md
     
 *   step-by-step plan to help ace next interview:
 
+*   https://www.reddit.com/r/csharp/comments/1tlb8gy/interview_prep/
+
 ---
 
 ### **1. Before the Interview**
