@@ -9,6 +9,12 @@ readme.md
     $PROJECT/.opencode/opencode.jsonc
     ```
 
+* https://www.reddit.com/r/opencodeCLI/comments/1s0wltc/any_musthaves_for_opencode/
+
+* https://github.com/wesammustafa/OpenCode-Everything-You-Need-to-Know
+
+
+
 *   samples
 
     ```
@@ -49,7 +55,7 @@ opencode tools
 
 https://github.com/p-lemonish/ollama-x-opencode
 
-
+```json
 {
   "$schema": "https://opencode.ai/config.json",
   "provider": {
@@ -66,3 +72,4 @@ https://github.com/p-lemonish/ollama-x-opencode
     }
   }
 }
+```
