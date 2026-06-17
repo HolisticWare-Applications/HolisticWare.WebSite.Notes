@@ -1,23 +1,34 @@
-C# PDF
+# C# PDF
 
 pdf.md
 
-PDFsharp & MigraDoc
+## Parsing / Editing
 
-https://docs.pdfsharp.net/
+*   PDFsharp & MigraDoc
 
-https://www.nuget.org/packages/PDFsharp
+    *   https://docs.pdfsharp.net/
 
-PdfPig
+*   https://www.nuget.org/packages/PDFsharp
 
-https://www.nuget.org/packages/PdfPig/
+*   PdfPig
 
-https://github.com/UglyToad/PdfPig
+    *   https://www.nuget.org/packages/PdfPig/
 
-ZetPDF
+    *   https://github.com/UglyToad/PdfPig
 
-    https://zetpdf.com/
+*   ZetPDF
 
-    https://zetpdf.com/download/
+    *   https://zetpdf.com/
 
+    *   https://zetpdf.com/download/
+
+
+## HTML to PDF
+
+*   https://github.com/rdvojmoc/DinkToPdf
+
+    *   https://hackernoon.com/dinktopdf-c-alternative-the-hidden-dependency-risk-in-2026
+
+    *   https://github.com/wkhtmltopdf/wkhtmltopdf
     
+
