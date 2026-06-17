@@ -4,7 +4,7 @@ worktrees.md
 
 *   VS Code
 
-    *   built-in support for Git worktrees, 
+    *   built-in support for Git worktrees
     
     *   easy to manage and work with multiple branches at the same time
 
