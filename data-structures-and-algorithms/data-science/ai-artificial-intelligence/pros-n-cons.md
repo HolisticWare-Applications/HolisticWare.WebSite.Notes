@@ -10,6 +10,53 @@ pros-n-cons.md
 
 ## Cons
 
+*   https://www.reddit.com/r/microsoft/comments/1u5kbbt/microsoft_ceo_satya_nadella_says_ai_tokenmaxxing/
+
+    > When the CEO is vibe coding and token maxing.....you are in BIG trouble
+
+    *   https://aka.ms/AIAdoption 
+
+    *   https://aka.ms/AIReports
+
+    *   https://aka.ms/aiusagemetrics
+
+    *   Goodhart's law
+
+        *   https://en.wikipedia.org/wiki/Goodhart%27s_law
+
+        *   Real-World Examples
+
+            *   Business & Sales
+            
+                If you evaluate sales reps solely on the number of calls made, they will make quick, low-effort dials
+                rather than focusing on actual client relationships.
+
+            *   Software Engineering
+            
+                If managers set a target for closed bug tickets, developers might simply split one bug into five smaller
+                ones or mark unresolved issues as "closed" to hit the metric.
+
+            *   The Cobra Effect
+            
+                A famous historical example where colonial officials in India offered a bounty for dead cobras to reduce
+                the population. Instead, entrepreneurial citizens started breeding cobras just to claim the reward.
+
+
+        *   prevention
+        
+            *   Use multiple metrics
+            
+                Evaluate success using a balanced scorecard rather than a single number.
+                
+            *   Measure outcomes, not outputs
+            
+                Focus on the ultimate value created rather than the activity itself.
+                
+            *   Reward the right behavior
+            
+                Ensure that the metrics you track align perfectly with the actual, overarching mission 
+
+
 *   https://www.reddit.com/r/ClaudeCode/comments/1t55mi9/built_our_entire_product_with_claude_code_now/
 
 *   Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task
