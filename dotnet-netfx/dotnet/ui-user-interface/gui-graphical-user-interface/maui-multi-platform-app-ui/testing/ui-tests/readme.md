@@ -10,10 +10,17 @@ readme.md
 
 *   https://github.com/mattleibow/DeviceRunners
 
-.NET MAUI Community Standup - Testing your apps with Gerald
+*   .NET MAUI Community Standup - Testing your apps with Gerald
 
-    https://www.youtube.com/watch?v=N9XTh3fLJVs&ab_channel=dotnet
+    *   https://www.youtube.com/watch?v=N9XTh3fLJVs&ab_channel=dotnet
 
-.NET MAUI Community PR Reviews - April 2024
+*   .NET MAUI Community PR Reviews - April 2024
 
-    https://www.youtube.com/watch?v=ERh9Ixz8f_Y&ab_channel=dotnet
+    *   https://www.youtube.com/watch?v=ERh9Ixz8f_Y&ab_channel=dotnet
+
+## Xamarin.UITest
+
+*   Using Your Existing Xamarin UITests with .NET MAUI
+
+    *   https://www.youtube.com/watch?v=0c2U-TzmTnQ
+
