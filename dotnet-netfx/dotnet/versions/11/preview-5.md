@@ -8,3 +8,5 @@ preview-5.md
 
 *   https://github.com/dotnet/core/blob/main/release-notes/11.0/preview/preview5/libraries.md
 
+*   https://www.infoq.com/news/2026/06/dotnet-11-preview-5/
+
