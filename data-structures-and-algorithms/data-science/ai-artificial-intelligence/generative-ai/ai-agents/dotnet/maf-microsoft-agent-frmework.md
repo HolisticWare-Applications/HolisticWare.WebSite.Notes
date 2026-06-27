@@ -10,6 +10,10 @@ https://github.com/microsoft/ai-agents-for-beginners
 
 https://github.com/microsoft/ai-agents-for-beginners/tree/main/14-microsoft-agent-framework/code-samples
 
+Samples
+
+    https://github.com/microsoft/agent-framework/tree/main/dotnet/samples
+    
 
 Workflows Orchestrations - Group Chat
 
