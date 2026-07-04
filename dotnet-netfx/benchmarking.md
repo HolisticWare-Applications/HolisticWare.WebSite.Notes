@@ -29,22 +29,17 @@ is obsolete:
   'The NUnit framework shipped with Mono is deprecated and will be removed in a future release. 
   It was based on NUnit 2.4 which is long outdated. Please move to the NUnit NuGet package or some 
   other form of acquiring NUnit.' (CS0619) (UnitTests.NUnit)
-
-
-W
-
-  Restore the packages for unit tests!
+```
 
 
 
 MStest
 
+```
 /Projects/HW/0-Core/2511-HWC.Math.Statistics.Descriptive.Sequential/tests/unit-tests/UnitTests.CommonShared/Sync/FromFiles/UnitTests20180330RandSampBig1Items10000/Tests00Data.cs(36,36): Error CS1525: Invalid expression term ';' (CS1525) (Benchmarks.MSTest)
 
-w
 update packages  
 ```
-
 
 
 *   https://kaushalsubedi.com/blog/2018/04/24/how-microsoft-made-me-love-net-core-and-c-again/
