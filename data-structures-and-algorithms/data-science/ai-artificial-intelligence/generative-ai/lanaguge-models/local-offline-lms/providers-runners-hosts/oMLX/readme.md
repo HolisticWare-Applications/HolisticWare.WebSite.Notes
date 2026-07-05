@@ -4,7 +4,7 @@
 
 *   https://github.com/jundot/omlx
 
-```
+```shell
 export OPENAI_PORT=11464
 
 omlx serve \
@@ -22,9 +22,6 @@ A built-in chat UI is also available at
     export OPENAI_PORT=11464
     open http://localhost:$OPENAI_PORT/admin/chat
 
-
-```
-```
 
 ```shell
 brew tap jundot/omlx https://github.com/jundot/omlx
