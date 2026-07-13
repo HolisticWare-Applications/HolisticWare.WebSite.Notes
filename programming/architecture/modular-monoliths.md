@@ -4,6 +4,10 @@ modular-monoliths.md
 
 *   https://ardalis.com/architecture-ebook/
 
+*   https://github.com/kgrzybek/modular-monolith-with-ddd
+
+*   https://github.com/kgrzybek/modular-monolith-with-ddd-fe-react
+
 *   Steve "ardalis" Smith - Software Architect and Trainer - Ardalis.com
 
     *   https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/
@@ -28,3 +32,10 @@ modular-monoliths.md
 
     *   https://www.youtube.com/watch?v=VEggfW0A_Oo&t=12s
     
+*   Modular Monoliths: How To Build One & Lessons Learned
+
+    *   https://www.youtube.com/watch?v=Xo3rsiZYsJQ&list=PLYpjLpq5ZDGvOGMF2tIHEkPKf7_5tXwr4&index=3
+
+*   Modular Monoliths and Other Facepalms - Kevlin Henney - NDC London 2026
+
+    *   https://www.youtube.com/watch?v=4qfsmE11Ejo
