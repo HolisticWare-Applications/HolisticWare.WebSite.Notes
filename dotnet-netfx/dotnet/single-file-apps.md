@@ -2,6 +2,15 @@
 
 single-file-apps.md
 
+*   see:
+
+    ```
+    HolisticWare.Core.BusinessDomainModels.TemplateRepo/scripts/
+    HolisticWare.Core.BusinessDomainModels.TemplateRepo/.agents/skills/
+
+    $HOME/bat/
+    ```
+
 *   Allow creating full stand-alone C# programs in a single .cs #3502
 
     *   https://github.com/dotnet/csharplang/issues/3502
@@ -29,3 +38,37 @@ single-file-apps.md
 ```
 
 *   https://github.com/dotnet/sdk/blob/main/documentation/general/dotnet-run-file.md
+
+## shebang
+
+
+yes:
+
+```bash
+#!/usr/bin/env dotnet run
+```
+
+no:
+
+```bash
+#!/usr/bin/dotnet run
+```
+
+no:
+
+```bash
+#!/usr/bin/env dotnet
+```
+
+
+*   https://flerka.github.io/personal-blog/2022-06-21-ahead-of-time-compilation/
+
+```xml
+<PublishAot>true</PublishAot>
+```
+
+*   https://github.com/dotnet/sdk/blob/main/documentation/general/dotnet-run-file.md
+
+*   https://andrewlock.net/exploring-dotnet-10-preview-features-1-exploring-the-dotnet-run-app.cs/
+
+*   https://andrewlock.net/exploring-dotnet-10-preview-features-2-behind-the-scenes-of-dotnet-run-app.cs/
