@@ -1,20 +1,41 @@
 # skills
 
-*   https://github.com/obra/superpowers
+Skills
 
-*   https://github.com/BehiSecc/awesome-claude-skills
+*   https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 
-*   https://github.com/travisvn/awesome-claude-skills
+*   https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#how-skills-work
 
-*   https://github.com/maxvaega/awesome-skills
+*   https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#skill-structure
 
-*   https://github.com/VoltAgent/awesome-agent-skills
 
-    *   https://github.com/VoltAgent/awesome-agent-skills#skills-by-microsoft
+*   repos
+
+    *   https://github.com/obra/superpowers
+
+    *   awsome
+
+        *   https://github.com/BehiSecc/awesome-claude-skills
+
+        *   https://github.com/travisvn/awesome-claude-skills
+
+        *   https://github.com/maxvaega/awesome-skills
+
+        *   https://github.com/VoltAgent/awesome-agent-skills
+
+        *   https://github.com/VoltAgent/awesome-agent-skills#skills-by-microsoft
+
+            *   dotnet .NET
+
+                *   https://gist.github.com/DamianEdwards/f0b866ec1402dc48e6713328f2061abf
+
+                *   https://www.i-programmer.info/news/89-net/18867-dotnet-agent-skills.html
+
+                *   https://github.com/dotnet/skills/tree/main
 
 *   https://github.com/iota9star/my-skills
 
-https://github.com/athola/claude-night-market
+*   https://github.com/athola/claude-night-market
 
 https://github.com/Astro-Han/karpathy-llm-wiki
 
