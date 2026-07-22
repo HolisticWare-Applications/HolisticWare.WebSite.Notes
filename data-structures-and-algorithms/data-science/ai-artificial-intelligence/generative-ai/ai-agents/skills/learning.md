@@ -37,18 +37,39 @@ Skills
 
 *   https://github.com/athola/claude-night-market
 
-https://github.com/Astro-Han/karpathy-llm-wiki
+*   https://github.com/Astro-Han/karpathy-llm-wiki
 
-https://github.com/alexsmedile/firecrawl-lean
+*   https://github.com/alexsmedile/firecrawl-lean
 
-https://github.com/caliber-ai-org/ai-setup
+*   https://github.com/caliber-ai-org/ai-setup
 
-https://github.com/alirezarezvani/claude-skills
+*   https://github.com/alirezarezvani/claude-skills
 
-https://www.reddit.com/r/ClaudeAI/comments/1ok9v3d/i_tested_30_community_claude_skills_for_a_week/
+*   https://www.reddit.com/r/ClaudeAI/comments/1ok9v3d/i_tested_30_community_claude_skills_for_a_week/
 
-https://github.com/yusufkaraaslan/Skill_Seekers
+*   https://github.com/yusufkaraaslan/Skill_Seekers
 
-https://www.firecrawl.dev/blog/best-claude-code-skills
+*   https://www.firecrawl.dev/blog/best-claude-code-skills
 
-https://github.com/anthropics/claude-code/issues/54800
+*   https://github.com/anthropics/claude-code/issues/54800
+
+*   skill creator
+
+    *   https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
+
+*   https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#the-skills-architecture
+
+*   https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview#how-skills-work
+
+*   https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+
+*   https://agentskills.io/home
+
+*   book-to-skill
+
+    *   https://github.com/virgiliojr94/book-to-skill/tree/master
+    
+    *   https://github.com/virgiliojr94/book-to-skill/blob/master/SKILL.md
+
+    *   https://www.claudecodehq.com/playbooks/book-to-skill
+
