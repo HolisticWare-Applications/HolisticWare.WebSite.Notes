@@ -46,3 +46,36 @@ learning.md
 
 *   https://zekcrates.quarto.pub/deep-learning-library/chapter1.html
 
+
+Youtube AI Skills
+
+1.  Sabrina Ramonov
+
+    https://www.youtube.com/@sabrina_ramonov
+
+2.  Jack Roberts
+
+    https://www.youtube.com/@Itssssss_Jack
+
+3.  Nate Herk
+
+    AI Automation
+
+    Claw
+
+    https://www.youtube.com/@nateherk
+
+
+4.  Chase AI
+
+    https://www.youtube.com/@Chase-H-AI
+
+5.  Dan Martell
+
+    https://www.youtube.com/@danmartell
+
+6.  Kyle Balmer
+
+    https://www.youtube.com/@iamkylebalmer
+
+7. Riley Brown
