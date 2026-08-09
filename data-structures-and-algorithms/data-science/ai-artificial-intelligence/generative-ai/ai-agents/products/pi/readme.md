@@ -77,3 +77,5 @@ pi install npm:pi-mcp-adapter
 
 *   https://www.reddit.com/r/LocalLLaMA/comments/1stjwg5/been_using_pi_coding_agent_with_local_qwen36_35b/
 
+*   https://github.com/can1357/oh-my-pi/blob/main/docs/environment-variables.md
+
