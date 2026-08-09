@@ -48,16 +48,21 @@
 
         *   https://github.com/huggingface/text-generation-inference
 
-*   Apple Silicon MLX
+    *   Apple Silicon MLX
 
-    *   https://github.com/madroidmaq/mlx-omni-server
+        *   https://github.com/madroidmaq/mlx-omni-server
 
-    *   https://github.com/arcee-ai/fastmlx
+        *   https://github.com/arcee-ai/fastmlx
 
-    *   https://github.com/Trans-N-ai/swama
+        *   https://github.com/Trans-N-ai/swama
 
-*   https://github.com/RamboRogers/mlx-gui
+        *   https://github.com/RamboRogers/mlx-gui
 
+    *   AirLLM
+
+        https://github.com/lyogavin/airllm
+
+        
 *   On Device Runtimes/Providers/Engines
 
     *   on device
