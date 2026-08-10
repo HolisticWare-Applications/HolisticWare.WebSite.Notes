@@ -1,6 +1,8 @@
-# Unit Testing
+# Testing
 
-readme.md
+```shell
+dotnet test
+```
 
 ## MSTest
 
