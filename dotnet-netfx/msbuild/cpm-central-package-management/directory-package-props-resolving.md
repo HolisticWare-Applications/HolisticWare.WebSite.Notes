@@ -8,4 +8,9 @@ directory-package-props-resolving.md
     path:*.props path:**/Directory.Packages.props Import
     ```
 
-    
+```xml
+  <Import 
+    Condition="$([MSBuild]::GetPathOfFileAbove('Directory.Packages.props', '$(MSBuildThisFileDirectory)../')) != ''"
+    Project="$([MSBuild]::GetPathOfFileAbove('Directory.Packages.props', '$(MSBuildThisFileDirectory)../'))" 
+    />
+```
