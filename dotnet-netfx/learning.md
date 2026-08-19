@@ -101,11 +101,13 @@ https://github.com/himanshu5446/DotNet
 *   "Writing High-Performance .NET code" - Ben Watson
 
 
-Matt Warren's blog and the online book for Threading by Albahari (which contains stuff not included in the later versions of the C# in a nutshell book
+*   Matt Warren's blog and the online book for Threading by Albahari 
 
-https://www.reddit.com/r/csharp/comments/1i98ox6/c_knowledge_expansion/
+    *   contains stuff not included in the later versions of the C# in a nutshell book
 
-https://thecsharpacademy.com/
+    *   https://www.reddit.com/r/csharp/comments/1i98ox6/c_knowledge_expansion/
+
+*   https://thecsharpacademy.com/
 
 
 *   Interviews
