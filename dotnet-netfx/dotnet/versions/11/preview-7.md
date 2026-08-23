@@ -12,7 +12,12 @@ preview-7.md
 
 *   https://www.heise.de/en/news/Many-new-features-and-numerous-breaking-changes-in-NET-11-0-Preview-7-11413339.html
 
+*   https://www.infoq.com/news/2026/08/dotnet-11-preview-7/
+
 *   https://www.infoq.com/news/2026/08/dotnet-11-preview7-maui/
 
 *   https://www.heise.de/en/news/Many-new-features-and-numerous-breaking-changes-in-NET-11-0-Preview-7-11413339.html?seite=3
 
+*   https://www.i-programmer.info/news/89-net/19084-net-11-preview-7-improves-webassembly.html
+
+*   https://visualstudiomagazine.com/articles/2026/08/19/net-11-preview-7-turns-on-nativeaot-cli-and-msbuild-server-by-default.aspx
