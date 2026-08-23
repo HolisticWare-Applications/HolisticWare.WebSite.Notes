@@ -27,7 +27,7 @@ productivity.md
 
 *   video synthesis tool
 
-    https://github.com/Caladog/HeyGem
+    *   https://github.com/Caladog/HeyGem
 
 *   grammar checker
 
@@ -41,8 +41,8 @@ productivity.md
 
     *   VidBee
 
-    *   https://github.com/nexmoe/VidBee
+        *   https://github.com/nexmoe/VidBee
 
-    *   https://vidbee.org/
+        *   https://vidbee.org/
 
         
