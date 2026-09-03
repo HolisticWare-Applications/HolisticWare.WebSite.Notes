@@ -9,3 +9,5 @@ learning.md
 *   https://orkes.io/blog/what-is-model-context-protocol-mcp/
 
 *   https://www.promptingguide.ai
+
+*   https://visualstudiomagazine.com/articles/2026/08/18/getting-started-with-mcp-servers.aspx
