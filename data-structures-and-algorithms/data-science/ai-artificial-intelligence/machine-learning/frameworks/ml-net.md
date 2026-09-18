@@ -67,3 +67,8 @@ ml-net.md
 
 *   https://rubikscode.net/2021/04/12/machine-learning-with-ml-net-evaluation-metrics/
 
+
+
+## Samples
+
+*   https://github.com/Bgajski/ML.NET.Classifier
