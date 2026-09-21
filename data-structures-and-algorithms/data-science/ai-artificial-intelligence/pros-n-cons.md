@@ -10,6 +10,9 @@ pros-n-cons.md
 
 ## Cons
 
+*   https://www.nature.com/articles/d41586-026-01947-1
+
+
 *   https://www.reddit.com/r/microsoft/comments/1u5kbbt/microsoft_ceo_satya_nadella_says_ai_tokenmaxxing/
 
     > When the CEO is vibe coding and token maxing.....you are in BIG trouble
