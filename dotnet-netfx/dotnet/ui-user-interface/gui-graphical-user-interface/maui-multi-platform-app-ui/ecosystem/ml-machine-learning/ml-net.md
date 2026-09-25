@@ -26,3 +26,6 @@ ml-net.md
 
 *   https://learn.microsoft.com/en-us/shows/dotnetconf-2021/mlnet-machine-learning-from-data-to-production-in-less-than-30-minutes
 
+## Samples
+
+*   https://github.com/Bgajski/ML.NET.Classifier
