@@ -13,7 +13,17 @@ https://www.reddit.com/r/LocalLLaMA/comments/1riog2w/use_a_local_llm_as_a_subage
 https://www.kdnuggets.com/pairing-claude-code-with-local-models
 
 
-To run a Claude Code skill or subagent backed by a local model (such as via Ollama, LM Studio, or vLLM), you can bridge local inference endpoints using custom Markdown agent definitions, a helper/proxy script, or a Model Context Protocol (MCP) server.Setting Up a Local SubagentClaude Code natively supports specialized subagents defined via Markdown files with YAML frontmatter in your .claude/agents/ (project-level) or ~/.claude/agents/ (global/user-level) directories. While Claude Code's native model: parameter expects Anthropic aliases (sonnet, opus, haiku), you can offload execution to a local model using an orchestration script or an MCP delegation layer:The MCP / Proxy Approach: Use a local-compatible bridge like Claude Code Delegate or a local transformer proxy (ccproxy) to route specific subagent tool loops to an OpenAI-compatible local endpoint (http://localhost:11434/v1 or http://localhost:1234/v1).Define the Subagent File: Create ~/.claude/agents/local-coder.md:
+To run a Claude Code skill or subagent backed by a local model (such as via Ollama, LM Studio, or vLLM), you can bridge local inference endpoints using custom Markdown agent definitions, a helper/proxy script, or a Model Context Protocol (MCP) server.Setting Up a Local SubagentClaude Code natively supports specialized subagents defined via Markdown files with YAML frontmatter in your 
+
+    .claude/agents/ 
+    (project-level) 
+    
+    or 
+    
+    ~/.claude/agents/ 
+    (global/user-level) directories. While Claude Code's native model: parameter expects Anthropic aliases (sonnet, opus, haiku), you can offload execution to a local model using an orchestration script or an MCP delegation layer:The MCP / Proxy Approach: Use a local-compatible bridge like Claude Code Delegate or a local transformer proxy (ccproxy) to route specific subagent tool loops to an OpenAI-compatible local endpoint (http://localhost:11434/v1 or http://localhost:1234/v1).Define the Subagent File: 
+    
+    Create ~/.claude/agents/local-coder.md:
 
 yaml
 
@@ -40,7 +50,11 @@ summary.
 Key Implementation StepsLaunch Local Server: Start your local backend (e.g., LM Studio or Ollama) with a tool-capable model like Qwen or DeepSeek-Coder.Register Custom Skill / Command: Place an invocable command script or configuration in ~/.claude/commands/ so you can trigger your workflow directly via slash commands.Isolate Context: Keep tool permissions read-only (Read, Grep, Glob) for the local subagent to prevent unintended modifications and keep token overhead manageable.
 
 
-1. The Python Orchestrator/Proxy ScriptSave this script as ~/.claude/bin/local_agent_proxy.py (or any location in your system path). It intercepts tool requests from Claude Code and feeds them to your local model via an OpenAI-compatible API (like Ollama or LM Studio).
+1. The Python Orchestrator/Proxy Script
+
+    Save this script as 
+    
+    ~/.claude/bin/local_agent_proxy.py (or any location in your system path). It intercepts tool requests from Claude Code and feeds them to your local model via an OpenAI-compatible API (like Ollama or LM Studio).
 
 
 ```python
