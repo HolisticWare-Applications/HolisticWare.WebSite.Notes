@@ -1,3 +1,14 @@
 ONNX Runtime (ORT) 
 
 is a high-performance, cross-platform engine designed to accelerate machine learning inferencing and training. It supports models from frameworks like PyTorch, TensorFlow, and scikit-learn, enabling efficient deployment across CPU, GPU, mobile, and web browsers using languages such as Python, C++, and JS.Key Features and BenefitsPerformance Optimization: Leverages hardware accelerators (e.g., CUDA, TensorRT, CoreML) for faster inferencing and lower costs.Cross-Platform Support: Runs on Linux, Windows, macOS, iOS, Android, and WebAssembly.Broad Compatibility: Supports the standard ONNX format, allowing models from various training frameworks to be deployed seamlessly.Generative AI Support: Optimized for running LLMs and generative AI models.Getting StartedInstallation: Install via pip: pip install onnxruntime.Usage: Load a model, create an inference session, and run inputs, as described in the official documentation.Training: Supports on-device training and large model training.ResourcesWebsite: onnxruntime.aiGitHub: microsoft/onnxruntimeExamples: Inference Examples and Training Examples.
+
+
+https://github.com/onnx/tutorials
+
+https://en.wikipedia.org/wiki/Open_Neural_Network_Exchange
+
+https://www.youtube.com/watch?v=cZtXdMao7Ic
+
+https://www.youtube.com/watch?v=0t2jOBZSd6s
+
+https://www.youtube.com/watch?v=7Y99H9g5FRA
