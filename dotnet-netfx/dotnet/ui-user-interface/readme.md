@@ -24,6 +24,8 @@ readme.md
 
         *   AvaloniaUI [avaloniaui](./avaloniaui/readme.md)
 
+        *   WPF based
+
     *   Uno Platform
 
         *   https://platform.uno/
@@ -33,6 +35,16 @@ readme.md
         *   https://github.com/unoplatform/uno
 
         *   AvaloniaUI [unoplatform](./unoplatform/readme.md)
+
+    *   AlternetUI
+
+        *   https://github.com/alternetsoft/AlternetUI
+
+    *   Qt Bridge for C#
+
+        *   https://www.qt.io/blog/qt-bridges-technology-preview-rust-csharp
+        * 
+        *   https://www.reddit.com/r/csharp/comments/1xifin9/qt_bridge_for_c/
 
     *   QtSharp
 
@@ -51,6 +63,24 @@ readme.md
         *   https://github.com/zwcloud/ImGui.Docs
 
         *   http://imgui.net/index.html
+
+    *   Eto
+
+        *   https://github.com/picoe/Eto
+
+    *   LibreWPF
+
+        *   https://github.com/wieslawsoltes/LibreWPF
+
+        *   WPF based
+        
+    *   WPF
+
+        *   https://github.com/dotnet/wpf
+
+    *   winforms
+
+        *   https://github.com/dotnet/winforms
 
 *   TUI Textual User Interface
 
@@ -78,6 +108,7 @@ readme.md
 
         *   https://github.com/gui-cs/TerminalGuiDesigner
 
+
 ## Comparison
 
 *   MAUI 
@@ -92,3 +123,5 @@ readme.md
 ## Diverse
 
 *   https://sourceforge.net/software/compare/.NET-MAUI-vs-Avalonia-UI-vs-Uno-Platform-vs-Xamarin/
+
+*   https://www.reddit.com/r/csharp/comments/1xhmfnf/any_good_crossplatform_windows_macos_linux_c_gui/
