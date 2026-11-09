@@ -10,8 +10,52 @@ pros-n-cons.md
 
 ## Cons
 
-*   https://www.nature.com/articles/d41586-026-01947-1
+*   https://github.com/openai/codex/issues/59060
 
+*   https://discord.com/channels/735232616642510888/1221848216677519370/1567950004793114654
+
+
+
+*   https://fion.ac/jellyfish.pdf
+
+*   https://www.reddit.com/r/BetterOffline/comments/1x16tji/harvard_just_released_another_study_about_ai/
+
+*   https://www.reddit.com/r/theprimeagen/comments/1xi9jgc/harvard_ongoing_research_about_ai_coding_and/
+
+*   https://www.reddit.com/r/ExperiencedDevs/comments/1rnkv2t/the_ai_coding_productivity_data_is_in_and_its_not/
+
+
+*   https://arstechnica.com/science/2026/04/to-teach-in-the-time-of-chatgpt-is-to-know-pain/
+
+
+*   https://geohot.github.io/blog/jekyll/update/2026/05/24/the-eternal-sloptember.html
+
+*   https://daniel.haxx.se/blog/2026/05/26/the-pressure/
+
+*   https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/
+
+*   https://www.theregister.com/saas/2026/05/26/saas-outfit-clickup-promises-seven-figure-salaries-for-survivors-of-22-percent-staff-purge/5245929
+
+
+*   https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html
+
+*   https://www.devclass.com/security/2026/06/22/devs-know-ai-code-is-riddled-with-holes-but-ship-it-anyway/5259237
+
+
+*   https://arstechnica.com/science/2026/04/to-teach-in-the-time-of-chatgpt-is-to-know-pain/
+
+*   https://www.reddit.com/r/artificial/comments/1tax3dz/my_god_there_is_an_enormous_crash_just_waiting_to/
+
+*   https://fortune.com/2026/05/11/ai-automation-layoffs-gartner-study-roi/
+
+*   https://www.reddit.com/r/OpenAI/comments/1tj4qqw/former_google_ceo_eric_schmidt_big_machine/
+
+*   https://research.openanalysis.net/claude/codex/hacking/ai%20hacking/llm/redteam/policy%20violation/2026/06/16/compromised-claude-hacking.html
+
+
+
+
+*   https://www.nature.com/articles/d41586-026-01947-1
 
 *   https://www.reddit.com/r/microsoft/comments/1u5kbbt/microsoft_ceo_satya_nadella_says_ai_tokenmaxxing/
 
