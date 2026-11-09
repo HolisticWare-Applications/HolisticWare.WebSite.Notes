@@ -4,7 +4,9 @@ readme.md
 
 *   SpectreConsole
 
-    [spectre-console.md](spectre-console.md)
+    ./spectre-console.md
+
+    *   https://github.com/spectreconsole/spectre.console
 
 *   https://github.com/Sumrix/ConsolePlo
 
@@ -38,12 +40,66 @@ readme.md
 
     *   https://www.luisllamas.es/en/csharp-cliwrap/
 
+*   Cocona
+
+*   commanddotnet
+
+    *   https://github.com/bilal-fazlani/commanddotnet
+
+*   dotnet/command-line-api
+
+    *   https://github.com/dotnet/command-line-api
+
+*   Mono.Options
+
+*   NDesk Options
+
+    *   works very well
+
+    *   supports different command line connections
+
+    *   well documented. 
+
 *   CliFx
 
     *   https://github.com/Tyrrrz/CliFx
+
+    *   super feature rich
+
+    *   easy to use
 
 *   CLUI
 
     *   https://github.com/HugoW5/CLUI
     
     *   https://www.reddit.com/r/csharp/comments/1i48858/ive_made_a_console_frontend_library/
+
+*   System.Commandline is my current favorite.
+
+    *   System.CommandLine.DragonFruit
+
+        *   parameters on Main
+
+*   command-line
+
+    * https://github.com/dotmake-build/command-line
+
+*   commandline
+
+    *   https://github.com/commandlineparser/commandline
+
+*   CommandLineUtils
+
+    *   https://github.com/natemcmaster/CommandLineUtils
+
+*   https://github.com/mayuki/Cocona
+
+## Diverse
+
+*   https://www.ottorinobruni.com/building-powerful-console-app-in-csharp-with-dotnet-and-system-commandline/
+
+*   https://www.reddit.com/r/csharp/comments/shifxh/whats_your_favorite_command_line_arg_parser/
+
+*   https://www.reddit.com/r/dotnet/comments/18ingwo/building_a_commandline_cli_app_using/
+
+*   https://softwarerecs.stackexchange.com/questions/76953/which-c-command-line-parser-library-should-i-use
