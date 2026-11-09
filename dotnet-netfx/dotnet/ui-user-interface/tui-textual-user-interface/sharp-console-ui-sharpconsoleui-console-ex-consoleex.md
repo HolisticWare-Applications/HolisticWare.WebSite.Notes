@@ -12,6 +12,10 @@ sharp-console-ui-sharpconsoleui-console-ex-consoleex.md
 
 *   https://github.com/nickprotop/cxnet
 
+*   https://github.com/managedcode/dotnet-skills/blob/main/catalog/Frameworks/SharpConsoleUI/skills/sharpconsoleui/SKILL.md
+
+## Diverse
+
 *   https://www.reddit.com/r/dotnet/comments/1xjoa8n/sharpconsoleui_terminal_gui/
 
-https://www.reddit.com/r/dotnet/comments/1qzn0w4/sharpconsoleui_tui_framework_for_net_9/
+*   https://www.reddit.com/r/dotnet/comments/1qzn0w4/sharpconsoleui_tui_framework_for_net_9/
