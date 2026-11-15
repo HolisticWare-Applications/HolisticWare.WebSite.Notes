@@ -34,6 +34,8 @@ pros-and-cons.md
 
     *   https://x.com/sandofsky/status/1610470289435164673
 
+*   https://www.reddit.com/r/dotnetMAUI/comments/1i991hq/can_i_use_a_python_library_in_a_net_maui_app/
+
 ## Pros
 
 
