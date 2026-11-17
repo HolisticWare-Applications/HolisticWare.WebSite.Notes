@@ -50,3 +50,9 @@ history.md
     by Michael Swaine and Paul Freiberger
 
     https://pragprog.com/titles/fsfire/fire-in-the-valley/
+
+*   KDE
+
+    https://www.youtube.com/watch?v=1Vyzla9mx4g
+    
+
