@@ -25,8 +25,9 @@ pros-and-cons.md
 
         > And unofficial extension for Avalonia with C# markup, maybe worth looking
 
-
 ## Cons
+
+*   https://www.reddit.com/r/dotnetMAUI/comments/1xln8pl/net_maui_is_a_trap/
 
 *   https://news.ycombinator.com/item?id=42162510
 
@@ -38,6 +39,11 @@ pros-and-cons.md
 
 ## Pros
 
+*   https://www.reddit.com/r/dotnetMAUI/comments/1y0bzuc/huge_respect_to_all_the_devs_of_net11_for_maui/
+
+    *   .NET 11
+
+        *   CoreCLR replaced Mono RT / Runtime
 
 ## Diverse
 
