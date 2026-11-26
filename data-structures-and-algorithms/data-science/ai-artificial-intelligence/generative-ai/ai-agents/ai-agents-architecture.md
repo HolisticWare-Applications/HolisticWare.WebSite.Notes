@@ -6,11 +6,14 @@ ai-agents-architecture.md
 
 1. The model as a component	
 
-    Tokenization, embeddings, attention, dense vs. MoE, the generation loop, decoding strategies, context-window failure modes, hallucination — plus the economics: cost, latency, determinism, reliability, hosted vs. self-host
+    Tokenization, embeddings, attention, dense vs. MoE, the generation loop, decoding strategies, context-window failure
+    modes, hallucination — plus the economics: cost, latency, determinism, reliability, hosted vs. self-host
 
 2. The interface to the model	
 
-    Prompt engineering as contract design; context engineering and its pattern catalog; structured output and constrained decoding
+    Prompt engineering as contract design; context engineering and its pattern catalog; structured output and constrained
+    decoding
+
 3. Grounding: 
 
     RAG	The retrieval-pattern ladder (naive → hybrid → reranking → GraphRAG → agentic → adaptive), 
@@ -18,7 +21,9 @@ ai-agents-architecture.md
 
 4.  Action: agents	
 
-    The agent as a distributed system; the pattern catalog (chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer); tool calling as contract; memory and reasoning strategies; multi-agent systems and a full failure taxonomy
+    The agent as a distributed system; the pattern catalog (chaining, routing, parallelization, orchestrator-workers,
+    evaluator-optimizer); tool calling as contract; memory and reasoning strategies; multi-agent systems and a full
+    failure taxonomy
 
 5.  Integration	
 
@@ -36,4 +41,5 @@ ai-agents-architecture.md
 
 8.  Synthesis
 
-    A reference architecture, organizational adoption and governance, and a full worked example with an architecture decision record package
+    A reference architecture, organizational adoption and governance, and a full worked example with an architecture
+    decision record package
